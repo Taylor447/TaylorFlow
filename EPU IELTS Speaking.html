@@ -1410,6 +1410,18 @@ body.page-hidden::before,body.page-hidden .theme-bg { animation-play-state:pause
 .english-video-dictation-actions button[type="submit"] { border-color:#00b85d; background:#00b85d; color:#fff; }
 .english-video-dictation-actions button:disabled { opacity:.42; cursor:default; }
 .english-video-dictation-feedback { margin:0 14px 14px; padding:11px 13px; border-radius:12px; background:color-mix(in srgb,#00c96a 13%,var(--cd)); color:var(--tx); line-height:1.5; }
+.english-video-dictation-body.is-incorrect { border-color:#ef7600; background:#2b2527; }
+.english-video-dictation-body.is-correct { border-color:#00c96a; }
+.english-video-dictation-result { display:grid; gap:14px; margin:0 14px 16px; padding:0 22px 18px; }
+.english-video-dictation-result-head { display:flex; align-items:center; gap:10px; color:#ff8500; font-size:20px; font-weight:800; }
+.english-video-dictation-result.is-correct .english-video-dictation-result-head { color:#00c96a; }
+.english-video-dictation-result-icon { display:grid; place-items:center; width:42px; height:42px; border-radius:50%; background:#4a2b12; font-size:23px; }
+.english-video-dictation-result.is-correct .english-video-dictation-result-icon { background:#06432e; }
+.english-video-dictation-answer { display:block; min-height:42px; margin:0; padding:18px 20px; border:3px solid #353d4e; border-radius:18px; background:#1a2232; color:#aeb8cb; font-size:17px; font-weight:800; letter-spacing:.06em; line-height:1.7; overflow-wrap:anywhere; }
+.english-video-dictation-result.is-answer-visible .english-video-dictation-answer { color:#ff334b; }
+.english-video-dictation-result.is-correct .english-video-dictation-answer { color:#00d984; }
+.english-video-dictation-show-answer { display:flex; align-items:center; gap:9px; color:var(--mu); font-size:14px; cursor:pointer; }
+.english-video-dictation-show-answer input { width:20px; height:20px; margin:0; accent-color:#1685ff; }
 .english-video-order { overflow:hidden; border:1px solid var(--bd); border-radius:18px; background:color-mix(in srgb,var(--sf) 82%,var(--cd)); }
 .english-video-order-prompt,.english-video-order-bank { margin:14px; padding:15px; border:1px solid var(--bd); border-radius:17px; background:color-mix(in srgb,var(--sf) 88%,var(--cd)); }
 .english-video-order-prompt-head { display:flex; justify-content:space-between; align-items:flex-start; gap:10px; color:var(--tx); font-weight:800; line-height:1.4; }
@@ -10169,6 +10181,34 @@ function mountReviewPage(){
 }
 
 function historyCount(){return st.h.length+' lượt chấm đã lưu.'}
+
+function englishVideoRenderDictationFeedback(){
+  if(englishVideoMode!=='dictation'||!englishVideoFeedback||!Number.isFinite(englishVideoFeedback.score))return;
+  const task=document.querySelector('.english-video-dictation'),body=task?.querySelector('.english-video-dictation-body');
+  const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex],exercise=item&&englishVideoExercise(item),sentence=exercise?.lines[englishVideoSentenceIndex];
+  if(!task||!body||!sentence)return;
+  task.querySelector('.english-video-dictation-feedback')?.remove();
+  task.querySelector('.english-video-dictation-result')?.remove();
+  body.classList.toggle('is-incorrect',!englishVideoFeedback.correct);
+  body.classList.toggle('is-correct',Boolean(englishVideoFeedback.correct));
+  const result=document.createElement('section'),showAnswer=Boolean(englishVideoFeedback.showAnswer);
+  result.className='english-video-dictation-result'+(englishVideoFeedback.correct?' is-correct':'')+(showAnswer?' is-answer-visible':'');
+  result.setAttribute('role','status');
+  const answer=showAnswer?sentence:sentence.replace(/[A-Za-z0-9]+(?:['’][A-Za-z]+)*/g,word=>'*'.repeat([...word].length));
+  result.innerHTML=`<div class="english-video-dictation-result-head"><span class="english-video-dictation-result-icon" aria-hidden="true">${englishVideoFeedback.correct?'✓':'!'}</span><strong>Bạn đạt ${englishVideoFeedback.score}%</strong></div><p class="english-video-dictation-answer" lang="en">${esc(answer)}</p><label class="english-video-dictation-show-answer"><input type="checkbox" ${showAnswer?'checked':''} onchange="englishVideoToggleDictationAnswer(this.checked)">Hiện toàn bộ đáp án</label>`;
+  task.append(result);
+}
+
+function englishVideoToggleDictationAnswer(visible){if(!englishVideoFeedback||!Number.isFinite(englishVideoFeedback.score))return;englishVideoFeedback={...englishVideoFeedback,showAnswer:Boolean(visible)};englishVideoRefreshRoom()}
+
+const englishVideoBaseRefreshRoom=englishVideoRefreshRoom;
+englishVideoRefreshRoom=function(...args){const result=englishVideoBaseRefreshRoom.apply(this,args);englishVideoRenderDictationFeedback();return result};
+
+englishVideoCheckDictation=function(event){event.preventDefault();const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex],exercise=item&&englishVideoExercise(item),sentence=exercise?.lines[englishVideoSentenceIndex];if(!sentence)return;const targets=sentence.match(/[A-Za-z0-9]+(?:['’][A-Za-z]+)*/g)||[],matched=targets.reduce((sum,word,index)=>sum+Number(englishVideoNormalize(englishVideoDictationWords[index])===englishVideoNormalize(word)),0),score=targets.length?Math.round(matched/targets.length*100):0,correct=score===100;englishVideoFeedback={correct,score,showAnswer:false};if(correct)englishVideoPracticeMark(item.id,'dictation');englishVideoRefreshRoom()};
+
+const englishVideoBaseSetDictationWord=englishVideoSetDictationWord;
+englishVideoSetDictationWord=function(index,value){englishVideoBaseSetDictationWord(index,value);if(!englishVideoFeedback){document.querySelector('.english-video-dictation-result')?.remove();document.querySelector('.english-video-dictation-body')?.classList.remove('is-correct','is-incorrect')}};
+
 st.game=cleanGame(st.game);
 st.games=cleanArcadeHistory(st.games);
 st.learningPath=cleanLearningPath(st.learningPath);
