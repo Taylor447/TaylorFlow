@@ -10182,9 +10182,48 @@ function mountReviewPage(){
 
 function historyCount(){return st.h.length+' lượt chấm đã lưu.'}
 
+const englishVideoDictationStopWords=new Set('a an the and or but if as because while although before after until once than so am is are was were be been being do does did have has had will would to of in on at by for from with about into over under through around'.split(' '));
+const englishVideoDictationNegations=new Set(['not','never','no','neither','nor','without']);
+const englishVideoDictationAliases=new Map();
+[['people','everyone','everybody','folks','guys'],['greet','hello','hi','hey'],['guide','tell','show','explain','teach'],['understand','comprehend','grasp','understood'],['learn','study','master'],['important','key','essential','crucial','vital'],['practice','practise','rehearse'],['start','begin','commence'],['finish','complete','end'],['child','children','kid','kids'],['fear','afraid','scared','frightened','terrified'],['happy','glad','pleased'],['good','great','excellent']].forEach(group=>group.forEach(word=>englishVideoDictationAliases.set(word,group[0])));
+function englishVideoDictationMeaningTokens(text){
+  let value=String(text||'').toLowerCase().replace(/[’]/g,"'");
+  value=value.replace(/\bwon't\b/g,'will not').replace(/\bcan't\b/g,'can not').replace(/\bcannot\b/g,'can not').replace(/\bshan't\b/g,'shall not').replace(/\b([a-z]+)n't\b/g,'$1 not').replace(/\bi'm\b/g,'i am').replace(/\blet's\b/g,'let us').replace(/\b([a-z]+)'re\b/g,'$1 are').replace(/\b([a-z]+)'ve\b/g,'$1 have').replace(/\b([a-z]+)'ll\b/g,'$1 will').replace(/\b([a-z]+)'d\b/g,'$1 would').replace(/\b([a-z]+)'s\b/g,'$1 is');
+  value=value.replace(/\b(?:gonna)\b/g,'going to').replace(/\bgoing to\b/g,'will').replace(/\bwould like to\b|\bwould love to\b/g,'want to').replace(/\bwanna\b/g,'want to').replace(/\ba lot of\b|\bplenty of\b/g,'many').replace(/\bdislikes?\b/g,'not like').replace(/\bnever\b|\bno\b|\bwithout\b/g,'not');
+  const raw=value.match(/[a-z0-9]+/g)||[],tokens=[],negations=[];
+  const irregular={went:'go',gone:'go',understood:'understand',children:'child',men:'man',women:'woman',better:'good',best:'good',worse:'bad',worst:'bad',learnt:'learn',learned:'learn',taught:'teach',spoke:'speak',spoken:'speak',said:'say'};
+  const keepFinalS=new Set(['ielts','success','business','news','series','species','class','glass','dress','address','process','analysis','status']);
+  const restoreE=new Set(['guid','lik','mak','us','liv','writ','giv','tak','com','hav','mov','clos','chos','sav','lov']);
+  for(let word of raw){
+    if(englishVideoDictationNegations.has(word))negations.push(word==='never'||word==='no'||word==='without'?'not':word);
+    if(englishVideoDictationStopWords.has(word))continue;
+    word=irregular[word]||word;
+    if(word.endsWith('ies')&&word.length>4)word=word.slice(0,-3)+'y';
+    else if(word.endsWith('ing')&&word.length>5){word=word.slice(0,-3);if(/([a-z])\1$/.test(word))word=word.slice(0,-1);else if(restoreE.has(word))word+='e'}
+    else if(word.endsWith('ied')&&word.length>4)word=word.slice(0,-3)+'y';
+    else if(word.endsWith('ed')&&word.length>4){word=word.slice(0,-2);if(/([a-z])\1$/.test(word))word=word.slice(0,-1);else if(restoreE.has(word))word+='e'}
+    else if(word.endsWith('es')&&word.length>5&&/(?:sses|shes|ches|xes|zes|oes)$/.test(word))word=word.slice(0,-2);
+    else if(word.endsWith('s')&&word.length>4&&!keepFinalS.has(word)&&!word.endsWith('ss'))word=word.slice(0,-1);
+    tokens.push(englishVideoDictationAliases.get(word)||word);
+  }
+  return{tokens,negations};
+}
+function englishVideoDictationMeaningScore(answer,reference){
+  const left=englishVideoDictationMeaningTokens(answer),right=englishVideoDictationMeaningTokens(reference),a=left.tokens,b=right.tokens;
+  if(!b.length)return{score:0,exact:false};
+  let previous=Array.from({length:b.length+1},(_,index)=>index);
+  for(let i=1;i<=a.length;i++){const current=[i];for(let j=1;j<=b.length;j++)current[j]=Math.min(previous[j]+1,current[j-1]+1,previous[j-1]+(a[i-1]===b[j-1]?0:1));previous=current}
+  let score=Math.round((1-previous[b.length]/Math.max(a.length,b.length,1))*100);
+  if(left.negations.join('|')!==right.negations.join('|'))score=Math.min(score,49);
+  return{score};
+}
+
 function englishVideoRenderDictationFeedback(){
-  if(englishVideoMode!=='dictation'||!englishVideoFeedback||!Number.isFinite(englishVideoFeedback.score))return;
-  const task=document.querySelector('.english-video-dictation'),body=task?.querySelector('.english-video-dictation-body');
+  if(englishVideoMode!=='dictation')return;
+  const task=document.querySelector('.english-video-dictation'),hint=task?.querySelector('.english-video-dictation-hint');
+  if(hint)hint.textContent='Nhập đúng ý, không cần khớp từng từ. Phím cách chuyển sang ô kế tiếp · Backspace ở ô trống quay lại.';
+  if(!englishVideoFeedback||!Number.isFinite(englishVideoFeedback.score))return;
+  const body=task?.querySelector('.english-video-dictation-body');
   const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex],exercise=item&&englishVideoExercise(item),sentence=exercise?.lines[englishVideoSentenceIndex];
   if(!task||!body||!sentence)return;
   task.querySelector('.english-video-dictation-feedback')?.remove();
@@ -10195,7 +10234,8 @@ function englishVideoRenderDictationFeedback(){
   result.className='english-video-dictation-result'+(englishVideoFeedback.correct?' is-correct':'')+(showAnswer?' is-answer-visible':'');
   result.setAttribute('role','status');
   const answer=showAnswer?sentence:sentence.replace(/[A-Za-z0-9]+(?:['’][A-Za-z]+)*/g,word=>'*'.repeat([...word].length));
-  result.innerHTML=`<div class="english-video-dictation-result-head"><span class="english-video-dictation-result-icon" aria-hidden="true">${englishVideoFeedback.correct?'✓':'!'}</span><strong>Bạn đạt ${englishVideoFeedback.score}%</strong></div><p class="english-video-dictation-answer" lang="en">${esc(answer)}</p><label class="english-video-dictation-show-answer"><input type="checkbox" ${showAnswer?'checked':''} onchange="englishVideoToggleDictationAnswer(this.checked)">Hiện toàn bộ đáp án</label>`;
+  const resultLabel=englishVideoFeedback.correct&&!englishVideoFeedback.exact?'Ý nghĩa tương đương · ':'';
+  result.innerHTML=`<div class="english-video-dictation-result-head"><span class="english-video-dictation-result-icon" aria-hidden="true">${englishVideoFeedback.correct?'✓':'!'}</span><strong>${resultLabel}Bạn đạt ${englishVideoFeedback.score}%</strong></div><p class="english-video-dictation-answer" lang="en">${esc(answer)}</p><label class="english-video-dictation-show-answer"><input type="checkbox" ${showAnswer?'checked':''} onchange="englishVideoToggleDictationAnswer(this.checked)">Hiện toàn bộ đáp án</label>`;
   task.append(result);
 }
 
@@ -10204,7 +10244,7 @@ function englishVideoToggleDictationAnswer(visible){if(!englishVideoFeedback||!N
 const englishVideoBaseRefreshRoom=englishVideoRefreshRoom;
 englishVideoRefreshRoom=function(...args){const result=englishVideoBaseRefreshRoom.apply(this,args);englishVideoRenderDictationFeedback();return result};
 
-englishVideoCheckDictation=function(event){event.preventDefault();const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex],exercise=item&&englishVideoExercise(item),sentence=exercise?.lines[englishVideoSentenceIndex];if(!sentence)return;const targets=sentence.match(/[A-Za-z0-9]+(?:['’][A-Za-z]+)*/g)||[],matched=targets.reduce((sum,word,index)=>sum+Number(englishVideoNormalize(englishVideoDictationWords[index])===englishVideoNormalize(word)),0),score=targets.length?Math.round(matched/targets.length*100):0,correct=targets.length>0&&matched===targets.length;englishVideoFeedback={correct,score,showAnswer:false};if(correct)englishVideoPracticeMark(item.id,'dictation');englishVideoRefreshRoom()};
+englishVideoCheckDictation=function(event){event.preventDefault();const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex],exercise=item&&englishVideoExercise(item),sentence=exercise?.lines[englishVideoSentenceIndex];if(!sentence)return;const targets=sentence.match(/[A-Za-z0-9]+(?:['’][A-Za-z]+)*/g)||[],answer=englishVideoDictationWords.join(' '),meaning=englishVideoDictationMeaningScore(answer,sentence),exact=targets.length===englishVideoDictationWords.length&&targets.every((word,index)=>englishVideoNormalize(englishVideoDictationWords[index])===englishVideoNormalize(word)),correct=meaning.score>=80;englishVideoFeedback={correct,score:meaning.score,exact,showAnswer:false};if(correct)englishVideoPracticeMark(item.id,'dictation');englishVideoRefreshRoom()};
 
 const englishVideoBaseSetDictationWord=englishVideoSetDictationWord;
 englishVideoSetDictationWord=function(index,value){englishVideoBaseSetDictationWord(index,value);if(!englishVideoFeedback){document.querySelector('.english-video-dictation-result')?.remove();document.querySelector('.english-video-dictation-body')?.classList.remove('is-correct','is-incorrect')}};
