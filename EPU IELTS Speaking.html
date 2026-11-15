@@ -3541,7 +3541,6 @@ const V={
  PART_NAMES.map((title,i)=>`<article class="c part-card part-${i+1}">${partMotif(i)}<span class="part-index">PART 0${i+1}</span><h2>${title}</h2><p>${PI[i]}</p><div class="chips">${TP.map(([name],t)=>`<button class="g topic-badge topic-${t}" onclick="start([${i+1}],${t})" title="${TOPIC_LABELS[t]}">${icon(TOPIC_ICONS[t],'topic-icon')} ${name}</button>`).join('')}</div></article>`).join('')+freq(),
  les:pathLessonsPage,
  col:()=>`${pageIntro('BỘ SƯU TẬP','Từ vựng đã lưu','Lưu từ và cụm từ bạn muốn dùng trong bài nói. Đánh dấu khi bạn đã nhớ.')}
- ${collectionVocabularyPanel()}
  <div id="flashcards">${flashcards()}</div>
  <form class="c" onsubmit="event.preventDefault();addW()"><h2>Thêm từ mới</h2><div class="field-grid"><label>Từ hoặc cụm từ<input id="w" required placeholder="Ví dụ: make progress"></label><label>Nghĩa<input id="mn" placeholder="Ví dụ: tiến bộ"></label></div><label>Câu ví dụ<input id="ex" placeholder="Viết một câu bạn có thể dùng khi nói"></label><button type="submit">Lưu từ</button></form>
  <div class="section-head"><h2>Danh sách của bạn</h2><small>Đã nhớ ${st.c.filter(x=>x.k).length}/${st.c.length} từ</small></div>`+
@@ -8882,7 +8881,8 @@ function pathLesson(){
 function pathLessonsPage(){
  if(englishStudyRoute)return englishStudyPage();
  if(pathView!=null)return pathLesson();
- return `${pageIntro('BÀI HỌC','Bài học','Chọn lộ trình bốn tuần hoặc đường học từ vựng theo cấp độ.')}
+  return `${pageIntro('BÀI HỌC','Bài học','Học từ vựng theo chủ đề, chọn lộ trình bốn tuần hoặc đường học theo cấp độ.')}
+  ${collectionVocabularyPanel()}
  <details class="c compact-folder path-folder"${pathFolderOpen?' open':''} ontoggle="pathFolderOpen=this.open">
   <summary><span class="compact-folder-icon">${collectionIcon('folder')}</span><span class="compact-folder-copy"><strong>Lộ trình học 4 tuần</strong><small>4 tuần · ${pathPercent()}% hoàn thành</small></span><span class="compact-folder-chevron" aria-hidden="true">⌄</span></summary>
   <div class="compact-folder-body">${pathMap(false)}</div>
