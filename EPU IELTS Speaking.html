@@ -5639,7 +5639,7 @@ async function seeWriteHandleImageUpload(input){
  image.onerror=()=>{URL.revokeObjectURL(source);if(session===seeWriteSession){session.notice='Không đọc được ảnh này. Hãy thử JPEG, PNG hoặc WebP.';render(false)}};
  image.src=source;
 }
-async async function seeWriteAnalyzeImage(){
+async function seeWriteAnalyzeImage(){
  const session=seeWriteSession;
  if(!session?.uploadedImageUrl||session.imageAnalysisPending)return;
  if(typeof window.claude?.use!=='function'){session.notice='Dịch vụ AI chưa khả dụng. Ảnh vẫn được giữ trên thiết bị.';render(false);return}
