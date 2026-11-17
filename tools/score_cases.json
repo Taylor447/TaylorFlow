@@ -1,0 +1,3338 @@
+[
+  {
+    "id": "gibberish_keyboard-01",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "dsfsfdsawa adfffa afdafew fadfdavcx vccxvv vsdffa vdsfsf gehh nfnnbv vcv",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-02",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "qwrtsdfg zxcvbnm plkjhgf mnbvcxz asdfghjkl qwertyuiop",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-03",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "xzzqv blrrt qqqw pprst vvvx zzzk dddf mmmn",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-04",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "fghjkl bnmvcx lkjasd qwepoi zmxncbv asdfgh",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-05",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "trrpsk brrnch zzzzz qqqqq xcvbnm plmkoij",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-06",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "vbnmxc asdfghjkl poiuytrewq mnbvcxzlkjhg",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-07",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "qazwsxedcrfvtgbyhnujmikolp mnbvcxz asdfjkl",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-08",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "zrrrpt kkkvnn qxxzll mpppfr vvvddt",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-09",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "plmoknijb uhvygctfxrdzeswaq qqqaaa zxcvbnm",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-10",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "dfghjklllkjhgfdsa qwertyuiuytrew zxcvbnnm",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-11",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "bbrrkk tttss qqqvvv nnnmm kkklll",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-12",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "sdfqwer zxcvtyu bnmjkl asdfpoi qwerlkj",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-13",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "rrttpp qqqsss vvvbbb nnnxxx kkkzzz",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-14",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "jklmnbvcxzasdfgh qpoiuytrew lkjhgfdsa",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-15",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "xqzptv mnrkls bvdffg qpwzxc lkjhgf",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-16",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "vvcxxz qqlppr ttnnmm bbgghh kkjjss",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-17",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "asdfzxcvqwerpoi lkjmnbvcx qazwsxedc",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-18",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "zzxvvv pprrtt kkkmnn qqqwwe ddfggh",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-19",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "plkjmnhytgbrfvedcwaq zxcvbnm asdfghj",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "gibberish_keyboard-20",
+    "group": "gibberish_keyboard",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you study?",
+    "text": "nnbvcx zzqwe rrtyu ioplk mnhbgf",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-01",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "beach the quiet a visited we yesterday friends with because weather the was sunny",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-02",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "usually bus my school to I by morning every travel the crowded is",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-03",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "delicious very was market the at tried we food local and friendly seller the",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-04",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "because ticket cheap a bought I station the crowded was although early arrived",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-05",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "holiday my during photos many took mountains beautiful the and rivers beside",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-06",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "hotel our near restaurant the expensive quite was but service the excellent",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-07",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "my family weekend last countryside the visited fresh bought vegetables we",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-08",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "journey the long was train by however comfortable seats the were",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-09",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "airport the reached we late traffic heavy the because driver our drove carefully",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-10",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "traveling alone enjoy I because choose my schedule can I own the",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-11",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "river the around walking people many saw tourists and camera taking were",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-12",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "the museum interesting very guide explained historical stories several about place the",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-13",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "rain began suddenly when umbrella an shared friend my and I",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-14",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "city crowded a prefer I village peaceful a instead shopping modern of malls",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "shuffled_real_words-15",
+    "group": "shuffled_real_words",
+    "part": 2,
+    "topic": "Travel",
+    "question": "Describe a trip you enjoyed.",
+    "text": "holiday best my was trip that because relatives distant visited we",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "fluency": 3.5,
+        "grammar": 3,
+        "overall": 3.5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-01",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "I like music music music music music music music music music music music music.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-02",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "My hobby is reading reading reading reading reading reading reading reading reading.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-03",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "I play football football football football football football football football every day.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-04",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "It is nice nice nice nice nice nice nice nice nice nice nice.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-05",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "I enjoy cooking cooking cooking cooking cooking cooking cooking cooking cooking.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-06",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "Because it is fun fun fun fun fun fun fun fun fun fun.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-07",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "My friends and I watch films films films films films films films.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-08",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "I usually go swimming swimming swimming swimming swimming swimming swimming swimming.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-09",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "The book was interesting interesting interesting interesting interesting interesting interesting.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-10",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "I like drawing drawing drawing drawing drawing drawing drawing drawing drawing drawing.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-11",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "On weekends I relax relax relax relax relax relax relax relax.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-12",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "I collect stamps stamps stamps stamps stamps stamps stamps stamps stamps.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-13",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "Music makes me happy happy happy happy happy happy happy happy.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-14",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "I enjoy gardening gardening gardening gardening gardening gardening gardening gardening gardening.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "repetition_spam-15",
+    "group": "repetition_spam",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What do you do in your free time?",
+    "text": "My favorite activity is cycling cycling cycling cycling cycling cycling cycling.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "copied_question-01",
+    "group": "copied_question",
+    "part": 1,
+    "topic": "Daily routine",
+    "question": "Do you prefer mornings or evenings?",
+    "text": "Do you prefer mornings or evenings?",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "copied_question-02",
+    "group": "copied_question",
+    "part": 1,
+    "topic": "Daily routine",
+    "question": "Do you prefer mornings or evenings?",
+    "text": "What do you usually do after work or school?",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "copied_question-03",
+    "group": "copied_question",
+    "part": 1,
+    "topic": "Daily routine",
+    "question": "Do you prefer mornings or evenings?",
+    "text": "Do you enjoy spending time outdoors?",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "copied_question-04",
+    "group": "copied_question",
+    "part": 1,
+    "topic": "Daily routine",
+    "question": "Do you prefer mornings or evenings?",
+    "text": "Which season do you like most?",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "copied_question-05",
+    "group": "copied_question",
+    "part": 1,
+    "topic": "Daily routine",
+    "question": "Do you prefer mornings or evenings?",
+    "text": "How often do you use public transport?",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "copied_question-06",
+    "group": "copied_question",
+    "part": 1,
+    "topic": "Daily routine",
+    "question": "Do you prefer mornings or evenings?",
+    "text": "What kind of music do you listen to?",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "copied_question-07",
+    "group": "copied_question",
+    "part": 1,
+    "topic": "Daily routine",
+    "question": "Do you prefer mornings or evenings?",
+    "text": "Would you like to learn another language?",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "copied_question-08",
+    "group": "copied_question",
+    "part": 1,
+    "topic": "Daily routine",
+    "question": "Do you prefer mornings or evenings?",
+    "text": "Do you prefer living in a city or a village?",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "copied_question-09",
+    "group": "copied_question",
+    "part": 1,
+    "topic": "Daily routine",
+    "question": "Do you prefer mornings or evenings?",
+    "text": "Who do you usually talk to when you have a problem?",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "copied_question-10",
+    "group": "copied_question",
+    "part": 1,
+    "topic": "Daily routine",
+    "question": "Do you prefer mornings or evenings?",
+    "text": "What is one thing you want to change about your town?",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "mixed_vietnamese_english-01",
+    "group": "mixed_vietnamese_english",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you like about your studies?",
+    "text": "I study engineering vì ngành này có nhiều cơ hội việc làm.",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "mixed_vietnamese_english-02",
+    "group": "mixed_vietnamese_english",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you like about your studies?",
+    "text": "My school is khá gần nhà so I usually walk there.",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "mixed_vietnamese_english-03",
+    "group": "mixed_vietnamese_english",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you like about your studies?",
+    "text": "I enjoy learning English bởi vì I can speak with new people.",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "lexical": 4,
+        "grammar": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "mixed_vietnamese_english-04",
+    "group": "mixed_vietnamese_english",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you like about your studies?",
+    "text": "The teacher giải thích bài học rất rõ and gives helpful examples.",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "mixed_vietnamese_english-05",
+    "group": "mixed_vietnamese_english",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you like about your studies?",
+    "text": "I usually study in the library vì it is quiet and comfortable.",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "lexical": 4,
+        "grammar": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "mixed_vietnamese_english-06",
+    "group": "mixed_vietnamese_english",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you like about your studies?",
+    "text": "My classmates are thân thiện and we often work together.",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "lexical": 4,
+        "grammar": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "mixed_vietnamese_english-07",
+    "group": "mixed_vietnamese_english",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you like about your studies?",
+    "text": "I chose this course vì I am interested in technology.",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "lexical": 4,
+        "grammar": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "mixed_vietnamese_english-08",
+    "group": "mixed_vietnamese_english",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you like about your studies?",
+    "text": "We have several projects mỗi kỳ so I learn practical skills.",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "lexical": 4,
+        "grammar": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "mixed_vietnamese_english-09",
+    "group": "mixed_vietnamese_english",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you like about your studies?",
+    "text": "The lesson was difficult nhưng my friend helped me understand it.",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "lexical": 4,
+        "grammar": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "mixed_vietnamese_english-10",
+    "group": "mixed_vietnamese_english",
+    "part": 1,
+    "topic": "Study",
+    "question": "What do you like about your studies?",
+    "text": "I want to improve my speaking để feel more confident in class.",
+    "duration": 0,
+    "expected": {
+      "status": "low_evidence",
+      "max": {
+        "lexical": 4,
+        "grammar": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-01",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "I enjoy cooking simple meals with my family.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        7.5
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-02",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "I usually drink tea in the morning.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        7.5
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-03",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "My favourite season is autumn because the weather is mild.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        7.5
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-04",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "I take the bus to work most days.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        7.5
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-05",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "I prefer quiet cafés where I can read.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        7.5
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-06",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "My sister taught me how to bake bread.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        7.5
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-07",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "I play badminton with my neighbours on Sundays.",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-08",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "I like this park because it has many trees.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        7.5
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-09",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "I study English for twenty minutes every evening.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        7.5
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-10",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "My hometown is small, but it feels welcoming.",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-11",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "I often call my grandparents at the weekend.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        7.5
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-12",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "I enjoy science documentaries about the ocean.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        7.5
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-13",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "We grow herbs on our balcony.",
+    "duration": 0,
+    "expected": {
+      "status": "ungradable"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-14",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "I prefer travelling by train because it is relaxing.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        7.5
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "short_correct-15",
+    "group": "short_correct",
+    "part": 1,
+    "topic": "Food",
+    "question": "What food do you enjoy?",
+    "text": "My favourite subject was biology at school.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        7.5
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_4-01",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Hometown",
+    "question": "What do you like about living in your town?",
+    "text": "I live in a small town. It is nice and people are friendly. I go to work by bus. Sometimes the bus is late, but I can listen music. I like my town because my family live there.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 6,
+      "tolerance": 0.5,
+      "originalBand": 4,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_4-02",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Hobbies",
+    "question": "What is your favourite hobby?",
+    "text": "My favourite hobby is play football. I play with my friends in weekend. It make me feel happy and health. We sometimes lose but we have fun. I want to play more often.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 5.5,
+      "tolerance": 0.5,
+      "originalBand": 4,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_4-03",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Education",
+    "question": "What are you studying at college?",
+    "text": "I study business at college. The lessons is sometimes difficult. My teacher explain the ideas and I try to understand. I like working with my classmates because they help me.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 5.5,
+      "tolerance": 0.5,
+      "originalBand": 4,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_4-04",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Travel",
+    "question": "Can you describe a trip you took with your family?",
+    "text": "Last year I go to a beach with my family. We stay in a small hotel. The weather was good and I swim every day. I enjoy the trip because it was relaxing.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 6.5,
+      "tolerance": 0.5,
+      "originalBand": 4,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_4-05",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Food",
+    "question": "Do you enjoy cooking?",
+    "text": "I like cooking because it is useful. I make soup and rice for my family. Sometimes the food is not very good, but they eat it. I want learn more recipes.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 6,
+      "tolerance": 0.5,
+      "originalBand": 4,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_4-06",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Friendship",
+    "question": "What do you value in a good friend?",
+    "text": "My best friend is kind. We meet at school and talk about our study. When I have problem, she listen to me. I think a good friend is important.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 5.5,
+      "tolerance": 0.5,
+      "originalBand": 4,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_4-07",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Technology",
+    "question": "How often do you use your phone?",
+    "text": "I use my phone many time every day. I watch videos and talk with friends. It is convenient, but sometimes I spend too long. I try to put it away when I study.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 6,
+      "tolerance": 0.5,
+      "originalBand": 4,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_4-08",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Local places",
+    "question": "Is there a park near your home?",
+    "text": "There is a park near my house. I go there in evening to walk. Many people exercise and children play. It is a good place because it is peaceful.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 6,
+      "tolerance": 0.5,
+      "originalBand": 4,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_4-09",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Weather",
+    "question": "Which season do you like most?",
+    "text": "I prefer summer because I can go swimming. The weather is hot, so I drink more water. My family often visit my uncle in summer holiday. We have a good time.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 4,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_4-10",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Language learning",
+    "question": "How do you practise speaking English?",
+    "text": "I learned English at school. Speaking is hard for me because I feel nervous. I practice with videos and write new words. I hope I can speak better soon.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 6.5,
+      "tolerance": 0.5,
+      "originalBand": 4,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_5-01",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Hometown",
+    "question": "What do you like about the city where you live?",
+    "text": "I live in a medium-sized city with my parents. It is quite busy, especially in the centre, but there are several parks where people can relax. I like the food markets because they are affordable and I can meet my friends there. I would like better public transport in the future.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 5,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_5-02",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Cycling",
+    "question": "What activity helps you relax or stay active?",
+    "text": "I enjoy cycling because it helps me stay active and clear my mind. I usually ride around my neighbourhood in the evening. The roads can be crowded, so I choose quieter streets. I started this hobby with a friend, and now we try to cycle every weekend.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 6.5,
+      "tolerance": 0.5,
+      "originalBand": 5,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_5-03",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Education",
+    "question": "Which school subject did you find useful?",
+    "text": "My most useful school subject was geography. It helped me understand different places and how people live. I did not enjoy every lesson, but the maps and group projects were interesting. I still remember a project about rivers because our group worked hard and received good feedback.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 5,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_5-04",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Free time",
+    "question": "How do you prefer to spend your free time?",
+    "text": "I prefer to spend my free time at home after a busy week. I often cook something simple, listen to music, or watch a film with my family. Sometimes I meet friends outside, but I need a little quiet time to feel refreshed before Monday.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 5,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_5-05",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Travel",
+    "question": "Can you describe a trip you remember well?",
+    "text": "A trip I remember was a weekend visit to a coastal town. The journey took about three hours by coach, and the hotel was close to the beach. We ate fresh seafood and walked along the shore. I enjoyed the relaxed atmosphere, although the weather became cloudy on the last day.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 5,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_5-06",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "People",
+    "question": "Who has influenced an important decision in your life?",
+    "text": "My older cousin has influenced me a lot. She is patient and always gives practical advice instead of deciding for me. When I was choosing a college course, she helped me compare the subjects and future jobs. I became more confident after talking with her.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 5,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_5-07",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Technology",
+    "question": "How do you use a laptop for study?",
+    "text": "I use a laptop most days for study and communication. It is easier to write assignments on a large screen than on my phone. I sometimes get distracted by social media, so I turn off notifications while I work. This small change has helped me finish tasks sooner.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 5,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_5-08",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Weather",
+    "question": "Which season do you enjoy most?",
+    "text": "The season I like most is autumn because the temperature is comfortable. I can walk outside without feeling too hot, and the trees look beautiful. In my area, autumn is not very long, so I try to enjoy the cooler days before winter arrives.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 5,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_5-09",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Food",
+    "question": "Who taught you to make a drink or dish?",
+    "text": "I learned to make coffee from my father. At first I used too much water and the taste was weak, but he showed me how to measure it carefully. Now I prepare coffee for my family at weekends. It is a small routine that we all enjoy.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 5,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_5-10",
+    "group": "text_only_band_calibration",
+    "part": 1,
+    "topic": "Transport",
+    "question": "Why should people use public transport?",
+    "text": "I think people should use public transport more often. Buses are cheaper than driving and can reduce traffic if they are reliable. In my city, some routes stop running early, which is inconvenient. Better schedules would encourage more people to leave their cars at home.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7.5,
+      "tolerance": 0.5,
+      "originalBand": 5,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_6-01",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Hometown",
+    "question": "What do you like about your neighbourhood?",
+    "text": "I live in a neighbourhood on the edge of the city, so it is quieter than the centre but still well connected. There is a bus stop near my building, and a supermarket is only a short walk away. I appreciate that balance because I can enjoy a calmer evening without losing access to useful services.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 6,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_6-02",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Hobbies",
+    "question": "How did you become interested in cooking?",
+    "text": "One hobby I have developed recently is cooking. I started because ordering food was becoming expensive, and I wanted to eat healthier meals. I can now prepare a few dishes without a recipe. Although I still make mistakes, cooking helps me relax and gives me a chance to share something with my family.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 6,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_6-03",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Travel",
+    "question": "Can you describe a memorable journey?",
+    "text": "A memorable journey was a train trip to visit my aunt. The train was delayed for nearly an hour, which was frustrating at first. However, I talked with another passenger and learned about a local festival. By the time I arrived, the delay felt less important because the conversation made the journey enjoyable.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7.5,
+      "tolerance": 0.5,
+      "originalBand": 6,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_6-04",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Education",
+    "question": "Should schools teach more practical skills?",
+    "text": "I believe schools should teach more practical skills alongside academic subjects. Students need to understand how to manage money, communicate clearly, and solve everyday problems. These skills do not replace traditional subjects; instead, they help students apply what they learn when they start work or live independently.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 6,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_6-05",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Friendship",
+    "question": "What makes a close friendship valuable?",
+    "text": "My closest friend is someone I met during a group project. We had different ideas, but we learned to listen and divide the work fairly. Since then, we have supported each other through exams and personal challenges. I value the friendship because it is based on honesty rather than simply having the same interests.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7.5,
+      "tolerance": 0.5,
+      "originalBand": 6,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_6-06",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Technology",
+    "question": "How do you use technology in daily life?",
+    "text": "I use technology mainly to study and keep in touch with people. Video calls are especially helpful because some of my relatives live far away. At the same time, constant notifications can interrupt my concentration. I try to check messages at set times, which lets me benefit from technology without being online all day.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 6.5,
+      "tolerance": 0.5,
+      "originalBand": 6,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_6-07",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Public places",
+    "question": "What public place do you enjoy visiting?",
+    "text": "A public place I enjoy is the botanical garden near my university. It has walking paths, shaded benches, and a small pond. Students go there between classes to rest, while families visit at weekends. I find it valuable because the city is busy, and the garden provides a peaceful place for everyone.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 6,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_6-08",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Skills",
+    "question": "What skill would you like to improve?",
+    "text": "I would like to improve my ability to speak in front of a group. I can explain an idea to one person, but I become nervous when many people are listening. I have started practising short presentations with classmates. Their feedback helps me notice where I speak too quickly or need a clearer example.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 6,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_6-09",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Advice",
+    "question": "What is the most useful advice you have received?",
+    "text": "The most useful piece of advice I received was to break a difficult task into smaller steps. I used to delay assignments because they seemed overwhelming. Now I write a short plan and complete one part at a time. The work still takes effort, but it feels manageable and I am less likely to miss a deadline.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 6,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_6-10",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Travel",
+    "question": "Do you prefer travelling alone or with friends?",
+    "text": "I prefer travelling with one or two friends rather than in a large group. We can agree on a plan more quickly and change it when necessary. During a recent trip, we missed a bus but found a small museum nearby. That unexpected stop became one of the most interesting parts of the day.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 6,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_7-01",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Society",
+    "question": "How can cities become better places to live?",
+    "text": "I grew up in a residential area that has changed considerably over the past decade. New cafés and a library have opened, so young people have more places to meet. Despite this development, the neighbourhood has kept its community feel. Many residents know one another, and local events make it easy for newcomers to feel included.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 7,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_7-02",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "People",
+    "question": "Describe a person you admire.",
+    "text": "I would describe my grandmother as a quietly determined person. She ran a small shop for many years while raising a family, and she rarely complained about the workload. What I admire most is that she treated customers fairly, even when business was difficult. Her example has shaped how I think about responsibility and kindness.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 7,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_7-03",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Skills",
+    "question": "What skill would you like to develop?",
+    "text": "A skill I would like to develop is public speaking. The challenge is not a lack of ideas; rather, I sometimes organise them poorly when I am under pressure. I have been recording short practice talks and reviewing them afterwards. This has made me more aware of my pace and helped me build a clearer beginning, middle, and ending.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 6.5,
+      "tolerance": 0.5,
+      "originalBand": 7,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_7-04",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Society",
+    "question": "How can cities become better places to live?",
+    "text": "Public transport can make cities more liveable, provided that it is dependable and accessible. When buses and trains arrive frequently, residents have less reason to drive, which can ease congestion and improve air quality. However, a route that is unreliable will not attract commuters. Investment needs to cover both the vehicles and the services that support them.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7.5,
+      "tolerance": 0.5,
+      "originalBand": 7,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_7-05",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Travel",
+    "question": "Can you describe a memorable trip with friends?",
+    "text": "I remember visiting a small mountain village with my friends after our final exams. We had planned a busy itinerary, but heavy rain forced us to stay indoors for most of one afternoon. Instead of treating this as a problem, we cooked together and spoke with the guesthouse owner. The slower pace made the trip more memorable than our original plan.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 7,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_7-06",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Reading",
+    "question": "How has reading changed the way you see your city?",
+    "text": "I enjoy reading non-fiction because it gives me a structured way to explore unfamiliar subjects. Recently I read about urban design, and it changed how I notice streets, parks, and public spaces. I do not agree with every argument in the book, but it encouraged me to observe my own city more critically and ask why some areas feel welcoming.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 7,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_7-07",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Education",
+    "question": "Why should schools encourage collaboration?",
+    "text": "I think schools should give students more opportunities to collaborate. Working in a group can be frustrating when responsibilities are unclear, yet it teaches people to negotiate, listen, and share credit. Those skills are useful beyond school. A well-designed project should assess individual contributions as well as the final result, so cooperation does not hide unequal effort.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 7,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_7-08",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Free time",
+    "question": "What do you do to unwind?",
+    "text": "My favourite way to unwind is to take a long walk without planning a destination. I usually notice details that I miss when travelling by car, such as a new bakery or a quiet side street. Walking is not a substitute for every form of exercise, but it is easy to maintain and gives me room to think.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 7,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_7-09",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Technology",
+    "question": "How has technology changed independent learning?",
+    "text": "Technology has made it easier to learn independently, particularly through video lessons and digital libraries. The drawback is that learners can spend more time choosing resources than actually studying. I try to follow one course at a time and take notes in my own words. That routine keeps online learning focused rather than turning it into passive browsing.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 7,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_7-10",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Culture",
+    "question": "Describe a local festival you attended.",
+    "text": "A local festival I attended last year celebrated traditional crafts. Artisans demonstrated weaving and pottery, while younger visitors could try simple techniques themselves. The event was enjoyable, but it also showed how easily practical knowledge can disappear if it is not passed on. I hope the organisers continue inviting schools to take part.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7.5,
+      "tolerance": 0.5,
+      "originalBand": 7,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_8-01",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Urban planning",
+    "question": "How can cities become better places to live?",
+    "text": "I have become increasingly interested in how public spaces influence people's behaviour. A well-designed square can encourage residents to linger, interact, and feel a sense of ownership; a poorly lit one may be crossed as quickly as possible. This is why urban planning should involve local communities. Their daily experience often reveals practical needs that are invisible on a blueprint.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 8,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_8-02",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "People",
+    "question": "Describe a teacher who influenced you.",
+    "text": "The person who has had the greatest influence on me is my former science teacher. She made demanding topics approachable without oversimplifying them, and she encouraged us to question evidence rather than memorise conclusions. I still use that habit when I read claims online. Her lessons were valuable not only because of what she taught, but because of how she taught us to think.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 8,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_8-03",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Work",
+    "question": "Should organisations introduce a shorter working week?",
+    "text": "I would advocate for a shorter working week only if organisations redesigned workloads rather than compressing the same hours into fewer days. A genuine reduction could improve wellbeing and give people time for family or community life. Nevertheless, the effects would vary across sectors, so a trial with clear measures would be more responsible than a universal policy introduced overnight.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7.5,
+      "tolerance": 0.5,
+      "originalBand": 8,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_8-04",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Travel",
+    "question": "Describe a journey that stands out in your memory.",
+    "text": "One journey that stands out was a solo visit to a city where I knew nobody. At first I worried that eating and exploring alone would feel awkward. In practice, the freedom to change plans at short notice was liberating, and I ended up speaking with several residents who offered thoughtful recommendations. I returned with more confidence in my ability to adapt.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 8,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_8-05",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Reading",
+    "question": "How has reading changed in the digital age?",
+    "text": "I see reading as a form of sustained attention, which is increasingly valuable in an environment designed to interrupt us. A book allows an argument to unfold gradually, whereas short posts often reward an immediate reaction. This does not mean digital media is inherently shallow; rather, readers need to choose formats that suit the depth of the question they are considering.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 8,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_8-06",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Culture",
+    "question": "How can tourism preserve local heritage?",
+    "text": "Tourism can preserve local heritage when residents have a meaningful role in deciding what is shared and how revenue is distributed. If visitors are treated simply as sources of income, cultural practices risk becoming performances detached from their original context. Community-led tours offer a more respectful alternative: they help visitors learn while giving local people control over their own stories.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7.5,
+      "tolerance": 0.5,
+      "originalBand": 8,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_8-07",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Education",
+    "question": "Describe a research project that taught you something.",
+    "text": "I learned resilience during a research project that did not produce the results we expected. Our first reaction was disappointment, but the unexpected findings forced us to revisit our assumptions and improve the method. In retrospect, the project was more instructive than a straightforward success because it showed us how to respond constructively when evidence contradicts an initial hypothesis.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 8,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_8-08",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Transport",
+    "question": "How can cities encourage more people to cycle?",
+    "text": "Cities should make cycling a realistic option rather than relying on public campaigns alone. Protected lanes, secure bicycle parking, and safe junctions address the practical risks that discourage potential riders. Encouragement matters, but infrastructure determines whether cycling feels viable for children, older adults, and commuters. A network that ends abruptly can be almost as discouraging as no network at all.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7.5,
+      "tolerance": 0.5,
+      "originalBand": 8,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_8-09",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Education",
+    "question": "How has your approach to learning changed?",
+    "text": "My approach to learning changed when I started testing myself instead of repeatedly rereading notes. Retrieval practice initially felt harder, yet it revealed gaps that passive review had concealed. I now alternate between summarising a topic, answering questions, and revisiting difficult material after a delay. This method is not effortless, but it has made my study sessions more purposeful.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 8,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "valid_band_8-10",
+    "group": "text_only_band_calibration",
+    "part": 3,
+    "topic": "Technology",
+    "question": "What are the benefits and drawbacks of social media?",
+    "text": "I would not describe social media as either wholly beneficial or harmful. It can maintain relationships across distance and expose users to perspectives they might not encounter locally. At the same time, recommendation systems can narrow what people see and make comparison feel unavoidable. Its impact depends partly on design, but users also need habits that protect their attention and wellbeing.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "band": 7,
+      "tolerance": 0.5,
+      "originalBand": 8,
+      "basis": "synthetic text-only estimate; no speech audio"
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "memorized_off_topic_templates-01",
+    "group": "memorized_off_topic_templates",
+    "part": 3,
+    "topic": "Public transport",
+    "question": "Should cities invest more in public transport?",
+    "text": "Today I would like to talk about my favourite childhood toy. It was a small blue car that my uncle gave me. I played with it every day and learned to share with my brother. It remains a special memory because it reminds me of my family.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "memorized_off_topic_templates-02",
+    "group": "memorized_off_topic_templates",
+    "part": 3,
+    "topic": "Public transport",
+    "question": "Should cities invest more in public transport?",
+    "text": "The person I admire most is my mother. She is patient, generous, and always supports me. We often cook together on Sundays, and she gives me useful advice. I hope I can become as thoughtful as she is in the future.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "memorized_off_topic_templates-03",
+    "group": "memorized_off_topic_templates",
+    "part": 3,
+    "topic": "Public transport",
+    "question": "Should cities invest more in public transport?",
+    "text": "My favourite place is a quiet beach near my hometown. I visited it with my classmates last summer. We took photographs, ate local food, and watched the sunset. The trip was relaxing, and I would like to return with my family.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "memorized_off_topic_templates-04",
+    "group": "memorized_off_topic_templates",
+    "part": 3,
+    "topic": "Public transport",
+    "question": "Should cities invest more in public transport?",
+    "text": "I would like to describe a book that changed my life. It was a story about a young student who worked hard. The characters were interesting, and the ending made me think about friendship. I recommend this book to everyone.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "memorized_off_topic_templates-05",
+    "group": "memorized_off_topic_templates",
+    "part": 3,
+    "topic": "Public transport",
+    "question": "Should cities invest more in public transport?",
+    "text": "A celebration I remember was my cousin's birthday. We decorated the house, prepared a large meal, and invited our relatives. Everyone was cheerful, and we played games after dinner. It was a wonderful evening that brought the family together.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "memorized_off_topic_templates-06",
+    "group": "memorized_off_topic_templates",
+    "part": 3,
+    "topic": "Public transport",
+    "question": "Should cities invest more in public transport?",
+    "text": "My favourite season is spring because flowers grow and the weather becomes pleasant. I enjoy walking in the park and taking pictures of the trees. Spring makes me feel hopeful, and it is a good time to meet my friends outside.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "memorized_off_topic_templates-07",
+    "group": "memorized_off_topic_templates",
+    "part": 3,
+    "topic": "Public transport",
+    "question": "Should cities invest more in public transport?",
+    "text": "I want to talk about a useful skill, which is cooking. I learned it from my father when I was young. Cooking is important because everyone needs food. I can prepare a few dishes, and I hope to learn more recipes.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "memorized_off_topic_templates-08",
+    "group": "memorized_off_topic_templates",
+    "part": 3,
+    "topic": "Public transport",
+    "question": "Should cities invest more in public transport?",
+    "text": "A memorable journey was a trip to the mountains with my friends. We travelled by bus and stayed in a small hotel. The scenery was beautiful, and we took many photographs. I felt relaxed and would like to go there again.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "memorized_off_topic_templates-09",
+    "group": "memorized_off_topic_templates",
+    "part": 3,
+    "topic": "Public transport",
+    "question": "Should cities invest more in public transport?",
+    "text": "My favourite film is a comedy about two friends who start a business. The story is funny, and the actors perform well. I watched it with my family last month. It helped me relax after a difficult week.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "memorized_off_topic_templates-10",
+    "group": "memorized_off_topic_templates",
+    "part": 3,
+    "topic": "Public transport",
+    "question": "Should cities invest more in public transport?",
+    "text": "I would like to describe my hometown. It is a peaceful place with friendly residents and several small shops. I have lived there since childhood, so I feel connected to it. I may move away for work, but I will always visit my family.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "max": {
+        "overall": 4
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-01",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "I learned how to use a computer when I was in high school. My teacher show us the basic programs and we was practising every week. At first I make many mistake, but my classmates helps me. Now I can use it for my study and I feel more confidence.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-02",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "Last summer I visit my aunt in another city. We was go by train and the trip take about four hours. The station were crowded, but the journey is comfortable. I enjoy the visit because my cousins was very friendly and we play games every evening.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-03",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "My favourite subject are science because it teach me how things works. The lessons was sometimes difficult and I did not understood every experiment. My teacher explain again when we ask questions, so I become more interested and I want to learn more about it.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-04",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "I prefer live in a small town because the people is friendly and the streets are less noisy. There are not many entertainment places, but you can meet friends easily. If the town have better buses, more young people will stay there in the future.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-05",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "My friend give me a useful advice when I was worried about an exam. She told me to make a plan and study a little every day. I followed her suggestion and I felt more calm. It help me because I was not trying to learn everything in one night.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-06",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "I like reading books which has interesting characters. When I was child, my father read stories for me. Now I reads novels on the bus because it make the journey less boring. I would like to have more times for reading at home.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-07",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "People should uses public transport more because it reduce traffic. In my city the buses is cheap, but they does not come on time. If the service improve, many people will chooses to take the bus instead driving their cars.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-08",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "A memorable event were my first day at college. I was feel nervous because I did not know nobody. One student speak to me and show me where the classrooms was. After that I felt more comfortable and we become friends.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-09",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "I enjoy cooking with my sister because she know many recipes. We usually makes dinner together and each person have a different task. Sometimes we forget to add salt, but the meal still taste good. It is a nice way to spend our time.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-10",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "The park near my house have many trees and a small lake. People goes there for walking and children plays on the grass. I visit it every weekend because the fresh air make me feel relaxing after a busy week.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-11",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "Technology make communication easier because people can contact their family quickly. However, some person spends too much times on their phones. They should puts the device away when they are studying or having a conversation with another people.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-12",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "I think schools needs more practical lessons. Students can learn how to manage money and solve problems, which is useful in real life. The teacher should gives examples and let students to practise. This will makes learning more interesting.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-13",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "My hometown is famous for its food, which are very delicious. Visitors comes to try the noodles and they often says the price are reasonable. I am proud of this because the restaurants is part of our local culture.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-14",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "I was go to the library yesterday to finish my assignment. There were many people and the room was noisy, so I cannot concentrate. I move to another floor where it is more quiet and I finished the work before evening.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-15",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "One habit I want to change is sleep late. I often watching videos at night and then I am tired in morning. If I goes to bed earlier, I will have more energy and my study become better.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-16",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "The best way to learn a language are practising every day. People should listen to podcasts and speaks with friends. It is also important learn new words in a sentence because this help them remember the meaning.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-17",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "My teacher asked us write a short presentation about the environment. I was not know what to say, so I searched information online. I found several useful facts and put it in my slides, but I should have checked the sources more carefully.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-18",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "I enjoy visit museums because I can see objects from the past. The guide explain the history and answer our questions. Some exhibitions is more interesting than others, but I always learn something new when I go with my classmates.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-19",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "There is many reasons why people move to cities. They wants better jobs and more schools. But the city also have traffic and expensive houses, so some families prefer living in the countryside where the life is quieter.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "understandable_grammar_errors-20",
+    "group": "understandable_grammar_errors",
+    "part": 2,
+    "topic": "Education",
+    "question": "Describe a skill you learned. (Cue card)",
+    "text": "If I have more free time, I will joined a sports club. Exercise make me healthy and it help me meet new people. I tried swimming last year, but I did not went regularly because the pool close too early.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        3.5,
+        5.5
+      ],
+      "max": {
+        "grammar": 5
+      }
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-01",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Urban development",
+    "question": "What makes a city pleasant to live in?",
+    "text": "A liveable city needs reliable public services as well as attractive buildings. When neighbourhoods have safe pavements, accessible libraries, and dependable buses, residents can participate in daily life without relying on a car. Thoughtful planning also protects green corridors, which provide shade and support urban biodiversity.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-02",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Community",
+    "question": "How can community gardens benefit a neighbourhood?",
+    "text": "I find community gardens valuable because they combine food production with social contact. Neighbours exchange horticultural knowledge, share tools, and sometimes donate surplus vegetables. These projects are modest in scale, yet they can improve food security and make underused land feel purposeful.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-03",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Culture",
+    "question": "How should museums present historical collections?",
+    "text": "Museums should interpret collections in ways that acknowledge uncertainty and differing perspectives. A carefully curated exhibition can preserve artefacts while explaining how they were acquired. This approach encourages visitors to think critically instead of treating history as a collection of unquestionable facts.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-04",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Work",
+    "question": "What are the advantages and drawbacks of remote work?",
+    "text": "Remote work has broadened employment options for people who live far from major cities. However, it can also blur the boundary between professional responsibilities and private life. Clear expectations around availability help workers benefit from flexibility without feeling perpetually on call.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-05",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Transport",
+    "question": "How can public transport serve a whole community?",
+    "text": "A well-designed transport network should be equitable, not merely efficient for central commuters. Affordable fares and step-free stations enable older residents and people with disabilities to travel independently. These features benefit the whole community because accessible infrastructure is easier for everyone to use.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-06",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Environment",
+    "question": "How can companies report their environmental impact responsibly?",
+    "text": "I admire organisations that publish transparent information about their environmental impact. Precise reporting allows consumers to distinguish measurable progress from vague marketing claims. It also creates an incentive for companies to reduce waste throughout their supply chains rather than focusing on a single visible product.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-07",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Culture",
+    "question": "How can local traditions adapt to modern life?",
+    "text": "Local traditions remain meaningful when younger generations can reinterpret them. A festival may retain its music and rituals while incorporating contemporary art or new technology. This kind of adaptation keeps cultural practices relevant without suggesting that they must remain frozen in a single historical form.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-08",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Media",
+    "question": "Why is long-form journalism useful?",
+    "text": "Reading long-form journalism has sharpened my ability to evaluate evidence. Detailed reporting often distinguishes correlation from causation and explains the limits of available data. That context is useful because dramatic headlines can make complicated issues seem more certain than they really are.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-09",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Urban development",
+    "question": "Why are public parks important in cities?",
+    "text": "Public parks contribute to psychological wellbeing by offering residents a place to exercise, socialise, or simply pause. Their value depends on more than size; maintenance, lighting, and safe access matter too. If every district has a welcoming green space, the benefits are distributed more fairly.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-10",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Communication",
+    "question": "How should people approach disagreement?",
+    "text": "I try to approach disagreement with intellectual humility. Listening carefully does not require abandoning my own position; it helps me identify which parts of the argument are supported by evidence. A respectful exchange can reveal assumptions that neither speaker noticed at the beginning.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-11",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Community",
+    "question": "How can communities prepare for severe weather?",
+    "text": "A resilient community prepares for disruptions before they occur. Neighbourhood networks can share reliable information, check on vulnerable residents, and coordinate practical support during severe weather. Such preparation complements official services and reduces the likelihood that isolated households will be overlooked.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-12",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Technology",
+    "question": "How have digital archives changed access to documents?",
+    "text": "Digital archives have made rare documents easier to consult, although digitisation cannot replace careful preservation of originals. High-quality metadata is essential because searchable collections are only useful when users can understand where an item came from and how it should be interpreted.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-13",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Architecture",
+    "question": "What makes a public building welcoming and practical?",
+    "text": "Well-designed public buildings balance functionality with a sense of place. Natural light, clear signage, and flexible rooms make a facility easier to navigate, while materials connected to local history can give it character. Good architecture serves practical needs without making visitors feel excluded.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-14",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Education",
+    "question": "Why should schools teach financial literacy?",
+    "text": "Financial literacy should be taught through realistic decisions rather than abstract definitions alone. Comparing loan terms or planning a monthly budget helps students recognise how interest accumulates. These examples make financial concepts tangible and may prevent costly misunderstandings later in life.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "clean_advanced_vocabulary-15",
+    "group": "clean_advanced_vocabulary",
+    "part": 3,
+    "topic": "Science",
+    "question": "How should scientists communicate uncertainty?",
+    "text": "I value scientific communication that makes uncertainty explicit. A responsible explanation separates established findings from preliminary evidence and notes what researchers still need to investigate. This does not weaken public trust; on the contrary, it shows that conclusions are based on a careful evaluation of evidence.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        7,
+        9
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-01",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "I exercise sometimes because it is good for health.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-02",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "I walk to the shop, and I think walking is useful.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-03",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "I do not play sports now because I am busy with school.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-04",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "My brother goes to the gym, but I prefer exercising at home.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-05",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "I like swimming because it is relaxing and helps my body.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-06",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "I used to run with a friend, but we stopped last year.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-07",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "There is a football field near my house, so I play there.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-08",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "I exercise in the morning when I have enough time.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-09",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "My favourite sport is badminton, although I only play occasionally.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-10",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "I think children should play outside more often.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-11",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "I watch sports on television, but I rarely go to a stadium.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-12",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "Cycling is convenient because I can travel and exercise together.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-13",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "I started doing yoga after my teacher recommended a beginner class.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-14",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "Our school has a swimming pool, but students cannot use it every day.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-15",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "My parents enjoy walking in the park after dinner.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-16",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "I would like to join a sports club, but the membership is expensive.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-17",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "Exercise helps me sleep, so I try to walk before sunset.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-18",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "I prefer team sports because I can spend time with other people.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-19",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "When the weather is bad, I follow a short workout at home.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  },
+  {
+    "id": "relevant_underdeveloped-20",
+    "group": "relevant_underdeveloped",
+    "part": 1,
+    "topic": "Exercise",
+    "question": "Do you exercise regularly?",
+    "text": "I am not very fit, but I want to become more active.",
+    "duration": 0,
+    "expected": {
+      "status": "scored",
+      "range": [
+        4,
+        6
+      ]
+    },
+    "source": "synthetic"
+  }
+]
