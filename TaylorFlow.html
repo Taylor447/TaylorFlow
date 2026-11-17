@@ -1648,10 +1648,10 @@ html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder{bord
 .lesson-phrasebook-card[data-book-index="3"] .lesson-phrasebook-icon{background:radial-gradient(ellipse at 28% 16%,#ffffffd9 0 8%,#ffffff59 18%,transparent 45%),linear-gradient(145deg,#62e4e0,#17bfc4 58%,#087c91)}
 .lesson-phrasebook-card[data-book-index="4"] .lesson-phrasebook-icon{background:radial-gradient(ellipse at 28% 16%,#ffffffd9 0 8%,#ffffff59 18%,transparent 45%),linear-gradient(145deg,#e178ef,#bd43d0 58%,#7626aa)}
 .lesson-phrasebook-card[data-book-index="5"] .lesson-phrasebook-icon{background:radial-gradient(ellipse at 28% 16%,#ffffffd9 0 8%,#ffffff59 18%,transparent 45%),linear-gradient(145deg,#ff9aaa,#e86682 58%,#ad355d)}
-/* In bubble mode, present lesson sections as app-like glass bubbles. */
+/* In bubble mode, lesson sections appear as draggable app bubbles. */
 html[data-interface-mode="2"] #m>.lesson-study-section-list{grid-template-columns:repeat(auto-fit,minmax(140px,1fr));align-items:start;gap:16px}
 html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder{margin:0!important;border:1px solid transparent;border-radius:24px;background:transparent;box-shadow:none;overflow:visible;transition:background .18s ease,border-color .18s ease,transform .18s ease}
-html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary{position:relative;display:flex;min-height:228px;flex-direction:column;align-items:center;justify-content:flex-start;gap:12px;padding:18px 12px 48px;border:1px solid transparent;border-radius:24px;background:transparent;text-align:center}
+html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary{position:relative;display:flex;min-height:228px;flex-direction:column;align-items:center;justify-content:flex-start;gap:12px;padding:18px 12px;border:1px solid transparent;border-radius:24px;background:transparent;text-align:center;cursor:grab;-webkit-touch-callout:none}
 html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary:hover{background:rgba(111,173,235,.10);border-color:rgba(178,217,255,.22);transform:translateY(-3px)}
 html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary .compact-folder-icon{position:relative;display:grid;place-items:center;flex:0 0 clamp(84px,7.5vw,118px);width:clamp(84px,7.5vw,118px);height:clamp(84px,7.5vw,118px);border:1px solid rgba(239,250,255,.76);border-radius:34px;background:radial-gradient(ellipse at 28% 16%,rgba(255,255,255,.84) 0 8%,rgba(255,255,255,.24) 19%,transparent 46%),linear-gradient(145deg,var(--lesson-bubble-a,#71c8f0),var(--lesson-bubble-b,#1e73bd) 58%,var(--lesson-bubble-c,#24458c));box-shadow:inset 0 1px 2px rgba(255,255,255,.68),inset 0 -10px 18px rgba(7,24,65,.25),0 10px 22px rgba(4,14,34,.26);color:#f7fdff;backdrop-filter:blur(15px) saturate(1.5);-webkit-backdrop-filter:blur(15px) saturate(1.5)}
 html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary .compact-folder-icon svg{width:44%;height:44%;filter:drop-shadow(0 2px 3px rgba(15,36,75,.42))}
@@ -1664,16 +1664,14 @@ html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not(
 html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary .compact-folder-copy strong{font-size:clamp(.96rem,1.12vw,1.14rem);line-height:1.28}
 html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary .compact-folder-copy small{max-width:23ch;font-size:.9rem;line-height:1.4}
 html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary .compact-folder-chevron{position:absolute;top:13px;right:14px;margin:0;font-size:20px}
-html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary .lesson-study-order-controls{position:absolute;right:50%;bottom:10px;left:auto;display:flex;gap:6px;margin:0;transform:translateX(50%)}
-html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary .lesson-study-order-controls button{width:28px;height:28px;border-color:rgba(207,228,255,.30);border-radius:10px;background:rgba(13,31,56,.42);color:#e7f2ff}
 html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]{grid-column:1/-1;border-color:rgba(175,214,255,.28);background:linear-gradient(135deg,rgba(255,255,255,.10),rgba(41,91,137,.10));box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 14px 34px rgba(5,16,35,.16);overflow:hidden}
-html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary{position:relative;display:grid;grid-template-columns:56px minmax(0,1fr) 20px auto;min-height:84px;align-items:center;gap:12px;padding:14px 18px;border-radius:0;background:rgba(255,255,255,.04);text-align:left}
+html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary{position:relative;display:grid;grid-template-columns:56px minmax(0,1fr) 20px;min-height:84px;align-items:center;gap:12px;padding:14px 18px;border-radius:0;background:rgba(255,255,255,.04);text-align:left;cursor:grab}
 html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary .compact-folder-icon{flex:0 0 56px;width:56px;height:56px;border-radius:20px}
 html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary .compact-folder-copy{justify-items:start;flex:1;text-align:left}
 html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary .compact-folder-copy small{max-width:none}
-html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary .compact-folder-chevron{position:static;top:auto;right:auto;grid-column:3;justify-self:center;transform:rotate(180deg)}
-html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary .lesson-study-order-controls{position:static;grid-column:4;display:flex;align-self:center;margin:0;transform:none}
-@media(max-width:620px){html[data-interface-mode="2"] #m>.lesson-study-section-list{gap:8px}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary{min-height:198px;gap:9px;padding:15px 8px 44px}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary .compact-folder-icon{flex-basis:82px;width:82px;height:82px;border-radius:27px}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary .compact-folder-copy strong{font-size:.95rem}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary .compact-folder-copy small{font-size:.8rem}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary{grid-template-columns:46px minmax(0,1fr) 18px auto;gap:8px;padding-left:12px}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary .compact-folder-icon{flex-basis:46px;width:46px;height:46px;border-radius:16px}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary .lesson-study-order-controls{right:auto}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary .lesson-study-order-controls button{width:26px;height:26px}}
+html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary .compact-folder-chevron{position:static;grid-column:3;justify-self:center;margin:0;transform:rotate(180deg)}
+html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder.is-dragging>summary{cursor:grabbing}
+@media(max-width:620px){html[data-interface-mode="2"] #m>.lesson-study-section-list{gap:8px}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary{min-height:198px;gap:9px;padding:15px 8px}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary .compact-folder-icon{flex-basis:82px;width:82px;height:82px;border-radius:27px}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary .compact-folder-copy strong{font-size:.95rem}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder:not([open])>summary .compact-folder-copy small{font-size:.8rem}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary{grid-template-columns:46px minmax(0,1fr) 18px;gap:8px;padding-left:12px}html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open]>summary .compact-folder-icon{flex-basis:46px;width:46px;height:46px;border-radius:16px}}
 </style>
 <script type="application/json" id="offline-dictionary-meta">{"shards":["_","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"],"count":195393,"bilingual":119032}</script>
 <script type="text/plain" id="offline-dictionary-_" data-src="assets/dictionary/other.bin"></script>
@@ -1775,7 +1773,16 @@ html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder[open
 .lesson-root-words-folder{margin:14px 0 20px}.lesson-root-words-folder>summary{gap:12px}.lesson-root-words-app{display:grid;gap:12px}.lesson-root-word-toolbar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px}.lesson-root-word-toolbar input{width:100%;padding:10px 13px;border:1px solid var(--bd);border-radius:12px;background:var(--sf);color:var(--tx)}.lesson-root-word-filters{display:flex;flex-wrap:wrap;gap:7px}.lesson-root-filter-button{padding:7px 10px;border:1px solid var(--bd);border-radius:999px;background:var(--sf);color:var(--mu);font-weight:700}.lesson-root-filter-button.is-active{border-color:#22b981;background:color-mix(in srgb,#18b979 20%,var(--cd));color:var(--tx)}.lesson-root-word-workspace{display:grid;grid-template-columns:minmax(230px,310px) minmax(0,1fr);gap:14px;min-width:0}.lesson-root-word-sidebar,.lesson-root-word-main{min-width:0;border:1px solid var(--bd);border-radius:16px;background:color-mix(in srgb,var(--cd) 88%,transparent)}.lesson-root-word-sidebar{display:flex;flex-direction:column;max-height:720px;overflow:hidden}.lesson-root-word-list-title{display:flex;justify-content:space-between;padding:12px 14px;border-bottom:1px solid var(--bd);font-size:1.03rem;font-weight:800}.lesson-root-word-list-title span{padding:2px 8px;border-radius:999px;background:color-mix(in srgb,#18b979 20%,var(--cd));color:#56d69d}.lesson-root-word-list{overflow:auto;overscroll-behavior:contain}.lesson-root-word-group-row{display:grid;grid-template-columns:minmax(0,1fr) 36px;align-items:center;gap:4px;padding:4px 7px;border-bottom:1px solid color-mix(in srgb,var(--bd) 55%,transparent)}.lesson-root-word-group-row[hidden]{display:none}.lesson-root-word-group-row.is-active{background:color-mix(in srgb,#18b979 16%,var(--cd))}.lesson-root-word-group-open{display:flex;align-items:center;justify-content:space-between;gap:8px;min-width:0;padding:8px 6px;border:0;background:transparent;color:var(--tx);text-align:left}.lesson-root-word-group-open span{overflow-wrap:anywhere;font-weight:800}.lesson-root-word-group-open small{flex:0 0 auto;color:var(--mu)}.lesson-root-word-group-save{min-width:32px;height:34px;border:1px solid var(--bd);border-radius:9px;background:var(--sf);color:#ffc75a;font-size:18px}.lesson-root-word-main{padding:12px;display:grid;align-content:start;gap:12px}.lesson-root-word-main-toolbar{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;color:var(--mu)}.lesson-root-word-main-toolbar>div{display:flex;gap:6px;flex-wrap:wrap}.lesson-root-word-main-toolbar .g{padding:6px 9px;font-size:.88rem}.lesson-root-word-detail{min-height:320px;padding:12px;border-radius:13px;background:color-mix(in srgb,var(--sf) 72%,transparent)}.lesson-root-word-source{margin:0;color:var(--mu);font-size:.84rem;line-height:1.5}.lesson-root-selected-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 12px}.lesson-root-selected-head h3{margin:1px 0 2px;color:#38c78e}.lesson-root-selected-head small{color:var(--mu)}.lesson-root-tree{display:grid;justify-items:center}.lesson-root-primary{width:min(100%,410px)}.lesson-root-form-card{position:relative;min-width:0;padding:14px;border:1px solid var(--bd);border-radius:15px;background:var(--cd);box-shadow:0 8px 20px #06152b24}.lesson-root-form-card.is-root{border:2px solid #19b977;background:color-mix(in srgb,#18b979 12%,var(--cd))}.lesson-root-form-head{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}.lesson-root-form-head h4{display:inline;margin:0 7px 0 0;color:#f08b55;font-size:1.25rem;overflow-wrap:anywhere}.lesson-root-pos{display:inline-block;padding:2px 7px;border-radius:7px;background:color-mix(in srgb,#19b977 23%,var(--cd));color:#65d9a3;font-size:.79rem;font-weight:800}.lesson-root-form-add{width:34px;height:34px;flex:0 0 auto;border:1px solid #8e9cff;border-radius:50%;background:transparent;color:#9daaff;font-size:20px;font-weight:800}.lesson-root-ipa{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:8px 0;color:#b69bff;font-family:monospace}.lesson-root-say{border:0;background:transparent;color:#66cd91}.lesson-root-word-meaning{margin:7px 0;color:var(--tx);font-size:1.06rem}.lesson-root-word-definition,.lesson-root-word-example{margin:6px 0;color:var(--mu);line-height:1.45}.lesson-root-word-example{font-style:italic}.lesson-root-form-relation{display:inline-block;margin-top:5px;color:#7da6ff;font-weight:800}.lesson-root-branch-line{height:24px;width:80%;border-top:2px solid #8b8ff0;position:relative;margin-top:26px}.lesson-root-branch-line:before{content:"";position:absolute;left:50%;top:-27px;height:27px;border-left:2px solid #8b8ff0}.lesson-root-forms-grid{position:relative;display:grid;width:100%;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:12px;align-items:start}.lesson-root-forms-grid .lesson-root-form-card:before{content:"";position:absolute;left:50%;top:-26px;height:25px;border-left:2px solid #8b8ff0}.lesson-root-word-empty,.lesson-root-word-loading,.lesson-root-no-forms{display:grid;justify-items:center;align-content:center;min-height:230px;text-align:center;color:var(--mu);gap:8px}.lesson-root-word-empty span{font-size:38px}.lesson-root-word-empty strong{color:var(--tx);font-size:1.15rem}.lesson-root-word-practice{padding:14px;border:1px solid color-mix(in srgb,#18b979 50%,var(--bd));border-radius:14px;background:color-mix(in srgb,#18b979 10%,var(--cd))}.lesson-root-word-practice[hidden]{display:none}.lesson-root-word-practice>strong{color:#4bd39a}.lesson-root-test-options,.lesson-root-word-practice>div{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.lesson-root-word-practice input{min-width:160px;padding:8px;border:1px solid var(--bd);border-radius:9px;background:var(--sf);color:var(--tx)}.lesson-root-practice-status{display:block;margin-top:8px;font-weight:800}.lesson-root-practice-status.is-correct{color:#32d28d}.lesson-root-practice-status.is-wrong{color:#ff7777}.lesson-root-word-source a{color:var(--pr)}.lesson-root-word-detail [hidden]{display:none!important}
 @media(max-width:760px){.lesson-root-word-workspace{grid-template-columns:1fr}.lesson-root-word-sidebar{max-height:340px}.lesson-root-word-toolbar{grid-template-columns:1fr}.lesson-root-forms-grid{grid-template-columns:1fr}.lesson-root-branch-line{width:2px;height:24px;border-top:0;border-left:2px solid #8b8ff0;margin-top:26px}.lesson-root-branch-line:before{left:0;top:-27px;height:27px}.lesson-root-forms-grid .lesson-root-form-card:before{display:none}}
 </style>
-<style>.lesson-study-section-list{display:grid;gap:18px}.lesson-study-section-list>.compact-folder{margin:0!important}.lesson-study-order-controls{display:inline-flex;align-items:center;gap:6px;margin-left:auto;flex:0 0 auto;cursor:default}.lesson-study-order-controls button{display:grid;place-items:center;width:32px;height:32px;padding:0;border:1px solid var(--bd);border-radius:10px;background:rgba(8,20,42,.26);color:var(--muted);font-family:inherit;font-size:18px;font-weight:700;line-height:1;cursor:pointer;transition:background .16s ease,color .16s ease,border-color .16s ease}.lesson-study-order-controls button:hover:not(:disabled){background:var(--surface-2);color:var(--text);border-color:var(--accent)}.lesson-study-order-controls button:disabled{opacity:.35;cursor:not-allowed}.lesson-study-order-controls button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}@media(max-width:620px){.lesson-study-section-list{gap:12px}.lesson-study-order-controls{gap:3px}.lesson-study-order-controls button{width:28px;height:28px}}</style>
+<style>
+.lesson-study-section-list{display:grid;gap:18px}
+.lesson-study-section-list>.compact-folder{margin:0!important;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.lesson-study-section-list.is-reordering{user-select:none;-webkit-user-select:none}
+.lesson-study-section-list>.compact-folder.is-dragging{position:relative;z-index:4;opacity:.78;filter:saturate(1.16);transform:scale(.98)}
+.lesson-study-section-list>.compact-folder.is-drop-target>summary{border-color:rgba(160,218,255,.75);background:linear-gradient(135deg,rgba(255,255,255,.20),rgba(60,143,221,.18))}
+.lesson-study-section-list>.compact-folder summary{cursor:grab}
+.lesson-study-section-list>.compact-folder.is-dragging summary{cursor:grabbing}
+@media(max-width:620px){.lesson-study-section-list{gap:12px}}
+</style>
 <style id="mobile-root-word-overview">
 @media (max-width: 620px) {
   body > header { gap: 6px; padding-inline: max(10px, var(--gutter)); }
@@ -9360,14 +9367,87 @@ function pathLesson(){
 const LESSON_STUDY_ORDER_KEY='taylorflow-lesson-study-order-v1';
 function lessonStudyOrderRead(){try{const value=JSON.parse(localStorage.getItem(LESSON_STUDY_ORDER_KEY)||'[]');return Array.isArray(value)?value.filter(id=>typeof id==='string'):[]}catch{return []}}
 function lessonStudySectionMarkup(id,markup){
- const controls='<span class="lesson-study-order-controls" aria-label="Sắp xếp mục học"><button type="button" data-direction="-1" aria-label="Chuyển lên trên" title="Chuyển lên trên" onclick="event.preventDefault();event.stopPropagation();lessonStudyMove(this.closest(&quot;details&quot;).dataset.lessonStudySection,-1)">↑</button><button type="button" data-direction="1" aria-label="Chuyển xuống dưới" title="Chuyển xuống dưới" onclick="event.preventDefault();event.stopPropagation();lessonStudyMove(this.closest(&quot;details&quot;).dataset.lessonStudySection,1)">↓</button></span>';
- return markup.replace('<details ', '<details data-lesson-study-section="'+id+'" ').replace('</summary>',controls+'</summary>');
+ return markup.replace('<details ', '<details data-lesson-study-section="'+id+'" ').replace('<summary>', '<summary title="Giữ để kéo và sắp xếp · Dùng Alt + phím mũi tên khi dùng bàn phím">');
 }
-function lessonStudyRefreshOrderControls(list){if(!list)return;const items=[...list.children];items.forEach((item,index)=>item.querySelectorAll('.lesson-study-order-controls button').forEach(button=>{const direction=Number(button.dataset.direction);button.disabled=direction<0?index===0:index===items.length-1}))}
-function lessonStudyMove(id,direction){
- const list=document.getElementById('lesson-study-section-list');if(!list)return;const items=[...list.children],index=items.findIndex(item=>item.dataset.lessonStudySection===id),next=index+Number(direction);if(index<0||next<0||next>=items.length)return;
- if(direction<0)list.insertBefore(items[index],items[next]);else list.insertBefore(items[next],items[index]);
- const order=[...list.children].map(item=>item.dataset.lessonStudySection);try{localStorage.setItem(LESSON_STUDY_ORDER_KEY,JSON.stringify(order))}catch{}lessonStudyRefreshOrderControls(list);
+function lessonStudyPersistOrder(list){const order=[...list.children].map(item=>item.dataset.lessonStudySection).filter(Boolean);try{localStorage.setItem(LESSON_STUDY_ORDER_KEY,JSON.stringify(order))}catch{}}
+function lessonStudyBindDragSort(list){
+ if(!list||list.dataset.lessonStudyDragBound==='true')return;
+ list.dataset.lessonStudyDragBound='true';
+ const holdDelay=340,moveThreshold=9;
+ let press=null,dragging=null,holdTimer=0,lastTarget=null,lastSide=null,suppressClickUntil=0;
+ const sectionFrom=node=>node instanceof Element?node.closest('details[data-lesson-study-section]'):null;
+ function clearTarget(){list.querySelectorAll('.is-drop-target').forEach(item=>item.classList.remove('is-drop-target'));lastTarget=null;lastSide=null}
+ function cancelPress(){if(holdTimer){clearTimeout(holdTimer);holdTimer=0}press=null}
+ function beginDrag(state){
+  if(!state||!list.contains(state.item)||state.item.open)return;
+  dragging=state;state.item.classList.add('is-dragging');state.item.setAttribute('aria-grabbed','true');list.classList.add('is-reordering');clearTarget();
+ }
+ function saveIfChanged(before){
+  const after=[...list.children];if(after.some((item,index)=>item!==before[index]))lessonStudyPersistOrder(list);
+ }
+ function autoScrollAt(y){const edge=64;if(y<edge)window.scrollBy(0,-12);else if(y>window.innerHeight-edge)window.scrollBy(0,12)}
+ function moveOver(x,y){
+  if(!dragging)return;
+  const hit=document.elementFromPoint(x,y),target=sectionFrom(hit);
+  if(!target||!list.contains(target)||target.open){clearTarget();return}
+  if(target===dragging.item)return;
+  const source=dragging.item,targetRect=target.getBoundingClientRect(),sourceRect=source.getBoundingClientRect();
+  const sameRow=Math.abs((sourceRect.top+sourceRect.height/2)-(targetRect.top+targetRect.height/2))<Math.min(sourceRect.height,targetRect.height)*.55;
+  const before=sameRow?x<targetRect.left+targetRect.width/2:y<targetRect.top+targetRect.height/2;
+  const side=before?'before':'after';
+  if(target===lastTarget&&side===lastSide)return;
+  const previous=[...list.children],reference=before?target:target.nextElementSibling;
+  if(reference!==source&&source.nextElementSibling!==reference)list.insertBefore(source,reference);
+  list.querySelectorAll('.is-drop-target').forEach(item=>item.classList.remove('is-drop-target'));
+  target.classList.add('is-drop-target');lastTarget=target;lastSide=side;saveIfChanged(previous);
+ }
+ function finishDrag(){
+  if(!dragging){cancelPress();return}
+  dragging.item.classList.remove('is-dragging');dragging.item.setAttribute('aria-grabbed','false');list.classList.remove('is-reordering');clearTarget();dragging=null;cancelPress();suppressClickUntil=Date.now()+800;
+ }
+ function scheduleHold(state){cancelPress();press=state;holdTimer=setTimeout(()=>{holdTimer=0;if(press===state)beginDrag(state)},holdDelay)}
+ list.addEventListener('pointerdown',event=>{
+  if(event.pointerType==='touch'||event.button!==0)return;
+  const summary=event.target.closest('summary'),item=sectionFrom(summary);
+  if(!item||item.open)return;
+  const state={kind:'pointer',item,summary,pointerId:event.pointerId,x:event.clientX,y:event.clientY};
+  scheduleHold(state);try{summary.setPointerCapture(event.pointerId)}catch{}
+ });
+ list.addEventListener('pointermove',event=>{
+  if(press&&press.kind==='pointer'&&press.pointerId===event.pointerId&&!dragging&&Math.hypot(event.clientX-press.x,event.clientY-press.y)>moveThreshold)cancelPress();
+  if(dragging&&dragging.kind==='pointer'&&dragging.pointerId===event.pointerId){event.preventDefault();autoScrollAt(event.clientY);moveOver(event.clientX,event.clientY)}
+ });
+ list.addEventListener('pointerup',event=>{if(dragging&&dragging.kind==='pointer'&&dragging.pointerId===event.pointerId)finishDrag();else if(press&&press.kind==='pointer'&&press.pointerId===event.pointerId)cancelPress()});
+ list.addEventListener('pointercancel',event=>{if(dragging&&dragging.kind==='pointer'&&dragging.pointerId===event.pointerId)finishDrag();else if(press&&press.kind==='pointer'&&press.pointerId===event.pointerId)cancelPress()});
+ list.addEventListener('touchstart',event=>{
+  if(event.touches.length!==1){if(press&&press.kind==='touch')cancelPress();return;}
+  const touch=event.changedTouches[0],summary=event.target.closest('summary'),item=sectionFrom(summary);
+  if(!item||item.open)return;
+  scheduleHold({kind:'touch',item,summary,touchId:touch.identifier,x:touch.clientX,y:touch.clientY});
+ },{passive:true});
+ list.addEventListener('touchmove',event=>{
+  if(!press||press.kind!=='touch')return;
+  const touch=[...event.touches].find(item=>item.identifier===press.touchId);if(!touch)return;
+  if(!dragging&&Math.hypot(touch.clientX-press.x,touch.clientY-press.y)>moveThreshold){cancelPress();return}
+  if(dragging&&dragging.kind==='touch'){event.preventDefault();autoScrollAt(touch.clientY);moveOver(touch.clientX,touch.clientY)}
+ },{passive:false});
+ list.addEventListener('touchend',event=>{
+  if(!press||press.kind!=='touch')return;
+  if([...event.changedTouches].some(item=>item.identifier===press.touchId)){if(dragging&&dragging.kind==='touch')finishDrag();else cancelPress()}
+ });
+ list.addEventListener('touchcancel',()=>{if(dragging&&dragging.kind==='touch')finishDrag();else if(press&&press.kind==='touch')cancelPress()});
+ list.addEventListener('click',event=>{
+  if(Date.now()>=suppressClickUntil)return;
+  if(sectionFrom(event.target)){event.preventDefault();event.stopPropagation();event.stopImmediatePropagation()}
+ },true);
+ list.addEventListener('keydown',event=>{
+  if(!event.altKey||(event.key!=='ArrowUp'&&event.key!=='ArrowDown'))return;
+  const item=sectionFrom(event.target);if(!item)return;
+  const siblings=[...list.children],index=siblings.indexOf(item),direction=event.key==='ArrowUp'?-1:1,next=siblings[index+direction];
+  if(!next)return;
+  event.preventDefault();if(direction<0)list.insertBefore(item,next);else list.insertBefore(next,item);lessonStudyPersistOrder(list);
+ });
+ list.addEventListener('contextmenu',event=>{if(dragging)event.preventDefault()});
 }
 function lessonStudyOrderSections(sections){const saved=lessonStudyOrderRead(),position=new Map(saved.map((id,index)=>[id,index]));return sections.map((section,index)=>({section,index})).sort((a,b)=>{const ap=position.has(a.section[0])?position.get(a.section[0]):saved.length+a.index,bp=position.has(b.section[0])?position.get(b.section[0]):saved.length+b.index;return ap-bp}).map(item=>item.section)}
 function pathLessonsPage(){
@@ -9382,8 +9462,8 @@ function pathLessonsPage(){
   ['english',englishLearningFolder()]
  ];
  const ordered=lessonStudyOrderSections(sections).map(([id,markup])=>lessonStudySectionMarkup(id,markup)).join('');
- setTimeout(()=>lessonStudyRefreshOrderControls(document.getElementById('lesson-study-section-list')),0);
- return `${pageIntro('BÀI HỌC','Bài học','Học từ vựng theo chủ đề, chọn lộ trình bốn tuần hoặc đường học theo cấp độ.')}<div class="lesson-study-section-list" id="lesson-study-section-list">${ordered}</div>`;
+ setTimeout(()=>lessonStudyBindDragSort(document.getElementById('lesson-study-section-list')),0);
+ return `${pageIntro('BÀI HỌC','Bài học','Học từ vựng theo chủ đề, chọn lộ trình bốn tuần hoặc đường học theo cấp độ. Giữ và kéo mục học để sắp xếp thứ tự.')}<div class="lesson-study-section-list" id="lesson-study-section-list">${ordered}</div>`;
 }
 function showPathMap(){pathView=null;pathFolderOpen=true;tab='les';openView()}
 function openPathLesson(id){
