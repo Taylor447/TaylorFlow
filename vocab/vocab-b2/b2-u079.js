@@ -1,0 +1,200 @@
+window.VOCAB.register("b2-u079", [
+  {
+    "id": "b2-u079-001",
+    "term": "in the long run",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "về lâu dài",
+    "def": "after a long period of time",
+    "ex": "The phrase \"in the long run\" appears in practical discussions.",
+    "exVi": "Cụm từ \"in the long run\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-002",
+    "term": "on the whole",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nhìn chung",
+    "def": "considering everything together",
+    "ex": "The phrase \"on the whole\" appears in practical discussions.",
+    "exVi": "Cụm từ \"on the whole\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-003",
+    "term": "to some extent",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ở một mức độ nào đó",
+    "def": "partly, but not completely",
+    "ex": "The phrase \"to some extent\" appears in practical discussions.",
+    "exVi": "Cụm từ \"to some extent\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-004",
+    "term": "in terms of",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xét về",
+    "def": "when considering a particular aspect",
+    "ex": "The phrase \"in terms of\" appears in practical discussions.",
+    "exVi": "Cụm từ \"in terms of\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-005",
+    "term": "take into account",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tính đến; cân nhắc",
+    "def": "to consider a particular fact or detail",
+    "ex": "The phrase \"take into account\" appears in practical discussions.",
+    "exVi": "Cụm từ \"take into account\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-006",
+    "term": "at the expense of",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đánh đổi bằng",
+    "def": "by losing or damaging something else",
+    "ex": "The phrase \"at the expense of\" appears in practical discussions.",
+    "exVi": "Cụm từ \"at the expense of\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-007",
+    "term": "be likely to",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "có khả năng",
+    "def": "to probably do or experience something",
+    "ex": "The phrase \"be likely to\" appears in practical discussions.",
+    "exVi": "Cụm từ \"be likely to\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-008",
+    "term": "be associated with",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "có liên quan đến",
+    "def": "to be connected in people's minds or in fact",
+    "ex": "The phrase \"be associated with\" appears in practical discussions.",
+    "exVi": "Cụm từ \"be associated with\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-009",
+    "term": "play a role in",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đóng vai trò trong",
+    "def": "to have an effect or part in something",
+    "ex": "The phrase \"play a role in\" appears in practical discussions.",
+    "exVi": "Cụm từ \"play a role in\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-010",
+    "term": "have access to",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "có quyền tiếp cận",
+    "def": "to be able to use or reach something",
+    "ex": "The phrase \"have access to\" appears in practical discussions.",
+    "exVi": "Cụm từ \"have access to\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-011",
+    "term": "make a difference to",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tạo ra khác biệt cho",
+    "def": "to have a noticeable effect on someone or something",
+    "ex": "The phrase \"make a difference to\" appears in practical discussions.",
+    "exVi": "Cụm từ \"make a difference to\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-012",
+    "term": "put emphasis on",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nhấn mạnh",
+    "def": "to give special importance to a subject",
+    "ex": "The phrase \"put emphasis on\" appears in practical discussions.",
+    "exVi": "Cụm từ \"put emphasis on\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-013",
+    "term": "come to an agreement",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đạt được thỏa thuận",
+    "def": "to reach a decision accepted by everyone involved",
+    "ex": "The phrase \"come to an agreement\" appears in practical discussions.",
+    "exVi": "Cụm từ \"come to an agreement\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-014",
+    "term": "with regard to",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "liên quan đến",
+    "def": "concerning a particular subject",
+    "ex": "The phrase \"with regard to\" appears in practical discussions.",
+    "exVi": "Cụm từ \"with regard to\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-015",
+    "term": "by virtue of",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nhờ vào; do có",
+    "def": "because of a particular quality or situation",
+    "ex": "The phrase \"by virtue of\" appears in practical discussions.",
+    "exVi": "Cụm từ \"by virtue of\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-016",
+    "term": "in the absence of",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "khi không có",
+    "def": "when a person or thing is not present or available",
+    "ex": "The phrase \"in the absence of\" appears in practical discussions.",
+    "exVi": "Cụm từ \"in the absence of\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-017",
+    "term": "with the exception of",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ngoại trừ",
+    "def": "not including a particular person or thing",
+    "ex": "The phrase \"with the exception of\" appears in practical discussions.",
+    "exVi": "Cụm từ \"with the exception of\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u079-018",
+    "term": "by means of",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bằng cách; nhờ vào",
+    "def": "using a particular method or tool",
+    "ex": "The phrase \"by means of\" appears in practical discussions.",
+    "exVi": "Cụm từ \"by means of\" xuất hiện trong các cuộc thảo luận thực tế.",
+    "ielts": 1
+  }
+]);

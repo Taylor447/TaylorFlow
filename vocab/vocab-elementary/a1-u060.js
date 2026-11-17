@@ -1,0 +1,222 @@
+window.VOCAB.register("a1-u060", [
+  {
+    "id": "a1-u060-001",
+    "term": "borrow a book",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mượn sách",
+    "def": "take a book for a short time and return it",
+    "ex": "Can I borrow a book from you?",
+    "exVi": "Tôi có thể mượn bạn một cuốn sách không?",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-002",
+    "term": "lend someone money",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cho ai mượn tiền",
+    "def": "let someone use money and expect it back",
+    "ex": "My aunt lent me money for the bus.",
+    "exVi": "Dì cho tôi mượn tiền đi xe buýt.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-003",
+    "term": "bring something along",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang theo thứ gì",
+    "def": "take an item with you to a place",
+    "ex": "Bring something along for the picnic.",
+    "exVi": "Hãy mang theo món gì đó cho buổi dã ngoại.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-004",
+    "term": "take something away",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang thứ gì đi",
+    "def": "remove an item from a place",
+    "ex": "Please take your wet shoes away from the door.",
+    "exVi": "Vui lòng mang giày ướt ra khỏi cửa.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-005",
+    "term": "say hello",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nói lời chào",
+    "def": "use a greeting when meeting someone",
+    "ex": "Remember to say hello to our new neighbor.",
+    "exVi": "Nhớ chào người hàng xóm mới nhé.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-006",
+    "term": "tell a story",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kể một câu chuyện",
+    "def": "describe events to another person",
+    "ex": "Grandpa told a story about his childhood.",
+    "exVi": "Ông kể chuyện về thời thơ ấu của mình.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-007",
+    "term": "speak to someone",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nói với ai",
+    "def": "use words to communicate with a person",
+    "ex": "Could I speak to the receptionist?",
+    "exVi": "Tôi có thể nói chuyện với lễ tân không?",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-008",
+    "term": "talk about something",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nói về điều gì",
+    "def": "have a conversation concerning a subject",
+    "ex": "We talked about our weekend plans.",
+    "exVi": "Chúng tôi nói về kế hoạch cuối tuần.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-009",
+    "term": "hear a noise",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nghe thấy tiếng động",
+    "def": "notice a sound without trying to listen",
+    "ex": "I heard a noise outside the window.",
+    "exVi": "Tôi nghe thấy tiếng động bên ngoài cửa sổ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-010",
+    "term": "listen carefully",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lắng nghe cẩn thận",
+    "def": "pay close attention to what you hear",
+    "ex": "Listen carefully before you follow the directions.",
+    "exVi": "Hãy nghe kỹ trước khi làm theo chỉ dẫn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-011",
+    "term": "see a bird",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nhìn thấy một con chim",
+    "def": "notice a bird with your eyes",
+    "ex": "We saw a bird near the lake.",
+    "exVi": "Chúng tôi nhìn thấy một con chim gần hồ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-012",
+    "term": "look at a map",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nhìn bản đồ",
+    "def": "direct your eyes towards a map",
+    "ex": "Let’s look at a map before we leave.",
+    "exVi": "Hãy xem bản đồ trước khi rời đi.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-013",
+    "term": "watch a film",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xem phim",
+    "def": "look at a moving picture for enjoyment",
+    "ex": "They watched a film after dinner.",
+    "exVi": "Họ xem phim sau bữa tối.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-014",
+    "term": "a full-time job",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "công việc toàn thời gian",
+    "def": "paid work that takes most working days",
+    "ex": "She found a full-time job in a hotel.",
+    "exVi": "Cô ấy tìm được việc toàn thời gian ở khách sạn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-015",
+    "term": "work from home",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm việc tại nhà",
+    "def": "do your job in the place where you live",
+    "ex": "My father works from home twice a week.",
+    "exVi": "Bố tôi làm việc tại nhà hai lần mỗi tuần.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-016",
+    "term": "feel at home",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cảm thấy thoải mái như ở nhà",
+    "def": "feel relaxed and comfortable in a place",
+    "ex": "Our hosts helped us feel at home.",
+    "exVi": "Chủ nhà giúp chúng tôi cảm thấy thoải mái như ở nhà.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-017",
+    "term": "travel by road",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi bằng đường bộ",
+    "def": "make a journey using roads and vehicles",
+    "ex": "They travelled by road across the country.",
+    "exVi": "Họ đi đường bộ xuyên suốt đất nước.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-018",
+    "term": "go on a journey",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "thực hiện một chuyến đi",
+    "def": "travel from one place to another",
+    "ex": "We went on a long journey by coach.",
+    "exVi": "Chúng tôi thực hiện chuyến đi dài bằng xe khách.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-019",
+    "term": "take a trip",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi một chuyến",
+    "def": "go somewhere for a short time",
+    "ex": "Our class took a trip to the farm.",
+    "exVi": "Lớp chúng tôi đi tham quan nông trại.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u060-020",
+    "term": "a fun activity",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hoạt động vui vẻ",
+    "def": "an activity that gives people enjoyment",
+    "ex": "Painting together is a fun activity for children.",
+    "exVi": "Cùng nhau vẽ là hoạt động vui vẻ với trẻ em.",
+    "ielts": 1
+  }
+]);

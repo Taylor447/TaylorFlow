@@ -1,0 +1,200 @@
+window.VOCAB.register("b1-u093", [
+  {
+    "id": "b1-u093-001",
+    "term": "moreover",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "hơn nữa",
+    "def": "used to add an important supporting point",
+    "ex": "The flat is spacious; moreover, rent includes heating.",
+    "exVi": "Căn hộ rộng; hơn nữa, tiền thuê gồm cả sưởi.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-002",
+    "term": "furthermore",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "thêm vào đó",
+    "def": "used to introduce another supporting fact",
+    "ex": "The route is shorter; furthermore, it avoids traffic.",
+    "exVi": "Tuyến đường ngắn hơn; thêm vào đó, tránh được kẹt xe.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-003",
+    "term": "additionally",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "ngoài ra",
+    "def": "used to add another fact or feature",
+    "ex": "Additionally, every student receives a travel card.",
+    "exVi": "Ngoài ra, mỗi sinh viên được cấp thẻ đi lại.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-004",
+    "term": "besides",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "ngoài ra; hơn nữa",
+    "def": "used to add a reason or point",
+    "ex": "Besides, the new library stays open late.",
+    "exVi": "Hơn nữa, thư viện mới mở cửa đến muộn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-005",
+    "term": "as well",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cũng; ngoài ra",
+    "def": "in addition to something already mentioned",
+    "ex": "The course covers speaking and writing as well.",
+    "exVi": "Khóa học cũng gồm kỹ năng nói và viết.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-006",
+    "term": "too",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "cũng",
+    "def": "in addition to what has already been said",
+    "ex": "My brother wants to join the trip too.",
+    "exVi": "Anh trai tôi cũng muốn tham gia chuyến đi.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-007",
+    "term": "not only but also",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "không những mà còn",
+    "def": "used to connect two related facts for emphasis",
+    "ex": "The park is not only beautiful but also accessible.",
+    "exVi": "Công viên không những đẹp mà còn dễ tiếp cận.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-008",
+    "term": "by contrast",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trái lại",
+    "def": "used to introduce a noticeably different point",
+    "ex": "The flat is small; by contrast, the house is spacious.",
+    "exVi": "Căn hộ nhỏ; trái lại, ngôi nhà rộng rãi.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-009",
+    "term": "whereas",
+    "pos": "conj",
+    "ipa": "",
+    "vi": "trong khi; trái lại",
+    "def": "used to contrast two facts or situations",
+    "ex": "My sister prefers buses, whereas I usually cycle.",
+    "exVi": "Chị tôi thích xe buýt, trong khi tôi thường đi xe đạp.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-010",
+    "term": "while",
+    "pos": "conj",
+    "ipa": "",
+    "vi": "trong khi; còn",
+    "def": "used to show a contrast between two things",
+    "ex": "The north is busy, while the south stays quiet.",
+    "exVi": "Phía bắc nhộn nhịp, còn phía nam yên tĩnh.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-011",
+    "term": "however",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "tuy nhiên",
+    "def": "used to introduce a contrasting statement",
+    "ex": "The ticket is expensive; however, the show is excellent.",
+    "exVi": "Vé đắt; tuy nhiên, buổi diễn rất hay.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-012",
+    "term": "nevertheless",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "tuy vậy",
+    "def": "despite what has just been said",
+    "ex": "The road was icy; nevertheless, the bus arrived safely.",
+    "exVi": "Đường đóng băng; tuy vậy xe buýt vẫn đến an toàn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-013",
+    "term": "despite",
+    "pos": "prep",
+    "ipa": "",
+    "vi": "mặc dù; bất chấp",
+    "def": "without being prevented by something",
+    "ex": "Despite the rain, the market remained busy.",
+    "exVi": "Mặc dù trời mưa, khu chợ vẫn đông.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-014",
+    "term": "although",
+    "pos": "conj",
+    "ipa": "",
+    "vi": "mặc dù",
+    "def": "used to introduce a fact that contrasts with another",
+    "ex": "Although the room was small, it felt comfortable.",
+    "exVi": "Mặc dù phòng nhỏ, nó vẫn dễ chịu.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-015",
+    "term": "even though",
+    "pos": "conj",
+    "ipa": "",
+    "vi": "mặc dù",
+    "def": "used to emphasize a contrast between facts",
+    "ex": "Even though it was late, the café stayed open.",
+    "exVi": "Dù đã muộn, quán cà phê vẫn mở.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-016",
+    "term": "in contrast",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trái lại",
+    "def": "in a noticeably different way",
+    "ex": "The first plan is costly; in contrast, the second is affordable.",
+    "exVi": "Kế hoạch đầu tốn kém; trái lại, kế hoạch hai phải chăng.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-017",
+    "term": "unlike",
+    "pos": "prep",
+    "ipa": "",
+    "vi": "khác với",
+    "def": "different from someone or something",
+    "ex": "Unlike last year, this winter has been mild.",
+    "exVi": "Khác năm ngoái, mùa đông này khá ôn hòa.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u093-018",
+    "term": "conversely",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "ngược lại",
+    "def": "in the opposite way or situation",
+    "ex": "Some jobs require travel; conversely, others are fully remote.",
+    "exVi": "Một số việc cần đi lại; ngược lại, việc khác hoàn toàn từ xa.",
+    "ielts": 1
+  }
+]);

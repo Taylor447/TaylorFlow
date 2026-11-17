@@ -1,0 +1,233 @@
+window.VOCAB.register("b1-u079", [
+  {
+    "id": "b1-u079-001",
+    "term": "give up",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "từ bỏ",
+    "def": "to stop trying or stop doing something",
+    "ex": "He gave up smoking two years ago.",
+    "exVi": "Anh ấy bỏ hút thuốc hai năm trước.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-002",
+    "term": "look after",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "chăm sóc",
+    "def": "to take care of someone or something",
+    "ex": "Can you look after my plants this weekend?",
+    "exVi": "Cuối tuần này bạn chăm cây giúp tôi được không?",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-003",
+    "term": "turn down",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "từ chối",
+    "def": "to refuse an offer or request",
+    "ex": "She turned down the job because of the long commute.",
+    "exVi": "Cô ấy từ chối việc vì đường đi quá xa.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-004",
+    "term": "put off",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "trì hoãn",
+    "def": "to delay doing something until later",
+    "ex": "They put off the meeting until Thursday.",
+    "exVi": "Họ hoãn cuộc họp đến thứ Năm.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-005",
+    "term": "carry on",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "tiếp tục",
+    "def": "to continue doing something",
+    "ex": "Please carry on with your reading.",
+    "exVi": "Hãy tiếp tục đọc bài.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-006",
+    "term": "find out",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "tìm ra; phát hiện",
+    "def": "to discover information or learn a fact",
+    "ex": "We found out the train was delayed.",
+    "exVi": "Chúng tôi biết chuyến tàu bị hoãn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-007",
+    "term": "look for",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "tìm kiếm",
+    "def": "to try to find someone or something",
+    "ex": "I am looking for my library card.",
+    "exVi": "Tôi đang tìm thẻ thư viện.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-008",
+    "term": "take off",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "cởi; cất cánh",
+    "def": "to remove clothing or leave the ground in a plane",
+    "ex": "Please take off your shoes at the door.",
+    "exVi": "Vui lòng cởi giày ở cửa.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-009",
+    "term": "set up",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "thành lập; thiết lập",
+    "def": "to start a business or arrange equipment",
+    "ex": "They set up a small business together.",
+    "exVi": "Họ cùng thành lập một doanh nghiệp nhỏ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-010",
+    "term": "bring up",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "đề cập; nuôi dạy",
+    "def": "to mention a subject or raise a child",
+    "ex": "She brought up an important point in the meeting.",
+    "exVi": "Cô ấy nêu một điểm quan trọng trong cuộc họp.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-011",
+    "term": "run out of",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "dùng hết",
+    "def": "to have no more of something",
+    "ex": "We ran out of coffee during breakfast.",
+    "exVi": "Chúng tôi hết cà phê trong bữa sáng.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-012",
+    "term": "get over",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "vượt qua",
+    "def": "to recover from an illness or difficult experience",
+    "ex": "It took him weeks to get over the flu.",
+    "exVi": "Anh ấy mất vài tuần để khỏi cúm.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-013",
+    "term": "look up",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "tra cứu",
+    "def": "to search for information in a book or online",
+    "ex": "I looked up the word in a dictionary.",
+    "exVi": "Tôi tra từ đó trong từ điển.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-014",
+    "term": "break down",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "hỏng; suy sụp",
+    "def": "to stop working or lose emotional control",
+    "ex": "Our car broke down outside the village.",
+    "exVi": "Xe chúng tôi hỏng bên ngoài làng.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-015",
+    "term": "come across",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "tình cờ bắt gặp",
+    "def": "to find or meet someone by chance",
+    "ex": "I came across an old photo while cleaning.",
+    "exVi": "Tôi tình cờ thấy ảnh cũ khi dọn dẹp.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-016",
+    "term": "make up",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "bịa ra; làm hòa",
+    "def": "to invent a story or become friendly again",
+    "ex": "He made up an excuse for being late.",
+    "exVi": "Anh ấy bịa lý do đến muộn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-017",
+    "term": "take up",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "bắt đầu một hoạt động",
+    "def": "to start doing a hobby or activity",
+    "ex": "She took up swimming last summer.",
+    "exVi": "Cô ấy bắt đầu bơi mùa hè trước.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-018",
+    "term": "look forward to",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "mong chờ",
+    "def": "to feel pleased about something that will happen",
+    "ex": "We look forward to seeing you next week.",
+    "exVi": "Chúng tôi mong gặp bạn tuần tới.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-019",
+    "term": "get along with",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "hòa thuận với",
+    "def": "to have a friendly relationship with someone",
+    "ex": "I get along with my new neighbours.",
+    "exVi": "Tôi hòa thuận với hàng xóm mới.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-020",
+    "term": "put up with",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "chịu đựng",
+    "def": "to accept an unpleasant situation without complaining",
+    "ex": "I cannot put up with the constant noise.",
+    "exVi": "Tôi không thể chịu tiếng ồn liên tục.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u079-021",
+    "term": "drop off",
+    "pos": "phr v",
+    "ipa": "",
+    "vi": "đưa ai đến; ngủ thiếp đi",
+    "def": "to take someone somewhere or fall asleep",
+    "ex": "I can drop off the children at school.",
+    "exVi": "Tôi có thể đưa bọn trẻ đến trường.",
+    "ielts": 1
+  }
+]);

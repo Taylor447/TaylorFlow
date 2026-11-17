@@ -1,0 +1,222 @@
+window.VOCAB.register("b2-u062", [
+  {
+    "id": "b2-u062-001",
+    "term": "condition",
+    "pos": "n",
+    "ipa": "",
+    "vi": "điều kiện",
+    "def": "a rule or situation that must be met or considered",
+    "ex": "You can borrow the equipment on one condition.",
+    "exVi": "Bạn có thể mượn thiết bị với một điều kiện.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-002",
+    "term": "on condition that",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "với điều kiện là",
+    "def": "only if a particular requirement is met",
+    "ex": "The grant is available on condition that the project is completed.",
+    "exVi": "Khoản tài trợ được cấp với điều kiện dự án hoàn thành.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-003",
+    "term": "provided",
+    "pos": "conj",
+    "ipa": "",
+    "vi": "miễn là; với điều kiện",
+    "def": "if or only if something else happens",
+    "ex": "You may use the room provided you leave it tidy.",
+    "exVi": "Bạn có thể dùng phòng miễn là dọn gọn.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-004",
+    "term": "provided that",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "với điều kiện rằng",
+    "def": "if a particular requirement is satisfied",
+    "ex": "We can extend the visit provided that transport is available.",
+    "exVi": "Chúng tôi có thể kéo dài chuyến thăm nếu có phương tiện.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-005",
+    "term": "unless",
+    "pos": "conj",
+    "ipa": "",
+    "vi": "trừ khi",
+    "def": "except if a particular condition is true",
+    "ex": "The match will continue unless the rain becomes heavier.",
+    "exVi": "Trận đấu sẽ tiếp tục trừ khi mưa nặng hạt hơn.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-006",
+    "term": "as long as",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "miễn là",
+    "def": "only if or while a condition remains true",
+    "ex": "You can stay as long as you follow the house rules.",
+    "exVi": "Bạn có thể ở miễn là tuân thủ nội quy nhà.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-007",
+    "term": "assuming",
+    "pos": "conj",
+    "ipa": "",
+    "vi": "giả sử rằng",
+    "def": "if one accepts that something is true for the discussion",
+    "ex": "Assuming the road is clear, we should arrive by noon.",
+    "exVi": "Nếu đường thông thoáng, chúng tôi sẽ đến trước trưa.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-008",
+    "term": "supposing",
+    "pos": "conj",
+    "ipa": "",
+    "vi": "giả sử rằng",
+    "def": "if one imagines a particular situation is true",
+    "ex": "Supposing the road floods, where could we wait safely?",
+    "exVi": "Giả sử đường ngập, chúng ta có thể chờ an toàn ở đâu?",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-009",
+    "term": "in case",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "phòng khi",
+    "def": "because something may happen",
+    "ex": "Take a light jacket in case the evening turns cold.",
+    "exVi": "Mang áo khoác mỏng phòng khi tối trời lạnh.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-010",
+    "term": "otherwise",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "nếu không thì",
+    "def": "if not; in a different situation",
+    "ex": "Leave now; otherwise, you may miss the last bus.",
+    "exVi": "Rời đi ngay, nếu không bạn có thể lỡ chuyến xe cuối.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-011",
+    "term": "only if",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chỉ khi",
+    "def": "on the condition that something else happens",
+    "ex": "The pass is valid only if it has a photograph.",
+    "exVi": "Thẻ chỉ hợp lệ khi có ảnh.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-012",
+    "term": "even if",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ngay cả khi",
+    "def": "whether or not a condition is true",
+    "ex": "Even if the weather changes, the indoor tour will run.",
+    "exVi": "Ngay cả khi thời tiết đổi, chuyến tham quan trong nhà vẫn diễn ra.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-013",
+    "term": "whether or not",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dù có hay không",
+    "def": "regardless of whether something happens or is true",
+    "ex": "We will hold the meeting whether or not everyone can attend.",
+    "exVi": "Chúng tôi vẫn họp dù mọi người có thể tham dự hay không.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-014",
+    "term": "contingency",
+    "pos": "n",
+    "ipa": "",
+    "vi": "tình huống dự phòng",
+    "def": "a possible future event that requires preparation",
+    "ex": "The travel plan includes a contingency for severe weather.",
+    "exVi": "Kế hoạch du lịch có phương án dự phòng khi thời tiết xấu.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-015",
+    "term": "conditional",
+    "pos": "adj",
+    "ipa": "",
+    "vi": "có điều kiện",
+    "def": "depending on a particular requirement being met",
+    "ex": "The offer is conditional on a successful inspection.",
+    "exVi": "Đề nghị phụ thuộc vào kết quả kiểm tra đạt yêu cầu.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-016",
+    "term": "subject to",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "phụ thuộc vào; tùy theo",
+    "def": "depending on a particular condition or approval",
+    "ex": "The outdoor event is subject to local safety guidance.",
+    "exVi": "Sự kiện ngoài trời tùy theo hướng dẫn an toàn địa phương.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-017",
+    "term": "in the event of",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trong trường hợp",
+    "def": "if a particular event or problem happens",
+    "ex": "In the event of an alarm, use the nearest exit.",
+    "exVi": "Trong trường hợp chuông báo vang lên, hãy dùng lối thoát gần nhất.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-018",
+    "term": "in case of",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trong trường hợp có",
+    "def": "if a particular event or problem occurs",
+    "ex": "In case of fire, do not use the lift.",
+    "exVi": "Trong trường hợp hỏa hoạn, không dùng thang máy.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-019",
+    "term": "on the assumption that",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dựa trên giả định rằng",
+    "def": "based on the idea that something is or will be true",
+    "ex": "The estimate was made on the assumption that prices remain stable.",
+    "exVi": "Ước tính dựa trên giả định giá cả ổn định.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u062-020",
+    "term": "under certain circumstances",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trong một số trường hợp nhất định",
+    "def": "when particular conditions or situations apply",
+    "ex": "Under certain circumstances, students may change their course.",
+    "exVi": "Trong một số trường hợp, sinh viên có thể đổi khóa học.",
+    "ielts": 1
+  }
+]);

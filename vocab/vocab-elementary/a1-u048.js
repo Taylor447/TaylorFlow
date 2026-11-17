@@ -1,0 +1,222 @@
+window.VOCAB.register("a1-u048", [
+  {
+    "id": "a1-u048-001",
+    "term": "have a conversation",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trò chuyện",
+    "def": "talk with someone for a while",
+    "ex": "We had a conversation after class.",
+    "exVi": "Chúng tôi trò chuyện sau giờ học.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-002",
+    "term": "start a conversation",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bắt đầu câu chuyện",
+    "def": "begin talking with someone",
+    "ex": "She started a conversation on the bus.",
+    "exVi": "Cô ấy bắt chuyện trên xe buýt.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-003",
+    "term": "join a conversation",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tham gia cuộc trò chuyện",
+    "def": "begin taking part in a discussion",
+    "ex": "May I join your conversation?",
+    "exVi": "Tôi có thể tham gia cuộc trò chuyện không?",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-004",
+    "term": "end a conversation",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kết thúc cuộc trò chuyện",
+    "def": "stop talking with someone",
+    "ex": "He ended the conversation politely.",
+    "exVi": "Anh ấy lịch sự kết thúc cuộc trò chuyện.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-005",
+    "term": "call the office",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "gọi đến văn phòng",
+    "def": "phone a workplace to speak with staff",
+    "ex": "I called the office to ask about the schedule.",
+    "exVi": "Tôi gọi đến văn phòng để hỏi về lịch trình.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-006",
+    "term": "call someone back",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "gọi lại cho ai",
+    "def": "phone someone who called earlier",
+    "ex": "I will call you back tonight.",
+    "exVi": "Tối nay tôi sẽ gọi lại cho bạn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-007",
+    "term": "leave a message",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "để lại lời nhắn",
+    "def": "give information for someone to hear later",
+    "ex": "Please leave a message after the beep.",
+    "exVi": "Vui lòng để lại lời nhắn sau tiếng bíp.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-008",
+    "term": "send a text",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "gửi tin nhắn",
+    "def": "write and send a short phone message",
+    "ex": "He sent a text before the meeting.",
+    "exVi": "Anh ấy gửi tin nhắn trước cuộc họp.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-009",
+    "term": "chat online",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trò chuyện trực tuyến",
+    "def": "talk with someone through the internet",
+    "ex": "We chat online when we cannot meet.",
+    "exVi": "Chúng tôi trò chuyện trực tuyến khi không thể gặp nhau.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-010",
+    "term": "talk face to face",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nói chuyện trực tiếp",
+    "def": "speak with someone in person",
+    "ex": "They prefer to talk face to face.",
+    "exVi": "Họ thích nói chuyện trực tiếp hơn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-011",
+    "term": "ask a question",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đặt câu hỏi",
+    "def": "say something to get information",
+    "ex": "The student asked a question about homework.",
+    "exVi": "Học sinh đặt câu hỏi về bài tập.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-012",
+    "term": "give an answer",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa ra câu trả lời",
+    "def": "respond to a question",
+    "ex": "Please give an answer in a full sentence.",
+    "exVi": "Hãy trả lời bằng một câu hoàn chỉnh.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-013",
+    "term": "ask someone for advice",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xin lời khuyên",
+    "def": "request guidance from another person",
+    "ex": "I asked my sister for advice.",
+    "exVi": "Tôi xin chị gái lời khuyên.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-014",
+    "term": "tell someone the truth",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nói thật với ai",
+    "def": "give someone honest information",
+    "ex": "You should tell your teacher the truth.",
+    "exVi": "Bạn nên nói thật với giáo viên.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-015",
+    "term": "explain something clearly",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giải thích điều gì rõ ràng",
+    "def": "make an idea easy to understand",
+    "ex": "Could you explain the rule clearly?",
+    "exVi": "Bạn giải thích quy tắc rõ hơn được không?",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-016",
+    "term": "introduce someone to someone",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giới thiệu ai với ai",
+    "def": "tell two people each other’s names",
+    "ex": "I introduced my friend to our new neighbor.",
+    "exVi": "Tôi giới thiệu bạn mình với người hàng xóm mới.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-017",
+    "term": "speak in public",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nói trước đám đông",
+    "def": "talk to a group of people",
+    "ex": "She feels nervous speaking in public.",
+    "exVi": "Cô ấy thấy hồi hộp khi nói trước đám đông.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-018",
+    "term": "speak a language",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nói một ngôn ngữ",
+    "def": "use a language to communicate",
+    "ex": "My grandfather speaks three languages.",
+    "exVi": "Ông tôi nói được ba ngôn ngữ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-019",
+    "term": "talk quietly",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nói chuyện nhỏ nhẹ",
+    "def": "speak in a low voice",
+    "ex": "They talked quietly in the library.",
+    "exVi": "Họ nói chuyện nhỏ nhẹ trong thư viện.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u048-020",
+    "term": "talk loudly",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nói chuyện lớn tiếng",
+    "def": "speak in a strong, high voice",
+    "ex": "Please do not talk loudly here.",
+    "exVi": "Xin đừng nói lớn tiếng ở đây.",
+    "ielts": 1
+  }
+]);

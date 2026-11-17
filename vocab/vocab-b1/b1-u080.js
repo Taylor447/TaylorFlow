@@ -1,0 +1,200 @@
+window.VOCAB.register("b1-u080", [
+  {
+    "id": "b1-u080-001",
+    "term": "multiword verb",
+    "pos": "n",
+    "ipa": "",
+    "vi": "động từ nhiều thành tố",
+    "def": "a verb made from more than one word",
+    "ex": "A multiword verb can have a particle after it.",
+    "exVi": "Động từ nhiều thành tố có thể đi với tiểu từ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-002",
+    "term": "particle",
+    "pos": "n",
+    "ipa": "",
+    "vi": "tiểu từ",
+    "def": "a short adverb or preposition used with a verb",
+    "ex": "The particle can change the meaning of a verb.",
+    "exVi": "Tiểu từ có thể làm đổi nghĩa của động từ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-003",
+    "term": "direct object",
+    "pos": "n",
+    "ipa": "",
+    "vi": "tân ngữ trực tiếp",
+    "def": "the person or thing directly affected by a verb",
+    "ex": "In this sentence, the book is the direct object.",
+    "exVi": "Trong câu này, cuốn sách là tân ngữ trực tiếp.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-004",
+    "term": "separable phrasal verb",
+    "pos": "n",
+    "ipa": "",
+    "vi": "cụm động từ tách được",
+    "def": "a phrasal verb whose object can go between its parts",
+    "ex": "Turn off the light is a separable phrasal verb.",
+    "exVi": "Turn off the light là cụm động từ tách được.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-005",
+    "term": "inseparable phrasal verb",
+    "pos": "n",
+    "ipa": "",
+    "vi": "cụm động từ không tách được",
+    "def": "a phrasal verb whose parts must stay together",
+    "ex": "Look after the child is an inseparable phrasal verb.",
+    "exVi": "Look after the child là cụm động từ không tách được.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-006",
+    "term": "transitive phrasal verb",
+    "pos": "n",
+    "ipa": "",
+    "vi": "cụm động từ ngoại động",
+    "def": "a phrasal verb that takes an object",
+    "ex": "She looked up the word uses a transitive phrasal verb.",
+    "exVi": "She looked up the word dùng cụm động từ ngoại động.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-007",
+    "term": "intransitive phrasal verb",
+    "pos": "n",
+    "ipa": "",
+    "vi": "cụm động từ nội động",
+    "def": "a phrasal verb that does not take an object",
+    "ex": "The car broke down uses an intransitive phrasal verb.",
+    "exVi": "The car broke down dùng cụm động từ nội động.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-008",
+    "term": "verb + particle",
+    "pos": "n",
+    "ipa": "",
+    "vi": "động từ + tiểu từ",
+    "def": "a common structure formed from a verb and particle",
+    "ex": "Give up follows the verb + particle pattern.",
+    "exVi": "Give up theo cấu trúc động từ cộng tiểu từ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-009",
+    "term": "verb + particle + preposition",
+    "pos": "n",
+    "ipa": "",
+    "vi": "động từ + tiểu từ + giới từ",
+    "def": "a structure containing a verb, particle, and preposition",
+    "ex": "Put up with follows the verb + particle + preposition pattern.",
+    "exVi": "Put up with theo cấu trúc động từ, tiểu từ, giới từ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-010",
+    "term": "particle position",
+    "pos": "n",
+    "ipa": "",
+    "vi": "vị trí tiểu từ",
+    "def": "the place where a particle appears in a sentence",
+    "ex": "Particle position changes in some separable verbs.",
+    "exVi": "Vị trí tiểu từ đổi ở một số động từ tách được.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-011",
+    "term": "object pronoun",
+    "pos": "n",
+    "ipa": "",
+    "vi": "đại từ tân ngữ",
+    "def": "a pronoun used as the object of a verb or preposition",
+    "ex": "Use an object pronoun after the particle here.",
+    "exVi": "Dùng đại từ tân ngữ sau tiểu từ ở đây.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-012",
+    "term": "pronoun object",
+    "pos": "n",
+    "ipa": "",
+    "vi": "tân ngữ là đại từ",
+    "def": "an object expressed with a pronoun rather than a noun",
+    "ex": "A pronoun object usually comes before the particle.",
+    "exVi": "Tân ngữ là đại từ thường đứng trước tiểu từ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-013",
+    "term": "separate the particle",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tách tiểu từ",
+    "def": "to place an object between a verb and its particle",
+    "ex": "You can separate the particle in this example.",
+    "exVi": "Bạn có thể tách tiểu từ trong ví dụ này.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-014",
+    "term": "put the object between",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đặt tân ngữ vào giữa",
+    "def": "to place an object between the verb and particle",
+    "ex": "Put the object between when the verb is separable.",
+    "exVi": "Đặt tân ngữ ở giữa khi cụm động từ tách được.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-015",
+    "term": "formal phrasal verb",
+    "pos": "n",
+    "ipa": "",
+    "vi": "cụm động từ trang trọng",
+    "def": "a phrasal verb suitable for formal communication",
+    "ex": "The report uses a formal phrasal verb in this section.",
+    "exVi": "Báo cáo dùng cụm động từ trang trọng ở phần này.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-016",
+    "term": "informal phrasal verb",
+    "pos": "n",
+    "ipa": "",
+    "vi": "cụm động từ thân mật",
+    "def": "a phrasal verb more common in casual speech",
+    "ex": "Friends often use an informal phrasal verb in conversation.",
+    "exVi": "Bạn bè thường dùng cụm động từ thân mật khi trò chuyện.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-017",
+    "term": "literal meaning",
+    "pos": "n",
+    "ipa": "",
+    "vi": "nghĩa đen",
+    "def": "the basic meaning of a word or expression",
+    "ex": "The phrase has a literal meaning in this sentence.",
+    "exVi": "Cụm này mang nghĩa đen trong câu.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u080-018",
+    "term": "figurative meaning",
+    "pos": "n",
+    "ipa": "",
+    "vi": "nghĩa bóng",
+    "def": "a meaning that is different from the literal one",
+    "ex": "The expression has a figurative meaning here.",
+    "exVi": "Thành ngữ này mang nghĩa bóng ở đây.",
+    "ielts": 1
+  }
+]);

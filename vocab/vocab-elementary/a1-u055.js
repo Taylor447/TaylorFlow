@@ -1,0 +1,233 @@
+window.VOCAB.register("a1-u055", [
+  {
+    "id": "a1-u055-001",
+    "term": "some advice",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "một vài lời khuyên",
+    "def": "ideas about what someone should do",
+    "ex": "My teacher gave me some advice about study habits.",
+    "exVi": "Giáo viên cho tôi vài lời khuyên về thói quen học tập.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-002",
+    "term": "useful information",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "thông tin hữu ích",
+    "def": "facts that help someone understand or decide",
+    "ex": "This website provides useful information for visitors.",
+    "exVi": "Trang web này cung cấp thông tin hữu ích cho du khách.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-003",
+    "term": "good news",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tin vui",
+    "def": "a positive piece of information",
+    "ex": "We heard good news about the exam results.",
+    "exVi": "Chúng tôi nghe tin vui về kết quả thi.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-004",
+    "term": "modern furniture",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đồ nội thất hiện đại",
+    "def": "chairs, tables, and other items in a modern style",
+    "ex": "The apartment has modern furniture and bright rooms.",
+    "exVi": "Căn hộ có đồ nội thất hiện đại và phòng sáng sủa.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-005",
+    "term": "heavy luggage",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hành lý nặng",
+    "def": "bags and cases that weigh a lot",
+    "ex": "The porter carried our heavy luggage upstairs.",
+    "exVi": "Nhân viên khuân vác xách hành lý nặng lên lầu.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-006",
+    "term": "sports equipment",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dụng cụ thể thao",
+    "def": "objects used for playing or training in sport",
+    "ex": "The school bought new sports equipment.",
+    "exVi": "Trường học mua dụng cụ thể thao mới.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-007",
+    "term": "too much homework",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "quá nhiều bài tập về nhà",
+    "def": "a larger amount of school work than is comfortable",
+    "ex": "We have too much homework this weekend.",
+    "exVi": "Cuối tuần này chúng tôi có quá nhiều bài tập.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-008",
+    "term": "share housework",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chia sẻ việc nhà",
+    "def": "divide cleaning and household tasks with others",
+    "ex": "My roommates share housework fairly.",
+    "exVi": "Bạn cùng phòng của tôi chia việc nhà công bằng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-009",
+    "term": "heavy traffic",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giao thông đông đúc",
+    "def": "many vehicles moving slowly on roads",
+    "ex": "Heavy traffic delayed our taxi.",
+    "exVi": "Giao thông đông khiến taxi của chúng tôi bị trễ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-010",
+    "term": "warm weather",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "thời tiết ấm áp",
+    "def": "temperatures that feel pleasantly warm",
+    "ex": "We enjoyed warm weather during our holiday.",
+    "exVi": "Chúng tôi tận hưởng thời tiết ấm áp trong kỳ nghỉ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-011",
+    "term": "save money",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tiết kiệm tiền",
+    "def": "keep money instead of spending it",
+    "ex": "She saves money for a new laptop.",
+    "exVi": "Cô ấy tiết kiệm tiền để mua máy tính mới.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-012",
+    "term": "fresh bread",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bánh mì mới ra lò",
+    "def": "bread that has been made recently",
+    "ex": "The smell of fresh bread filled the kitchen.",
+    "exVi": "Mùi bánh mì mới lan khắp căn bếp.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-013",
+    "term": "fried rice",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cơm chiên",
+    "def": "rice cooked in a pan with other ingredients",
+    "ex": "We ordered fried rice for lunch.",
+    "exVi": "Chúng tôi gọi cơm chiên cho bữa trưa.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-014",
+    "term": "drinking water",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nước uống",
+    "def": "water that is safe to drink",
+    "ex": "Please bring drinking water on the hike.",
+    "exVi": "Vui lòng mang nước uống khi đi bộ đường dài.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-015",
+    "term": "fresh milk",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "sữa tươi",
+    "def": "milk that has not been turned into a product like cheese",
+    "ex": "He drinks fresh milk every morning.",
+    "exVi": "Anh ấy uống sữa tươi mỗi sáng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-016",
+    "term": "brown sugar",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đường nâu",
+    "def": "sugar with a brown colour and rich flavour",
+    "ex": "Add a little brown sugar to the tea.",
+    "exVi": "Thêm một ít đường nâu vào trà.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-017",
+    "term": "a pinch of salt",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "một nhúm muối",
+    "def": "a very small amount of salt held between fingers",
+    "ex": "Add a pinch of salt to the soup.",
+    "exVi": "Thêm một nhúm muối vào súp.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-018",
+    "term": "background music",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nhạc nền",
+    "def": "music played softly while another activity happens",
+    "ex": "Soft background music played in the café.",
+    "exVi": "Nhạc nền nhẹ nhàng phát trong quán cà phê.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-019",
+    "term": "local knowledge",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kiến thức địa phương",
+    "def": "understanding of a particular area and its people",
+    "ex": "Local knowledge helped us find the quiet beach.",
+    "exVi": "Kiến thức địa phương giúp chúng tôi tìm ra bãi biển yên tĩnh.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-020",
+    "term": "academic progress",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tiến bộ trong học tập",
+    "def": "improvement in a learner’s school work or skills",
+    "ex": "Regular reading supports academic progress.",
+    "exVi": "Đọc thường xuyên giúp ích cho việc học.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u055-021",
+    "term": "medical research",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nghiên cứu y học",
+    "def": "careful study to improve health and treatment",
+    "ex": "Medical research may lead to better treatments.",
+    "exVi": "Nghiên cứu y học có thể tạo ra phương pháp điều trị tốt hơn.",
+    "ielts": 1
+  }
+]);

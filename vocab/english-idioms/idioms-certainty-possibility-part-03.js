@@ -1,0 +1,211 @@
+window.VOCAB.register("idioms-certainty-possibility", [
+  {
+    "id": "idioms-certainty-possibility-081",
+    "term": "a remote possibility",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "khả năng rất xa vời",
+    "def": "a possibility that is very unlikely",
+    "ex": "There is a remote possibility the package arrives before noon.",
+    "exVi": "Có khả năng rất thấp bưu kiện sẽ đến trước buổi trưa.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-082",
+    "term": "a remote chance",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "cơ hội rất mong manh",
+    "def": "a very small chance that something will happen",
+    "ex": "We have a remote chance of seeing the northern lights tonight.",
+    "exVi": "Tối nay chúng tôi có cơ hội rất nhỏ được thấy cực quang.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-083",
+    "term": "a slim possibility",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "khả năng rất nhỏ",
+    "def": "a very low possibility",
+    "ex": "There is a slim possibility the old files can be recovered.",
+    "exVi": "Có khả năng nhỏ những tệp cũ có thể khôi phục.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-084",
+    "term": "not out of the question",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "vẫn có khả năng xảy ra",
+    "def": "still possible, though not certain",
+    "ex": "A short extension is not out of the question.",
+    "exVi": "Việc gia hạn ngắn vẫn có thể được chấp thuận.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-085",
+    "term": "there's a good chance",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "có khả năng cao",
+    "def": "it is quite likely that something will happen",
+    "ex": "There's a good chance we'll finish before sunset.",
+    "exVi": "Có khả năng cao chúng ta sẽ xong trước hoàng hôn.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-086",
+    "term": "a distinct possibility",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "khả năng rõ ràng, đáng cân nhắc",
+    "def": "a real possibility that should be considered",
+    "ex": "A power cut is a distinct possibility during the storm.",
+    "exVi": "Mất điện là khả năng đáng cân nhắc trong cơn bão.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-087",
+    "term": "a strong possibility",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "khả năng cao",
+    "def": "an outcome that is quite likely",
+    "ex": "A second interview is a strong possibility after that performance.",
+    "exVi": "Sau phần thể hiện đó, khả năng có vòng phỏng vấn thứ hai khá cao.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-088",
+    "term": "a real possibility",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "khả năng có thể thực sự xảy ra",
+    "def": "a genuine possibility rather than an impossible idea",
+    "ex": "A shared office is a real possibility for next year.",
+    "exVi": "Năm tới có khả năng thực sự sẽ có văn phòng chung.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-089",
+    "term": "can't be ruled out",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "chưa thể loại trừ khả năng",
+    "def": "cannot be said to be impossible or untrue",
+    "ex": "A connection between the cases can't be ruled out.",
+    "exVi": "Chưa thể loại trừ mối liên hệ giữa các vụ việc.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-090",
+    "term": "no way to know",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "không có cách nào biết chắc",
+    "def": "no means of finding out the answer",
+    "ex": "There's no way to know who left the window open.",
+    "exVi": "Không có cách nào biết ai đã để cửa sổ mở.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-091",
+    "term": "can't rule out",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "không thể loại trừ khả năng",
+    "def": "to be unable to say that something is impossible",
+    "ex": "We can't rule out another delay because of the weather.",
+    "exVi": "Chúng ta không thể loại trừ khả năng thời tiết gây chậm trễ nữa.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-092",
+    "term": "no telling",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "không thể biết trước",
+    "def": "impossible to predict or know",
+    "ex": "There's no telling how long the repairs will take.",
+    "exVi": "Không thể biết việc sửa chữa sẽ kéo dài bao lâu.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-093",
+    "term": "not inconceivable",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "không phải là điều không thể hình dung",
+    "def": "possible to imagine, although perhaps unlikely",
+    "ex": "It's not inconceivable that the meeting will move online.",
+    "exVi": "Không phải là không thể cuộc họp sẽ chuyển sang trực tuyến.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-094",
+    "term": "to the best of my knowledge",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "theo những gì tôi biết",
+    "def": "as far as I know, based on available information",
+    "ex": "To the best of my knowledge, the bus still stops here.",
+    "exVi": "Theo những gì tôi biết, xe buýt vẫn dừng ở đây.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-095",
+    "term": "for all intents and purposes",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "trên thực tế, xét mọi mặt",
+    "def": "in practical terms, even if not officially",
+    "ex": "For all intents and purposes, the old bridge is closed.",
+    "exVi": "Trên thực tế, cây cầu cũ đã đóng cửa.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-096",
+    "term": "in all likelihood",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "rất có khả năng",
+    "def": "very probably",
+    "ex": "In all likelihood, the garden will reopen next week.",
+    "exVi": "Rất có khả năng khu vườn sẽ mở lại tuần tới.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-097",
+    "term": "in all probability",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "hầu như chắc chắn",
+    "def": "with a very high degree of likelihood",
+    "ex": "In all probability, the meeting will finish before lunch.",
+    "exVi": "Hầu như chắc chắn cuộc họp sẽ kết thúc trước bữa trưa.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-098",
+    "term": "in principle",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "về nguyên tắc, nếu điều kiện cho phép",
+    "def": "in theory, although practical details may differ",
+    "ex": "In principle, visitors can use the study rooms for free.",
+    "exVi": "Về nguyên tắc, khách có thể dùng phòng học miễn phí.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-certainty-possibility-099",
+    "term": "technically speaking",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "nói chính xác theo khía cạnh kỹ thuật",
+    "def": "according to exact facts or rules",
+    "ex": "Technically speaking, the path closes at sunset.",
+    "exVi": "Nói chính xác thì lối đi đóng cửa lúc hoàng hôn.",
+    "ielts": 1
+  }
+]);

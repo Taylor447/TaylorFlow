@@ -1,0 +1,222 @@
+window.VOCAB.register("idioms-behavior-approach", [
+  {
+    "id": "idioms-behavior-approach-151",
+    "term": "play it by ear",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "ứng biến tùy tình hình",
+    "def": "to decide what to do as a situation develops",
+    "ex": "We had no fixed route, so we played it by ear.",
+    "exVi": "Chúng tôi không có lộ trình cố định nên ứng biến tùy tình hình.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-152",
+    "term": "keep your options open",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "chưa vội quyết định để còn lựa chọn",
+    "def": "to avoid choosing too soon so alternatives remain possible",
+    "ex": "I kept my options open while comparing two courses.",
+    "exVi": "Tôi chưa vội chọn khi đang so sánh hai khóa học.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-153",
+    "term": "make no bones about it",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "nói thẳng, không che giấu ý kiến",
+    "def": "to speak frankly and directly about something",
+    "ex": "Our coach made no bones about the need for regular practice.",
+    "exVi": "Huấn luyện viên nói thẳng rằng cần luyện tập đều đặn.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-154",
+    "term": "put your foot in your mouth",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "lỡ nói điều khiến mình hoặc người khác khó xử",
+    "def": "to say something embarrassing or offensive by mistake",
+    "ex": "I put my foot in my mouth by asking about her old job.",
+    "exVi": "Tôi lỡ lời khi hỏi về công việc cũ của cô ấy.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-155",
+    "term": "make light of something",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "coi nhẹ một vấn đề",
+    "def": "to treat a serious matter as if it were unimportant",
+    "ex": "He made light of the mistake, although the client was upset.",
+    "exVi": "Anh ấy coi nhẹ sai sót dù khách hàng đang bực.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-156",
+    "term": "take a back seat",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "ít tham gia hơn và để người khác dẫn dắt",
+    "def": "to become less involved and let others take control",
+    "ex": "I took a back seat and let the new leader decide.",
+    "exVi": "Tôi bớt can thiệp và để người lãnh đạo mới quyết định.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-157",
+    "term": "mend your ways",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "sửa đổi hành vi không tốt",
+    "def": "to improve your behavior after doing wrong",
+    "ex": "He mended his ways after losing several good friends.",
+    "exVi": "Anh ấy sửa đổi cách cư xử sau khi mất vài người bạn tốt.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-158",
+    "term": "mind your p's and q's",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "chú ý cư xử lịch sự, đúng mực",
+    "def": "to be especially careful to behave politely",
+    "ex": "Mind your p's and q's when speaking to the guests.",
+    "exVi": "Hãy chú ý cư xử lịch sự khi nói chuyện với khách.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-159",
+    "term": "do someone a good turn",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "giúp ai một việc tốt",
+    "def": "to help someone with a kind or useful action",
+    "ex": "Nhi did me a good turn by lending me her bicycle.",
+    "exVi": "Nhi giúp tôi một việc tốt khi cho tôi mượn xe đạp.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-160",
+    "term": "stay out of someone's way",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "tránh làm phiền hoặc cản trở ai",
+    "def": "to avoid interfering with or disturbing someone",
+    "ex": "I stayed out of the cook's way during dinner service.",
+    "exVi": "Tôi tránh làm phiền đầu bếp trong giờ phục vụ bữa tối.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-161",
+    "term": "keep someone on their toes",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "khiến ai luôn cảnh giác và tập trung",
+    "def": "to keep someone alert by surprising or challenging them",
+    "ex": "The surprise questions kept us on our toes.",
+    "exVi": "Những câu hỏi bất ngờ khiến chúng tôi luôn tập trung.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-162",
+    "term": "come to terms with something",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "chấp nhận một sự thật khó khăn",
+    "def": "to gradually accept a difficult or unpleasant situation",
+    "ex": "She came to terms with moving away from her hometown.",
+    "exVi": "Cô ấy dần chấp nhận việc rời xa quê nhà.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-163",
+    "term": "take someone under your wing",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "hướng dẫn và che chở người ít kinh nghiệm",
+    "def": "to guide and protect someone less experienced",
+    "ex": "The senior nurse took me under her wing during my first week.",
+    "exVi": "Y tá giàu kinh nghiệm dìu dắt tôi trong tuần đầu.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-164",
+    "term": "be a good sport",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "chấp nhận kết quả một cách vui vẻ",
+    "def": "to accept a result or joke cheerfully and fairly",
+    "ex": "He was a good sport when our team beat his.",
+    "exVi": "Anh ấy vui vẻ chấp nhận khi đội chúng tôi thắng đội anh ấy.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-165",
+    "term": "keep up appearances",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "cố giữ vẻ ngoài ổn thỏa dù đang gặp khó khăn",
+    "def": "to hide problems by maintaining a normal public image",
+    "ex": "They kept up appearances despite their financial worries.",
+    "exVi": "Họ vẫn tỏ ra ổn dù đang lo lắng về tiền bạc.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-166",
+    "term": "put on an act",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "giả vờ có cảm xúc hoặc tính cách khác",
+    "def": "to pretend to feel or behave in a particular way",
+    "ex": "He put on an act to hide how nervous he felt.",
+    "exVi": "Anh ấy giả vờ để che giấu sự lo lắng.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-167",
+    "term": "play dumb",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "giả vờ không biết",
+    "def": "to pretend not to know or understand something",
+    "ex": "She played dumb when asked who had moved the chair.",
+    "exVi": "Cô ấy giả vờ không biết ai đã chuyển chiếc ghế.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-168",
+    "term": "get a grip",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "kiểm soát lại cảm xúc hoặc hành động",
+    "def": "to make yourself behave calmly and sensibly",
+    "ex": "Take a breath and get a grip before the presentation.",
+    "exVi": "Hít thở đi và bình tĩnh lại trước buổi thuyết trình.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-169",
+    "term": "pull yourself together",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "lấy lại bình tĩnh",
+    "def": "to regain control of your emotions",
+    "ex": "She pulled herself together and answered the questions.",
+    "exVi": "Cô ấy lấy lại bình tĩnh rồi trả lời các câu hỏi.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-behavior-approach-170",
+    "term": "call someone out",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "chất vấn công khai hành vi sai trái của ai",
+    "def": "to challenge someone publicly about bad behavior or a false claim",
+    "ex": "I called him out for taking credit for her idea.",
+    "exVi": "Tôi chất vấn anh ấy vì nhận công lao về ý tưởng của cô ấy.",
+    "ielts": 1
+  }
+]);

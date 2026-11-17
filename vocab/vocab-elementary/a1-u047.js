@@ -1,0 +1,222 @@
+window.VOCAB.register("a1-u047", [
+  {
+    "id": "a1-u047-001",
+    "term": "wake up",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "thức giấc",
+    "def": "stop sleeping",
+    "ex": "I wake up when my alarm rings.",
+    "exVi": "Tôi thức giấc khi chuông báo thức reo.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-002",
+    "term": "get out of bed",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ra khỏi giường",
+    "def": "leave your bed after waking",
+    "ex": "He got out of bed at seven.",
+    "exVi": "Anh ấy ra khỏi giường lúc bảy giờ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-003",
+    "term": "make your bed",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dọn giường",
+    "def": "arrange the sheets and blankets neatly",
+    "ex": "I make my bed before breakfast.",
+    "exVi": "Tôi dọn giường trước bữa sáng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-004",
+    "term": "fall asleep",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "thiếp đi",
+    "def": "begin to sleep",
+    "ex": "The baby fell asleep in the car.",
+    "exVi": "Em bé thiếp đi trên xe.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-005",
+    "term": "wake someone up",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đánh thức ai",
+    "def": "make someone stop sleeping",
+    "ex": "Please wake me up at six.",
+    "exVi": "Làm ơn đánh thức tôi lúc sáu giờ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-006",
+    "term": "set an alarm",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đặt báo thức",
+    "def": "choose a time for an alarm to ring",
+    "ex": "She set an alarm for the morning.",
+    "exVi": "Cô ấy đặt báo thức cho buổi sáng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-007",
+    "term": "switch the light off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tắt đèn",
+    "def": "use a switch to stop a light working",
+    "ex": "He switched the light off before leaving.",
+    "exVi": "Anh ấy tắt đèn trước khi rời đi.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-008",
+    "term": "lock the door",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "khóa cửa",
+    "def": "close a door with a key so people cannot enter",
+    "ex": "Remember to lock the door at night.",
+    "exVi": "Nhớ khóa cửa vào ban đêm.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-009",
+    "term": "open the window",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mở cửa sổ",
+    "def": "move a window so air can come into a room",
+    "ex": "I opened the window for fresh air.",
+    "exVi": "Tôi mở cửa sổ để đón không khí trong lành.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-010",
+    "term": "close the door",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đóng cửa",
+    "def": "move a door so that an entrance is covered",
+    "ex": "Please close the door quietly.",
+    "exVi": "Làm ơn đóng cửa nhẹ nhàng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-011",
+    "term": "put on your shoes",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang giày vào",
+    "def": "place your shoes on your feet",
+    "ex": "Put on your shoes before we leave.",
+    "exVi": "Mang giày vào trước khi chúng ta đi.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-012",
+    "term": "take off your shoes",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cởi giày ra",
+    "def": "remove your shoes from your feet",
+    "ex": "Please take off your shoes at the door.",
+    "exVi": "Vui lòng cởi giày ở cửa.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-013",
+    "term": "tidy your room",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dọn phòng",
+    "def": "make your room clean and orderly",
+    "ex": "He tidied his room before his friends arrived.",
+    "exVi": "Cậu ấy dọn phòng trước khi bạn bè đến.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-014",
+    "term": "set the table",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bày bàn ăn",
+    "def": "put plates and cutlery on a table before a meal",
+    "ex": "The children set the table for dinner.",
+    "exVi": "Bọn trẻ bày bàn cho bữa tối.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-015",
+    "term": "do the laundry",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giặt giũ",
+    "def": "wash clothes and other fabric items",
+    "ex": "I do the laundry on Sunday mornings.",
+    "exVi": "Tôi giặt giũ vào sáng Chủ nhật.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-016",
+    "term": "wash your face",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "rửa mặt",
+    "def": "clean your face with water",
+    "ex": "She washed her face before school.",
+    "exVi": "Cô ấy rửa mặt trước khi đến trường.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-017",
+    "term": "brush your hair",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chải tóc",
+    "def": "make your hair neat with a brush",
+    "ex": "He brushed his hair in front of the mirror.",
+    "exVi": "Cậu ấy chải tóc trước gương.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-018",
+    "term": "carry a bag",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang theo túi",
+    "def": "hold and take a bag from one place to another",
+    "ex": "She carried a bag of books upstairs.",
+    "exVi": "Cô ấy mang túi sách lên lầu.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-019",
+    "term": "leave home",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "rời khỏi nhà",
+    "def": "go away from the place where you live",
+    "ex": "I leave home at half past seven.",
+    "exVi": "Tôi rời nhà lúc bảy giờ rưỡi.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u047-020",
+    "term": "wait for someone",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đợi ai",
+    "def": "stay until a person arrives",
+    "ex": "We waited for our father outside.",
+    "exVi": "Chúng tôi đợi bố ở bên ngoài.",
+    "ielts": 1
+  }
+]);

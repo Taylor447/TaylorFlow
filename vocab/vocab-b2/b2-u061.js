@@ -1,0 +1,233 @@
+window.VOCAB.register("b2-u061", [
+  {
+    "id": "b2-u061-001",
+    "term": "meanwhile",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "trong khi đó",
+    "def": "during the same period of time",
+    "ex": "The builders repaired the roof; meanwhile, staff moved the books.",
+    "exVi": "Thợ sửa mái; trong khi đó nhân viên chuyển sách.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-002",
+    "term": "subsequently",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "sau đó",
+    "def": "after something else has happened",
+    "ex": "The road was closed and subsequently reopened the next morning.",
+    "exVi": "Con đường bị đóng rồi mở lại vào sáng hôm sau.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-003",
+    "term": "previously",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "trước đó",
+    "def": "at an earlier time",
+    "ex": "The hall was previously used as a local cinema.",
+    "exVi": "Trước đây hội trường được dùng làm rạp chiếu phim địa phương.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-004",
+    "term": "originally",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "ban đầu",
+    "def": "at the beginning, before changes were made",
+    "ex": "The building was originally a railway office.",
+    "exVi": "Ban đầu tòa nhà là văn phòng đường sắt.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-005",
+    "term": "eventually",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "cuối cùng",
+    "def": "in the end, especially after some time or difficulty",
+    "ex": "After several delays, the ferry eventually arrived.",
+    "exVi": "Sau vài lần trì hoãn, cuối cùng phà cũng đến.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-006",
+    "term": "finally",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "cuối cùng",
+    "def": "after everything else has happened",
+    "ex": "Finally, the guide showed us the oldest part of the castle.",
+    "exVi": "Cuối cùng hướng dẫn viên chỉ cho chúng tôi phần cổ nhất của lâu đài.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-007",
+    "term": "initially",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "lúc đầu",
+    "def": "at the beginning of a process or period",
+    "ex": "Initially, only a few families joined the project.",
+    "exVi": "Lúc đầu chỉ vài gia đình tham gia dự án.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-008",
+    "term": "at first",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "thoạt đầu",
+    "def": "during the first part of a situation",
+    "ex": "At first, the new timetable confused commuters.",
+    "exVi": "Thoạt đầu lịch mới khiến người đi làm bối rối.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-009",
+    "term": "later on",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "về sau",
+    "def": "at a time in the future",
+    "ex": "We can discuss the budget later on.",
+    "exVi": "Chúng ta có thể bàn ngân sách sau.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-010",
+    "term": "afterwards",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "sau đó",
+    "def": "at a later time after an event",
+    "ex": "We visited the exhibition and had coffee afterwards.",
+    "exVi": "Chúng tôi thăm triển lãm rồi uống cà phê sau đó.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-011",
+    "term": "beforehand",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "trước đó; trước khi bắt đầu",
+    "def": "before a particular event or action",
+    "ex": "Please read the safety instructions beforehand.",
+    "exVi": "Vui lòng đọc hướng dẫn an toàn trước.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-012",
+    "term": "in advance",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trước; заранее",
+    "def": "before a particular time or event",
+    "ex": "Guests should reserve a table in advance.",
+    "exVi": "Khách nên đặt bàn trước.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-013",
+    "term": "prior to",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trước khi",
+    "def": "before a particular event or time",
+    "ex": "Prior to the trip, we checked the weather forecast.",
+    "exVi": "Trước chuyến đi, chúng tôi xem dự báo thời tiết.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-014",
+    "term": "following",
+    "pos": "prep",
+    "ipa": "",
+    "vi": "sau",
+    "def": "after a particular event or time",
+    "ex": "Following the interview, candidates received an email.",
+    "exVi": "Sau buổi phỏng vấn, ứng viên nhận email.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-015",
+    "term": "until",
+    "pos": "prep",
+    "ipa": "",
+    "vi": "cho đến khi",
+    "def": "up to the time when something happens",
+    "ex": "The library stays open until the last class ends.",
+    "exVi": "Thư viện mở cửa cho đến khi tiết học cuối kết thúc.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-016",
+    "term": "by the time",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "vào lúc; trước khi",
+    "def": "before or at the moment when something happens",
+    "ex": "By the time we arrived, the lecture had started.",
+    "exVi": "Khi chúng tôi đến thì bài giảng đã bắt đầu.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-017",
+    "term": "as soon as",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ngay khi",
+    "def": "immediately after something happens",
+    "ex": "Call me as soon as the train reaches the station.",
+    "exVi": "Gọi tôi ngay khi tàu đến ga.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-018",
+    "term": "once",
+    "pos": "conj",
+    "ipa": "",
+    "vi": "một khi; ngay sau khi",
+    "def": "when or after a particular thing has happened",
+    "ex": "Once the forms are ready, send them to the office.",
+    "exVi": "Khi biểu mẫu đã sẵn sàng, gửi chúng đến văn phòng.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-019",
+    "term": "whenever",
+    "pos": "conj",
+    "ipa": "",
+    "vi": "bất cứ khi nào",
+    "def": "at any time that a particular event happens",
+    "ex": "Whenever the bell rings, students return to class.",
+    "exVi": "Mỗi khi chuông reo, học sinh quay lại lớp.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-020",
+    "term": "while",
+    "pos": "conj",
+    "ipa": "",
+    "vi": "trong khi",
+    "def": "during the time that something else happens",
+    "ex": "She listened to a podcast while preparing dinner.",
+    "exVi": "Cô nghe podcast trong khi chuẩn bị bữa tối.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u061-021",
+    "term": "thereafter",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "kể từ đó; sau đó",
+    "def": "after that time or event",
+    "ex": "The service runs every hour and thereafter follows the summer timetable.",
+    "exVi": "Dịch vụ chạy mỗi giờ và sau đó theo lịch mùa hè.",
+    "ielts": 1
+  }
+]);

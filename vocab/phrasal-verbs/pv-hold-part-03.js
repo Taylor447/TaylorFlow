@@ -1,0 +1,211 @@
+window.VOCAB.register("pv-hold", [
+  {
+    "id": "pv-hold-081",
+    "term": "hold an election",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tổ chức một cuộc bầu cử",
+    "def": "to organise an election",
+    "ex": "The town will hold an election for its new mayor.",
+    "exVi": "Thị trấn sẽ tổ chức bầu cử thị trưởng mới.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-082",
+    "term": "hold a ceremony",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tổ chức một buổi lễ",
+    "def": "to organise a formal event",
+    "ex": "The school held a ceremony for its retiring teachers.",
+    "exVi": "Trường tổ chức lễ tri ân giáo viên nghỉ hưu.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-083",
+    "term": "hold an event",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tổ chức một sự kiện",
+    "def": "to organise an event",
+    "ex": "The library held an event for young readers.",
+    "exVi": "Thư viện tổ chức sự kiện cho độc giả trẻ.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-084",
+    "term": "hold a reservation",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giữ chỗ đã đặt",
+    "def": "to keep a booking available for someone",
+    "ex": "The hotel held a reservation under my family name.",
+    "exVi": "Khách sạn giữ chỗ đặt dưới họ của gia đình tôi.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-085",
+    "term": "hold a ticket",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giữ một tấm vé",
+    "def": "to keep a ticket for later use",
+    "ex": "Please hold your ticket until the concert ends.",
+    "exVi": "Hãy giữ vé đến khi buổi hòa nhạc kết thúc.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-086",
+    "term": "hold a place",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giữ chỗ",
+    "def": "to reserve a place for someone",
+    "ex": "Can you hold a place for me near the front?",
+    "exVi": "Bạn giữ cho tôi một chỗ gần phía trước nhé?",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-087",
+    "term": "hold a seat",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giữ ghế",
+    "def": "to reserve a seat for someone",
+    "ex": "My friend held a seat while I bought drinks.",
+    "exVi": "Bạn tôi giữ ghế khi tôi đi mua nước.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-088",
+    "term": "hold a grudge",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ôm mối hận",
+    "def": "to continue feeling angry about something",
+    "ex": "He doesn't hold a grudge after a disagreement.",
+    "exVi": "Anh không ôm hận sau bất đồng.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-089",
+    "term": "hold your breath",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nín thở; hồi hộp chờ đợi",
+    "def": "to stop breathing briefly or wait anxiously",
+    "ex": "We held our breath as the final score appeared.",
+    "exVi": "Chúng tôi nín thở khi điểm cuối cùng hiện lên.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-090",
+    "term": "hold one's breath",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nín thở",
+    "def": "to stop breathing for a short time",
+    "ex": "The swimmer held her breath under the water.",
+    "exVi": "Người bơi nín thở dưới nước.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-091",
+    "term": "hold someone's attention",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giữ sự chú ý của ai",
+    "def": "to keep someone interested",
+    "ex": "The speaker held everyone's attention with a personal story.",
+    "exVi": "Diễn giả giữ sự chú ý của mọi người bằng câu chuyện cá nhân.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-092",
+    "term": "hold a view",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "có một quan điểm",
+    "def": "to believe or express a particular opinion",
+    "ex": "Many residents hold the view that parks should stay public.",
+    "exVi": "Nhiều cư dân cho rằng công viên nên mở cho mọi người.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-093",
+    "term": "hold an opinion",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giữ một ý kiến",
+    "def": "to have a particular belief or judgement",
+    "ex": "She holds a different opinion about online learning.",
+    "exVi": "Cô có ý kiến khác về học trực tuyến.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-094",
+    "term": "hold a belief",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tin vào một điều",
+    "def": "to believe that something is true",
+    "ex": "They hold a belief that every child deserves a safe home.",
+    "exVi": "Họ tin rằng mọi trẻ em đều xứng đáng có mái nhà an toàn.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-095",
+    "term": "hold a conversation",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "duy trì một cuộc trò chuyện",
+    "def": "to have a conversation with someone",
+    "ex": "We held a conversation in English during the whole journey.",
+    "exVi": "Chúng tôi trò chuyện bằng tiếng Anh suốt chuyến đi.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-096",
+    "term": "hold an audience",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giữ chân khán giả",
+    "def": "to keep an audience interested",
+    "ex": "The comedian held the audience for nearly an hour.",
+    "exVi": "Danh hài giữ chân khán giả gần một giờ.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-097",
+    "term": "hold the door open",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giữ cửa mở",
+    "def": "to keep a door open for someone",
+    "ex": "He held the door open for the elderly passenger.",
+    "exVi": "Anh giữ cửa mở cho hành khách lớn tuổi.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-098",
+    "term": "hold the door for someone",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giữ cửa giúp ai",
+    "def": "to keep a door open so someone can pass",
+    "ex": "Could you hold the door for the delivery worker?",
+    "exVi": "Bạn giữ cửa giúp người giao hàng được không?",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hold-099",
+    "term": "hold a child close",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ôm một đứa trẻ sát vào người",
+    "def": "to keep a child in a close embrace",
+    "ex": "She held her child close during the loud storm.",
+    "exVi": "Cô ôm con sát vào người trong cơn bão ồn ào.",
+    "ielts": 1
+  }
+]);

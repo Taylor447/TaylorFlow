@@ -1,0 +1,233 @@
+window.VOCAB.register("b1-u067", [
+  {
+    "id": "b1-u067-001",
+    "term": "opinion",
+    "pos": "n",
+    "ipa": "",
+    "vi": "ý kiến",
+    "def": "a belief or judgement about something",
+    "ex": "In my opinion, the park needs more benches.",
+    "exVi": "Theo ý kiến tôi, công viên cần thêm ghế.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-002",
+    "term": "point of view",
+    "pos": "n",
+    "ipa": "",
+    "vi": "quan điểm",
+    "def": "a particular way of thinking about a subject",
+    "ex": "I understand your point of view about the change.",
+    "exVi": "Tôi hiểu quan điểm của bạn về thay đổi đó.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-003",
+    "term": "personal view",
+    "pos": "n",
+    "ipa": "",
+    "vi": "quan điểm cá nhân",
+    "def": "an opinion that belongs to one particular person",
+    "ex": "That is my personal view, not the team's decision.",
+    "exVi": "Đó là quan điểm cá nhân của tôi, không phải quyết định của nhóm.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-004",
+    "term": "in my opinion",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "theo ý kiến của tôi",
+    "def": "used to introduce what you think about something",
+    "ex": "In my opinion, public libraries remain important.",
+    "exVi": "Theo ý kiến tôi, thư viện công cộng vẫn quan trọng.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-005",
+    "term": "from my point of view",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "theo góc nhìn của tôi",
+    "def": "used to explain how something seems to you",
+    "ex": "From my point of view, the plan is affordable.",
+    "exVi": "Theo góc nhìn của tôi, kế hoạch này vừa túi tiền.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-006",
+    "term": "I think",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tôi nghĩ",
+    "def": "a common way to introduce an opinion",
+    "ex": "I think the earlier train is more convenient.",
+    "exVi": "Tôi nghĩ chuyến tàu sớm tiện hơn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-007",
+    "term": "I believe",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tôi tin rằng",
+    "def": "used to state an opinion with some confidence",
+    "ex": "I believe everyone should have access to education.",
+    "exVi": "Tôi tin mọi người nên được tiếp cận giáo dục.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-008",
+    "term": "I feel",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tôi cảm thấy; tôi cho rằng",
+    "def": "used to introduce a personal opinion or reaction",
+    "ex": "I feel the school should offer more art classes.",
+    "exVi": "Tôi cho rằng trường nên mở thêm lớp nghệ thuật.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-009",
+    "term": "as far as I know",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "theo những gì tôi biết",
+    "def": "used to limit a statement to your knowledge",
+    "ex": "As far as I know, the museum is closed on Mondays.",
+    "exVi": "Theo tôi biết, bảo tàng đóng cửa vào thứ Hai.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-010",
+    "term": "as far as I'm concerned",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "theo quan điểm của tôi",
+    "def": "used to emphasise your personal opinion",
+    "ex": "As far as I'm concerned, the service was excellent.",
+    "exVi": "Theo tôi, dịch vụ này rất tốt.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-011",
+    "term": "personally",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "cá nhân tôi",
+    "def": "used to show that an opinion is your own",
+    "ex": "Personally, I prefer studying in the morning.",
+    "exVi": "Cá nhân tôi thích học vào buổi sáng hơn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-012",
+    "term": "agree with",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đồng ý với",
+    "def": "to have the same opinion as someone",
+    "ex": "I agree with my classmates about the new rule.",
+    "exVi": "Tôi đồng ý với các bạn về quy định mới.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-013",
+    "term": "agree that",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đồng ý rằng",
+    "def": "to share the opinion expressed in a statement",
+    "ex": "We agree that public transport should be cheaper.",
+    "exVi": "Chúng tôi đồng ý rằng giao thông công cộng nên rẻ hơn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-014",
+    "term": "totally agree",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hoàn toàn đồng ý",
+    "def": "to share someone's opinion completely",
+    "ex": "I totally agree that exercise improves your mood.",
+    "exVi": "Tôi hoàn toàn đồng ý tập thể dục giúp tinh thần tốt hơn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-015",
+    "term": "partially agree",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đồng ý một phần",
+    "def": "to agree with only some parts of an opinion",
+    "ex": "I partially agree, but the costs still worry me.",
+    "exVi": "Tôi đồng ý một phần, nhưng chi phí vẫn khiến tôi lo.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-016",
+    "term": "disagree with",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "không đồng ý với",
+    "def": "to have a different opinion from someone",
+    "ex": "Many residents disagree with the proposed changes.",
+    "exVi": "Nhiều cư dân không đồng ý với những thay đổi được đề xuất.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-017",
+    "term": "disagree that",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "không đồng ý rằng",
+    "def": "to believe that a particular statement is not true",
+    "ex": "I disagree that money guarantees happiness.",
+    "exVi": "Tôi không đồng ý tiền bạc đảm bảo hạnh phúc.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-018",
+    "term": "strongly disagree",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hoàn toàn không đồng ý",
+    "def": "to have a very different opinion",
+    "ex": "I strongly disagree with banning all private cars.",
+    "exVi": "Tôi hoàn toàn không đồng ý cấm mọi xe cá nhân.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-019",
+    "term": "have a point",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "có lý",
+    "def": "to say something that is reasonable or true",
+    "ex": "You have a point about the long waiting time.",
+    "exVi": "Bạn nói có lý về thời gian chờ lâu.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-020",
+    "term": "make a point",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nhấn mạnh một ý",
+    "def": "to express an idea clearly so people notice it",
+    "ex": "She made a point about the value of teamwork.",
+    "exVi": "Cô ấy nhấn mạnh giá trị của làm việc nhóm.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u067-021",
+    "term": "take the view that",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cho rằng",
+    "def": "to hold a particular opinion about a subject",
+    "ex": "I take the view that cities need more parks.",
+    "exVi": "Tôi cho rằng thành phố cần thêm công viên.",
+    "ielts": 1
+  }
+]);

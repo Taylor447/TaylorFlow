@@ -1,0 +1,222 @@
+window.VOCAB.register("idioms-truth-secrecy-deception", [
+  {
+    "id": "idioms-truth-secrecy-deception-121",
+    "term": "open secret",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "bí mật ai cũng biết",
+    "def": "something supposedly private that many people know",
+    "ex": "Their planned merger was an open secret in the industry.",
+    "exVi": "Kế hoạch sáp nhập của họ là bí mật ai cũng biết trong ngành.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-122",
+    "term": "see right through",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "nhìn thấu ý định hoặc lời nói dối",
+    "def": "to recognise someone's true intention or dishonesty",
+    "ex": "I could see right through his excuse about the late report.",
+    "exVi": "Tôi nhìn thấu lời bào chữa về báo cáo trễ của anh ấy.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-123",
+    "term": "fishy business",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "việc đáng ngờ",
+    "def": "behaviour that seems dishonest or suspicious",
+    "ex": "There was some fishy business with the missing invoices.",
+    "exVi": "Có chuyện đáng ngờ liên quan đến các hóa đơn bị mất.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-124",
+    "term": "smells fishy",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "có vẻ đáng ngờ",
+    "def": "seems dishonest or unlikely to be true",
+    "ex": "His explanation about the broken lock smells fishy.",
+    "exVi": "Lời giải thích về ổ khóa hỏng của anh ấy có vẻ đáng ngờ.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-125",
+    "term": "too good to be true",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "nghe tốt đến mức khó tin",
+    "def": "so attractive that it is probably not genuine",
+    "ex": "The online offer seemed too good to be true.",
+    "exVi": "Ưu đãi trực tuyến có vẻ tốt đến mức khó tin.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-126",
+    "term": "take something with a pinch of salt",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "tiếp nhận điều gì với sự dè dặt",
+    "def": "to be cautious about believing something completely",
+    "ex": "Take celebrity gossip with a pinch of salt.",
+    "exVi": "Hãy dè dặt khi tin chuyện đồn về người nổi tiếng.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-127",
+    "term": "a likely story",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "nghe chẳng đáng tin chút nào",
+    "def": "a doubtful or sarcastic response to an explanation",
+    "ex": "He said the dog ate his homework; a likely story.",
+    "exVi": "Cậu ấy nói chó ăn bài tập; nghe chẳng đáng tin chút nào.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-128",
+    "term": "pull the wool over someone's eyes",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "lừa gạt ai",
+    "def": "to deceive someone so they do not notice the truth",
+    "ex": "The seller tried to pull the wool over our eyes about the repairs.",
+    "exVi": "Người bán cố lừa chúng tôi về việc sửa chữa.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-129",
+    "term": "take someone for a ride",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "lừa ai để trục lợi",
+    "def": "to deceive someone, usually for personal gain",
+    "ex": "The fake mechanic took several drivers for a ride.",
+    "exVi": "Người thợ máy giả lừa tiền nhiều tài xế.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-130",
+    "term": "lead someone up the garden path",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "dẫn dắt ai theo hướng sai lệch",
+    "def": "to deceive someone by giving false information",
+    "ex": "The advert led customers up the garden path about delivery times.",
+    "exVi": "Quảng cáo khiến khách hiểu sai về thời gian giao hàng.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-131",
+    "term": "string someone along",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "cố tình khiến ai tin điều không có thật",
+    "def": "to keep someone believing something that is not true",
+    "ex": "He strung the applicants along for weeks without choosing anyone.",
+    "exVi": "Anh ấy khiến các ứng viên chờ đợi hàng tuần mà không chọn ai.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-132",
+    "term": "sell someone a bill of goods",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "thuyết phục ai tin vào điều không đúng",
+    "def": "to persuade someone to accept a false or misleading idea",
+    "ex": "The agent sold us a bill of goods about the apartment's condition.",
+    "exVi": "Đại lý khiến chúng tôi tin sai về tình trạng căn hộ.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-133",
+    "term": "feed someone a line",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "nói với ai một lời giải thích bịa đặt",
+    "def": "to tell someone something untrue to deceive them",
+    "ex": "He fed me a line about being stuck in traffic.",
+    "exVi": "Anh ấy bịa với tôi rằng mình bị kẹt xe.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-134",
+    "term": "give someone a line",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "đưa ra lời giải thích không đáng tin",
+    "def": "to tell someone a story that may be false",
+    "ex": "The caller gave us a line about an unpaid account.",
+    "exVi": "Người gọi đưa ra lời giải thích đáng ngờ về tài khoản chưa thanh toán.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-135",
+    "term": "con someone out of",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "lừa ai để lấy thứ gì",
+    "def": "to deceive someone so they give you something",
+    "ex": "The scammer conned an elderly man out of his savings.",
+    "exVi": "Kẻ lừa đảo lừa một cụ ông lấy mất tiền tiết kiệm.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-136",
+    "term": "play someone for a fool",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "coi ai là kẻ dễ bị lừa",
+    "def": "to deceive someone because you think they are not clever",
+    "ex": "Don't play me for a fool; I checked the receipt.",
+    "exVi": "Đừng coi tôi là kẻ dễ lừa; tôi đã kiểm tra hóa đơn.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-137",
+    "term": "make a fool of",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "khiến ai trông ngốc nghếch",
+    "def": "to trick or embarrass someone",
+    "ex": "The fake notice made a fool of several new employees.",
+    "exVi": "Thông báo giả khiến vài nhân viên mới trông thật ngốc.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-138",
+    "term": "fool no one",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "không lừa được ai",
+    "def": "to fail to deceive anyone",
+    "ex": "His fake apology fooled no one in the room.",
+    "exVi": "Lời xin lỗi giả tạo của anh ấy chẳng lừa được ai.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-139",
+    "term": "smoke and mirrors",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "màn đánh lạc hướng che giấu sự thật",
+    "def": "deceptive actions intended to hide what is really happening",
+    "ex": "The report was full of smoke and mirrors about the real costs.",
+    "exVi": "Báo cáo đầy những màn đánh lạc hướng về chi phí thật.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-truth-secrecy-deception-140",
+    "term": "all smoke and mirrors",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "toàn là màn che mắt",
+    "def": "completely deceptive and lacking real substance",
+    "ex": "The promised savings were all smoke and mirrors.",
+    "exVi": "Khoản tiết kiệm được hứa hẹn chỉ là màn che mắt.",
+    "ielts": 1
+  }
+]);

@@ -1,0 +1,222 @@
+window.VOCAB.register("a1-u037", [
+  {
+    "id": "a1-u037-001",
+    "term": "global problem",
+    "pos": "n",
+    "ipa": "",
+    "vi": "vấn đề toàn cầu",
+    "def": "a serious issue that affects people in many countries",
+    "ex": "Climate change is a global problem.",
+    "exVi": "Biến đổi khí hậu là một vấn đề toàn cầu.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-002",
+    "term": "pollution",
+    "pos": "n",
+    "ipa": "",
+    "vi": "ô nhiễm",
+    "def": "harmful substances in air, water, or land",
+    "ex": "Pollution can make city air unhealthy.",
+    "exVi": "Ô nhiễm có thể khiến không khí thành phố không lành mạnh.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-003",
+    "term": "air pollution",
+    "pos": "n",
+    "ipa": "",
+    "vi": "ô nhiễm không khí",
+    "def": "harmful gases and particles in the air",
+    "ex": "Air pollution is worse near busy roads.",
+    "exVi": "Ô nhiễm không khí nặng hơn gần những con đường đông xe.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-004",
+    "term": "water pollution",
+    "pos": "n",
+    "ipa": "",
+    "vi": "ô nhiễm nguồn nước",
+    "def": "harmful substances that make water dirty or unsafe",
+    "ex": "Water pollution can harm fish and plants.",
+    "exVi": "Ô nhiễm nước có thể gây hại cho cá và cây.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-005",
+    "term": "plastic waste",
+    "pos": "n",
+    "ipa": "",
+    "vi": "rác thải nhựa",
+    "def": "plastic things that people throw away",
+    "ex": "Plastic waste often reaches the sea.",
+    "exVi": "Rác thải nhựa thường trôi ra biển.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-006",
+    "term": "rubbish",
+    "pos": "n",
+    "ipa": "",
+    "vi": "rác",
+    "def": "things that people no longer need and throw away",
+    "ex": "Please put your rubbish in the bin.",
+    "exVi": "Hãy bỏ rác vào thùng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-007",
+    "term": "waste",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự lãng phí, chất thải",
+    "def": "unwanted material or the careless use of resources",
+    "ex": "Food waste is a problem in many homes.",
+    "exVi": "Lãng phí thực phẩm là vấn đề ở nhiều gia đình.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-008",
+    "term": "climate change",
+    "pos": "n",
+    "ipa": "",
+    "vi": "biến đổi khí hậu",
+    "def": "long-term changes in the world’s weather",
+    "ex": "Climate change affects farms and forests.",
+    "exVi": "Biến đổi khí hậu ảnh hưởng đến trang trại và rừng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-009",
+    "term": "global warming",
+    "pos": "n",
+    "ipa": "",
+    "vi": "nóng lên toàn cầu",
+    "def": "the gradual increase in the Earth’s average temperature",
+    "ex": "Global warming can make summers hotter.",
+    "exVi": "Nóng lên toàn cầu có thể khiến mùa hè nóng hơn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-010",
+    "term": "drought",
+    "pos": "n",
+    "ipa": "",
+    "vi": "hạn hán",
+    "def": "a long period with little or no rain",
+    "ex": "The drought left the fields dry.",
+    "exVi": "Hạn hán khiến những cánh đồng khô cằn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-011",
+    "term": "flood",
+    "pos": "n",
+    "ipa": "",
+    "vi": "lũ lụt",
+    "def": "a large amount of water covering normally dry land",
+    "ex": "The flood damaged several roads.",
+    "exVi": "Trận lũ làm hư hại một số con đường.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-012",
+    "term": "famine",
+    "pos": "n",
+    "ipa": "",
+    "vi": "nạn đói",
+    "def": "a serious lack of food affecting many people",
+    "ex": "The charity sent food to families facing famine.",
+    "exVi": "Tổ chức từ thiện gửi thực phẩm cho các gia đình đối mặt với nạn đói.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-013",
+    "term": "poverty",
+    "pos": "n",
+    "ipa": "",
+    "vi": "nghèo đói",
+    "def": "the state of having very little money or few resources",
+    "ex": "Education can help families escape poverty.",
+    "exVi": "Giáo dục có thể giúp các gia đình thoát nghèo.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-014",
+    "term": "homelessness",
+    "pos": "n",
+    "ipa": "",
+    "vi": "tình trạng vô gia cư",
+    "def": "the state of having no safe place to live",
+    "ex": "The city is working to reduce homelessness.",
+    "exVi": "Thành phố đang nỗ lực giảm tình trạng vô gia cư.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-015",
+    "term": "unemployment",
+    "pos": "n",
+    "ipa": "",
+    "vi": "tình trạng thất nghiệp",
+    "def": "the state of not having a job",
+    "ex": "Unemployment is a concern in the region.",
+    "exVi": "Thất nghiệp là mối quan ngại trong khu vực.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-016",
+    "term": "disease",
+    "pos": "n",
+    "ipa": "",
+    "vi": "bệnh tật",
+    "def": "an illness that affects a person, animal, or plant",
+    "ex": "Clean water helps prevent disease.",
+    "exVi": "Nước sạch giúp ngăn ngừa bệnh tật.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-017",
+    "term": "war",
+    "pos": "n",
+    "ipa": "",
+    "vi": "chiến tranh",
+    "def": "a period of fighting between countries or groups",
+    "ex": "Many families had to leave during the war.",
+    "exVi": "Nhiều gia đình phải rời đi trong chiến tranh.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-018",
+    "term": "conflict",
+    "pos": "n",
+    "ipa": "",
+    "vi": "xung đột",
+    "def": "a serious disagreement or fight between people or groups",
+    "ex": "The two groups hope to end the conflict.",
+    "exVi": "Hai nhóm hy vọng chấm dứt xung đột.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-019",
+    "term": "peace",
+    "pos": "n",
+    "ipa": "",
+    "vi": "hòa bình",
+    "def": "a situation without war or fighting",
+    "ex": "People around the world hope for peace.",
+    "exVi": "Người dân khắp thế giới mong muốn hòa bình.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u037-020",
+    "term": "solution",
+    "pos": "n",
+    "ipa": "",
+    "vi": "giải pháp",
+    "def": "an answer to a problem",
+    "ex": "We need a solution to reduce plastic waste.",
+    "exVi": "Chúng ta cần giải pháp để giảm rác thải nhựa.",
+    "ielts": 1
+  }
+]);

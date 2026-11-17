@@ -1,0 +1,233 @@
+window.VOCAB.register("a1-u054", [
+  {
+    "id": "a1-u054-001",
+    "term": "very carefully",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "rất cẩn thận",
+    "def": "with a lot of attention to avoid mistakes",
+    "ex": "Please carry the glasses very carefully.",
+    "exVi": "Vui lòng cầm những chiếc ly thật cẩn thận.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-002",
+    "term": "quite slowly",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "khá chậm",
+    "def": "at a fairly low speed",
+    "ex": "The old bus moved quite slowly uphill.",
+    "exVi": "Chiếc xe buýt cũ lên dốc khá chậm.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-003",
+    "term": "too quickly",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "quá nhanh",
+    "def": "at a speed that is greater than suitable",
+    "ex": "He spoke too quickly for me to follow.",
+    "exVi": "Anh ấy nói quá nhanh khiến tôi khó theo kịp.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-004",
+    "term": "really well",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "rất tốt",
+    "def": "in a very successful or skilled way",
+    "ex": "My little cousin sings really well.",
+    "exVi": "Em họ nhỏ của tôi hát rất hay.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-005",
+    "term": "in a hurry",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "vội vàng",
+    "def": "moving or acting quickly because time is short",
+    "ex": "I left in a hurry this morning.",
+    "exVi": "Sáng nay tôi rời đi vội vàng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-006",
+    "term": "with care",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "một cách cẩn thận",
+    "def": "in a careful way",
+    "ex": "Handle the glass with care.",
+    "exVi": "Hãy cầm chiếc ly thật cẩn thận.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-007",
+    "term": "by hand",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bằng tay",
+    "def": "using your hands instead of a machine",
+    "ex": "She made the greeting card by hand.",
+    "exVi": "Cô ấy tự làm thiệp chúc mừng bằng tay.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-008",
+    "term": "on purpose",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cố ý",
+    "def": "intentionally, not by accident",
+    "ex": "He broke the cup on purpose.",
+    "exVi": "Anh ấy cố ý làm vỡ chiếc cốc.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-009",
+    "term": "by mistake",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "do nhầm lẫn",
+    "def": "accidentally or because of an error",
+    "ex": "I sent the email to the wrong person by mistake.",
+    "exVi": "Tôi gửi nhầm email cho người khác.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-010",
+    "term": "in silence",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trong im lặng",
+    "def": "without speaking or making noise",
+    "ex": "They waited in silence for the results.",
+    "exVi": "Họ im lặng chờ kết quả.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-011",
+    "term": "with difficulty",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "một cách khó khăn",
+    "def": "in a way that requires effort",
+    "ex": "She opened the heavy door with difficulty.",
+    "exVi": "Cô ấy khó khăn mở cánh cửa nặng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-012",
+    "term": "without help",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "không cần giúp đỡ",
+    "def": "without assistance from another person",
+    "ex": "The child tied his shoes without help.",
+    "exVi": "Đứa trẻ tự buộc dây giày mà không cần giúp.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-013",
+    "term": "in a friendly way",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "một cách thân thiện",
+    "def": "behaving in a kind and welcoming manner",
+    "ex": "The receptionist greeted us in a friendly way.",
+    "exVi": "Lễ tân chào đón chúng tôi rất thân thiện.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-014",
+    "term": "as usual",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "như thường lệ",
+    "def": "in the way that normally happens",
+    "ex": "Our dog waited by the door as usual.",
+    "exVi": "Chú chó đợi bên cửa như thường lệ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-015",
+    "term": "step by step",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "từng bước một",
+    "def": "one stage at a time",
+    "ex": "The guide explained the process step by step.",
+    "exVi": "Người hướng dẫn giải thích quy trình từng bước.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-016",
+    "term": "one by one",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lần lượt từng người",
+    "def": "separately, in sequence",
+    "ex": "The teacher checked our papers one by one.",
+    "exVi": "Giáo viên kiểm tra bài lần lượt.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-017",
+    "term": "side by side",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cạnh nhau",
+    "def": "next to each other",
+    "ex": "The children sat side by side.",
+    "exVi": "Bọn trẻ ngồi cạnh nhau.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-018",
+    "term": "all together",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tất cả cùng nhau",
+    "def": "with everyone or everything in one group",
+    "ex": "We sang the final song all together.",
+    "exVi": "Chúng tôi cùng hát bài cuối.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-019",
+    "term": "in private",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ở nơi riêng tư",
+    "def": "away from other people",
+    "ex": "They discussed the problem in private.",
+    "exVi": "Họ trao đổi vấn đề ở nơi riêng tư.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-020",
+    "term": "at once",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ngay lập tức",
+    "def": "immediately, without waiting",
+    "ex": "Please come to the office at once.",
+    "exVi": "Vui lòng đến văn phòng ngay lập tức.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u054-021",
+    "term": "in a low voice",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bằng giọng nhỏ",
+    "def": "using a quiet voice",
+    "ex": "She told me the news in a low voice.",
+    "exVi": "Cô ấy nói tin đó với tôi bằng giọng nhỏ.",
+    "ielts": 1
+  }
+]);

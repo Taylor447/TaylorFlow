@@ -1,0 +1,222 @@
+window.VOCAB.register("b1-u069", [
+  {
+    "id": "b1-u069-001",
+    "term": "greet",
+    "pos": "v",
+    "ipa": "",
+    "vi": "chào hỏi",
+    "def": "to say hello to someone when you meet them",
+    "ex": "The receptionist greeted us with a smile.",
+    "exVi": "Lễ tân chào chúng tôi bằng nụ cười.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-002",
+    "term": "greeting",
+    "pos": "n",
+    "ipa": "",
+    "vi": "lời chào",
+    "def": "something said or done when meeting someone",
+    "ex": "She gave us a warm greeting at the door.",
+    "exVi": "Cô ấy nồng nhiệt chào chúng tôi ở cửa.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-003",
+    "term": "say hello",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nói xin chào",
+    "def": "to greet someone with the words hello",
+    "ex": "I went over to say hello to my neighbour.",
+    "exVi": "Tôi sang chào người hàng xóm.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-004",
+    "term": "hello",
+    "pos": "excl",
+    "ipa": "",
+    "vi": "xin chào",
+    "def": "a word used when meeting or speaking to someone",
+    "ex": "He said hello before asking for directions.",
+    "exVi": "Anh ấy chào trước khi hỏi đường.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-005",
+    "term": "hi",
+    "pos": "excl",
+    "ipa": "",
+    "vi": "chào",
+    "def": "an informal way to say hello",
+    "ex": "She waved and said hi to her classmates.",
+    "exVi": "Cô ấy vẫy tay chào các bạn cùng lớp.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-006",
+    "term": "good morning",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chào buổi sáng",
+    "def": "a greeting used from morning until around midday",
+    "ex": "Good morning, everyone. Please take a seat.",
+    "exVi": "Chào buổi sáng mọi người. Mời ngồi.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-007",
+    "term": "good afternoon",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chào buổi chiều",
+    "def": "a greeting used after midday and before evening",
+    "ex": "The receptionist greeted us with good afternoon.",
+    "exVi": "Lễ tân chào chúng tôi bằng câu chào buổi chiều.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-008",
+    "term": "good evening",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chào buổi tối",
+    "def": "a greeting used when meeting someone in the evening",
+    "ex": "Good evening, may I see your reservation?",
+    "exVi": "Chào buổi tối, cho tôi xem đặt chỗ được không?",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-009",
+    "term": "welcome",
+    "pos": "excl",
+    "ipa": "",
+    "vi": "chào mừng",
+    "def": "a friendly greeting to someone who has arrived",
+    "ex": "Welcome to our school, Ms Taylor.",
+    "exVi": "Chào mừng cô Taylor đến trường chúng tôi.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-010",
+    "term": "nice to meet you",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "rất vui được gặp bạn",
+    "def": "a polite greeting when meeting someone for the first time",
+    "ex": "Nice to meet you; I have heard about your work.",
+    "exVi": "Rất vui được gặp bạn; tôi đã nghe về công việc của bạn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-011",
+    "term": "pleased to meet you",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "rất hân hạnh được gặp bạn",
+    "def": "a formal greeting when meeting someone for the first time",
+    "ex": "Pleased to meet you, Dr Lee.",
+    "exVi": "Rất hân hạnh được gặp ông, tiến sĩ Lee.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-012",
+    "term": "how do you do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hân hạnh được gặp",
+    "def": "a very formal greeting used at a first meeting",
+    "ex": "How do you do? I am the new coordinator.",
+    "exVi": "Hân hạnh được gặp ông. Tôi là điều phối viên mới.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-013",
+    "term": "goodbye",
+    "pos": "excl",
+    "ipa": "",
+    "vi": "tạm biệt",
+    "def": "a word used when leaving someone",
+    "ex": "We said goodbye outside the station.",
+    "exVi": "Chúng tôi chào tạm biệt bên ngoài nhà ga.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-014",
+    "term": "say goodbye",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nói lời tạm biệt",
+    "def": "to tell someone that you are leaving",
+    "ex": "She stopped to say goodbye to her teacher.",
+    "exVi": "Cô ấy dừng lại chào tạm biệt giáo viên.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-015",
+    "term": "see you later",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "gặp lại sau nhé",
+    "def": "an informal expression used when leaving someone",
+    "ex": "See you later, I need to catch the bus.",
+    "exVi": "Gặp lại sau nhé, tôi phải bắt xe buýt.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-016",
+    "term": "take care",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giữ gìn nhé",
+    "def": "a friendly expression used when saying goodbye",
+    "ex": "Take care, and send me a message when you arrive.",
+    "exVi": "Giữ gìn nhé, đến nơi thì nhắn tôi.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-017",
+    "term": "have a nice day",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chúc một ngày tốt lành",
+    "def": "a friendly wish said when someone leaves",
+    "ex": "The shop assistant said, have a nice day.",
+    "exVi": "Nhân viên cửa hàng chúc tôi một ngày vui vẻ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-018",
+    "term": "farewell",
+    "pos": "excl",
+    "ipa": "",
+    "vi": "lời từ biệt",
+    "def": "a formal or emotional way to say goodbye",
+    "ex": "The captain gave a farewell speech before retiring.",
+    "exVi": "Thuyền trưởng phát biểu từ biệt trước khi nghỉ hưu.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-019",
+    "term": "cheers",
+    "pos": "excl",
+    "ipa": "",
+    "vi": "chào nhé; cảm ơn",
+    "def": "an informal British expression for thanks or goodbye",
+    "ex": "Cheers, I'll see you at the match.",
+    "exVi": "Chào nhé, gặp bạn ở trận đấu.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u069-020",
+    "term": "all the best",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chúc mọi điều tốt đẹp",
+    "def": "a friendly expression wishing someone success",
+    "ex": "All the best with your new job.",
+    "exVi": "Chúc bạn mọi điều tốt đẹp ở công việc mới.",
+    "ielts": 1
+  }
+]);

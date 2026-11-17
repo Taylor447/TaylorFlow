@@ -1,0 +1,200 @@
+window.VOCAB.register("a1-u041", [
+  {
+    "id": "a1-u041-001",
+    "term": "make breakfast",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm bữa sáng",
+    "def": "prepare food for the first meal of the day",
+    "ex": "Dad made breakfast for everyone.",
+    "exVi": "Bố làm bữa sáng cho mọi người.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-002",
+    "term": "make lunch",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm bữa trưa",
+    "def": "prepare food for the middle meal of the day",
+    "ex": "She made lunch before leaving for work.",
+    "exVi": "Cô ấy làm bữa trưa trước khi đi làm.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-003",
+    "term": "make dinner",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm bữa tối",
+    "def": "prepare the evening meal",
+    "ex": "We made dinner together last night.",
+    "exVi": "Tối qua chúng tôi cùng làm bữa tối.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-004",
+    "term": "make a cake",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm bánh",
+    "def": "prepare and bake a cake",
+    "ex": "My aunt made a cake for the party.",
+    "exVi": "Dì tôi làm bánh cho bữa tiệc.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-005",
+    "term": "make a sandwich",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm bánh mì kẹp",
+    "def": "put food between slices of bread",
+    "ex": "He made a sandwich for his trip.",
+    "exVi": "Anh ấy làm bánh mì kẹp cho chuyến đi.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-006",
+    "term": "make a mistake",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mắc lỗi",
+    "def": "do something incorrectly",
+    "ex": "I made a mistake in the address.",
+    "exVi": "Tôi mắc lỗi ở địa chỉ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-007",
+    "term": "make a decision",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa ra quyết định",
+    "def": "choose what to do after thinking",
+    "ex": "They made a decision after lunch.",
+    "exVi": "Họ đưa ra quyết định sau bữa trưa.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-008",
+    "term": "make friends",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kết bạn",
+    "def": "begin a friendly relationship with people",
+    "ex": "She made friends at her new school.",
+    "exVi": "Cô ấy kết bạn ở trường mới.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-009",
+    "term": "make money",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kiếm tiền",
+    "def": "earn money by working or selling something",
+    "ex": "He makes money by repairing bicycles.",
+    "exVi": "Anh ấy kiếm tiền bằng cách sửa xe đạp.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-010",
+    "term": "make a phone call",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "gọi điện thoại",
+    "def": "use a telephone to speak to someone",
+    "ex": "I made a phone call before the meeting.",
+    "exVi": "Tôi gọi điện trước cuộc họp.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-011",
+    "term": "make a noise",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "gây tiếng ồn",
+    "def": "produce a sound, especially a loud one",
+    "ex": "The children made a noise in the hallway.",
+    "exVi": "Bọn trẻ gây tiếng ồn ở hành lang.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-012",
+    "term": "make a plan",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lập kế hoạch",
+    "def": "decide what you are going to do",
+    "ex": "We made a plan for the weekend.",
+    "exVi": "Chúng tôi lập kế hoạch cho cuối tuần.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-013",
+    "term": "make a list",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lập danh sách",
+    "def": "write down several things in order",
+    "ex": "She made a list of things to pack.",
+    "exVi": "Cô ấy lập danh sách những thứ cần mang.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-014",
+    "term": "make sure",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đảm bảo",
+    "def": "check that something is true or done",
+    "ex": "Make sure the windows are closed.",
+    "exVi": "Hãy đảm bảo các cửa sổ đã đóng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-015",
+    "term": "make a mess",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm bừa bộn",
+    "def": "make a place untidy",
+    "ex": "The puppy made a mess in the kitchen.",
+    "exVi": "Chú chó con làm bừa bộn trong bếp.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-016",
+    "term": "make progress",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tiến bộ",
+    "def": "improve or move forward",
+    "ex": "He made progress with his reading.",
+    "exVi": "Cậu ấy tiến bộ trong việc đọc.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-017",
+    "term": "make an effort",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nỗ lực",
+    "def": "try hard to do something",
+    "ex": "She made an effort to arrive on time.",
+    "exVi": "Cô ấy cố gắng đến đúng giờ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u041-018",
+    "term": "make a choice",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa ra lựa chọn",
+    "def": "choose one thing from several possibilities",
+    "ex": "You can make a choice after you see the menu.",
+    "exVi": "Bạn có thể lựa chọn sau khi xem thực đơn.",
+    "ielts": 1
+  }
+]);

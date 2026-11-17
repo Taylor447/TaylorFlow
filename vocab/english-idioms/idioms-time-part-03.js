@@ -1,0 +1,200 @@
+window.VOCAB.register("idioms-time", [
+  {
+    "id": "idioms-time-081",
+    "term": "a thing of the past",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "chuyện thuộc về quá khứ",
+    "def": "something that no longer exists or happens",
+    "ex": "These paper tickets may soon be a thing of the past.",
+    "exVi": "Vé giấy có thể sớm trở thành chuyện của quá khứ.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-082",
+    "term": "a blast from the past",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "kỷ vật hoặc tin tức gợi nhớ ngày xưa",
+    "def": "something that unexpectedly reminds one of the past",
+    "ex": "This old song was a blast from the past.",
+    "exVi": "Bài hát cũ này gợi lại bao ký ức xưa.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-083",
+    "term": "at the time",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "vào thời điểm đó",
+    "def": "during the particular period being discussed",
+    "ex": "At the time, I didn't understand the decision.",
+    "exVi": "Vào thời điểm đó, tôi không hiểu quyết định ấy.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-084",
+    "term": "at the moment",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "hiện tại, vào lúc này",
+    "def": "now, at the present time",
+    "ex": "At the moment, the cafe opens only on weekends.",
+    "exVi": "Hiện tại quán cà phê chỉ mở cửa cuối tuần.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-085",
+    "term": "long time no see",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "lâu rồi không gặp",
+    "def": "an informal greeting to someone not seen recently",
+    "ex": "Long time no see; how have you been?",
+    "exVi": "Lâu rồi không gặp, dạo này bạn thế nào?",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-086",
+    "term": "make the most of time",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "tận dụng tốt khoảng thời gian",
+    "def": "to use available time as effectively as possible",
+    "ex": "We made the most of our short visit.",
+    "exVi": "Chúng tôi tận dụng tối đa chuyến thăm ngắn.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-087",
+    "term": "take forever",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "lâu vô cùng",
+    "def": "to take a very long time",
+    "ex": "The paperwork took forever to complete.",
+    "exVi": "Đống giấy tờ mất rất lâu mới hoàn thành.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-088",
+    "term": "before you know it",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "chẳng mấy chốc, nhanh đến bất ngờ",
+    "def": "very soon, often sooner than expected",
+    "ex": "Keep practising, and before you know it, you'll improve.",
+    "exVi": "Cứ luyện tập đi, chẳng mấy chốc bạn sẽ tiến bộ.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-089",
+    "term": "from here on out",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "kể từ bây giờ",
+    "def": "from this point into the future",
+    "ex": "From here on out, the team will meet weekly.",
+    "exVi": "Kể từ giờ, nhóm sẽ họp hằng tuần.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-090",
+    "term": "as time goes by",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "khi thời gian trôi qua",
+    "def": "as time passes and circumstances change",
+    "ex": "As time goes by, the new routine feels easier.",
+    "exVi": "Khi thời gian trôi qua, nếp sinh hoạt mới trở nên dễ dàng hơn.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-091",
+    "term": "in the long haul",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "xét về lâu dài",
+    "def": "over a long period, especially after sustained effort",
+    "ex": "Good communication matters in the long haul.",
+    "exVi": "Giao tiếp tốt rất quan trọng về lâu dài.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-092",
+    "term": "in a split second",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "trong tích tắc",
+    "def": "in an extremely short moment",
+    "ex": "The driver reacted in a split second.",
+    "exVi": "Tài xế phản ứng trong tích tắc.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-093",
+    "term": "at the earliest opportunity",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "ngay khi có cơ hội sớm nhất",
+    "def": "as soon as it is possible",
+    "ex": "Please call me at the earliest opportunity.",
+    "exVi": "Hãy gọi cho tôi ngay khi có thể.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-094",
+    "term": "at the latest",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "chậm nhất là",
+    "def": "no later than a stated time",
+    "ex": "Send the documents by Friday at the latest.",
+    "exVi": "Hãy gửi tài liệu chậm nhất vào thứ Sáu.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-095",
+    "term": "in the interim",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "trong thời gian chuyển tiếp",
+    "def": "during the period between two events",
+    "ex": "The new director starts in June; in the interim, Mina will lead.",
+    "exVi": "Giám đốc mới bắt đầu vào tháng Sáu; trong lúc đó Mina sẽ phụ trách.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-096",
+    "term": "in this day and age",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "trong thời đại ngày nay",
+    "def": "in modern times",
+    "ex": "In this day and age, many people work remotely.",
+    "exVi": "Trong thời đại ngày nay, nhiều người làm việc từ xa.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-097",
+    "term": "from the word go",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "ngay từ lúc bắt đầu",
+    "def": "from the very beginning",
+    "ex": "The coach made the rules clear from the word go.",
+    "exVi": "Huấn luyện viên nói rõ quy định ngay từ đầu.",
+    "ielts": 1
+  },
+  {
+    "id": "idioms-time-098",
+    "term": "from start to finish",
+    "pos": "idiom",
+    "ipa": "",
+    "vi": "từ đầu đến cuối",
+    "def": "throughout the entire duration",
+    "ex": "She stayed focused from start to finish.",
+    "exVi": "Cô ấy tập trung từ đầu đến cuối.",
+    "ielts": 1
+  }
+]);

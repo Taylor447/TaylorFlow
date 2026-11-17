@@ -1,0 +1,233 @@
+window.VOCAB.register("pv-off", [
+  {
+    "id": "pv-off-041",
+    "term": "pay off a loan",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trả hết một khoản vay",
+    "def": "to repay all the money borrowed",
+    "ex": "They paid off their home loan early.",
+    "exVi": "Họ trả hết khoản vay mua nhà sớm.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-042",
+    "term": "pay someone off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa tiền để bịt miệng ai",
+    "def": "to pay someone secretly to keep them quiet",
+    "ex": "The criminal tried to pay the guard off.",
+    "exVi": "Tên tội phạm tìm cách đưa tiền bịt miệng người bảo vệ.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-043",
+    "term": "rip off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lừa lấy tiền; tính giá quá cao",
+    "def": "to cheat someone by charging too much",
+    "ex": "That tourist shop tried to rip us off.",
+    "exVi": "Cửa hàng du lịch đó định chặt chém chúng tôi.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-044",
+    "term": "rip someone off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lừa tiền ai",
+    "def": "to cheat a person financially",
+    "ex": "The fake repair service ripped him off.",
+    "exVi": "Dịch vụ sửa chữa giả mạo đã lừa tiền anh ấy.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-045",
+    "term": "rip off a label",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bóc nhãn ra",
+    "def": "to remove a label quickly or carelessly",
+    "ex": "She ripped off the old price label.",
+    "exVi": "Cô ấy bóc nhãn giá cũ ra.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-046",
+    "term": "show off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "khoe khoang",
+    "def": "to try to attract attention by displaying your abilities",
+    "ex": "He likes to show off at parties.",
+    "exVi": "Anh ấy thích khoe khoang trong các bữa tiệc.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-047",
+    "term": "show off a skill",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "khoe một kỹ năng",
+    "def": "to display a skill to impress people",
+    "ex": "The dancer showed off a difficult move.",
+    "exVi": "Vũ công khoe một động tác khó.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-048",
+    "term": "sign off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kết thúc thư hoặc chương trình",
+    "def": "to end a letter, broadcast, or message",
+    "ex": "The presenter signed off after the final song.",
+    "exVi": "Người dẫn kết thúc chương trình sau bài hát cuối.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-049",
+    "term": "sign off on",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chính thức phê duyệt",
+    "def": "to give official approval to a plan",
+    "ex": "The director signed off on the new design.",
+    "exVi": "Giám đốc chính thức phê duyệt thiết kế mới.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-050",
+    "term": "sign off on a project",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "phê duyệt một dự án",
+    "def": "to give final approval for a project",
+    "ex": "The client signed off on the project yesterday.",
+    "exVi": "Khách hàng phê duyệt dự án hôm qua.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-051",
+    "term": "sleep off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ngủ để hồi phục",
+    "def": "to recover from tiredness or illness by sleeping",
+    "ex": "I slept off the headache after lunch.",
+    "exVi": "Tôi ngủ một giấc sau bữa trưa để hết đau đầu.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-052",
+    "term": "slip off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lặng lẽ rời đi",
+    "def": "to leave a place quietly without being noticed",
+    "ex": "She slipped off before the speeches began.",
+    "exVi": "Cô ấy lặng lẽ rời đi trước khi các bài phát biểu bắt đầu.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-053",
+    "term": "slip off the road",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trượt khỏi mặt đường",
+    "def": "to slide from a road, usually by accident",
+    "ex": "The car slipped off the road in heavy rain.",
+    "exVi": "Chiếc xe trượt khỏi đường trong cơn mưa lớn.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-054",
+    "term": "switch off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tắt thiết bị",
+    "def": "to stop a machine or light from working",
+    "ex": "Please switch off your phone during the film.",
+    "exVi": "Vui lòng tắt điện thoại trong lúc xem phim.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-055",
+    "term": "switch off a device",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tắt một thiết bị",
+    "def": "to stop a particular device from operating",
+    "ex": "Switch off the device before cleaning it.",
+    "exVi": "Hãy tắt thiết bị trước khi vệ sinh.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-056",
+    "term": "tell off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mắng; khiển trách",
+    "def": "to speak angrily to someone about bad behaviour",
+    "ex": "The coach told the players off for arriving late.",
+    "exVi": "Huấn luyện viên mắng các cầu thủ vì đến muộn.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-057",
+    "term": "tell someone off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mắng ai",
+    "def": "to scold someone for doing something wrong",
+    "ex": "My aunt told me off for leaving the gate open.",
+    "exVi": "Dì mắng tôi vì để cổng mở.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-058",
+    "term": "wear off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dần mất tác dụng",
+    "def": "to gradually disappear or become weaker",
+    "ex": "The painkiller began to wear off.",
+    "exVi": "Thuốc giảm đau bắt đầu hết tác dụng.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-059",
+    "term": "wear off quickly",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nhanh chóng mất tác dụng",
+    "def": "to lose its effect in a short time",
+    "ex": "The excitement wore off quickly after the match.",
+    "exVi": "Sự phấn khích nhanh chóng qua đi sau trận đấu.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-060",
+    "term": "write off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xoá sổ; coi như mất",
+    "def": "to accept that something is lost or cannot be recovered",
+    "ex": "The insurer wrote off the damaged car.",
+    "exVi": "Công ty bảo hiểm xem chiếc xe hỏng là tổn thất.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-off-061",
+    "term": "write off a car",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xem một chiếc xe là hư hỏng hoàn toàn",
+    "def": "to decide a damaged car is beyond repair",
+    "ex": "The storm wrote off our old family car.",
+    "exVi": "Cơn bão khiến chiếc xe cũ của gia đình tôi hư hỏng hoàn toàn.",
+    "ielts": 1
+  }
+]);

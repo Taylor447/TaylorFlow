@@ -1,0 +1,222 @@
+window.VOCAB.register("b1-u087", [
+  {
+    "id": "b1-u087-001",
+    "term": "afford to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "có đủ khả năng làm",
+    "def": "to have enough money or time for an action",
+    "ex": "I can't afford to buy a larger car this year.",
+    "exVi": "Năm nay tôi không đủ khả năng mua xe lớn hơn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-002",
+    "term": "agree to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đồng ý làm",
+    "def": "to say yes to doing something",
+    "ex": "Most residents agreed to join the clean-up.",
+    "exVi": "Hầu hết cư dân đồng ý tham gia buổi dọn dẹp.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-003",
+    "term": "decide to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "quyết định làm",
+    "def": "to choose to do something after thinking",
+    "ex": "We decided to travel by train.",
+    "exVi": "Chúng tôi quyết định đi bằng tàu hỏa.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-004",
+    "term": "expect to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dự định; mong đợi làm",
+    "def": "to think something will probably happen",
+    "ex": "I expect to finish the report tonight.",
+    "exVi": "Tôi dự định hoàn thành báo cáo tối nay.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-005",
+    "term": "hope to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hy vọng làm",
+    "def": "to want something to happen",
+    "ex": "They hope to visit their grandparents soon.",
+    "exVi": "Họ hy vọng sớm thăm ông bà.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-006",
+    "term": "manage to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xoay xở làm được",
+    "def": "to succeed in doing something difficult",
+    "ex": "She managed to catch the last bus.",
+    "exVi": "Cô ấy xoay xở bắt kịp chuyến xe buýt cuối.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-007",
+    "term": "offer to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đề nghị làm",
+    "def": "to say you are willing to do something",
+    "ex": "My colleague offered to check the figures.",
+    "exVi": "Đồng nghiệp đề nghị kiểm tra số liệu.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-008",
+    "term": "plan to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lên kế hoạch làm",
+    "def": "to intend to do something in the future",
+    "ex": "We plan to open a small café.",
+    "exVi": "Chúng tôi dự định mở một quán cà phê nhỏ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-009",
+    "term": "promise to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hứa sẽ làm",
+    "def": "to tell someone you will do something",
+    "ex": "He promised to call after the appointment.",
+    "exVi": "Anh ấy hứa sẽ gọi sau cuộc hẹn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-010",
+    "term": "refuse to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "từ chối làm",
+    "def": "to say firmly that you will not do something",
+    "ex": "The company refused to share private data.",
+    "exVi": "Công ty từ chối chia sẻ dữ liệu riêng tư.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-011",
+    "term": "seem to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "có vẻ làm",
+    "def": "to appear to do or be something",
+    "ex": "The new method seems to work well.",
+    "exVi": "Phương pháp mới có vẻ hiệu quả.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-012",
+    "term": "tend to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "có xu hướng làm",
+    "def": "to often behave in a particular way",
+    "ex": "People tend to check their phones during breaks.",
+    "exVi": "Mọi người thường kiểm tra điện thoại lúc nghỉ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-013",
+    "term": "avoid doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tránh làm",
+    "def": "to keep away from an action",
+    "ex": "I avoid driving during rush hour.",
+    "exVi": "Tôi tránh lái xe vào giờ cao điểm.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-014",
+    "term": "consider doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cân nhắc làm",
+    "def": "to think carefully about doing something",
+    "ex": "She is considering studying abroad next year.",
+    "exVi": "Cô ấy đang cân nhắc du học năm tới.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-015",
+    "term": "enjoy doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "thích làm",
+    "def": "to get pleasure from an activity",
+    "ex": "They enjoy cycling along the river.",
+    "exVi": "Họ thích đạp xe dọc bờ sông.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-016",
+    "term": "finish doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm xong",
+    "def": "to complete an activity",
+    "ex": "Please finish reading the article before class.",
+    "exVi": "Hãy đọc xong bài viết trước giờ học.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-017",
+    "term": "mind doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "phiền làm",
+    "def": "to feel bothered by doing something",
+    "ex": "Would you mind closing the window?",
+    "exVi": "Bạn có phiền đóng cửa sổ không?",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-018",
+    "term": "suggest doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đề nghị làm",
+    "def": "to mention an idea or possible action",
+    "ex": "I suggest taking a short break.",
+    "exVi": "Tôi đề nghị nghỉ giải lao một chút.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-019",
+    "term": "can't help doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "không thể không làm",
+    "def": "to be unable to stop yourself doing something",
+    "ex": "I couldn't help laughing at the story.",
+    "exVi": "Tôi không thể nhịn cười trước câu chuyện.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u087-020",
+    "term": "look forward to doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mong chờ làm",
+    "def": "to feel pleased about something that will happen",
+    "ex": "We look forward to meeting your team.",
+    "exVi": "Chúng tôi mong được gặp nhóm của bạn.",
+    "ielts": 1
+  }
+]);

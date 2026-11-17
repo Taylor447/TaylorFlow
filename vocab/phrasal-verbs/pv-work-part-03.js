@@ -1,0 +1,222 @@
+window.VOCAB.register("pv-work", [
+  {
+    "id": "pv-work-081",
+    "term": "work late",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm việc đến muộn",
+    "def": "to continue working late into the evening",
+    "ex": "He worked late to finish the presentation.",
+    "exVi": "Anh ấy làm đến muộn để hoàn thành bài thuyết trình.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-082",
+    "term": "work night shifts",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm ca đêm",
+    "def": "to work during the night on a regular schedule",
+    "ex": "My neighbour works night shifts at the airport.",
+    "exVi": "Hàng xóm của tôi làm ca đêm ở sân bay.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-083",
+    "term": "work long hours",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm việc nhiều giờ",
+    "def": "to spend many hours working each day",
+    "ex": "Doctors often work long hours during busy periods.",
+    "exVi": "Bác sĩ thường làm việc nhiều giờ vào những giai đoạn bận rộn.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-084",
+    "term": "work well with",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "phối hợp tốt với",
+    "def": "to cooperate effectively with a person or group",
+    "ex": "She works well with people from different backgrounds.",
+    "exVi": "Cô ấy phối hợp tốt với những người có xuất thân khác nhau.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-085",
+    "term": "work well under pressure",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm việc hiệu quả khi chịu áp lực",
+    "def": "to perform effectively in stressful conditions",
+    "ex": "The team works well under pressure.",
+    "exVi": "Nhóm làm việc hiệu quả khi chịu áp lực.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-086",
+    "term": "work best as a team",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm việc hiệu quả nhất theo nhóm",
+    "def": "to achieve the best results through teamwork",
+    "ex": "We work best as a team when roles are clear.",
+    "exVi": "Chúng tôi làm việc nhóm hiệu quả nhất khi phân công rõ ràng.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-087",
+    "term": "work wonders",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang lại hiệu quả tuyệt vời",
+    "def": "to have a very positive effect",
+    "ex": "A short break can work wonders for concentration.",
+    "exVi": "Một giờ nghỉ ngắn có thể cải thiện khả năng tập trung đáng kể.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-088",
+    "term": "work like a charm",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hoạt động cực kỳ hiệu quả",
+    "def": "to work very well or successfully",
+    "ex": "The new reminder app works like a charm.",
+    "exVi": "Ứng dụng nhắc việc mới hoạt động rất hiệu quả.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-089",
+    "term": "work your way up",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "từng bước thăng tiến",
+    "def": "to gradually move to a higher position",
+    "ex": "She worked her way up from receptionist to manager.",
+    "exVi": "Cô ấy từng bước thăng tiến từ lễ tân lên quản lý.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-090",
+    "term": "work your way through",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lần lượt hoàn thành",
+    "def": "to deal with a large amount step by step",
+    "ex": "I worked my way through the reading list.",
+    "exVi": "Tôi lần lượt hoàn thành danh sách bài đọc.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-091",
+    "term": "work your way around",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tìm đường hoặc cách xử lý",
+    "def": "to find a route or method through something",
+    "ex": "We worked our way around the crowded market.",
+    "exVi": "Chúng tôi tìm lối đi qua khu chợ đông đúc.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-092",
+    "term": "work your way into",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "từng bước gia nhập",
+    "def": "to gradually gain a place in a group or field",
+    "ex": "He worked his way into the local music scene.",
+    "exVi": "Anh ấy từng bước gia nhập giới âm nhạc địa phương.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-093",
+    "term": "work your way out of",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "từng bước thoát khỏi",
+    "def": "to gradually escape from a difficult situation",
+    "ex": "She worked her way out of debt with careful planning.",
+    "exVi": "Cô ấy từng bước thoát nợ nhờ lên kế hoạch cẩn thận.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-094",
+    "term": "work your way towards",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "từng bước tiến tới",
+    "def": "to gradually make progress towards a goal",
+    "ex": "They worked their way towards a healthier routine.",
+    "exVi": "Họ từng bước xây dựng thói quen lành mạnh hơn.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-095",
+    "term": "work down a list",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm lần lượt theo danh sách",
+    "def": "to complete items in a list one by one",
+    "ex": "We worked down the list of household repairs.",
+    "exVi": "Chúng tôi lần lượt sửa chữa các mục trong danh sách việc nhà.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-096",
+    "term": "work through the figures",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "rà soát các con số",
+    "def": "to examine calculations carefully",
+    "ex": "The accountant worked through the figures before approving them.",
+    "exVi": "Kế toán rà soát các con số trước khi duyệt.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-097",
+    "term": "work out a budget",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lập ngân sách",
+    "def": "to calculate how much money is available",
+    "ex": "We worked out a budget for our summer trip.",
+    "exVi": "Chúng tôi lập ngân sách cho chuyến đi hè.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-098",
+    "term": "work the night shift",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm ca đêm",
+    "def": "to do a job during the night",
+    "ex": "My father worked the night shift at the factory.",
+    "exVi": "Bố tôi làm ca đêm ở nhà máy.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-099",
+    "term": "work the land",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "canh tác đất đai",
+    "def": "to farm or cultivate an area of land",
+    "ex": "Local families have worked the land for generations.",
+    "exVi": "Các gia đình địa phương đã canh tác vùng đất này qua nhiều thế hệ.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-work-100",
+    "term": "work a room",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giao tiếp khéo léo với mọi người trong sự kiện",
+    "def": "to move around an event, speaking confidently to people",
+    "ex": "The host worked the room and welcomed every guest.",
+    "exVi": "Chủ nhà khéo léo giao lưu và chào đón từng vị khách.",
+    "ielts": 1
+  }
+]);

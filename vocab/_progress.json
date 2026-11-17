@@ -1,0 +1,2334 @@
+{
+  "version": 1,
+  "books": [
+    {
+      "id": "collocations-intermediate",
+      "status": "done",
+      "count": 2466,
+      "plannedCount": 2466,
+      "units": [
+        {
+          "id": "ci-u001",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "ci-u002",
+          "status": "done",
+          "count": 60,
+          "plannedCount": 60
+        },
+        {
+          "id": "ci-u003",
+          "status": "done",
+          "count": 19,
+          "plannedCount": 19
+        },
+        {
+          "id": "ci-u004",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "ci-u005",
+          "status": "done",
+          "count": 42,
+          "plannedCount": 42
+        },
+        {
+          "id": "ci-u006",
+          "status": "done",
+          "count": 81,
+          "plannedCount": 81
+        },
+        {
+          "id": "ci-u007",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "ci-u008",
+          "status": "done",
+          "count": 44,
+          "plannedCount": 44
+        },
+        {
+          "id": "ci-u009",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "ci-u010",
+          "status": "done",
+          "count": 38,
+          "plannedCount": 38
+        },
+        {
+          "id": "ci-u011",
+          "status": "done",
+          "count": 40,
+          "plannedCount": 40
+        },
+        {
+          "id": "ci-u012",
+          "status": "done",
+          "count": 34,
+          "plannedCount": 34
+        },
+        {
+          "id": "ci-u013",
+          "status": "done",
+          "count": 50,
+          "plannedCount": 50
+        },
+        {
+          "id": "ci-u014",
+          "status": "done",
+          "count": 32,
+          "plannedCount": 32
+        },
+        {
+          "id": "ci-u015",
+          "status": "done",
+          "count": 40,
+          "plannedCount": 40
+        },
+        {
+          "id": "ci-u016",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "ci-u017",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "ci-u018",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "ci-u019",
+          "status": "done",
+          "count": 42,
+          "plannedCount": 42
+        },
+        {
+          "id": "ci-u020",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "ci-u021",
+          "status": "done",
+          "count": 67,
+          "plannedCount": 67
+        },
+        {
+          "id": "ci-u022",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "ci-u023",
+          "status": "done",
+          "count": 61,
+          "plannedCount": 61
+        },
+        {
+          "id": "ci-u024",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "ci-u025",
+          "status": "done",
+          "count": 93,
+          "plannedCount": 93
+        },
+        {
+          "id": "ci-u026",
+          "status": "done",
+          "count": 62,
+          "plannedCount": 62
+        },
+        {
+          "id": "ci-u027",
+          "status": "done",
+          "count": 24,
+          "plannedCount": 24
+        },
+        {
+          "id": "ci-u028",
+          "status": "done",
+          "count": 64,
+          "plannedCount": 64
+        },
+        {
+          "id": "ci-u029",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "ci-u030",
+          "status": "done",
+          "count": 60,
+          "plannedCount": 60
+        },
+        {
+          "id": "ci-u031",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "ci-u032",
+          "status": "done",
+          "count": 34,
+          "plannedCount": 34
+        },
+        {
+          "id": "ci-u033",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "ci-u034",
+          "status": "done",
+          "count": 36,
+          "plannedCount": 36
+        },
+        {
+          "id": "ci-u035",
+          "status": "done",
+          "count": 32,
+          "plannedCount": 32
+        },
+        {
+          "id": "ci-u036",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "ci-u037",
+          "status": "done",
+          "count": 32,
+          "plannedCount": 32
+        },
+        {
+          "id": "ci-u038",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "ci-u039",
+          "status": "done",
+          "count": 44,
+          "plannedCount": 44
+        },
+        {
+          "id": "ci-u040",
+          "status": "done",
+          "count": 36,
+          "plannedCount": 36
+        },
+        {
+          "id": "ci-u041",
+          "status": "done",
+          "count": 46,
+          "plannedCount": 46
+        },
+        {
+          "id": "ci-u042",
+          "status": "done",
+          "count": 71,
+          "plannedCount": 71
+        },
+        {
+          "id": "ci-u043",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "ci-u044",
+          "status": "done",
+          "count": 63,
+          "plannedCount": 63
+        },
+        {
+          "id": "ci-u045",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "ci-u046",
+          "status": "done",
+          "count": 52,
+          "plannedCount": 52
+        },
+        {
+          "id": "ci-u047",
+          "status": "done",
+          "count": 56,
+          "plannedCount": 56
+        },
+        {
+          "id": "ci-u048",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "ci-u049",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "ci-u050",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "ci-u051",
+          "status": "done",
+          "count": 20,
+          "plannedCount": 20
+        },
+        {
+          "id": "ci-u052",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "ci-u053",
+          "status": "done",
+          "count": 52,
+          "plannedCount": 52
+        },
+        {
+          "id": "ci-u054",
+          "status": "done",
+          "count": 38,
+          "plannedCount": 38
+        },
+        {
+          "id": "ci-u055",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "ci-u056",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "ci-u057",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "ci-u058",
+          "status": "done",
+          "count": 36,
+          "plannedCount": 36
+        },
+        {
+          "id": "ci-u059",
+          "status": "done",
+          "count": 36,
+          "plannedCount": 36
+        },
+        {
+          "id": "ci-u060",
+          "status": "done",
+          "count": 52,
+          "plannedCount": 52
+        }
+      ]
+    },
+    {
+      "id": "vocab-elementary",
+      "status": "done",
+      "count": 1435,
+      "plannedCount": 1435,
+      "units": [
+        {
+          "id": "a1-u001",
+          "status": "done",
+          "count": 22,
+          "plannedCount": 22
+        },
+        {
+          "id": "a1-u002",
+          "status": "done",
+          "count": 24,
+          "plannedCount": 24
+        },
+        {
+          "id": "a1-u003",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "a1-u004",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "a1-u005",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "a1-u006",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "a1-u007",
+          "status": "done",
+          "count": 22,
+          "plannedCount": 22
+        },
+        {
+          "id": "a1-u008",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "a1-u009",
+          "status": "done",
+          "count": 21,
+          "plannedCount": 21
+        },
+        {
+          "id": "a1-u010",
+          "status": "done",
+          "count": 38,
+          "plannedCount": 38
+        },
+        {
+          "id": "a1-u011",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "a1-u012",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "a1-u013",
+          "status": "done",
+          "count": 27,
+          "plannedCount": 27
+        },
+        {
+          "id": "a1-u014",
+          "status": "done",
+          "count": 22,
+          "plannedCount": 22
+        },
+        {
+          "id": "a1-u015",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "a1-u016",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "a1-u017",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "a1-u018",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "a1-u019",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "a1-u020",
+          "status": "done",
+          "count": 24,
+          "plannedCount": 24
+        },
+        {
+          "id": "a1-u021",
+          "status": "done",
+          "count": 24,
+          "plannedCount": 24
+        },
+        {
+          "id": "a1-u022",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "a1-u023",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "a1-u024",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "a1-u025",
+          "status": "done",
+          "count": 24,
+          "plannedCount": 24
+        },
+        {
+          "id": "a1-u026",
+          "status": "done",
+          "count": 27,
+          "plannedCount": 27
+        },
+        {
+          "id": "a1-u027",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "a1-u028",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "a1-u029",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "a1-u030",
+          "status": "done",
+          "count": 24,
+          "plannedCount": 24
+        },
+        {
+          "id": "a1-u031",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "a1-u032",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "a1-u033",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "a1-u034",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "a1-u035",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "a1-u036",
+          "status": "done",
+          "count": 22,
+          "plannedCount": 22
+        },
+        {
+          "id": "a1-u037",
+          "status": "done",
+          "count": 20,
+          "plannedCount": 20
+        },
+        {
+          "id": "a1-u038",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "a1-u039",
+          "status": "done",
+          "count": 20,
+          "plannedCount": 20
+        },
+        {
+          "id": "a1-u040",
+          "status": "done",
+          "count": 17,
+          "plannedCount": 17
+        },
+        {
+          "id": "a1-u041",
+          "status": "done",
+          "count": 18,
+          "plannedCount": 18
+        },
+        {
+          "id": "a1-u042",
+          "status": "done",
+          "count": 13,
+          "plannedCount": 13
+        },
+        {
+          "id": "a1-u043",
+          "status": "done",
+          "count": 24,
+          "plannedCount": 24
+        },
+        {
+          "id": "a1-u044",
+          "status": "done",
+          "count": 20,
+          "plannedCount": 20
+        },
+        {
+          "id": "a1-u045",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "a1-u046",
+          "status": "done",
+          "count": 12,
+          "plannedCount": 12
+        },
+        {
+          "id": "a1-u047",
+          "status": "done",
+          "count": 20,
+          "plannedCount": 20
+        },
+        {
+          "id": "a1-u048",
+          "status": "done",
+          "count": 20,
+          "plannedCount": 20
+        },
+        {
+          "id": "a1-u049",
+          "status": "done",
+          "count": 20,
+          "plannedCount": 20
+        },
+        {
+          "id": "a1-u050",
+          "status": "done",
+          "count": 15,
+          "plannedCount": 15
+        },
+        {
+          "id": "a1-u051",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "a1-u052",
+          "status": "done",
+          "count": 27,
+          "plannedCount": 27
+        },
+        {
+          "id": "a1-u053",
+          "status": "done",
+          "count": 22,
+          "plannedCount": 22
+        },
+        {
+          "id": "a1-u054",
+          "status": "done",
+          "count": 21,
+          "plannedCount": 21
+        },
+        {
+          "id": "a1-u055",
+          "status": "done",
+          "count": 21,
+          "plannedCount": 21
+        },
+        {
+          "id": "a1-u056",
+          "status": "done",
+          "count": 13,
+          "plannedCount": 13
+        },
+        {
+          "id": "a1-u057",
+          "status": "done",
+          "count": 21,
+          "plannedCount": 21
+        },
+        {
+          "id": "a1-u058",
+          "status": "done",
+          "count": 13,
+          "plannedCount": 13
+        },
+        {
+          "id": "a1-u059",
+          "status": "done",
+          "count": 15,
+          "plannedCount": 15
+        },
+        {
+          "id": "a1-u060",
+          "status": "done",
+          "count": 20,
+          "plannedCount": 20
+        }
+      ]
+    },
+    {
+      "id": "vocab-b1",
+      "status": "done",
+      "count": 2803,
+      "plannedCount": 2803,
+      "units": [
+        {
+          "id": "b1-u001",
+          "status": "done",
+          "count": 11,
+          "plannedCount": 11
+        },
+        {
+          "id": "b1-u002",
+          "status": "done",
+          "count": 22,
+          "plannedCount": 22
+        },
+        {
+          "id": "b1-u003",
+          "status": "done",
+          "count": 14,
+          "plannedCount": 14
+        },
+        {
+          "id": "b1-u004",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "b1-u005",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "b1-u006",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b1-u007",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "b1-u008",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "b1-u009",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "b1-u010",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "b1-u011",
+          "status": "done",
+          "count": 36,
+          "plannedCount": 36
+        },
+        {
+          "id": "b1-u012",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b1-u013",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "b1-u014",
+          "status": "done",
+          "count": 24,
+          "plannedCount": 24
+        },
+        {
+          "id": "b1-u015",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b1-u016",
+          "status": "done",
+          "count": 41,
+          "plannedCount": 41
+        },
+        {
+          "id": "b1-u017",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b1-u018",
+          "status": "done",
+          "count": 34,
+          "plannedCount": 34
+        },
+        {
+          "id": "b1-u019",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b1-u020",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "b1-u021",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "b1-u022",
+          "status": "done",
+          "count": 24,
+          "plannedCount": 24
+        },
+        {
+          "id": "b1-u023",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "b1-u024",
+          "status": "done",
+          "count": 39,
+          "plannedCount": 39
+        },
+        {
+          "id": "b1-u025",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "b1-u026",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b1-u027",
+          "status": "done",
+          "count": 32,
+          "plannedCount": 32
+        },
+        {
+          "id": "b1-u028",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "b1-u029",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "b1-u030",
+          "status": "done",
+          "count": 21,
+          "plannedCount": 21
+        },
+        {
+          "id": "b1-u031",
+          "status": "done",
+          "count": 32,
+          "plannedCount": 32
+        },
+        {
+          "id": "b1-u032",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "b1-u033",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "b1-u034",
+          "status": "done",
+          "count": 34,
+          "plannedCount": 34
+        },
+        {
+          "id": "b1-u035",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "b1-u036",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "b1-u037",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "b1-u038",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b1-u039",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "b1-u040",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "b1-u041",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "b1-u042",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "b1-u043",
+          "status": "done",
+          "count": 27,
+          "plannedCount": 27
+        },
+        {
+          "id": "b1-u044",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "b1-u045",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "b1-u046",
+          "status": "done",
+          "count": 22,
+          "plannedCount": 22
+        },
+        {
+          "id": "b1-u047",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "b1-u048",
+          "status": "done",
+          "count": 34,
+          "plannedCount": 34
+        },
+        {
+          "id": "b1-u049",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b1-u050",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "b1-u051",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b1-u052",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "b1-u053",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "b1-u054",
+          "status": "done",
+          "count": 40,
+          "plannedCount": 40
+        },
+        {
+          "id": "b1-u055",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "b1-u056",
+          "status": "done",
+          "count": 36,
+          "plannedCount": 36
+        },
+        {
+          "id": "b1-u057",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "b1-u058",
+          "status": "done",
+          "count": 32,
+          "plannedCount": 32
+        },
+        {
+          "id": "b1-u059",
+          "status": "done",
+          "count": 27,
+          "plannedCount": 27
+        },
+        {
+          "id": "b1-u060",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b1-u061",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "b1-u062",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "b1-u063",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "b1-u064",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "b1-u065",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "b1-u066",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "b1-u067",
+          "status": "done",
+          "count": 21,
+          "plannedCount": 21
+        },
+        {
+          "id": "b1-u068",
+          "status": "done",
+          "count": 20,
+          "plannedCount": 20
+        },
+        {
+          "id": "b1-u069",
+          "status": "done",
+          "count": 20,
+          "plannedCount": 20
+        },
+        {
+          "id": "b1-u070",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "b1-u071",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "b1-u072",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "b1-u073",
+          "status": "done",
+          "count": 32,
+          "plannedCount": 32
+        },
+        {
+          "id": "b1-u074",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "b1-u075",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "b1-u076",
+          "status": "done",
+          "count": 22,
+          "plannedCount": 22
+        },
+        {
+          "id": "b1-u077",
+          "status": "done",
+          "count": 27,
+          "plannedCount": 27
+        },
+        {
+          "id": "b1-u078",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "b1-u079",
+          "status": "done",
+          "count": 21,
+          "plannedCount": 21
+        },
+        {
+          "id": "b1-u080",
+          "status": "done",
+          "count": 18,
+          "plannedCount": 18
+        },
+        {
+          "id": "b1-u081",
+          "status": "done",
+          "count": 21,
+          "plannedCount": 21
+        },
+        {
+          "id": "b1-u082",
+          "status": "done",
+          "count": 22,
+          "plannedCount": 22
+        },
+        {
+          "id": "b1-u083",
+          "status": "done",
+          "count": 19,
+          "plannedCount": 19
+        },
+        {
+          "id": "b1-u084",
+          "status": "done",
+          "count": 19,
+          "plannedCount": 19
+        },
+        {
+          "id": "b1-u085",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "b1-u086",
+          "status": "done",
+          "count": 22,
+          "plannedCount": 22
+        },
+        {
+          "id": "b1-u087",
+          "status": "done",
+          "count": 20,
+          "plannedCount": 20
+        },
+        {
+          "id": "b1-u088",
+          "status": "done",
+          "count": 21,
+          "plannedCount": 21
+        },
+        {
+          "id": "b1-u089",
+          "status": "done",
+          "count": 24,
+          "plannedCount": 24
+        },
+        {
+          "id": "b1-u090",
+          "status": "done",
+          "count": 24,
+          "plannedCount": 24
+        },
+        {
+          "id": "b1-u091",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "b1-u092",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "b1-u093",
+          "status": "done",
+          "count": 18,
+          "plannedCount": 18
+        },
+        {
+          "id": "b1-u094",
+          "status": "done",
+          "count": 17,
+          "plannedCount": 17
+        },
+        {
+          "id": "b1-u095",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "b1-u096",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "b1-u097",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "b1-u098",
+          "status": "done",
+          "count": 27,
+          "plannedCount": 27
+        },
+        {
+          "id": "b1-u099",
+          "status": "done",
+          "count": 22,
+          "plannedCount": 22
+        },
+        {
+          "id": "b1-u100",
+          "status": "done",
+          "count": 36,
+          "plannedCount": 36
+        }
+      ]
+    },
+    {
+      "id": "vocab-b2",
+      "status": "done",
+      "count": 3215,
+      "plannedCount": 3215,
+      "units": [
+        {
+          "id": "b2-u001",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "b2-u002",
+          "status": "done",
+          "count": 32,
+          "plannedCount": 32
+        },
+        {
+          "id": "b2-u003",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "b2-u004",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "b2-u005",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "b2-u006",
+          "status": "done",
+          "count": 38,
+          "plannedCount": 38
+        },
+        {
+          "id": "b2-u007",
+          "status": "done",
+          "count": 42,
+          "plannedCount": 42
+        },
+        {
+          "id": "b2-u008",
+          "status": "done",
+          "count": 42,
+          "plannedCount": 42
+        },
+        {
+          "id": "b2-u009",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "b2-u010",
+          "status": "done",
+          "count": 36,
+          "plannedCount": 36
+        },
+        {
+          "id": "b2-u011",
+          "status": "done",
+          "count": 34,
+          "plannedCount": 34
+        },
+        {
+          "id": "b2-u012",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "b2-u013",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "b2-u014",
+          "status": "done",
+          "count": 27,
+          "plannedCount": 27
+        },
+        {
+          "id": "b2-u015",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "b2-u016",
+          "status": "done",
+          "count": 42,
+          "plannedCount": 42
+        },
+        {
+          "id": "b2-u017",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "b2-u018",
+          "status": "done",
+          "count": 44,
+          "plannedCount": 44
+        },
+        {
+          "id": "b2-u019",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "b2-u020",
+          "status": "done",
+          "count": 27,
+          "plannedCount": 27
+        },
+        {
+          "id": "b2-u021",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "b2-u022",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "b2-u023",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "b2-u024",
+          "status": "done",
+          "count": 32,
+          "plannedCount": 32
+        },
+        {
+          "id": "b2-u025",
+          "status": "done",
+          "count": 38,
+          "plannedCount": 38
+        },
+        {
+          "id": "b2-u026",
+          "status": "done",
+          "count": 42,
+          "plannedCount": 42
+        },
+        {
+          "id": "b2-u027",
+          "status": "done",
+          "count": 42,
+          "plannedCount": 42
+        },
+        {
+          "id": "b2-u028",
+          "status": "done",
+          "count": 40,
+          "plannedCount": 40
+        },
+        {
+          "id": "b2-u029",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "b2-u030",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "b2-u031",
+          "status": "done",
+          "count": 40,
+          "plannedCount": 40
+        },
+        {
+          "id": "b2-u032",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "b2-u033",
+          "status": "done",
+          "count": 38,
+          "plannedCount": 38
+        },
+        {
+          "id": "b2-u034",
+          "status": "done",
+          "count": 32,
+          "plannedCount": 32
+        },
+        {
+          "id": "b2-u035",
+          "status": "done",
+          "count": 39,
+          "plannedCount": 39
+        },
+        {
+          "id": "b2-u036",
+          "status": "done",
+          "count": 24,
+          "plannedCount": 24
+        },
+        {
+          "id": "b2-u037",
+          "status": "done",
+          "count": 36,
+          "plannedCount": 36
+        },
+        {
+          "id": "b2-u038",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "b2-u039",
+          "status": "done",
+          "count": 40,
+          "plannedCount": 40
+        },
+        {
+          "id": "b2-u040",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "b2-u041",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "b2-u042",
+          "status": "done",
+          "count": 32,
+          "plannedCount": 32
+        },
+        {
+          "id": "b2-u043",
+          "status": "done",
+          "count": 19,
+          "plannedCount": 19
+        },
+        {
+          "id": "b2-u044",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b2-u045",
+          "status": "done",
+          "count": 38,
+          "plannedCount": 38
+        },
+        {
+          "id": "b2-u046",
+          "status": "done",
+          "count": 50,
+          "plannedCount": 50
+        },
+        {
+          "id": "b2-u047",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "b2-u048",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "b2-u049",
+          "status": "done",
+          "count": 27,
+          "plannedCount": 27
+        },
+        {
+          "id": "b2-u050",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "b2-u051",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "b2-u052",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "b2-u053",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "b2-u054",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "b2-u055",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "b2-u056",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "b2-u057",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "b2-u058",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "b2-u059",
+          "status": "done",
+          "count": 32,
+          "plannedCount": 32
+        },
+        {
+          "id": "b2-u060",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "b2-u061",
+          "status": "done",
+          "count": 21,
+          "plannedCount": 21
+        },
+        {
+          "id": "b2-u062",
+          "status": "done",
+          "count": 20,
+          "plannedCount": 20
+        },
+        {
+          "id": "b2-u063",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "b2-u064",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "b2-u065",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "b2-u066",
+          "status": "done",
+          "count": 34,
+          "plannedCount": 34
+        },
+        {
+          "id": "b2-u067",
+          "status": "done",
+          "count": 27,
+          "plannedCount": 27
+        },
+        {
+          "id": "b2-u068",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "b2-u069",
+          "status": "done",
+          "count": 18,
+          "plannedCount": 18
+        },
+        {
+          "id": "b2-u070",
+          "status": "done",
+          "count": 37,
+          "plannedCount": 37
+        },
+        {
+          "id": "b2-u071",
+          "status": "done",
+          "count": 39,
+          "plannedCount": 39
+        },
+        {
+          "id": "b2-u072",
+          "status": "done",
+          "count": 34,
+          "plannedCount": 34
+        },
+        {
+          "id": "b2-u073",
+          "status": "done",
+          "count": 40,
+          "plannedCount": 40
+        },
+        {
+          "id": "b2-u074",
+          "status": "done",
+          "count": 40,
+          "plannedCount": 40
+        },
+        {
+          "id": "b2-u075",
+          "status": "done",
+          "count": 40,
+          "plannedCount": 40
+        },
+        {
+          "id": "b2-u076",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "b2-u077",
+          "status": "done",
+          "count": 28,
+          "plannedCount": 28
+        },
+        {
+          "id": "b2-u078",
+          "status": "done",
+          "count": 36,
+          "plannedCount": 36
+        },
+        {
+          "id": "b2-u079",
+          "status": "done",
+          "count": 18,
+          "plannedCount": 18
+        },
+        {
+          "id": "b2-u080",
+          "status": "done",
+          "count": 34,
+          "plannedCount": 34
+        },
+        {
+          "id": "b2-u081",
+          "status": "done",
+          "count": 27,
+          "plannedCount": 27
+        },
+        {
+          "id": "b2-u082",
+          "status": "done",
+          "count": 33,
+          "plannedCount": 33
+        },
+        {
+          "id": "b2-u083",
+          "status": "done",
+          "count": 39,
+          "plannedCount": 39
+        },
+        {
+          "id": "b2-u084",
+          "status": "done",
+          "count": 43,
+          "plannedCount": 43
+        },
+        {
+          "id": "b2-u085",
+          "status": "done",
+          "count": 22,
+          "plannedCount": 22
+        },
+        {
+          "id": "b2-u086",
+          "status": "done",
+          "count": 24,
+          "plannedCount": 24
+        },
+        {
+          "id": "b2-u087",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "b2-u088",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "b2-u089",
+          "status": "done",
+          "count": 39,
+          "plannedCount": 39
+        },
+        {
+          "id": "b2-u090",
+          "status": "done",
+          "count": 31,
+          "plannedCount": 31
+        },
+        {
+          "id": "b2-u091",
+          "status": "done",
+          "count": 25,
+          "plannedCount": 25
+        },
+        {
+          "id": "b2-u092",
+          "status": "done",
+          "count": 30,
+          "plannedCount": 30
+        },
+        {
+          "id": "b2-u093",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b2-u094",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b2-u095",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b2-u096",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b2-u097",
+          "status": "done",
+          "count": 35,
+          "plannedCount": 35
+        },
+        {
+          "id": "b2-u098",
+          "status": "done",
+          "count": 13,
+          "plannedCount": 13
+        },
+        {
+          "id": "b2-u099",
+          "status": "done",
+          "count": 29,
+          "plannedCount": 29
+        },
+        {
+          "id": "b2-u100",
+          "status": "done",
+          "count": 38,
+          "plannedCount": 38
+        },
+        {
+          "id": "b2-u101",
+          "status": "done",
+          "count": 39,
+          "plannedCount": 39
+        }
+      ]
+    },
+    {
+      "id": "phrasal-verbs",
+      "status": "done",
+      "count": 2422,
+      "plannedCount": 2422,
+      "units": [
+        {
+          "id": "pv-along",
+          "status": "done",
+          "count": 105,
+          "plannedCount": 105
+        },
+        {
+          "id": "pv-apart",
+          "status": "done",
+          "count": 97,
+          "plannedCount": 97
+        },
+        {
+          "id": "pv-around",
+          "status": "done",
+          "count": 60,
+          "plannedCount": 60
+        },
+        {
+          "id": "pv-away",
+          "status": "done",
+          "count": 71,
+          "plannedCount": 71
+        },
+        {
+          "id": "pv-back",
+          "status": "done",
+          "count": 71,
+          "plannedCount": 71
+        },
+        {
+          "id": "pv-down",
+          "status": "done",
+          "count": 51,
+          "plannedCount": 51
+        },
+        {
+          "id": "pv-forward",
+          "status": "done",
+          "count": 130,
+          "plannedCount": 130
+        },
+        {
+          "id": "pv-break",
+          "status": "done",
+          "count": 23,
+          "plannedCount": 23
+        },
+        {
+          "id": "pv-bring",
+          "status": "done",
+          "count": 47,
+          "plannedCount": 47
+        },
+        {
+          "id": "pv-call",
+          "status": "done",
+          "count": 86,
+          "plannedCount": 86
+        },
+        {
+          "id": "pv-carry",
+          "status": "done",
+          "count": 101,
+          "plannedCount": 101
+        },
+        {
+          "id": "pv-come",
+          "status": "done",
+          "count": 49,
+          "plannedCount": 49
+        },
+        {
+          "id": "pv-cut",
+          "status": "done",
+          "count": 52,
+          "plannedCount": 52
+        },
+        {
+          "id": "pv-get",
+          "status": "done",
+          "count": 15,
+          "plannedCount": 15
+        },
+        {
+          "id": "pv-go",
+          "status": "done",
+          "count": 81,
+          "plannedCount": 81
+        },
+        {
+          "id": "pv-hand",
+          "status": "done",
+          "count": 101,
+          "plannedCount": 101
+        },
+        {
+          "id": "pv-hold",
+          "status": "done",
+          "count": 99,
+          "plannedCount": 99
+        },
+        {
+          "id": "pv-look",
+          "status": "done",
+          "count": 51,
+          "plannedCount": 51
+        },
+        {
+          "id": "pv-make",
+          "status": "done",
+          "count": 38,
+          "plannedCount": 38
+        },
+        {
+          "id": "pv-pick",
+          "status": "done",
+          "count": 100,
+          "plannedCount": 100
+        },
+        {
+          "id": "pv-pull",
+          "status": "done",
+          "count": 42,
+          "plannedCount": 42
+        },
+        {
+          "id": "pv-put",
+          "status": "done",
+          "count": 26,
+          "plannedCount": 26
+        },
+        {
+          "id": "pv-run",
+          "status": "done",
+          "count": 39,
+          "plannedCount": 39
+        },
+        {
+          "id": "pv-set",
+          "status": "done",
+          "count": 73,
+          "plannedCount": 73
+        },
+        {
+          "id": "pv-take",
+          "status": "done",
+          "count": 22,
+          "plannedCount": 22
+        },
+        {
+          "id": "pv-turn",
+          "status": "done",
+          "count": 15,
+          "plannedCount": 15
+        },
+        {
+          "id": "pv-work",
+          "status": "done",
+          "count": 100,
+          "plannedCount": 100
+        },
+        {
+          "id": "pv-in",
+          "status": "done",
+          "count": 104,
+          "plannedCount": 104
+        },
+        {
+          "id": "pv-off",
+          "status": "done",
+          "count": 61,
+          "plannedCount": 61
+        },
+        {
+          "id": "pv-on",
+          "status": "done",
+          "count": 84,
+          "plannedCount": 84
+        },
+        {
+          "id": "pv-out",
+          "status": "done",
+          "count": 64,
+          "plannedCount": 64
+        },
+        {
+          "id": "pv-over",
+          "status": "done",
+          "count": 96,
+          "plannedCount": 96
+        },
+        {
+          "id": "pv-through",
+          "status": "done",
+          "count": 68,
+          "plannedCount": 68
+        },
+        {
+          "id": "pv-together",
+          "status": "done",
+          "count": 152,
+          "plannedCount": 152
+        },
+        {
+          "id": "pv-up",
+          "status": "done",
+          "count": 48,
+          "plannedCount": 48
+        }
+      ]
+    },
+    {
+      "id": "english-idioms",
+      "status": "done",
+      "count": 2787,
+      "plannedCount": 2787,
+      "units": [
+        {
+          "id": "idioms-describe-people",
+          "status": "done",
+          "count": 81,
+          "plannedCount": 81
+        },
+        {
+          "id": "idioms-relationships",
+          "status": "done",
+          "count": 79,
+          "plannedCount": 79
+        },
+        {
+          "id": "idioms-success",
+          "status": "done",
+          "count": 136,
+          "plannedCount": 136
+        },
+        {
+          "id": "idioms-failure",
+          "status": "done",
+          "count": 134,
+          "plannedCount": 134
+        },
+        {
+          "id": "idioms-interactions",
+          "status": "done",
+          "count": 129,
+          "plannedCount": 129
+        },
+        {
+          "id": "idioms-personality",
+          "status": "done",
+          "count": 126,
+          "plannedCount": 126
+        },
+        {
+          "id": "idioms-feelings",
+          "status": "done",
+          "count": 154,
+          "plannedCount": 154
+        },
+        {
+          "id": "idioms-work-money",
+          "status": "done",
+          "count": 137,
+          "plannedCount": 137
+        },
+        {
+          "id": "idioms-perseverance",
+          "status": "done",
+          "count": 103,
+          "plannedCount": 103
+        },
+        {
+          "id": "idioms-society-law-politics",
+          "status": "done",
+          "count": 125,
+          "plannedCount": 125
+        },
+        {
+          "id": "idioms-decision-control",
+          "status": "done",
+          "count": 130,
+          "plannedCount": 130
+        },
+        {
+          "id": "idioms-time",
+          "status": "done",
+          "count": 98,
+          "plannedCount": 98
+        },
+        {
+          "id": "idioms-knowledge-understanding",
+          "status": "done",
+          "count": 144,
+          "plannedCount": 144
+        },
+        {
+          "id": "idioms-amounts",
+          "status": "done",
+          "count": 79,
+          "plannedCount": 79
+        },
+        {
+          "id": "idioms-behavior-approach",
+          "status": "done",
+          "count": 170,
+          "plannedCount": 170
+        },
+        {
+          "id": "idioms-difficulty",
+          "status": "done",
+          "count": 124,
+          "plannedCount": 124
+        },
+        {
+          "id": "idioms-certainty-possibility",
+          "status": "done",
+          "count": 99,
+          "plannedCount": 99
+        },
+        {
+          "id": "idioms-danger",
+          "status": "done",
+          "count": 88,
+          "plannedCount": 88
+        },
+        {
+          "id": "idioms-everyday-life",
+          "status": "done",
+          "count": 102,
+          "plannedCount": 102
+        },
+        {
+          "id": "idioms-influence-involvement",
+          "status": "done",
+          "count": 131,
+          "plannedCount": 131
+        },
+        {
+          "id": "idioms-opinion",
+          "status": "done",
+          "count": 146,
+          "plannedCount": 146
+        },
+        {
+          "id": "idioms-truth-secrecy-deception",
+          "status": "done",
+          "count": 140,
+          "plannedCount": 140
+        },
+        {
+          "id": "idioms-describe-qualities",
+          "status": "done",
+          "count": 132,
+          "plannedCount": 132
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "loadedItems": 15128,
+    "completedItems": 15128,
+    "doneUnits": 379,
+    "pendingUnits": 0,
+    "missingFiles": 0
+  }
+}

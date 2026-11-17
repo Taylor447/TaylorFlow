@@ -1,0 +1,222 @@
+window.VOCAB.register("b1-u068", [
+  {
+    "id": "b1-u068-001",
+    "term": "like",
+    "pos": "v",
+    "ipa": "",
+    "vi": "thích",
+    "def": "to enjoy something or feel positively about it",
+    "ex": "I like walking beside the river after work.",
+    "exVi": "Tôi thích đi bộ bên sông sau giờ làm.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-002",
+    "term": "love",
+    "pos": "v",
+    "ipa": "",
+    "vi": "rất thích; yêu",
+    "def": "to enjoy something very much",
+    "ex": "They love visiting small towns on holiday.",
+    "exVi": "Họ rất thích thăm các thị trấn nhỏ khi nghỉ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-003",
+    "term": "enjoy",
+    "pos": "v",
+    "ipa": "",
+    "vi": "thích; tận hưởng",
+    "def": "to get pleasure from an activity or experience",
+    "ex": "She enjoys cooking for her friends.",
+    "exVi": "Cô ấy thích nấu ăn cho bạn bè.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-004",
+    "term": "prefer",
+    "pos": "v",
+    "ipa": "",
+    "vi": "thích hơn",
+    "def": "to like one thing more than another",
+    "ex": "I prefer tea to coffee in the evening.",
+    "exVi": "Buổi tối tôi thích trà hơn cà phê.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-005",
+    "term": "be keen on",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "rất thích",
+    "def": "to be interested in or enthusiastic about something",
+    "ex": "My brother is keen on photography.",
+    "exVi": "Em trai tôi rất thích nhiếp ảnh.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-006",
+    "term": "be fond of",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "có cảm tình; thích",
+    "def": "to like someone or something",
+    "ex": "Our grandmother is fond of gardening.",
+    "exVi": "Bà chúng tôi thích làm vườn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-007",
+    "term": "be interested in",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "quan tâm đến",
+    "def": "to want to learn or know more about something",
+    "ex": "I am interested in local history.",
+    "exVi": "Tôi quan tâm đến lịch sử địa phương.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-008",
+    "term": "be into",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mê; thích",
+    "def": "to enjoy or be enthusiastic about something, informally",
+    "ex": "My classmates are into Korean films.",
+    "exVi": "Các bạn cùng lớp tôi mê phim Hàn Quốc.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-009",
+    "term": "have a preference for",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ưa chuộng",
+    "def": "to like one option more than others",
+    "ex": "Many customers have a preference for local produce.",
+    "exVi": "Nhiều khách hàng ưa chuộng nông sản địa phương.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-010",
+    "term": "dislike",
+    "pos": "v",
+    "ipa": "",
+    "vi": "không thích",
+    "def": "to feel that something is unpleasant",
+    "ex": "I dislike crowded places during the holidays.",
+    "exVi": "Tôi không thích nơi đông người vào dịp nghỉ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-011",
+    "term": "hate",
+    "pos": "v",
+    "ipa": "",
+    "vi": "ghét; rất không thích",
+    "def": "to strongly dislike someone or something",
+    "ex": "He hates getting up before sunrise.",
+    "exVi": "Anh ấy ghét thức dậy trước bình minh.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-012",
+    "term": "can't stand",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "không thể chịu được",
+    "def": "to strongly dislike something or someone",
+    "ex": "I can't stand waiting in long queues.",
+    "exVi": "Tôi không thể chịu được việc xếp hàng lâu.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-013",
+    "term": "can't bear",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "không thể chịu nổi",
+    "def": "to find something so unpleasant that it is hard to accept",
+    "ex": "She can't bear the sound of fingernails on glass.",
+    "exVi": "Cô ấy không chịu nổi tiếng móng tay cào kính.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-014",
+    "term": "not my cup of tea",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "không hợp sở thích của tôi",
+    "def": "not something that you personally enjoy",
+    "ex": "Camping is not my cup of tea.",
+    "exVi": "Cắm trại không hợp sở thích của tôi.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-015",
+    "term": "favourite",
+    "pos": "adj",
+    "ipa": "",
+    "vi": "yêu thích nhất",
+    "def": "liked more than all other similar things",
+    "ex": "Blue is my favourite colour.",
+    "exVi": "Màu xanh dương là màu tôi yêu thích nhất.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-016",
+    "term": "attitude",
+    "pos": "n",
+    "ipa": "",
+    "vi": "thái độ",
+    "def": "the way someone thinks or feels about something",
+    "ex": "Her attitude towards learning is very positive.",
+    "exVi": "Thái độ của cô ấy với việc học rất tích cực.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-017",
+    "term": "positive attitude",
+    "pos": "n",
+    "ipa": "",
+    "vi": "thái độ tích cực",
+    "def": "an optimistic way of thinking about a situation",
+    "ex": "A positive attitude helped him recover from failure.",
+    "exVi": "Thái độ tích cực giúp anh ấy vượt qua thất bại.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-018",
+    "term": "negative attitude",
+    "pos": "n",
+    "ipa": "",
+    "vi": "thái độ tiêu cực",
+    "def": "an unhelpful or pessimistic way of thinking",
+    "ex": "A negative attitude can affect the whole team.",
+    "exVi": "Thái độ tiêu cực có thể ảnh hưởng cả nhóm.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-019",
+    "term": "be attracted to",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bị thu hút bởi",
+    "def": "to feel interested in or drawn towards someone or something",
+    "ex": "Visitors are attracted to the town's old buildings.",
+    "exVi": "Du khách bị thu hút bởi những tòa nhà cổ trong thị trấn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u068-020",
+    "term": "have mixed feelings about",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "có cảm xúc lẫn lộn về",
+    "def": "to feel both positive and negative about something",
+    "ex": "I have mixed feelings about moving abroad.",
+    "exVi": "Tôi có cảm xúc lẫn lộn về việc ra nước ngoài.",
+    "ielts": 1
+  }
+]);

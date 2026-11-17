@@ -1,0 +1,233 @@
+window.VOCAB.register("pv-carry", [
+  {
+    "id": "pv-carry-081",
+    "term": "carry someone away",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "khiến ai bị cuốn theo cảm xúc",
+    "def": "to make someone lose control of their feelings",
+    "ex": "The excitement carried the crowd away after the final goal.",
+    "exVi": "Sự phấn khích khiến đám đông cuốn theo sau bàn thắng cuối.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-082",
+    "term": "carry the audience away",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm khán giả say mê",
+    "def": "to make an audience feel deeply involved",
+    "ex": "Her story carried the audience away for an hour.",
+    "exVi": "Câu chuyện của cô khiến khán giả say mê suốt một giờ.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-083",
+    "term": "be carried away by excitement",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "quá phấn khích",
+    "def": "to become so excited that you lose judgement",
+    "ex": "We were carried away by excitement and booked the first flight.",
+    "exVi": "Chúng tôi quá phấn khích nên đặt ngay chuyến bay đầu tiên.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-084",
+    "term": "carry someone away from danger",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa ai ra khỏi nơi nguy hiểm",
+    "def": "to move someone away from a dangerous place",
+    "ex": "The lifeguard carried the swimmer away from danger.",
+    "exVi": "Nhân viên cứu hộ đưa người bơi ra khỏi nơi nguy hiểm.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-085",
+    "term": "be carried away by emotion",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bị cảm xúc lấn át",
+    "def": "to become unable to control your feelings",
+    "ex": "She was carried away by emotion during the farewell speech.",
+    "exVi": "Cô bị cảm xúc lấn át trong bài phát biểu chia tay.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-086",
+    "term": "be carried away by anger",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "để cơn giận lấn át",
+    "def": "to let anger make you lose control",
+    "ex": "He was carried away by anger and regretted his words.",
+    "exVi": "Anh để cơn giận lấn át rồi hối tiếc lời mình nói.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-087",
+    "term": "carry the children away from the fire",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa trẻ ra xa đám cháy",
+    "def": "to move children to a safe distance from a fire",
+    "ex": "Volunteers carried the children away from the fire.",
+    "exVi": "Tình nguyện viên đưa bọn trẻ ra xa đám cháy.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-088",
+    "term": "carry a patient away from danger",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa bệnh nhân khỏi nơi nguy hiểm",
+    "def": "to move a patient to a safer place",
+    "ex": "The rescue team carried a patient away from danger.",
+    "exVi": "Đội cứu hộ đưa bệnh nhân khỏi nơi nguy hiểm.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-089",
+    "term": "carry around",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang theo bên mình",
+    "def": "to take something with you as you move around",
+    "ex": "I carry around a small notebook for new words.",
+    "exVi": "Tôi mang theo cuốn sổ nhỏ để ghi từ mới.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-090",
+    "term": "carry around a notebook",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang theo một cuốn sổ",
+    "def": "to keep a notebook with you",
+    "ex": "She carries around a notebook for class ideas.",
+    "exVi": "Cô mang theo cuốn sổ để ghi ý tưởng cho lớp học.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-091",
+    "term": "carry around a spare key",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang theo chìa khóa dự phòng",
+    "def": "to keep an extra key with you",
+    "ex": "He carries around a spare key in his wallet.",
+    "exVi": "Anh mang chìa khóa dự phòng trong ví.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-092",
+    "term": "carry around cash",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang tiền mặt theo người",
+    "def": "to keep cash with you",
+    "ex": "My grandparents still carry around cash for small purchases.",
+    "exVi": "Ông bà tôi vẫn mang tiền mặt để mua món nhỏ.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-093",
+    "term": "carry around a backpack",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang ba lô theo bên mình",
+    "def": "to take a backpack with you throughout the day",
+    "ex": "Students carried around a backpack during the museum visit.",
+    "exVi": "Học sinh mang ba lô theo trong chuyến tham quan bảo tàng.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-094",
+    "term": "carry around with you",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "luôn mang theo bên mình",
+    "def": "to keep something with you wherever you go",
+    "ex": "You should carry your identification around with you.",
+    "exVi": "Bạn nên luôn mang giấy tờ tùy thân theo người.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-095",
+    "term": "carry a laptop around all day",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang máy tính xách tay cả ngày",
+    "def": "to take a laptop with you throughout the day",
+    "ex": "I carried a laptop around all day at the conference.",
+    "exVi": "Tôi mang máy tính xách tay theo cả ngày ở hội nghị.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-096",
+    "term": "carry a water bottle around",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang theo chai nước",
+    "def": "to keep a bottle of water with you",
+    "ex": "She carries a water bottle around during long walks.",
+    "exVi": "Cô mang theo chai nước trong những chuyến đi bộ dài.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-097",
+    "term": "carry in",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang vào trong",
+    "def": "to take something inside a place",
+    "ex": "Please carry in the shopping before it rains.",
+    "exVi": "Hãy mang đồ mua vào nhà trước khi trời mưa.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-098",
+    "term": "carry in groceries",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang thực phẩm vào nhà",
+    "def": "to take groceries inside",
+    "ex": "The children helped carry in groceries from the car.",
+    "exVi": "Bọn trẻ giúp mang thực phẩm từ xe vào nhà.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-099",
+    "term": "carry in a package",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang một kiện hàng vào trong",
+    "def": "to take a parcel inside a place",
+    "ex": "The delivery driver carried in a package for our neighbour.",
+    "exVi": "Người giao hàng mang một kiện hàng vào cho hàng xóm.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-100",
+    "term": "carry into effect",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa vào thực thi",
+    "def": "to make a plan or rule start operating",
+    "ex": "The council carried the new rule into effect in July.",
+    "exVi": "Hội đồng đưa quy định mới vào thực thi tháng Bảy.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-carry-101",
+    "term": "carry into practice",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa vào thực tế",
+    "def": "to use an idea in real situations",
+    "ex": "The trainees carried the new method into practice immediately.",
+    "exVi": "Học viên áp dụng phương pháp mới ngay vào thực tế.",
+    "ielts": 1
+  }
+]);

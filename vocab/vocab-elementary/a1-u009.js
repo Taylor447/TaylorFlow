@@ -1,0 +1,233 @@
+window.VOCAB.register("a1-u009", [
+  {
+    "id": "a1-u009-001",
+    "term": "please",
+    "pos": "excl",
+    "ipa": "",
+    "vi": "làm ơn, vui lòng",
+    "def": "a polite word used when asking for something",
+    "ex": "Please open the window.",
+    "exVi": "Làm ơn mở cửa sổ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-002",
+    "term": "thanks a lot",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cảm ơn nhiều",
+    "def": "an informal way to thank someone very much",
+    "ex": "Thanks a lot for carrying my bag.",
+    "exVi": "Cảm ơn bạn nhiều vì đã xách túi giúp tôi.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-003",
+    "term": "no problem",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "không vấn đề gì",
+    "def": "a friendly reply meaning that something is easy or acceptable",
+    "ex": "No problem, I can drive you home.",
+    "exVi": "Không vấn đề gì, tôi có thể chở bạn về.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-004",
+    "term": "not at all",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "không có gì",
+    "def": "a polite reply to someone’s thanks",
+    "ex": "Not at all; it was my pleasure.",
+    "exVi": "Không có gì, tôi rất sẵn lòng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-005",
+    "term": "of course",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dĩ nhiên",
+    "def": "used to say that something is certain or readily agreed",
+    "ex": "Of course, you can borrow my pen.",
+    "exVi": "Dĩ nhiên, bạn có thể mượn bút của tôi.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-006",
+    "term": "certainly",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "chắc chắn, dĩ nhiên",
+    "def": "used to agree politely or say something is definite",
+    "ex": "Certainly, I will send the address tonight.",
+    "exVi": "Chắc chắn rồi, tối nay tôi sẽ gửi địa chỉ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-007",
+    "term": "maybe",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "có lẽ",
+    "def": "possibly, but not certainly",
+    "ex": "Maybe we can meet after work.",
+    "exVi": "Có lẽ chúng ta có thể gặp sau giờ làm.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-008",
+    "term": "perhaps",
+    "pos": "adv",
+    "ipa": "",
+    "vi": "có lẽ",
+    "def": "used when something is possible but uncertain",
+    "ex": "Perhaps the bus is late today.",
+    "exVi": "Có lẽ hôm nay xe buýt đến muộn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-009",
+    "term": "I think so",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tôi nghĩ vậy",
+    "def": "used to say that you believe something is true",
+    "ex": "I think so, but let me check first.",
+    "exVi": "Tôi nghĩ vậy, nhưng để tôi kiểm tra trước.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-010",
+    "term": "I don’t think so",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tôi không nghĩ vậy",
+    "def": "used to say that you believe something is not true",
+    "ex": "I don’t think so; the shop closes at six.",
+    "exVi": "Tôi không nghĩ vậy; cửa hàng đóng cửa lúc sáu giờ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-011",
+    "term": "I agree",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tôi đồng ý",
+    "def": "used to say that you have the same opinion",
+    "ex": "I agree; this colour looks better.",
+    "exVi": "Tôi đồng ý; màu này trông đẹp hơn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-012",
+    "term": "I don’t agree",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tôi không đồng ý",
+    "def": "used to say that you have a different opinion",
+    "ex": "I don’t agree with that answer.",
+    "exVi": "Tôi không đồng ý với câu trả lời đó.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-013",
+    "term": "really?",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "thật sao?",
+    "def": "a question showing surprise or asking for confirmation",
+    "ex": "Really? You have a new puppy?",
+    "exVi": "Thật sao? Bạn có chó con mới à?",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-014",
+    "term": "I see",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tôi hiểu rồi",
+    "def": "used to show that you understand something",
+    "ex": "I see; the library is behind the bank.",
+    "exVi": "Tôi hiểu rồi; thư viện ở phía sau ngân hàng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-015",
+    "term": "that’s right",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đúng vậy",
+    "def": "used to confirm that something is correct",
+    "ex": "That’s right, my birthday is in July.",
+    "exVi": "Đúng vậy, sinh nhật tôi vào tháng Bảy.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-016",
+    "term": "never mind",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "thôi không sao",
+    "def": "used to say that something is not important",
+    "ex": "Never mind, we can try again tomorrow.",
+    "exVi": "Thôi không sao, ngày mai chúng ta thử lại.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-017",
+    "term": "see you soon",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "sớm gặp lại nhé",
+    "def": "an informal goodbye meaning that you will meet again soon",
+    "ex": "See you soon, and have a safe trip.",
+    "exVi": "Sớm gặp lại nhé, chúc bạn đi đường an toàn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-018",
+    "term": "that’s okay",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "không sao đâu",
+    "def": "a reassuring reply when someone apologizes",
+    "ex": "That’s okay; these things happen.",
+    "exVi": "Không sao đâu; chuyện này vẫn thường xảy ra.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-019",
+    "term": "that’s a good idea",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ý kiến hay đấy",
+    "def": "used to show approval of a suggestion",
+    "ex": "That’s a good idea; let’s take the train.",
+    "exVi": "Ý kiến hay đấy; chúng ta đi tàu nhé.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-020",
+    "term": "what do you mean?",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ý bạn là gì?",
+    "def": "a question asking someone to explain their words",
+    "ex": "What do you mean by this sign?",
+    "exVi": "Bạn có ý gì khi nói về tấm biển này?",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u009-021",
+    "term": "can you repeat that?",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bạn có thể nhắc lại không?",
+    "def": "a polite question asking someone to say something again",
+    "ex": "Can you repeat that? I didn’t hear you.",
+    "exVi": "Bạn nhắc lại được không? Tôi chưa nghe rõ.",
+    "ielts": 1
+  }
+]);

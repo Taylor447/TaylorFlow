@@ -1,0 +1,222 @@
+window.VOCAB.register("ci-u051", [
+  {
+    "id": "ci-u051-001",
+    "term": "start from scratch",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bắt đầu lại từ đầu",
+    "def": "begin again without using previous work",
+    "ex": "We started from scratch after the first design failed.",
+    "exVi": "Chúng tôi bắt đầu lại từ đầu sau khi thiết kế đầu tiên thất bại.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-002",
+    "term": "start the day",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bắt đầu ngày mới",
+    "def": "begin the day's activities",
+    "ex": "I start the day with a short walk and a cup of tea.",
+    "exVi": "Tôi bắt đầu ngày mới bằng một cuộc đi bộ ngắn và tách trà.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-003",
+    "term": "start work",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bắt đầu làm việc",
+    "def": "begin doing your job or begin a working period",
+    "ex": "Most staff start work at eight in the morning.",
+    "exVi": "Hầu hết nhân viên bắt đầu làm việc lúc tám giờ sáng.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-004",
+    "term": "start a journey",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bắt đầu chuyến đi",
+    "def": "begin travelling from one place to another",
+    "ex": "We started our journey before sunrise to avoid traffic.",
+    "exVi": "Chúng tôi bắt đầu chuyến đi trước bình minh để tránh kẹt xe.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-005",
+    "term": "start a business",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "khởi nghiệp, mở doanh nghiệp",
+    "def": "create a new company or commercial activity",
+    "ex": "She started a business selling handmade notebooks online.",
+    "exVi": "Cô ấy mở doanh nghiệp bán sổ tay thủ công trực tuyến.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-006",
+    "term": "start a new life",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bắt đầu cuộc sống mới",
+    "def": "begin living in a different way or place",
+    "ex": "They moved to the coast to start a new life.",
+    "exVi": "Họ chuyển đến vùng biển để bắt đầu cuộc sống mới.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-007",
+    "term": "get started",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bắt tay vào làm",
+    "def": "begin doing an activity or task",
+    "ex": "Let's get started before the rest of the group arrives.",
+    "exVi": "Chúng ta bắt tay vào làm trước khi những người còn lại đến.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-008",
+    "term": "make a start",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bắt đầu thực hiện",
+    "def": "begin doing something, often after waiting",
+    "ex": "We made a start on the garden during the weekend.",
+    "exVi": "Cuối tuần chúng tôi bắt đầu làm khu vườn.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-009",
+    "term": "start out as",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "khởi đầu với vai trò là",
+    "def": "begin a career or activity in a particular role",
+    "ex": "She started out as a shop assistant before opening her own café.",
+    "exVi": "Cô ấy khởi đầu là nhân viên cửa hàng trước khi mở quán cà phê.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-010",
+    "term": "start off well",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "khởi đầu thuận lợi",
+    "def": "begin in a successful or positive way",
+    "ex": "The trip started off well despite a delayed flight.",
+    "exVi": "Chuyến đi khởi đầu thuận lợi dù chuyến bay bị trễ.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-011",
+    "term": "begin a course",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bắt đầu khóa học",
+    "def": "start taking lessons in a subject",
+    "ex": "He began a course in photography at the local college.",
+    "exVi": "Anh ấy bắt đầu khóa học nhiếp ảnh tại trường cao đẳng địa phương.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-012",
+    "term": "begin a project",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bắt đầu dự án",
+    "def": "start planned work with a particular goal",
+    "ex": "The students began a project about reducing plastic waste.",
+    "exVi": "Các học sinh bắt đầu dự án về giảm rác thải nhựa.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-013",
+    "term": "finish work",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kết thúc công việc",
+    "def": "stop working at the end of a shift or task",
+    "ex": "I finish work at five and collect my daughter from school.",
+    "exVi": "Tôi kết thúc công việc lúc năm giờ rồi đón con gái ở trường.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-014",
+    "term": "finish a task",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hoàn thành nhiệm vụ",
+    "def": "complete a piece of work",
+    "ex": "He finished the task before the afternoon meeting.",
+    "exVi": "Anh ấy hoàn thành nhiệm vụ trước cuộc họp buổi chiều.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-015",
+    "term": "finish a meal",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ăn xong bữa",
+    "def": "complete eating a meal",
+    "ex": "The children finished their meal and helped clear the table.",
+    "exVi": "Bọn trẻ ăn xong rồi giúp dọn bàn.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-016",
+    "term": "finish a book",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đọc xong một cuốn sách",
+    "def": "read the final part of a book",
+    "ex": "I finished the book during the train journey home.",
+    "exVi": "Tôi đọc xong cuốn sách trên chuyến tàu về nhà.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-017",
+    "term": "finish on time",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hoàn thành đúng giờ",
+    "def": "complete something by its planned finishing time",
+    "ex": "The repair crew finished on time despite the heavy rain.",
+    "exVi": "Đội sửa chữa hoàn thành đúng giờ dù trời mưa lớn.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-018",
+    "term": "finish last",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "về cuối cùng",
+    "def": "be the final person or team to complete a race or event",
+    "ex": "He finished last but enjoyed his first marathon.",
+    "exVi": "Anh ấy về cuối nhưng vẫn thích thú với cuộc chạy marathon đầu tiên.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-019",
+    "term": "draw to a close",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dần đi đến hồi kết",
+    "def": "gradually reach the point when an event finishes",
+    "ex": "The ceremony drew to a close with a final song.",
+    "exVi": "Buổi lễ dần khép lại bằng một bài hát cuối.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u051-020",
+    "term": "bring to a close",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kết thúc",
+    "def": "make an event or activity finish",
+    "ex": "The host brought the discussion to a close after an hour.",
+    "exVi": "Người dẫn chương trình kết thúc buổi thảo luận sau một giờ.",
+    "ielts": 1
+  }
+]);

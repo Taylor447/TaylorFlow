@@ -1,0 +1,222 @@
+window.VOCAB.register("pv-pick", [
+  {
+    "id": "pv-pick-081",
+    "term": "pick apart a story",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "phân tích từng phần câu chuyện",
+    "def": "to examine a story in detail",
+    "ex": "We picked apart the story to understand its ending.",
+    "exVi": "Chúng tôi phân tích câu chuyện để hiểu đoạn kết.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-082",
+    "term": "pick apart a sentence",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "phân tích cấu trúc câu",
+    "def": "to examine the parts of a sentence",
+    "ex": "The teacher picked apart a sentence on the board.",
+    "exVi": "Giáo viên phân tích một câu trên bảng.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-083",
+    "term": "pick apart a process",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "phân tích một quy trình",
+    "def": "to examine each stage of a process",
+    "ex": "The team picked apart the process to remove delays.",
+    "exVi": "Nhóm phân tích quy trình để loại bỏ chậm trễ.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-084",
+    "term": "pick apart the data",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "phân tích kỹ dữ liệu",
+    "def": "to examine data in detail",
+    "ex": "Researchers picked apart the data before publishing their findings.",
+    "exVi": "Nhà nghiên cứu phân tích kỹ dữ liệu trước khi công bố kết quả.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-085",
+    "term": "pick apart someone's work",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chỉ trích từng phần công việc của ai",
+    "def": "to criticise someone's work in detail",
+    "ex": "The reviewer picked apart the draft but offered helpful advice.",
+    "exVi": "Người đánh giá chỉ trích bản nháp nhưng đưa lời khuyên hữu ích.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-086",
+    "term": "pick apart a design",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "phân tích từng chi tiết thiết kế",
+    "def": "to examine a design piece by piece",
+    "ex": "The class picked apart the design during the workshop.",
+    "exVi": "Cả lớp phân tích thiết kế trong buổi hội thảo.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-087",
+    "term": "pick over",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chọn lựa kỹ; xem xét từng món",
+    "def": "to examine or select things carefully",
+    "ex": "Shoppers picked over the fruit before choosing apples.",
+    "exVi": "Khách lựa trái cây kỹ trước khi chọn táo.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-088",
+    "term": "pick over the fruit",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chọn kỹ trái cây",
+    "def": "to inspect fruit before choosing it",
+    "ex": "She picked over the fruit and chose the ripest pears.",
+    "exVi": "Cô chọn kỹ trái cây và lấy những quả lê chín nhất.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-089",
+    "term": "pick over the clothes",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xem kỹ quần áo",
+    "def": "to examine clothes before selecting some",
+    "ex": "We picked over the clothes at the charity shop.",
+    "exVi": "Chúng tôi xem kỹ quần áo ở cửa hàng từ thiện.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-090",
+    "term": "pick over a list",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xem xét kỹ một danh sách",
+    "def": "to examine a list carefully",
+    "ex": "The manager picked over a list of possible venues.",
+    "exVi": "Quản lý xem kỹ danh sách địa điểm có thể chọn.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-091",
+    "term": "pick over candidates",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xem xét kỹ các ứng viên",
+    "def": "to assess candidates carefully",
+    "ex": "The panel picked over candidates before selecting three finalists.",
+    "exVi": "Hội đồng xem xét kỹ ứng viên trước khi chọn ba người.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-092",
+    "term": "pick through",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lục tìm; lựa qua",
+    "def": "to search among things carefully",
+    "ex": "She picked through the box for her old photographs.",
+    "exVi": "Cô lục hộp tìm những bức ảnh cũ.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-093",
+    "term": "pick through the rubbish",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lục tìm trong đống rác",
+    "def": "to search among rubbish for something useful",
+    "ex": "The volunteers picked through the rubbish for recyclable items.",
+    "exVi": "Tình nguyện viên tìm vật có thể tái chế trong đống rác.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-094",
+    "term": "pick through old photos",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xem lại từng bức ảnh cũ",
+    "def": "to look through old photographs one by one",
+    "ex": "We picked through old photos during the family visit.",
+    "exVi": "Chúng tôi xem lại ảnh cũ trong buổi họp mặt gia đình.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-095",
+    "term": "pick through the documents",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lục tìm trong tài liệu",
+    "def": "to search through documents carefully",
+    "ex": "The assistant picked through the documents for the signed form.",
+    "exVi": "Trợ lý lục tìm biểu mẫu đã ký trong đống tài liệu.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-096",
+    "term": "pick through a crowd",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "len lỏi qua đám đông",
+    "def": "to move slowly through a crowd",
+    "ex": "We picked through a crowd to reach the front desk.",
+    "exVi": "Chúng tôi len qua đám đông để đến quầy lễ tân.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-097",
+    "term": "pick through the options",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xem xét từng lựa chọn",
+    "def": "to examine possible choices carefully",
+    "ex": "She picked through the options before choosing a course.",
+    "exVi": "Cô xem xét từng lựa chọn trước khi chọn khóa học.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-098",
+    "term": "pick through a drawer",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lục tìm trong ngăn kéo",
+    "def": "to search among things in a drawer",
+    "ex": "He picked through a drawer for the spare batteries.",
+    "exVi": "Anh lục ngăn kéo tìm pin dự phòng.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-099",
+    "term": "pick through a collection",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xem kỹ một bộ sưu tập",
+    "def": "to examine items in a collection one by one",
+    "ex": "The curator picked through the collection for display pieces.",
+    "exVi": "Người phụ trách chọn kỹ hiện vật để trưng bày.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-pick-100",
+    "term": "pick through the shelves",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tìm kiếm trên các kệ",
+    "def": "to search among items on shelves",
+    "ex": "I picked through the shelves for a simple grammar book.",
+    "exVi": "Tôi tìm trên các kệ một cuốn ngữ pháp đơn giản.",
+    "ielts": 1
+  }
+]);

@@ -1,0 +1,222 @@
+window.VOCAB.register("a1-u044", [
+  {
+    "id": "a1-u044-001",
+    "term": "bring something",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang theo thứ gì",
+    "def": "carry something to the place where someone is",
+    "ex": "Please bring your notebook to class.",
+    "exVi": "Hãy mang vở đến lớp.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-002",
+    "term": "bring someone",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa ai đến",
+    "def": "take a person to a place with you",
+    "ex": "Can you bring your sister to the party?",
+    "exVi": "Bạn đưa em gái đến bữa tiệc được không?",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-003",
+    "term": "bring back",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang trở lại",
+    "def": "return something to a place or person",
+    "ex": "Please bring back the library book tomorrow.",
+    "exVi": "Ngày mai nhớ mang sách thư viện trả lại.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-004",
+    "term": "bring in",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang vào",
+    "def": "carry something from outside to inside",
+    "ex": "Bring in the shopping bags, please.",
+    "exVi": "Làm ơn mang túi đồ vào nhà.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-005",
+    "term": "bring out",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang ra",
+    "def": "take something from inside to outside",
+    "ex": "She brought out some tea for the guests.",
+    "exVi": "Cô ấy mang trà ra cho khách.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-006",
+    "term": "bring along",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang theo cùng",
+    "def": "take someone or something with you",
+    "ex": "You can bring along a friend.",
+    "exVi": "Bạn có thể đưa một người bạn đi cùng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-007",
+    "term": "bring up",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nuôi nấng",
+    "def": "care for a child until they become an adult",
+    "ex": "Her grandparents brought her up in the village.",
+    "exVi": "Ông bà nuôi cô ấy lớn lên trong làng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-008",
+    "term": "bring down",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm giảm",
+    "def": "make a price, level, or amount lower",
+    "ex": "The shop brought down the price of fruit.",
+    "exVi": "Cửa hàng giảm giá trái cây.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-009",
+    "term": "bring over",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang sang",
+    "def": "take something to someone’s home or workplace",
+    "ex": "I brought over a cake for my neighbour.",
+    "exVi": "Tôi mang bánh sang nhà hàng xóm.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-010",
+    "term": "bring a friend",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dẫn theo một người bạn",
+    "def": "take a friend with you to an event",
+    "ex": "Bring a friend if you do not want to come alone.",
+    "exVi": "Hãy dẫn một người bạn nếu bạn không muốn đi một mình.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-011",
+    "term": "bring your lunch",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang theo bữa trưa",
+    "def": "take the food you will eat at midday",
+    "ex": "I bring my lunch to work in a small box.",
+    "exVi": "Tôi mang bữa trưa đến chỗ làm trong hộp nhỏ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-012",
+    "term": "bring an umbrella",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang theo ô",
+    "def": "take an umbrella with you",
+    "ex": "Bring an umbrella because rain is expected.",
+    "exVi": "Hãy mang ô vì dự báo trời sẽ mưa.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-013",
+    "term": "bring good news",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang tin tốt",
+    "def": "tell someone something pleasant or positive",
+    "ex": "The doctor brought good news to the family.",
+    "exVi": "Bác sĩ mang tin tốt đến cho gia đình.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-014",
+    "term": "bring home",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang về nhà",
+    "def": "take something to your home",
+    "ex": "He brought home flowers for his mother.",
+    "exVi": "Anh ấy mang hoa về nhà tặng mẹ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-015",
+    "term": "bring a present",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang quà",
+    "def": "take a gift to someone",
+    "ex": "We brought a present for the new baby.",
+    "exVi": "Chúng tôi mang quà cho em bé mới sinh.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-016",
+    "term": "bring a book",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang theo sách",
+    "def": "take a book to a place",
+    "ex": "She brought a book to read on the train.",
+    "exVi": "Cô ấy mang sách để đọc trên tàu.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-017",
+    "term": "bring some water",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang theo nước",
+    "def": "carry water to someone or a place",
+    "ex": "Could you bring some water to the table?",
+    "exVi": "Bạn mang ít nước đến bàn được không?",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-018",
+    "term": "bring your ID",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang giấy tờ tùy thân",
+    "def": "take an identity document with you",
+    "ex": "Remember to bring your ID to the interview.",
+    "exVi": "Nhớ mang giấy tờ tùy thân đến buổi phỏng vấn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-019",
+    "term": "bring a camera",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mang theo máy ảnh",
+    "def": "take a camera to a place",
+    "ex": "Bring a camera for the school trip.",
+    "exVi": "Hãy mang máy ảnh cho chuyến đi của trường.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u044-020",
+    "term": "bring together",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kết nối, tụ họp",
+    "def": "cause people to meet or work as a group",
+    "ex": "Music can bring people together.",
+    "exVi": "Âm nhạc có thể kết nối mọi người.",
+    "ielts": 1
+  }
+]);

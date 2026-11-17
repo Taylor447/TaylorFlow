@@ -1,0 +1,211 @@
+window.VOCAB.register("b1-u083", [
+  {
+    "id": "b1-u083-001",
+    "term": "get used to",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "quen với",
+    "def": "to become familiar with a new situation",
+    "ex": "It took weeks to get used to night shifts.",
+    "exVi": "Tôi mất vài tuần để quen với ca đêm.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-002",
+    "term": "get rid of",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "loại bỏ",
+    "def": "to remove something unwanted",
+    "ex": "We got rid of the broken chairs.",
+    "exVi": "Chúng tôi loại bỏ những chiếc ghế hỏng.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-003",
+    "term": "get in touch",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "liên lạc",
+    "def": "to contact someone",
+    "ex": "I will get in touch after the conference.",
+    "exVi": "Tôi sẽ liên lạc sau hội nghị.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-004",
+    "term": "get into trouble",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "gặp rắc rối",
+    "def": "to enter a difficult or risky situation",
+    "ex": "He got into trouble for missing the deadline.",
+    "exVi": "Anh ấy gặp rắc rối vì lỡ hạn chót.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-005",
+    "term": "get the impression",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "có cảm giác",
+    "def": "to begin believing something from what you notice",
+    "ex": "I got the impression that everyone felt welcome.",
+    "exVi": "Tôi có cảm giác mọi người đều được chào đón.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-006",
+    "term": "get a chance",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "có cơ hội",
+    "def": "to have an opportunity to do something",
+    "ex": "Did you get a chance to visit the museum?",
+    "exVi": "Bạn có cơ hội thăm bảo tàng không?",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-007",
+    "term": "get better",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "khá hơn; hồi phục",
+    "def": "to improve or become healthier",
+    "ex": "Her pronunciation gets better with daily practice.",
+    "exVi": "Phát âm của cô ấy tốt hơn nhờ luyện mỗi ngày.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-008",
+    "term": "get worse",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tệ hơn",
+    "def": "to become less good or more serious",
+    "ex": "Traffic gets worse after five o'clock.",
+    "exVi": "Giao thông tệ hơn sau năm giờ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-009",
+    "term": "get ready",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chuẩn bị",
+    "def": "to prepare yourself for something",
+    "ex": "We got ready for the early train.",
+    "exVi": "Chúng tôi chuẩn bị cho chuyến tàu sớm.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-010",
+    "term": "get on with",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tiếp tục; hòa thuận với",
+    "def": "to continue a task or have a good relationship",
+    "ex": "Let's get on with the meeting.",
+    "exVi": "Chúng ta tiếp tục cuộc họp nhé.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-011",
+    "term": "get by",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xoay xở",
+    "def": "to manage with what is available",
+    "ex": "Students can get by on a limited budget.",
+    "exVi": "Sinh viên có thể xoay xở với ngân sách hạn chế.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-012",
+    "term": "get through",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "vượt qua; hoàn thành",
+    "def": "to finish something difficult or survive it",
+    "ex": "She got through the exam without panic.",
+    "exVi": "Cô ấy vượt qua kỳ thi mà không hoảng sợ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-013",
+    "term": "get off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xuống xe",
+    "def": "to leave a bus, train, or other vehicle",
+    "ex": "We get off at the next stop.",
+    "exVi": "Chúng tôi xuống ở trạm tiếp theo.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-014",
+    "term": "get on",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lên xe",
+    "def": "to enter a bus, train, or other vehicle",
+    "ex": "They got on the train just before departure.",
+    "exVi": "Họ lên tàu ngay trước giờ khởi hành.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-015",
+    "term": "get back",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "quay về",
+    "def": "to return to a place or receive something again",
+    "ex": "What time did you get back from work?",
+    "exVi": "Bạn đi làm về lúc mấy giờ?",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-016",
+    "term": "get away",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi nghỉ; trốn thoát",
+    "def": "to leave a place, often for a short holiday",
+    "ex": "We hope to get away for a weekend.",
+    "exVi": "Chúng tôi hy vọng đi nghỉ cuối tuần.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-017",
+    "term": "get together",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tụ họp",
+    "def": "to meet socially",
+    "ex": "Our classmates get together every December.",
+    "exVi": "Bạn cùng lớp tụ họp mỗi tháng Mười Hai.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-018",
+    "term": "get involved",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tham gia",
+    "def": "to take part in an activity or situation",
+    "ex": "More residents got involved in the clean-up.",
+    "exVi": "Nhiều cư dân tham gia buổi dọn dẹp.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u083-019",
+    "term": "get the message",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hiểu ý",
+    "def": "to understand what someone is suggesting",
+    "ex": "I got the message and stopped asking questions.",
+    "exVi": "Tôi hiểu ý và ngừng đặt câu hỏi.",
+    "ielts": 1
+  }
+]);

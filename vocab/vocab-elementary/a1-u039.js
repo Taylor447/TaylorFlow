@@ -1,0 +1,222 @@
+window.VOCAB.register("a1-u039", [
+  {
+    "id": "a1-u039-001",
+    "term": "go home",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "về nhà",
+    "def": "travel to the place where you live",
+    "ex": "I go home by bus after work.",
+    "exVi": "Tôi về nhà bằng xe buýt sau giờ làm.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-002",
+    "term": "go to work",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi làm",
+    "def": "travel to your workplace",
+    "ex": "My parents go to work early.",
+    "exVi": "Bố mẹ tôi đi làm sớm.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-003",
+    "term": "go to school",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi học",
+    "def": "travel to the place where you study",
+    "ex": "The children go to school on foot.",
+    "exVi": "Bọn trẻ đi bộ đến trường.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-004",
+    "term": "go shopping",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi mua sắm",
+    "def": "visit shops to buy things",
+    "ex": "We went shopping after lunch.",
+    "exVi": "Chúng tôi đi mua sắm sau bữa trưa.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-005",
+    "term": "go for a walk",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi dạo",
+    "def": "take a walk for pleasure or exercise",
+    "ex": "I go for a walk every evening.",
+    "exVi": "Tôi đi dạo mỗi tối.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-006",
+    "term": "go by bus",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi bằng xe buýt",
+    "def": "travel somewhere on a bus",
+    "ex": "They go by bus to the town centre.",
+    "exVi": "Họ đi xe buýt đến trung tâm thị trấn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-007",
+    "term": "go on holiday",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi nghỉ",
+    "def": "take a trip away from home for pleasure",
+    "ex": "We went on holiday in August.",
+    "exVi": "Chúng tôi đi nghỉ vào tháng Tám.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-008",
+    "term": "go abroad",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi nước ngoài",
+    "def": "travel to another country",
+    "ex": "She hopes to go abroad next year.",
+    "exVi": "Cô ấy hy vọng đi nước ngoài vào năm tới.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-009",
+    "term": "go upstairs",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi lên lầu",
+    "def": "move to a higher floor using stairs",
+    "ex": "He went upstairs to get his coat.",
+    "exVi": "Anh ấy lên lầu lấy áo khoác.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-010",
+    "term": "go downstairs",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi xuống lầu",
+    "def": "move to a lower floor using stairs",
+    "ex": "The children went downstairs for breakfast.",
+    "exVi": "Bọn trẻ xuống lầu ăn sáng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-011",
+    "term": "go out",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi ra ngoài",
+    "def": "leave home to do something socially",
+    "ex": "We went out for dinner on Friday.",
+    "exVi": "Chúng tôi ra ngoài ăn tối vào thứ Sáu.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-012",
+    "term": "go in",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi vào",
+    "def": "enter a room or building",
+    "ex": "It was cold, so we went in.",
+    "exVi": "Trời lạnh nên chúng tôi đi vào trong.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-013",
+    "term": "go back",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "quay lại",
+    "def": "return to a place you were at before",
+    "ex": "She went back to the shop for her bag.",
+    "exVi": "Cô ấy quay lại cửa hàng lấy túi.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-014",
+    "term": "go away",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi xa, rời đi",
+    "def": "leave a place, often for a short time",
+    "ex": "They went away for the weekend.",
+    "exVi": "Họ đi xa vào dịp cuối tuần.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-015",
+    "term": "go straight on",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi thẳng",
+    "def": "continue forward without turning",
+    "ex": "Go straight on until you see the bridge.",
+    "exVi": "Đi thẳng đến khi bạn thấy cây cầu.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-016",
+    "term": "go past",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi qua",
+    "def": "move by or beyond a place",
+    "ex": "We went past the museum on our way home.",
+    "exVi": "Chúng tôi đi qua bảo tàng trên đường về nhà.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-017",
+    "term": "go wrong",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "gặp trục trặc",
+    "def": "happen in a way that causes a problem",
+    "ex": "Something went wrong with the computer.",
+    "exVi": "Máy tính gặp trục trặc.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-018",
+    "term": "go missing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bị mất tích",
+    "def": "become lost or impossible to find",
+    "ex": "My keys went missing yesterday.",
+    "exVi": "Chìa khóa của tôi bị mất hôm qua.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-019",
+    "term": "go to bed",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi ngủ",
+    "def": "get into bed to sleep",
+    "ex": "I go to bed before ten.",
+    "exVi": "Tôi đi ngủ trước mười giờ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u039-020",
+    "term": "go camping",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi cắm trại",
+    "def": "stay outdoors in a tent for pleasure",
+    "ex": "We went camping beside a lake.",
+    "exVi": "Chúng tôi đi cắm trại bên hồ.",
+    "ielts": 1
+  }
+]);

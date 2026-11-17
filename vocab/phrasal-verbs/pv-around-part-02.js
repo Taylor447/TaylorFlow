@@ -1,0 +1,222 @@
+window.VOCAB.register("pv-around", [
+  {
+    "id": "pv-around-041",
+    "term": "mess around with",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "táy máy; thử thay đổi",
+    "def": "to make changes without careful planning",
+    "ex": "He messed around with the settings and lost the file.",
+    "exVi": "Anh táy máy cài đặt rồi làm mất tệp.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-042",
+    "term": "hang around",
+    "pos": "v",
+    "ipa": "",
+    "vi": "nán lại; quanh quẩn",
+    "def": "to stay somewhere without a clear purpose",
+    "ex": "A few fans hung around after the match.",
+    "exVi": "Một vài người hâm mộ nán lại sau trận đấu.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-043",
+    "term": "hang around with",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "thường tụ tập với",
+    "def": "to spend time socially with a person or group",
+    "ex": "She hangs around with classmates who enjoy music.",
+    "exVi": "Cô thường tụ tập với bạn cùng lớp thích âm nhạc.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-044",
+    "term": "stick around",
+    "pos": "v",
+    "ipa": "",
+    "vi": "ở lại thêm một lúc",
+    "def": "to remain somewhere instead of leaving",
+    "ex": "Stick around after class if you have questions.",
+    "exVi": "Hãy ở lại sau giờ học nếu bạn có câu hỏi.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-045",
+    "term": "play around",
+    "pos": "v",
+    "ipa": "",
+    "vi": "chơi đùa; không nghiêm túc",
+    "def": "to behave playfully or experiment without a plan",
+    "ex": "The puppy played around in the fallen leaves.",
+    "exVi": "Chú chó con chơi đùa trong đống lá rụng.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-046",
+    "term": "play around with",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "thử nghiệm với",
+    "def": "to try different ways of using or changing something",
+    "ex": "She played around with colours before choosing a design.",
+    "exVi": "Cô thử nhiều màu trước khi chọn thiết kế.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-047",
+    "term": "kick around",
+    "pos": "v",
+    "ipa": "",
+    "vi": "bàn bạc không chính thức",
+    "def": "to discuss an idea informally",
+    "ex": "We kicked around a few ideas for the school festival.",
+    "exVi": "Chúng tôi bàn vài ý tưởng cho hội trường.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-048",
+    "term": "kick around an idea",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cùng cân nhắc một ý tưởng",
+    "def": "to discuss an idea casually with other people",
+    "ex": "Let's kick around the idea before making a decision.",
+    "exVi": "Hãy cùng cân nhắc ý tưởng trước khi quyết định.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-049",
+    "term": "bat around ideas",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trao đổi qua lại các ý tưởng",
+    "def": "to discuss several ideas informally",
+    "ex": "The designers batted around ideas during the workshop.",
+    "exVi": "Các nhà thiết kế trao đổi ý tưởng trong buổi hội thảo.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-050",
+    "term": "push someone around",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bắt nạt; sai khiến ai",
+    "def": "to treat someone roughly or unfairly",
+    "ex": "The older children pushed him around at school.",
+    "exVi": "Những đứa trẻ lớn bắt nạt em ở trường.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-051",
+    "term": "boss someone around",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "sai khiến ai một cách hách dịch",
+    "def": "to order someone about in an unpleasant way",
+    "ex": "She dislikes managers who boss people around.",
+    "exVi": "Cô không thích quản lý hay sai khiến người khác.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-052",
+    "term": "knock around",
+    "pos": "v",
+    "ipa": "",
+    "vi": "đi đây đó; sống lang bạt",
+    "def": "to travel or spend time without a fixed plan",
+    "ex": "He knocked around Europe for a year after college.",
+    "exVi": "Anh đi lang bạt khắp châu Âu một năm sau đại học.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-053",
+    "term": "get around town",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi lại trong thị trấn",
+    "def": "to travel between places in a town",
+    "ex": "A day pass makes it easy to get around town.",
+    "exVi": "Vé ngày giúp đi lại trong thị trấn dễ dàng.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-054",
+    "term": "go around in circles",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "quay vòng mà không tiến triển",
+    "def": "to repeat the same discussion without reaching a result",
+    "ex": "We went around in circles during the meeting.",
+    "exVi": "Chúng tôi tranh luận vòng vo trong cuộc họp.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-055",
+    "term": "come around to an opinion",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dần chấp nhận một quan điểm",
+    "def": "to gradually accept a particular view",
+    "ex": "She came around to the opinion after our discussion.",
+    "exVi": "Cô dần chấp nhận quan điểm đó sau cuộc trò chuyện.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-056",
+    "term": "get around a rule",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lách một quy định",
+    "def": "to find a way to avoid following a rule",
+    "ex": "The company tried to get around a safety rule.",
+    "exVi": "Công ty tìm cách lách quy định an toàn.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-057",
+    "term": "work around a problem",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tìm cách xử lý một trở ngại",
+    "def": "to find another method when something causes difficulty",
+    "ex": "We worked around the problem by sharing one computer.",
+    "exVi": "Chúng tôi xử lý trở ngại bằng cách dùng chung máy tính.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-058",
+    "term": "work around restrictions",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tìm cách xoay xở với hạn chế",
+    "def": "to find a practical way despite limits",
+    "ex": "The team worked around restrictions on the old equipment.",
+    "exVi": "Nhóm xoay xở với những giới hạn của thiết bị cũ.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-059",
+    "term": "look around the shops",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dạo quanh các cửa hàng",
+    "def": "to browse in several shops",
+    "ex": "We looked around the shops before lunch.",
+    "exVi": "Chúng tôi dạo quanh các cửa hàng trước bữa trưa.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-around-060",
+    "term": "turn the situation around",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xoay chuyển tình thế",
+    "def": "to change a difficult situation into a better one",
+    "ex": "A clear plan turned the situation around.",
+    "exVi": "Kế hoạch rõ ràng giúp xoay chuyển tình thế.",
+    "ielts": 1
+  }
+]);

@@ -1,0 +1,200 @@
+window.VOCAB.register("b2-u069", [
+  {
+    "id": "b2-u069-001",
+    "term": "body language",
+    "pos": "n",
+    "ipa": "",
+    "vi": "ngôn ngữ cơ thể",
+    "def": "gestures and movements used to communicate without words",
+    "ex": "Open body language can make a speaker seem approachable.",
+    "exVi": "Ngôn ngữ cơ thể cởi mở có thể khiến người nói dễ gần.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-002",
+    "term": "facial expression",
+    "pos": "n",
+    "ipa": "",
+    "vi": "biểu cảm khuôn mặt",
+    "def": "a look on someone's face that shows a feeling or reaction",
+    "ex": "Her facial expression changed when she heard the news.",
+    "exVi": "Biểu cảm khuôn mặt cô thay đổi khi nghe tin.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-003",
+    "term": "eye contact",
+    "pos": "n",
+    "ipa": "",
+    "vi": "giao tiếp bằng mắt",
+    "def": "the act of looking directly at another person's eyes",
+    "ex": "Eye contact helps listeners feel included in a conversation.",
+    "exVi": "Giao tiếp bằng mắt giúp người nghe cảm thấy được chú ý.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-004",
+    "term": "tone of voice",
+    "pos": "n",
+    "ipa": "",
+    "vi": "giọng điệu",
+    "def": "the quality or manner in which someone speaks",
+    "ex": "A calm tone of voice can ease a disagreement.",
+    "exVi": "Giọng điệu bình tĩnh có thể xoa dịu bất đồng.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-005",
+    "term": "verbal communication",
+    "pos": "n",
+    "ipa": "",
+    "vi": "giao tiếp bằng lời",
+    "def": "the sharing of information through spoken or written words",
+    "ex": "Verbal communication is essential during emergency training.",
+    "exVi": "Giao tiếp bằng lời rất cần thiết trong huấn luyện khẩn cấp.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-006",
+    "term": "non-verbal communication",
+    "pos": "n",
+    "ipa": "",
+    "vi": "giao tiếp phi ngôn ngữ",
+    "def": "the sharing of meaning through gestures, expressions, or posture",
+    "ex": "Non-verbal communication differs across cultures.",
+    "exVi": "Giao tiếp phi ngôn ngữ khác nhau giữa các nền văn hóa.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-007",
+    "term": "misinterpret",
+    "pos": "v",
+    "ipa": "",
+    "vi": "hiểu sai",
+    "def": "to understand a message in an incorrect way",
+    "ex": "Readers may misinterpret a short message without context.",
+    "exVi": "Người đọc có thể hiểu sai tin nhắn ngắn nếu thiếu ngữ cảnh.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-008",
+    "term": "misunderstanding",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự hiểu lầm",
+    "def": "a failure to understand what someone means",
+    "ex": "A misunderstanding about the meeting time caused confusion.",
+    "exVi": "Hiểu lầm về giờ họp gây ra sự bối rối.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-009",
+    "term": "convey a message",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "truyền đạt thông điệp",
+    "def": "to communicate information or a feeling to someone",
+    "ex": "A simple diagram can convey a message quickly.",
+    "exVi": "Sơ đồ đơn giản có thể truyền đạt thông điệp nhanh chóng.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-010",
+    "term": "exchange information",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trao đổi thông tin",
+    "def": "to give and receive facts or details",
+    "ex": "Doctors exchange information before treating a patient.",
+    "exVi": "Bác sĩ trao đổi thông tin trước khi điều trị cho bệnh nhân.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-011",
+    "term": "language barrier",
+    "pos": "n",
+    "ipa": "",
+    "vi": "rào cản ngôn ngữ",
+    "def": "a difficulty communicating because people speak different languages",
+    "ex": "A translator helped the family overcome the language barrier.",
+    "exVi": "Phiên dịch viên giúp gia đình vượt qua rào cản ngôn ngữ.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-012",
+    "term": "speech pattern",
+    "pos": "n",
+    "ipa": "",
+    "vi": "đặc điểm lời nói",
+    "def": "a typical way in which someone speaks",
+    "ex": "Her speech pattern became clearer after months of practice.",
+    "exVi": "Cách nói của cô rõ ràng hơn sau nhiều tháng luyện tập.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-013",
+    "term": "coherent",
+    "pos": "adj",
+    "ipa": "",
+    "vi": "mạch lạc",
+    "def": "clear and logically connected",
+    "ex": "He gave a coherent answer with two useful examples.",
+    "exVi": "Anh đưa ra câu trả lời mạch lạc với hai ví dụ hữu ích.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-014",
+    "term": "eloquence",
+    "pos": "n",
+    "ipa": "",
+    "vi": "khả năng diễn đạt lưu loát",
+    "def": "the ability to express ideas clearly and effectively",
+    "ex": "Her eloquence impressed the audience during the debate.",
+    "exVi": "Khả năng diễn đạt của cô gây ấn tượng trong buổi tranh luận.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-015",
+    "term": "accent",
+    "pos": "n",
+    "ipa": "",
+    "vi": "giọng; âm sắc vùng miền",
+    "def": "a way of pronouncing words associated with a place or group",
+    "ex": "Her regional accent is easy to recognise.",
+    "exVi": "Giọng vùng miền của cô dễ nhận ra.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-016",
+    "term": "clarification request",
+    "pos": "n",
+    "ipa": "",
+    "vi": "lời yêu cầu làm rõ",
+    "def": "a question asking someone to explain a point more clearly",
+    "ex": "She made a clarification request before signing the contract.",
+    "exVi": "Cô yêu cầu làm rõ trước khi ký hợp đồng.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-017",
+    "term": "jargon",
+    "pos": "n",
+    "ipa": "",
+    "vi": "thuật ngữ chuyên ngành",
+    "def": "special words used by a particular profession or group",
+    "ex": "The guide avoided technical jargon when explaining the system.",
+    "exVi": "Hướng dẫn viên tránh thuật ngữ chuyên môn khi giải thích hệ thống.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u069-018",
+    "term": "slang",
+    "pos": "n",
+    "ipa": "",
+    "vi": "tiếng lóng",
+    "def": "very informal words used by particular groups",
+    "ex": "Teenagers often use slang that adults do not recognise.",
+    "exVi": "Thanh thiếu niên thường dùng tiếng lóng người lớn không nhận ra.",
+    "ielts": 1
+  }
+]);

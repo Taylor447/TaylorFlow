@@ -1,0 +1,233 @@
+window.VOCAB.register("b1-u030", [
+  {
+    "id": "b1-u030-001",
+    "term": "notice",
+    "pos": "n",
+    "ipa": "",
+    "vi": "thông báo",
+    "def": "a written message giving information to the public",
+    "ex": "A notice on the door lists the opening hours.",
+    "exVi": "Thông báo trên cửa ghi giờ mở cửa.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-002",
+    "term": "warning",
+    "pos": "n",
+    "ipa": "",
+    "vi": "lời cảnh báo",
+    "def": "a statement about possible danger or trouble",
+    "ex": "The warning told visitors to stay away from the edge.",
+    "exVi": "Lời cảnh báo yêu cầu khách tránh xa mép vực.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-003",
+    "term": "instruction",
+    "pos": "n",
+    "ipa": "",
+    "vi": "hướng dẫn",
+    "def": "information explaining what someone should do",
+    "ex": "Read every instruction before using the machine.",
+    "exVi": "Đọc kỹ mọi hướng dẫn trước khi dùng máy.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-004",
+    "term": "announcement",
+    "pos": "n",
+    "ipa": "",
+    "vi": "thông báo công khai",
+    "def": "a public statement that gives important information",
+    "ex": "The station announcement mentioned a late train.",
+    "exVi": "Thông báo ở ga nhắc đến chuyến tàu trễ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-005",
+    "term": "information board",
+    "pos": "n",
+    "ipa": "",
+    "vi": "bảng thông tin",
+    "def": "a board displaying useful details for visitors",
+    "ex": "The information board shows local walking routes.",
+    "exVi": "Bảng thông tin hiển thị các lối đi bộ địa phương.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-006",
+    "term": "entrance",
+    "pos": "n",
+    "ipa": "",
+    "vi": "lối vào",
+    "def": "a place where people can enter a building or area",
+    "ex": "The main entrance is around the corner.",
+    "exVi": "Lối vào chính ở quanh góc.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-007",
+    "term": "exit",
+    "pos": "n",
+    "ipa": "",
+    "vi": "lối ra",
+    "def": "a place where people can leave a building or area",
+    "ex": "Use the side exit after the event.",
+    "exVi": "Dùng lối ra bên cạnh sau sự kiện.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-008",
+    "term": "no entry",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cấm vào",
+    "def": "a sign telling people they must not enter",
+    "ex": "The gate had a clear no entry sign.",
+    "exVi": "Cổng có biển cấm vào rất rõ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-009",
+    "term": "keep off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "không được bước lên",
+    "def": "a warning not to walk or stand on something",
+    "ex": "The sign says to keep off the grass.",
+    "exVi": "Biển báo ghi không được bước lên cỏ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-010",
+    "term": "keep out",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cấm vào bên trong",
+    "def": "a warning telling people not to enter an area",
+    "ex": "The owners asked visitors to keep out.",
+    "exVi": "Chủ nhà yêu cầu khách không vào bên trong.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-011",
+    "term": "do not touch",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "không được chạm vào",
+    "def": "an instruction not to handle something",
+    "ex": "The museum sign says do not touch the paintings.",
+    "exVi": "Biển bảo tàng ghi không được chạm vào tranh.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-012",
+    "term": "caution",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự thận trọng",
+    "def": "care taken to avoid danger or mistakes",
+    "ex": "Use caution when walking on the wet floor.",
+    "exVi": "Hãy cẩn thận khi đi trên sàn ướt.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-013",
+    "term": "danger",
+    "pos": "n",
+    "ipa": "",
+    "vi": "nguy hiểm",
+    "def": "the possibility of harm or injury",
+    "ex": "The broken bridge is a danger to cyclists.",
+    "exVi": "Cây cầu hỏng gây nguy hiểm cho người đi xe đạp.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-014",
+    "term": "emergency exit",
+    "pos": "n",
+    "ipa": "",
+    "vi": "lối thoát hiểm",
+    "def": "a special exit used during an emergency",
+    "ex": "Keep the emergency exit clear at all times.",
+    "exVi": "Luôn giữ lối thoát hiểm thông thoáng.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-015",
+    "term": "fire alarm",
+    "pos": "n",
+    "ipa": "",
+    "vi": "chuông báo cháy",
+    "def": "a device that warns people about a fire",
+    "ex": "The fire alarm rang during the practice drill.",
+    "exVi": "Chuông báo cháy vang lên trong buổi diễn tập.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-016",
+    "term": "first aid",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sơ cứu",
+    "def": "basic medical help given before a doctor arrives",
+    "ex": "The guide gave first aid to the injured hiker.",
+    "exVi": "Hướng dẫn viên sơ cứu người đi bộ bị thương.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-017",
+    "term": "prohibited",
+    "pos": "adj",
+    "ipa": "",
+    "vi": "bị cấm",
+    "def": "not allowed by a rule or law",
+    "ex": "Parking is prohibited outside the school gate.",
+    "exVi": "Đỗ xe bị cấm bên ngoài cổng trường.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-018",
+    "term": "permitted",
+    "pos": "adj",
+    "ipa": "",
+    "vi": "được phép",
+    "def": "allowed by a rule or law",
+    "ex": "Photography is permitted in the main hall.",
+    "exVi": "Được phép chụp ảnh trong sảnh chính.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-019",
+    "term": "required",
+    "pos": "adj",
+    "ipa": "",
+    "vi": "bắt buộc",
+    "def": "needed according to a rule or situation",
+    "ex": "A ticket is required for entry.",
+    "exVi": "Cần có vé để vào cửa.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-020",
+    "term": "must",
+    "pos": "modal",
+    "ipa": "",
+    "vi": "phải",
+    "def": "used to say that something is necessary or compulsory",
+    "ex": "Visitors must sign in at reception.",
+    "exVi": "Khách phải đăng ký ở quầy lễ tân.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u030-021",
+    "term": "should",
+    "pos": "modal",
+    "ipa": "",
+    "vi": "nên",
+    "def": "used to give advice or say what is a good idea",
+    "ex": "You should wear a helmet on this route.",
+    "exVi": "Bạn nên đội mũ bảo hiểm trên tuyến đường này.",
+    "ielts": 1
+  }
+]);

@@ -1,0 +1,222 @@
+window.VOCAB.register("a1-u049", [
+  {
+    "id": "a1-u049-001",
+    "term": "walk to school",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi bộ đến trường",
+    "def": "go to school on foot",
+    "ex": "My brother walks to school every day.",
+    "exVi": "Em trai tôi đi bộ đến trường mỗi ngày.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-002",
+    "term": "walk home",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi bộ về nhà",
+    "def": "return home on foot",
+    "ex": "We walked home after the film.",
+    "exVi": "Chúng tôi đi bộ về nhà sau bộ phim.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-003",
+    "term": "run to the station",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chạy đến nhà ga",
+    "def": "go quickly on foot to a station",
+    "ex": "She ran to the station in the rain.",
+    "exVi": "Cô ấy chạy đến nhà ga dưới mưa.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-004",
+    "term": "drive to work",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lái xe đi làm",
+    "def": "travel to work in a car",
+    "ex": "He drives to work before sunrise.",
+    "exVi": "Anh ấy lái xe đi làm trước khi mặt trời mọc.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-005",
+    "term": "ride a bicycle",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi xe đạp",
+    "def": "travel on a bicycle",
+    "ex": "They ride a bicycle along the river.",
+    "exVi": "Họ đạp xe dọc bờ sông.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-006",
+    "term": "travel by train",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi bằng tàu hỏa",
+    "def": "go somewhere on a train",
+    "ex": "We travelled by train last summer.",
+    "exVi": "Mùa hè năm ngoái chúng tôi đi tàu hỏa.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-007",
+    "term": "travel alone",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi du lịch một mình",
+    "def": "go on a journey without another person",
+    "ex": "She travelled alone for the first time.",
+    "exVi": "Lần đầu tiên cô ấy đi du lịch một mình.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-008",
+    "term": "arrive at the airport",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đến sân bay",
+    "def": "reach the place where planes leave",
+    "ex": "We arrived at the airport early.",
+    "exVi": "Chúng tôi đến sân bay sớm.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-009",
+    "term": "leave the station",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "rời nhà ga",
+    "def": "go away from a railway station",
+    "ex": "The train leaves the station at noon.",
+    "exVi": "Tàu rời nhà ga vào buổi trưa.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-010",
+    "term": "cross the street",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "băng qua đường",
+    "def": "go from one side of a road to the other",
+    "ex": "Look both ways before crossing the street.",
+    "exVi": "Hãy nhìn hai phía trước khi băng qua đường.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-011",
+    "term": "turn left at the corner",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "rẽ trái ở góc đường",
+    "def": "change direction to the left at a corner",
+    "ex": "Turn left at the corner near the bank.",
+    "exVi": "Rẽ trái ở góc đường gần ngân hàng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-012",
+    "term": "turn right at the lights",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "rẽ phải ở đèn giao thông",
+    "def": "change direction right where traffic lights are",
+    "ex": "Turn right at the lights and continue.",
+    "exVi": "Rẽ phải ở đèn giao thông rồi đi tiếp.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-013",
+    "term": "go straight ahead",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi thẳng về phía trước",
+    "def": "continue without turning",
+    "ex": "Go straight ahead for two blocks.",
+    "exVi": "Đi thẳng về phía trước hai dãy nhà.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-014",
+    "term": "get on the train",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lên tàu hỏa",
+    "def": "enter a train to travel",
+    "ex": "We got on the train at platform four.",
+    "exVi": "Chúng tôi lên tàu ở sân ga số bốn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-015",
+    "term": "get off the bus",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xuống xe buýt",
+    "def": "leave a bus after travelling",
+    "ex": "Get off the bus beside the museum.",
+    "exVi": "Xuống xe buýt cạnh bảo tàng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-016",
+    "term": "get into a taxi",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lên taxi",
+    "def": "enter a taxi",
+    "ex": "They got into a taxi outside the hotel.",
+    "exVi": "Họ lên taxi bên ngoài khách sạn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-017",
+    "term": "get out of the car",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ra khỏi xe hơi",
+    "def": "leave a car",
+    "ex": "Please get out of the car carefully.",
+    "exVi": "Vui lòng cẩn thận bước ra khỏi xe.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-018",
+    "term": "move to another town",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chuyển đến thị trấn khác",
+    "def": "change where you live to a different town",
+    "ex": "Her family moved to another town.",
+    "exVi": "Gia đình cô ấy chuyển đến thị trấn khác.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-019",
+    "term": "take the stairs",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đi cầu thang bộ",
+    "def": "use steps instead of a lift",
+    "ex": "I take the stairs to my office.",
+    "exVi": "Tôi đi cầu thang bộ đến văn phòng.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u049-020",
+    "term": "climb a mountain",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "leo núi",
+    "def": "go up a mountain using hands or feet",
+    "ex": "They climbed a mountain during their holiday.",
+    "exVi": "Họ leo núi trong kỳ nghỉ.",
+    "ielts": 1
+  }
+]);

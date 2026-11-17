@@ -1,0 +1,211 @@
+window.VOCAB.register("b1-u084", [
+  {
+    "id": "b1-u084-001",
+    "term": "go ahead",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cứ tiến hành",
+    "def": "to start or continue after permission",
+    "ex": "The manager said we could go ahead with the plan.",
+    "exVi": "Quản lý nói chúng tôi có thể tiến hành kế hoạch.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-002",
+    "term": "go abroad",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ra nước ngoài",
+    "def": "to travel to another country",
+    "ex": "She plans to go abroad for university.",
+    "exVi": "Cô ấy định ra nước ngoài học đại học.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-003",
+    "term": "go missing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mất tích",
+    "def": "to become impossible to find",
+    "ex": "One suitcase went missing during the transfer.",
+    "exVi": "Một chiếc va-li thất lạc khi chuyển chuyến.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-004",
+    "term": "go wrong",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "gặp trục trặc",
+    "def": "to develop in an unexpected or bad way",
+    "ex": "Something went wrong with the online booking.",
+    "exVi": "Có trục trặc với việc đặt chỗ trực tuyến.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-005",
+    "term": "go out of business",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ngừng kinh doanh",
+    "def": "to stop operating as a business",
+    "ex": "The small bookshop went out of business last year.",
+    "exVi": "Hiệu sách nhỏ ngừng kinh doanh năm ngoái.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-006",
+    "term": "go on a diet",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ăn kiêng",
+    "def": "to begin eating less or choosing food carefully",
+    "ex": "He went on a diet before the race.",
+    "exVi": "Anh ấy ăn kiêng trước cuộc đua.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-007",
+    "term": "go green",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chuyển sang lối sống xanh",
+    "def": "to adopt more environmentally friendly habits",
+    "ex": "Our office went green by reducing paper use.",
+    "exVi": "Văn phòng sống xanh hơn bằng cách giảm dùng giấy.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-008",
+    "term": "go online",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lên mạng; chuyển sang trực tuyến",
+    "def": "to connect to the internet",
+    "ex": "The class will go online during the storm.",
+    "exVi": "Lớp sẽ học trực tuyến trong cơn bão.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-009",
+    "term": "go silent",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "im bặt",
+    "def": "to stop speaking or making a sound",
+    "ex": "The room went silent when the lights failed.",
+    "exVi": "Căn phòng im bặt khi đèn tắt.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-010",
+    "term": "go on strike",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đình công",
+    "def": "to stop working to demand better conditions",
+    "ex": "The drivers went on strike for safer shifts.",
+    "exVi": "Tài xế đình công để đòi ca làm an toàn hơn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-011",
+    "term": "go off",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "reo; hỏng",
+    "def": "to make a sudden sound or become unsuitable to eat",
+    "ex": "The alarm went off at six.",
+    "exVi": "Chuông báo thức reo lúc sáu giờ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-012",
+    "term": "go through",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trải qua",
+    "def": "to experience a difficult period or process",
+    "ex": "The family went through a difficult winter.",
+    "exVi": "Gia đình trải qua mùa đông khó khăn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-013",
+    "term": "go without",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chịu thiếu",
+    "def": "to manage without something you usually need",
+    "ex": "We went without hot water overnight.",
+    "exVi": "Chúng tôi phải chịu thiếu nước nóng qua đêm.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-014",
+    "term": "go by",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trôi qua; căn cứ vào",
+    "def": "to pass in time or use something as a guide",
+    "ex": "Several months went by before we met again.",
+    "exVi": "Vài tháng trôi qua trước khi chúng tôi gặp lại.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-015",
+    "term": "go for",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chọn; hướng tới",
+    "def": "to choose or try to achieve something",
+    "ex": "I think I will go for the blue jacket.",
+    "exVi": "Tôi nghĩ mình sẽ chọn áo khoác xanh.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-016",
+    "term": "go with",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hợp với",
+    "def": "to match something or be suitable with it",
+    "ex": "This sauce goes well with grilled vegetables.",
+    "exVi": "Nước sốt này hợp với rau củ nướng.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-017",
+    "term": "go down",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giảm; đi xuống",
+    "def": "to decrease in amount, level, or price",
+    "ex": "Fuel prices went down slightly this week.",
+    "exVi": "Giá nhiên liệu giảm nhẹ tuần này.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-018",
+    "term": "go up",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tăng; đi lên",
+    "def": "to increase in amount, level, or price",
+    "ex": "Rents have gone up near the university.",
+    "exVi": "Giá thuê gần trường đại học đã tăng.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u084-019",
+    "term": "go well",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "diễn ra suôn sẻ",
+    "def": "to happen successfully",
+    "ex": "The presentation went well despite a technical problem.",
+    "exVi": "Buổi thuyết trình suôn sẻ dù có trục trặc.",
+    "ielts": 1
+  }
+]);

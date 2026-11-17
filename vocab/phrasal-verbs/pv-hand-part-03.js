@@ -1,0 +1,233 @@
+window.VOCAB.register("pv-hand", [
+  {
+    "id": "pv-hand-081",
+    "term": "hand on a note",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chuyển một mẩu giấy",
+    "def": "to pass a written note to someone",
+    "ex": "She handed on a note during the lecture.",
+    "exVi": "Cô chuyền mẩu giấy trong giờ giảng.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-082",
+    "term": "hand on a phone",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chuyền điện thoại cho người khác",
+    "def": "to pass a phone to another person",
+    "ex": "Please hand on the phone so I can speak to Dad.",
+    "exVi": "Chuyền điện thoại để con nói chuyện với bố nhé.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-083",
+    "term": "hand the request on to the manager",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chuyển tiếp yêu cầu cho quản lý",
+    "def": "to pass a request to a person responsible",
+    "ex": "I'll hand the request on to the manager.",
+    "exVi": "Tôi sẽ chuyển yêu cầu cho quản lý.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-084",
+    "term": "hand on to the next person",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chuyển cho người tiếp theo",
+    "def": "to pass an item or task to the next person",
+    "ex": "After adding your comment, hand the folder on to the next person.",
+    "exVi": "Thêm ý kiến xong, hãy chuyển tập hồ sơ cho người tiếp theo.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-085",
+    "term": "hand on a tradition",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "truyền lại một truyền thống",
+    "def": "to keep a custom alive by teaching it to others",
+    "ex": "The group hands on a tradition of community singing.",
+    "exVi": "Nhóm truyền lại truyền thống hát cộng đồng.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-086",
+    "term": "hand on the baton",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trao gậy tiếp sức",
+    "def": "to pass a baton to the next runner",
+    "ex": "She handed on the baton without slowing down.",
+    "exVi": "Cô trao gậy tiếp sức mà không giảm tốc độ.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-087",
+    "term": "hand on a contact number",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chuyển số liên lạc",
+    "def": "to give a phone number to another person",
+    "ex": "Could you hand on my contact number to the organiser?",
+    "exVi": "Bạn chuyển số liên lạc của tôi cho ban tổ chức được không?",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-088",
+    "term": "hand back a book",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trả lại một quyển sách",
+    "def": "to return a book to its owner",
+    "ex": "I handed back the book after finishing the last chapter.",
+    "exVi": "Tôi trả sách sau khi đọc xong chương cuối.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-089",
+    "term": "hand back the key",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trả lại chìa khóa",
+    "def": "to return a key to someone",
+    "ex": "Please hand back the key before you leave.",
+    "exVi": "Vui lòng trả chìa khóa trước khi rời đi.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-090",
+    "term": "hand back a document",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trao trả tài liệu",
+    "def": "to return a document to its owner",
+    "ex": "The clerk handed back the document after checking it.",
+    "exVi": "Nhân viên trả lại tài liệu sau khi kiểm tra.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-091",
+    "term": "hand back a signed receipt",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trả lại biên lai đã ký",
+    "def": "to return a receipt after signing it",
+    "ex": "The customer handed back a signed receipt to the driver.",
+    "exVi": "Khách hàng trả biên lai đã ký cho tài xế.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-092",
+    "term": "hand a book back to a teacher",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trả sách cho giáo viên",
+    "def": "to return a book to a teacher",
+    "ex": "He handed a book back to his teacher after class.",
+    "exVi": "Anh trả sách cho giáo viên sau giờ học.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-093",
+    "term": "hand a wallet back to its owner",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trả ví cho chủ nhân",
+    "def": "to return a wallet to the person it belongs to",
+    "ex": "A passer-by handed a wallet back to its owner.",
+    "exVi": "Người qua đường trả ví cho chủ nhân.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-094",
+    "term": "hand back the change",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trả lại tiền thừa",
+    "def": "to return the extra money from a payment",
+    "ex": "The cashier handed back the change with the receipt.",
+    "exVi": "Thu ngân trả lại tiền thừa cùng biên lai.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-095",
+    "term": "hand back a completed form",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trả lại biểu mẫu đã điền",
+    "def": "to return a form after completing it",
+    "ex": "I handed back a completed form to the receptionist.",
+    "exVi": "Tôi trả biểu mẫu đã điền cho lễ tân.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-096",
+    "term": "hand back a library card",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trả lại thẻ thư viện",
+    "def": "to return a library card to its owner",
+    "ex": "She handed back the library card she found outside.",
+    "exVi": "Cô trả lại chiếc thẻ thư viện tìm thấy bên ngoài.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-097",
+    "term": "hand a report back to the group",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trả báo cáo cho nhóm",
+    "def": "to return a report to the people who prepared it",
+    "ex": "The editor handed the report back to the group for changes.",
+    "exVi": "Biên tập viên trả báo cáo cho nhóm chỉnh sửa.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-098",
+    "term": "hand up a paper",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nộp bài lên",
+    "def": "to give a piece of work to a teacher",
+    "ex": "Students handed up their papers when the test ended.",
+    "exVi": "Học sinh nộp bài khi bài kiểm tra kết thúc.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-099",
+    "term": "hand the toolbox up to a worker",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa hộp dụng cụ lên cho người thợ",
+    "def": "to pass something to a person on a higher level",
+    "ex": "He handed the toolbox up to the worker on the ladder.",
+    "exVi": "Anh đưa hộp dụng cụ lên cho người thợ trên thang.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-100",
+    "term": "hand across a document",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trao tài liệu qua",
+    "def": "to pass a document across a space",
+    "ex": "She handed a document across the table to her colleague.",
+    "exVi": "Cô đưa tài liệu qua bàn cho đồng nghiệp.",
+    "ielts": 1
+  },
+  {
+    "id": "pv-hand-101",
+    "term": "hand across the table",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa qua bàn",
+    "def": "to pass something to someone sitting opposite",
+    "ex": "He handed the menu across the table to his guest.",
+    "exVi": "Anh đưa thực đơn qua bàn cho khách.",
+    "ielts": 1
+  }
+]);

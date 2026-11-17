@@ -1,0 +1,211 @@
+window.VOCAB.register("b2-u043", [
+  {
+    "id": "b2-u043-001",
+    "term": "delight",
+    "pos": "n",
+    "ipa": "",
+    "vi": "niềm vui lớn",
+    "def": "a strong feeling of happiness and pleasure",
+    "ex": "The children shouted with delight at the surprise visit.",
+    "exVi": "Bọn trẻ reo lên vui sướng trước chuyến thăm bất ngờ.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-002",
+    "term": "satisfaction",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự hài lòng",
+    "def": "a pleasant feeling that something is good or complete",
+    "ex": "She felt satisfaction after finishing the community garden.",
+    "exVi": "Cô thấy hài lòng sau khi hoàn thành khu vườn cộng đồng.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-003",
+    "term": "contentment",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự mãn nguyện",
+    "def": "a calm feeling of being happy with one's situation",
+    "ex": "He found contentment in a quiet life by the coast.",
+    "exVi": "Anh tìm thấy sự mãn nguyện trong cuộc sống yên bình bên biển.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-004",
+    "term": "relief",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự nhẹ nhõm",
+    "def": "a feeling of comfort when worry or danger ends",
+    "ex": "There was relief when the missing child came home safely.",
+    "exVi": "Mọi người nhẹ nhõm khi đứa trẻ mất tích về nhà an toàn.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-005",
+    "term": "gratitude",
+    "pos": "n",
+    "ipa": "",
+    "vi": "lòng biết ơn",
+    "def": "a feeling of thankfulness for help or kindness",
+    "ex": "She expressed gratitude to the volunteers after the event.",
+    "exVi": "Cô bày tỏ lòng biết ơn với tình nguyện viên sau sự kiện.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-006",
+    "term": "pride",
+    "pos": "n",
+    "ipa": "",
+    "vi": "niềm tự hào",
+    "def": "a feeling of pleasure in one's own achievement or someone else's",
+    "ex": "His parents felt pride when he graduated.",
+    "exVi": "Cha mẹ anh tự hào khi anh tốt nghiệp.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-007",
+    "term": "optimism",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự lạc quan",
+    "def": "the belief that good things are likely to happen",
+    "ex": "Their optimism helped the team continue after the setback.",
+    "exVi": "Sự lạc quan giúp nhóm tiếp tục sau trở ngại.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-008",
+    "term": "excitement",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự hào hứng",
+    "def": "a lively feeling of eager happiness",
+    "ex": "The children could hardly hide their excitement about the trip.",
+    "exVi": "Bọn trẻ khó giấu sự háo hức về chuyến đi.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-009",
+    "term": "frustration",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự bực bội",
+    "def": "annoyance caused by being unable to achieve something",
+    "ex": "Traffic delays caused frustration among commuters.",
+    "exVi": "Tắc đường khiến người đi làm bực bội.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-010",
+    "term": "disappointment",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự thất vọng",
+    "def": "sadness when something is worse than expected",
+    "ex": "There was disappointment when the outdoor concert was cancelled.",
+    "exVi": "Mọi người thất vọng khi buổi hòa nhạc ngoài trời bị hủy.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-011",
+    "term": "unease",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự bất an",
+    "def": "a mild feeling that something may be wrong or unpleasant",
+    "ex": "A sense of unease grew as the storm approached.",
+    "exVi": "Cảm giác bất an tăng lên khi cơn bão đến gần.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-012",
+    "term": "worry",
+    "pos": "n",
+    "ipa": "",
+    "vi": "nỗi lo lắng",
+    "def": "a thought or feeling of concern about a problem",
+    "ex": "Her main worry was finding affordable childcare.",
+    "exVi": "Điều cô lo nhất là tìm được dịch vụ trông trẻ hợp túi tiền.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-013",
+    "term": "fear",
+    "pos": "n",
+    "ipa": "",
+    "vi": "nỗi sợ",
+    "def": "a strong feeling caused by possible danger",
+    "ex": "Fear of failure stopped him from applying for the course.",
+    "exVi": "Nỗi sợ thất bại khiến anh không đăng ký khóa học.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-014",
+    "term": "loneliness",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự cô đơn",
+    "def": "sadness caused by feeling isolated from other people",
+    "ex": "The club helps older residents deal with loneliness.",
+    "exVi": "Câu lạc bộ giúp cư dân lớn tuổi đối mặt với cô đơn.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-015",
+    "term": "guilt",
+    "pos": "n",
+    "ipa": "",
+    "vi": "cảm giác tội lỗi",
+    "def": "a feeling of having done something wrong",
+    "ex": "He felt guilt after ignoring his friend's request for help.",
+    "exVi": "Anh thấy có lỗi vì phớt lờ lời nhờ giúp đỡ của bạn.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-016",
+    "term": "regret",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự hối tiếc",
+    "def": "sadness about a past action or missed opportunity",
+    "ex": "She expressed regret for missing her sister's performance.",
+    "exVi": "Cô tiếc vì đã bỏ lỡ buổi biểu diễn của em gái.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-017",
+    "term": "shame",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự xấu hổ",
+    "def": "a painful feeling of embarrassment or loss of respect",
+    "ex": "He felt shame about the rude message he had sent.",
+    "exVi": "Anh xấu hổ vì tin nhắn thô lỗ mình đã gửi.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-018",
+    "term": "anger",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự tức giận",
+    "def": "a strong feeling of displeasure about something unfair or harmful",
+    "ex": "She controlled her anger during the difficult conversation.",
+    "exVi": "Cô kiềm chế cơn giận trong cuộc trò chuyện khó khăn.",
+    "ielts": 1
+  },
+  {
+    "id": "b2-u043-019",
+    "term": "irritation",
+    "pos": "n",
+    "ipa": "",
+    "vi": "sự khó chịu",
+    "def": "mild anger caused by something repeated or annoying",
+    "ex": "The constant buzzing caused irritation during the meeting.",
+    "exVi": "Tiếng vo ve liên tục gây khó chịu trong cuộc họp.",
+    "ielts": 1
+  }
+]);

@@ -1,0 +1,233 @@
+window.VOCAB.register("b1-u088", [
+  {
+    "id": "b1-u088-001",
+    "term": "ask somebody to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nhờ hoặc yêu cầu ai làm",
+    "def": "to request that someone do something",
+    "ex": "I asked my neighbour to water the plants.",
+    "exVi": "Tôi nhờ hàng xóm tưới cây.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-002",
+    "term": "encourage somebody to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "khuyến khích ai làm",
+    "def": "to give someone confidence to do something",
+    "ex": "Her coach encouraged her to speak up.",
+    "exVi": "Huấn luyện viên khuyến khích cô ấy mạnh dạn phát biểu.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-003",
+    "term": "invite somebody to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "mời ai làm",
+    "def": "to ask someone to take part in an activity",
+    "ex": "They invited us to join their walking group.",
+    "exVi": "Họ mời chúng tôi tham gia nhóm đi bộ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-004",
+    "term": "remind somebody to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nhắc ai làm",
+    "def": "to help someone remember an action",
+    "ex": "Please remind me to bring the documents.",
+    "exVi": "Hãy nhắc tôi mang theo tài liệu nhé.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-005",
+    "term": "allow somebody to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cho phép ai làm",
+    "def": "to give someone permission to act",
+    "ex": "The library allows students to use its computers.",
+    "exVi": "Thư viện cho phép sinh viên sử dụng máy tính.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-006",
+    "term": "make somebody do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bắt ai làm",
+    "def": "to force or cause someone to act",
+    "ex": "The rain made us change our plans.",
+    "exVi": "Cơn mưa khiến chúng tôi đổi kế hoạch.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-007",
+    "term": "let somebody do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "để ai làm",
+    "def": "to allow someone to do something",
+    "ex": "My parents let me choose the course.",
+    "exVi": "Bố mẹ để tôi chọn khóa học.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-008",
+    "term": "help somebody do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giúp ai làm",
+    "def": "to make an action easier for someone",
+    "ex": "This guide helps visitors find the entrance.",
+    "exVi": "Hướng dẫn này giúp khách tìm lối vào.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-009",
+    "term": "want somebody to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "muốn ai làm",
+    "def": "to wish that another person does something",
+    "ex": "I want the team to arrive early.",
+    "exVi": "Tôi muốn cả nhóm đến sớm.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-010",
+    "term": "tell somebody to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "bảo ai làm",
+    "def": "to give someone an instruction",
+    "ex": "The nurse told me to rest at home.",
+    "exVi": "Y tá bảo tôi nghỉ ngơi ở nhà.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-011",
+    "term": "warn somebody not to do",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cảnh báo ai đừng làm",
+    "def": "to tell someone about a danger or risk",
+    "ex": "They warned us not to swim near the rocks.",
+    "exVi": "Họ cảnh báo chúng tôi đừng bơi gần ghềnh đá.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-012",
+    "term": "apologise for doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xin lỗi vì đã làm",
+    "def": "to say you are sorry about an action",
+    "ex": "He apologised for arriving late.",
+    "exVi": "Anh ấy xin lỗi vì đến muộn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-013",
+    "term": "accuse somebody of doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "buộc tội ai làm",
+    "def": "to say that someone has done something wrong",
+    "ex": "They accused the firm of hiding costs.",
+    "exVi": "Họ cáo buộc công ty che giấu chi phí.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-014",
+    "term": "thank somebody for doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cảm ơn ai vì đã làm",
+    "def": "to express gratitude for someone's action",
+    "ex": "I thanked Mai for sharing her notes.",
+    "exVi": "Tôi cảm ơn Mai đã chia sẻ ghi chú.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-015",
+    "term": "prevent somebody from doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ngăn ai làm",
+    "def": "to stop someone from doing something",
+    "ex": "The fence prevents children from entering the pond.",
+    "exVi": "Hàng rào ngăn trẻ em xuống ao.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-016",
+    "term": "stop somebody from doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ngăn ai làm",
+    "def": "to cause someone not to continue an action",
+    "ex": "The warning stopped him from taking the shortcut.",
+    "exVi": "Lời cảnh báo khiến anh ấy không đi đường tắt.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-017",
+    "term": "insist on doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nhất quyết làm",
+    "def": "to say firmly that you must do something",
+    "ex": "She insisted on paying for lunch.",
+    "exVi": "Cô ấy nhất quyết trả tiền bữa trưa.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-018",
+    "term": "depend on doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "phụ thuộc vào việc làm",
+    "def": "to be decided or affected by an action",
+    "ex": "Success depends on preparing carefully.",
+    "exVi": "Thành công phụ thuộc vào việc chuẩn bị cẩn thận.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-019",
+    "term": "interested in doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hứng thú với việc làm",
+    "def": "wanting to learn about or take part in something",
+    "ex": "Are you interested in joining the debate club?",
+    "exVi": "Bạn có hứng thú tham gia câu lạc bộ tranh biện không?",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-020",
+    "term": "good at doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giỏi làm",
+    "def": "able to do an activity well",
+    "ex": "My sister is good at explaining difficult ideas.",
+    "exVi": "Chị tôi giỏi giải thích ý tưởng khó.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u088-021",
+    "term": "be used to doing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "quen với việc làm",
+    "def": "familiar with an activity through experience",
+    "ex": "We are used to working in small groups.",
+    "exVi": "Chúng tôi quen làm việc theo nhóm nhỏ.",
+    "ielts": 1
+  }
+]);

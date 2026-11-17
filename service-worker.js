@@ -50,7 +50,8 @@ self.addEventListener('fetch',event=>{
   return;
  }
  const root=new URL('./assets/',SCOPE).pathname;
- if(url.pathname.startsWith(root)||url.pathname.endsWith('/manifest.webmanifest'))event.respondWith((async()=>{
+ const vocabRoot=new URL('./vocab/',SCOPE).pathname;
+ if(url.pathname.startsWith(root)||url.pathname.startsWith(vocabRoot)||url.pathname.endsWith('/manifest.webmanifest'))event.respondWith((async()=>{
   const cache=await caches.open(ASSET_CACHE),cached=await cache.match(request);if(cached)return cached;
   const response=await fetch(request);if(response.ok)try{await cache.put(request,response.clone())}catch{}
   return response;

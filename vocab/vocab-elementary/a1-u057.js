@@ -1,0 +1,233 @@
+window.VOCAB.register("a1-u057", [
+  {
+    "id": "a1-u057-001",
+    "term": "afraid of",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "sợ",
+    "def": "feeling fear about a person or thing",
+    "ex": "My son is afraid of large dogs.",
+    "exVi": "Con trai tôi sợ những con chó lớn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-002",
+    "term": "interested in",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "quan tâm đến",
+    "def": "wanting to learn or know about something",
+    "ex": "She is interested in modern architecture.",
+    "exVi": "Cô ấy quan tâm đến kiến trúc hiện đại.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-003",
+    "term": "good at",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giỏi về",
+    "def": "able to do something well",
+    "ex": "My brother is good at fixing bikes.",
+    "exVi": "Anh trai tôi giỏi sửa xe đạp.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-004",
+    "term": "bad at",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kém về",
+    "def": "not able to do something well",
+    "ex": "I am bad at remembering names.",
+    "exVi": "Tôi kém nhớ tên người khác.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-005",
+    "term": "worried about",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lo lắng về",
+    "def": "feeling concerned about something",
+    "ex": "They are worried about the weather.",
+    "exVi": "Họ lo lắng về thời tiết.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-006",
+    "term": "excited about",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "háo hức về",
+    "def": "feeling very happy about something coming",
+    "ex": "We are excited about our school trip.",
+    "exVi": "Chúng tôi háo hức về chuyến đi của trường.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-007",
+    "term": "listen to",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "lắng nghe",
+    "def": "pay attention to a sound or speaker",
+    "ex": "I listen to the news while cooking.",
+    "exVi": "Tôi nghe tin tức trong khi nấu ăn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-008",
+    "term": "wait for",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chờ đợi",
+    "def": "stay until someone or something arrives",
+    "ex": "We waited for the next bus.",
+    "exVi": "Chúng tôi chờ chuyến xe buýt tiếp theo.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-009",
+    "term": "look at",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nhìn vào",
+    "def": "direct your eyes towards something",
+    "ex": "Look at the sign above the door.",
+    "exVi": "Hãy nhìn tấm biển phía trên cửa.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-010",
+    "term": "talk to",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nói chuyện với",
+    "def": "speak with another person",
+    "ex": "I need to talk to the manager.",
+    "exVi": "Tôi cần nói chuyện với quản lý.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-011",
+    "term": "depend on",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "phụ thuộc vào",
+    "def": "be decided or affected by something",
+    "ex": "Our picnic depends on the weather.",
+    "exVi": "Buổi dã ngoại của chúng tôi phụ thuộc vào thời tiết.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-012",
+    "term": "belong to",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "thuộc về",
+    "def": "be owned by a particular person or group",
+    "ex": "This blue jacket belongs to my sister.",
+    "exVi": "Chiếc áo khoác xanh này thuộc về chị tôi.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-013",
+    "term": "pay for",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "trả tiền cho",
+    "def": "give money in exchange for something",
+    "ex": "I paid for lunch with my card.",
+    "exVi": "Tôi trả tiền bữa trưa bằng thẻ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-014",
+    "term": "arrive in",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đến một thành phố hoặc quốc gia",
+    "def": "reach a large place such as a city or country",
+    "ex": "They arrived in Hanoi before sunset.",
+    "exVi": "Họ đến Hà Nội trước hoàng hôn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-015",
+    "term": "arrive at",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đến một địa điểm cụ thể",
+    "def": "reach a particular place or building",
+    "ex": "We arrived at the hotel after midnight.",
+    "exVi": "Chúng tôi đến khách sạn sau nửa đêm.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-016",
+    "term": "think about",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "suy nghĩ về",
+    "def": "consider something carefully",
+    "ex": "I will think about your suggestion tonight.",
+    "exVi": "Tối nay tôi sẽ suy nghĩ về gợi ý của bạn.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-017",
+    "term": "think of",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nghĩ đến",
+    "def": "have an idea or opinion about something",
+    "ex": "What do you think of this painting?",
+    "exVi": "Bạn nghĩ gì về bức tranh này?",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-018",
+    "term": "ask for",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "yêu cầu",
+    "def": "request something from someone",
+    "ex": "He asked for a glass of water.",
+    "exVi": "Anh ấy xin một cốc nước.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-019",
+    "term": "believe in",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tin vào",
+    "def": "feel sure that someone or something is real or good",
+    "ex": "Her parents believe in her ability.",
+    "exVi": "Bố mẹ cô ấy tin vào năng lực của cô ấy.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-020",
+    "term": "famous for",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "nổi tiếng vì",
+    "def": "known by many people because of something",
+    "ex": "The town is famous for its old bridge.",
+    "exVi": "Thị trấn nổi tiếng nhờ cây cầu cổ.",
+    "ielts": 1
+  },
+  {
+    "id": "a1-u057-021",
+    "term": "different from",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "khác với",
+    "def": "not the same as another person or thing",
+    "ex": "This version is different from the first one.",
+    "exVi": "Phiên bản này khác với phiên bản đầu tiên.",
+    "ielts": 1
+  }
+]);

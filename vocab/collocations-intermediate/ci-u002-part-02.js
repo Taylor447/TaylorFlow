@@ -1,0 +1,222 @@
+window.VOCAB.register("ci-u002", [
+  {
+    "id": "ci-u002-041",
+    "term": "revisit difficult words",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xem lại những từ khó",
+    "def": "to study challenging words again",
+    "ex": "We revisit difficult words before the next lesson.",
+    "exVi": "Chúng tôi xem lại những từ khó trước bài học sau.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-042",
+    "term": "revise before a test",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ôn tập trước bài kiểm tra",
+    "def": "to study again in preparation for an exam",
+    "ex": "She revised before a test with her friend.",
+    "exVi": "Cô ấy ôn tập cùng bạn trước bài kiểm tra.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-043",
+    "term": "practise in short sessions",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "luyện tập thành các buổi ngắn",
+    "def": "to study for brief periods",
+    "ex": "I practise in short sessions between classes.",
+    "exVi": "Tôi luyện tập thành các buổi ngắn giữa giờ học.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-044",
+    "term": "use a word in speech",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dùng một từ khi nói",
+    "def": "to include a word while speaking",
+    "ex": "Try to use a word in speech today.",
+    "exVi": "Hôm nay hãy thử dùng một từ khi nói.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-045",
+    "term": "use new vocabulary naturally",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dùng từ mới một cách tự nhiên",
+    "def": "to use recently learned words appropriately",
+    "ex": "She used new vocabulary naturally in her interview.",
+    "exVi": "Cô ấy dùng từ mới tự nhiên trong buổi phỏng vấn.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-046",
+    "term": "keep a learning log",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "duy trì nhật ký học tập",
+    "def": "to record what you study and learn",
+    "ex": "I keep a learning log on my phone.",
+    "exVi": "Tôi ghi nhật ký học tập trên điện thoại.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-047",
+    "term": "colour-code your notes",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dùng màu để phân loại ghi chép",
+    "def": "to mark notes with different colours",
+    "ex": "I colour-code my notes by topic.",
+    "exVi": "Tôi dùng màu để phân loại ghi chép theo chủ đề.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-048",
+    "term": "label a notebook page",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đặt nhãn cho một trang sổ",
+    "def": "to give a page a clear heading",
+    "ex": "Label each notebook page with its topic.",
+    "exVi": "Hãy đặt nhãn chủ đề cho từng trang sổ.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-049",
+    "term": "search your notes quickly",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tìm ghi chép nhanh chóng",
+    "def": "to find information in your notes without delay",
+    "ex": "Clear headings help me search my notes quickly.",
+    "exVi": "Tiêu đề rõ ràng giúp tôi tìm ghi chép nhanh chóng.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-050",
+    "term": "update your word list",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cập nhật danh sách từ",
+    "def": "to add or change items on a vocabulary list",
+    "ex": "I update my word list every Sunday.",
+    "exVi": "Tôi cập nhật danh sách từ vào mỗi Chủ nhật.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-051",
+    "term": "check a definition",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kiểm tra định nghĩa",
+    "def": "to make sure you understand what a word means",
+    "ex": "I check a definition when a word seems unfamiliar.",
+    "exVi": "Tôi kiểm tra định nghĩa khi gặp một từ lạ.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-052",
+    "term": "choose a useful example",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chọn một ví dụ hữu ích",
+    "def": "to select a sentence that clearly shows usage",
+    "ex": "Choose a useful example from everyday life.",
+    "exVi": "Hãy chọn một ví dụ hữu ích từ cuộc sống hằng ngày.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-053",
+    "term": "remember a word easily",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "dễ dàng nhớ một từ",
+    "def": "to find it simple to recall vocabulary",
+    "ex": "I remember a word easily when I draw it.",
+    "exVi": "Tôi dễ nhớ một từ khi vẽ hình minh họa.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-054",
+    "term": "understand subtle differences",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hiểu những khác biệt tinh tế",
+    "def": "to notice small distinctions in meaning",
+    "ex": "Examples help me understand subtle differences.",
+    "exVi": "Ví dụ giúp tôi hiểu những khác biệt tinh tế.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-055",
+    "term": "build confidence in speaking",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tăng tự tin khi nói",
+    "def": "to become more confident about speaking",
+    "ex": "Small conversations build confidence in speaking.",
+    "exVi": "Những cuộc trò chuyện ngắn giúp tăng tự tin khi nói.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-056",
+    "term": "strengthen your memory",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "củng cố trí nhớ",
+    "def": "to make your ability to remember stronger",
+    "ex": "Regular review can strengthen your memory.",
+    "exVi": "Ôn tập đều đặn có thể củng cố trí nhớ.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-057",
+    "term": "improve your listening skills",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cải thiện kỹ năng nghe",
+    "def": "to become better at understanding spoken language",
+    "ex": "Podcasts improve your listening skills over time.",
+    "exVi": "Podcast giúp cải thiện kỹ năng nghe theo thời gian.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-058",
+    "term": "develop a learning habit",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "hình thành thói quen học tập",
+    "def": "to establish a regular way of studying",
+    "ex": "A ten-minute routine can develop a learning habit.",
+    "exVi": "Thói quen mười phút có thể giúp hình thành nếp học.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-059",
+    "term": "combine reading and revision",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kết hợp đọc và ôn tập",
+    "def": "to use reading together with review",
+    "ex": "I combine reading and revision each evening.",
+    "exVi": "Tôi kết hợp đọc và ôn tập mỗi tối.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u002-060",
+    "term": "make learning more effective",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giúp việc học hiệu quả hơn",
+    "def": "to help studying produce better results",
+    "ex": "Clear goals make learning more effective.",
+    "exVi": "Mục tiêu rõ ràng giúp việc học hiệu quả hơn.",
+    "ielts": 1
+  }
+]);

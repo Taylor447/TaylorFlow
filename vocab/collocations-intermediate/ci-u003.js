@@ -1,0 +1,211 @@
+window.VOCAB.register("ci-u003", [
+  {
+    "id": "ci-u003-001",
+    "term": "read an entry",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đọc một mục từ",
+    "def": "to look through the information for a word",
+    "ex": "I read an entry before using the new adjective.",
+    "exVi": "Tôi đọc mục từ trước khi dùng tính từ mới.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-002",
+    "term": "search for a headword",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tìm từ đầu mục",
+    "def": "to look for the main form of a dictionary word",
+    "ex": "Search for a headword in alphabetical order.",
+    "exVi": "Hãy tìm từ đầu mục theo thứ tự bảng chữ cái.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-003",
+    "term": "find the right entry",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tìm đúng mục từ",
+    "def": "to locate the correct dictionary item",
+    "ex": "I found the right entry after checking the spelling.",
+    "exVi": "Tôi tìm đúng mục từ sau khi kiểm tra chính tả.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-004",
+    "term": "compare two meanings",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "so sánh hai nghĩa",
+    "def": "to examine how two definitions differ",
+    "ex": "Compare two meanings before choosing one.",
+    "exVi": "Hãy so sánh hai nghĩa trước khi chọn.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-005",
+    "term": "check a pronunciation",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kiểm tra cách phát âm",
+    "def": "to find out how a word is spoken",
+    "ex": "I checked the pronunciation before the presentation.",
+    "exVi": "Tôi kiểm tra cách phát âm trước buổi thuyết trình.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-006",
+    "term": "read phonetic symbols",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đọc ký hiệu phiên âm",
+    "def": "to understand the symbols showing speech sounds",
+    "ex": "She learned to read phonetic symbols at school.",
+    "exVi": "Cô ấy học đọc ký hiệu phiên âm ở trường.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-007",
+    "term": "identify a part of speech",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xác định từ loại",
+    "def": "to recognise whether a word is a noun, verb, or another type",
+    "ex": "The label helps identify a part of speech.",
+    "exVi": "Nhãn giúp xác định từ loại.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-008",
+    "term": "confirm a spelling",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xác nhận cách viết",
+    "def": "to make sure a word is written correctly",
+    "ex": "I confirmed the spelling in an online dictionary.",
+    "exVi": "Tôi xác nhận cách viết trong từ điển trực tuyến.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-009",
+    "term": "check a plural form",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kiểm tra dạng số nhiều",
+    "def": "to see how a noun changes for more than one",
+    "ex": "Check a plural form before writing the report.",
+    "exVi": "Hãy kiểm tra dạng số nhiều trước khi viết báo cáo.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-010",
+    "term": "note a verb pattern",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ghi lại cấu trúc của động từ",
+    "def": "to record the words or form used after a verb",
+    "ex": "I noted the verb pattern beside the definition.",
+    "exVi": "Tôi ghi cấu trúc động từ bên cạnh định nghĩa.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-011",
+    "term": "check a preposition",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kiểm tra giới từ đi kèm",
+    "def": "to find which preposition is used with a word",
+    "ex": "Check a preposition when the phrase sounds unusual.",
+    "exVi": "Hãy kiểm tra giới từ khi cụm từ nghe không tự nhiên.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-012",
+    "term": "find a synonym",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tìm từ đồng nghĩa",
+    "def": "to locate a word with a similar meaning",
+    "ex": "The entry helped me find a synonym for quiet.",
+    "exVi": "Mục từ giúp tôi tìm từ đồng nghĩa với quiet.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-013",
+    "term": "find an antonym",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tìm từ trái nghĩa",
+    "def": "to locate a word with an opposite meaning",
+    "ex": "We found an antonym for generous in the dictionary.",
+    "exVi": "Chúng tôi tìm từ trái nghĩa với generous trong từ điển.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-014",
+    "term": "distinguish British usage",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "phân biệt cách dùng Anh-Anh",
+    "def": "to notice usage marked as British English",
+    "ex": "The label helped distinguish British usage.",
+    "exVi": "Nhãn giúp phân biệt cách dùng Anh-Anh.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-015",
+    "term": "check an example sentence",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kiểm tra câu ví dụ",
+    "def": "to read a sentence that shows how a word is used",
+    "ex": "I checked an example sentence before speaking.",
+    "exVi": "Tôi xem câu ví dụ trước khi nói.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-016",
+    "term": "read a usage note",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đọc ghi chú cách dùng",
+    "def": "to read advice about when a word is appropriate",
+    "ex": "Read a usage note for formal expressions.",
+    "exVi": "Hãy đọc ghi chú cách dùng với những cách diễn đạt trang trọng.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-017",
+    "term": "confirm a word's register",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "xác định sắc thái trang trọng của từ",
+    "def": "to check whether a word is formal or informal",
+    "ex": "The dictionary confirmed the word’s formal register.",
+    "exVi": "Từ điển xác nhận sắc thái trang trọng của từ.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-018",
+    "term": "check a countable noun",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kiểm tra danh từ đếm được",
+    "def": "to find whether a noun has a countable form",
+    "ex": "I checked whether advice is a countable noun.",
+    "exVi": "Tôi kiểm tra xem advice có phải danh từ đếm được không.",
+    "ielts": 1
+  },
+  {
+    "id": "ci-u003-019",
+    "term": "follow a cross-reference",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "theo chỉ dẫn tham khảo chéo",
+    "def": "to use a dictionary link to another entry",
+    "ex": "Follow a cross-reference to see a related expression.",
+    "exVi": "Hãy theo chỉ dẫn tham khảo chéo để xem cách diễn đạt liên quan.",
+    "ielts": 1
+  }
+]);

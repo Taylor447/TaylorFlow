@@ -1,0 +1,233 @@
+window.VOCAB.register("b1-u081", [
+  {
+    "id": "b1-u081-001",
+    "term": "make an impression",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "gây ấn tượng",
+    "def": "to cause someone to remember or notice you",
+    "ex": "Her clear presentation made an impression on the audience.",
+    "exVi": "Bài thuyết trình rõ ràng của cô ấy gây ấn tượng với khán giả.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-002",
+    "term": "make a choice",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa ra lựa chọn",
+    "def": "to decide between different possibilities",
+    "ex": "You need to make a choice before registration closes.",
+    "exVi": "Bạn cần chọn trước khi đóng đăng ký.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-003",
+    "term": "make a complaint",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "gửi khiếu nại",
+    "def": "to tell someone officially that you are unhappy",
+    "ex": "He made a complaint about the noisy room.",
+    "exVi": "Anh ấy khiếu nại về căn phòng ồn.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-004",
+    "term": "make arrangements",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "sắp xếp",
+    "def": "to plan or organise something in advance",
+    "ex": "We made arrangements for our guests to be collected.",
+    "exVi": "Chúng tôi sắp xếp người đón khách.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-005",
+    "term": "make a mess",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "làm bừa bộn",
+    "def": "to make a place untidy or dirty",
+    "ex": "The children made a mess while baking.",
+    "exVi": "Bọn trẻ làm bừa bộn khi nướng bánh.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-006",
+    "term": "make friends",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kết bạn",
+    "def": "to begin a friendly relationship with someone",
+    "ex": "She made friends with people in her language class.",
+    "exVi": "Cô ấy kết bạn với mọi người trong lớp ngoại ngữ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-007",
+    "term": "make money",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kiếm tiền",
+    "def": "to earn money from work or business",
+    "ex": "He makes money by repairing bicycles.",
+    "exVi": "Anh ấy kiếm tiền bằng việc sửa xe đạp.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-008",
+    "term": "make an appointment",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đặt lịch hẹn",
+    "def": "to arrange a time to meet a professional",
+    "ex": "I made an appointment with the dentist.",
+    "exVi": "Tôi đặt lịch hẹn với nha sĩ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-009",
+    "term": "make an offer",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đưa ra lời đề nghị",
+    "def": "to say how much you are willing to pay or do",
+    "ex": "They made an offer on the small apartment.",
+    "exVi": "Họ đưa ra giá mua căn hộ nhỏ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-010",
+    "term": "make sure",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "đảm bảo",
+    "def": "to check that something is true or will happen",
+    "ex": "Make sure you lock the door before leaving.",
+    "exVi": "Hãy chắc chắn khóa cửa trước khi đi.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-011",
+    "term": "do business",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "kinh doanh",
+    "def": "to trade or work with a person or company",
+    "ex": "Our company does business with local farms.",
+    "exVi": "Công ty chúng tôi làm việc với các nông trại địa phương.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-012",
+    "term": "do some exercise",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tập thể dục",
+    "def": "to do physical activity to stay healthy",
+    "ex": "I do some exercise before starting work.",
+    "exVi": "Tôi tập thể dục trước khi bắt đầu làm việc.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-013",
+    "term": "do the washing",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giặt quần áo",
+    "def": "to wash clothes, usually at home",
+    "ex": "I do the washing every Saturday morning.",
+    "exVi": "Tôi giặt quần áo mỗi sáng thứ Bảy.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-014",
+    "term": "do a favour",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "giúp một việc",
+    "def": "to do something helpful for another person",
+    "ex": "Could you do me a favour and water the plants?",
+    "exVi": "Bạn giúp tôi tưới cây được không?",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-015",
+    "term": "do your best",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "cố gắng hết sức",
+    "def": "to try as hard as you can",
+    "ex": "Just do your best in the speaking test.",
+    "exVi": "Hãy cố gắng hết sức trong bài thi nói.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-016",
+    "term": "take a seat",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "ngồi xuống",
+    "def": "to sit down, often after being invited",
+    "ex": "Please take a seat while you wait.",
+    "exVi": "Mời bạn ngồi trong lúc chờ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-017",
+    "term": "take a risk",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chấp nhận rủi ro",
+    "def": "to do something that may have a bad result",
+    "ex": "She took a risk by changing careers.",
+    "exVi": "Cô ấy chấp nhận rủi ro khi đổi nghề.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-018",
+    "term": "take a photograph",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "chụp một bức ảnh",
+    "def": "to use a camera to make a picture",
+    "ex": "We took a photograph beside the old bridge.",
+    "exVi": "Chúng tôi chụp ảnh bên cây cầu cũ.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-019",
+    "term": "take a tablet",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "uống một viên thuốc",
+    "def": "to swallow one pill as medicine",
+    "ex": "Take a tablet after your evening meal.",
+    "exVi": "Uống một viên sau bữa tối.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-020",
+    "term": "take place",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "diễn ra",
+    "def": "to happen at a particular time or location",
+    "ex": "The ceremony will take place in the town hall.",
+    "exVi": "Buổi lễ sẽ diễn ra ở tòa thị chính.",
+    "ielts": 1
+  },
+  {
+    "id": "b1-u081-021",
+    "term": "take time",
+    "pos": "phr",
+    "ipa": "",
+    "vi": "tốn thời gian",
+    "def": "to need a period of time to happen or finish",
+    "ex": "Learning a new language takes time.",
+    "exVi": "Học ngôn ngữ mới cần thời gian.",
+    "ielts": 1
+  }
+]);
