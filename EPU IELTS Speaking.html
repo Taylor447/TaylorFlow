@@ -534,6 +534,56 @@ nav svg { width: 18px; height: 18px; }
 .recording-actions button { flex: 1 1 auto; margin: 0; }
 .recording-actions #rb { flex: 2 1 210px; width: auto; }
 .recording-hint { display: block; margin-top: 9px; }
+.practice-review { margin-top: 18px; }
+.practice-tablist { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 8px; padding: 5px; border: 1px solid var(--bd); border-radius: 16px; background: var(--sf); }
+.practice-tab { display: flex; align-items: center; justify-content: center; gap: 8px; min-width: 0; min-height: 48px; border: 1px solid transparent; border-radius: 12px; background: transparent; color: var(--mu); font-size: 15px; }
+.practice-tab[aria-selected="true"] { border-color: color-mix(in srgb,var(--pr) 45%,transparent); background: var(--pr); color: var(--on); box-shadow: 0 5px 18px color-mix(in srgb,var(--pr) 28%,transparent); }
+.practice-tab-panel { padding-top: 14px; animation: route-up .2s ease both; }
+.practice-tab-panel[hidden] { display: none; }
+.practice-results-empty, .recording-review-card, .recording-review-transcript { padding: clamp(14px,2.5vw,22px); border: 1px solid var(--bd); border-radius: 16px; background: var(--surface-glass); }
+.practice-results-empty { text-align: center; color: var(--mu); }
+.practice-results-empty strong { color: var(--tx); font-size: 1.15rem; }
+.practice-results-empty p { margin: 5px 0 0; }
+.recording-review-card { margin-bottom: 12px; }
+.recording-review-head { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+.recording-review-head strong { color: var(--tx); font-size: 1.05rem; }
+.recording-review-head span { color: var(--mu); font-variant-numeric: tabular-nums; }
+.recording-review-card .recording-playback { margin: 10px 0; }
+.recording-again { width: 100%; margin: 7px 0 0; }
+.recording-review-transcript { margin-top: 12px; }
+.recording-review-transcript h3 { margin-bottom: 8px; }
+.recording-review-transcript p { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.7; }
+.recording-review-note { color: var(--mu); }
+.pron-word-transcript { margin: 12px 0 14px; padding: 13px; border: 1px solid var(--bd); border-radius: 12px; background: var(--cd); line-height: 1.95; overflow-wrap: anywhere; }
+.pron-inline-word { display: inline; min-height: 0; padding: 0 1px; margin: 0; border: 0; border-radius: 3px; background: transparent; color: inherit; font: inherit; line-height: inherit; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; cursor: pointer; }
+.pron-inline-word.pron-match { color: var(--positive); text-decoration-color: var(--positive); }
+.pron-inline-word.pron-review { color: var(--caution); text-decoration-color: var(--caution); }
+.pron-inline-word.pron-incorrect { color: var(--warning); text-decoration-color: var(--warning); }
+.pron-inline-word.pron-unknown { color: var(--mu); text-decoration-color: var(--bd); }
+.pron-word-hit { display: block; width: 100%; min-height: 0; padding: 0; border: 0; background: transparent; color: inherit; text-align: left; }
+.pron-word-hit:hover { background: transparent !important; }
+.pron-word-hit strong { text-decoration: underline; text-underline-offset: 3px; }
+.pron-word.pron-incorrect { border-color: var(--warning); background: var(--warning-bg); }
+.word-ipa-modal { width: min(620px,calc(100vw - 28px)); max-width: 620px; max-height: min(88dvh,820px); padding: clamp(18px,4vw,28px); border: 1px solid var(--tool-edge); border-radius: 24px; background: var(--surface-glass); color: var(--tx); box-shadow: 0 28px 90px rgba(0,0,0,.42); }
+.word-ipa-modal::backdrop { background: rgba(3,9,22,.66); backdrop-filter: blur(5px); }
+.word-ipa-head { display: flex; align-items: center; gap: 12px; padding-bottom: 15px; border-bottom: 1px solid var(--bd); }
+.word-ipa-icon { display: grid; width: 42px; height: 42px; flex: 0 0 auto; place-items: center; border-radius: 50%; background: color-mix(in srgb,var(--pr) 14%,var(--sf)); color: var(--pr); font-weight: 800; }
+.word-ipa-head h3 { margin: 0; }
+.word-ipa-close { margin-left: auto; padding: 5px 12px; border-color: var(--bd); background: var(--sf); color: var(--tx); font-size: 22px; }
+.word-ipa-pronunciation { padding: 17px 0; }
+.word-ipa-pronunciation strong { display: block; font-size: 1.25rem; }
+.word-ipa-pronunciation p { margin: 5px 0 0; color: var(--mu); font: 1.2rem/1.5 ui-monospace,Consolas,monospace; overflow-wrap: anywhere; }
+.word-ipa-actions { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 9px; }
+.word-ipa-actions button { min-height: 58px; }
+.word-ipa-phones { display: grid; grid-template-columns: repeat(auto-fit,minmax(74px,1fr)); gap: 8px; margin: 10px 0; }
+.word-ipa-phone { display: grid; min-width: 0; gap: 3px; justify-items: center; padding: 9px 5px; border: 1px solid var(--bd); border-radius: 11px; background: var(--sf); text-align: center; }
+.word-ipa-phone strong { font-size: 1.18rem; }
+.word-ipa-phone small { color: var(--mu); overflow-wrap: anywhere; }
+.word-ipa-phone b { color: var(--pr); font-size: .88rem; }
+.word-ipa-phone.is-weak b { color: var(--caution); }
+.word-ipa-phone.is-missed b { color: var(--warning); }
+.word-ipa-note { color: var(--mu); font-size: .9rem; }
+@media (max-width: 570px) { .practice-tab { min-height: 46px; font-size: 14px; } .word-ipa-actions { grid-template-columns: minmax(0,1fr); } }
 .recording-actions .recording-button.is-recording, .recording-actions .recording-button[aria-pressed="true"] { position: relative; isolation: isolate; background: #b42852; color: #fff; }
 .recording-actions .recording-button.is-recording::after, .recording-actions .recording-button[aria-pressed="true"]::after { position: absolute; z-index: -1; inset: -1px; content: ""; pointer-events: none; border: 2px solid #db4874; border-radius: inherit; animation: record-pulse 1.65s ease-out infinite; }
 .recording-actions .recording-button:not(.is-recording):not([aria-pressed="true"]):not(:disabled) { box-shadow: 0 6px 19px #47d9c62e; animation: record-glow 2.8s ease-in-out infinite; }
@@ -836,11 +886,6 @@ body > nav button.on { background: color-mix(in srgb,var(--pr) 17%,transparent);
 .result-confetti { position: fixed; inset: 0; z-index: 50; pointer-events: none; width: 100%; height: 100%; }
 .result-feedback { margin: 14px 0; padding: 12px; background: var(--sf); border: 1px solid var(--bd); border-radius: 12px; }
 .result-feedback h3 { margin: 0 0 6px; }
-.transcript-editor-preview { max-height: 190px; overflow: auto; margin: 10px 0; padding: 10px 12px; border: 1px solid var(--bd); border-radius: 10px; background: var(--cd); white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.65; }
-.transcript-editor-form label { display: block; margin: 10px 0 6px; font-weight: 700; }
-.transcript-editor-form textarea { display: block; width: 100%; min-height: 150px; padding: 12px 14px; border: 1px solid var(--bd); border-radius: 11px; background: var(--cd); color: var(--tx); font: inherit; line-height: 1.6; resize: vertical; }
-.transcript-editor-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-.transcript-editor-status { margin: 8px 0 0; color: var(--mu); }
 .score-evidence-text { padding: 12px 14px; border-left: 3px solid var(--pr); border-radius: 8px; background: color-mix(in srgb,var(--cd) 78%,transparent); line-height: 1.75; overflow-wrap: anywhere; }
 .score-evidence-text mark { padding: 1px 3px; border-radius: 4px; color: inherit; background: transparent; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .score-evidence--topic { background: color-mix(in srgb,#22a06b 26%,var(--cd)); outline: 1px solid color-mix(in srgb,#22a06b 46%,transparent); }
@@ -902,6 +947,35 @@ body > nav button.on { background: color-mix(in srgb,var(--pr) 17%,transparent);
 .path-setup form,.path-lesson form { margin: 14px 0; }
 .path-setup button.g { margin-top: 10px; }
 .path-map { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit,minmax(min(100%,240px),1fr)); }
+.placement-panel,.adaptive-plan { margin:14px 0; }
+.home-learning-plan { margin:16px 0; padding:22px; }
+.home-learning-head { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+.home-learning-head h2 { margin:3px 0 8px; }
+.home-learning-progress { color:var(--positive); font-size:26px; }
+.home-learning-columns { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin:16px 0; }
+.home-learning-columns>article { min-width:0; padding:16px; border:1px solid var(--bd); border-radius:16px; background:var(--sf); }
+.home-learning-columns h3 { margin:0 0 8px; }
+.home-learning-coach>strong,.home-learning-coach>small { display:block; margin-top:10px; }
+.home-learning-coach>strong { padding:12px; border-radius:12px; background:var(--cd); }
+.home-learning-coach>small { color:var(--mu); }
+
+.home-learning-map-link { width:100%; display:flex; align-items:center; gap:12px; margin-top:14px; padding:12px 16px; border:1px solid var(--bd); border-radius:16px; background:var(--sf); color:var(--tx); text-align:left; font:inherit; cursor:pointer; transition:transform .18s ease,border-color .18s ease; }
+.home-learning-map-link:hover { transform:translateY(-2px); border-color:var(--pr); }
+.home-learning-map-link:focus-visible { outline:3px solid var(--pr); outline-offset:2px; }
+.home-learning-map-copy { display:grid; gap:2px; flex:1; }
+.home-learning-map-copy strong { color:var(--pr); letter-spacing:.05em; }
+.home-learning-map-copy small { color:var(--mu); }
+.home-learning-map-arrow { color:var(--pr); font-size:1.25rem; }
+@media(max-width:650px){.home-learning-plan{padding:16px}.home-learning-columns{grid-template-columns:1fr}}
+.placement-panel h2,.adaptive-plan h2 { margin:4px 0 8px; }
+.placement-content { max-height:520px; overflow:auto; }
+.placement-quiz fieldset { margin:12px 0; padding:12px; border:1px solid var(--bd); border-radius:14px; }
+.placement-quiz legend { font-weight:750; }
+.placement-quiz label { display:inline-flex; align-items:center; gap:6px; margin:6px 14px 2px 0; }
+.placement-quiz input { accent-color:var(--positive); }
+.placement-result { padding:16px; border-radius:15px; background:var(--positive-bg); }
+.placement-result strong { color:var(--positive); font-size:20px; }
+.adaptive-plan>strong { display:block; padding:13px; border-radius:14px; background:var(--sf); }
 .path-week { position: relative; }
 .path-week ol { list-style: none; padding: 0; display: grid; gap: 10px; }
 .path-week li { display: grid; grid-template-columns: auto 1fr; gap: 2px 8px; align-items: center; }
@@ -1615,6 +1689,56 @@ body.nav-bubble-open{padding-bottom:calc(112px + var(--inset-bottom))}
 @media(max-width:900px){.sw-layout{grid-template-columns:1fr}.sw-column.right{grid-row:2}.sw-scene{max-height:350px}.sw-write{min-height:240px}}
 @media(max-width:600px){.sw-page{padding-inline:10px}.sw-toolbar{gap:8px;padding:10px;border-radius:18px}.sw-toolbar-title{width:100%;margin:0 0 4px}.sw-toolbar select{flex:1;max-width:none}.sw-tool{padding-inline:11px}.sw-entry{align-items:flex-start}.sw-entry-art{display:none!important}.sw-card{padding:16px;border-radius:21px}.sw-scene{min-height:190px}.sw-scene img{min-height:180px}.sw-dialog-shell{padding:16px}}
 @media(prefers-reduced-motion:reduce){.sw-keyword,.sw-tool{transition:none}}
+/* Results experience: compact score overview, evidence based review cards and phone friendly accordions. */
+.results-score-overview { margin: 14px 0 18px; padding: clamp(15px,2.6vw,24px); border: 1px solid var(--bd); border-radius: 20px; background: linear-gradient(145deg,color-mix(in srgb,var(--sf) 94%,transparent),color-mix(in srgb,var(--cd) 92%,transparent)); box-shadow: 0 14px 36px rgba(0,0,0,.12); }
+.results-score-head { display:flex; align-items:center; justify-content:space-between; gap:14px; flex-wrap:wrap; margin:0 0 14px; }
+.results-score-head .result-header { flex:1 1 240px; margin:0; }
+.results-score-head .result-header .eyebrow { margin:0 0 4px; }
+.results-score-head .result-header h2 { margin:0; font-size:clamp(22px,3.5vw,32px); }
+.results-band-pill { min-width:120px; padding:7px 14px; border:1px solid color-mix(in srgb,var(--pr) 35%,var(--bd)); border-radius:16px; background:color-mix(in srgb,var(--pr) 12%,var(--sf)); text-align:center; }
+.results-band-pill strong { display:block; color:var(--pr); font-size:clamp(30px,5vw,48px); line-height:1.05; letter-spacing:-.04em; }
+.results-band-pill small { color:var(--mu); }
+.results-criteria { margin:8px 0 10px; }
+.results-score-meta { display:block; margin:10px 0; color:var(--mu); line-height:1.6; }
+.results-score-compare { margin-top:13px; border-top:1px solid var(--bd); padding-top:10px; }
+.results-score-compare > summary { color:var(--pr); cursor:pointer; font-weight:750; }
+.results-score-compare .result-feedback { margin:10px 0 0; }
+.results-analysis-stack { display:grid; gap:11px; margin:13px 0; }
+.results-accordion { min-width:0; overflow:hidden; border:1px solid var(--bd); border-radius:16px; background:color-mix(in srgb,var(--surface-glass) 86%,var(--sf)); box-shadow:0 8px 24px rgba(0,0,0,.08); }
+.results-accordion > summary { display:flex; align-items:center; justify-content:space-between; gap:12px; min-height:56px; padding:12px 16px; cursor:pointer; list-style:none; font-size:clamp(16px,2.3vw,19px); font-weight:780; }
+.results-accordion > summary::-webkit-details-marker { display:none; }
+.results-accordion > summary::after { content:"⌄"; flex:0 0 auto; color:var(--pr); font-size:1.35em; transition:transform .18s ease; }
+.results-accordion[open] > summary::after { transform:rotate(180deg); }
+.results-accordion > summary small { margin-left:auto; color:var(--mu); font-size:.76em; font-weight:650; text-align:right; }
+.results-accordion-body { padding:0 15px 16px; }
+.results-accordion-body > p:first-child { margin-top:0; }
+.results-analysis-list { display:grid; gap:8px; }
+.results-analysis-item { min-width:0; border:1px solid var(--bd); border-radius:12px; background:color-mix(in srgb,var(--sf) 88%,transparent); }
+.results-analysis-item > summary { display:flex; align-items:center; flex-wrap:wrap; gap:6px 9px; padding:11px 12px; cursor:pointer; list-style:none; overflow-wrap:anywhere; }
+.results-analysis-item > summary::-webkit-details-marker { display:none; }
+.results-analysis-item > summary::after { content:"⌄"; margin-left:auto; color:var(--mu); }
+.results-analysis-item[open] > summary::after { content:"⌃"; }
+.results-analysis-item > p { margin:0; padding:0 12px 12px; color:var(--mu); line-height:1.55; }
+.results-before { color:var(--warning); text-decoration:line-through; text-decoration-thickness:1px; }
+.results-after { color:var(--positive); font-weight:760; }
+.results-arrow { color:var(--mu); }
+.results-chip-groups { display:grid; gap:13px; }
+.results-chip-group > strong { display:block; margin-bottom:7px; font-size:.9rem; }
+.results-chips { display:flex; flex-wrap:wrap; gap:7px; }
+.results-chip { display:inline-flex; max-width:100%; padding:6px 10px; border:1px solid var(--bd); border-radius:999px; background:var(--sf); color:var(--tx); overflow-wrap:anywhere; }
+.results-chip.is-caution { border-color:color-mix(in srgb,var(--caution) 55%,var(--bd)); color:var(--caution); }
+.results-improved-answer { margin:0; padding:14px; border:1px solid color-mix(in srgb,var(--positive) 38%,var(--bd)); border-radius:14px; background:color-mix(in srgb,var(--positive) 8%,var(--sf)); white-space:pre-wrap; overflow-wrap:anywhere; line-height:1.75; }
+.results-improved-note { margin:9px 0 0; color:var(--mu); font-size:.9em; line-height:1.55; }
+.results-pronunciation > .pron-panel { margin:0; border:0; border-radius:0; background:transparent; }
+.results-pronunciation .pron-word-transcript { font-size:1.06rem; line-height:2; }
+@media (max-width:560px) {
+ .results-score-overview { padding:13px; border-radius:16px; }
+ .results-score-head { align-items:flex-start; }
+ .results-band-pill { min-width:100px; padding:7px 10px; }
+ .results-accordion > summary { padding:11px 12px; }
+ .results-accordion-body { padding:0 11px 12px; }
+ .results-analysis-item > summary { padding:10px; }
+}
 </style>
 <style>
 #interface-picker{width:min(740px,calc(100vw - 28px));max-width:740px;max-height:min(88vh,880px);padding:0;border:1px solid var(--bd);border-radius:26px;color:var(--tx);background:var(--cd);box-shadow:0 24px 80px #03091970}
@@ -1929,6 +2053,7 @@ html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder.is-d
 .lesson-phrasebook-unit-source[role=status]{line-height:1.55}
 @media(max-width:760px){.lesson-phrasebook-detail-header{gap:8px}.lesson-phrasebook-detail-stats{font-size:.78rem}.lesson-phrasebook-vocab-card{min-width:0}}
 </style>
+<link rel="stylesheet" href="./assets/placement/learning.css">
 </head>
 <body>
 <header>
@@ -1936,9 +2061,9 @@ html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder.is-d
     <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%231e3a8a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2306b6d4%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2218%22%20fill%3D%22url(%23g)%22%2F%3E%3Cpath%20d%3D%22M17%2017h30M32%2017v26%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M11%2049h6l4-8%205%2013%205-20%205%2015%205-9%204%208%204-6%204%207h2%22%20fill%3D%22none%22%20stroke%3D%22%239df6ee%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ccircle%20cx%3D%2251%22%20cy%3D%2249%22%20r%3D%222.2%22%20fill%3D%22%23ffd16b%22%2F%3E%3C%2Fsvg%3E" alt="TaylorFlow">
     <div><span class="brand-name">TaylorFlow</span><span class="brand-kicker">AI IELTS Speaking &amp; Voice Lab</span></div>
   </div>
-  <div class="head-actions"><button type="button" class="g head-link" data-head-route="library" aria-label="Thư viện" onclick="go('library')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10m-10 4h4m-4 4h4m3-4h3v4h-3z"/></svg><span>Thư viện</span></button><button type="button" class="g head-link" data-head-route="review" aria-label="Ôn Thi" onclick="go('review')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H6a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-3"/><rect x="9" y="2" width="6" height="4" rx="1"/><path d="m8 13 3 3 5-6"/></svg><span>Ôn Thi</span></button><button type="button" class="theme-toggle" id="interface-toggle" onclick="openInterfacePicker()" aria-haspopup="dialog" aria-controls="interface-picker"><span>Giao diện</span><small class="interface-current-mode" id="interface-current-mode">1 · Trang chủ</small></button></div>
+  <div class="head-actions"><button type="button" class="g head-link" data-head-route="library" aria-label="Thư viện" onclick="go('library')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10m-10 4h4m-4 4h4m3-4h3v4h-3z"/></svg><span>Thư viện</span></button><button type="button" class="g head-link" data-head-route="review" aria-label="Ôn Thi" onclick="go('review')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H6a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-3"/><rect x="9" y="2" width="6" height="4" rx="1"/><path d="m8 13 3 3 5-6"/></svg><span>Ôn Thi</span></button><button type="button" class="theme-toggle" id="interface-toggle" onclick="openInterfacePicker()" aria-haspopup="dialog" aria-controls="interface-picker"><span>Giao diện</span><small class="interface-current-mode" id="interface-current-mode">1 · Giao diện gốc</small></button></div>
 </header>
-<dialog id="interface-picker" aria-labelledby="interface-picker-title"><div class="interface-picker-shell"><div class="theme-picker-heading"><div><span class="theme-picker-kicker">TAYLORFLOW · CÁ NHÂN HÓA</span><h2 id="interface-picker-title">Chọn giao diện</h2></div><button type="button" class="g theme-picker-close" onclick="closeInterfacePicker()" aria-label="Đóng">×</button></div><p class="theme-picker-intro">Chọn kiểu trang chủ phù hợp. Lựa chọn được lưu trên thiết bị này.</p><div class="interface-mode-grid"><button type="button" class="interface-mode-card" data-interface-option="1" aria-pressed="false" onclick="setInterfaceMode('1')"><strong>1 · Trang chủ</strong><small>Trang chủ rộng rãi, có lối tắt đến bài học, luyện tập và video.</small></button><button type="button" class="interface-mode-card" data-interface-option="2" aria-pressed="false" onclick="setInterfaceMode('2')"><strong>2 · Bong bóng ứng dụng</strong><small>Các nút bong bóng mở nhanh Part 1–3, video, luyện nói và bộ sưu tập như mẫu.</small></button></div><div class="interface-theme-row"><span>Chế độ màu</span><button type="button" class="theme-toggle" id="theme-mode-toggle" onclick="toggleTheme()" aria-label="Đổi chế độ sáng tối"></button></div></div></dialog>
+<dialog id="interface-picker" aria-labelledby="interface-picker-title"><div class="interface-picker-shell"><div class="theme-picker-heading"><div><span class="theme-picker-kicker">TAYLORFLOW · CÁ NHÂN HÓA</span><h2 id="interface-picker-title">Chọn giao diện</h2></div><button type="button" class="g theme-picker-close" onclick="closeInterfacePicker()" aria-label="Đóng">×</button></div><p class="theme-picker-intro">Chọn kiểu trang chủ phù hợp. Lựa chọn được lưu trên thiết bị này.</p><div class="interface-mode-grid"><button type="button" class="interface-mode-card" data-interface-option="1" aria-pressed="false" onclick="setInterfaceMode('1')"><strong>1 · Giao diện gốc</strong><small>Trang chủ rộng rãi, có lối tắt đến bài học, luyện tập và video.</small></button><button type="button" class="interface-mode-card" data-interface-option="2" aria-pressed="false" onclick="setInterfaceMode('2')"><strong>2 · Bong bóng ứng dụng</strong><small>Các nút bong bóng mở nhanh Part 1–3, video, luyện nói và bộ sưu tập như mẫu.</small></button></div><div class="interface-theme-row"><span>Chế độ màu</span><button type="button" class="theme-toggle" id="theme-mode-toggle" onclick="toggleTheme()" aria-label="Đổi chế độ sáng tối"></button></div></div></dialog>
 <dialog id="theme-picker" aria-labelledby="theme-picker-title"><div class="theme-picker-shell"><div class="theme-picker-heading"><div><span class="theme-picker-kicker">EPU IELTS SPEAKING</span><h2 id="theme-picker-title">Chủ đề giao diện</h2></div><button type="button" class="g theme-picker-close" onclick="closeThemePicker()" aria-label="Đóng">×</button></div><p class="theme-picker-intro">Chọn bảng màu lấy cảm hứng từ các chủ đề bài học. Lựa chọn được lưu trên thiết bị này.</p><div id="theme-options" class="theme-options"></div><section class="theme-premium-card" aria-labelledby="theme-premium-title"><div class="theme-premium-top"><span class="theme-premium-tag">MỞ TẠM ĐỂ HOÀN THIỆN</span><strong>Giá dự kiến: 10.000đ</strong></div><h3 id="theme-premium-title">Tự tạo chủ đề của bạn</h3><p>Tạo và lưu bảng màu riêng trong trình duyệt này. Hiện đang mở miễn phí để hoàn thiện tính năng; xác nhận MoMo sẽ được tích hợp sau.</p><div class="theme-premium-fields"><input id="theme-custom-name" type="text" maxlength="28" placeholder="Tên chủ đề riêng" aria-label="Tên chủ đề riêng"><input id="theme-custom-color" type="color" value="#426de0" aria-label="Màu nhấn riêng"></div><button type="button" class="theme-premium-button" onclick="addCustomTheme()">Thêm chủ đề của tôi</button><p id="theme-premium-status" class="theme-premium-status" role="status" aria-live="polite">Các chủ đề riêng chỉ lưu trên thiết bị này. Trong lúc thử nghiệm, mọi người dùng trang đều có thể tạo chủ đề.</p></section></div></dialog>
 <main id="m" tabindex="-1" aria-busy="true"><section class="app-startup" role="status" aria-live="polite"><div class="app-startup-card"><span class="app-startup-spinner" aria-hidden="true"></span><div><strong>Đang tải TaylorFlow…</strong><p>Đang chuẩn bị nội dung học. Bài học sẽ hiện tại đây sau giây lát.</p></div></div></section></main>
 <div id="nav-bubble" data-open="false">
@@ -2662,7 +2787,7 @@ D.push(...TOPIC_WORD_DATA);
 // Điểm IELTS ước tính từ bản chép lời
 
 const G=[/\bif\b/,/\b(which|who|where|that)\b/,/\b(have|has|had) (\w+ )?(been|\w+ed|done|gone|seen|made|taken)\b/,/\b(would|could|should|might|may|must)\b/,/\b(was|were|did|\w+ed)\b/,/\b(is|are|was|were|been) \w+ed\b/,/\b(will|going to)\b/,/\b(\w+er|more|less) (\w+ )?than\b/,/\b(because|although|though|while|when|since|unless)\b/];
-const SCORE_VERSION=17;
+const SCORE_VERSION=19;
 const SCORE_HISTORY_TEXT_KEY='taylorflow.score-history-text.v1';
 function scoreHistoryTexts(){try{const value=JSON.parse(localStorage.getItem(SCORE_HISTORY_TEXT_KEY)||'{}');return value&&typeof value==='object'&&!Array.isArray(value)?value:{}}catch{return {}}}
 function saveScoreHistoryText(id,data){
@@ -2704,7 +2829,12 @@ const RELEVANCE_CONCEPTS=[
  {id:'health',label:'sức khỏe',words:'health healthy illness exercise sleep stress doctor fitness'},
   {id:'sport',label:'thể thao',words:'sport football basketball swimming dance game exercise workout gym training fitness'},
  {id:'culture',label:'văn hóa/cộng đồng',words:'culture cultural tradition traditions heritage festival festivals arts art craft crafts community event events museum museums exhibition exhibitions exhibit exhibits collection collections artefact artifacts artefacts history historical archive archives'},
- {id:'hobby',label:'sở thích/giải trí',words:'hobby pastime leisure free weekend activity music song instrument book reading novel story film movie'},
+ {id:'books',label:'sách/đọc sách',words:'book books reading read novel novels fiction literature author authors'},
+ {id:'music',label:'âm nhạc',words:'music song songs instrument instruments guitar piano singing singer'},
+ {id:'film',label:'phim ảnh',words:'film films movie movies cinema series episode episodes'},
+ {id:'video',label:'video/nội dung số',words:'video videos clip clips channel channels podcast podcasts'},
+ {id:'media',label:'mạng xã hội/truyền thông',words:'media social platform platforms feed feeds algorithm algorithms recommendation recommendations content post posts creator creators messaging journalism journalist journalists news newspaper newspapers report reporting headline headlines article articles broadcast broadcasting'},
+  {id:'hobby',label:'sở thích/giải trí',words:'hobby hobbies pastime pastimes leisure activity activities'},
   {id:'change',label:'thay đổi/phát triển',words:'change changed changing develop development transform grow growth alter modify shift evolve adapt'},
   {id:'reduce',label:'giảm/tiết kiệm',words:'reduce reduction lower cut decrease minimize limit save economize lessen curb mitigate diminish shrink'},
   {id:'increase',label:'tăng/thúc đẩy/cải thiện',words:'increase raise boost expand promote improve improvement enhance strengthen upgrade better'},
@@ -2718,6 +2848,22 @@ const RELEVANCE_CONCEPTS=[
 const RELEVANCE_LEMMA=new Map();
 for(const concept of RELEVANCE_CONCEPTS)for(const word of concept.words.split(/\s+/)){if(!RELEVANCE_LEMMA.has(word))RELEVANCE_LEMMA.set(word,new Set());RELEVANCE_LEMMA.get(word).add(concept.id)}
 const RELEVANCE_SUPPORT={technology:['devices','study','work','change','help','people'],devices:['technology','study','work','people'],study:['technology','work','people','reason','change'],work:['technology','study','people','reason'],travel:['transport','experience','family','food','home','people'],transport:['travel','environment','energy','people'],environment:['climate','pollution','waste','energy','transport','protect','help','reduce','change'],pollution:['environment','waste','climate','protect','reduce'],waste:['environment','pollution','protect','reduce'],climate:['environment','energy','pollution','protect'],energy:['environment','climate','technology','reduce'],health:['sport','food','people','reason'],sport:['health','people','experience'],food:['health','family','experience','people'],hobby:['experience','people','health'],family:['people','experience','home'],home:['family','people','environment','culture'],experience:['travel','hobby','family','people','time','culture'],culture:['home','people','experience','study'],people:['family','work','study','health','experience','culture','opinion'],opinion:['people','experience','reason'],reason:['help','protect','improve','change','benefit']};
+const RELEVANCE_TOPIC_DOMAIN_IDS=new Set('technology devices study work travel transport environment pollution waste climate energy home clean weather family food health sport culture books music film video media hobby'.split(' '));
+const RELEVANCE_TOPIC_ALIASES=[
+ {id:'hobby',pattern:/sở thích|giải trí/i},{id:'travel',pattern:/du lịch|chuyến đi/i},{id:'home',pattern:/nhà ở|chỗ ở|nơi sống|quê hương/i},
+ {id:'books',pattern:/sách|đọc sách/i},{id:'music',pattern:/âm nhạc/i},{id:'film',pattern:/phim ảnh|điện ảnh/i},{id:'video',pattern:/video|podcast|nội dung số/i},{id:'media',pattern:/mạng xã hội|truyền thông/i},
+ {id:'sport',pattern:/thể thao|thể dục|vận động/i},{id:'technology',pattern:/công nghệ|kỹ thuật số|trí tuệ nhân tạo/i},{id:'devices',pattern:/thiết bị điện tử/i},
+ {id:'study',pattern:/học tập|giáo dục|đại học/i},{id:'work',pattern:/công việc|nghề nghiệp|sự nghiệp/i},{id:'family',pattern:/gia đình|bạn bè/i},
+ {id:'food',pattern:/ẩm thực|đồ ăn|nấu ăn/i},{id:'health',pattern:/sức khỏe|sức khoẻ/i},{id:'culture',pattern:/văn hóa|văn hoá|lịch sử|nghệ thuật/i},
+ {id:'transport',pattern:/giao thông|di chuyển|phương tiện công cộng/i},{id:'environment',pattern:/môi trường|thiên nhiên|sinh thái/i},
+ {id:'energy',pattern:/năng lượng|điện trong đời sống/i},{id:'weather',pattern:/thời tiết|khí hậu/i}
+];
+const RELEVANCE_TOPIC_SUPPORT={hobby:['books','music','film','video','sport','culture','food'],travel:['transport','food','culture','family','home'],transport:['travel','environment'],home:['family','culture','environment'],technology:['devices','study','work','video','media'],devices:['technology'],study:['technology','work'],work:['study'],family:['home','food','culture'],food:['health','culture','family'],health:['sport','food'],sport:['health','hobby'],culture:['books','music','film','travel','family'],books:['culture'],music:['culture'],film:['culture'],video:['technology','media'],media:['technology','devices','culture'],environment:['climate','pollution','waste','energy','transport'],energy:['environment','technology'],weather:['climate','environment']};
+function relevanceTopicDomains(topic){
+ const source=String(topic||''),ids=new Set([...relevanceConceptIds(source).ids].filter(id=>RELEVANCE_TOPIC_DOMAIN_IDS.has(id)));
+ for(const alias of RELEVANCE_TOPIC_ALIASES)if(alias.pattern.test(source))ids.add(alias.id);
+ return [...ids];
+}
 for(const [form,base] of Object.entries({protection:'protect',protective:'protect',protected:'protect',protects:'protect',preservation:'protect',conservation:'protect',conserve:'protect',conserving:'protect',environmental:'environment',ecosystems:'environment',nature:'environment',pollute:'pollution',polluted:'pollution',pollutants:'pollution',emissions:'pollution',recycling:'waste',recycled:'waste',recyclable:'waste',reuses:'waste',reusing:'waste',individuals:'people',citizens:'people',residents:'people',helps:'help',helping:'help',aids:'help',assists:'help',supports:'help',contributes:'help',improvement:'improve',improved:'improve',improving:'improve',reduction:'reduce',reducing:'reduce',reduced:'reduce',decreased:'reduce',lowering:'reduce',increases:'increase',increasing:'increase',changed:'change',changing:'change',developed:'change',developing:'change',transportation:'transport',commuting:'transport',devices:'devices',appliances:'devices',technology:'technology',studies:'study',studying:'study',jobs:'work',careers:'work',families:'family',children:'family',meals:'food',travelled:'travel',traveling:'travel',exercising:'health',hobbies:'hobby',memories:'experience',opinions:'opinion'})){
  const ids=RELEVANCE_LEMMA.get(base);if(ids){RELEVANCE_LEMMA.set(form,new Set(ids))}
 }
@@ -2743,12 +2889,13 @@ function analyzeAnswerRelevance(answer,question,topic='',options={}){
   const environmentalPrompt=/\b(environment|environmental|nature|natural|pollution|climate|wildlife|ecosystem|waste|recycl|carbon|emission|energy|forest|sustainab)\w*\b/i.test(prompt),answerInfo=relevanceConceptIds(answer,{environmentContext:environmentalPrompt}),answerText=' '+String(answer||'').toLowerCase().replace(/[^a-z]+/g,' ')+' ';
   const directIds=anchorIds.filter(id=>id.startsWith('term:')?answerText.includes(' '+id.slice(5)+' '):answerInfo.ids.has(id));
   const supportedIds=anchorIds.filter(id=>!directIds.includes(id)&&!id.startsWith('term:')&&(RELEVANCE_SUPPORT[id]||[]).some(related=>answerInfo.ids.has(related)));
-  const matchedIds=[...directIds,...supportedIds];
+  const matchedIds=[...directIds,...supportedIds],topicDomains=relevanceTopicDomains(topic),answerDomains=[...answerInfo.ids].filter(id=>RELEVANCE_TOPIC_DOMAIN_IDS.has(id)),matchedTopicDomains=topicDomains.filter(id=>answerDomains.includes(id)||(RELEVANCE_TOPIC_SUPPORT[id]||[]).some(related=>answerDomains.includes(related))),answerWordCount=(String(answer||'').match(/[a-z]+(?:['’][a-z]+)*/gi)||[]).length,topicMismatch=topicDomains.length>0&&matchedTopicDomains.length===0&&answerDomains.length>0&&answerWordCount>=35;
   const matched=matchedIds.map(id=>labels.get(id)||id.slice(5)),coverage=anchorIds.length?matchedIds.length/anchorIds.length:1;
    const policyQuestion=/\b(?:would you support|do you agree|is it important|is it necessary)\b/i.test(prompt)||/\b(?:should|ought to)\b/i.test(prompt)&&/\b(?:city|cities|government|school|public transport|companies|organisations|organizations|employers|workplace|infrastructure|investment|policy|public services|environment|tourism|heritage|media|healthcare)\b/i.test(prompt),policyStance=/\b(?:i think|i believe|in my opinion|i would argue|i would advocate|i would support|i agree|i disagree|should|shouldn't|must|need to|ought to|necessary|worth (?:the )?investment|good investment)\b/i.test(answer),policyAction=/\b(?:invest|fund|build|expand|improve|increase|reduce|redesign|restructure|subsidize|subsidise|add|provide|upgrade|prioritize|prioritise)\b/i.test(answer),policyTerms=/\b(?:invest(?:ment)?|fund(?:ing)?|budget|route|service|infrastructure|fare|ticket|reliable|frequency|commut(?:e|er|ing)|congestion|emission|accessibility|subsid\w*|expand|improve|reduce|benefit|cost|public transport|bus|train|metro|rail|cycling|pedestrian|working week|workload|hours|organisation|organization|sector|policy|school|curriculum|environment|tourism|heritage|museum|media|health)\b/i.test(answer),policyReason=/\b(?:because|therefore|as a result|which can|this can|helps? to|allows? .{0,30} to|only if|nevertheless|however|so that)\b/i.test(answer),policyMismatch=policyQuestion&&!policyStance&&!(policyAction&&policyTerms&&policyReason);
-  const status=policyMismatch||!matchedIds.length?'off-topic':coverage>=.5?'relevant':'partial';
+   const status=policyMismatch||topicMismatch||!matchedIds.length?'off-topic':coverage>=.5?'relevant':'partial';
  const penalty=status==='off-topic'?1:status==='partial'?Math.min(1,Math.max(.25,(.5-coverage)*2)):0;
-   return {checked:true,allowed:true,status,anchors,matched,missing:anchors.filter((_,index)=>!matchedIds.includes(anchorIds[index])),matchedIds,directMatched:directIds.map(id=>labels.get(id)||id.slice(5)),contextMatched:supportedIds.map(id=>labels.get(id)||id.slice(5)),coverage,policyMismatch,penalty};
+   const topicLabel=String(topic||'').trim(),answerDomainLabels=answerDomains.map(id=>labels.get(id)||id);
+   return {checked:true,allowed:true,status,anchors,matched,missing:anchors.filter((_,index)=>!matchedIds.includes(anchorIds[index])),matchedIds,directMatched:directIds.map(id=>labels.get(id)||id.slice(5)),contextMatched:supportedIds.map(id=>labels.get(id)||id.slice(5)),coverage,policyMismatch,topicMismatch,topicLabel,topicDomains,answerDomains,answerDomainLabels,matchedTopicDomains,penalty};
 }
 function answerScoringMessage(answer,question,topic=''){
  const language=analyzeAnswerLanguage(answer);if(!language.allowed)return answerLanguageMessage(language);
@@ -2850,21 +2997,21 @@ const SCORE_WORD_ALLOWLIST=new Set([
 ]);
 // Các mốc đơn điệu là quy tắc tĩnh theo mô tả công khai, chưa thay thế hiệu chuẩn bằng bài giáo viên chấm.
 const SCORE_MAPS={
- accuracy:[[0,3.5],[.35,4],[.5,5],[.68,6],[.82,7],[.93,8],[1,8.5]],
- complexity:[[0,4],[.12,4.5],[.25,5],[.45,6],[.68,7],[.86,8],[1,8.5]],
- errorRate:[[0,8.5],[.04,8],[.1,7],[.18,6],[.3,5],[.45,4],[.7,3.5]],
- lexicalDiversity:[[0,3.5],[.22,4],[.35,5],[.48,6],[.62,7],[.78,8],[.95,8.5]],
- lexicalLevel:[[.2,4],[.3,4.5],[.4,5.5],[.5,6.5],[.62,7.5],[.78,8.5]],
- collocations:[[0,4],[.25,4.5],[.6,5.5],[1,6.5],[1.6,7.5],[2.5,8.5]],
- curatedWords:[[0,4],[1,5],[2,6],[4,7],[6,8],[9,8.5]],
- conceptRange:[[0,4],[1,5],[2,6],[3,7],[5,8],[7,8.5]],
- connectors:[[0,4],[.2,4.5],[.45,5.5],[.7,6.5],[1,7.5],[1.4,8]],
- fillerRate:[[0,8],[.01,7.5],[.025,6.5],[.05,5],[.09,4],[.15,3.5]],
- repetition:[[0,8],[.15,7.5],[.3,6.5],[.42,5.5],[.55,4.5],[.7,3.5]],
- paceDistance:[[0,8],[18,7.5],[35,6.5],[55,5.5],[80,4.5],[120,3.5]],
- pauseRate:[[0,8],[1,7.5],[2,6.5],[3.5,5.5],[5,4.5],[8,3.5]],
- relevance:[[0,3.5],[.2,4.5],[.4,5.5],[.6,6.5],[.8,7.5],[1,8.5]],
- sequencing:[[0,4],[.15,4.5],[.3,5.5],[.5,6.5],[.7,7.5],[.9,8.5]]
+ accuracy:[[0,0],[.35,4],[.5,5],[.68,6],[.82,7],[.93,8],[1,8.5]],
+ complexity:[[0,0],[.12,4.5],[.25,5],[.45,6],[.68,7],[.86,8],[1,8.5]],
+ errorRate:[[0,8.5],[.04,8],[.1,7],[.18,6],[.3,5],[.45,4],[.7,0]],
+ lexicalDiversity:[[0,0],[.22,4],[.35,5],[.48,6],[.62,7],[.78,8],[.95,8.5]],
+ lexicalLevel:[[0,0],[.2,2],[.3,4.5],[.4,5.5],[.5,6.5],[.62,7.5],[.78,8.5]],
+ collocations:[[0,0],[.25,4.5],[.6,5.5],[1,6.5],[1.6,7.5],[2.5,8.5]],
+ curatedWords:[[0,0],[1,5],[2,6],[4,7],[6,8],[9,8.5]],
+ conceptRange:[[0,0],[1,5],[2,6],[3,7],[5,8],[7,8.5]],
+ connectors:[[0,0],[.2,4.5],[.45,5.5],[.7,6.5],[1,7.5],[1.4,8]],
+ fillerRate:[[0,8],[.01,7.5],[.025,6.5],[.05,5],[.09,4],[.15,0]],
+ repetition:[[0,8],[.15,7.5],[.3,6.5],[.42,5.5],[.55,4.5],[.7,0]],
+ paceDistance:[[0,8],[18,7.5],[35,6.5],[55,5.5],[80,4.5],[120,0]],
+ pauseRate:[[0,8],[1,7.5],[2,6.5],[3.5,5.5],[5,4.5],[8,0]],
+ relevance:[[0,0],[.2,4.5],[.4,5.5],[.6,6.5],[.8,7.5],[1,8.5]],
+ sequencing:[[0,0],[.15,4.5],[.3,5.5],[.5,6.5],[.7,7.5],[.9,8.5]]
 };
 function scoreMap(value,anchors){
  const x=Math.max(anchors[0][0],Math.min(anchors.at(-1)[0],Number(value)||0));
@@ -2887,11 +3034,11 @@ function scoreFluencyBand(metrics){
  if(Number.isFinite(metrics.pauseCount)&&Number.isFinite(metrics.duration)&&metrics.duration>0){
   features.pauseRate=metrics.pauseCount/(metrics.duration/60);values.push(scoreMap(features.pauseRate,SCORE_MAPS.pauseRate));
  }
- return half(Math.max(1,scoreMean(values)-(metrics.connectorPenalty||0)-(metrics.runOnPenalty||0)-(metrics.repetitionPenalty||0)));
+ return half(Math.max(0,scoreMean(values)-(metrics.connectorPenalty||0)-(metrics.runOnPenalty||0)-(metrics.repetitionPenalty||0)));
 }
 function refreshScoreTotals(s){
- const m=s.metrics||{};s.f=Math.min(m.ceilings?.f??8,Math.max(1,half(avg([scoreFluencyBand(m),m.coherenceBand].filter(Number.isFinite))-(m.relevancePenalty||0))));
- s.o=Math.min(m.overallCeiling??9,Math.max(1,half(avg([s.f,s.l,s.g,audioBand(s)].filter(Number.isFinite)))));return s;
+ const m=s.metrics||{};s.f=Math.min(m.ceilings?.f??8,Math.max(0,half(avg([scoreFluencyBand(m),m.coherenceBand].filter(Number.isFinite))-(m.relevancePenalty||0))));
+ s.o=Math.min(m.overallCeiling??9,Math.max(0,half(avg([s.f,s.l,s.g,audioBand(s)].filter(Number.isFinite)))));return s;
 }
 function grammarSuggestion(label,example){
  const value=String(example||'');
@@ -3128,7 +3275,7 @@ function score(t,p,d,question='',topic='',options={}){
    scoredEvidenceWarning=grammar.completeSentences===0&&!questionEcho?'Không nhận diện được câu hoàn chỉnh; Fluency tối đa 3.5 và Grammar tối đa 3.0.':evidence.warning||'';
  const answerConcepts=relevanceConceptIds(countedText,{environmentContext:/environment|nature|climate|pollution/i.test(String(question||'')+' '+String(topic||''))}).ids,
   curatedWordSet=new Set([...SCORE_TOPIC_TERMS.filter(term=>!term.includes(' ')),...SCORE_ADVANCED_SPEAKING_WORDS]),curatedWords=recognizedUnique.filter(word=>curatedWordSet.has(word)).length,collocationDensity=collocationHits.length/Math.max(1,counted/100),
-   lexicalBand=Math.max(1,half(scoreMean([scoreMap(mattr.value,SCORE_MAPS.lexicalDiversity),scoreMap(collocationDensity,SCORE_MAPS.collocations),scoreMap(curatedWords,SCORE_MAPS.curatedWords),scoreMap(answerConcepts.size,SCORE_MAPS.conceptRange)])*.55+scoreMap(lexicalLevel,SCORE_MAPS.lexicalLevel)*.45+Math.max(0,(scoreMap(lexicalLevel,SCORE_MAPS.lexicalLevel)-5.5)*.1)-collocationPenalty));
+   lexicalBand=Math.max(0,half(scoreMean([scoreMap(mattr.value,SCORE_MAPS.lexicalDiversity),scoreMap(collocationDensity,SCORE_MAPS.collocations),scoreMap(curatedWords,SCORE_MAPS.curatedWords),scoreMap(answerConcepts.size,SCORE_MAPS.conceptRange)])*.55+scoreMap(lexicalLevel,SCORE_MAPS.lexicalLevel)*.45+Math.max(0,(scoreMap(lexicalLevel,SCORE_MAPS.lexicalLevel)-5.5)*.1)-collocationPenalty));
  const connectorDensity=connectors.size/Math.max(1,counted),connectorPerSentence=connectors.size/Math.max(1,grammar.sentenceCount),
   connectorOveruse=connectorDensity>.14||connectorPerSentence>.85,runOnSentences=(countedText.match(/[^.!?;\n]{36,}/g)||[]).filter(sentence=>(sentence.match(/\b(?:and|but|so|because)\b/gi)||[]).length>=4).length,
    runOnPenalty=Math.min(1.2,runOnSentences*.4),repetitionPenalty=Math.min(.6,Math.max(0,repeatedRatio-.42)*1.2),connectorPenalty=connectorOveruse?Math.min(.8,Math.max(.25,(connectorDensity-.14)*5)):0,styleWarnings=[];
@@ -3149,7 +3296,7 @@ function score(t,p,d,question='',topic='',options={}){
     ['personal detail',/\b(?:when i was|last (?:year|week|month)|in my experience|i remember|for me)\b/i],
     ['contrast or qualification',/\b(?:however|nevertheless|although|even though|whereas|while|on the other hand|only if|at the same time|rather than)\b/i],
     ['evidence or condition',/\b(?:evidence|research|survey|if .{3,50} then|provided that|to some extent)\b/i]
-   ].filter(([,pattern])=>pattern.test(countedText)).map(([key])=>key),developmentBand=scoreMap(Math.min(5,developmentSignals.length),[[0,4],[1,5],[2,6],[3,7],[4,8],[5,8.5]]),transcriptTextOnly=duration==null&&!timing,coherenceBand=scoreMean([relevanceBand,transcriptTextOnly?Math.max(6,sequenceBand):sequenceBand,transcriptTextOnly?Math.max(6,developmentBand):developmentBand]),ceilings={f:8,l:8.5,g:8.5};
+   ].filter(([,pattern])=>pattern.test(countedText)).map(([key])=>key),developmentBand=scoreMap(Math.min(5,developmentSignals.length),[[0,0],[1,5],[2,6],[3,7],[4,8],[5,8.5]]),transcriptTextOnly=duration==null&&!timing,coherenceBand=scoreMean([relevanceBand,sequenceBand,developmentBand]),ceilings={f:8,l:8.5,g:8.5};
   const invalidResponse=questionEcho||relevance.policyMismatch,overallCeiling=Math.min(invalidResponse?4:relevance.checked&&relevance.status==='off-topic'?4.5:9,repeatedRatio>.4?4:9);
  if(n<8){ceilings.f=4.5;ceilings.l=4;ceilings.g=4.5}
  else if(p===2&&effectiveWords<30){ceilings.f=4.5;ceilings.l=4;ceilings.g=4.5}
@@ -3164,11 +3311,11 @@ function score(t,p,d,question='',topic='',options={}){
  if(grammar.completeSentences===0){ceilings.f=Math.min(ceilings.f,3.5);ceilings.g=Math.min(ceilings.g,3)}
  if(relevance.checked&&relevance.status==='off-topic')ceilings.f=Math.min(ceilings.f,4);
  const relevancePenalty=relevance.checked?Math.min(1,relevance.penalty||0):0,features={connectors:connectorBand,fillers:fillerBand,repetition:repetitionBand,runOn:runOnBand,pace:paceBand,pauseRate:null},
-  lexicalCeiling=ceilings.l,lexicalBase=Math.min(lexicalCeiling,Math.max(1,lexicalBand)),longRatio=words.filter(word=>word.length>6).length/n,countedLongRatio=counted?countedWords.filter(word=>word.length>6).length/counted:0,
+  lexicalCeiling=ceilings.l,lexicalBase=Math.min(lexicalCeiling,Math.max(0,lexicalBand)),longRatio=words.filter(word=>word.length>6).length/n,countedLongRatio=counted?countedWords.filter(word=>word.length>6).length/counted:0,
    metrics={part:p,target:Math.round(target),duration,questionEcho,englishRatio:Math.round(language.ratio*100),englishWords:language.english,vietnameseWords:language.vietnamese,effectiveWords,recognizedRatio:evidence.recognizedRatio,recognizedWords:evidence.recognizedWords,contentRecognizedWords:evidence.recognizedContentWords,evidenceStatus:scoredEvidenceStatus,evidenceWarning:scoredEvidenceWarning,dictionaryStatus:evidence.dictionaryStatus,keyboardSmash:evidence.keyboardSmash,overallCeiling,connectorCount:connectors.size,connectors:[...connectors],connectorDensity,longRatio,countedLongRatio,errors:grammar.findings.length,grammarPenalty,grammarFindings:grammar.findings,completeSentences:grammar.completeSentences,sentenceCount:grammar.sentenceCount,sentenceVariety:grammar.sentenceVariety,sentenceAccuracy,complexityRate,errorRate,repetitionRatio:repeatedRatio,fillers,fillerRatio,topicHits,collocationHits,advancedVocabHits,curatedWords,conceptCount:answerConcepts.size,collocationDensity,typeToken,relevance,relevancePenalty,fluencyBase:null,fluencyBand:null,coherenceBand,grammarBand,lexicalBand,features,runOnSentences,runOnPenalty,connectorPenalty,repetitionPenalty,styleWarnings,meanSentenceLength,formalMarkers,audioPausePenalty:0,pauseCount:timing?.pauseCount??null,spellingStatus:'pending',spellingChecked:0,spellingFindings:[],lexicalPenalty:0,lexicalBase,lexicalCeiling,ceilings,shortPart2Duration,shortPart2Length:p===2&&effectiveWords<150};
   Object.assign(metrics,{recognizedLexicalCount:recognizedContent.length,lexicalMattr:mattr.value,lexicalMattrRaw:mattr.raw,lexicalMattrWindow:mattr.window,lexicalLevel,levelCounts,advancedLevelHits,collocationFindings,collocationPenalty,spellingPenalty:0,lexicalPenalty:collocationPenalty,fluencySource:duration!=null||timing?'recording':'transcript',coherenceSignals:developmentSignals,coherenceSignalCount:developmentSignals.length,sequenceMarkers,developmentBand,sequenceBand});
  metrics.fluencyBand=scoreFluencyBand(metrics);metrics.fluencyBase=avg([metrics.fluencyBand,coherenceBand]);
- const s={f:Math.min(ceilings.f,Math.max(1,half(metrics.fluencyBase-relevancePenalty))),l:lexicalBase,g:Math.min(ceilings.g,Math.max(1,grammarBand)),p:null,n,r:wpm,scoreVersion:SCORE_VERSION,metrics};
+ const s={f:Math.min(ceilings.f,Math.max(0,half(metrics.fluencyBase-relevancePenalty))),l:lexicalBase,g:Math.min(ceilings.g,Math.max(0,grammarBand)),p:null,n,r:wpm,scoreVersion:SCORE_VERSION,metrics};
  refreshScoreTotals(s);SCORE_RESULT_CACHE.set(cacheKey,{source:cacheSource,value:copyScore(s)});if(SCORE_RESULT_CACHE.size>80)SCORE_RESULT_CACHE.delete(SCORE_RESULT_CACHE.keys().next().value);return s;
 }
 if(new URLSearchParams(location.search).has('score-calibration'))window.addEventListener('message',async event=>{
@@ -4158,7 +4305,7 @@ try{interfaceMode=localStorage.getItem(INTERFACE_MODE_KEY)==='2'?'2':'1'}catch{}
 document.documentElement.dataset.interfaceMode=interfaceMode;
 function updateInterfacePicker(){
  document.querySelectorAll('[data-interface-option]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.interfaceOption===interfaceMode)));
- const badge=$('#interface-current-mode'),toggle=$('#interface-toggle'),label=interfaceMode==='2'?'2 · Bong bóng':'1 · Trang chủ';
+ const badge=$('#interface-current-mode'),toggle=$('#interface-toggle'),label=interfaceMode==='2'?'2 · Bong bóng':'1 · Giao diện gốc';
  if(badge)badge.textContent=label;if(toggle)toggle.setAttribute('aria-label','Giao diện: '+label);
 }
 function openInterfacePicker(){updateInterfacePicker();const dialog=$('#interface-picker');if(dialog&&!dialog.open)dialog.showModal()}
@@ -4168,6 +4315,8 @@ function bubbleHomeIcon(name){
  const shapes={mic:'<rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3m-4 0h8"/>',book:'<path d="M3 5.5A2.5 2.5 0 0 1 5.5 3H11v17H5.5A2.5 2.5 0 0 0 3 22zM21 5.5A2.5 2.5 0 0 0 18.5 3H13v17h5.5a2.5 2.5 0 0 1 2.5 2z"/>',chip:'<rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 1v5m6-5v5M9 18v5m6-5v5M1 9h5m-5 6h5m12-6h5m-5 6h5M10 10h4v4h-4z"/>',bolt:'<path d="m13 2-9 12h7l-1 8 10-13h-7z"/>',video:'<rect x="3" y="5" width="18" height="14" rx="3"/><path d="m10 9 5 3-5 3z"/>',people:'<circle cx="9" cy="8" r="3"/><path d="M3 20v-1a6 6 0 0 1 12 0v1m1-9a3 3 0 1 0 0-6m2 9a5 5 0 0 1 3 5v1"/>',game:'<path d="M7 8h10a4 4 0 0 1 3.8 2.8l1 4a3 3 0 0 1-4.8 3l-2-1.6H9l-2 1.6a3 3 0 0 1-4.8-3l1-4A4 4 0 0 1 7 8z"/><path d="M8 11v4m-2-2h4m6-1h.01M18 14h.01"/>',words:'<path d="M4 5h16M4 10h16M4 15h10M4 20h10"/><circle cx="19" cy="15" r="2"/>',history:'<path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l3 2"/>',bookmark:'<path d="M6 3h12v18l-6-4-6 4z"/>'};
  return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${shapes[name]||shapes.book}</svg>`;
 }
+function openLearningPathMap(){pathView=null;pathFolderOpen=true;tab='les';openView()}
+function homeLearningPlan(){const setup=st.learningPath.setup,insight=adaptiveLearningInsight(),placement=readPlacement(),done=pathPercent();return `<section class="c home-learning-plan"><div class="home-learning-head"><div><p class="eyebrow">LỘ TRÌNH CỦA TÔI</p><h2>Học bước tiếp theo</h2></div><strong class="home-learning-progress">${done}%</strong></div><progress max="100" value="${done}" aria-label="Tiến độ lộ trình cá nhân"></progress><div class="home-learning-columns"><article class="home-learning-assessment"><h3>Kiểm tra trình độ</h3><p>8 câu ngắn về ngữ pháp và từ vựng. Kết hợp bài nói thử để ước lượng mức xuất phát.</p><details><summary>${placement?'Kết quả: '+placementBand(placement.score):'Làm bài đánh giá 8 câu'}</summary><div class="placement-content">${placementMarkup()}</div></details>${!setup.baseline?'<button type="button" class="g" onclick="resumePathSetup()">Làm bài nói thử đầu vào</button>':''}</article><article class="home-learning-coach"><h3>Điều chỉnh theo quá trình học</h3><p>${esc(insight.detail)}</p><strong>${esc(insight.focus)}</strong><small>Gợi ý dựa trên kết quả và các lượt học gần đây, được lưu trên thiết bị. Không dùng tuổi, giới tính hay nghề nghiệp để suy đoán.</small></article></div>${pathContinueButton()}</section>`}
 function homeBubbleTile(app){const click=app.record===false?app.action:`launchHomeApp('${app.id}',()=>{${app.action}})`;return `<button class="home-bubble-tile" type="button" data-tone="${app.tone}" onclick="${click}"><span class="home-bubble-badge">${app.badge}</span><span class="home-bubble-orb">${bubbleHomeIcon(app.icon)}</span><span class="home-bubble-copy"><strong>${app.title}</strong><small>${app.description}</small></span></button>`}
 function homeBubbleApps(){
  const m=band(),videoCount=ENGLISH_VIDEO_RESOURCES.length;
@@ -4195,7 +4344,7 @@ function homeRecentApps(apps,open=false){
 }
 function homeInterfaceTwo(){
  const m=band(),apps=homeBubbleApps();
- return `<div class="home-interface-two"><section class="bubble-home-hero"><div><span class="bubble-home-kicker">PHÒNG LUYỆN NÓI · LIQUID GLASS</span><h1>Luyện IELTS Speaking</h1><p>Chạm vào từng bong bóng để vào nhanh phần luyện hoặc bài học.</p></div><aside class="bubble-home-score"><div><small>ĐIỂM ƯỚC TÍNH</small><strong>${bandNumber(m?.o)}</strong></div><button type="button" onclick="document.getElementById('home-bubble-criteria')?.scrollIntoView({behavior:'smooth',block:'start'})">Xem 4 tiêu chí</button></aside></section><div class="home-bubbles-grid" aria-label="Lối tắt ứng dụng">${apps.map(homeBubbleTile).join('')}</div>${homeRecentApps(apps)}<section class="c criteria-card bubble-home-progress" id="home-bubble-criteria"><h2>Bốn tiêu chí bài nói</h2>${bars(m)}</section>${progressHome(m)}</div>`;
+ return `<div class="home-interface-two"><section class="bubble-home-hero"><div><span class="bubble-home-kicker">PHÒNG LUYỆN NÓI · LIQUID GLASS</span><h1>Luyện IELTS Speaking</h1><p>Chạm vào từng bong bóng để vào nhanh phần luyện hoặc bài học.</p></div><aside class="bubble-home-score"><div><small>ĐIỂM ƯỚC TÍNH</small><strong>${bandNumber(m?.o)}</strong></div><button type="button" onclick="document.getElementById('home-bubble-criteria')?.scrollIntoView({behavior:'smooth',block:'start'})">Xem 4 tiêu chí</button></aside></section><div class="home-bubbles-grid" aria-label="Lối tắt ứng dụng">${apps.map(homeBubbleTile).join('')}</div>${homeRecentApps(apps)}${homeLearningPlan()}<section class="c criteria-card bubble-home-progress" id="home-bubble-criteria"><h2>Bốn tiêu chí bài nói</h2>${bars(m)}</section>${progressHome(m)}</div>`;
 }
 
 const V={
@@ -4213,7 +4362,7 @@ const V={
   <div class="hero-actions"><button onclick="go('prac')">Bắt đầu luyện ${icon('arrow')}</button><button class="g" onclick="go('les')">Xem bài học</button></div></div>
   <div class="hero-score"><small>ĐIỂM ƯỚC TÍNH</small><div class="big">${bandNumber(m?.o)}</div><small>${m?'Trung bình '+m.n+' lượt gần nhất'+(m.legacy?' · dữ liệu theo nguồn điểm trước':''):'Chấm một câu để xem điểm'}</small></div></section></div>
   <div class="home-carousel-slide"><section class="hero home-video-hero"><div class="home-video-orbit" aria-hidden="true">▶</div><div class="hero-copy"><p class="eyebrow">VIDEO · LUYỆN NGHE VÀ NÓI</p><h1>Video học<br>tiếng Anh</h1><p>Chọn video theo cấp độ hoặc chủ đề, rồi luyện nghe và transcript ngay trong bài học.</p><div class="hero-actions"><button type="button" onclick="openEnglishStudy('videos')">Mở danh sách video →</button><button type="button" class="g" onclick="openEnglishPodcastLibrary()">English Podcast</button></div></div><div class="hero-score"><small>VIDEO TRONG THƯ VIỆN</small><div class="big">${ENGLISH_VIDEO_RESOURCES.length}</div><small>Podcast và video luyện nói</small></div></section></div></div><div class="home-carousel-controls" aria-label="Chuyển mục học"><button type="button" class="g home-carousel-arrow" aria-label="Mục trước" onclick="homeCarouselStep(-1)">‹</button><div class="home-carousel-dots"><button type="button" aria-label="Luyện IELTS Speaking" aria-current="true" onclick="homeCarouselGo(0)"></button><button type="button" aria-label="Video học tiếng Anh" aria-current="false" onclick="homeCarouselGo(1)"></button></div><button type="button" class="g home-carousel-arrow" aria-label="Mục tiếp theo" onclick="homeCarouselStep(1)">›</button></div></section>
-     ${pathContinueButton()}
+     ${homeLearningPlan()}
    <button class="g w quick-entry" type="button" onclick="openSpeakingCoop()">Học coop 2 người · Luyện cùng bạn</button>
   <button class="w quick-entry" type="button" onclick="startQuick()">Nói nhanh 60 giây · một câu ngẫu nhiên</button>
   <div class="pwa-install-box"><button type="button" class="g" id="pwa-install" onclick="addToHomeScreen()">${pwaButtonLabel()}</button><small id="pwa-status" role="status">${pwaStatusMessage()}</small></div>
@@ -5102,23 +5251,7 @@ async function transcribeEnglish(blob,signal,onStage,localOnly=false,returnDetai
   });
 }
 
-function whisperPanel(entry){
-  const state=entry.whisper,available=Boolean(lb||state?.text);
-  return '<section id="ai-whisper-container" class="pron-panel whisper-panel"><h3>AI Whisper</h3>'+
-    '<p>Whisper đã nhúng trong tệp; chỉ khởi tạo khi bạn bấm, không cần tải mạng.</p>'+
-    '<div class="row"><button class="g" onclick="runBrowserAIWhisper()"'+(available&&!state?.busy?'':' disabled')+'>Chạy AI Whisper</button>'+
-    (state?.busy?'<button class="g" onclick="cancelWhisperByUser()">Hủy chép lời</button>':'')+'</div>'+
-    '<p id="whisper-status" class="mu" role="status">'+esc(state?.message||(!available?'Cần một bản ghi để chép lời.':''))+'</p>'+'<progress id="whisper-progress" max="100" value="'+(state?.progress||0)+'" aria-label="Tiến độ Whisper"></progress><small class="model-first-use">Chỉ tải 1 lần: tài nguyên nhúng được giải nén và cache trong phiên.</small>'+
-    
-    '<div id="ai-whisper-res">'+(state?.open&&state.text?
-      '<div class="whisper-transcript"><p lang="en">'+esc(state.text)+'</p><div class="row">'+
-      '<button class="g" onclick="applyWhisperText()"'+(state.busy?' disabled':'')+'>'+(S?.result===entry?'Dùng bản này và cập nhật điểm':'Sử dụng bản chép lời này')+'</button>'+
-      (lb&&!state.busy?'<button class="g" onclick="runBrowserAIWhisper(false,true)">Chép lại bằng Whisper</button>':'')+'</div></div>':'')+'</div></section>';
-}
-function refreshWhisper(entry){
-  const box=$('#ai-whisper-container');
-  if(tab==='prac'&&pronunciationTarget()===entry&&box)box.outerHTML=whisperPanel(entry);
-}
+function refreshWhisper(){}
 function whisperStatus(entry,message){
   entry.whisper.message=message;
   if(tab!=='prac'||pronunciationTarget()!==entry)return;
@@ -5239,14 +5372,13 @@ async function applyWhisperText(){
   const result=$('#result-scores');
   result.innerHTML=scoreOverview(entry);
   animateBands(result);
-  refreshResultTranscriptEditor(entry);
 }
 
 // Ghi âm và hiển thị sóng âm
 
 let activeCapture = null;
 let prepTimer = 0;
-let playbackUrl = '';
+let playbackUrl = '', playbackBlob = null;
 
 function recordingMarkup() {
   const part = S?.it[S.i]?.p;
@@ -5330,6 +5462,7 @@ function releasePlayback() {
   }
   URL.revokeObjectURL(playbackUrl);
   playbackUrl = '';
+  playbackBlob = null;
 }
 
 function releaseStream(stream) {
@@ -5592,7 +5725,7 @@ function showAfter(blob, transcript = '', message = '') {
   if (!after) return;
   releasePlayback();
   lb = blob?.size ? blob : null;
-  if (lb) playbackUrl = URL.createObjectURL(lb);
+  if (lb) { playbackUrl = URL.createObjectURL(lb); playbackBlob = lb; }
   after.innerHTML = `<div class="recording-result">
     ${playbackUrl ? `<audio class="recording-playback" controls preload="metadata" src="${esc(playbackUrl)}" aria-label="Nghe lại bản ghi"></audio>` : ''}
     <label class="transcript-label" for="tx">Câu trả lời bằng tiếng Anh</label>
@@ -5605,7 +5738,7 @@ function showAfter(blob, transcript = '', message = '') {
   $('#tx').value = transcript;
   if(S){
     S.pronDraft=lb?{x:S.it[S.i],text:transcript.trim(),blob:lb}:null;
-    if(S.pronDraft)after.insertAdjacentHTML('beforeend',whisperPanel(S.pronDraft)+pronunciationPanel(S.pronDraft));
+    if(S.pronDraft)after.insertAdjacentHTML('beforeend',pronunciationPanel(S.pronDraft));
   }
   setRecordingUi('ready', message || (lb
     ? 'Nghe lại bản ghi và kiểm tra nội dung trước khi chấm điểm.'
@@ -7035,20 +7168,53 @@ function sess(){
  if(!x)return summary();
  maybeAutoThemeForTopic(x.t);
  const ti=TP.findIndex(([name])=>name===x.t);
+ const activePane=S.result?'results':(S.practicePane==='results'?'results':'recording');
+ const aids=x.pathChallenge?'<p class="mu">Đây là phần nói thử đầu vào, dùng để ước tính mức xuất phát cho lộ trình.</p>':x.pairPractice?'<p class="mu">Ghi âm khi đọc các cặp từ; bản chép lời và phần phân tích âm thanh sẽ giúp bạn tự đối chiếu cách phát âm.</p>':x.forecast?reviewForecastAid(x):x.campus3dSample?`<details><summary>Câu trả lời mẫu trong khuôn viên</summary><p lang="en">${esc(x.campus3dSample)}</p><button type="button" class="g" onclick="say(this.previousElementSibling.textContent)">Nghe mẫu</button></details>`:aid(x);
  return `<article class="c practice-card">
   <div class="session-meta"><span class="part-index">${x.pathChallenge?'BÀI NÓI THỬ ĐẦU VÀO':x.pairPractice?'LUYỆN CẶP ÂM':S.mode==='quick'?'NÓI NHANH 60 GIÂY':'PART 0'+x.p+' · CÂU '+(S.i+1)+'/'+S.it.length}</span>
  ${x.pathChallenge||x.pairPractice?'<span class="topic-badge">'+esc(x.t)+'</span>':x.forecast?'<span class="topic-badge">Forecast · '+esc(x.t)+'</span>':`<span class="topic-badge topic-${ti}">${icon(TOPIC_ICONS[ti]||'study','topic-icon')} ${esc(x.t)}</span>`}</div>
  <h1 lang="en"${x.forecast?' class="review-prompt"':''}>${esc(x.q)}</h1>
-  ${S.result||x.pathChallenge||x.pairPractice?'':ideaCoachMarkup()}
+ ${S.result||x.pathChallenge||x.pairPractice?'':ideaCoachMarkup()}
  ${S.mode==='quick'?'<p class="quick-timer" id="quick-timer" role="status" aria-live="polite">Đang mở micro…</p>':''}
  ${S.retake?'<aside class="retake-note" aria-live="polite"><p>Bạn đang thu lại câu này. Sau khi chấm, kết quả mới sẽ thay cho kết quả cũ.</p><button type="button" class="g" onclick="restorePreviousAnswer()">← Quay lại kết quả trước</button></aside>':''}
- ${S.result?'':`${x.p===2?'<button class="g" id="prep" onclick="prep()">Chuẩn bị 60 giây</button>':''}
- ${recordingMarkup()}`}
-  <div class="study-tools">${x.pathChallenge?'<p class="mu">Đây là phần nói thử đầu vào, dùng để ước tính mức xuất phát cho lộ trình.</p>':x.pairPractice?'<p class="mu">Ghi âm khi đọc các cặp từ; bản chép lời và phần phân tích âm thanh sẽ giúp bạn tự đối chiếu cách phát âm.</p>':x.forecast?reviewForecastAid(x):x.campus3dSample?`<details><summary>Câu trả lời mẫu trong khuôn viên</summary><p lang="en">${esc(x.campus3dSample)}</p><button type="button" class="g" onclick="say(this.previousElementSibling.textContent)">Nghe mẫu</button></details>`:aid(x)}</div><div id="after"></div>
- <section id="evaluation">${S.result?resultHTML(S.result):''}</section></article>
+ <div class="study-tools">${aids}</div>
+ <section class="practice-review" data-active-pane="${activePane}">
+  <div class="practice-tablist" role="tablist" aria-label="Khu vực luyện nói">
+   <button type="button" class="practice-tab" id="practice-recording-tab" role="tab" aria-controls="practice-recording-pane" aria-selected="${activePane==='recording'}" onclick="setPracticePane('recording')">🎙 Recording</button>
+   <button type="button" class="practice-tab" id="practice-results-tab" role="tab" aria-controls="practice-results-pane" aria-selected="${activePane==='results'}" onclick="setPracticePane('results')">▥ Results</button>
+  </div>
+  <div class="practice-tab-panel" id="practice-recording-pane" role="tabpanel" aria-labelledby="practice-recording-tab"${activePane==='recording'?'':' hidden'}>
+   ${S.result?recordingReviewMarkup(S.result):`${x.p===2?'<button class="g" id="prep" onclick="prep()">Chuẩn bị 60 giây</button>':''}${recordingMarkup()}`}
+   <div id="after"></div>
+  </div>
+  <div class="practice-tab-panel" id="practice-results-pane" role="tabpanel" aria-labelledby="practice-results-tab"${activePane==='results'?'':' hidden'}>
+   <section id="evaluation">${S.result?resultHTML(S.result):'<div class="practice-results-empty"><strong>Chưa có kết quả</strong><p>Ghi âm hoặc nhập câu trả lời rồi chấm điểm. Phản hồi sẽ hiện ở đây.</p></div>'}</section>
+  </div>
+ </section>
+ </article>
  <button class="g w" onclick="leavePractice()">Thoát bài luyện</button>`;
 }
-
+function recordingReviewMarkup(result){
+ const blob=result?.blob||null;
+ if(blob&&(!playbackUrl||playbackBlob!==blob)){releasePlayback();playbackUrl=URL.createObjectURL(blob);playbackBlob=blob}
+ const duration=Math.max(0,Math.floor(Number(result?.duration)||0));
+ const time=String(Math.floor(duration/60)).padStart(2,'0')+':'+String(duration%60).padStart(2,'0');
+ return `<section class="recording-review-card" aria-label="Your Recording">
+  <div class="recording-review-head"><strong>◖ Your Recording</strong><span>${blob?'00:00 / '+time:'Bản trả lời đã nhập'}</span></div>
+  ${blob&&playbackUrl?`<audio class="recording-playback" controls preload="metadata" src="${esc(playbackUrl)}" aria-label="Nghe lại bản ghi"></audio>`:'<p class="mu">Lượt này không có tệp ghi âm.</p>'}
+  <button type="button" class="g recording-again" onclick="retryCurrentAnswer()">↻ Record Again</button>
+ </section>
+ <section class="recording-review-transcript"><h3>Transcript</h3><p lang="en">${esc(result?.text||'Chưa có transcript.')}</p></section>
+ <p class="recording-review-note">Bản ghi và transcript đã được nộp. Mở Results để xem đánh giá.</p>`;
+}
+function setPracticePane(name){
+ const shell=$('.practice-review');if(!shell)return;
+ const active=name==='results'?'results':'recording';shell.dataset.activePane=active;
+ const recording=active==='recording';
+ $('#practice-recording-tab')?.setAttribute('aria-selected',String(recording));$('#practice-results-tab')?.setAttribute('aria-selected',String(!recording));
+ const recordingPane=$('#practice-recording-pane'),resultsPane=$('#practice-results-pane');
+ if(recordingPane)recordingPane.hidden=!recording;if(resultsPane)resultsPane.hidden=recording;if(S)S.practicePane=active;
+}
 function summary(){
  const m={};
  K.forEach(([k])=>m[k]=avg(S.res.map(r=>r[k])));
@@ -7060,7 +7226,7 @@ function summary(){
 function nextCue(){
  if(!S?.result)return;
  stopQuickClock();
- stopCelebration();stopPracticeMedia();S.result=null;S.i++;openView();
+ stopCelebration();stopPracticeMedia();S.result=null;S.practicePane='recording';S.i++;openView();
 }
 function leavePractice(){
  const returnToCampus=S?.mode==='campus3d';
@@ -7073,14 +7239,14 @@ function retryCurrentAnswer(){
  stopCelebration();
  const previous=S.result,previousAudio={blob:lb,duration:dur};
  cancel();
- S.retake=previous;S.retakeAudio=previousAudio;S.result=null;S.pronDraft=null;
+ S.retake=previous;S.retakeAudio=previousAudio;S.result=null;S.practicePane='recording';S.pronDraft=null;
  openView();
 }
 function rescoreIgnoringRelevance(){
  if(!S?.result||S.mode==='exam')return;
  const previous=S.result,audio={blob:previous.blob||null,duration:previous.duration||0};
  stopCelebration();cancel();
- S.retake=previous;S.retakeAudio=audio;S.result=null;S.pronDraft=null;S.ignoreRelevanceOnce=true;
+ S.retake=previous;S.retakeAudio=audio;S.result=null;S.practicePane='recording';S.pronDraft=null;S.ignoreRelevanceOnce=true;
  lb=audio.blob;dur=audio.duration;openView();
  showAfter(audio.blob,previous.text,'Đã bỏ qua kiểm tra chủ đề cho lượt chấm tiếp theo. Bạn vẫn có thể sửa transcript trước khi chấm.');
 }
@@ -7098,15 +7264,15 @@ async function ev(){
  const input=$('#tx'),out=$('#evaluation'),x=S?.it[S.i];
  if(!input||!out||!x||S.result||S.scoring)return;
   if(S.mode==='baseline'&&(!lb||dur<30)){
-   out.innerHTML='<p role="alert">Hãy ghi âm ít nhất 30 giây trước khi chấm mức xuất phát.</p>';return;
+   out.innerHTML='<p role="alert">Hãy ghi âm ít nhất 30 giây trước khi chấm mức xuất phát.</p>';setPracticePane('results');return;
  }
  const session=S,text=input.value.trim(),language=analyzeAnswerLanguage(text),ignoreRelevance=S.ignoreRelevanceOnce===true;
- if(!language.allowed){out.innerHTML='<p class="mu" role="alert">'+esc(answerLanguageMessage(language))+'</p>';input.focus();return}
+ if(!language.allowed){out.innerHTML='<p class="mu" role="alert">'+esc(answerLanguageMessage(language))+'</p>';setPracticePane('results');input.focus();return}
  const relevance=analyzeAnswerRelevance(text,x.q,x.t,{ignoreRelevance});
- if(text.length>3600){out.innerHTML='<p class="mu" role="alert">Câu trả lời tối đa 3.600 ký tự.</p>';input.focus();return}
+ if(text.length>3600){out.innerHTML='<p class="mu" role="alert">Câu trả lời tối đa 3.600 ký tự.</p>';setPracticePane('results');input.focus();return}
  S.ignoreRelevanceOnce=false;const previous=S.retake;let result=null;
  S.scoring=true;input.readOnly=true;const submit=$('#evaluate-answer');if(submit)submit.disabled=true;
- out.innerHTML='<p class="mu" role="status">Đang tính điểm cục bộ…</p>';
+ out.innerHTML='<p class="mu" role="status">Đang tính điểm cục bộ…</p>';setPracticePane('results');
  let s;
  const wordTimings=S.pronDraft?.whisper?.timestamps||S.pronDraft?.timestamps||[];
  try{s=await scoreWithDictionary(text,x.p,lb?dur:0,x.q,x.t,{ignoreRelevance,wordTimings,onUpdate:updated=>{if(result)applyDictionaryScoreUpdate(result,updated,previous)}})}catch{s=score(text,x.p,lb?dur:0,x.q,x.t,{ignoreRelevance,wordTimings});if(s){s.metrics.spellingStatus='unavailable';s.metrics.spellingChecked=0}}
@@ -7114,7 +7280,7 @@ async function ev(){
  S.scoring=false;input.readOnly=false;if(submit)submit.disabled=false;
  if(!s){
   out.innerHTML='<p class="mu" role="alert">'+esc(answerScoringMessage(text,x.q,x.t))+' Bạn có thể dùng mục Phát âm cho bản ghi ngắn.</p>';
-  input.focus();
+  setPracticePane('results');input.focus();
   return;
  }
  const confirmed=$('#pron-confirm')?.checked;
@@ -7123,6 +7289,7 @@ async function ev(){
  if(activePronunciation&&activePronunciation.result===S.pronDraft)activePronunciation.result=result;
  cancelTranscription();S.pronDraft=null;$('#free-pron')?.remove();$('#ai-whisper-container')?.remove();
  S.result=result;
+ S.practicePane='results';
  if(S.mode==='quick')stopQuickClock();
  const resultIndex=previous?S.res.indexOf(previous.s):-1;
  if(resultIndex>=0)S.res[resultIndex]=s;else S.res.push(s);
@@ -7151,6 +7318,8 @@ async function ev(){
  $('#after').querySelectorAll('button').forEach(button=>button.disabled=true);
  for(const id of ['#rb','#prep'])if($(id))$(id).disabled=true;
  out.innerHTML=resultHTML(result);
+ const recordingPane=$('#practice-recording-pane');if(recordingPane)recordingPane.innerHTML=recordingReviewMarkup(result);
+ setPracticePane('results');
  animateBands(out);
  $('#result-title')?.focus({preventScroll:true});
  $('#result-title')?.scrollIntoView({block:'nearest'});
@@ -7169,80 +7338,127 @@ const VOICE_STATE={
 };
 const voiceResult=result=>result.m?vhtml(result.m,result.s):
  `<h3>Phân tích giọng nói</h3><p class="mu" role="status">${VOICE_STATE[result.state]}</p>`;
-function resultHTML(result){
- return `<div id="result-scores">${scoreOverview(result)}</div>${result.quickMode?`<p class="quick-xp" id="quick-reward" role="status">${quickRewardText(result)}</p>`:''}
- <div id="result-guidance">${resultGuidance(result)}</div>
- ${resultTranscriptEditorMarkup(result)}
- <div id="learning-result" class="learning-result" aria-live="polite">${learningResultMarkup(result)}</div>
- <div id="vx">${voiceResult(result)}</div>${whisperPanel(result)}${pronunciationPanel(result)}<div id="ai"></div>
- ${pathResultControls(result)}
-  ${S?.mode==='exam'?'':'<button type="button" class="g w" aria-label="Ghi âm lại câu trả lời hiện tại" onclick="retryCurrentAnswer()">🎙 Ghi âm lại câu này</button>'}`;
+function resultGrammarMarkup(result){
+ const findings=(result?.s?.metrics?.grammarFindings||[]).filter(item=>item&&item.example);
+ const rows=findings.map(item=>{
+  const before=String(item.example||'').trim(),after=String(item.correction||item.suggestion||'').trim();
+  const hasReplacement=after&&after.toLowerCase()!==before.toLowerCase()&&!/[À-ỹ]/.test(after)&&after.length<=140;
+  const heading=hasReplacement?'<span class="results-before" lang="en">'+esc(before)+'</span><span class="results-arrow" aria-hidden="true">→</span><strong class="results-after" lang="en">'+esc(after)+'</strong>':'<strong>'+esc(item.label||'Mẫu ngữ pháp cần xem lại')+'</strong>';
+  return '<details class="results-analysis-item"><summary>'+heading+'</summary><p>'+esc(item.explanation||'Hãy xem lại cấu trúc này trong ngữ cảnh câu.')+'</p></details>';
+ }).join('');
+ const content=rows||'<p class="mu">Chưa phát hiện mẫu lỗi rõ bằng bộ quy tắc hiện tại. Kết quả này không thay thế việc rà soát ngữ pháp đầy đủ.</p>';
+ return '<details class="results-accordion"'+(findings.length?' open':'')+'><summary><span>Grammar Corrections</span><small>'+findings.length+' mẫu cần xem</small></summary><div class="results-accordion-body"><div class="results-analysis-list">'+content+'</div></div></details>';
 }
-
-function resultTranscriptEditorMarkup(result){
- const editing=result.transcriptEditing===true,saving=result.transcriptSaving===true;
- const status=result.transcriptError?`<p class="transcript-editor-status" role="alert">${esc(result.transcriptError)}</p>`:result.transcriptMessage?`<p class="transcript-editor-status" role="status">${esc(result.transcriptMessage)}</p>`:'';
- return `<section class="result-feedback transcript-editor" id="result-transcript-editor" aria-labelledby="result-transcript-title"><h3 id="result-transcript-title">Sửa transcript · Part ${result.x.p}</h3><p class="mu">${editing?'Chỉnh những từ được chép sai để khớp với điều bạn đã nói. Điểm ngôn ngữ sẽ được tính lại sau khi lưu.':'Kiểm tra bản chép lời của câu trả lời và sửa lại nếu Whisper hoặc phần nhập liệu nhận sai.'}</p>${editing?`<form class="transcript-editor-form" onsubmit="saveResultTranscript(event)"><label for="result-transcript-draft">Transcript tiếng Anh</label><textarea id="result-transcript-draft" lang="en" maxlength="3600" aria-describedby="result-transcript-note" oninput="if(S?.result)S.result.transcriptDraft=this.value">${esc(result.transcriptDraft??result.text)}</textarea><small id="result-transcript-note" class="mu">Chỉ chỉnh transcript theo nội dung đã nói; thao tác này không thay đổi bản ghi âm.</small>${status}<div class="transcript-editor-actions"><button type="submit"${saving?' disabled':''}>${saving?'Đang chấm lại…':'Lưu transcript và chấm lại'}</button><button class="g" type="button" onclick="cancelResultTranscriptEdit()"${saving?' disabled':''}>Hủy</button></div></form>`:`<p class="transcript-editor-preview" lang="en">${esc(result.text)}</p>${status}<button class="g" type="button" onclick="beginResultTranscriptEdit()">Sửa transcript</button>`}</section>`;
+function resultVocabularyMarkup(result){
+ const m=result?.s?.metrics||{},collocationErrors=Array.isArray(m.collocationFindings)?m.collocationFindings:[];
+ const collocations=[...new Set([...(m.collocationHits||[]),...collocationErrors.map(item=>item.phrase)].filter(Boolean))];
+ const usefulWords=[...new Set([...(m.advancedVocabHits||[]),...(m.topicHits||[])].filter(Boolean))].slice(0,14);
+ const connectors=[...new Set((m.connectors||[]).filter(Boolean))];
+ const groups=[];
+ if(usefulWords.length)groups.push('<div class="results-chip-group"><strong>Từ vựng được nhận diện trong câu</strong><div class="results-chips">'+usefulWords.map(word=>'<span class="results-chip" lang="en">'+esc(word)+'</span>').join('')+'</div></div>');
+ if(connectors.length)groups.push('<div class="results-chip-group"><strong>Từ nối đã dùng</strong><div class="results-chips">'+connectors.map(word=>'<span class="results-chip" lang="en">'+esc(word)+'</span>').join('')+'</div></div>');
+ if(collocations.length)groups.push('<div class="results-chip-group"><strong>Cụm từ và kết hợp từ</strong><div class="results-chips">'+collocations.map(word=>'<span class="results-chip" lang="en">'+esc(word)+'</span>').join('')+'</div></div>');
+ const signalLabels={reason:'Nêu lý do',example:'Đưa ví dụ',sequence:'Sắp xếp ý',result:'Nêu kết quả',viewpoint:'Thể hiện quan điểm','personal detail':'Thêm trải nghiệm cá nhân','contrast or qualification':'Nêu tương phản hoặc giới hạn','evidence or condition':'Đưa điều kiện hoặc dẫn chứng'};
+ const signals=[...new Set((m.coherenceSignals||[]).map(key=>signalLabels[key]||key))];
+ if(signals.length)groups.push('<div class="results-chip-group"><strong>Dấu hiệu triển khai ý</strong><div class="results-chips">'+signals.map(label=>'<span class="results-chip">'+esc(label)+'</span>').join('')+'</div></div>');
+ const corrections=collocationErrors.map(item=>'<details class="results-analysis-item"><summary><span class="results-before" lang="en">'+esc(item.phrase)+'</span><span class="results-arrow" aria-hidden="true">→</span><strong class="results-after" lang="en">'+esc(item.correct)+'</strong></summary><p>Cụm thay thế được đề xuất theo danh sách kết hợp từ cục bộ.</p></details>').join('');
+ const fallback=groups.length?'<div class="results-chip-groups">'+groups.join('')+'</div>':'<p class="mu">Chưa có từ vựng hoặc dấu hiệu liên kết cụ thể được nhận diện trong lượt này.</p>';
+ return '<details class="results-accordion"><summary><span>Vocabulary &amp; Coherence</span><small>'+usefulWords.length+' từ nổi bật · '+connectors.length+' từ nối</small></summary><div class="results-accordion-body">'+fallback+(corrections?'<h4>Cụm từ nên xem lại</h4><div class="results-analysis-list">'+corrections+'</div>':'')+'<p class="results-improved-note">Đây là các dấu hiệu được nhận diện trong câu, không phải đánh giá tự động rằng mọi cách dùng đều hoàn toàn phù hợp.</p></div></details>';
 }
-
-function refreshResultTranscriptEditor(result){
- const current=$('#result-transcript-editor');
- if(current&&S?.result===result)current.outerHTML=resultTranscriptEditorMarkup(result);
-}
-
-function beginResultTranscriptEdit(){
- const result=S?.result;if(!result)return;
- result.transcriptEditing=true;result.transcriptDraft=result.text;result.transcriptError='';result.transcriptMessage='';
- refreshResultTranscriptEditor(result);
- $('#result-transcript-draft')?.focus();
-}
-
-function cancelResultTranscriptEdit(){
- const result=S?.result;if(!result)return;
- result.transcriptEditing=false;result.transcriptDraft=result.text;result.transcriptError='';
- refreshResultTranscriptEditor(result);
-}
-
-async function saveResultTranscript(event){
- event.preventDefault();
- const result=S?.result;if(!result||result.transcriptSaving)return;
- const text=String($('#result-transcript-draft')?.value??result.transcriptDraft??'').trim();
- if(text.length>3600){result.transcriptError='Transcript tối đa 3.600 ký tự.';refreshResultTranscriptEditor(result);return}
- const language=analyzeAnswerLanguage(text);
- if(!language.allowed){result.transcriptError=answerLanguageMessage(language);refreshResultTranscriptEditor(result);return}
- if(text===result.text){result.transcriptEditing=false;result.transcriptMessage='Transcript không thay đổi.';refreshResultTranscriptEditor(result);return}
- result.transcriptDraft=text;result.transcriptError='';result.transcriptMessage='';result.transcriptSaving=true;refreshResultTranscriptEditor(result);
- const ignoreRelevance=result.s?.metrics?.relevance?.status==='skipped-by-user';
- let revised;
- try{
-  revised=await scoreWithDictionary(text,result.x.p,result.blob?result.duration:0,result.x.q,result.x.t,{ignoreRelevance,onUpdate:updated=>applyDictionaryScoreUpdate(result,updated)});
- }catch{
-  revised=score(text,result.x.p,result.blob?result.duration:0,result.x.q,result.x.t,{ignoreRelevance});
-  if(revised){revised.metrics.spellingStatus='unavailable';revised.metrics.spellingChecked=0}
+function resultCorrectionText(result){
+ let text=String(result?.text||''),changes=0;const seen=new Set(),m=result?.s?.metrics||{};
+ const pairs=[...(m.grammarFindings||[]).map(item=>({before:item.example,after:item.correction||item.suggestion})),...(m.collocationFindings||[]).map(item=>({before:item.phrase,after:item.correct}))];
+ for(const pair of pairs){
+  const before=String(pair.before||'').trim(),after=String(pair.after||'').trim(),key=before.toLowerCase()+'|'+after.toLowerCase();
+  if(!before||!after||before.toLowerCase()===after.toLowerCase()||seen.has(key)||/[À-ỹ]/.test(after)||after.length>140)continue;
+  seen.add(key);
+  const pattern=before.split(/\s+/).map(part=>part.replace(/[.*+?^$()|[\]\\]/g,'\\$&')).join('\\s+');
+  let changed=false;
+  text=text.replace(new RegExp('\\b'+pattern+'\\b','i'),match=>{
+   const replacement=/^[A-Z]/.test(match)?after.charAt(0).toUpperCase()+after.slice(1):after;
+   changed=true;return replacement;
+  });
+  if(changed&&++changes>=10)break;
  }
- if(S?.result!==result)return;
- result.transcriptSaving=false;
- if(!revised){result.transcriptError=answerScoringMessage(text,result.x.q,result.x.t);refreshResultTranscriptEditor(result);return}
- const pronunciation=result.blob&&result.duration>3&&result.pron?.assessment?.reference===text?result.pron.assessment.band:null;
- Object.assign(result.s,revised,{p:pronunciation});
- if(pronunciation==null){delete result.s.pronBasis;if(result.history)delete result.history.pronBasis;if(result.pron?.assessment&&result.pron.assessment.reference!==text)result.pron.assessment=null}
- else result.s.pronBasis='acoustic-v1';
- if(result.pron){result.pron.reference=text;if(result.pron.checks?.self&&result.pron.checks.self.reference!==text)delete result.pron.checks.self}
-  result.text=text;saveScoreHistoryText(result.history?.id,{text,question:result.x.q,part:result.x.p,topic:result.x.t});
- if(result.whisper){result.whisper.text=text;result.whisper.timestamps=[];result.whisper.message='Transcript đã được người học chỉnh sửa.'}
- result.transcriptEditing=false;result.transcriptDraft=text;result.transcriptError='';result.transcriptMessage='Đã lưu transcript và tính lại điểm ngôn ngữ. Hãy chấm lại phần phát âm nếu cần.';
- result.s.o=practiceBand(result.s);
- if(result.history)Object.assign(result.history,{f:result.s.f,l:result.s.l,g:result.s.g,p:pronunciation,o:result.s.o,scoreVersion:SCORE_VERSION,updated:Date.now()});
- applyPronunciationBand(result);
- refreshResultComparison(result);
- if(result.history){const index=st.h.findIndex(row=>row.id===result.history.id);if(index>=0)st.h[index]=result.history}
- sv();
- const scores=$('#result-scores');if(scores){scores.innerHTML=scoreOverview(result);animateBands(scores)}
- const guidance=$('#result-guidance');if(guidance)guidance.innerHTML=resultGuidance(result);
- refreshResultTranscriptEditor(result);
- if(result.comparison?.celebrate&&!result.celebrated){result.celebrated=true;prepareLearningAudio();celebrateResult()}
+ return {text,changes};
 }
-
+let resultRewriteRequest=0;
+async function improveResultAnswer(){
+ const result=S?.result,button=$('#improved-answer-ai'),answer=$('#improved-answer-content'),status=$('#improved-answer-status');
+ if(!result||!button||!answer||!status)return;
+ const request=++resultRewriteRequest;button.disabled=true;status.textContent='Đang chuẩn bị bản cải thiện…';
+ try{
+  if(typeof window.claude?.use!=='function')throw Error('unavailable');
+  const service=await window.claude.use('sample');
+  if(typeof service!=='function')throw Error('unavailable');
+  const prompt='Rewrite this IELTS Speaking answer into natural, clear spoken English. Preserve the speaker’s meaning, point of view, personal facts, and level of certainty. Do not add events, names, opinions, or details that are not in the original. Correct grammar and improve word choice and flow without making it sound like an essay. Return only JSON with one string field named answer. Keep the response under 3600 characters.'+
+   '\nQuestion: '+String(result.x?.q||'').slice(0,600)+
+   '\nOriginal answer: '+String(result.text||'').slice(0,3600);
+  const response=await Promise.race([service(prompt,{modelTier:'default',cache:false}),new Promise((_,reject)=>setTimeout(()=>reject(Object.assign(Error('timeout'),{code:'timeout'})),30000))]);
+  if(request!==resultRewriteRequest||result!==S?.result||!answer.isConnected)return;
+  const raw=String(response?.text||'').trim(),match=raw.match(/\{[\s\S]*\}/);
+  let improved='';
+  if(match){const parsed=JSON.parse(match[0]);if(typeof parsed.answer==='string')improved=parsed.answer.trim()}
+  if(!improved&&raw.length<=3600&&!raw.startsWith(String.fromCharCode(96).repeat(3)))improved=raw;
+  if(!improved||improved.length>3600)throw Error('invalid_response');
+  answer.textContent=improved;
+  status.textContent='Bản AI gợi ý đã tạo. Hãy đọc lại để xác nhận nội dung vẫn đúng với ý bạn.';
+ }catch(error){
+  if(request===resultRewriteRequest&&status.isConnected)status.textContent=error?.code==='timeout'?'AI phản hồi quá lâu. Bản gợi ý cục bộ vẫn ở trên.':'Dịch vụ AI chưa sẵn sàng hoặc chưa trả được bản viết lại. Bản gợi ý cục bộ vẫn ở trên.';
+ }finally{
+  if(request===resultRewriteRequest&&button.isConnected)button.disabled=false;
+ }
+}
+function resultImprovedAnswerMarkup(result){
+ const improved=resultCorrectionText(result),hasChanges=improved.changes>0;
+ return '<details class="results-accordion" open><summary><span>Improved Answer</span><small>'+(hasChanges?'Đã áp dụng '+improved.changes+' gợi ý':'Giữ nguyên nội dung')+'</small></summary><div class="results-accordion-body"><p class="results-improved-answer" id="improved-answer-content" lang="en">'+esc(improved.text||'Chưa có transcript để hiển thị.')+'</p><p class="results-improved-note">'+(hasChanges?'Bản gợi ý cục bộ chỉ áp dụng các thay thế đã được đánh dấu; transcript gốc không bị thay đổi.':'Chưa có thay thế cục bộ đủ chắc chắn. Nội dung được giữ nguyên để tránh tự ý đổi nghĩa.')+'</p><button type="button" class="g" id="improved-answer-ai" onclick="void improveResultAnswer()">Tạo bản cải thiện</button><p class="results-improved-note">Chỉ khi bấm nút, câu hỏi và transcript mới được gửi tới dịch vụ AI đang kết nối.</p><p class="results-improved-note" id="improved-answer-status" role="status" aria-live="polite"></p></div></details>';
+}
+function resultPronunciationMarkup(result){
+ const state=result?.pron,check=state?.checks?.[state?.mode],hasReport=Boolean(check?.report?.feedback?.length);
+ return '<details class="results-accordion results-pronunciation"'+(hasReport||result.blob?' open':'')+'><summary><span>Word Pronunciation Analysis</span><small>'+(hasReport?'Chạm từ có màu để xem IPA':'Đối chiếu phát âm từ bản ghi')+'</small></summary>'+pronunciationPanel(result)+'</details>';
+}
+function resultAnalysisMarkup(result){
+ return '<div class="results-analysis-stack">'+resultGrammarMarkup(result)+resultVocabularyMarkup(result)+resultImprovedAnswerMarkup(result)+'</div>';
+}
+function resultHTML(result){
+ return '<div id="result-scores">'+scoreOverview(result)+'</div>'+(result.quickMode?'<p class="quick-xp" id="quick-reward" role="status">'+quickRewardText(result)+'</p>':'')+
+  resultPronunciationMarkup(result)+resultAnalysisMarkup(result)+
+  '<div id="learning-result" class="learning-result" aria-live="polite">'+learningResultMarkup(result)+'</div>'+
+  '<div id="vx">'+voiceResult(result)+'</div><div id="ai"></div>'+pathResultControls(result);
+}
+function wordIpaDialogMarkup(){
+ return '<dialog class="word-ipa-modal" id="word-ipa-modal" aria-labelledby="word-ipa-title" onclick="if(event.target===this)this.close()">'+
+  '<div class="word-ipa-head"><span class="word-ipa-icon" aria-hidden="true">A</span><div><small>PHÁT ÂM · IPA</small><h3 id="word-ipa-title">Word Pronunciation</h3></div><button type="button" class="word-ipa-close" aria-label="Đóng" onclick="closeWordIpaModal()">×</button></div>'+
+  '<div class="word-ipa-pronunciation"><strong id="word-ipa-term"></strong><p id="word-ipa-transcription" aria-live="polite">Đang chuẩn bị phiên âm…</p></div>'+
+  '<div class="word-ipa-actions"><button type="button" class="g" onclick="playWordIpaModel()">🔊 Nghe cách đọc mẫu</button><button type="button" class="g" onclick="playWordIpaRecording()">🎙 Nghe giọng tôi</button></div>'+
+  '<h4>Phoneme Breakdown · Tách âm vị</h4><div class="word-ipa-phones" id="word-ipa-phones"></div><p class="word-ipa-note" id="word-ipa-status" role="status">Điểm từng âm là mức khớp ước tính từ bản ghi.</p></dialog>';
+}
+function closeWordIpaModal(){const dialog=$('#word-ipa-modal');if(dialog?.open)dialog.close()}
+function ipaFromDictionary(raw){
+ const variant=String(raw||'').split('|')[0].trim();if(!variant)return '';
+ const extended={...ARPA_IPA,AX:'ə',AXR:'ɚ',DX:'ɾ',EL:'əl',EM:'əm',EN:'ən'};
+ const ipa=variant.split(/\s+/).map(token=>extended[token.replace(/[0-9]/g,'')]).filter(Boolean).join('');
+ return ipa?'/'+ipa+'/':'';
+}
+function pronunciationTone(word){
+ if(word?.unknown)return 'unknown';
+ const sounds=Array.isArray(word?.sounds)?word.sounds:[];if(!sounds.length)return 'unknown';
+ const accuracy=sounds.reduce((sum,sound)=>sum+(sound.actual?Number(sound.credit)||0:0),0)/sounds.length;
+ return accuracy>=.78?'match':accuracy>=.45?'review':'incorrect';
+}
+function pronunciationTranscript(report){
+ const feedback=report?.feedback||[];let index=0;const target=pronunciationTarget(),state=target?.pron,reference=state?.checks?.[state.mode]?.reference||state?.reference||target?.text||'',text=String(reference);if(!text||!feedback.length)return '';
+ const marked=text.replace(WORD_PATTERN,token=>{const current=index++,word=feedback[current];return '<button type="button" class="pron-inline-word pron-'+pronunciationTone(word)+'" lang="en" aria-label="Xem phát âm của '+esc(token)+'" onclick="openPronunciationWord('+current+')">'+esc(token)+'</button>'});
+ return '<div class="pron-word-transcript" aria-label="Bản chép lời phân tích phát âm">'+marked+'</div><p class="mu"><small>Chạm từ có màu để xem IPA, nghe cách đọc và đối chiếu âm vị.</small></p>';
+}
+function openPronunciationWord(index){
+ const target=pronunciationTarget(),state=target?.pron,check=state?.checks?.[state.mode],word=check?.report?.feedback?.[index],dialog=$('#word-ipa-modal');if(!word||!dialog)return;
+ dialog.dataset.wordIndex=String(index);$('#word-ipa-term').textContent=word.text;$('#word-ipa-transcription').textContent='Đang tải IPA tham khảo…';$('#word-ipa-status').textContent='Độ khớp từng âm là ước tính từ đối chiếu bản ghi.';
+ $('#word-ipa-phones').innerHTML=(word.sounds||[]).map(sound=>{const pct=sound.actual?Math.round((Number(sound.credit)||0)*100):null,tone=pct==null?'is-missed':pct>=78?'':'is-weak',actual=sound.actual?.ipa||'chưa nhận diện';return '<div class="word-ipa-phone '+tone+'"><strong>/'+esc(sound.expected?.ipa||'?')+'/</strong><small>Nghe: /'+esc(actual)+'/</small><b>'+(pct==null?'—':pct+'%')+'</b></div>'}).join('')||'<p class="mu">Chưa có dữ liệu tách âm vị.</p>';
+ if(!dialog.open)dialog.showModal();void phoneDictionary().then(dict=>{if(dialog.open&&dialog.dataset.wordIndex===String(index)){const ipa=ipaFromDictionary(dict.get(word.text.toLowerCase().replace(/’/g,"'")));$('#word-ipa-transcription').textContent=ipa||'Chưa có IPA ngoại tuyến cho từ này.'}}).catch(()=>{if(dialog.open&&dialog.dataset.wordIndex===String(index))$('#word-ipa-transcription').textContent='Chưa tải được IPA ngoại tuyến cho từ này.'});
+}
+function playWordIpaModel(){const dialog=$('#word-ipa-modal'),index=Number(dialog?.dataset.wordIndex),target=pronunciationTarget(),state=target?.pron,word=state?.checks?.[state.mode]?.report?.feedback?.[index];if(!word)return;$('#word-ipa-status').textContent='Đang phát cách đọc mẫu cho “'+word.text+'”.';say(word.text,.85)}
+function playWordIpaRecording(){const dialog=$('#word-ipa-modal'),index=Number(dialog?.dataset.wordIndex),target=pronunciationTarget(),state=target?.pron,check=state?.checks?.[state.mode],word=check?.report?.feedback?.[index];if(!target||!word)return;const reference=check?.reference||state.reference||target.text||'',count=(reference.match(WORD_PATTERN)||[]).length||check.report.feedback.length||1;$('#word-ipa-status').textContent='Đang tìm đoạn ghi âm cho “'+word.text+'”…';void playPronunciationWordClip(target,state,word,index,count).then(length=>{if(dialog.open)$('#word-ipa-status').textContent=length?'Đang phát giọng bạn đọc từ “'+word.text+'”.':'Không tìm thấy đoạn ghi âm tương ứng trong bản ghi này.'})}
 async function diagnose(result,blob,previous){
  if(blob){
   const submittedAt=result.history.updated,controller=new AbortController();
@@ -7319,7 +7535,7 @@ Transcript: ${String(text||'').slice(0,3600)}
   for(const key of keys){
    if(key==='p'&&local.p==null){ai.p=null;continue}
    const value=Number(parsed[key]);if(!Number.isFinite(value)||value<0||value>9)throw Error('invalid_score');
-   const cap=key==='p'?9:(m?.ceilings?.[key]??9);ai[key]=Math.max(1,Math.min(cap,Math.round(Math.max(local[key]-1,Math.min(local[key]+1,value))*2)/2));
+   const cap=key==='p'?9:(m?.ceilings?.[key]??9);ai[key]=Math.max(0,Math.min(cap,Math.round(Math.max(local[key]-1,Math.min(local[key]+1,value))*2)/2));
   }
   ai.o=Math.min(m?.overallCeiling??9,half(avg([ai.f,ai.l,ai.g,ai.p].filter(Number.isFinite))));ai.why={};
   for(const key of keys)ai.why[key]=String(parsed.why?.[key]||'Chưa có nhận xét cụ thể.').slice(0,180);
@@ -8202,15 +8418,10 @@ async function measurePronunciation(){
 }
 function pronunciationReport(report,grade,mode,placeholder){
   const items=(report?.feedback||[]).map((word,i)=>{
-    const changed=word.sounds.filter(sound=>!sound.match);
-    const finals=changed.filter(sound=>sound.final);
-    const focus=finals.length?finals:changed;
-    const explanation=word.unknown?'Thiếu mục từ':!changed.length?'Khớp mẫu':focus.slice(0,3).map(sound=>{
-      if(sound.actual?.evidence>=.38)return 'Mẫu /'+sound.expected+'/ · nghe gần /'+sound.actual.ipa+'/';
-      return 'Chưa nghe rõ /'+sound.expected+'/';
-    }).join(' · ');
-    return '<article class="pron-word '+(word.unknown?'pron-unknown':changed.length?'pron-review':'pron-match')+'">'+
-      '<strong lang="en">'+esc(word.text)+'</strong><small>'+esc(explanation)+'</small><div class="pron-word-actions">'+
+    const changed=word.sounds.filter(sound=>!sound.match),finals=changed.filter(sound=>sound.final),focus=finals.length?finals:changed;
+    const explanation=word.unknown?'Thiếu mục từ':!changed.length?'Khớp mẫu':focus.slice(0,3).map(sound=>sound.actual?.evidence>=.38?'Mẫu /'+sound.expected+'/ · nghe gần /'+sound.actual.ipa+'/':'Chưa nghe rõ /'+sound.expected+'/').join(' · ');
+    const tone=pronunciationTone(word);
+    return '<article class="pron-word pron-'+tone+'"><button type="button" class="pron-word-hit" lang="en" aria-label="Xem chi tiết phát âm của '+esc(word.text)+'" onclick="openPronunciationWord('+i+')"><strong>'+esc(word.text)+'</strong><small>'+esc(explanation)+'</small></button><div class="pron-word-actions">'+
       '<button type="button" class="g" aria-label="Phát bản ghi từ '+esc(word.text)+'" onclick="playPronunciationWord('+i+')">▶ Giọng tôi</button>'+
       '<button type="button" class="g" aria-label="Nghe mẫu phát âm từ '+esc(word.text)+'" onclick="sayPronunciationModelWord('+i+')">🔊 Giọng mẫu</button></div></article>';
   }).join('');
@@ -8220,11 +8431,9 @@ function pronunciationReport(report,grade,mode,placeholder){
     '<div><small>Âm khớp / gần mẫu</small><strong>'+(report?.percent==null?'—':report.percent+'%')+'</strong></div>'+
     '<div><small>Tín hiệu âm vị rõ</small><strong>'+(report?.assessed?report.confidence+'%':'—')+'</strong></div>'+
     '<div><small>Âm cuối khớp mẫu</small><strong>'+(report?.finals?report.finalHits+'/'+report.finals:'—')+'</strong></div></div>'+
-    (items?'<p><small>Chọn riêng “Giọng tôi” để nghe bản ghi hoặc “Giọng mẫu” để nghe cách đọc tham khảo.</small></p>'+
-    '<p class="pron-word-play-status mu" id="pron-word-play-status" role="status" aria-live="polite"></p>'+
-    '<div class="pron-words">'+items+'</div><p class="pron-advice">'+esc(pronunciationAdvice(report))+'</p>':'')+'</div>';
+    (items?'<h4>Word Pronunciation Analysis</h4>'+pronunciationTranscript(report)+'<p><small>Chọn “Giọng tôi” để nghe bản ghi hoặc “Giọng mẫu” để nghe cách đọc tham khảo.</small></p>'+
+    '<p class="pron-word-play-status mu" id="pron-word-play-status" role="status" aria-live="polite"></p><div class="pron-words">'+items+'</div><p class="pron-advice">'+esc(pronunciationAdvice(report))+'</p>':'')+wordIpaDialogMarkup()+'</div>';
 }
-
 function stopPronunciationWordPlayback(){
   pronunciationClipToken++;
   window.speechSynthesis?.cancel();
@@ -8386,20 +8595,11 @@ function answerStrengths(text,pace){
  return strengths.slice(0,3);
 }
 
-function smallNextStep(result){
- const text=result.text.toLowerCase();
- if(!/\b(because|for example|for instance)\b/.test(text))return 'Nói lại câu và thêm một lý do ngắn bắt đầu bằng “because”.';
- if(!/\b(for example|for instance)\b/.test(text))return 'Nói lại câu và thêm một ví dụ ngắn bắt đầu bằng “for example”.';
- return 'Nói lại câu, chọn một từ chung chung và thay bằng một từ cụ thể hơn.';
-}
-
 function resultGuidance(result){
  const strengths=answerStrengths(result.text,result.s.r);
  return '<div class="result-feedback"><h3>Điều bạn làm tốt</h3>'+
   (strengths.length?'<ul>'+strengths.map(point=>'<li>'+esc(point)+'</li>').join('')+'</ul>':
-   '<p>Hãy thử nói thêm để có dữ liệu nhận xét cụ thể.</p>')+'</div>'+
-  '<div class="result-feedback"><h3>Một việc để lên điểm</h3><p>'+smallNextStep(result)+
-  '</p><button class="g" onclick="retryCurrentAnswer()">Nói lại câu này</button></div>';
+   '<p>Hãy thử nói thêm để có dữ liệu nhận xét cụ thể.</p>')+'</div>';
 }
 
 function refreshResultComparison(result){
@@ -8461,93 +8661,30 @@ function scoreConfidence(result){
  const s=result.s,p=audioBand(s),hasVoice=Boolean(result.m&&Number.isFinite(result.m.np));
  return p!=null&&hasVoice?{label:'Cao',margin:.25}:s.metrics?.duration!=null?{label:'Vừa',margin:.4}:{label:'Thấp',margin:.5};
 }
-function scoreRange(result){const {margin}=scoreConfidence(result),value=result.s.o,ceiling=result.s.metrics?.overallCeiling??9;return `${Math.max(1,value-margin).toFixed(1)}–${Math.min(ceiling,value+margin).toFixed(1)}`}
-function scoreEvidenceMarkup(result){
- const text=String(result.text||'').slice(0,3600),m=result.s.metrics||{},ranges=[];
- const addOccurrences=(needle,kind,priority=2)=>{if(!needle)return;let from=0;while(from<text.length){const index=text.toLowerCase().indexOf(String(needle).toLowerCase(),from);if(index<0)break;ranges.push({start:index,end:index+String(needle).length,kind,priority});from=index+Math.max(1,String(needle).length)}};
- for(const item of m.grammarFindings||[])addOccurrences(item.example,'grammar',0);
- for(const item of m.spellingFindings||[])addOccurrences(item.word,'spelling',0);
-  const matchedIds=new Set(m.relevance?.matchedIds||[]),answerWords=text.match(/[A-Za-z]+(?:['’][A-Za-z]+)*/g)||[],environmentContext=(m.relevance?.anchors||[]).some(label=>/môi trường|khí hậu|ô nhiễm|tự nhiên/i.test(label));
-  for(const word of answerWords){const stem=relevanceStem(word),ids=RELEVANCE_LEMMA.get(stem);if(ids&&[...ids].some(id=>matchedIds.has(id))||environmentContext&&(matchedIds.has('environment')&&ENVIRONMENTAL_SIGNAL_WORDS.has(stem)||[...matchedIds].some(id=>id==='help'||id==='protect')&&ENVIRONMENT_ACTION_WORDS.has(stem)))addOccurrences(word,'topic',1)}
- SCORE_CONNECTORS.lastIndex=0;for(const match of text.matchAll(SCORE_CONNECTORS))ranges.push({start:match.index,end:match.index+match[0].length,kind:'connector',priority:2});SCORE_CONNECTORS.lastIndex=0;
- ranges.sort((a,b)=>a.priority-b.priority||a.start-b.start||b.end-a.end);
-  const accepted=[];for(const range of ranges){if(range.end<=range.start||accepted.some(item=>item.start<range.end&&range.start<item.end))continue;accepted.push(range)}
- accepted.sort((a,b)=>a.start-b.start);let cursor=0,html='';
- for(const range of accepted){html+=esc(text.slice(cursor,range.start))+`<mark class="score-evidence--${range.kind}">${esc(text.slice(range.start,range.end))}</mark>`;cursor=range.end}
- html+=esc(text.slice(cursor));return html||esc(text);
-}
-function scoreTips(s){
- const tips=[],relevance=s.metrics?.relevance;
-  if(s.metrics?.questionEcho)tips.push('Đưa ra câu trả lời trực tiếp trước; dùng câu hỏi trong đề làm lời nhắc, không chép lại thành câu trả lời.');
-  else if(relevance?.policyMismatch)tips.push('Câu hỏi cần quan điểm về giải pháp: nêu rõ đồng ý/không đồng ý và giải thích một hệ quả cụ thể.');
-  else if(relevance?.checked&&relevance.status!=='relevant')tips.push('Trả lời thẳng ý hỏi, rồi nêu một hành động cụ thể và kết quả của hành động đó.');
- const keys=[['f','Fluency & Coherence'],['l','Lexical Resource'],['g','Grammatical Range & Accuracy'],['p','Pronunciation']].filter(([key])=>Number.isFinite(s[key])).sort((a,b)=>s[a[0]]-s[b[0]]);
- for(const [key,label] of keys){if(tips.length>=2)break;const text=TIP[key];if(text)tips.push(`${label}: ${text}`)}
- return tips.slice(0,2);
-}
+function scoreRange(result){const {margin}=scoreConfidence(result),value=result.s.o,ceiling=result.s.metrics?.overallCeiling??9;return `${Math.max(0,value-margin).toFixed(1)}–${Math.min(ceiling,value+margin).toFixed(1)}`}
 function scoreCriterionCaps(metrics){
   const defaults={f:8,l:8.5,g:8.5},names={f:'Fluency & Coherence',l:'Lexical Resource',g:'Grammar'};
  return Object.entries(defaults).filter(([key,value])=>Number.isFinite(metrics.ceilings?.[key])&&metrics.ceilings[key]<value).map(([key])=>`${names[key]} tối đa ${metrics.ceilings[key]}`).join(', ');
 }
-function scoreCriterionConfidence(s,result,key){
- const m=s.metrics||{},recognized=m.recognizedRatio??0;
- if(key==='f')return !m.duration&&!m.timestampSource?'Thấp · chỉ có transcript':m.pauseCount!=null||m.timestampSource?'Vừa · có bằng chứng bản ghi':'Thấp · chỉ có thời lượng';
- if(key==='p')return audioBand(s)==null?'Chưa có âm thanh phù hợp':result?.m?.np!=null?'Vừa · có bản ghi và đối chiếu':'Thấp · bằng chứng phát âm hạn chế';
- if(key==='l')return recognized>=.85&&m.spellingStatus==='checked'?'Vừa · nhận diện từ và đối chiếu ngoại tuyến':recognized>=.65?'Thấp · một phần từ chưa được xác nhận':'Thấp · từ điển nhận diện hạn chế';
- return recognized>=.85&&m.completeSentences>0?'Vừa · câu và từ được nhận diện':'Thấp · câu hoặc từ chưa được xác nhận';
-}
-function scorePriorityFindings(s){
- const m=s.metrics||{},items=[];
-  if(m.questionEcho)items.push({priority:0,label:'Đưa ra câu trả lời',before:'Transcript chỉ chứa câu hỏi',after:'Trả lời trực tiếp bằng một câu khẳng định, sau đó giải thích lý do.'});
-  else if(m.relevance?.policyMismatch)items.push({priority:0,label:'Nêu quan điểm cho câu hỏi thảo luận',before:'Chưa thấy quan điểm hoặc lập luận về giải pháp được hỏi',after:'Nêu rõ lựa chọn của bạn rồi giải thích một hệ quả cụ thể.'});
-  else if(m.relevance?.checked&&m.relevance.status!=='relevant')items.push({priority:0,label:'Bám sát câu hỏi',before:m.relevance.status==='off-topic'?'Chưa thấy ý khớp câu hỏi':'Mới khớp một phần ý hỏi',after:'Trả lời trực tiếp, rồi thêm một lý do và một ví dụ cụ thể.'});
- for(const item of m.grammarFindings||[])items.push({priority:1,label:item.label,before:item.example,after:item.suggestion||'Kiểm tra lại cấu trúc câu.'});
- for(const item of m.collocationFindings||[])items.push({priority:1,label:'Kết hợp từ',before:item.phrase,after:item.correct});
- for(const item of m.spellingFindings||[])items.push({priority:2,label:'Chính tả cần kiểm tra',before:item.word,after:item.suggestions?.[0]||'Kiểm tra cách viết từ này.'});
- if(m.runOnSentences)items.push({priority:2,label:'Câu nối dài',before:'Nhiều ý nối trong một câu',after:'Chia câu dài thành hai câu, mỗi câu tập trung một ý.'});
- if(m.repetitionRatio>.42)items.push({priority:2,label:'Lặp từ nội dung',before:`${Math.round(m.repetitionRatio*100)}% từ nội dung bị lặp`,after:'Thay một số lần lặp bằng đại từ hoặc từ đồng nghĩa phù hợp.'});
- return items.sort((a,b)=>a.priority-b.priority).slice(0,3);
-}
-function scoreExplanation(s,result=null){
- const m=s.metrics;if(!m)return '';
- const duration=m.duration==null?'Không có thời lượng bản ghi nên chưa đo tốc độ nói.':`${s.r} từ/phút theo bản ghi ${Math.round(m.duration)} giây${s.r!==m.scoringWpm?' · khoảng '+m.scoringWpm+' từ/phút sau khi giảm ảnh hưởng từ lặp':''}`;
- const pauses=m.pauseCount==null?'không đo số lần ngắt; không suy ra ngắt nghỉ từ transcript':`${m.pauseCount} lần ngắt dài hơn 0,5 giây`;
- const connectors=(m.connectors||[]).slice(0,5).map(esc).join(', ')||'chưa có cụm nối hợp lệ';
- const spellingStatus=m.spellingStatus==='checked'?`Đã đối chiếu ngoại tuyến ${m.spellingChecked} từ nội dung khác nhau.`:m.spellingStatus==='partial'?`Đã đối chiếu ${m.spellingChecked} từ; một số nhóm từ điển chưa tải được.`:m.spellingStatus==='unavailable'?'Từ điển ngoại tuyến chưa sẵn sàng; không áp dụng trừ điểm chính tả.':m.spellingStatus==='pending'?'Đang kiểm tra chính tả ngoại tuyến; kết quả sẽ tự cập nhật.':'Không có từ nội dung đủ dài để kiểm tra.';
-  const relevance=m.relevance?.checked?`Khớp ${m.relevance.matched.length}/${m.relevance.anchors.length} ý chính (${Math.round(m.relevance.coverage*100)}%): ${m.relevance.matched.map(esc).join(', ')||'chưa khớp ý nào'}${m.relevance.contextMatched?.length?' · ý hỗ trợ theo ngữ cảnh: '+m.relevance.contextMatched.map(esc).join(', '):''}${m.relevance.missing?.length?' · chưa thấy: '+m.relevance.missing.slice(0,4).map(esc).join(', '):''}${m.relevance.policyMismatch?' · câu hỏi cần nêu quan điểm/hành động nhưng transcript chưa thể hiện lập luận đó':''}.`:'Đã bỏ qua bước kiểm tra chủ đề theo lựa chọn của bạn.';
- const part2Limit=m.part===2?`Part 2 thường cần khoảng 150–250 từ trong 1–2 phút. Bản này có ${s.n} từ transcript, khoảng ${m.effectiveWords} từ sau khi giảm lặp${m.duration==null?' · chưa có thời lượng bản ghi':` · bản ghi ${Math.round(m.duration)} giây`}.`:'';
-  const capReasons=[];if(m.questionEcho)capReasons.push('Transcript chỉ có câu hỏi, chưa có câu trả lời');else if(m.relevance?.policyMismatch)capReasons.push('Chưa có quan điểm/lập luận phù hợp câu hỏi thảo luận');else if(m.relevance?.checked&&m.relevance.status==='off-topic')capReasons.push('Câu trả lời lạc đề hoàn toàn');if(m.repetitionRatio>.4)capReasons.push('Tỷ lệ lặp từ nội dung trên 40%');
-  const totalCapNote=m.overallCeiling<9?` ${capReasons.join(' và ')} có trần tổng ${m.overallCeiling.toFixed(1)}.`:'';
- const criterionCaps=scoreCriterionCaps(m),limitNote=criterionCaps?`Giới hạn riêng theo độ dài và bằng chứng: ${criterionCaps}.${totalCapNote} Điểm tổng là trung bình các tiêu chí, có áp dụng trần bằng chứng.`:`Điểm tổng là trung bình các tiêu chí có dữ liệu.${totalCapNote}`;
- const tips=scoreTips(s),styleNotes=(m.styleWarnings||[]).map(esc),issues=scorePriorityFindings(s),evidence=result?`<p class="score-evidence-text" lang="en">${scoreEvidenceMarkup(result)}</p><div class="score-evidence-legend" aria-label="Chú giải bằng chứng"><span class="topic"><i></i>Ý đúng chủ đề</span><span><i></i>Từ nối</span><span class="error"><i></i>Lỗi nghi vấn</span></div>`:'';
- return `<details class="result-feedback"><summary>Vì sao được điểm này?</summary>${evidence}<ul>
-  <li><strong>Fluency &amp; Coherence · ${s.f.toFixed(1)} · ${scoreCriterionConfidence(s,result,'f')}:</strong> ${m.connectorCount} cụm nối khác nhau${m.connectorCount?` (${connectors})`:''}; ${m.coherenceSignalCount||0} dấu hiệu triển khai ý${m.coherenceSignals?.length?` (${m.coherenceSignals.map(esc).join(', ')})`:''}; ${m.fillers} filler trong transcript (${(m.fillerRatio*100).toFixed(1)}%); lặp từ ${Math.round((m.repetitionRatio||0)*100)}%; ${m.runOnSentences||0} câu nối dài. ${m.fluencySource==='transcript'?'Điểm này chỉ ước tính từ mạch ý, từ nối và transcript; không chấm ngắt nghỉ hay tốc độ nói khi thiếu bản ghi.':`Có dữ liệu bản ghi${m.pauseCount==null?' nhưng chưa có dấu thời gian ngắt nghỉ':`; ${pauses}`}.`}${m.relevancePenalty?` Trừ tối đa ${m.relevancePenalty.toFixed(1)} band vì độ bám đề.`:''}</li>
-  <li><strong>Lexical Resource · ${s.l.toFixed(1)} · ${scoreCriterionConfidence(s,result,'l')}:</strong> ${Math.round(m.longRatio*100)}% từ dài (không tự cộng điểm); từ/cụm theo chủ đề: ${(m.topicHits||[]).slice(0,4).map(esc).join(', ')||'chưa nhận diện được'}; collocation phù hợp: ${(m.collocationHits||[]).slice(0,3).map(esc).join(', ')||'chưa nhận diện được'}; ${spellingStatus}${m.lexicalPenalty?` Trừ ${m.lexicalPenalty.toFixed(1)} band từ vựng.`:''}</li>
-  <li><strong>Grammatical Range &amp; Accuracy · ${s.g.toFixed(1)} · ${scoreCriterionConfidence(s,result,'g')}:</strong> ${m.errors} lỗi nghi vấn; ${Math.round(m.sentenceAccuracy*100)}% câu không bị bộ dò gắn cờ; ${m.complexityRate.toFixed(2)} dấu hiệu cấu trúc phức/câu. Bộ dò chỉ nhận diện một số mẫu, không phải phân tích ngữ pháp đầy đủ.</li>
-  ${Number.isFinite(s.p)?`<li><strong>Pronunciation · ${s.p.toFixed(1)} · ${scoreCriterionConfidence(s,result,'p')}:</strong> Điểm dựa trên phần âm thanh đã đối chiếu; transcript không được dùng để suy ra phát âm.</li>`:''}
-  <li><strong>Độ liên quan:</strong> ${relevance}</li>
-  ${part2Limit?`<li>${part2Limit}</li>`:''}<li>${limitNote}</li>
- </ul>${issues.length?`<p><strong>Tối đa 3 điểm nên sửa trước</strong></p><ol class="score-priority-findings">${issues.map(item=>`<li><strong>${esc(item.label)}:</strong> “${esc(item.before)}” → ${esc(item.after)}</li>`).join('')}</ol>`:''}${styleNotes.length?`<p class="score-warning"><strong>Cảnh báo văn bản:</strong> ${styleNotes.join('; ')}. Đây chỉ là cảnh báo, không làm tăng điểm.</p>`:''}${tips.length?`<p><strong>Cách tăng 0,5 band</strong></p><ul class="score-tips">${tips.map(item=>`<li>${esc(item)}</li>`).join('')}</ul>`:''}
- <small>Đây là điểm ước tính để luyện tập, không phải điểm IELTS chính thức. Độ tin cậy phản ánh lượng bằng chứng có sẵn; cách diễn đạt giống văn viết chỉ là cảnh báo.</small></details>`;
-}
-
-function scoreOverview(result) {
- const {s}=result,p=audioBand(s),m=s.metrics||{},relevance=m.relevance;
+function scoreOverview(result){
+ const s=result.s,p=audioBand(s),m=s.metrics||{},relevance=m.relevance;
  const criteria=[s.f,s.l,s.g,p].filter(Number.isFinite).length,confidence=scoreConfidence(result);
-  const evidenceWarning=m.evidenceStatus==='poor-evidence'?`<div class="score-warning" role="status"><strong>${esc(m.evidenceWarning||'Bằng chứng ngôn ngữ còn hạn chế.')}</strong> ${m.completeSentences===0?'Không nhận diện được câu hoàn chỉnh; Fluency tối đa 3.5 và Grammar tối đa 3.0.':'Lexical Resource và Grammar tối đa 4.0.'}${m.dictionaryStatus==='checked'||m.dictionaryStatus==='partial'?` Đối chiếu ngoại tuyến: ${Math.round((m.recognizedRatio||0)*100)}% từ.`:''} Hãy kiểm tra câu và chính tả.</div>`:'';
-  const questionEchoWarning=m.questionEcho?`<div class="score-warning" role="status"><strong>Transcript chỉ chứa một câu hỏi, chưa có câu trả lời.</strong> Hãy trả lời bằng một câu khẳng định; điểm tổng hiện được giới hạn ở ${m.overallCeiling.toFixed(1)}.</div>`:'';
+ const questionEchoWarning=m.questionEcho?'<div class="score-warning" role="status"><strong>Transcript chỉ chứa một câu hỏi, chưa có câu trả lời.</strong> Hãy trả lời bằng một câu khẳng định; điểm tổng hiện được giới hạn ở '+m.overallCeiling.toFixed(1)+'.</div>':'';
  const relevanceWarning=relevance?.checked&&relevance.status!=='relevant'
-   ?`<div class="score-warning" role="status"><strong>${relevance.policyMismatch?'Chưa có quan điểm hoặc lập luận trả lời câu hỏi thảo luận.':`Bài chưa bám sát câu hỏi: khớp ${relevance.matched.length}/${relevance.anchors.length} ý chính.`}</strong> Trừ ${m.relevancePenalty.toFixed(1)} band tối đa 1,0 ở Fluency & Coherence${relevance.status==='off-topic'?`; tổng tối đa ${m.overallCeiling.toFixed(1)}`:''}.<br><button type="button" class="g" onclick="rescoreIgnoringRelevance()">Tôi đang trả lời câu khác</button><small>Nút này chấm lại câu hiện tại và bỏ qua kiểm tra chủ đề một lần.</small></div>`:'';
-  const criterionCaps=scoreCriterionCaps(m),part2Limit=m.part===2&&(m.shortPart2Length||m.shortPart2Duration)
-   ?`<p class="mu" role="status">Part 2 còn ngắn${m.shortPart2Length?` (${s.n} từ, khoảng ${m.effectiveWords} từ sau khi giảm lặp; nên hướng tới ít nhất 150 từ)`:''}${m.shortPart2Duration?` · bản ghi ${Math.round(m.duration)} giây, dưới 1 phút`:''}. ${criterionCaps?`Giới hạn riêng: ${criterionCaps}.`:''} Tổng vẫn là trung bình các tiêu chí, không có trần ẩn.</p>`:'';
-  const shortAnswerCap=m.part!==2&&criterionCaps?`<p class="mu" role="status">Câu trả lời còn ngắn; giới hạn riêng: ${criterionCaps}. Tổng vẫn là trung bình các tiêu chí, không có trần ẩn.</p>`:'';
- const criteriaLabel=criteria===3&&!Number.isFinite(p)?`Tính từ 3/4 tiêu chí (${result.blob?'chưa có Pronunciation đủ dữ liệu':'chưa có bản ghi để chấm Pronunciation'})`:`Tính từ ${criteria}/4 tiêu chí${criteria<4?' · Pronunciation chỉ chấm khi có dữ liệu âm thanh phù hợp':''}`;
+  ?'<div class="score-warning" role="status"><strong>'+(relevance.topicMismatch?'Có vẻ bạn đang trả lời về '+(relevance.answerDomainLabels.slice(0,2).map(esc).join(', ')||'chủ đề khác')+', trong khi chủ đề hiện tại là '+esc(relevance.topicLabel)+'.':relevance.policyMismatch?'Chưa có quan điểm hoặc lập luận trả lời câu hỏi thảo luận.':'Bài chưa bám sát câu hỏi: khớp '+relevance.matched.length+'/'+relevance.anchors.length+' ý chính.')+'</strong> Trừ '+m.relevancePenalty.toFixed(1)+' band tối đa 1,0 ở Fluency &amp; Coherence'+(relevance.status==='off-topic'?'; tổng tối đa '+m.overallCeiling.toFixed(1):'')+'<br><button type="button" class="g" onclick="rescoreIgnoringRelevance()">Tôi đang trả lời câu khác</button><small>Nút này chấm lại câu hiện tại và bỏ qua kiểm tra chủ đề một lần.</small></div>':'';
+ const criterionCaps=scoreCriterionCaps(m),part2Limit=m.part===2&&(m.shortPart2Length||m.shortPart2Duration)
+  ?'<p class="mu" role="status">Part 2 còn ngắn'+(m.shortPart2Length?' ('+s.n+' từ, khoảng '+m.effectiveWords+' từ sau khi giảm lặp; nên hướng tới ít nhất 150 từ)':'')+(m.shortPart2Duration?' · bản ghi '+Math.round(m.duration)+' giây, dưới 1 phút':'')+'. '+(criterionCaps?'Giới hạn riêng: '+criterionCaps+'.':'')+' Tổng vẫn là trung bình các tiêu chí, không có trần ẩn.</p>':'';
+ const shortAnswerCap=m.part!==2&&criterionCaps?'<p class="mu" role="status">Câu trả lời còn ngắn; giới hạn riêng: '+criterionCaps+'. Tổng vẫn là trung bình các tiêu chí, không có trần ẩn.</p>':'';
+ const criteriaLabel=criteria===3&&!Number.isFinite(p)?'Tính từ 3/4 tiêu chí ('+(result.blob?'chưa có Pronunciation đủ dữ liệu':'chưa có bản ghi để chấm Pronunciation')+')':'Tính từ '+criteria+'/4 tiêu chí'+(criteria<4?' · Pronunciation chỉ chấm khi có dữ liệu âm thanh phù hợp':'');
  const sourceLabel=result.blob?'Ước tính từ transcript và thời lượng bản ghi':'Ước tính từ văn bản';
-  return `<div class="result-header"><div><p class="eyebrow">PHẢN HỒI BÀI NÓI</p><h2 id="result-title" tabindex="-1">Điểm luyện tập ước tính</h2></div><div class="big">${scoreRange(result)}</div></div>
-     ${bars(s)}${evidenceWarning}${questionEchoWarning}${relevanceWarning}${part2Limit}${shortAnswerCap}<p><small>${s.n} từ${s.r?' · '+s.r+' từ/phút':''} · ${criteriaLabel} · ${sourceLabel} · Độ tin cậy: ${confidence.label.toLowerCase()} (khoảng ±${confidence.margin.toFixed(2)} band)${m.pauseCount!=null?` · ${m.pauseCount} lần ngắt >0,5 giây`:''}${m.timestampSource?` · ${m.timestampSource}${m.selfRepairHints?` · ${m.selfRepairHints} dấu hiệu tự sửa trong transcript`:''}`:''} · filler ${Math.round((m.fillerRatio||0)*100)}%</small></p>
-  ${scoreExplanation(s,result)}
-  <div class="result-feedback">${resultComparison(result)}</div>
-  <p class="mu"><small>${p==null?'Pronunciation chưa được chấm vì chưa có dữ liệu âm thanh phù hợp đã đối chiếu.':'Pronunciation được ước tính từ độ khớp âm vị và âm cuối trong bản ghi.'} Tất cả điểm trên màn hình là phản hồi luyện tập.</small></p>`;
+ const scoreMeta=s.n+' từ'+(s.r?' · '+s.r+' từ/phút':'')+' · '+criteriaLabel+' · '+sourceLabel+' · Độ tin cậy: '+confidence.label.toLowerCase()+' (khoảng ±'+confidence.margin.toFixed(2)+' band)'+(m.pauseCount!=null?' · '+m.pauseCount+' lần ngắt >0,5 giây':'')+(m.timestampSource?' · '+m.timestampSource+(m.selfRepairHints?' · '+m.selfRepairHints+' dấu hiệu tự sửa trong transcript':''):'')+' · filler '+Math.round((m.fillerRatio||0)*100)+'%';
+ const pronunciationNote=p==null?'Pronunciation chưa được chấm vì chưa có dữ liệu âm thanh phù hợp đã đối chiếu.':'Pronunciation được ước tính từ độ khớp âm vị và âm cuối trong bản ghi.';
+ return '<section class="results-score-overview" aria-label="Tổng quan điểm">'+
+  '<div class="results-score-head"><div class="result-header"><div><p class="eyebrow">PHẢN HỒI BÀI NÓI</p><h2 id="result-title" tabindex="-1">Điểm luyện tập ước tính</h2></div></div><div class="results-band-pill"><strong>'+scoreRange(result)+'</strong><small>IELTS Band · ước tính</small></div></div>'+
+  '<div class="results-criteria">'+bars(s)+'</div>'+questionEchoWarning+relevanceWarning+part2Limit+shortAnswerCap+
+  '<small class="results-score-meta">'+scoreMeta+'</small>'+
+  '<details class="results-score-compare"><summary>Tiến bộ và độ tin cậy</summary><div class="result-feedback">'+resultComparison(result)+'</div><p class="mu"><small>'+pronunciationNote+' Tất cả điểm trên màn hình là phản hồi luyện tập.</small></p></details>'+
+  '</section>';
 }
 
 function pronunciationAdvice(report) {
@@ -8730,8 +8867,8 @@ const cloneSpelling=value=>JSON.parse(JSON.stringify(value));
 function applySpellingToScore(result,spelling){
  const metrics=result.metrics,penalty=Math.min(2.2,spelling.findings.reduce((sum,item)=>sum+(item.suggestions?.length?(item.distance===1?.4:.7):.25)*Math.min(item.count,2),0));
  metrics.spellingStatus=spelling.status;metrics.spellingChecked=spelling.checked;metrics.spellingFindings=spelling.findings;metrics.spellingPenalty=penalty;metrics.lexicalPenalty=Math.min(2.8,(metrics.collocationPenalty||0)+penalty);
- result.l=Math.min(metrics.lexicalCeiling,Math.max(1,half(metrics.lexicalBase-penalty)));
- result.o=Math.min(metrics.overallCeiling??9,Math.max(1,half(avg([result.f,result.l,result.g,audioBand(result)].filter(Number.isFinite)))));
+ result.l=Math.min(metrics.lexicalCeiling,Math.max(0,half(metrics.lexicalBase-penalty)));
+ result.o=Math.min(metrics.overallCeiling??9,Math.max(0,half(avg([result.f,result.l,result.g,audioBand(result)].filter(Number.isFinite)))));
  return result;
 }
 function applyDictionaryScoreUpdate(result,updated,previous=null){
@@ -9716,16 +9853,22 @@ function pathContinue(){
  else{pathView=null;tab='les';openView()}
 }
 function pathContinueButton(){
- const next=pathNext();
- const label=!st.learningPath.setup.done?'Tiếp tục: thiết lập lộ trình':next?'Tiếp tục: '+LS[next.id][1]:'Tiếp tục: xem lại lộ trình';
- return `<button class="w path-continue" onclick="pathContinue()">${esc(label)} ${icon('arrow')}</button>`;
+ return '<button type="button" class="home-learning-map-link" onclick="openLearningPathMap()" aria-label="Mở Lộ trình của tôi"><span class="home-learning-map-copy"><strong>LỘ TRÌNH CỦA TÔI</strong><small>Hồ sơ trình độ · hiệu quả học · kế hoạch hôm nay</small></span><span class="home-learning-map-arrow" aria-hidden="true">→</span></button>';
 }
+const PLACEMENT_QUESTIONS=[{"q":"She ___ to work by bus every day.","a":["go","goes","going"],"c":1},{"q":"If I ___ more time, I would learn another language.","a":["have","had","will have"],"c":1},{"q":"The meeting was ___ because the speaker was ill.","a":["put off","put out","put up"],"c":0},{"q":"This is the book ___ I told you about.","a":["who","where","that"],"c":2},{"q":"By the time we arrived, the film ___.","a":["started","had started","has started"],"c":1},{"q":"The new policy is intended to ___ traffic congestion.","a":["address","attend","approach"],"c":0},{"q":"Although the plan is expensive, it is ___ in the long term.","a":["worthwhile","worthwhilely","worth"],"c":0},{"q":"Were the city to expand the network, more residents ___ public transport.","a":["use","would use","will use"],"c":1}];
+function readPlacement(){try{const value=JSON.parse(localStorage.getItem('tf-placement-v1')||'null');return value&&Number.isInteger(value.score)&&value.score>=0&&value.score<=PLACEMENT_QUESTIONS.length?value:null}catch{return null}}
+function placementBand(score){return score<=2?'Nền tảng · A1–A2':score<=4?'Sơ trung cấp · A2–B1':score<=6?'Trung cấp · B1–B2':'Trên trung cấp · B2+'}
+function placementMarkup(){const saved=readPlacement();return saved?'<div class="placement-result"><strong>'+placementBand(saved.score)+'</strong><p>'+saved.score+'/'+PLACEMENT_QUESTIONS.length+' câu đúng · Đây là ước lượng ban đầu, không thay thế bài thi chuẩn hóa.</p><button type="button" class="g" onclick="resetPlacement()">Làm lại bài đánh giá</button></div>':'<form class="placement-quiz" onsubmit="submitPlacement(event)"><p>8 câu ngắn về ngữ pháp và từ vựng. Kết quả chỉ lưu trên thiết bị này.</p>'+PLACEMENT_QUESTIONS.map((item,index)=>'<fieldset><legend>'+(index+1)+'. '+esc(item.q)+'</legend>'+item.a.map((answer,choice)=>'<label><input type="radio" name="q'+index+'" value="'+choice+'" required> '+esc(answer)+'</label>').join('')+'</fieldset>').join('')+'<button type="submit">Xem mức xuất phát</button></form>'}
+function submitPlacement(event){event.preventDefault();const form=event.currentTarget;let score=0;PLACEMENT_QUESTIONS.forEach((item,index)=>{const value=Number(form.elements['q'+index]?.value);if(value===item.c)score++});try{localStorage.setItem('tf-placement-v1',JSON.stringify({score,at:Date.now()}))}catch{}openView()}
+function resetPlacement(){try{localStorage.removeItem('tf-placement-v1')}catch{}openView()}
+function adaptiveLearningInsight(){const rows=(Array.isArray(st.h)?st.h:[]).slice(-8),keys=[['f','Lưu loát'],['l','Từ vựng'],['g','Ngữ pháp']].map(([key,label])=>({key,label,values:rows.map(row=>Number(row[key])).filter(value=>Number.isFinite(value)&&value>=1&&value<=9)})).filter(item=>item.values.length);if(!keys.length){const placement=readPlacement();if(placement){const focus=placement.score<=2?'Bắt đầu bằng câu giao tiếp ngắn, từ vựng quen thuộc và nghe mẫu chậm.':placement.score<=4?'Ôn cấu trúc câu cơ bản, học cụm từ theo chủ đề và luyện Part 1.':placement.score<=6?'Luyện mở rộng câu trả lời bằng lý do, ví dụ và cấu trúc đa dạng hơn.':'Bắt đầu với Part 3, lập luận hai phía và dùng từ vựng chính xác trong ngữ cảnh.';return {title:'Mức xuất phát: '+placementBand(placement.score),detail:'Bài đánh giá đầu vào: '+placement.score+'/'+PLACEMENT_QUESTIONS.length+' câu đúng. Hãy luyện nói thử để bổ sung dữ liệu phát âm và độ mạch lạc.',focus}}return {title:'Bắt đầu từ mục tiêu nhỏ',detail:'Hoàn thành bài đánh giá đầu vào hoặc một lượt luyện nói để hệ thống có dữ liệu gợi ý.',focus:'Học 10 phút: 5 phút từ vựng, 5 phút trả lời một câu Part 1.'}}const weakest=keys.sort((a,b)=>a.values.reduce((x,y)=>x+y,0)/a.values.length-b.values.reduce((x,y)=>x+y,0)/b.values.length)[0],average=weakest.values.reduce((x,y)=>x+y,0)/weakest.values.length,first=weakest.values[0],last=weakest.values.at(-1),trend=weakest.values.length>1?last-first:null,focus=weakest.key==='f'?'Luyện trả lời thành 3 ý, ghi âm 1 phút và nghe lại độ mạch lạc.':weakest.key==='l'?'Ôn 5 cụm từ theo chủ đề rồi dùng mỗi cụm trong một câu trả lời.':'Học một cấu trúc câu, sau đó tự viết và nói 3 ví dụ.';return {title:'Ưu tiên hôm nay: '+weakest.label,detail:'Dựa trên '+weakest.values.length+' lượt gần nhất'+(trend==null?'':trend>=.5?' · dấu hiệu đang tiến bộ':trend<=-.5?' · nên giảm nhịp và ôn lại':' · giữ nhịp hiện tại')+'. Mức trung bình '+average.toFixed(1)+'.',focus}}
 function pathMap(includeIntro=true){
  const next=pathNext(),setup=st.learningPath.setup,percentage=pathPercent(),notice=pathNotice;
  pathNotice='';
  const criteria=setup.baseline?[[setup.baseline.f,'lưu loát'],[setup.baseline.l,'từ vựng'],[setup.baseline.g,'ngữ pháp']]
   .filter(([value])=>value!=null).sort((a,b)=>a[0]-b[0]):[];
- const focus=criteria.length?'Ưu tiên theo bài nói thử: '+criteria[0][1]+'. ':'';
+ const insight=adaptiveLearningInsight();
+ const focus=criteria.length?'Ưu tiên theo bài nói thử: '+criteria[0][1]+'. ':insight.title+'. ';
  const days=setup.examDate?Math.round(Date.parse(setup.examDate+'T00:00:00Z')/DAY-dayNumber(Date.now())):null;
  const minutes=setup.minutes,readMinutes=minutes?Math.max(1,Math.floor(minutes*.6)):0;
  const reviewMinutes=minutes?Math.max(1,minutes-readMinutes):0;
@@ -9927,7 +10070,7 @@ function invalidatePathTry(input){
  const status=$('#path-try-edit-status');if(status)status.textContent='Câu trả lời đã đổi. Hãy chấm lại để xem đánh giá mới.';
 }
 function pathTryFeedback(review){
- const scores=review.score?`<p>Điểm ước tính cho văn bản: ${bandRange(review.score.o)} · Lưu loát ${bandNumber(review.score.f)} · Từ vựng ${bandNumber(review.score.l)} · Ngữ pháp ${bandNumber(review.score.g)}.</p>${scoreExplanation(review.score)}`:`<p>${esc(review.scoreMessage||'Chưa đủ văn bản tiếng Anh để ước tính các tiêu chí.')}</p>`;
+ const scores=review.score?`<p>Điểm ước tính cho văn bản: ${bandRange(review.score.o)} · Lưu loát ${bandNumber(review.score.f)} · Từ vựng ${bandNumber(review.score.l)} · Ngữ pháp ${bandNumber(review.score.g)}.</p>`:`<p>${esc(review.scoreMessage||'Chưa đủ văn bản tiếng Anh để ước tính các tiêu chí.')}</p>`;
  const content=pathEvidenceText(review.evidence,'try');
  const feedback=review.passed?'Đạt mục tiêu nội dung của bài. Bạn có thể sang thử thách nói.':[
   !review.evidence.passed?content:'',!review.score?review.scoreMessage:'',review.score&&!review.scorePassed?'Điểm văn bản hiện dưới ngưỡng luyện tập 4.5. Thử thêm câu trả lời rõ ý với lý do hoặc ví dụ.':''
@@ -10771,10 +10914,9 @@ function examSummary(exam){
  const points=(title,items)=>Array.isArray(items)&&items.length?`<h3>${title}</h3><ul>${items.map(item=>'<li>'+esc(item)+'</li>').join('')}</ul>`:'';
  const notes=[...new Set(exam.answers.map(item=>item.pronNote).filter(Boolean))];
  const scored=exam.answers.filter(item=>item.p!=null).length;
- const turnDetails=exam.answers.map((item,index)=>`<details><summary>Câu ${index+1} · Part ${item.turn.part} · ${bandRange(item.estimate.o)}</summary>${scoreExplanation(item.estimate)}</details>`).join('');
  return `<section class="hero">${heroMotif}<div class="hero-copy"><p class="eyebrow">GIÁM KHẢO AI · KẾT QUẢ</p><h1>Hoàn thành bài thi thử</h1><p>Đã trả lời ${exam.answers.length} câu · Part ${exam.parts.join(' + ')}</p></div>
  <div class="hero-score"><small lang="en">PREDICTED BAND SCORE</small><div class="big">${bandNumber(scores.o)}</div><small>${scores.p==null?'Ước tính từ 3 tiêu chí':'Ước tính từ 4 tiêu chí'}</small></div></section>
- <article class="c examiner-feedback"><h2>Nhận xét tổng kết</h2><p class="mu"><small>${local?'Nhận xét trên thiết bị':'Nhận xét bằng OpenAI'}</small></p><p>${esc(result.overview)}</p>${bars(scores)}<details class="result-feedback"><summary>Chi tiết điểm từng câu và lỗi nghi vấn</summary>${turnDetails}</details>
+ <article class="c examiner-feedback"><h2>Nhận xét tổng kết</h2><p class="mu"><small>${local?'Nhận xét trên thiết bị':'Nhận xét bằng OpenAI'}</small></p><p>${esc(result.overview)}</p>${bars(scores)}
  <dl><dt>Lưu loát và mạch lạc</dt><dd>${esc(result.fluency)}</dd><dt>Từ vựng</dt><dd>${esc(result.lexical)}</dd><dt>Ngữ pháp</dt><dd>${esc(result.grammar)}</dd>
  <dt>Phát âm</dt><dd>${scored?'Đã đối chiếu âm vị từ '+scored+'/'+exam.answers.length+' bản ghi.':'Để nhận điểm phát âm, hãy ghi âm và xác nhận câu định nói trước khi nộp.'}</dd></dl>
  ${points('Luyện phát âm',notes.slice(0,3))}${points('Điểm mạnh',result.strengths)}${points('Luyện gì tiếp theo',result.actions)}
@@ -11360,6 +11502,8 @@ if(!campus3dStart||!startCampus3dPractice(campus3dQuery.get('campus-topic'),Numb
 if(cloudEnabled())void syncProgress();
 window.addEventListener('online',()=>{if(cloudEnabled())queueCloud()});
 </script>
+<script src="./assets/placement/learning-core.js"></script>
+<script src="./assets/placement/learning-system.js"></script>
 <script id="phone-licenses" type="text/plain">Bộ đối chiếu âm vị: Allosaurus uni2005, bản ONNX INT8 của KitsuMate (GPL-3.0).
 
 Bản mô hình và mã xuất mô hình: https://huggingface.co/KitsuMate/uni2005-onnx/tree/004577e41ea954fa6cfe9d8f209447780af104ca

@@ -49,12 +49,20 @@ function overall(scores) {
   return scores ? (Number.isFinite(scores.overall) ? scores.overall : Math.round(((scores.fluency + scores.lexical + scores.grammar) / 3) * 2) / 2) : null;
 }
 
+function confidenceForScore(scored) {
+  const pronunciation = scored?.pronBasis === 'acoustic-v1' && Number.isFinite(scored.p) ? scored.p : null;
+  if (pronunciation != null) return { label: 'Cao', margin: 0.25 };
+  if (scored.metrics?.duration != null) return { label: 'Vừa', margin: 0.4 };
+  return { label: 'Thấp', margin: 1.5 };
+}
+
 function passes(sample, result) {
   const expected = sample.expected || {};
   const scores = result.scores;
   const status = result.status || (scores ? 'scored' : 'ungradable');
   if (expected.status && expected.status !== status) return false;
   const band = overall(scores);
+  if (expected.textOnly && (scores?.pronunciation !== null || result.confidence?.label !== 'Thấp' || result.confidence.margin < 1.25)) return false;
   if (expected.band != null && (band == null || Math.abs(band - expected.band) > (expected.tolerance ?? 0.5))) return false;
   if (Array.isArray(expected.range) && (band == null || band < expected.range[0] || band > expected.range[1])) return false;
   for (const [criterion, limit] of Object.entries(expected.max || {})) {
@@ -79,7 +87,8 @@ for (const sample of cases) {
     if (scored) context.applySpellingToScore(scored, await context.offlineSpellingAssessment(sample.text));
     result = {
       status: scored ? (scored.metrics.evidenceStatus === 'poor-evidence' ? 'low_evidence' : 'scored') : 'ungradable',
-      scores: scored ? { fluency: scored.f, lexical: scored.l, grammar: scored.g, overall: scored.o } : null,
+      scores: scored ? { fluency: scored.f, lexical: scored.l, grammar: scored.g, pronunciation: scored.pronBasis === 'acoustic-v1' && Number.isFinite(scored.p) ? scored.p : null, overall: scored.o } : null,
+      confidence: scored ? confidenceForScore(scored) : null,
       wordCount: scored?.n ?? 0,
       relevance: scored?.metrics.relevance?.status ?? null,
       grammar: scored ? { completeSentences: scored.metrics.completeSentences, sentenceCount: scored.metrics.sentenceCount, errors: scored.metrics.errors, ruleIds: scored.metrics.grammarFindings.map(item => item.ruleId) } : null,
@@ -125,11 +134,11 @@ const grammarOutput = grammarCases.map(sample => {
 const grammarPassed = grammarOutput.filter(item => item.passed).length;
 const grammarReport = { summary: { passed: grammarPassed, total: grammarOutput.length, rules: grammarRuleCount }, cases: grammarOutput };
 fs.writeFileSync(path.join(__dirname, 'grammar-baseline-results.json'), JSON.stringify(grammarReport, null, 2));
-const lexicalProbe = (text, question = 'What do you value in daily life?') => {
+const lexicalProbe = (text, question = 'What do you value in daily life?', topic = '', part = 1) => {
   const tokens = text.toLowerCase().match(/[a-z]+(?:'[a-z]+)*/g) || [];
   const content = tokens.filter(word => word.length > 2);
   const evidence = { status: 'scored', scorable: true, recognizedRatio: 1, recognizedWords: tokens.length, recognizedTokens: tokens, contentWords: content.length, recognizedContentWords: content.length, dictionaryStatus: 'checked', dictionaryTags: {}, keyboardSmash: false, warning: '' };
-  return context.score(text, 1, 0, question, '', { evidence });
+  return context.score(text, part, 0, question, topic, { evidence });
 };
 const diverseMattr = context.scoreMATTR('adaptable considerate resourceful collaborative resilient'.split(' '));
 const repeatedMattr = context.scoreMATTR('useful useful useful useful useful useful'.split(' '));
@@ -164,6 +173,10 @@ const exerciseRelevance = lexicalProbe('When the weather is bad, I follow a shor
 const copiedPromptQuestion = lexicalProbe('Do you prefer mornings or evenings?', 'Do you prefer mornings or evenings?');
 const memorizedPolicyAnswer = lexicalProbe('My favourite season is spring because flowers grow and the weather becomes pleasant. I enjoy walking in the park and taking pictures of the trees. Spring makes me feel hopeful, and it is a good time to meet my friends outside.', 'Should cities invest more in public transport?');
 const reasonedPolicyAnswer = lexicalProbe('I think cities should invest more in public transport because better bus routes can reduce traffic and help commuters reach work on time.', 'Should cities invest more in public transport?');
+const crossTopicAnswer = "I'd like to talk about watching technology videos as a hobby. I first came across it when I wanted a relaxing break after studying. At the time, I wanted to understand more than just the basic idea, so I paid attention to how it worked and who might use it. One detail that stands out is that I found channels that explain how everyday devices and engineering projects work. This matters because the videos entertain me and sometimes introduce ideas I can explore more deeply. For example, after watching a simple electronics build, I looked up the components and learned what each one did. That made the topic feel practical rather than distant or purely theoretical. A challenge is that it is easy to spend too long scrolling instead of choosing something to watch. This does not mean the idea should be rejected; it means people need to consider cost, safety and everyday needs when they plan it. If I had the chance, I would set aside a short time for it and try making a small project myself. Thinking about this experience also helped me notice details I might otherwise overlook. I am not an expert, but it has given me a useful question to explore further. Overall, I find it interesting because it connects what people learn with decisions they make in real life.";
+const onTopicHobbyAnswer = lexicalProbe(crossTopicAnswer, 'Describe a hobby you enjoy or would like to start. You should say what it is, when you encountered it, how it works, and why it interests you.', 'Hobbies', 2);
+const offTopicHousingAnswer = lexicalProbe(crossTopicAnswer, 'Describe a room or home where you feel comfortable.', 'Housing', 2);
+const offTopicBookAnswer = lexicalProbe(crossTopicAnswer, 'Describe a book you enjoyed.', 'Books', 2);
 const textOnlyPause = lexicalProbe('I enjoy walking in the park because it helps me relax after a busy day.');
 const timedFluency = context.score('I enjoy walking in the park because it helps me relax after a busy day.', 1, 30, '', '', { evidence: { status: 'scored', scorable: true, recognizedRatio: 1, recognizedWords: 15, recognizedTokens: ['i','enjoy','walking','in','the','park','because','it','helps','me','relax','after','a','busy','day'], contentWords: 8, recognizedContentWords: 8, dictionaryStatus: 'checked', dictionaryTags: {}, keyboardSmash: false, warning: '' } });
 const fluencyChecks = [
@@ -174,13 +187,18 @@ const fluencyChecks = [
   ['Giới hạn transcript chỉ chép câu hỏi và hướng dẫn trả lời', copiedPromptQuestion?.metrics.questionEcho === true && copiedPromptQuestion.metrics.overallCeiling === 4 && copiedPromptQuestion.o <= 4],
   ['Giảm điểm câu học thuộc lệch câu hỏi nghị luận', memorizedPolicyAnswer?.metrics.relevance.policyMismatch === true && memorizedPolicyAnswer.metrics.overallCeiling === 4 && memorizedPolicyAnswer.o <= 4],
   ['Giữ câu trả lời có quan điểm và lý do cụ thể', reasonedPolicyAnswer?.metrics.relevance.policyMismatch === false && reasonedPolicyAnswer.metrics.relevance.status === 'relevant' && reasonedPolicyAnswer.metrics.overallCeiling === 9],
+  ['Giữ câu trả lời sở thích đúng chủ đề', onTopicHobbyAnswer?.metrics.relevance.status === 'relevant' && onTopicHobbyAnswer.metrics.relevance.topicMismatch === false],
+  ['Phát hiện cùng câu trả lời bị lệch sang chủ đề nhà ở', offTopicHousingAnswer?.metrics.relevance.status === 'off-topic' && offTopicHousingAnswer.metrics.relevance.topicMismatch === true && offTopicHousingAnswer.metrics.overallCeiling <= 4.5],
+  ['Phân biệt chủ đề sách với video/sở thích', offTopicBookAnswer?.metrics.relevance.status === 'off-topic' && offTopicBookAnswer.metrics.relevance.topicMismatch === true],
+  ['Band giảm rõ khi giữ nguyên câu trả lời nhưng đổi sang đề nhà ở', !!onTopicHobbyAnswer && !!offTopicHousingAnswer && onTopicHobbyAnswer.o - offTopicHousingAnswer.o >= 1],
   ['Không tự suy ra số lần ngắt từ transcript', textOnlyPause?.metrics.fluencySource === 'transcript' && textOnlyPause.metrics.pauseCount == null],
   ['Tách dữ liệu bản ghi khỏi transcript', timedFluency?.metrics.fluencySource === 'recording']
 ];
 const fluencyPassed = fluencyChecks.filter(([, passed]) => passed).length;
 const uiChecks = [
-  ['Giải thích gắn điểm và độ tin cậy vào từng tiêu chí', /Fluency &amp; Coherence · \$\{s\.f\.toFixed\(1\)\} · \$\{scoreCriterionConfidence/.test(html) && /Lexical Resource · \$\{s\.l\.toFixed\(1\)/.test(html) && /Grammatical Range &amp; Accuracy · \$\{s\.g\.toFixed\(1\)/.test(html)],
-  ['Giới hạn danh sách lỗi ưu tiên ở ba mục', html.includes('function scorePriorityFindings') && html.includes('.slice(0,3)') && html.includes('Tối đa 3 điểm nên sửa trước')],
+  ['Hiển thị dải điểm ước tính và thông tin độ tin cậy', html.includes('function scoreRange(result)') && html.includes('results-criteria') && html.includes('Độ tin cậy: ') && html.includes('Pronunciation chưa được chấm vì chưa có dữ liệu âm thanh phù hợp đã đối chiếu.')],
+  ['Cảnh báo nêu chủ đề nhận diện và chủ đề hiện tại khi lệch đề', html.includes('Có vẻ bạn đang trả lời về ') && /trong khi chủ đề hiện tại là '\+esc\(relevance\.topicLabel\)/.test(html) && !html.includes('Chủ đề được chọn là')],
+  ['Không hiển thị lại phần giải thích điểm đã được gỡ', !html.includes('function scorePriorityFindings') && !html.includes('Tối đa 3 điểm nên sửa trước')],
   ['Lịch sử phân biệt phiên bản và cho phép chấm lại', html.includes('function scoreHistoryMarkup') && html.includes('function rescoreHistoryItem') && html.includes('Chấm bằng bản cũ')],
   ['Bản chấm cũ được giữ lại sau khi chấm lại', html.includes('scoreRevisions') && html.includes('Xem phiên bản điểm trước')],
   ['Chuẩn hóa dữ liệu vẫn giữ mã phiên bản cũ', html.includes('row.scoreVersion=Number.isInteger(x.scoreVersion)') && html.includes('row.scoreRevisions=(Array.isArray(x.scoreRevisions)')],
@@ -196,6 +214,7 @@ for (const [name, group] of groups) console.log(`${name}: ${group.passed}/${grou
 console.log(`Grammar: ${grammarPassed}/${grammarOutput.length} mẫu · ${grammarRuleCount} quy tắc khả dụng`);
 console.log(`Lexical: ${lexicalPassed}/${lexicalChecks.length} kiểm tra · ${scoringLatencyMs.toFixed(1)} ms ở đoạn dài`);
 console.log(`Fluency & Coherence: ${fluencyPassed}/${fluencyChecks.length} kiểm tra`);
+console.log(`Đổi đề, giữ nguyên bài mẫu: Hobbies ${onTopicHobbyAnswer?.o?.toFixed(1) ?? '—'} → Housing ${offTopicHousingAnswer?.o?.toFixed(1) ?? '—'} · Books ${offTopicBookAnswer?.o?.toFixed(1) ?? '—'}`);
 console.log(`Giao diện/History: ${uiPassed}/${uiChecks.length} kiểm tra`);
 for (const item of grammarOutput.filter(row => !row.passed)) console.log(`Grammar lỗi: ${item.sample.id} · mong ${item.sample.ruleId || 'không cảnh báo'}, nhận ${item.finding?.ruleId || (item.findingCount ? item.findingCount + ' cảnh báo' : 'không có')}`);
 console.log(`Kết quả chi tiết: ${path.join(__dirname, 'score-baseline-results.json')}`);

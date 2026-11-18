@@ -1110,7 +1110,7 @@
     "part": 1,
     "topic": "Food",
     "question": "What food do you enjoy?",
-    "text": "I usually drink tea in the morning.",
+    "text": "I enjoy cooking simple meals at home.",
     "duration": 0,
     "expected": {
       "status": "scored",
@@ -1272,7 +1272,7 @@
     "part": 1,
     "topic": "Food",
     "question": "What food do you enjoy?",
-    "text": "I enjoy science documentaries about the ocean.",
+    "text": "My favourite dish is vegetable curry.",
     "duration": 0,
     "expected": {
       "status": "scored",
@@ -1319,7 +1319,7 @@
     "part": 1,
     "topic": "Food",
     "question": "What food do you enjoy?",
-    "text": "My favourite subject was biology at school.",
+    "text": "My favourite meal is a fresh salad.",
     "duration": 0,
     "expected": {
       "status": "scored",
@@ -1332,7 +1332,7 @@
   },
   {
     "id": "valid_band_4-01",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Hometown",
     "question": "What do you like about living in your town?",
@@ -1340,16 +1340,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 6,
-      "tolerance": 0.5,
-      "originalBand": 4,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_4-02",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Hobbies",
     "question": "What is your favourite hobby?",
@@ -1357,16 +1354,16 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 5.5,
-      "tolerance": 0.5,
-      "originalBand": 4,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true,
+      "max": {
+        "grammar": 4
+      }
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_4-03",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Education",
     "question": "What are you studying at college?",
@@ -1374,16 +1371,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 5.5,
-      "tolerance": 0.5,
-      "originalBand": 4,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_4-04",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Travel",
     "question": "Can you describe a trip you took with your family?",
@@ -1391,16 +1385,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 6.5,
-      "tolerance": 0.5,
-      "originalBand": 4,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_4-05",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Food",
     "question": "Do you enjoy cooking?",
@@ -1408,16 +1399,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 6,
-      "tolerance": 0.5,
-      "originalBand": 4,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_4-06",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Friendship",
     "question": "What do you value in a good friend?",
@@ -1425,16 +1413,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 5.5,
-      "tolerance": 0.5,
-      "originalBand": 4,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_4-07",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Technology",
     "question": "How often do you use your phone?",
@@ -1442,16 +1427,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 6,
-      "tolerance": 0.5,
-      "originalBand": 4,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_4-08",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Local places",
     "question": "Is there a park near your home?",
@@ -1459,16 +1441,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 6,
-      "tolerance": 0.5,
-      "originalBand": 4,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_4-09",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Weather",
     "question": "Which season do you like most?",
@@ -1476,16 +1455,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 4,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_4-10",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Language learning",
     "question": "How do you practise speaking English?",
@@ -1493,16 +1469,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 6.5,
-      "tolerance": 0.5,
-      "originalBand": 4,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_5-01",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Hometown",
     "question": "What do you like about the city where you live?",
@@ -1510,16 +1483,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 5,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_5-02",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Cycling",
     "question": "What activity helps you relax or stay active?",
@@ -1527,16 +1497,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 6.5,
-      "tolerance": 0.5,
-      "originalBand": 5,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_5-03",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Education",
     "question": "Which school subject did you find useful?",
@@ -1544,16 +1511,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 5,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_5-04",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Free time",
     "question": "How do you prefer to spend your free time?",
@@ -1561,16 +1525,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 5,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_5-05",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Travel",
     "question": "Can you describe a trip you remember well?",
@@ -1578,16 +1539,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 5,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_5-06",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "People",
     "question": "Who has influenced an important decision in your life?",
@@ -1595,16 +1553,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 5,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_5-07",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Technology",
     "question": "How do you use a laptop for study?",
@@ -1612,16 +1567,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 5,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_5-08",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Weather",
     "question": "Which season do you enjoy most?",
@@ -1629,16 +1581,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 5,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_5-09",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Food",
     "question": "Who taught you to make a drink or dish?",
@@ -1646,16 +1595,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 5,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_5-10",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 1,
     "topic": "Transport",
     "question": "Why should people use public transport?",
@@ -1663,16 +1609,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7.5,
-      "tolerance": 0.5,
-      "originalBand": 5,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_6-01",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Hometown",
     "question": "What do you like about your neighbourhood?",
@@ -1680,16 +1623,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 6,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_6-02",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Hobbies",
     "question": "How did you become interested in cooking?",
@@ -1697,16 +1637,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 6,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_6-03",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Travel",
     "question": "Can you describe a memorable journey?",
@@ -1714,16 +1651,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7.5,
-      "tolerance": 0.5,
-      "originalBand": 6,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_6-04",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Education",
     "question": "Should schools teach more practical skills?",
@@ -1731,16 +1665,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 6,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_6-05",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Friendship",
     "question": "What makes a close friendship valuable?",
@@ -1748,16 +1679,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7.5,
-      "tolerance": 0.5,
-      "originalBand": 6,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_6-06",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Technology",
     "question": "How do you use technology in daily life?",
@@ -1765,16 +1693,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 6.5,
-      "tolerance": 0.5,
-      "originalBand": 6,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_6-07",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Public places",
     "question": "What public place do you enjoy visiting?",
@@ -1782,16 +1707,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 6,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_6-08",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Skills",
     "question": "What skill would you like to improve?",
@@ -1799,16 +1721,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 6,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_6-09",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Advice",
     "question": "What is the most useful advice you have received?",
@@ -1816,16 +1735,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 6,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_6-10",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Travel",
     "question": "Do you prefer travelling alone or with friends?",
@@ -1833,16 +1749,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 6,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_7-01",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Society",
     "question": "How can cities become better places to live?",
@@ -1850,16 +1763,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 7,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_7-02",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "People",
     "question": "Describe a person you admire.",
@@ -1867,16 +1777,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 7,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_7-03",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Skills",
     "question": "What skill would you like to develop?",
@@ -1884,16 +1791,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 6.5,
-      "tolerance": 0.5,
-      "originalBand": 7,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_7-04",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Society",
     "question": "How can cities become better places to live?",
@@ -1901,16 +1805,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7.5,
-      "tolerance": 0.5,
-      "originalBand": 7,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_7-05",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Travel",
     "question": "Can you describe a memorable trip with friends?",
@@ -1918,16 +1819,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 7,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_7-06",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Reading",
     "question": "How has reading changed the way you see your city?",
@@ -1935,16 +1833,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 7,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_7-07",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Education",
     "question": "Why should schools encourage collaboration?",
@@ -1952,16 +1847,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 7,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_7-08",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Free time",
     "question": "What do you do to unwind?",
@@ -1969,16 +1861,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 7,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_7-09",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Technology",
     "question": "How has technology changed independent learning?",
@@ -1986,16 +1875,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 7,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_7-10",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Culture",
     "question": "Describe a local festival you attended.",
@@ -2003,16 +1889,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7.5,
-      "tolerance": 0.5,
-      "originalBand": 7,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_8-01",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Urban planning",
     "question": "How can cities become better places to live?",
@@ -2020,16 +1903,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 8,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_8-02",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "People",
     "question": "Describe a teacher who influenced you.",
@@ -2037,16 +1917,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 8,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_8-03",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Work",
     "question": "Should organisations introduce a shorter working week?",
@@ -2054,16 +1931,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7.5,
-      "tolerance": 0.5,
-      "originalBand": 8,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_8-04",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Travel",
     "question": "Describe a journey that stands out in your memory.",
@@ -2071,16 +1945,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 8,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_8-05",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Reading",
     "question": "How has reading changed in the digital age?",
@@ -2088,16 +1959,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 8,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_8-06",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Culture",
     "question": "How can tourism preserve local heritage?",
@@ -2105,16 +1973,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7.5,
-      "tolerance": 0.5,
-      "originalBand": 8,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_8-07",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Education",
     "question": "Describe a research project that taught you something.",
@@ -2122,16 +1987,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 8,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_8-08",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Transport",
     "question": "How can cities encourage more people to cycle?",
@@ -2139,16 +2001,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7.5,
-      "tolerance": 0.5,
-      "originalBand": 8,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_8-09",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Education",
     "question": "How has your approach to learning changed?",
@@ -2156,16 +2015,13 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 8,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
   {
     "id": "valid_band_8-10",
-    "group": "text_only_band_calibration",
+    "group": "text_only_estimate_honesty",
     "part": 3,
     "topic": "Technology",
     "question": "What are the benefits and drawbacks of social media?",
@@ -2173,10 +2029,7 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "band": 7,
-      "tolerance": 0.5,
-      "originalBand": 8,
-      "basis": "synthetic text-only estimate; no speech audio"
+      "textOnly": true
     },
     "source": "synthetic"
   },
@@ -2750,10 +2603,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2767,10 +2620,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2784,10 +2637,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2801,10 +2654,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2818,10 +2671,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2835,10 +2688,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2852,10 +2705,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2869,10 +2722,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2886,10 +2739,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2903,10 +2756,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2920,10 +2773,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2937,10 +2790,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2954,10 +2807,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2971,10 +2824,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },
@@ -2988,10 +2841,10 @@
     "duration": 0,
     "expected": {
       "status": "scored",
-      "range": [
-        7,
-        9
-      ]
+      "textOnly": true,
+      "min": {
+        "lexical": 5.5
+      }
     },
     "source": "synthetic"
   },

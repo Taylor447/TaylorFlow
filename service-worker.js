@@ -1,4 +1,4 @@
-const VERSION='epu-pwa-v3';
+const VERSION='epu-pwa-v13';
 const SHELL_CACHE='epu-shell-'+VERSION;
 const ASSET_CACHE='epu-pwa-assets-'+VERSION;
 const SCOPE=self.registration.scope;
@@ -9,7 +9,13 @@ const CAMPUS_PATH=new URL(CAMPUS_URL).pathname;
 const CORE_URLS=[
  new URL('./manifest.webmanifest',SCOPE).href,
  new URL('./assets/pwa/icon-192.png',SCOPE).href,
- new URL('./assets/pwa/icon-512.png',SCOPE).href
+ new URL('./assets/pwa/icon-512.png',SCOPE).href,
+ new URL('./assets/placement/cat.js',SCOPE).href,
+ new URL('./assets/placement/learning-core.js',SCOPE).href,
+ new URL('./assets/placement/learning-system.js',SCOPE).href,
+ new URL('./assets/placement/learning.css',SCOPE).href,
+ new URL('./assets/placement/liquid-library.css',SCOPE).href,
+ ...['bank-A1-01.js','bank-A2-01.js','bank-A2-02.js','bank-B1-01.js','bank-B1-02.js','bank-B2-01.js','bank-B2-02.js','bank-C1-01.js','bank-C1-02.js','bank-C2-01.js'].map(file=>new URL('./assets/placement/'+file,SCOPE).href)
 ];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
  const cache=await caches.open(SHELL_CACHE);
