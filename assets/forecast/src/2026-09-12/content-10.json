@@ -1,0 +1,672 @@
+{
+  "schemaVersion": 1,
+  "part1Topics": [],
+  "part2CueCards": [
+    {
+      "id": "technology-that-saves-time",
+      "topic": "A piece of technology that saves time",
+      "task": "Describe a piece of technology that saves you time.",
+      "bullets": [
+        "what the technology is",
+        "when you started using it",
+        "what you use it for",
+        "how it saves time"
+      ],
+      "conclusion": "and explain whether you could manage without it.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn thiết bị dùng để tập trung hoặc xử lý công việc thường ngày",
+          "Nêu tình huống trước và sau khi có thiết bị",
+          "Cân nhắc lợi ích với thời gian dùng màn hình"
+        ],
+        "vocab": [
+          {
+            "en": "noise-cancelling headphones",
+            "vi": "tai nghe chống ồn"
+          },
+          {
+            "en": "block out background noise",
+            "vi": "chặn tiếng ồn xung quanh"
+          },
+          {
+            "en": "switch between devices",
+            "vi": "chuyển giữa các thiết bị"
+          },
+          {
+            "en": "focus on a task",
+            "vi": "tập trung vào nhiệm vụ"
+          },
+          {
+            "en": "save repeated effort",
+            "vi": "tiết kiệm công sức lặp lại"
+          },
+          {
+            "en": "use it in moderation",
+            "vi": "sử dụng ở mức vừa phải"
+          }
+        ],
+        "grammar": "Dùng present perfect kể từ khi bắt đầu sử dụng, rồi hiện tại đơn mô tả lợi ích thường xuyên.",
+        "sample": "A piece of technology that saves me time is a pair of noise-cancelling headphones. I started using them when I began studying more often in shared spaces. Before that, I sometimes had to move seats or wait for a quiet moment whenever people were talking nearby. Now I can block out much of the background noise and focus on reading or listening practice. The headphones connect to my phone and laptop, so I can switch between devices without setting everything up again. I also use them on public transport, which makes it easier to listen to a lesson while travelling. They do not remove every sound, and I keep the volume at a comfortable level. I would not wear them constantly because I still need to notice announcements and people around me. The main benefit is that I can start a task sooner instead of spending time searching for a perfectly quiet place. I could manage without them, but I would probably need more breaks or a different study location. They are a convenience rather than a necessity, and I try to use them in moderation. Overall, they help me protect focused time in a busy environment and make short study sessions more productive.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "technology-that-saves-time-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How has technology changed the way people work?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Công cụ số tăng tốc trao đổi và xử lý dữ liệu",
+              "Làm việc từ xa tạo linh hoạt nhưng có thể kéo dài giờ trực tuyến"
+            ],
+            "vocab": [
+              {
+                "en": "automate routine tasks",
+                "vi": "tự động hóa công việc thường lệ"
+              },
+              {
+                "en": "collaborate remotely",
+                "vi": "hợp tác từ xa"
+              },
+              {
+                "en": "share information quickly",
+                "vi": "chia sẻ thông tin nhanh"
+              },
+              {
+                "en": "stay connected after hours",
+                "vi": "giữ kết nối ngoài giờ"
+              },
+              {
+                "en": "adapt to new tools",
+                "vi": "thích nghi với công cụ mới"
+              },
+              {
+                "en": "set clear boundaries",
+                "vi": "đặt giới hạn rõ ràng"
+              }
+            ],
+            "grammar": "Dùng while để nêu lợi ích và thách thức của công nghệ tại nơi làm việc.",
+            "sample": "Technology has made it easier to automate routine tasks, share information and collaborate with colleagues in different locations. Remote tools can give workers more flexibility. However, being constantly connected may make it harder to separate work from personal time. Employers need to provide training and set clear boundaries, so technology supports productivity without creating an expectation that staff respond at every hour.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "technology-that-saves-time-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Can technology make people less independent?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Dựa quá nhiều vào gợi ý có thể làm giảm thực hành kỹ năng",
+              "Công cụ cũng mở rộng khả năng tự giải quyết vấn đề"
+            ],
+            "vocab": [
+              {
+                "en": "rely on automated suggestions",
+                "vi": "dựa vào gợi ý tự động"
+              },
+              {
+                "en": "keep basic skills sharp",
+                "vi": "duy trì kỹ năng cơ bản"
+              },
+              {
+                "en": "solve a problem independently",
+                "vi": "tự giải quyết vấn đề"
+              },
+              {
+                "en": "use a tool as support",
+                "vi": "dùng công cụ để hỗ trợ"
+              },
+              {
+                "en": "understand the limitations",
+                "vi": "hiểu các giới hạn"
+              },
+              {
+                "en": "make a considered choice",
+                "vi": "đưa ra lựa chọn cân nhắc"
+              }
+            ],
+            "grammar": "Dùng can support independence, provided that để nêu điều kiện sử dụng hợp lý.",
+            "sample": "Technology can make people less independent if they rely on automated suggestions without understanding them. At the same time, a map, translation tool or accessible device can help someone solve a problem on their own. The effect depends on how the tool is used. People should keep basic skills sharp and understand limitations, treating technology as support rather than handing every decision to it.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "technology-that-saves-time-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can technology be designed to help people with disabilities?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tùy chọn chữ, âm thanh và điều khiển giúp tiếp cận",
+              "Tham khảo người dùng khuyết tật trong quá trình thiết kế"
+            ],
+            "vocab": [
+              {
+                "en": "adjustable text size",
+                "vi": "cỡ chữ có thể điều chỉnh"
+              },
+              {
+                "en": "screen-reader support",
+                "vi": "hỗ trợ trình đọc màn hình"
+              },
+              {
+                "en": "voice control",
+                "vi": "điều khiển bằng giọng nói"
+              },
+              {
+                "en": "design with users",
+                "vi": "thiết kế cùng người dùng"
+              },
+              {
+                "en": "remove an access barrier",
+                "vi": "loại bỏ rào cản tiếp cận"
+              },
+              {
+                "en": "work across devices",
+                "vi": "hoạt động trên nhiều thiết bị"
+              }
+            ],
+            "grammar": "Dùng designers should involve để nhấn vai trò tham gia của người dùng trong thiết kế.",
+            "sample": "Designers should involve people with disabilities throughout testing, rather than guess what support they need. Adjustable text, screen-reader compatibility, captions and voice control can remove different access barriers. Features should also work across common devices and be easy to find. Accessibility is most effective when it is part of the original design, because retrofitting a product later can be expensive and incomplete.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "technology-that-saves-time-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Should people replace electronic devices as soon as a newer model appears?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Thiết bị cũ vẫn đủ dùng thì không cần thay ngay",
+              "Cân nhắc sửa chữa, an ninh và tuổi thọ hỗ trợ"
+            ],
+            "vocab": [
+              {
+                "en": "a newer model",
+                "vi": "mẫu mới hơn"
+              },
+              {
+                "en": "still meet basic needs",
+                "vi": "vẫn đáp ứng nhu cầu cơ bản"
+              },
+              {
+                "en": "security updates",
+                "vi": "bản cập nhật bảo mật"
+              },
+              {
+                "en": "repair the existing device",
+                "vi": "sửa thiết bị hiện có"
+              },
+              {
+                "en": "electronic waste",
+                "vi": "rác thải điện tử"
+              },
+              {
+                "en": "consider the full lifespan",
+                "vi": "cân nhắc toàn bộ tuổi thọ"
+              }
+            ],
+            "grammar": "Dùng there is little reason to replace khi thiết bị hiện tại vẫn đáp ứng mục đích.",
+            "sample": "There is little reason to replace a device simply because a newer model appears, if the current one still meets basic needs. People should consider security updates, repair options and the product's remaining lifespan. Replacing useful electronics too often contributes to waste and extra expense. A newer model may be worthwhile when it improves safety or accessibility, but the decision should be based on need rather than marketing alone.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A device that helps me focus"
+    },
+    {
+      "id": "person-i-admire",
+      "topic": "A person you admire",
+      "task": "Describe a person you admire.",
+      "bullets": [
+        "who the person is",
+        "how you know about them",
+        "what qualities you admire",
+        "what you have learned from them"
+      ],
+      "conclusion": "and explain how this person has influenced you.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn người thân hoặc người trong cộng đồng bạn quan sát được",
+          "Nêu hành động cụ thể thể hiện phẩm chất",
+          "Liên hệ một thói quen bạn muốn học theo"
+        ],
+        "vocab": [
+          {
+            "en": "lead by example",
+            "vi": "làm gương bằng hành động"
+          },
+          {
+            "en": "make time for others",
+            "vi": "dành thời gian cho người khác"
+          },
+          {
+            "en": "follow through on a promise",
+            "vi": "thực hiện đúng lời hứa"
+          },
+          {
+            "en": "a quiet determination",
+            "vi": "sự quyết tâm âm thầm"
+          },
+          {
+            "en": "earn people's trust",
+            "vi": "chiếm được lòng tin của mọi người"
+          },
+          {
+            "en": "influence me in a positive way",
+            "vi": "ảnh hưởng đến tôi theo hướng tích cực"
+          }
+        ],
+        "grammar": "Dùng hiện tại đơn mô tả phẩm chất, quá khứ đơn kể ví dụ và hiện tại hoàn thành nói ảnh hưởng đến nay.",
+        "sample": "A person I admire is my aunt, who helps organise a small reading group at a community centre. I have known her all my life, but I began to appreciate her more when I saw how consistently she gives her time to other people. She is not a public figure or someone who talks about success. Instead, she follows through on small promises, such as bringing books for children or checking that older visitors have a way to get home. When a planned session was cancelled because the room was unavailable, she found another local space and contacted everyone before they arrived. Her quiet determination earned the trust of the group. I admire her because she makes practical contributions without expecting attention. She also listens carefully when people suggest a change, which helps the activities feel welcoming. Watching her has influenced me to be more reliable in my own commitments. I now try to confirm plans early and offer specific help instead of saying vaguely that I am available. I do not think I can copy everything she does, but I have learned that kindness is often shown through repeated actions. Her example has reminded me that a person can make a positive difference within a small community, even without a formal title or a large audience.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "person-i-admire-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What qualities make a person a good role model?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Hành động nhất quán tạo sự tin cậy",
+              "Biết thừa nhận sai và tôn trọng người khác"
+            ],
+            "vocab": [
+              {
+                "en": "act with integrity",
+                "vi": "hành động chính trực"
+              },
+              {
+                "en": "treat people fairly",
+                "vi": "đối xử công bằng"
+              },
+              {
+                "en": "admit a mistake",
+                "vi": "thừa nhận sai lầm"
+              },
+              {
+                "en": "keep commitments",
+                "vi": "giữ cam kết"
+              },
+              {
+                "en": "show respect in practice",
+                "vi": "thể hiện sự tôn trọng qua hành động"
+              },
+              {
+                "en": "set a realistic example",
+                "vi": "làm gương thực tế"
+              }
+            ],
+            "grammar": "Dùng should be someone who để định nghĩa hình mẫu bằng hành vi cụ thể.",
+            "sample": "A good role model should act with integrity and treat people fairly, including when no reward is involved. Keeping commitments and admitting mistakes make someone more trustworthy. It is also important that their example is realistic rather than perfect, because people learn from seeing how challenges are handled. Admiration is healthiest when it encourages others to develop their own values instead of copying every choice.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "person-i-admire-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can public figures influence young people?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Thành tựu có thể truyền cảm hứng và làm lộ trình nghề nghiệp dễ thấy",
+              "Hành vi công khai cũng có thể tạo kỳ vọng thiếu thực tế"
+            ],
+            "vocab": [
+              {
+                "en": "shape public attitudes",
+                "vi": "định hình thái độ công chúng"
+              },
+              {
+                "en": "promote a positive habit",
+                "vi": "khuyến khích thói quen tích cực"
+              },
+              {
+                "en": "an unrealistic image",
+                "vi": "hình ảnh thiếu thực tế"
+              },
+              {
+                "en": "use a platform responsibly",
+                "vi": "sử dụng tầm ảnh hưởng có trách nhiệm"
+              },
+              {
+                "en": "inspire a career interest",
+                "vi": "khơi gợi hứng thú nghề nghiệp"
+              },
+              {
+                "en": "think critically about messages",
+                "vi": "suy nghĩ phản biện về thông điệp"
+              }
+            ],
+            "grammar": "Dùng can shape để nêu ảnh hưởng tới thái độ; thêm however khi muốn trình bày mặt trái.",
+            "sample": "Public figures can shape attitudes by talking about work, education, health or social issues. Their achievements may inspire a young person to explore a new career. However, constant promotion of wealth or appearance can create unrealistic expectations. Public figures should use their platform responsibly, and schools and families can help young people think critically about messages rather than accept every image as a complete picture.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "person-i-admire-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Do children need famous people as role models?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Người nổi tiếng có thể mở rộng hình dung về khả năng",
+              "Người gần gũi cho ví dụ thực tế trong đời sống"
+            ],
+            "vocab": [
+              {
+                "en": "look up to someone",
+                "vi": "ngưỡng mộ ai đó"
+              },
+              {
+                "en": "show what is possible",
+                "vi": "cho thấy điều gì có thể làm được"
+              },
+              {
+                "en": "a relatable example",
+                "vi": "tấm gương gần gũi"
+              },
+              {
+                "en": "influence everyday behaviour",
+                "vi": "ảnh hưởng hành vi hằng ngày"
+              },
+              {
+                "en": "learn from different people",
+                "vi": "học hỏi từ nhiều người"
+              },
+              {
+                "en": "balance public and personal examples",
+                "vi": "cân bằng hình mẫu công chúng và cá nhân"
+              }
+            ],
+            "grammar": "Dùng children can learn from several types of people để tránh lựa chọn nhị nguyên.",
+            "sample": "Famous people can show children what is possible in sport, science or the arts, but they are not the only useful role models. Parents, teachers and neighbours demonstrate everyday responsibility and kindness. Children can learn from several types of people, especially when adults help them discuss both strengths and mistakes. A balance of public and personal examples gives a more complete picture of success.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "person-i-admire-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why do some people admire actions more than achievements?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Thành tựu cho thấy kết quả nhưng không giải thích cách đạt được",
+              "Hành vi hằng ngày thể hiện giá trị và cách đối xử"
+            ],
+            "vocab": [
+              {
+                "en": "the process behind success",
+                "vi": "quá trình phía sau thành công"
+              },
+              {
+                "en": "everyday acts of kindness",
+                "vi": "hành động tử tế hằng ngày"
+              },
+              {
+                "en": "show personal values",
+                "vi": "thể hiện giá trị cá nhân"
+              },
+              {
+                "en": "treat others with care",
+                "vi": "đối xử ân cần với người khác"
+              },
+              {
+                "en": "look beyond public recognition",
+                "vi": "nhìn xa hơn sự công nhận công khai"
+              },
+              {
+                "en": "leave a meaningful impact",
+                "vi": "để lại ảnh hưởng ý nghĩa"
+              }
+            ],
+            "grammar": "Dùng whereas để phân biệt kết quả nổi bật với hành động thường ngày.",
+            "sample": "Achievements are visible, but they may not show how a person reached them or treated others along the way. Everyday actions can reveal values more directly, such as whether someone keeps a promise or offers help without attention. People may admire both, but consistent behaviour often feels more relatable. It suggests that a meaningful impact is possible without public recognition or an exceptional career.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "Someone who contributes quietly"
+    },
+    {
+      "id": "future-job",
+      "topic": "A job you would like to do",
+      "task": "Describe a job that you would like to do in the future.",
+      "bullets": [
+        "what the job would be",
+        "what kind of work it involves",
+        "what skills it requires",
+        "why it interests you"
+      ],
+      "conclusion": "and explain what you might do to prepare for this job.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn nghề có nhiệm vụ bạn muốn làm hằng ngày",
+          "Nêu kỹ năng cần học và phần khó có thể gặp",
+          "Mô tả bước chuẩn bị thực tế"
+        ],
+        "vocab": [
+          {
+            "en": "a career in urban planning",
+            "vi": "nghề quy hoạch đô thị"
+          },
+          {
+            "en": "design liveable neighbourhoods",
+            "vi": "thiết kế khu dân cư đáng sống"
+          },
+          {
+            "en": "balance different priorities",
+            "vi": "cân bằng các ưu tiên khác nhau"
+          },
+          {
+            "en": "work with local communities",
+            "vi": "làm việc với cộng đồng địa phương"
+          },
+          {
+            "en": "develop technical knowledge",
+            "vi": "phát triển kiến thức chuyên môn"
+          },
+          {
+            "en": "gain relevant experience",
+            "vi": "tích lũy kinh nghiệm phù hợp"
+          }
+        ],
+        "grammar": "Dùng would be interested in + V-ing để nêu sở thích nghề và would need to để nói yêu cầu.",
+        "sample": "A job I would like to do in the future is urban planning. I am interested in how streets, parks, housing and public transport fit together and affect daily life. The work involves studying maps and local information, discussing proposals with residents and helping design liveable neighbourhoods. A planner needs technical knowledge, clear communication and the ability to balance different priorities. For example, a road project may improve travel times but affect nearby homes or trees. I like the idea of finding practical solutions that serve several groups rather than focusing on one feature. I know the work can involve regulations, long meetings and difficult trade-offs, so it would not be creative every day. To prepare, I would study geography or planning, improve my data skills and learn how public consultations work. I would also look for an internship or volunteer project connected to community design. I have not decided that this will definitely be my career, but researching it has made me more curious about how neighbourhoods develop. I would find the job meaningful if I could combine evidence with local knowledge and see a plan improve people's everyday experience over time.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "future-job-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What factors should young people consider when choosing a career?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Cân nhắc sở thích và kỹ năng hiện tại",
+              "Xem xét cơ hội, thu nhập, môi trường và khả năng đổi hướng"
+            ],
+            "vocab": [
+              {
+                "en": "match personal strengths",
+                "vi": "phù hợp thế mạnh cá nhân"
+              },
+              {
+                "en": "research employment options",
+                "vi": "tìm hiểu lựa chọn việc làm"
+              },
+              {
+                "en": "consider working conditions",
+                "vi": "cân nhắc điều kiện làm việc"
+              },
+              {
+                "en": "develop transferable skills",
+                "vi": "phát triển kỹ năng dùng ở nhiều nghề"
+              },
+              {
+                "en": "allow room to change direction",
+                "vi": "chừa khả năng đổi hướng"
+              },
+              {
+                "en": "make an informed decision",
+                "vi": "đưa ra quyết định có đủ thông tin"
+              }
+            ],
+            "grammar": "Dùng should consider both để nhóm ưu tiên cá nhân và điều kiện thực tế.",
+            "sample": "Young people should consider both personal interests and practical conditions such as job availability, training and working hours. Matching a career to current strengths can make learning more engaging, while transferable skills keep future options open. Income matters, but it is not the only factor. Talking to people in a field and trying a short placement can help someone make a more informed decision.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "future-job-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How might automation affect jobs in the future?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Một số nhiệm vụ lặp lại có thể tự động hóa",
+              "Nhu cầu kỹ năng mới và vai trò giám sát có thể tăng"
+            ],
+            "vocab": [
+              {
+                "en": "automate repetitive work",
+                "vi": "tự động hóa việc lặp lại"
+              },
+              {
+                "en": "change the task mix",
+                "vi": "thay đổi cơ cấu nhiệm vụ"
+              },
+              {
+                "en": "create new roles",
+                "vi": "tạo vai trò mới"
+              },
+              {
+                "en": "reskill the workforce",
+                "vi": "đào tạo lại lực lượng lao động"
+              },
+              {
+                "en": "human judgement",
+                "vi": "đánh giá của con người"
+              },
+              {
+                "en": "share productivity gains",
+                "vi": "chia sẻ lợi ích năng suất"
+              }
+            ],
+            "grammar": "Dùng may change rather than eliminate all jobs để dự báo có điều kiện.",
+            "sample": "Automation may change the task mix in many jobs rather than eliminate every role. Repetitive work can be handled by software or machines, while people may focus more on judgement, communication and oversight. Some new roles will emerge, and workers may need retraining. The effects will vary by industry, so employers and governments should help people reskill and share productivity gains fairly.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "future-job-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Is job satisfaction more important than a high salary?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Cả thu nhập ổn định và sự hài lòng đều quan trọng",
+              "Mức ưu tiên tùy trách nhiệm và giai đoạn cuộc sống"
+            ],
+            "vocab": [
+              {
+                "en": "meet basic expenses",
+                "vi": "đáp ứng chi phí cơ bản"
+              },
+              {
+                "en": "feel engaged at work",
+                "vi": "cảm thấy gắn kết với công việc"
+              },
+              {
+                "en": "a fair salary",
+                "vi": "mức lương công bằng"
+              },
+              {
+                "en": "long-term well-being",
+                "vi": "hạnh phúc lâu dài"
+              },
+              {
+                "en": "financial responsibilities",
+                "vi": "trách nhiệm tài chính"
+              },
+              {
+                "en": "find a workable balance",
+                "vi": "tìm sự cân bằng khả thi"
+              }
+            ],
+            "grammar": "Dùng neither factor should be ignored để mở câu trả lời cân bằng.",
+            "sample": "Neither job satisfaction nor salary should be ignored. A fair income helps people meet expenses and manage responsibilities, while meaningful work can support motivation and long-term well-being. The balance depends on a person's stage of life and financial situation. Someone with dependants may prioritise stability for a time, whereas another person might accept a lower salary for a role that offers valuable learning or healthier conditions.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "future-job-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What can schools do to prepare students for working life?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Kết hợp môn học với dự án và kỹ năng giao tiếp",
+              "Giúp học sinh khám phá nghề qua trải nghiệm ngắn"
+            ],
+            "vocab": [
+              {
+                "en": "practise clear communication",
+                "vi": "luyện giao tiếp rõ ràng"
+              },
+              {
+                "en": "complete a team project",
+                "vi": "hoàn thành dự án nhóm"
+              },
+              {
+                "en": "understand workplace expectations",
+                "vi": "hiểu kỳ vọng nơi làm việc"
+              },
+              {
+                "en": "explore different professions",
+                "vi": "khám phá nhiều nghề"
+              },
+              {
+                "en": "learn from a short placement",
+                "vi": "học qua đợt trải nghiệm ngắn"
+              },
+              {
+                "en": "connect lessons to real tasks",
+                "vi": "kết nối bài học với nhiệm vụ thực tế"
+              }
+            ],
+            "grammar": "Dùng schools can prepare students by combining để đề xuất nhiều hình thức học.",
+            "sample": "Schools can prepare students by combining subject knowledge with communication, teamwork and practical projects. Short workplace visits or placements can help learners understand different professions before they choose a path. Teachers can also connect lessons to real tasks, such as planning a budget or presenting a proposal. Career preparation should inform students without forcing them to make a permanent decision too early.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A career I am exploring"
+    }
+  ]
+}

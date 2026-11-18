@@ -1,0 +1,894 @@
+{
+  "schemaVersion": 1,
+  "part1Topics": [],
+  "part2CueCards": [
+    {
+      "id": "memorable-conversation",
+      "topic": "A conversation you remember",
+      "task": "Describe a conversation that you remember clearly.",
+      "bullets": [
+        "who you spoke with",
+        "where and when the conversation happened",
+        "what you talked about",
+        "why you remember it"
+      ],
+      "conclusion": "and explain how the conversation affected you.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn cuộc trò chuyện giúp bạn hiểu một người hoặc quyết định",
+          "Nêu chủ đề mở đầu và lúc câu chuyện trở nên đáng nhớ",
+          "Kết nối điều bạn nghĩ khác đi sau đó"
+        ],
+        "vocab": [
+          {
+            "en": "listen without interrupting",
+            "vi": "lắng nghe không ngắt lời"
+          },
+          {
+            "en": "share an honest opinion",
+            "vi": "chia sẻ ý kiến chân thật"
+          },
+          {
+            "en": "a thoughtful question",
+            "vi": "câu hỏi gợi suy nghĩ"
+          },
+          {
+            "en": "see the situation differently",
+            "vi": "nhìn tình huống theo cách khác"
+          },
+          {
+            "en": "a calm conversation",
+            "vi": "cuộc trò chuyện bình tĩnh"
+          },
+          {
+            "en": "stay with me afterwards",
+            "vi": "còn đọng lại với tôi sau đó"
+          }
+        ],
+        "grammar": "Dùng quá khứ đơn kể cuộc nói chuyện và since then để nêu ảnh hưởng kéo dài.",
+        "sample": "A conversation I remember clearly was with my older cousin during a walk after dinner. I had been worrying about choosing between two study options and kept asking other people which one was better. My cousin listened without interrupting and then asked what kind of daily work I could imagine enjoying. That thoughtful question changed the direction of the conversation. We talked about my strengths, the subjects I liked and the practical differences between the programmes. My cousin did not tell me which option to choose. Instead, he shared how he had made a similar decision and explained that it was useful to consider both interest and realistic opportunities. I realised I had been focusing too much on what other people might approve of. The conversation was calm, and we did not need to reach a final answer that evening. Afterward, I wrote down a few questions to research and spoke with someone studying each subject. I remember the conversation because it helped me think independently rather than expect someone else to decide for me. Since then, I have tried to ask myself what matters before requesting advice. It was a simple discussion, but its effect stayed with me and made a stressful choice feel more manageable.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "memorable-conversation-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What makes someone a good listener?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tập trung vào người nói và hỏi để làm rõ",
+              "Không vội phán xét hay đưa lời khuyên"
+            ],
+            "vocab": [
+              {
+                "en": "give someone full attention",
+                "vi": "dành sự chú ý đầy đủ"
+              },
+              {
+                "en": "ask a follow-up question",
+                "vi": "đặt câu hỏi tiếp nối"
+              },
+              {
+                "en": "show genuine interest",
+                "vi": "thể hiện sự quan tâm chân thành"
+              },
+              {
+                "en": "avoid jumping to conclusions",
+                "vi": "tránh vội đi đến kết luận"
+              },
+              {
+                "en": "notice the speaker's feelings",
+                "vi": "nhận ra cảm xúc người nói"
+              },
+              {
+                "en": "respond thoughtfully",
+                "vi": "phản hồi có suy nghĩ"
+              }
+            ],
+            "grammar": "Dùng rather than để phân biệt lắng nghe với việc lập tức đưa lời khuyên.",
+            "sample": "A good listener gives someone full attention and avoids checking a phone or planning a reply while the other person is speaking. Asking a thoughtful follow-up question shows genuine interest. It also helps to notice the speaker's feelings instead of judging immediately. Good listening does not always require advice; sometimes a calm response and a chance to explain are more useful.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "memorable-conversation-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Do people communicate differently online and face to face?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tin nhắn cho thời gian suy nghĩ nhưng thiếu sắc thái",
+              "Gặp trực tiếp giúp nhận ra ngôn ngữ cơ thể"
+            ],
+            "vocab": [
+              {
+                "en": "read facial expressions",
+                "vi": "đọc nét mặt"
+              },
+              {
+                "en": "choose words carefully",
+                "vi": "chọn từ ngữ cẩn thận"
+              },
+              {
+                "en": "miss a subtle tone",
+                "vi": "bỏ lỡ sắc thái tinh tế"
+              },
+              {
+                "en": "reply at a convenient time",
+                "vi": "trả lời vào lúc thuận tiện"
+              },
+              {
+                "en": "a real-time exchange",
+                "vi": "cuộc trao đổi tức thời"
+              },
+              {
+                "en": "avoid misunderstandings",
+                "vi": "tránh hiểu lầm"
+              }
+            ],
+            "grammar": "Dùng whereas để đối chiếu tin nhắn với cuộc trao đổi trực tiếp.",
+            "sample": "Online messages give people time to choose words and reply at a convenient time. However, it can be difficult to read tone or facial expressions, which may lead to misunderstandings. Face-to-face communication offers a real-time exchange and more non-verbal information, but it requires people to be available at the same moment. Many people choose the channel based on the topic and urgency.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "memorable-conversation-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can people handle disagreements in a conversation?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tập trung vào vấn đề thay vì công kích cá nhân",
+              "Tóm tắt quan điểm đối phương trước khi phản hồi"
+            ],
+            "vocab": [
+              {
+                "en": "keep a respectful tone",
+                "vi": "giữ giọng điệu tôn trọng"
+              },
+              {
+                "en": "focus on the issue",
+                "vi": "tập trung vào vấn đề"
+              },
+              {
+                "en": "acknowledge another viewpoint",
+                "vi": "ghi nhận góc nhìn khác"
+              },
+              {
+                "en": "ask for clarification",
+                "vi": "xin làm rõ"
+              },
+              {
+                "en": "find common ground",
+                "vi": "tìm điểm chung"
+              },
+              {
+                "en": "pause before responding",
+                "vi": "dừng lại trước khi phản hồi"
+              }
+            ],
+            "grammar": "Dùng instead of + V-ing để khuyên tập trung nội dung thay vì công kích người nói.",
+            "sample": "People can handle disagreement better by keeping a respectful tone and asking for clarification before responding. It helps to summarise the other person's point, so they know it has been heard. Focusing on the issue instead of attacking someone's character makes a solution more likely. If emotions rise, a short pause can give both people time to think and find common ground.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "memorable-conversation-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Are conversations between older and younger people valuable?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Hai thế hệ chia sẻ kinh nghiệm và cách nhìn mới",
+              "Cần tôn trọng khác biệt về hoàn cảnh và công nghệ"
+            ],
+            "vocab": [
+              {
+                "en": "exchange life experience",
+                "vi": "trao đổi kinh nghiệm sống"
+              },
+              {
+                "en": "understand another generation",
+                "vi": "hiểu một thế hệ khác"
+              },
+              {
+                "en": "challenge an assumption",
+                "vi": "thách thức một giả định"
+              },
+              {
+                "en": "share practical knowledge",
+                "vi": "chia sẻ kiến thức thực tế"
+              },
+              {
+                "en": "respect different backgrounds",
+                "vi": "tôn trọng nền tảng khác nhau"
+              },
+              {
+                "en": "learn from each other",
+                "vi": "học hỏi lẫn nhau"
+              }
+            ],
+            "grammar": "Dùng both generations can để nhấn mạnh sự học hỏi hai chiều.",
+            "sample": "Conversations between generations can help people exchange experience and understand how daily life has changed. Older people may share practical knowledge, while younger people can introduce new perspectives or technology. Both generations can challenge assumptions, provided that they respect different backgrounds. These conversations are most valuable when people ask questions with curiosity rather than assume that one age group has all the answers.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A conversation that changed my view"
+    },
+    {
+      "id": "purchase-i-am-considering",
+      "topic": "Something you would like to buy",
+      "task": "Describe something that you would like to buy in the future.",
+      "bullets": [
+        "what you would like to buy",
+        "why you want it",
+        "how you would save or pay for it",
+        "how you would use it"
+      ],
+      "conclusion": "and explain why you have not bought it yet.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn món đồ thực dụng bạn đang cân nhắc",
+          "Nêu cách bạn so sánh giá và tính năng",
+          "Giải thích vì sao sẽ chờ trước khi mua"
+        ],
+        "vocab": [
+          {
+            "en": "save up for a purchase",
+            "vi": "tiết kiệm để mua món đồ"
+          },
+          {
+            "en": "compare different models",
+            "vi": "so sánh các mẫu khác nhau"
+          },
+          {
+            "en": "a dependable bicycle",
+            "vi": "chiếc xe đạp đáng tin cậy"
+          },
+          {
+            "en": "make the daily commute easier",
+            "vi": "giúp việc đi lại hằng ngày dễ hơn"
+          },
+          {
+            "en": "set a spending limit",
+            "vi": "đặt giới hạn chi tiêu"
+          },
+          {
+            "en": "buy only when I need it",
+            "vi": "chỉ mua khi thực sự cần"
+          }
+        ],
+        "grammar": "Dùng would like to cho dự định, câu điều kiện để nêu cách tiết kiệm và hiện tại đơn giải thích vì sao chờ.",
+        "sample": "Something I would like to buy is a dependable bicycle for short trips around my area. At the moment, I usually take a bus or ask a family member for a ride, even when the destination is not very far. A bicycle would make my daily commute easier and give me more flexibility. I have not chosen a model yet because I want to compare safety features, frame size and repair costs rather than buy the first one I see. I am setting a spending limit and putting aside a small amount each month. If I find a good second-hand bicycle in safe condition, I would consider that as well. I would use it for local errands and perhaps ride to a nearby park at weekends. Before buying, I would check that there is a secure place to store it and that the main routes are suitable for cycling. I do not want to spend money on something that will be inconvenient to use. The purchase is not urgent, so waiting gives me time to make a practical choice. I think it would be useful for several years and might encourage me to be more active, but I will buy it only when the cost and safety both make sense.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "purchase-i-am-considering-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What influences people's decisions when they buy expensive items?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Giá cả, độ bền và nhu cầu sử dụng",
+              "Đánh giá, bảo hành và tư vấn từ người đáng tin"
+            ],
+            "vocab": [
+              {
+                "en": "compare the total cost",
+                "vi": "so sánh tổng chi phí"
+              },
+              {
+                "en": "check the warranty",
+                "vi": "kiểm tra bảo hành"
+              },
+              {
+                "en": "read independent reviews",
+                "vi": "đọc đánh giá độc lập"
+              },
+              {
+                "en": "consider long-term use",
+                "vi": "cân nhắc sử dụng lâu dài"
+              },
+              {
+                "en": "seek trusted advice",
+                "vi": "tìm lời khuyên đáng tin"
+              },
+              {
+                "en": "avoid an impulse purchase",
+                "vi": "tránh mua bốc đồng"
+              }
+            ],
+            "grammar": "Dùng often depend on và liệt kê yếu tố bằng along with.",
+            "sample": "Expensive purchases often depend on price, durability and how frequently a person will use the item. Buyers may compare the total cost, read independent reviews and check the warranty. Advice from a trusted person can help, although individual needs differ. Taking time to compare options reduces impulse decisions and makes it more likely that the product will remain useful after the excitement of buying has passed.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "purchase-i-am-considering-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can cities make cycling safer and more attractive?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Làn xe đạp liên tục và giao lộ an toàn",
+              "Bãi đỗ chắc chắn cùng kết nối giao thông công cộng"
+            ],
+            "vocab": [
+              {
+                "en": "protected cycle lanes",
+                "vi": "làn xe đạp có bảo vệ"
+              },
+              {
+                "en": "safe road crossings",
+                "vi": "điểm qua đường an toàn"
+              },
+              {
+                "en": "secure bicycle parking",
+                "vi": "bãi đỗ xe đạp an toàn"
+              },
+              {
+                "en": "connect to public transport",
+                "vi": "kết nối với giao thông công cộng"
+              },
+              {
+                "en": "maintain road surfaces",
+                "vi": "bảo trì mặt đường"
+              },
+              {
+                "en": "encourage short trips",
+                "vi": "khuyến khích chuyến đi ngắn"
+              }
+            ],
+            "grammar": "Dùng cities can encourage cycling by để nêu biện pháp cụ thể.",
+            "sample": "Cities can encourage cycling by building protected lanes that connect useful destinations instead of stopping suddenly at busy roads. Safe crossings and secure bicycle parking also matter. If cyclists can combine a ride with public transport, longer journeys become more practical. Regular maintenance is important too, because broken surfaces can make a route unsafe. These changes may encourage people to use bicycles for short everyday trips.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "purchase-i-am-considering-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Is it important for consumers to save money before buying something?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tiết kiệm giảm áp lực vay và khuyến khích cân nhắc",
+              "Một số vật dụng thiết yếu có thể cần mua ngay"
+            ],
+            "vocab": [
+              {
+                "en": "plan a monthly budget",
+                "vi": "lập ngân sách hằng tháng"
+              },
+              {
+                "en": "avoid unnecessary debt",
+                "vi": "tránh nợ không cần thiết"
+              },
+              {
+                "en": "save gradually",
+                "vi": "tiết kiệm dần dần"
+              },
+              {
+                "en": "cover an essential need",
+                "vi": "đáp ứng nhu cầu thiết yếu"
+              },
+              {
+                "en": "weigh the urgency",
+                "vi": "cân nhắc mức độ cấp thiết"
+              },
+              {
+                "en": "make a planned purchase",
+                "vi": "mua theo kế hoạch"
+              }
+            ],
+            "grammar": "Dùng it is sensible to save when để nêu nguyên tắc và ngoại lệ.",
+            "sample": "Saving before a purchase is sensible when an item is expensive or not urgently needed. It helps people plan a budget and avoid unnecessary debt. However, essential needs such as a broken refrigerator may require a quicker decision, depending on a person's circumstances. The key is to weigh urgency against cost and make a planned purchase where possible, rather than spend impulsively under pressure.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "purchase-i-am-considering-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can people reduce the environmental impact of what they buy?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Mua món bền, sửa được và thật sự cần",
+              "Cân nhắc đồ cũ, bao bì và khả năng tái sử dụng"
+            ],
+            "vocab": [
+              {
+                "en": "choose a durable product",
+                "vi": "chọn sản phẩm bền"
+              },
+              {
+                "en": "repair before replacing",
+                "vi": "sửa trước khi thay"
+              },
+              {
+                "en": "buy second-hand",
+                "vi": "mua đồ đã qua sử dụng"
+              },
+              {
+                "en": "avoid excess packaging",
+                "vi": "tránh bao bì dư thừa"
+              },
+              {
+                "en": "reuse an item",
+                "vi": "dùng lại một món đồ"
+              },
+              {
+                "en": "consider the product's lifespan",
+                "vi": "cân nhắc tuổi thọ sản phẩm"
+              }
+            ],
+            "grammar": "Dùng by choosing và by repairing để liệt kê hành động giảm tác động.",
+            "sample": "Consumers can reduce their impact by choosing durable goods and repairing them before replacement. Buying second-hand is another option when an item is still safe and useful. People can also avoid excess packaging and reuse products for as long as practical. These choices do not remove every environmental cost, but considering a product's lifespan can help people buy less often and waste fewer materials.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A practical purchase"
+    },
+    {
+      "id": "useful-rule",
+      "topic": "A rule that is useful",
+      "task": "Describe a rule that you think is useful.",
+      "bullets": [
+        "what the rule is",
+        "where people are expected to follow it",
+        "why the rule exists",
+        "how it affects people's behaviour"
+      ],
+      "conclusion": "and explain whether you think the rule should stay in place.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn quy định giữ nơi chung sạch hoặc yên tĩnh",
+          "Mô tả lợi ích cho nhiều người",
+          "Nêu cách nhắc nhở công bằng thay vì chỉ phạt"
+        ],
+        "vocab": [
+          {
+            "en": "keep shared areas tidy",
+            "vi": "giữ khu vực chung ngăn nắp"
+          },
+          {
+            "en": "respect other people's space",
+            "vi": "tôn trọng không gian người khác"
+          },
+          {
+            "en": "a reasonable expectation",
+            "vi": "kỳ vọng hợp lý"
+          },
+          {
+            "en": "apply the rule consistently",
+            "vi": "áp dụng quy định nhất quán"
+          },
+          {
+            "en": "prevent avoidable conflict",
+            "vi": "ngăn xung đột có thể tránh"
+          },
+          {
+            "en": "review it from time to time",
+            "vi": "xem xét lại định kỳ"
+          }
+        ],
+        "grammar": "Dùng the rule requires people to để nêu nội dung, sau đó because để giải thích mục đích.",
+        "sample": "A useful rule at my local library is that visitors should keep conversations quiet in the study area. The library also has a separate space where people can talk in a normal voice. I think the rule is reasonable because students, readers and people working online need different levels of concentration. A sign explains the quiet area near the entrance, so visitors know what to expect before they sit down. Most people follow it without being reminded. If someone forgets, a staff member usually gives a polite request rather than immediately treating the situation as a serious offence. This approach keeps the space comfortable and prevents avoidable conflict. I have used the library to prepare for exams, and the quiet atmosphere helped me finish tasks more efficiently. The rule also shows respect for people who may have travelled there specifically to study. It should stay in place, but the library needs to make sure the quiet zone is clearly separated from the social area. Rules work better when they are understandable and applied consistently. In this case, one simple expectation allows many people to share the same building for different purposes, and that is why I consider it useful.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "useful-rule-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why do communities need rules?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Quy định giúp mọi người biết giới hạn và trách nhiệm",
+              "Quy tắc chung giảm tranh chấp khi nhu cầu va chạm"
+            ],
+            "vocab": [
+              {
+                "en": "set clear expectations",
+                "vi": "đặt kỳ vọng rõ ràng"
+              },
+              {
+                "en": "protect public safety",
+                "vi": "bảo vệ an toàn công cộng"
+              },
+              {
+                "en": "balance competing needs",
+                "vi": "cân bằng nhu cầu xung đột"
+              },
+              {
+                "en": "reduce avoidable disputes",
+                "vi": "giảm tranh chấp có thể tránh"
+              },
+              {
+                "en": "understand shared responsibilities",
+                "vi": "hiểu trách nhiệm chung"
+              },
+              {
+                "en": "apply to everyone fairly",
+                "vi": "áp dụng công bằng với mọi người"
+              }
+            ],
+            "grammar": "Dùng help people to và so that để nối quy tắc với lợi ích cộng đồng.",
+            "sample": "Communities need rules to set clear expectations and protect public safety. Shared spaces involve people with different needs, so agreed limits can reduce avoidable disputes. Rules are more likely to be accepted when they apply fairly and are explained in plain language. They should also be reviewed when circumstances change, because a rule that once solved a problem may later create unnecessary barriers.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "useful-rule-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How should schools respond when students break a rule?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tìm hiểu lý do và mức độ ảnh hưởng",
+              "Dùng hậu quả có tính giáo dục và nhất quán"
+            ],
+            "vocab": [
+              {
+                "en": "understand the circumstances",
+                "vi": "hiểu hoàn cảnh"
+              },
+              {
+                "en": "explain the expected behaviour",
+                "vi": "giải thích hành vi được mong đợi"
+              },
+              {
+                "en": "a proportionate consequence",
+                "vi": "hậu quả tương xứng"
+              },
+              {
+                "en": "repair any harm",
+                "vi": "khắc phục tổn hại"
+              },
+              {
+                "en": "apply expectations consistently",
+                "vi": "áp dụng kỳ vọng nhất quán"
+              },
+              {
+                "en": "support better choices",
+                "vi": "hỗ trợ lựa chọn tốt hơn"
+              }
+            ],
+            "grammar": "Dùng should consider before deciding để nhấn mạnh cần tìm hiểu trước khi xử lý.",
+            "sample": "Schools should first understand the circumstances and explain which behaviour caused a problem. A proportionate consequence can help students recognise the impact and repair any harm. Expectations should be consistent, while staff consider whether a student needs additional support. Punishment alone may stop an action briefly, but guidance is more likely to help young people make better choices in future situations.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "useful-rule-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Do laws always change people's behaviour?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Luật có thể răn đe và thiết lập chuẩn chung",
+              "Giáo dục, khả năng thực thi và thái độ xã hội cũng ảnh hưởng"
+            ],
+            "vocab": [
+              {
+                "en": "create a legal boundary",
+                "vi": "tạo ranh giới pháp lý"
+              },
+              {
+                "en": "discourage harmful conduct",
+                "vi": "ngăn hành vi gây hại"
+              },
+              {
+                "en": "enforce a regulation",
+                "vi": "thực thi quy định"
+              },
+              {
+                "en": "understand the reason behind",
+                "vi": "hiểu lý do phía sau"
+              },
+              {
+                "en": "change a social norm",
+                "vi": "thay đổi chuẩn mực xã hội"
+              },
+              {
+                "en": "compliance over time",
+                "vi": "việc tuân thủ theo thời gian"
+              }
+            ],
+            "grammar": "Dùng may influence nhưng not always để hạn chế khái quát; then nêu các yếu tố bổ sung.",
+            "sample": "Laws may influence behaviour by creating a boundary and discouraging harmful actions, but they do not always change attitudes immediately. People are more likely to comply when regulations are understandable, consistently enforced and supported by public education. Social norms also matter. A lasting change often requires several approaches, because a legal rule alone may not address the reasons people behave in a particular way.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "useful-rule-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "When should a rule be reviewed or changed?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Khi mục đích ban đầu không còn hoặc tác động trở nên bất công",
+              "Lấy ý kiến người chịu ảnh hưởng và xem dữ liệu"
+            ],
+            "vocab": [
+              {
+                "en": "assess the original purpose",
+                "vi": "đánh giá mục đích ban đầu"
+              },
+              {
+                "en": "collect feedback from users",
+                "vi": "thu thập phản hồi từ người sử dụng"
+              },
+              {
+                "en": "produce an unfair outcome",
+                "vi": "tạo ra kết quả bất công"
+              },
+              {
+                "en": "check current evidence",
+                "vi": "kiểm tra bằng chứng hiện tại"
+              },
+              {
+                "en": "update the wording",
+                "vi": "cập nhật cách diễn đạt"
+              },
+              {
+                "en": "keep the rule practical",
+                "vi": "giữ quy định thiết thực"
+              }
+            ],
+            "grammar": "Dùng when evidence shows that để nêu điều kiện cần rà soát quy định.",
+            "sample": "A rule should be reviewed when its original purpose is no longer clear or evidence shows that it creates an unfair outcome. Authorities can collect feedback from the people affected and check whether the rule is still practical. Sometimes the wording needs clarification rather than complete removal. Regular review helps rules respond to new circumstances while preserving the protection or benefit they were designed to provide.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A rule that helps people share space"
+    },
+    {
+      "id": "peaceful-place",
+      "topic": "A peaceful place you like",
+      "task": "Describe a place where you can relax and feel peaceful.",
+      "bullets": [
+        "where the place is",
+        "how you found it",
+        "what it is like",
+        "what you do there"
+      ],
+      "conclusion": "and explain why the place helps you feel peaceful.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn vườn thực vật hoặc khu ven hồ ít đông",
+          "Miêu tả âm thanh, ánh sáng và lối đi",
+          "Kể hoạt động giúp bạn chậm lại"
+        ],
+        "vocab": [
+          {
+            "en": "a botanical garden",
+            "vi": "vườn thực vật"
+          },
+          {
+            "en": "a quiet path",
+            "vi": "lối đi yên tĩnh"
+          },
+          {
+            "en": "listen to the water",
+            "vi": "lắng nghe tiếng nước"
+          },
+          {
+            "en": "take a slow walk",
+            "vi": "đi bộ thong thả"
+          },
+          {
+            "en": "step away from traffic",
+            "vi": "tạm rời xa giao thông"
+          },
+          {
+            "en": "clear my head",
+            "vi": "làm đầu óc thư thái"
+          }
+        ],
+        "grammar": "Dùng hiện tại đơn mô tả nơi và hoạt động thường làm; thêm which makes để giải thích cảm giác.",
+        "sample": "A peaceful place I like is a botanical garden on the edge of my city. I found it when a friend suggested somewhere quiet to walk after a busy week. The garden has several shaded paths, a small pond and signs that identify different plants. It is usually calmer on weekday mornings, when there are fewer visitors and the sounds of traffic are distant. I like walking slowly around the pond and stopping to read the signs. Sometimes I sit on a bench and listen to the water moving through a narrow channel. The place does not have dramatic scenery, but it feels carefully looked after and gives me space to think without being interrupted. I leave my phone in my bag for a while, which makes the visit feel like a real break. The garden helps me clear my head because I can focus on small details rather than a long list of tasks. I usually stay for less than an hour, so it is easy to include in an ordinary day. I value this place because it is open to the public and offers a calm alternative to busy shopping streets. If I have visitors from out of town, I would take them there for a gentle walk and a quiet conversation.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "peaceful-place-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why are green spaces valuable in cities?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Cây xanh tạo nơi nghỉ và vận động",
+              "Không gian công cộng xanh hỗ trợ sức khỏe và kết nối"
+            ],
+            "vocab": [
+              {
+                "en": "provide a place to unwind",
+                "vi": "tạo nơi thư giãn"
+              },
+              {
+                "en": "improve urban air quality",
+                "vi": "cải thiện chất lượng không khí đô thị"
+              },
+              {
+                "en": "encourage outdoor activity",
+                "vi": "khuyến khích hoạt động ngoài trời"
+              },
+              {
+                "en": "support local wildlife",
+                "vi": "hỗ trợ động vật địa phương"
+              },
+              {
+                "en": "offer shade in hot weather",
+                "vi": "tạo bóng mát khi trời nóng"
+              },
+              {
+                "en": "make a neighbourhood more liveable",
+                "vi": "làm khu dân cư đáng sống hơn"
+              }
+            ],
+            "grammar": "Dùng can provide và can also để nêu các lợi ích bổ sung.",
+            "sample": "Green spaces provide a place to unwind, exercise and meet neighbours without needing to buy anything. Trees offer shade and can support local wildlife, while parks may improve the feel of a dense neighbourhood. Their value depends on access and maintenance; a locked or neglected park serves fewer people. Well-planned green areas can make a city healthier and more liveable.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "peaceful-place-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can city planners reduce noise in residential areas?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Điều tiết giờ hoạt động gây tiếng ồn",
+              "Tạo vùng cây xanh và thiết kế đường giảm tốc"
+            ],
+            "vocab": [
+              {
+                "en": "set reasonable quiet hours",
+                "vi": "đặt giờ yên tĩnh hợp lý"
+              },
+              {
+                "en": "manage construction noise",
+                "vi": "quản lý tiếng ồn xây dựng"
+              },
+              {
+                "en": "slow traffic down",
+                "vi": "giảm tốc độ giao thông"
+              },
+              {
+                "en": "install sound barriers",
+                "vi": "lắp vách chắn âm"
+              },
+              {
+                "en": "create green buffers",
+                "vi": "tạo dải cây xanh đệm"
+              },
+              {
+                "en": "consult local residents",
+                "vi": "tham khảo cư dân địa phương"
+              }
+            ],
+            "grammar": "Dùng planners could combine để nêu nhiều giải pháp phối hợp thay vì một biện pháp đơn lẻ.",
+            "sample": "Planners could combine reasonable construction hours with measures that reduce traffic noise. Slower streets, sound barriers and green buffers can make busy roads less disruptive. Residents should be consulted because noise sources differ between neighbourhoods. Planting mature trees can help, although benefits take time to appear. Rules need to protect rest without preventing essential work or normal community activity, so enforcement should focus on repeated and avoidable disturbance.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "peaceful-place-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Should access to parks and gardens be free?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Không gian công cộng miễn phí tăng khả năng tiếp cận",
+              "Phí nhỏ có thể hỗ trợ khu vườn chuyên biệt nếu có miễn giảm"
+            ],
+            "vocab": [
+              {
+                "en": "open to the public",
+                "vi": "mở cửa cho công chúng"
+              },
+              {
+                "en": "remove a financial barrier",
+                "vi": "xóa rào cản tài chính"
+              },
+              {
+                "en": "fund regular maintenance",
+                "vi": "tài trợ bảo trì thường xuyên"
+              },
+              {
+                "en": "offer reduced admission",
+                "vi": "cung cấp vé giảm giá"
+              },
+              {
+                "en": "a specialised attraction",
+                "vi": "điểm tham quan chuyên biệt"
+              },
+              {
+                "en": "protect equal access",
+                "vi": "bảo vệ khả năng tiếp cận bình đẳng"
+              }
+            ],
+            "grammar": "Dùng should generally be free rồi phân biệt với một số khu chuyên biệt bằng while.",
+            "sample": "Public parks should generally be free because they provide shared space for exercise and rest, regardless of income. A specialised botanical garden may charge a small fee to support maintenance, but reduced admission or free community days can protect access. The important point is that people should have nearby green space that does not require payment for ordinary use by everyone.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "peaceful-place-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can communities protect natural places while welcoming visitors?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Giới hạn khách ở khu vực nhạy cảm",
+              "Dùng lối đi, biển hướng dẫn và giáo dục môi trường"
+            ],
+            "vocab": [
+              {
+                "en": "protect sensitive habitats",
+                "vi": "bảo vệ môi trường sống nhạy cảm"
+              },
+              {
+                "en": "mark designated paths",
+                "vi": "đánh dấu lối đi quy định"
+              },
+              {
+                "en": "limit visitor numbers",
+                "vi": "giới hạn số khách"
+              },
+              {
+                "en": "explain local guidelines",
+                "vi": "giải thích quy định địa phương"
+              },
+              {
+                "en": "monitor the environmental impact",
+                "vi": "theo dõi tác động môi trường"
+              },
+              {
+                "en": "balance conservation with access",
+                "vi": "cân bằng bảo tồn với tiếp cận"
+              }
+            ],
+            "grammar": "Dùng can welcome visitors while protecting để cân bằng hai mục tiêu.",
+            "sample": "Communities can welcome visitors while protecting sensitive habitats through marked paths, clear guidance and limits in fragile areas. Local signs can explain why certain rules matter rather than list prohibitions alone. Monitoring visitor numbers and environmental impact helps managers adjust their approach. Conservation and access can coexist when people understand how to enjoy a place without damaging the plants, wildlife or facilities that make it valuable.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "Somewhere I go to slow down"
+    }
+  ]
+}

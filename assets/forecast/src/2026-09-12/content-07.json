@@ -1,0 +1,894 @@
+{
+  "schemaVersion": 1,
+  "part1Topics": [],
+  "part2CueCards": [
+    {
+      "id": "meal-with-friends",
+      "topic": "A meal you enjoyed with other people",
+      "task": "Describe a meal that you enjoyed with other people.",
+      "bullets": [
+        "what you ate",
+        "where and when you had the meal",
+        "who you shared it with",
+        "what made the meal enjoyable"
+      ],
+      "conclusion": "and explain whether you would like to have a similar meal again.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn bữa ăn gắn với một dịp hoặc buổi gặp cụ thể",
+          "Miêu tả món ăn và không khí",
+          "Nêu cuộc trò chuyện khiến bữa ăn vui hơn"
+        ],
+        "vocab": [
+          {
+            "en": "a shared table",
+            "vi": "bàn ăn chung"
+          },
+          {
+            "en": "a freshly prepared dish",
+            "vi": "món ăn vừa được chuẩn bị"
+          },
+          {
+            "en": "pass food around",
+            "vi": "chuyền món ăn quanh bàn"
+          },
+          {
+            "en": "catch up over dinner",
+            "vi": "hỏi thăm nhau trong bữa tối"
+          },
+          {
+            "en": "a relaxed conversation",
+            "vi": "cuộc trò chuyện thoải mái"
+          },
+          {
+            "en": "leave feeling satisfied",
+            "vi": "ra về với cảm giác hài lòng"
+          }
+        ],
+        "grammar": "Dùng quá khứ đơn kể bữa ăn và while để mô tả món ăn cùng cuộc trò chuyện diễn ra song song.",
+        "sample": "One meal I really enjoyed was a weekend dinner with two close friends at a small family-run restaurant. We had not seen one another for several months, so we chose a quiet table and ordered several dishes to share. There was grilled fish, fresh vegetables and a bowl of rice that had just been cooked. Passing food around made the meal feel informal, and nobody had to choose only one thing. We spent most of the evening catching up on work, family news and small plans for the coming months. One friend had recently started a new job, so we asked about the first weeks and shared a few suggestions. The restaurant was busy, but the staff did not rush us, and the conversation could continue between courses. I remember laughing when we realised that we had all made the same mistake while trying to follow a recipe at home. The food was tasty, but the company made the meal special. It was also reasonably priced, which allowed us to stay longer without worrying about the bill. I would happily have a similar dinner again because it gave us a chance to reconnect in person. It reminded me that sharing a meal can turn an ordinary weekend into a warm memory.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "meal-with-friends-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why do meals play an important role in many cultures?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Bữa ăn tạo dịp gặp gỡ và trò chuyện",
+              "Món ăn lưu giữ tập quán và ký ức gia đình"
+            ],
+            "vocab": [
+              {
+                "en": "bring people together",
+                "vi": "gắn kết mọi người"
+              },
+              {
+                "en": "a shared food tradition",
+                "vi": "truyền thống ẩm thực chung"
+              },
+              {
+                "en": "pass recipes down",
+                "vi": "truyền lại công thức"
+              },
+              {
+                "en": "mark a special occasion",
+                "vi": "đánh dấu dịp đặc biệt"
+              },
+              {
+                "en": "show hospitality",
+                "vi": "thể hiện lòng hiếu khách"
+              },
+              {
+                "en": "create a sense of belonging",
+                "vi": "tạo cảm giác thuộc về"
+              }
+            ],
+            "grammar": "Dùng both A and B để nêu hai vai trò của bữa ăn.",
+            "sample": "Meals bring people together and give them time to talk without another activity competing for attention. Food can also carry family and regional traditions, because recipes are passed down and prepared for special occasions. Offering a meal is a common way to show hospitality. Customs vary between places, but eating together can create a sense of belonging and help people mark events in a meaningful way.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "meal-with-friends-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Are home-cooked meals better than meals from restaurants?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Ở nhà dễ chọn nguyên liệu và khẩu phần",
+              "Nhà hàng tiện và giúp thử món mới"
+            ],
+            "vocab": [
+              {
+                "en": "control the ingredients",
+                "vi": "kiểm soát nguyên liệu"
+              },
+              {
+                "en": "adjust the portion size",
+                "vi": "điều chỉnh khẩu phần"
+              },
+              {
+                "en": "save preparation time",
+                "vi": "tiết kiệm thời gian chuẩn bị"
+              },
+              {
+                "en": "try unfamiliar dishes",
+                "vi": "thử món chưa quen"
+              },
+              {
+                "en": "eat out occasionally",
+                "vi": "thỉnh thoảng ăn ngoài"
+              },
+              {
+                "en": "depend on the situation",
+                "vi": "tùy vào hoàn cảnh"
+              }
+            ],
+            "grammar": "Mở đầu bằng it depends on và so sánh hai lựa chọn bằng whereas.",
+            "sample": "Neither option is always better; it depends on the situation. Home cooking lets people control ingredients and portion sizes, and it can be less expensive. Restaurants save preparation time and offer dishes that someone may not know how to make. A balanced routine could include both: home meals on ordinary days and eating out occasionally for convenience or a social event.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "meal-with-friends-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Should schools teach children about nutrition and cooking?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Kỹ năng chọn thực phẩm hỗ trợ quyết định hằng ngày",
+              "Nấu món đơn giản giúp trẻ tự lập hơn"
+            ],
+            "vocab": [
+              {
+                "en": "read a food label",
+                "vi": "đọc nhãn thực phẩm"
+              },
+              {
+                "en": "prepare a simple dish",
+                "vi": "chuẩn bị món ăn đơn giản"
+              },
+              {
+                "en": "understand balanced meals",
+                "vi": "hiểu bữa ăn cân bằng"
+              },
+              {
+                "en": "make informed choices",
+                "vi": "đưa ra lựa chọn có hiểu biết"
+              },
+              {
+                "en": "build practical confidence",
+                "vi": "xây dựng sự tự tin thực tế"
+              },
+              {
+                "en": "use basic kitchen skills",
+                "vi": "dùng kỹ năng bếp cơ bản"
+              }
+            ],
+            "grammar": "Dùng should include và so that để nêu nội dung học và mục đích.",
+            "sample": "Schools should include basic nutrition and cooking lessons so children can make informed choices later. Learning to read a food label or prepare a simple dish is practical, regardless of a student's future job. Such lessons can also explain balanced meals without making food choices feel like a test. Families remain important, but school can ensure that every child gets some basic guidance.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "meal-with-friends-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What can restaurants do to reduce food waste?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Điều chỉnh khẩu phần và cho chọn lượng ăn",
+              "Quyên góp thực phẩm an toàn còn dư"
+            ],
+            "vocab": [
+              {
+                "en": "offer different portion sizes",
+                "vi": "cung cấp nhiều cỡ phần ăn"
+              },
+              {
+                "en": "plan stock carefully",
+                "vi": "lên kế hoạch hàng tồn cẩn thận"
+              },
+              {
+                "en": "track kitchen waste",
+                "vi": "theo dõi thức ăn thừa trong bếp"
+              },
+              {
+                "en": "donate safe surplus food",
+                "vi": "quyên góp thực phẩm dư còn an toàn"
+              },
+              {
+                "en": "store ingredients properly",
+                "vi": "bảo quản nguyên liệu đúng cách"
+              },
+              {
+                "en": "avoid over-ordering",
+                "vi": "tránh gọi quá nhiều"
+              }
+            ],
+            "grammar": "Dùng can reduce waste by + V-ing để nêu giải pháp có thể thực hiện.",
+            "sample": "Restaurants can reduce waste by tracking which ingredients are often left unused and planning stock more carefully. Offering different portion sizes may prevent customers from ordering more than they can eat. Where local rules allow it, safe surplus food can be donated. Staff training on storage and preparation is also useful, because preventing waste at the start is usually better than dealing with it later.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "Dinner with people I enjoy"
+    },
+    {
+      "id": "journey-delay",
+      "topic": "A journey that took longer than expected",
+      "task": "Describe a journey that took longer than you expected.",
+      "bullets": [
+        "where you were going",
+        "how you travelled",
+        "what caused the delay",
+        "what you did while waiting"
+      ],
+      "conclusion": "and explain how you felt about the experience afterwards.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn chuyến đi có nguyên nhân trễ rõ ràng",
+          "Kể bạn xử lý việc chờ đợi thế nào",
+          "Nêu điều bạn chuẩn bị khác đi sau trải nghiệm"
+        ],
+        "vocab": [
+          {
+            "en": "a traffic bottleneck",
+            "vi": "điểm nghẽn giao thông"
+          },
+          {
+            "en": "miss a connection",
+            "vi": "lỡ chuyến nối tiếp"
+          },
+          {
+            "en": "check an updated route",
+            "vi": "kiểm tra lộ trình cập nhật"
+          },
+          {
+            "en": "keep someone informed",
+            "vi": "cập nhật tình hình cho ai đó"
+          },
+          {
+            "en": "an unexpected delay",
+            "vi": "sự chậm trễ ngoài dự kiến"
+          },
+          {
+            "en": "allow extra travel time",
+            "vi": "dự trù thêm thời gian di chuyển"
+          }
+        ],
+        "grammar": "Dùng quá khứ đơn kể sự việc, past continuous mô tả việc đang diễn ra khi có thông báo.",
+        "sample": "A journey that took longer than I expected was a bus trip to a nearby coastal town. I travelled with a friend during a holiday weekend, when we thought leaving early would help us avoid crowds. About an hour into the trip, traffic stopped near a road construction site. We were moving only a few metres at a time, and the driver later explained that one lane had been closed. I checked an updated route on my phone and sent a message to the person meeting us. While we waited, my friend and I shared snacks and listened to a podcast. The bus eventually moved again, but we missed the time we had planned for lunch. I felt impatient at first because I had expected the trip to be simple. After a while, I accepted that the delay was beyond our control and focused on keeping the rest of the day flexible. We still enjoyed the visit and took a walk by the water before it got dark. Since then, I have tried to allow extra travel time on busy weekends and carry water or a book. The experience was inconvenient, but it taught me to plan with a little more room for surprises.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "journey-delay-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What transport problems do people commonly face in large cities?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tắc nghẽn vào giờ cao điểm",
+              "Gián đoạn dịch vụ và thiếu kết nối giữa các tuyến"
+            ],
+            "vocab": [
+              {
+                "en": "peak-hour congestion",
+                "vi": "tắc nghẽn giờ cao điểm"
+              },
+              {
+                "en": "an overcrowded service",
+                "vi": "dịch vụ quá đông"
+              },
+              {
+                "en": "a delayed connection",
+                "vi": "chuyến nối tiếp bị trễ"
+              },
+              {
+                "en": "road maintenance work",
+                "vi": "việc bảo trì đường"
+              },
+              {
+                "en": "unreliable arrival times",
+                "vi": "giờ đến không ổn định"
+              },
+              {
+                "en": "a lack of route options",
+                "vi": "thiếu lựa chọn lộ trình"
+              }
+            ],
+            "grammar": "Dùng may face để nêu vấn đề thường gặp và especially when để chỉ hoàn cảnh.",
+            "sample": "People in large cities may face peak-hour congestion, overcrowded public transport and unreliable arrival times. Road maintenance or an accident can affect several routes at once. In some areas, passengers also have limited alternatives if one service is delayed. Better coordination between transport providers and clear real-time updates can help people adjust their journeys, even when the underlying problem cannot be removed immediately.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "journey-delay-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can governments encourage people to use public transport?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tăng độ tin cậy, tần suất và kết nối tuyến",
+              "Làm việc đi lại dễ dự đoán và thuận tiện"
+            ],
+            "vocab": [
+              {
+                "en": "frequent services",
+                "vi": "dịch vụ chạy thường xuyên"
+              },
+              {
+                "en": "reliable schedules",
+                "vi": "lịch trình đáng tin cậy"
+              },
+              {
+                "en": "connect residential areas",
+                "vi": "kết nối khu dân cư"
+              },
+              {
+                "en": "integrated ticketing",
+                "vi": "hệ thống vé tích hợp"
+              },
+              {
+                "en": "safe and clean stations",
+                "vi": "nhà ga an toàn và sạch sẽ"
+              },
+              {
+                "en": "a practical alternative",
+                "vi": "lựa chọn thay thế thực tế"
+              }
+            ],
+            "grammar": "Dùng by improving + danh từ để nêu chính sách cụ thể và so that để giải thích kết quả.",
+            "sample": "Governments can encourage public transport by making services frequent, reliable and easy to connect. Clean, safe stations and simple ticketing reduce the small frustrations that discourage passengers. Routes should link residential areas with workplaces and essential services, so travelling without a car is a practical alternative. Fares matter too, but reliability is important because people need to trust that they will arrive on time.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "journey-delay-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What effects can tourism have on small communities?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Du lịch tạo việc làm và hỗ trợ cửa hàng địa phương",
+              "Lượng khách lớn gây áp lực lên giao thông, nhà ở và môi trường"
+            ],
+            "vocab": [
+              {
+                "en": "support local businesses",
+                "vi": "hỗ trợ doanh nghiệp địa phương"
+              },
+              {
+                "en": "seasonal employment",
+                "vi": "việc làm theo mùa"
+              },
+              {
+                "en": "put pressure on housing",
+                "vi": "gây áp lực lên nhà ở"
+              },
+              {
+                "en": "protect local character",
+                "vi": "bảo vệ bản sắc địa phương"
+              },
+              {
+                "en": "manage visitor numbers",
+                "vi": "quản lý số lượng khách"
+              },
+              {
+                "en": "share the economic benefit",
+                "vi": "chia sẻ lợi ích kinh tế"
+              }
+            ],
+            "grammar": "Dùng while để nêu lợi ích và tác động trái chiều trong cùng lập luận.",
+            "sample": "Tourism can support local businesses and create seasonal jobs, especially where visitors buy food, crafts or accommodation. At the same time, a sudden increase in visitor numbers may put pressure on housing, transport and public spaces. Communities can benefit more if planning protects local character and shares economic gains fairly. The impact depends on how tourism is managed and whether residents have a voice in decisions.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "journey-delay-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can travellers prepare for unexpected delays?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Kiểm tra cập nhật và dự trù khoảng thời gian linh hoạt",
+              "Mang theo vật dụng cơ bản và thông tin liên lạc"
+            ],
+            "vocab": [
+              {
+                "en": "check service alerts",
+                "vi": "kiểm tra thông báo dịch vụ"
+              },
+              {
+                "en": "keep a backup route",
+                "vi": "chuẩn bị lộ trình dự phòng"
+              },
+              {
+                "en": "carry essential items",
+                "vi": "mang theo vật dụng thiết yếu"
+              },
+              {
+                "en": "share an estimated arrival",
+                "vi": "chia sẻ giờ đến dự kiến"
+              },
+              {
+                "en": "build a time buffer",
+                "vi": "dự phòng khoảng thời gian"
+              },
+              {
+                "en": "stay calm and flexible",
+                "vi": "giữ bình tĩnh và linh hoạt"
+              }
+            ],
+            "grammar": "Dùng before travelling để tổ chức lời khuyên thành bước chuẩn bị.",
+            "sample": "Before travelling, people can check service alerts, save a backup route and build a time buffer into important plans. Carrying water, a charger and necessary contact details is sensible for a longer trip. If a delay happens, sharing an updated arrival time helps others adjust. Preparation cannot prevent every disruption, but it can make the experience less stressful and help travellers stay flexible.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A journey with an unexpected delay"
+    },
+    {
+      "id": "local-public-event",
+      "topic": "A public event you enjoyed",
+      "task": "Describe a public event that you enjoyed attending.",
+      "bullets": [
+        "what the event was",
+        "where and when it took place",
+        "what people could see or do",
+        "who you attended with"
+      ],
+      "conclusion": "and explain what made the event enjoyable for you.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn hội sách, buổi biểu diễn hoặc sự kiện cộng đồng",
+          "Miêu tả một hoạt động bạn tham gia",
+          "Nêu điều khiến đám đông tạo cảm giác vui"
+        ],
+        "vocab": [
+          {
+            "en": "an open-air performance",
+            "vi": "buổi biểu diễn ngoài trời"
+          },
+          {
+            "en": "a local arts group",
+            "vi": "nhóm nghệ thuật địa phương"
+          },
+          {
+            "en": "browse the stalls",
+            "vi": "xem các gian hàng"
+          },
+          {
+            "en": "a lively crowd",
+            "vi": "đám đông sôi nổi"
+          },
+          {
+            "en": "a well-organised programme",
+            "vi": "chương trình được tổ chức tốt"
+          },
+          {
+            "en": "a shared experience",
+            "vi": "trải nghiệm chung"
+          }
+        ],
+        "grammar": "Dùng quá khứ đơn kể hoạt động và which made để nối chi tiết với cảm nhận.",
+        "sample": "A public event I enjoyed was a small open-air arts festival held in a central park last spring. I went with my cousin after seeing a notice at the library. Several local groups performed short music and dance pieces, and there were stalls selling handmade items and snacks. We arrived before sunset, so we had time to browse the stalls and find a place to sit. My favourite part was a performance that combined traditional instruments with a modern rhythm. The musicians explained where the melodies came from, which made the show more meaningful. The crowd was lively but not too large, and families could move around without blocking the paths. Between performances, my cousin and I tried a local dessert and talked to one of the artists about how she made her prints. The event felt well organised, with signs showing the programme and volunteers helping visitors find the different areas. I enjoyed it because it offered a shared experience without feeling formal. I also learned something about the local arts scene that I would not have discovered by staying at home. I would like to attend again if the festival returns next year.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "local-public-event-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why do cities organise public events?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tạo cơ hội giao lưu và giới thiệu văn hóa địa phương",
+              "Hỗ trợ nghệ sĩ, cửa hàng và hoạt động du lịch"
+            ],
+            "vocab": [
+              {
+                "en": "bring residents together",
+                "vi": "kết nối cư dân"
+              },
+              {
+                "en": "showcase local talent",
+                "vi": "giới thiệu tài năng địa phương"
+              },
+              {
+                "en": "attract visitors",
+                "vi": "thu hút khách tham quan"
+              },
+              {
+                "en": "create a lively atmosphere",
+                "vi": "tạo không khí sôi động"
+              },
+              {
+                "en": "support cultural participation",
+                "vi": "hỗ trợ tham gia văn hóa"
+              },
+              {
+                "en": "strengthen community identity",
+                "vi": "củng cố bản sắc cộng đồng"
+              }
+            ],
+            "grammar": "Dùng serve as a way to để trình bày nhiều mục đích của sự kiện.",
+            "sample": "Public events serve as a way to bring residents together and showcase local talent. Festivals can also attract visitors, support nearby businesses and create a lively atmosphere in public spaces. For residents, they provide an accessible chance to take part in cultural activities. The best events strengthen community identity while remaining welcoming to people who may not normally attend formal performances.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "local-public-event-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Should governments spend public money on arts and festivals?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Sự kiện có thể đem lại lợi ích cộng đồng rộng",
+              "Ngân sách cần minh bạch và cân bằng với dịch vụ thiết yếu"
+            ],
+            "vocab": [
+              {
+                "en": "public cultural funding",
+                "vi": "kinh phí văn hóa công"
+              },
+              {
+                "en": "demonstrate community value",
+                "vi": "chứng minh giá trị cộng đồng"
+              },
+              {
+                "en": "transparent budgeting",
+                "vi": "lập ngân sách minh bạch"
+              },
+              {
+                "en": "accessible ticket prices",
+                "vi": "giá vé dễ tiếp cận"
+              },
+              {
+                "en": "compete with essential services",
+                "vi": "cạnh tranh ngân sách dịch vụ thiết yếu"
+              },
+              {
+                "en": "measure public benefit",
+                "vi": "đánh giá lợi ích công cộng"
+              }
+            ],
+            "grammar": "Dùng can be justified when để nêu điều kiện cho quyết định ngân sách.",
+            "sample": "Public cultural funding can be justified when an event is accessible and demonstrates community value. Arts programmes offer opportunities that may not be available through commercial entertainment alone. However, budgets must be transparent and balanced with essential services such as transport and health care. Officials should consider attendance, local participation and long-term impact rather than fund an event simply because it attracts publicity.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "local-public-event-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can organisers make public events more accessible?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Cung cấp thông tin di chuyển, giờ giấc và lối tiếp cận",
+              "Thiết kế giá vé cùng khu vực nghỉ phù hợp nhiều nhóm"
+            ],
+            "vocab": [
+              {
+                "en": "step-free access",
+                "vi": "lối đi không bậc"
+              },
+              {
+                "en": "clear travel information",
+                "vi": "thông tin đi lại rõ ràng"
+              },
+              {
+                "en": "affordable admission",
+                "vi": "vé vào cửa hợp túi tiền"
+              },
+              {
+                "en": "quiet rest areas",
+                "vi": "khu nghỉ yên tĩnh"
+              },
+              {
+                "en": "accessible facilities",
+                "vi": "cơ sở vật chất dễ tiếp cận"
+              },
+              {
+                "en": "plan for different needs",
+                "vi": "lên kế hoạch cho nhu cầu khác nhau"
+              }
+            ],
+            "grammar": "Dùng organisers can improve access by + V-ing để trình bày giải pháp cụ thể.",
+            "sample": "Organisers can improve access by providing step-free routes, clear travel information and affordable admission options. Quiet rest areas and accessible facilities can make an event more comfortable for visitors with different needs. They should ask community groups for feedback before finalising the layout. Accessibility is easier to build into the plan from the beginning than to add after people discover a barrier.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "local-public-event-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What role do local traditions play in modern festivals?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Truyền thống tạo sự liên tục giữa thế hệ",
+              "Có thể kết hợp hình thức mới nhưng cần tôn trọng nguồn gốc"
+            ],
+            "vocab": [
+              {
+                "en": "pass customs to younger people",
+                "vi": "truyền phong tục cho người trẻ"
+              },
+              {
+                "en": "adapt an old tradition",
+                "vi": "điều chỉnh truyền thống cũ"
+              },
+              {
+                "en": "preserve its meaning",
+                "vi": "giữ gìn ý nghĩa"
+              },
+              {
+                "en": "a modern presentation",
+                "vi": "cách thể hiện hiện đại"
+              },
+              {
+                "en": "learn the story behind",
+                "vi": "tìm hiểu câu chuyện phía sau"
+              },
+              {
+                "en": "respect cultural origins",
+                "vi": "tôn trọng nguồn gốc văn hóa"
+              }
+            ],
+            "grammar": "Dùng can be adapted while still để nói truyền thống thay đổi nhưng vẫn giữ giá trị.",
+            "sample": "Local traditions can give a modern festival a connection to its history and community. They also create a way for older residents to pass customs to younger people. Organisers may adapt the music or presentation to attract new audiences, while still explaining the tradition's meaning. That balance matters: a festival can change with time without turning cultural elements into decoration with no context.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A community event"
+    },
+    {
+      "id": "solved-a-practical-problem",
+      "topic": "A problem you solved",
+      "task": "Describe a practical problem that you solved.",
+      "bullets": [
+        "what the problem was",
+        "when it happened",
+        "what steps you took",
+        "who or what helped you"
+      ],
+      "conclusion": "and explain what you learned from solving it.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn vấn đề vừa sức như sửa bài thuyết trình hoặc sắp lịch nhóm",
+          "Kể cách chia vấn đề thành bước nhỏ",
+          "Nêu kết quả và điều bạn làm tốt hơn lần sau"
+        ],
+        "vocab": [
+          {
+            "en": "identify the main issue",
+            "vi": "xác định vấn đề chính"
+          },
+          {
+            "en": "break it into steps",
+            "vi": "chia thành từng bước"
+          },
+          {
+            "en": "ask for specific help",
+            "vi": "xin trợ giúp cụ thể"
+          },
+          {
+            "en": "test a simple solution",
+            "vi": "thử giải pháp đơn giản"
+          },
+          {
+            "en": "work against a deadline",
+            "vi": "làm việc với hạn chót"
+          },
+          {
+            "en": "learn from the outcome",
+            "vi": "rút kinh nghiệm từ kết quả"
+          }
+        ],
+        "grammar": "Dùng first, then, finally để sắp xếp các bước và quá khứ đơn cho hành động đã hoàn tất.",
+        "sample": "A practical problem I solved happened while I was preparing a group presentation for class. Two days before the deadline, we discovered that the slides had different formats and some important information was missing. Everyone had edited a separate copy, so it was difficult to see which version was current. I suggested that we create one shared file and list the missing points before making more changes. First, we agreed on a simple design. Then each person checked one section against the notes from our research. I asked a classmate who knew the presentation software to help me fix the layout, while another group member checked the references. We set a short time limit for each task so the work would not expand unnecessarily. By the evening, the main content was complete and we had time to rehearse together. The final presentation was not perfect, but it was clear and consistent. I learned that we should decide how to share files at the start of a project, rather than wait until a problem appears. I also realised that asking for specific help is more useful than trying to manage every detail alone. Solving the issue felt satisfying because the group stayed calm and everyone contributed to the result.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "solved-a-practical-problem-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Should children be taught problem-solving skills at school?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Bài tập mở khuyến khích thử nhiều cách",
+              "Kỹ năng phân tích có ích ngoài lớp học"
+            ],
+            "vocab": [
+              {
+                "en": "analyse a situation",
+                "vi": "phân tích tình huống"
+              },
+              {
+                "en": "consider several options",
+                "vi": "cân nhắc nhiều lựa chọn"
+              },
+              {
+                "en": "explain a decision",
+                "vi": "giải thích quyết định"
+              },
+              {
+                "en": "learn from mistakes",
+                "vi": "học từ sai lầm"
+              },
+              {
+                "en": "work through a challenge",
+                "vi": "xử lý thử thách từng bước"
+              },
+              {
+                "en": "apply knowledge in practice",
+                "vi": "áp dụng kiến thức vào thực tế"
+              }
+            ],
+            "grammar": "Dùng should be taught through để giải thích cách tổ chức hoạt động học.",
+            "sample": "Children should be taught to analyse a situation, consider several options and explain why they chose one. Open-ended tasks let them practise these steps without requiring a single perfect answer. Learning from mistakes is also important, because real problems often need adjustment. These skills are useful beyond school, helping young people apply knowledge in practical decisions and cooperate with others.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "solved-a-practical-problem-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Is it better to solve difficult problems alone or with a team?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Làm một mình nhanh khi vấn đề có phạm vi rõ",
+              "Nhóm có thêm góc nhìn nhưng cần phối hợp"
+            ],
+            "vocab": [
+              {
+                "en": "a well-defined task",
+                "vi": "nhiệm vụ có phạm vi rõ"
+              },
+              {
+                "en": "bring different perspectives",
+                "vi": "đưa ra góc nhìn khác nhau"
+              },
+              {
+                "en": "divide the workload",
+                "vi": "chia khối lượng công việc"
+              },
+              {
+                "en": "coordinate responsibilities",
+                "vi": "phối hợp trách nhiệm"
+              },
+              {
+                "en": "reach a shared decision",
+                "vi": "đạt quyết định chung"
+              },
+              {
+                "en": "match the method to the problem",
+                "vi": "chọn cách làm phù hợp vấn đề"
+              }
+            ],
+            "grammar": "Dùng whereas để so sánh và kết luận bằng the best method depends on.",
+            "sample": "Working alone can be efficient when a problem is well defined and one person has the necessary information. A team can bring different perspectives and divide the workload when the challenge is larger. The difficulty is coordinating responsibilities and reaching a shared decision. The best method depends on the problem, so people should choose a team only when collaboration adds value rather than complexity.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "solved-a-practical-problem-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can digital tools help people solve everyday problems?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Công cụ giúp tìm thông tin và phối hợp nhanh",
+              "Người dùng cần kiểm tra độ chính xác và bảo mật"
+            ],
+            "vocab": [
+              {
+                "en": "compare available options",
+                "vi": "so sánh các lựa chọn"
+              },
+              {
+                "en": "share information quickly",
+                "vi": "chia sẻ thông tin nhanh"
+              },
+              {
+                "en": "automate a routine task",
+                "vi": "tự động hóa việc thường lệ"
+              },
+              {
+                "en": "verify the information",
+                "vi": "xác minh thông tin"
+              },
+              {
+                "en": "protect sensitive data",
+                "vi": "bảo vệ dữ liệu nhạy cảm"
+              },
+              {
+                "en": "use the tool appropriately",
+                "vi": "dùng công cụ đúng mục đích"
+              }
+            ],
+            "grammar": "Dùng can help people + động từ và thêm provided that để nêu điều kiện sử dụng cẩn trọng.",
+            "sample": "Digital tools can help people find information, compare options and coordinate with others quickly. A map app may suggest another route, while a shared document can keep a team's notes in one place. Users still need to verify important information and protect sensitive data. Technology is most useful when people choose an appropriate tool and understand its limits instead of relying on every result automatically.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "solved-a-practical-problem-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why do some people find it difficult to ask for help?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Ngại bị xem là thiếu khả năng",
+              "Không biết cần hỏi ai hoặc chưa diễn đạt rõ vấn đề"
+            ],
+            "vocab": [
+              {
+                "en": "feel embarrassed",
+                "vi": "cảm thấy ngượng"
+              },
+              {
+                "en": "fear being judged",
+                "vi": "sợ bị đánh giá"
+              },
+              {
+                "en": "describe the difficulty clearly",
+                "vi": "mô tả khó khăn rõ ràng"
+              },
+              {
+                "en": "approach a trusted person",
+                "vi": "tìm đến người đáng tin"
+              },
+              {
+                "en": "offer practical support",
+                "vi": "đưa ra hỗ trợ thiết thực"
+              },
+              {
+                "en": "normalise asking questions",
+                "vi": "coi việc đặt câu hỏi là bình thường"
+              }
+            ],
+            "grammar": "Dùng may hesitate because để nêu lý do và managers can make it easier by để đưa giải pháp.",
+            "sample": "People may hesitate because they fear being judged or want to appear independent. Sometimes they are unsure who has the right knowledge, or they cannot describe the difficulty clearly. Schools and workplaces can make it easier by normalising questions and giving people a trusted contact. Asking for help can be a responsible step, especially when it prevents a small issue from becoming much harder to solve.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A problem I worked through"
+    }
+  ]
+}

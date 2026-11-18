@@ -1,0 +1,894 @@
+{
+  "schemaVersion": 1,
+  "part1Topics": [],
+  "part2CueCards": [
+    {
+      "id": "goal-i-worked-towards",
+      "topic": "A goal you worked towards",
+      "task": "Describe a goal that you worked hard to achieve.",
+      "bullets": [
+        "what the goal was",
+        "why it mattered to you",
+        "what steps you took",
+        "what was difficult along the way"
+      ],
+      "conclusion": "and explain how you felt when you made progress or reached it.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn mục tiêu có bước thực hiện cụ thể",
+          "Nêu trở ngại và cách bạn điều chỉnh kế hoạch",
+          "Đánh giá điều bạn học được, kể cả khi mục tiêu còn tiếp diễn"
+        ],
+        "vocab": [
+          {
+            "en": "set a clear milestone",
+            "vi": "đặt cột mốc rõ ràng"
+          },
+          {
+            "en": "keep track of progress",
+            "vi": "theo dõi tiến độ"
+          },
+          {
+            "en": "stay committed",
+            "vi": "duy trì cam kết"
+          },
+          {
+            "en": "adjust my approach",
+            "vi": "điều chỉnh cách làm"
+          },
+          {
+            "en": "a realistic timetable",
+            "vi": "thời gian biểu thực tế"
+          },
+          {
+            "en": "feel a sense of achievement",
+            "vi": "cảm thấy đạt được thành tựu"
+          }
+        ],
+        "grammar": "Dùng quá khứ đơn kể các bước, then để nối trình tự và hiện tại đơn nói về bài học hiện tại.",
+        "sample": "A goal I worked hard towards was completing a long English presentation without reading every sentence from my notes. I wanted to speak more naturally in front of my class, but at first I lost my place whenever I felt nervous. I set a clear milestone: explain one section using only a few keywords. I practised at home, recorded short versions on my phone and listened for places where my ideas were unclear. A friend also asked me questions after each practice, which helped me prepare for interruptions. The hardest part was finding a realistic timetable around other assignments. I adjusted my approach by practising for ten minutes several times a week instead of waiting for one long session. On presentation day, I still felt nervous, but I managed to finish and answer two questions from the audience. I did not speak perfectly, yet I relied on my outline rather than reading a script. I felt a real sense of achievement because the result came from steady practice. The experience taught me to divide a large goal into manageable steps and keep track of progress. I still use that method whenever a task seems too demanding at the beginning.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "goal-i-worked-towards-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why is it useful for people to set personal goals?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Mục tiêu giúp ưu tiên thời gian và công sức",
+              "Cột mốc nhỏ làm tiến bộ dễ nhận thấy"
+            ],
+            "vocab": [
+              {
+                "en": "give direction to effort",
+                "vi": "định hướng nỗ lực"
+              },
+              {
+                "en": "prioritise important tasks",
+                "vi": "ưu tiên nhiệm vụ quan trọng"
+              },
+              {
+                "en": "measure small progress",
+                "vi": "đo lường tiến bộ nhỏ"
+              },
+              {
+                "en": "stay motivated over time",
+                "vi": "duy trì động lực lâu dài"
+              },
+              {
+                "en": "adjust a target",
+                "vi": "điều chỉnh mục tiêu"
+              },
+              {
+                "en": "avoid unrealistic pressure",
+                "vi": "tránh áp lực không thực tế"
+              }
+            ],
+            "grammar": "Dùng can help people to để nêu lợi ích, kèm điều kiện mục tiêu cần vừa sức.",
+            "sample": "Personal goals can give direction to effort and help people decide which tasks deserve attention first. Smaller milestones make progress easier to notice, which can support motivation over time. Goals should remain flexible, though; someone may need to adjust a target when circumstances change. A realistic goal can provide structure without creating unnecessary pressure or making people feel that every delay is a failure.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "goal-i-worked-towards-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can people stay motivated when progress is slow?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chia mục tiêu thành bước ngắn có thể hoàn thành",
+              "Theo dõi nỗ lực chứ không chỉ kết quả cuối"
+            ],
+            "vocab": [
+              {
+                "en": "break a target down",
+                "vi": "chia nhỏ mục tiêu"
+              },
+              {
+                "en": "celebrate a small win",
+                "vi": "ghi nhận thành công nhỏ"
+              },
+              {
+                "en": "review what is working",
+                "vi": "xem lại điều gì đang hiệu quả"
+              },
+              {
+                "en": "ask for encouragement",
+                "vi": "xin lời động viên"
+              },
+              {
+                "en": "keep a progress record",
+                "vi": "ghi lại tiến độ"
+              },
+              {
+                "en": "take a planned rest",
+                "vi": "nghỉ ngơi có kế hoạch"
+              }
+            ],
+            "grammar": "Dùng one way is to và another is to để đưa ra hai cách song song.",
+            "sample": "One way is to break a large target down and celebrate a small win at each stage. Keeping a progress record shows effort that may not be obvious from the final result. Another option is to review what is working and ask for encouragement from someone supportive. Rest also matters; a planned break can protect motivation better than pushing until a person becomes exhausted.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "goal-i-worked-towards-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Do people today feel more pressure to achieve than in the past?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Mạng xã hội làm thành tựu của người khác dễ thấy",
+              "Áp lực còn phụ thuộc gia đình, nghề nghiệp và hoàn cảnh"
+            ],
+            "vocab": [
+              {
+                "en": "compare themselves with others",
+                "vi": "so sánh bản thân với người khác"
+              },
+              {
+                "en": "visible success stories",
+                "vi": "câu chuyện thành công dễ thấy"
+              },
+              {
+                "en": "social expectations",
+                "vi": "kỳ vọng xã hội"
+              },
+              {
+                "en": "career milestones",
+                "vi": "cột mốc nghề nghiệp"
+              },
+              {
+                "en": "different life circumstances",
+                "vi": "hoàn cảnh sống khác nhau"
+              },
+              {
+                "en": "define success personally",
+                "vi": "tự định nghĩa thành công"
+              }
+            ],
+            "grammar": "Dùng may feel more pressure, although để tránh kết luận tuyệt đối về mọi thế hệ.",
+            "sample": "Some people may feel more pressure because social media makes visible success stories easy to compare with everyday life. Career and educational milestones are also discussed widely. However, pressure has existed in different forms in the past, and it varies by family, community and economic circumstances. People can protect their well-being by defining success personally rather than treating another person's timeline as a universal standard.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "goal-i-worked-towards-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Can failure help someone achieve a long-term goal?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Thất bại cung cấp thông tin về kế hoạch còn yếu",
+              "Cần xem xét nguyên nhân thay vì lặp lại cùng cách làm"
+            ],
+            "vocab": [
+              {
+                "en": "learn from a setback",
+                "vi": "học từ trở ngại"
+              },
+              {
+                "en": "identify a weak point",
+                "vi": "xác định điểm yếu"
+              },
+              {
+                "en": "change the strategy",
+                "vi": "thay đổi chiến lược"
+              },
+              {
+                "en": "try a revised approach",
+                "vi": "thử cách đã điều chỉnh"
+              },
+              {
+                "en": "build resilience",
+                "vi": "xây dựng khả năng phục hồi"
+              },
+              {
+                "en": "avoid repeating the same mistake",
+                "vi": "tránh lặp lại cùng sai lầm"
+              }
+            ],
+            "grammar": "Dùng can be useful if để nêu điều kiện giúp thất bại trở thành kinh nghiệm.",
+            "sample": "A setback can help if someone examines what caused it and changes the strategy. It may reveal that a timetable was unrealistic or that a skill needs more practice. Simply repeating the same approach is unlikely to improve the result. With useful feedback, people can try a revised plan and build resilience. Failure is not automatically valuable; reflection and action make the experience useful.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A goal that took steady effort"
+    },
+    {
+      "id": "new-activity-i-tried",
+      "topic": "A new activity you tried",
+      "task": "Describe a new activity that you tried for the first time.",
+      "bullets": [
+        "what the activity was",
+        "when and where you tried it",
+        "who was with you",
+        "what you thought of it"
+      ],
+      "conclusion": "and explain whether you would do it again.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn hoạt động mới như làm gốm, leo trong nhà hoặc lớp nhảy",
+          "Kể cảm giác ban đầu và điều bạn học",
+          "Nêu muốn tiếp tục hay thử lại vào dịp khác"
+        ],
+        "vocab": [
+          {
+            "en": "step outside my comfort zone",
+            "vi": "bước ra khỏi vùng an toàn"
+          },
+          {
+            "en": "learn the basic movements",
+            "vi": "học các động tác cơ bản"
+          },
+          {
+            "en": "feel awkward at first",
+            "vi": "ban đầu cảm thấy vụng về"
+          },
+          {
+            "en": "follow the instructor's guidance",
+            "vi": "làm theo hướng dẫn của giáo viên"
+          },
+          {
+            "en": "get the hang of it",
+            "vi": "dần nắm được cách làm"
+          },
+          {
+            "en": "give it another go",
+            "vi": "thử lại lần nữa"
+          }
+        ],
+        "grammar": "Dùng quá khứ đơn thuật lại buổi thử, rồi would like to để nêu ý định tương lai.",
+        "sample": "A new activity I tried was a beginner pottery class at a community studio. My friend invited me because she had already attended one session. I expected the class to be relaxing, but I quickly learned that shaping clay takes more control than it appears to. The instructor showed us how to centre the clay and keep our hands steady. At first, I felt awkward and made the sides of my small bowl uneven. Instead of fixing it for me, the instructor gave a simple tip and let me try again. After a few attempts, I began to get the hang of it. The room was quiet except for people asking questions and the wheel turning. I enjoyed seeing how everyone's pieces looked different, even though we followed the same steps. My bowl was not perfect, but I felt proud when it was ready to dry. The class helped me step outside my comfort zone and be patient with a process I could not control immediately. I would like to give it another go, perhaps with a longer session so I can learn how to glaze the finished piece. It was a hands-on experience that made an ordinary afternoon feel creative.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "new-activity-i-tried-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why is it important for adults to keep learning new things?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Học mới giúp thích nghi với thay đổi công việc và đời sống",
+              "Hoạt động mới giữ trí tò mò và kết nối xã hội"
+            ],
+            "vocab": [
+              {
+                "en": "adapt to change",
+                "vi": "thích nghi với thay đổi"
+              },
+              {
+                "en": "keep the mind active",
+                "vi": "duy trì đầu óc linh hoạt"
+              },
+              {
+                "en": "develop transferable skills",
+                "vi": "phát triển kỹ năng có thể áp dụng nhiều nơi"
+              },
+              {
+                "en": "meet people with similar interests",
+                "vi": "gặp người có sở thích tương tự"
+              },
+              {
+                "en": "stay curious",
+                "vi": "duy trì sự tò mò"
+              },
+              {
+                "en": "gain a fresh perspective",
+                "vi": "có góc nhìn mới"
+              }
+            ],
+            "grammar": "Dùng even after để nhấn mạnh việc học tiếp tục ở nhiều giai đoạn cuộc đời.",
+            "sample": "Learning new things helps adults adapt to changes in work and daily life. It can also keep the mind active and provide a fresh perspective on familiar problems. A class or hobby may introduce people to others with similar interests, so the benefit is social as well. Adults do not need to pursue every new trend, but staying curious can make life more flexible and rewarding.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "new-activity-i-tried-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What makes people reluctant to try unfamiliar activities?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Lo tốn tiền hoặc thiếu thời gian",
+              "Sợ làm sai trước người khác hoặc không biết bắt đầu từ đâu"
+            ],
+            "vocab": [
+              {
+                "en": "worry about the cost",
+                "vi": "lo lắng về chi phí"
+              },
+              {
+                "en": "feel out of place",
+                "vi": "cảm thấy lạc lõng"
+              },
+              {
+                "en": "fear looking inexperienced",
+                "vi": "sợ trông thiếu kinh nghiệm"
+              },
+              {
+                "en": "not know where to start",
+                "vi": "không biết bắt đầu từ đâu"
+              },
+              {
+                "en": "a low-pressure introduction",
+                "vi": "buổi giới thiệu ít áp lực"
+              },
+              {
+                "en": "try it with a friend",
+                "vi": "thử cùng một người bạn"
+              }
+            ],
+            "grammar": "Dùng may be put off by để nêu các rào cản thường gặp.",
+            "sample": "People may be put off by cost, lack of time or fear of looking inexperienced. They might also feel out of place if an activity seems designed for experts. A low-pressure introduction, clear information about equipment and the option to try it with a friend can reduce these concerns. Once people understand what to expect, they can decide whether the activity genuinely interests them.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "new-activity-i-tried-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Are hobbies better when people practise alone or in groups?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tập một mình linh hoạt và tự điều chỉnh tốc độ",
+              "Nhóm tạo động lực và cơ hội trao đổi"
+            ],
+            "vocab": [
+              {
+                "en": "practise at my own pace",
+                "vi": "luyện theo nhịp riêng"
+              },
+              {
+                "en": "exchange useful feedback",
+                "vi": "trao đổi góp ý hữu ích"
+              },
+              {
+                "en": "stay accountable",
+                "vi": "duy trì trách nhiệm với kế hoạch"
+              },
+              {
+                "en": "learn from peers",
+                "vi": "học từ người cùng nhóm"
+              },
+              {
+                "en": "choose a quiet setting",
+                "vi": "chọn không gian yên tĩnh"
+              },
+              {
+                "en": "depend on the activity",
+                "vi": "tùy thuộc hoạt động"
+              }
+            ],
+            "grammar": "Dùng it depends on the person and activity để mở kết luận cân bằng.",
+            "sample": "It depends on the person and the activity. Practising alone lets someone work at their own pace and choose a quiet setting. Group activities provide encouragement, peer feedback and a reason to keep attending. A person learning an instrument may want both individual practice and lessons, while a team sport naturally requires other people. The best arrangement is often the one that keeps enjoyment and progress balanced.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "new-activity-i-tried-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can community centres attract more people to their classes?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Lịch học linh hoạt và mô tả rõ trình độ phù hợp",
+              "Buổi trải nghiệm ngắn giúp người mới giảm e ngại"
+            ],
+            "vocab": [
+              {
+                "en": "offer a trial session",
+                "vi": "mở buổi học thử"
+              },
+              {
+                "en": "publish a clear schedule",
+                "vi": "công bố lịch rõ ràng"
+              },
+              {
+                "en": "welcome complete beginners",
+                "vi": "chào đón người hoàn toàn mới"
+              },
+              {
+                "en": "keep fees affordable",
+                "vi": "giữ học phí vừa phải"
+              },
+              {
+                "en": "use local noticeboards",
+                "vi": "dùng bảng tin địa phương"
+              },
+              {
+                "en": "ask participants for feedback",
+                "vi": "xin phản hồi từ người tham gia"
+              }
+            ],
+            "grammar": "Dùng could attract people by và liệt kê các hành động song song.",
+            "sample": "Community centres could attract more people by offering trial sessions and clearly stating which classes welcome complete beginners. Flexible schedules and affordable fees matter to people balancing work or family. Organisers can advertise through local noticeboards and neighbourhood groups, then ask participants what would make the class easier to attend. A welcoming first session is important because a friendly experience encourages people to return.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "Trying something unfamiliar"
+    },
+    {
+      "id": "helped-someone",
+      "topic": "A time you helped someone",
+      "task": "Describe a time when you helped another person.",
+      "bullets": [
+        "who the person was",
+        "what they needed help with",
+        "what you did",
+        "how the person responded"
+      ],
+      "conclusion": "and explain how you felt about helping them.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn lần hỗ trợ thiết thực như chỉ đường hoặc cùng ôn bài",
+          "Kể cách bạn hiểu nhu cầu trước khi giúp",
+          "Nêu kết quả với cảm xúc của cả hai"
+        ],
+        "vocab": [
+          {
+            "en": "offer a helping hand",
+            "vi": "đưa tay giúp đỡ"
+          },
+          {
+            "en": "listen to what they need",
+            "vi": "lắng nghe điều họ cần"
+          },
+          {
+            "en": "work through a task",
+            "vi": "cùng xử lý một nhiệm vụ"
+          },
+          {
+            "en": "give clear directions",
+            "vi": "chỉ dẫn rõ ràng"
+          },
+          {
+            "en": "feel more confident",
+            "vi": "cảm thấy tự tin hơn"
+          },
+          {
+            "en": "a small act of support",
+            "vi": "một hành động hỗ trợ nhỏ"
+          }
+        ],
+        "grammar": "Dùng quá khứ đơn cho hành động và so that để giải thích mục đích của sự giúp đỡ.",
+        "sample": "I remember helping a younger student prepare for a short class presentation. We met through a school club, and she told me she understood her topic but was nervous about speaking in front of the group. I listened first so I would not give advice she did not need. Then we organised her ideas into three clear points and practised the opening sentence several times. I also showed her how to use a small card with keywords rather than write a full script. During practice, I asked a few questions as if I were a listener, so she could get used to pausing and answering. At first she spoke very quietly, but after a few rounds she sounded more confident and looked up from her notes. Her presentation the next day went smoothly, and she later told me the practice had helped her feel prepared. I was pleased because the support was small and specific, yet it made a difference to her experience. I did not need to be an expert; I only needed to listen and help her organise what she already knew. That moment reminded me that practical encouragement can be more useful than simply telling someone not to worry.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "helped-someone-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why do people volunteer to help others?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Muốn đóng góp cho cộng đồng hoặc đáp lại sự hỗ trợ",
+              "Hoạt động tình nguyện tạo kỹ năng và kết nối"
+            ],
+            "vocab": [
+              {
+                "en": "contribute to the community",
+                "vi": "đóng góp cho cộng đồng"
+              },
+              {
+                "en": "a shared responsibility",
+                "vi": "trách nhiệm chung"
+              },
+              {
+                "en": "give time to a cause",
+                "vi": "dành thời gian cho một mục tiêu"
+              },
+              {
+                "en": "build social connections",
+                "vi": "xây dựng kết nối xã hội"
+              },
+              {
+                "en": "develop practical skills",
+                "vi": "phát triển kỹ năng thực tế"
+              },
+              {
+                "en": "see a direct impact",
+                "vi": "thấy tác động trực tiếp"
+              }
+            ],
+            "grammar": "Dùng may volunteer because để nêu động lực đa dạng, tránh quy tất cả về một lý do.",
+            "sample": "People may volunteer because they care about a cause, want to contribute to their community or have received support themselves. Volunteering can also build social connections and practical skills. Seeing a direct impact often makes the work satisfying. Motivation varies, but organisations should make sure volunteers understand their roles and receive suitable support so the experience benefits both them and the people they serve.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "helped-someone-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Should people help others without expecting anything in return?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Lòng tốt không nên chỉ dựa trên phần thưởng",
+              "Sự ghi nhận và hỗ trợ qua lại vẫn có ích"
+            ],
+            "vocab": [
+              {
+                "en": "offer help sincerely",
+                "vi": "giúp đỡ chân thành"
+              },
+              {
+                "en": "expect a direct reward",
+                "vi": "mong phần thưởng trực tiếp"
+              },
+              {
+                "en": "recognise people's effort",
+                "vi": "ghi nhận nỗ lực của mọi người"
+              },
+              {
+                "en": "mutual support",
+                "vi": "sự hỗ trợ qua lại"
+              },
+              {
+                "en": "set healthy boundaries",
+                "vi": "đặt giới hạn lành mạnh"
+              },
+              {
+                "en": "help when it is practical",
+                "vi": "giúp khi có thể làm được"
+              }
+            ],
+            "grammar": "Dùng ideally để nêu nguyên tắc, rồi although để công nhận giới hạn thực tế.",
+            "sample": "Ideally, people offer help sincerely rather than treating every kind act as a transaction. That can build trust and make communities more supportive. However, recognition matters, especially when someone gives a great deal of time, and people need healthy boundaries. It is reasonable to help when practical while also being clear about what support is possible. Generosity should be encouraged without making anyone feel exploited.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "helped-someone-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What can communities do to support people who feel isolated?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tổ chức hoạt động dễ tham gia và gần nơi ở",
+              "Kết nối cư dân với dịch vụ và nhóm hỗ trợ"
+            ],
+            "vocab": [
+              {
+                "en": "a welcoming local group",
+                "vi": "nhóm địa phương thân thiện"
+              },
+              {
+                "en": "low-cost activities",
+                "vi": "hoạt động chi phí thấp"
+              },
+              {
+                "en": "make the first contact",
+                "vi": "chủ động liên hệ lần đầu"
+              },
+              {
+                "en": "connect people with services",
+                "vi": "kết nối mọi người với dịch vụ"
+              },
+              {
+                "en": "a regular social opportunity",
+                "vi": "cơ hội giao lưu đều đặn"
+              },
+              {
+                "en": "reach out respectfully",
+                "vi": "chủ động tiếp cận một cách tôn trọng"
+              }
+            ],
+            "grammar": "Dùng communities can provide để nêu hỗ trợ và without pressuring them để nhấn cách tiếp cận phù hợp.",
+            "sample": "Communities can provide low-cost activities, welcoming local groups and places where people can meet regularly. A library or community centre might help someone make a first contact without requiring a large commitment. Local organisations can also connect residents with appropriate services. It is important to reach out respectfully, because isolated people may prefer different kinds of support and should not feel pressured to join every activity.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "helped-someone-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Can helping someone make the helper feel better too?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Thấy được tác động có thể tạo cảm giác ý nghĩa",
+              "Cảm xúc không phải lúc nào cũng tích cực nếu việc giúp quá sức"
+            ],
+            "vocab": [
+              {
+                "en": "feel useful and connected",
+                "vi": "cảm thấy có ích và gắn kết"
+              },
+              {
+                "en": "a sense of purpose",
+                "vi": "cảm giác có mục tiêu"
+              },
+              {
+                "en": "notice a positive change",
+                "vi": "nhận thấy thay đổi tích cực"
+              },
+              {
+                "en": "emotional energy",
+                "vi": "năng lượng cảm xúc"
+              },
+              {
+                "en": "avoid taking on too much",
+                "vi": "tránh nhận quá nhiều việc"
+              },
+              {
+                "en": "keep support sustainable",
+                "vi": "duy trì sự hỗ trợ bền vững"
+              }
+            ],
+            "grammar": "Dùng can make the helper feel và thêm if để nêu điều kiện việc hỗ trợ lành mạnh.",
+            "sample": "Helping can make the helper feel useful, connected and more aware of other people's needs. Seeing a positive change may give a sense of purpose. At the same time, support takes emotional energy, and taking on too much can lead to stress. A sustainable approach includes clear limits and shared responsibility, so helping remains a positive relationship rather than a burden for one person.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A time I offered support"
+    },
+    {
+      "id": "meaningful-photograph",
+      "topic": "A photograph that is important to you",
+      "task": "Describe a photograph that is important to you.",
+      "bullets": [
+        "what is shown in the photograph",
+        "when and where it was taken",
+        "who took it or kept it",
+        "why it is important to you"
+      ],
+      "conclusion": "and explain how you feel when you look at it.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn ảnh nhóm bạn hoặc khoảnh khắc gia đình",
+          "Mô tả bối cảnh và điều xảy ra ngay trước lúc chụp",
+          "Nêu ký ức ảnh gợi lại"
+        ],
+        "vocab": [
+          {
+            "en": "capture a candid moment",
+            "vi": "ghi lại khoảnh khắc tự nhiên"
+          },
+          {
+            "en": "keep a digital copy",
+            "vi": "giữ bản sao kỹ thuật số"
+          },
+          {
+            "en": "a familiar expression",
+            "vi": "nét mặt quen thuộc"
+          },
+          {
+            "en": "bring back a memory",
+            "vi": "gợi lại kỷ niệm"
+          },
+          {
+            "en": "look at it from time to time",
+            "vi": "thỉnh thoảng xem lại"
+          },
+          {
+            "en": "a meaningful snapshot",
+            "vi": "bức ảnh chụp có ý nghĩa"
+          }
+        ],
+        "grammar": "Dùng mệnh đề quan hệ which để liên kết chi tiết trong ảnh với kỷ niệm mà nó gợi lại.",
+        "sample": "A photograph that is important to me shows my family sitting together in the courtyard of my grandparents' house. It was taken at a small gathering a few years ago, just before everyone went home. My cousin captured the moment while we were talking, so nobody was looking directly at the camera. I like the relaxed expressions and the ordinary details in the background, such as cups on the table and a plant my grandmother had grown. The photograph is stored on my phone, and I also have a printed copy in a notebook. Whenever I look at it, I remember how much conversation happened that afternoon and how my grandparents told stories about the neighbourhood. It brings back a feeling of being surrounded by people who know me well. The image is not professionally composed, but that is part of its appeal. It records a real moment rather than a planned pose. I look at it from time to time, especially when I am busy and have not visited for a while. The photograph reminds me to make room for family visits and small gatherings. I feel calm and grateful when I see it because it preserves a day that might otherwise have faded into an ordinary memory.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "meaningful-photograph-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How has smartphone photography changed people's habits?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chụp ảnh thường xuyên và chia sẻ nhanh hơn",
+              "Số lượng lớn khiến người ta ít chọn lọc ảnh để lưu"
+            ],
+            "vocab": [
+              {
+                "en": "take pictures instantly",
+                "vi": "chụp ảnh ngay lập tức"
+              },
+              {
+                "en": "share an image online",
+                "vi": "chia sẻ ảnh trực tuyến"
+              },
+              {
+                "en": "store thousands of photos",
+                "vi": "lưu hàng nghìn bức ảnh"
+              },
+              {
+                "en": "capture everyday moments",
+                "vi": "ghi lại khoảnh khắc thường ngày"
+              },
+              {
+                "en": "sort a photo collection",
+                "vi": "sắp xếp bộ sưu tập ảnh"
+              },
+              {
+                "en": "be present in the moment",
+                "vi": "hiện diện trong khoảnh khắc"
+              }
+            ],
+            "grammar": "Dùng has made it easier to để nêu sự thay đổi và although để nói về mặt hạn chế.",
+            "sample": "Smartphones have made it easier to take pictures instantly and share them with people who are far away. As a result, photographs now record ordinary moments as well as major events. The large number of images can make it harder to organise or choose which ones to keep. People may also focus on taking pictures instead of being present, so balance matters.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "meaningful-photograph-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Do photographs preserve memories accurately?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Ảnh giữ lại chi tiết hình ảnh nhưng chỉ ghi một khoảnh khắc",
+              "Cách nhớ và bối cảnh có thể thay đổi theo thời gian"
+            ],
+            "vocab": [
+              {
+                "en": "freeze one moment",
+                "vi": "đóng băng một khoảnh khắc"
+              },
+              {
+                "en": "leave out the context",
+                "vi": "bỏ sót bối cảnh"
+              },
+              {
+                "en": "shape a personal memory",
+                "vi": "định hình ký ức cá nhân"
+              },
+              {
+                "en": "remember an event differently",
+                "vi": "nhớ sự kiện theo cách khác"
+              },
+              {
+                "en": "a visual record",
+                "vi": "bản ghi hình ảnh"
+              },
+              {
+                "en": "interpret a scene",
+                "vi": "diễn giải một cảnh"
+              }
+            ],
+            "grammar": "Dùng can preserve some details, but để nêu cả khả năng và giới hạn của ảnh.",
+            "sample": "Photographs preserve visual details, such as who was present or what a place looked like. However, one image freezes a single moment and may leave out the context before or after it. People can also remember an event differently as time passes. A photograph is a useful record, but it does not provide a complete or neutral account of everything that happened.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "meaningful-photograph-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Should people ask permission before posting another person's photo online?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Ảnh có thể tiết lộ danh tính hoặc vị trí",
+              "Xin phép thể hiện tôn trọng quyền riêng tư"
+            ],
+            "vocab": [
+              {
+                "en": "ask for clear permission",
+                "vi": "xin phép rõ ràng"
+              },
+              {
+                "en": "protect someone's privacy",
+                "vi": "bảo vệ quyền riêng tư"
+              },
+              {
+                "en": "share without consent",
+                "vi": "chia sẻ khi chưa đồng ý"
+              },
+              {
+                "en": "identify a location",
+                "vi": "xác định vị trí"
+              },
+              {
+                "en": "remove an image on request",
+                "vi": "gỡ ảnh khi được yêu cầu"
+              },
+              {
+                "en": "think about the audience",
+                "vi": "cân nhắc người xem"
+              }
+            ],
+            "grammar": "Dùng should ask before posting để nêu nguyên tắc, rồi giải thích bằng since.",
+            "sample": "People should usually ask before posting a photograph that clearly shows someone else. An image can reveal a person's identity, activities or location, so consent is part of respecting privacy. This is particularly important for children or sensitive situations. If someone changes their mind, removing the image is a reasonable response. Thinking about the audience and purpose before sharing can prevent avoidable harm.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "meaningful-photograph-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Are professional photographers still needed when phones have good cameras?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Điện thoại tiện cho ảnh đời thường",
+              "Nhiếp ảnh gia chuyên nghiệp có kỹ thuật, thiết bị và khả năng chỉ đạo"
+            ],
+            "vocab": [
+              {
+                "en": "convenient everyday photography",
+                "vi": "chụp ảnh thường ngày tiện lợi"
+              },
+              {
+                "en": "control lighting conditions",
+                "vi": "kiểm soát điều kiện ánh sáng"
+              },
+              {
+                "en": "direct a group portrait",
+                "vi": "chỉ đạo chụp ảnh nhóm"
+              },
+              {
+                "en": "specialist equipment",
+                "vi": "thiết bị chuyên dụng"
+              },
+              {
+                "en": "meet a client's needs",
+                "vi": "đáp ứng nhu cầu khách hàng"
+              },
+              {
+                "en": "professional judgement",
+                "vi": "đánh giá chuyên môn"
+              }
+            ],
+            "grammar": "Dùng while để phân biệt ảnh chụp tiện lợi với công việc chuyên môn.",
+            "sample": "Phones are excellent for convenient everyday photography, but professional photographers still offer skills beyond operating a camera. They can control lighting, direct a group portrait and adapt to difficult conditions. Clients may also need reliable results for a wedding, product or publication. The choice depends on purpose: a quick personal picture is easy to take on a phone, while specialist work can benefit from professional judgement and equipment.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "An image linked to a memory"
+    }
+  ]
+}

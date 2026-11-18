@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 1,
+  "part1Topics": [
+    {
+      "id": "hometown",
+      "title": "Hometown",
+      "reviewed": false,
+      "questions": [
+        {
+          "id": "hometown-01",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What do you like most about your hometown?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn một nét sinh hoạt hoặc cảnh quan bạn quý",
+              "Nêu lý do khiến nơi đó đáng nhớ"
+            ],
+            "vocab": [
+              {
+                "en": "a familiar corner",
+                "vi": "một góc quen thuộc"
+              },
+              {
+                "en": "a lively street",
+                "vi": "con phố nhộn nhịp"
+              },
+              {
+                "en": "green public spaces",
+                "vi": "không gian công cộng xanh"
+              },
+              {
+                "en": "a strong sense of community",
+                "vi": "cảm giác cộng đồng gắn bó"
+              },
+              {
+                "en": "within walking distance",
+                "vi": "trong khoảng cách đi bộ"
+              },
+              {
+                "en": "feel at home",
+                "vi": "cảm thấy thân thuộc"
+              }
+            ],
+            "grammar": "Dùng what I like most is để nhấn vào đặc điểm bạn chọn.",
+            "sample": "What I like most is the sense of community. People in my neighbourhood greet one another, and local shopkeepers often remember regular customers. There are also a few green spaces within walking distance, so I can take a quiet break without travelling far. That familiar atmosphere makes me feel at home.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "hometown-02",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Has your hometown changed much in recent years?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu một thay đổi dễ quan sát",
+              "Đánh giá tác động tích cực hoặc bất tiện"
+            ],
+            "vocab": [
+              {
+                "en": "new residential blocks",
+                "vi": "các khu chung cư mới"
+              },
+              {
+                "en": "improved public transport",
+                "vi": "giao thông công cộng được cải thiện"
+              },
+              {
+                "en": "a busier centre",
+                "vi": "khu trung tâm đông đúc hơn"
+              },
+              {
+                "en": "construction work",
+                "vi": "công trình xây dựng"
+              },
+              {
+                "en": "daily convenience",
+                "vi": "sự tiện lợi hằng ngày"
+              },
+              {
+                "en": "grow at a steady pace",
+                "vi": "phát triển với tốc độ ổn định"
+              }
+            ],
+            "grammar": "Dùng hiện tại hoàn thành với over the past few years rồi nêu kết quả hiện tại.",
+            "sample": "Yes, it has changed quite a bit over the past few years. Several new residential blocks have appeared, and public transport is more convenient than before. The town centre is busier now, so getting around at peak times can be difficult. Overall, the changes have made daily life easier, although traffic needs more attention.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "hometown-03",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Is your hometown a good place for young people?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu cơ hội học tập, làm việc hoặc giải trí",
+              "Thêm một điều người trẻ có thể còn thiếu"
+            ],
+            "vocab": [
+              {
+                "en": "entry-level jobs",
+                "vi": "công việc cho người mới bắt đầu"
+              },
+              {
+                "en": "affordable activities",
+                "vi": "hoạt động có chi phí vừa phải"
+              },
+              {
+                "en": "training opportunities",
+                "vi": "cơ hội đào tạo"
+              },
+              {
+                "en": "a lively social scene",
+                "vi": "đời sống giao lưu sôi nổi"
+              },
+              {
+                "en": "career options",
+                "vi": "lựa chọn nghề nghiệp"
+              },
+              {
+                "en": "a manageable cost of living",
+                "vi": "chi phí sinh hoạt dễ xoay xở"
+              }
+            ],
+            "grammar": "Dùng there are để nêu lợi thế và would benefit from để nói đề xuất.",
+            "sample": "I think it is a comfortable place for young people who value a manageable cost of living. There are colleges, cafés and some affordable activities, while entry-level jobs are available in several fields. However, the social scene is quieter than in a large city. More evening events would make it appealing to a wider range of young residents.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "hometown-04",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What would you recommend a visitor do in your hometown?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Gợi ý một nơi hoặc hoạt động địa phương",
+              "Nêu thời điểm hay món ăn phù hợp để trải nghiệm"
+            ],
+            "vocab": [
+              {
+                "en": "a neighbourhood market",
+                "vi": "khu chợ trong khu phố"
+              },
+              {
+                "en": "sample local dishes",
+                "vi": "thử món ăn địa phương"
+              },
+              {
+                "en": "take a riverside walk",
+                "vi": "đi dạo ven sông"
+              },
+              {
+                "en": "avoid the midday heat",
+                "vi": "tránh cái nóng giữa trưa"
+              },
+              {
+                "en": "observe everyday life",
+                "vi": "quan sát nhịp sống thường ngày"
+              },
+              {
+                "en": "a relaxed pace",
+                "vi": "nhịp điệu thư thả"
+              }
+            ],
+            "grammar": "Dùng I would suggest + V-ing để đưa ra lời giới thiệu tự nhiên.",
+            "sample": "I would suggest visiting the neighbourhood market in the morning. Visitors can sample local dishes, browse small stalls and see how people shop for the day. Later, they could take a riverside walk when the weather is cooler. It is a simple plan, but it gives them a feel for everyday life at a relaxed pace.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "hometown-05",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you think you will live in your hometown in the future?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu dự định hiện tại nhưng giữ câu trả lời linh hoạt",
+              "So sánh cơ hội với sự thân thuộc"
+            ],
+            "vocab": [
+              {
+                "en": "put down roots",
+                "vi": "ổn định lâu dài"
+              },
+              {
+                "en": "stay close to family",
+                "vi": "ở gần gia đình"
+              },
+              {
+                "en": "broader opportunities",
+                "vi": "cơ hội đa dạng hơn"
+              },
+              {
+                "en": "see how things develop",
+                "vi": "chờ xem mọi việc tiến triển thế nào"
+              },
+              {
+                "en": "a practical choice",
+                "vi": "lựa chọn thực tế"
+              },
+              {
+                "en": "remain connected",
+                "vi": "duy trì sự gắn bó"
+              }
+            ],
+            "grammar": "Dùng may hoặc might thay will nếu kế hoạch tương lai còn tùy thuộc hoàn cảnh.",
+            "sample": "I may live there again, but I have not made a firm decision. Staying close to my family and friends would be a real advantage. On the other hand, I might move elsewhere for broader career opportunities. For now, I would like to gain experience in a larger city and see how things develop before choosing a place to put down roots.",
+            "reviewed": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "work-study",
+      "title": "Work and study",
+      "reviewed": false,
+      "questions": [
+        {
+          "id": "work-study-01",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What subject or kind of work are you involved in?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu ngành học hoặc công việc hiện tại",
+              "Thêm một nhiệm vụ hay nội dung bạn thường làm"
+            ],
+            "vocab": [
+              {
+                "en": "focus on a subject",
+                "vi": "tập trung vào một môn học"
+              },
+              {
+                "en": "handle daily tasks",
+                "vi": "phụ trách việc hằng ngày"
+              },
+              {
+                "en": "build practical skills",
+                "vi": "xây dựng kỹ năng thực tế"
+              },
+              {
+                "en": "a typical assignment",
+                "vi": "bài tập thường gặp"
+              },
+              {
+                "en": "work with a team",
+                "vi": "làm việc cùng nhóm"
+              },
+              {
+                "en": "learn on the job",
+                "vi": "học hỏi ngay trong công việc"
+              }
+            ],
+            "grammar": "Dùng hiện tại đơn cho vai trò hiện tại, rồi thêm which involves để giải thích nhiệm vụ.",
+            "sample": "I am studying business, with a focus on how organisations work. A typical assignment involves reading a short case and explaining what a company could improve. I enjoy connecting ideas from class with practical situations. It is helping me build useful skills, especially when I have to present a clear argument to my classmates.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "work-study-02",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What do you like most about your studies or work?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn một hoạt động khiến bạn thấy hứng thú",
+              "Nêu lý do hoặc kết quả bạn nhận được"
+            ],
+            "vocab": [
+              {
+                "en": "solve a practical problem",
+                "vi": "giải quyết vấn đề thực tế"
+              },
+              {
+                "en": "make steady progress",
+                "vi": "tiến bộ đều đặn"
+              },
+              {
+                "en": "a sense of purpose",
+                "vi": "cảm giác có mục tiêu"
+              },
+              {
+                "en": "learn from feedback",
+                "vi": "học từ góp ý"
+              },
+              {
+                "en": "a supportive group",
+                "vi": "nhóm hỗ trợ lẫn nhau"
+              },
+              {
+                "en": "see a clear result",
+                "vi": "nhìn thấy kết quả rõ ràng"
+              }
+            ],
+            "grammar": "Dùng what I enjoy most is + V-ing để giới thiệu điểm yêu thích.",
+            "sample": "What I enjoy most is solving practical problems with other people. We share different ideas, choose the most realistic option and then explain our reasoning. I like being able to see a clear result instead of only memorising information. Feedback from my group also helps me notice small gaps and make steady progress.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "work-study-03",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you work or study better in the morning or afternoon?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn buổi bạn thường tập trung tốt hơn",
+              "Nêu loại việc phù hợp với buổi còn lại"
+            ],
+            "vocab": [
+              {
+                "en": "feel mentally fresh",
+                "vi": "cảm thấy đầu óc tỉnh táo"
+              },
+              {
+                "en": "tackle a demanding task",
+                "vi": "xử lý việc đòi hỏi nhiều tập trung"
+              },
+              {
+                "en": "an energy dip",
+                "vi": "lúc năng lượng giảm"
+              },
+              {
+                "en": "review my notes",
+                "vi": "xem lại ghi chú"
+              },
+              {
+                "en": "work at a steady pace",
+                "vi": "làm việc với nhịp độ ổn định"
+              },
+              {
+                "en": "take a short break",
+                "vi": "nghỉ giải lao ngắn"
+              }
+            ],
+            "grammar": "Dùng while để đối chiếu thời điểm học sâu với thời điểm làm việc nhẹ hơn.",
+            "sample": "I study best in the morning because I feel mentally fresh and can tackle a demanding task before messages start coming in. In the afternoon, I prefer reviewing notes or completing simpler work. My concentration sometimes dips after lunch, so a short walk helps me return to the task and work at a steadier pace.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "work-study-04",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What skill would you most like to develop for work or study?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn một kỹ năng cụ thể",
+              "Liên hệ kỹ năng đó với mục tiêu sắp tới"
+            ],
+            "vocab": [
+              {
+                "en": "speak with confidence",
+                "vi": "nói với sự tự tin"
+              },
+              {
+                "en": "organise my thoughts",
+                "vi": "sắp xếp ý tưởng"
+              },
+              {
+                "en": "explain a complex point",
+                "vi": "giải thích ý phức tạp"
+              },
+              {
+                "en": "take part in a discussion",
+                "vi": "tham gia thảo luận"
+              },
+              {
+                "en": "practise in small steps",
+                "vi": "luyện từng bước nhỏ"
+              },
+              {
+                "en": "use constructive feedback",
+                "vi": "áp dụng góp ý mang tính xây dựng"
+              }
+            ],
+            "grammar": "Dùng would like to improve để nói mục tiêu; theo sau bằng so that để nêu mục đích.",
+            "sample": "I would most like to improve my presentation skills so I can explain ideas clearly in front of a group. I sometimes know what I want to say but need a moment to organise my thoughts. I am practising in small steps by speaking for a minute on familiar subjects and using feedback to improve my structure.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "work-study-05",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Is it easy for you to concentrate where you work or study?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Mô tả mức độ yên tĩnh của không gian",
+              "Nêu cách bạn hạn chế xao nhãng"
+            ],
+            "vocab": [
+              {
+                "en": "a quiet corner",
+                "vi": "góc yên tĩnh"
+              },
+              {
+                "en": "background noise",
+                "vi": "tiếng ồn xung quanh"
+              },
+              {
+                "en": "put my phone away",
+                "vi": "cất điện thoại đi"
+              },
+              {
+                "en": "stay on task",
+                "vi": "duy trì đúng việc đang làm"
+              },
+              {
+                "en": "a focused session",
+                "vi": "phiên làm việc tập trung"
+              },
+              {
+                "en": "change locations",
+                "vi": "đổi địa điểm"
+              }
+            ],
+            "grammar": "Dùng it is easier to concentrate when để gắn điều kiện với mức độ tập trung.",
+            "sample": "It is usually easy when I sit at the quieter end of the library. At home, background noise can be distracting, so I put my phone away and work in a focused session of about forty minutes. If other people are busy nearby, I change locations rather than spend too long trying to ignore the noise.",
+            "reviewed": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "hobbies",
+      "title": "Hobbies",
+      "reviewed": false,
+      "questions": [
+        {
+          "id": "hobbies-01",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What do you like doing in your free time?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu một hoạt động bạn hay chọn",
+              "Mô tả cảm giác hoặc lợi ích sau khi làm"
+            ],
+            "vocab": [
+              {
+                "en": "a creative outlet",
+                "vi": "cách giải tỏa sáng tạo"
+              },
+              {
+                "en": "spare time",
+                "vi": "thời gian rảnh"
+              },
+              {
+                "en": "work on a small project",
+                "vi": "làm một dự án nhỏ"
+              },
+              {
+                "en": "lose track of time",
+                "vi": "mải mê quên thời gian"
+              },
+              {
+                "en": "switch off from work",
+                "vi": "tạm quên công việc"
+              },
+              {
+                "en": "make something by hand",
+                "vi": "tự tay làm ra một món đồ"
+              }
+            ],
+            "grammar": "Dùng enjoy + V-ing để nói sở thích, rồi giải thích bằng it helps me to.",
+            "sample": "In my free time, I enjoy sketching simple scenes in a notebook. It gives me a creative outlet and helps me switch off from study. I am not especially skilled, but I like noticing small details in everyday places. Sometimes I lose track of time while trying different shapes and colours.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "hobbies-02",
+          "type": "part1-question",
+          "part": 1,
+          "q": "When did you start this hobby?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu thời điểm bắt đầu và người hoặc dịp gợi ý",
+              "Giải thích điều khiến bạn tiếp tục"
+            ],
+            "vocab": [
+              {
+                "en": "give it a try",
+                "vi": "thử làm xem sao"
+              },
+              {
+                "en": "a few years ago",
+                "vi": "vài năm trước"
+              },
+              {
+                "en": "pick up a hobby",
+                "vi": "bắt đầu một sở thích"
+              },
+              {
+                "en": "a simple starter kit",
+                "vi": "bộ dụng cụ cơ bản"
+              },
+              {
+                "en": "keep practising",
+                "vi": "tiếp tục luyện tập"
+              },
+              {
+                "en": "improve little by little",
+                "vi": "tiến bộ dần dần"
+              }
+            ],
+            "grammar": "Dùng quá khứ đơn cho thời điểm bắt đầu, rồi hiện tại hoàn thành để nói bạn vẫn duy trì.",
+            "sample": "I started sketching a few years ago when a friend showed me a simple drawing exercise. I gave it a try during a quiet weekend and enjoyed the process more than I expected. Since then, I have kept a small notebook with me. Practising for a few minutes at a time has helped me improve little by little.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "hobbies-03",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you share your hobbies with friends?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu bạn thường làm một mình hay cùng bạn bè",
+              "Cho một ví dụ về cách chia sẻ sở thích"
+            ],
+            "vocab": [
+              {
+                "en": "compare our progress",
+                "vi": "so sánh tiến độ"
+              },
+              {
+                "en": "swap recommendations",
+                "vi": "trao đổi gợi ý"
+              },
+              {
+                "en": "join a casual session",
+                "vi": "tham gia buổi sinh hoạt thoải mái"
+              },
+              {
+                "en": "have different tastes",
+                "vi": "có sở thích khác nhau"
+              },
+              {
+                "en": "keep it low-pressure",
+                "vi": "giữ không khí thoải mái"
+              },
+              {
+                "en": "enjoy it together",
+                "vi": "cùng nhau tận hưởng"
+              }
+            ],
+            "grammar": "Dùng sometimes để diễn tả mức độ chia sẻ; dùng even though để nhượng bộ một khác biệt.",
+            "sample": "Sometimes I show my sketches to a couple of friends, and they share music or photos they like in return. We have different tastes, so the conversation is usually more interesting than trying to do exactly the same activity. I enjoy sharing ideas, but I also keep some hobby time to myself when I need a quiet break.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "hobbies-04",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Is there a hobby you would like to try in the future?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn hoạt động mới và nói vì sao tò mò",
+              "Nêu bước đầu tiên để thử"
+            ],
+            "vocab": [
+              {
+                "en": "take a beginner class",
+                "vi": "tham gia lớp cho người mới"
+              },
+              {
+                "en": "learn the basic techniques",
+                "vi": "học kỹ thuật cơ bản"
+              },
+              {
+                "en": "borrow some equipment",
+                "vi": "mượn một ít dụng cụ"
+              },
+              {
+                "en": "give it a proper try",
+                "vi": "thử một cách nghiêm túc"
+              },
+              {
+                "en": "a hands-on activity",
+                "vi": "hoạt động thực hành"
+              },
+              {
+                "en": "fit it into my schedule",
+                "vi": "xếp vào lịch của mình"
+              }
+            ],
+            "grammar": "Dùng would like to try và could để nói mong muốn cùng bước thực hiện khả thi.",
+            "sample": "I would like to try pottery because I enjoy hands-on activities and would like to learn how everyday objects are made. I could take a beginner class before buying any equipment. That would let me learn the basic techniques and see whether I enjoy working with clay. I would start with one weekend session to fit it into my schedule.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "hobbies-05",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Have your interests changed since you were a child?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Đối chiếu hoạt động khi nhỏ với hiện tại",
+              "Nêu sở thích cũ nào vẫn còn hoặc vì sao đã đổi"
+            ],
+            "vocab": [
+              {
+                "en": "be keen on",
+                "vi": "rất thích"
+              },
+              {
+                "en": "spend hours on",
+                "vi": "dành hàng giờ cho"
+              },
+              {
+                "en": "outdoor games",
+                "vi": "trò chơi ngoài trời"
+              },
+              {
+                "en": "a more relaxed pace",
+                "vi": "nhịp độ thư giãn hơn"
+              },
+              {
+                "en": "discover a new interest",
+                "vi": "khám phá sở thích mới"
+              },
+              {
+                "en": "still enjoy the occasional game",
+                "vi": "vẫn thỉnh thoảng thích chơi"
+              }
+            ],
+            "grammar": "Dùng used to cho sở thích cũ và now để chuyển sang thói quen hiện tại.",
+            "sample": "Yes, my interests have changed quite a lot. I used to be keen on outdoor games and could spend hours cycling with neighbours. These days, I prefer quieter activities such as drawing or listening to music. I still enjoy the occasional game with friends, but my free time now has a more relaxed pace.",
+            "reviewed": false
+          }
+        }
+      ]
+    }
+  ],
+  "part2CueCards": []
+}

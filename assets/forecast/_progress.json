@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "currentPackId": "2026-09-12",
+  "nextPackId": "2027-01-04",
+  "phase": "Pha 5 complete",
+  "targets": {
+    "part1Topics": 12,
+    "part1Questions": 60,
+    "part2CueCards": 24,
+    "part3Questions": 96
+  },
+  "completed": {
+    "part1Topics": 12,
+    "part1Questions": 60,
+    "part2CueCards": 24,
+    "part3Questions": 96
+  },
+  "updated": "2026-11-19"
+}

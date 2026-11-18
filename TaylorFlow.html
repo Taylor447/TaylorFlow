@@ -861,6 +861,70 @@ body > nav button.on { background: color-mix(in srgb,var(--pr) 17%,transparent);
 .review-format-card strong,.review-format-card small { display:block; }
 .review-format-card p { margin:6px 0; color:var(--mu); font-size:.92em; }
 .review-format-card small { color:var(--pr); font-weight:750; }
+.tf-forecast-notice { margin:12px 0; padding:13px 15px; border:1px solid color-mix(in srgb,var(--action) 34%,var(--bd)); border-left:4px solid var(--action); border-radius:15px; background:color-mix(in srgb,var(--action) 8%,var(--sf)); color:var(--tx); line-height:1.5; }
+.tf-forecast-shell { display:grid; gap:14px; margin:14px 0; }
+.tf-forecast-pack { min-width:0; overflow:hidden; border:1px solid var(--bd); border-radius:22px; background:linear-gradient(145deg,color-mix(in srgb,var(--pr) 8%,var(--sf)),color-mix(in srgb,var(--cd) 84%,transparent)); box-shadow:0 12px 32px color-mix(in srgb,var(--tx) 7%,transparent); }
+.tf-forecast-pack-head { display:flex; align-items:flex-start; justify-content:space-between; gap:14px; padding:18px 20px; border-bottom:1px solid var(--bd); background:color-mix(in srgb,var(--sf) 72%,transparent); }
+.tf-forecast-pack-head h3 { margin:3px 0 5px; font-size:clamp(19px,2.4vw,25px); }
+.tf-forecast-pack-head p { margin:4px 0; color:var(--mu); }
+.tf-forecast-pack-head .eyebrow { margin:0; color:var(--pr); font-size:12px; font-weight:800; letter-spacing:.08em; }
+.tf-forecast-pack-status { flex:none; padding:7px 10px; border:1px solid var(--bd); border-radius:999px; background:color-mix(in srgb,var(--positive) 12%,var(--sf)); color:var(--positive); font-size:12px; font-weight:800; }
+.tf-forecast-pack-status.is-archived { background:color-mix(in srgb,var(--mu) 10%,var(--sf)); color:var(--mu); }
+.tf-forecast-controls { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; padding:14px 18px; border-bottom:1px solid var(--bd); }
+.tf-forecast-controls label { display:grid; gap:5px; color:var(--mu); font-size:13px; font-weight:700; }
+.tf-forecast-controls select { width:100%; min-height:44px; padding:8px 12px; border:1px solid var(--bd); border-radius:12px; background:var(--cd); color:var(--tx); }
+.tf-forecast-actions { display:flex; align-items:center; flex-wrap:wrap; gap:9px; padding:0 18px 14px; }
+.tf-forecast-actions select { flex:1 1 190px; min-width:0; min-height:44px; padding:8px 12px; border:1px solid var(--bd); border-radius:12px; background:var(--cd); color:var(--tx); }
+.tf-forecast-actions button,.tf-forecast-topic button,.tf-forecast-copy-form button,.tf-forecast-archive button { min-height:44px; }
+.tf-forecast-progress { margin:0 18px 12px; color:var(--mu); font-size:13px; }
+.tf-forecast-progress strong { color:var(--pr); }
+.tf-forecast-topic-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; padding:0 18px 18px; }
+.tf-forecast-topic { min-width:0; padding:13px; border:1px solid var(--bd); border-radius:16px; background:color-mix(in srgb,var(--sf) 76%,transparent); }
+.tf-forecast-topic h4 { margin:0 0 7px; }
+.tf-forecast-topic p { margin:6px 0; color:var(--mu); line-height:1.5; }
+.tf-forecast-topic ul { margin:7px 0; padding-left:20px; color:var(--mu); }
+.tf-forecast-topic li { margin:4px 0; }
+.tf-forecast-archive { padding:12px 18px; border-top:1px solid var(--bd); }
+.tf-forecast-archive summary { min-height:44px; display:flex; align-items:center; cursor:pointer; color:var(--pr); font-weight:800; }
+.tf-forecast-archive-list { display:grid; gap:8px; padding:8px 0; }
+.tf-forecast-archive-row { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:10px 12px; border:1px solid var(--bd); border-radius:13px; background:color-mix(in srgb,var(--sf) 72%,transparent); }
+.tf-forecast-copy-form { margin:0 18px 16px; }
+.tf-forecast-copy-form [role="status"] { margin:6px 0 0; color:var(--positive); }
+.tf-forecast-sample { margin:8px 0; padding:12px; border-radius:12px; background:color-mix(in srgb,var(--pr) 7%,var(--sf)); color:var(--tx); line-height:1.55; white-space:pre-wrap; }
+.tf-forecast-aid-vocab { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:5px 12px; margin:7px 0; padding-left:19px; }
+.tf-forecast-loading { padding:14px; border:1px solid var(--bd); border-radius:14px; color:var(--mu); }
+.tf-forecast-controls :focus-visible,.tf-forecast-actions :focus-visible,.tf-forecast-topic button:focus-visible,.tf-forecast-archive button:focus-visible,.tf-forecast-copy-form button:focus-visible { outline:3px solid var(--action); outline-offset:2px; }
+@media(max-width:650px){.tf-forecast-controls,.tf-forecast-topic-grid{grid-template-columns:1fr}.tf-forecast-pack-head{padding:15px;flex-direction:column}.tf-forecast-controls{padding:12px}.tf-forecast-actions{align-items:stretch;padding:0 12px 12px}.tf-forecast-actions>*{flex:1 1 100%}.tf-forecast-topic-grid{padding:0 12px 12px}.tf-forecast-copy-form{margin:0 12px 12px}.tf-forecast-progress{margin-inline:12px}.tf-forecast-aid-vocab{grid-template-columns:1fr}.tf-forecast-archive-row{align-items:flex-start;flex-direction:column}}
+.review-forecast-bulk { margin:16px 0; overflow:hidden; border:1px solid color-mix(in srgb,var(--bd) 74%,var(--pr) 26%); border-radius:19px; background:linear-gradient(145deg,color-mix(in srgb,var(--glass) 82%,var(--pr) 8%),color-mix(in srgb,var(--cd) 91%,transparent)); box-shadow:0 12px 30px color-mix(in srgb,var(--tx) 8%,transparent),inset 0 1px 0 color-mix(in srgb,white 35%,transparent); -webkit-backdrop-filter:blur(16px) saturate(1.35); backdrop-filter:blur(16px) saturate(1.35); }
+.review-forecast-bulk>summary { display:flex; align-items:center; justify-content:space-between; gap:12px; min-height:56px; padding:11px 15px; color:var(--tx); font-weight:800; cursor:pointer; list-style:none; }
+.review-forecast-bulk>summary::-webkit-details-marker { display:none; }
+.review-forecast-bulk>summary>span:first-child { display:grid; gap:2px; }
+.review-forecast-bulk>summary small { color:var(--mu); font-size:12px; font-weight:600; }
+.review-forecast-bulk>summary>span:last-child { color:var(--pr); font-size:20px; transition:transform .18s ease; }
+.review-forecast-bulk[open]>summary>span:last-child { transform:rotate(45deg); }
+.review-forecast-bulk>summary:focus-visible,.review-bulk-tools :focus-visible { outline:3px solid var(--action); outline-offset:2px; }
+.review-bulk-tools { display:grid; gap:12px; padding:0 15px 15px; border-top:1px solid color-mix(in srgb,var(--bd) 72%,transparent); }
+.review-bulk-tools>p { margin:0; color:var(--mu); font-size:13px; line-height:1.5; }
+.review-bulk-backup,.review-bulk-choice,.review-bulk-preview-actions { display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
+.review-bulk-backup button,.review-bulk-backup label,.review-bulk-tools>button,.review-bulk-preview-actions button { display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:9px 13px; border:1px solid var(--bd); border-radius:13px; background:color-mix(in srgb,var(--glass) 78%,var(--pr) 7%); color:var(--tx); font:inherit; font-weight:750; text-align:center; cursor:pointer; }
+.review-bulk-backup button:hover,.review-bulk-backup label:hover,.review-bulk-tools>button:hover,.review-bulk-preview-actions button:hover { border-color:var(--pr); }
+.review-bulk-tools label { display:grid; gap:5px; color:var(--mu); font-size:13px; font-weight:700; }
+.review-bulk-tools input:not([type=file]),.review-bulk-tools select,.review-bulk-tools textarea { width:100%; min-height:44px; padding:10px 12px; border:1px solid var(--bd); border-radius:12px; background:color-mix(in srgb,var(--cd) 92%,transparent); color:var(--tx); font:inherit; }
+.review-bulk-tools textarea { min-height:150px; resize:vertical; line-height:1.5; }
+.review-bulk-import-file { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; clip-path:inset(50%); }
+.review-bulk-preview { display:grid; gap:10px; min-width:0; padding:12px; border:1px solid var(--bd); border-radius:15px; background:color-mix(in srgb,var(--sf) 70%,transparent); }
+.review-bulk-preview[hidden],.review-bulk-target[hidden] { display:none; }
+.review-bulk-preview h4 { margin:0; }
+.review-bulk-preview p { margin:0; color:var(--mu); font-size:13px; line-height:1.45; }
+.review-bulk-preview-list { display:grid; gap:5px; max-height:330px; overflow:auto; margin:0; padding:0; list-style:none; }
+.review-bulk-preview-list li { display:grid; grid-template-columns:auto minmax(0,1fr); align-items:start; gap:8px; padding:7px 0; border-top:1px solid color-mix(in srgb,var(--bd) 70%,transparent); overflow-wrap:anywhere; }
+.review-bulk-part { min-width:54px; padding:3px 6px; border-radius:8px; background:color-mix(in srgb,var(--pr) 12%,var(--sf)); color:var(--pr); font-size:11px; font-weight:800; text-align:center; }
+.review-bulk-warning { padding:9px 11px; border:1px solid color-mix(in srgb,#d78b20 38%,var(--bd)); border-radius:12px; background:color-mix(in srgb,#d78b20 9%,var(--sf)); color:var(--tx)!important; }
+.review-bulk-status { min-height:1.4em; color:var(--positive)!important; font-weight:700; }
+.review-bulk-undo { border-color:color-mix(in srgb,var(--pr) 50%,var(--bd))!important; color:var(--pr)!important; }
+.review-bulk-tools .review-bulk-mode-label { flex:1 1 230px; }
+.review-bulk-tools .review-bulk-target { flex:1 1 230px; }
+@media(max-width:520px){.review-bulk-tools{padding:0 12px 12px}.review-bulk-backup>*{flex:1 1 100%}.review-bulk-choice>*{flex:1 1 100%}.review-bulk-preview-actions>*{flex:1 1 100%}}
 .review-guide { margin:12px 0; padding:12px 15px; border:1px solid var(--bd); border-radius:18px; background:color-mix(in srgb,var(--cd) 76%,transparent); }
 .review-guide ul { margin:8px 0 0; padding-left:20px; }
 .review-guide li { margin:5px 0; }
@@ -1011,6 +1075,34 @@ body > nav button.on { background: color-mix(in srgb,var(--pr) 17%,transparent);
 .home-learning-body .home-learning-assessment .tf-placement-box .tf-profile-result { margin-top:10px; padding:12px; border-radius:13px; }
 .home-learning-body .tf-home-grid { align-items:start; align-content:start; }
 .home-learning-body .tf-home-grid>.home-learning-card { height:auto; }
+
+/* Compact liquid-glass layout for the home learning plan. */
+.home-learning-plan { border:1px solid color-mix(in srgb,var(--bd) 72%,white 28%); background:linear-gradient(145deg,color-mix(in srgb,var(--glass) 86%,var(--pr) 14%),color-mix(in srgb,var(--cd) 90%,transparent)); box-shadow:0 18px 46px color-mix(in srgb,var(--tx) 15%,transparent),inset 0 1px 0 color-mix(in srgb,white 48%,transparent); -webkit-backdrop-filter:blur(20px) saturate(1.45); backdrop-filter:blur(20px) saturate(1.45); }
+.home-learning-summary { position:relative; }
+.home-learning-plan .home-learning-body { padding:18px clamp(14px,2vw,22px) 20px; border-top:1px solid color-mix(in srgb,var(--bd) 72%,transparent); background:linear-gradient(155deg,color-mix(in srgb,var(--pr) 7%,transparent),transparent 52%); }
+.home-learning-body>.home-learning-head { align-items:flex-start; margin:0 0 8px; padding:0; }
+.home-learning-kicker { display:block; margin:0 0 3px; color:var(--pr); font-size:11px; font-weight:850; letter-spacing:.11em; }
+.home-learning-head h2 { margin:0; font-size:clamp(19px,2.3vw,25px); letter-spacing:-.025em; }
+.home-learning-progress { flex:none; margin:2px 0 0; padding:7px 11px; border:1px solid color-mix(in srgb,var(--positive) 24%,var(--bd)); border-radius:999px; background:color-mix(in srgb,var(--positive) 10%,var(--glass)); font-size:17px; line-height:1.15; }
+.home-learning-body>progress { display:block; width:100%; height:7px; margin:0 0 12px; overflow:hidden; border:0; border-radius:99px; background:color-mix(in srgb,var(--pr) 13%,var(--cd)); accent-color:var(--pr); }
+.home-learning-body>progress::-webkit-progress-bar { border-radius:99px; background:color-mix(in srgb,var(--pr) 13%,var(--cd)); }
+.home-learning-body>progress::-webkit-progress-value { border-radius:99px; background:linear-gradient(90deg,var(--pr),color-mix(in srgb,var(--positive) 55%,var(--pr))); }
+.home-learning-body>progress::-moz-progress-bar { border-radius:99px; background:linear-gradient(90deg,var(--pr),color-mix(in srgb,var(--positive) 55%,var(--pr))); }
+.home-learning-intro { margin:0 0 13px; color:var(--mu); font-size:14px; line-height:1.5; }
+.home-learning-steps { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.home-learning-step { display:flex; min-width:0; flex-direction:column; gap:8px; padding:15px; border:1px solid color-mix(in srgb,var(--bd) 75%,white 25%); border-radius:19px; background:linear-gradient(145deg,color-mix(in srgb,var(--glass) 79%,var(--pr) 8%),color-mix(in srgb,var(--cd) 82%,transparent)); box-shadow:inset 0 1px 0 color-mix(in srgb,white 48%,transparent),0 9px 22px color-mix(in srgb,var(--tx) 8%,transparent); -webkit-backdrop-filter:blur(14px) saturate(1.3); backdrop-filter:blur(14px) saturate(1.3); }
+.home-learning-step-top { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+.home-learning-step-number { display:grid; width:30px; height:30px; place-items:center; border:1px solid color-mix(in srgb,var(--pr) 28%,var(--bd)); border-radius:11px; background:color-mix(in srgb,var(--pr) 12%,var(--glass)); color:var(--pr); font-size:12px; font-weight:850; }
+.home-learning-step-tag { padding:5px 9px; border:1px solid color-mix(in srgb,var(--bd) 78%,transparent); border-radius:999px; background:color-mix(in srgb,var(--glass) 72%,transparent); color:var(--mu); font-size:11px; font-weight:750; white-space:nowrap; }
+.home-learning-step h3 { margin:0; color:var(--tx); font-size:16px; line-height:1.25; }
+.home-learning-step p { min-height:40px; margin:0; color:var(--mu); font-size:13px; line-height:1.5; }
+.home-learning-step-button { width:100%; min-height:46px; margin-top:auto; padding:10px 12px; border:1px solid color-mix(in srgb,var(--pr) 45%,var(--bd)); border-radius:13px; background:color-mix(in srgb,var(--glass) 76%,var(--pr) 12%); color:var(--tx); font-weight:800; cursor:pointer; }
+.home-learning-step-button--primary { border-color:transparent; background:linear-gradient(135deg,var(--pr),color-mix(in srgb,var(--pr) 72%,#39c9ce)); color:#fff; box-shadow:0 8px 18px color-mix(in srgb,var(--pr) 25%,transparent),inset 0 1px 0 #ffffff5c; }
+.home-learning-step-button:hover,.home-learning-plan .home-learning-map-link:hover { transform:translateY(-1px); }
+.home-learning-step-button:focus-visible,.home-learning-plan .home-learning-map-link:focus-visible { outline:3px solid var(--pr); outline-offset:2px; }
+.home-learning-requirement { margin:11px 2px 0; color:var(--mu); font-size:12px; line-height:1.45; }
+.home-learning-plan .home-learning-map-link { margin-top:12px; padding:11px 14px; border-color:color-mix(in srgb,var(--bd) 75%,white 25%); border-radius:15px; background:linear-gradient(115deg,color-mix(in srgb,var(--glass) 80%,var(--pr) 9%),color-mix(in srgb,var(--glass) 75%,transparent)); -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px); }
+@media(max-width:520px){.home-learning-plan .home-learning-body{padding:15px 12px 16px}.home-learning-steps{grid-template-columns:1fr;gap:10px}.home-learning-step{padding:14px}.home-learning-step p{min-height:0}.home-learning-intro{font-size:13px}}
 
 .home-learning-map-link { width:100%; display:flex; align-items:center; gap:12px; margin-top:14px; padding:12px 16px; border:1px solid var(--bd); border-radius:16px; background:var(--sf); color:var(--tx); text-align:left; font:inherit; cursor:pointer; transition:transform .18s ease,border-color .18s ease; }
 .home-learning-map-link:hover { transform:translateY(-2px); border-color:var(--pr); }
@@ -4385,7 +4477,7 @@ function bubbleHomeIcon(name){
  return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${shapes[name]||shapes.book}</svg>`;
 }
 function openLearningPathMap(){pathView=null;pathFolderOpen=true;tab='les';openView()}
-function homeLearningPlan(){const done=pathPercent(),expanded=window.tfHomeLearningExpanded===true;return `<details class="c home-learning-plan home-learning-accordion"${expanded?' open':''} ontoggle="window.tfHomeLearningExpanded=this.open"><summary class="home-learning-summary"><span class="home-learning-summary-copy"><small class="eyebrow">LỘ TRÌNH CỦA TÔI</small><strong>Trình độ, tiến độ, kế hoạch</strong></span><span class="home-learning-summary-meta"><b>${done}%</b><span class="home-learning-summary-chevron" aria-hidden="true">⌄</span></span></summary><div class="home-learning-body"><div class="home-learning-head"><h2>Học bước tiếp theo</h2><strong class="home-learning-progress">${done}%</strong></div><progress max="100" value="${done}" aria-label="Tiến độ lộ trình cá nhân"></progress><div class="home-learning-columns home-learning-columns-single"><article class="home-learning-assessment home-learning-card"><h3 class="home-learning-card-heading"><span class="home-learning-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="17" rx="2.5"/><path d="M9 5V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1"/><path d="m8.5 13 2 2 5-5"/></svg></span><span>Kiểm tra trình độ</span></h3><p>Bài kiểm tra thích nghi 12–20 câu. Chỉ cấp hồ sơ sau khi hoàn thành CAT đầy đủ và Speaking Test hợp lệ.</p><div class="home-learning-card-actions"><button type="button" class="g" onclick="startPlacement('full',true)">Bắt đầu CAT</button><button type="button" class="g" onclick="startExam(123,true)">Bắt đầu Speaking Test</button></div><div class="home-learning-speaking"><div><h4>Lộ trình cá nhân</h4><p>Xem kỹ năng ưu tiên và kế hoạch học dựa trên kết quả này.</p></div><button type="button" class="g" onclick="openLearningPathMap()">Mở lộ trình</button></div></article></div></div></details>`}
+function homeLearningPlan(){const done=pathPercent(),expanded=window.tfHomeLearningExpanded===true;return `<details class="c home-learning-plan home-learning-accordion"${expanded?' open':''} ontoggle="window.tfHomeLearningExpanded=this.open"><summary class="home-learning-summary"><span class="home-learning-summary-copy"><small class="eyebrow">LỘ TRÌNH CỦA TÔI</small><strong>Trình độ, tiến độ, kế hoạch</strong></span><span class="home-learning-summary-meta"><b>${done}%</b><span class="home-learning-summary-chevron" aria-hidden="true">⌄</span></span></summary><div class="home-learning-body"><div class="home-learning-head"><div><small class="home-learning-kicker">ĐÁNH GIÁ ĐẦU VÀO</small><h2>Học bước tiếp theo</h2></div><strong class="home-learning-progress">${done}%</strong></div><progress max="100" value="${done}" aria-label="Tiến độ lộ trình cá nhân"></progress><p class="home-learning-intro">Hoàn thành CAT và Speaking Test để nhận hồ sơ CEFR cùng band Speaking ước tính.</p><div class="home-learning-steps"><article class="home-learning-step"><div class="home-learning-step-top"><span class="home-learning-step-number" aria-hidden="true">01</span><span class="home-learning-step-tag">12–20 câu</span></div><h3>Kiểm tra trình độ</h3><p>Bài CAT thích nghi; có thể tạm dừng và làm tiếp sau.</p><button type="button" class="home-learning-step-button home-learning-step-button--primary" onclick="startPlacement('full',true)">Bắt đầu CAT <span aria-hidden="true">→</span></button></article><article class="home-learning-step"><div class="home-learning-step-top"><span class="home-learning-step-number" aria-hidden="true">02</span><span class="home-learning-step-tag">Part 1–3</span></div><h3>Speaking Test</h3><p>7 câu hỏi ngẫu nhiên; ghi âm câu trả lời để hoàn thành bài nói.</p><button type="button" class="home-learning-step-button" onclick="startExam(123,true)">Bắt đầu Speaking Test <span aria-hidden="true">→</span></button></article></div><p class="home-learning-requirement">Cần hoàn thành đủ CAT và Speaking Test hợp lệ để nhận hồ sơ trình độ cùng band ước tính.</p><button type="button" class="home-learning-map-link" onclick="openLearningPathMap()"><span class="home-learning-map-copy"><strong>LỘ TRÌNH CÁ NHÂN</strong><small>Xem kỹ năng ưu tiên và kế hoạch học theo kết quả.</small></span><span class="home-learning-map-arrow" aria-hidden="true">→</span></button></div></details>`}
 const HOME_BUBBLE_APPS_KEY='tf.home.bubble-apps.v1';const HOME_BUBBLE_DEFAULT_APP_IDS=['recentLauncher','part1','part2','part3','videos','coop','games','saved'];
 
 function homeBubbleCatalog(){
@@ -7745,7 +7837,7 @@ async function addToHomeScreen(){
 async function registerPwa(){
  if(location.protocol==='file:'||globalThis.isSecureContext!==true){syncPwaUI();return}
  if(!('serviceWorker' in navigator)){pwaOfflineError='Trình duyệt này không hỗ trợ lưu ngoại tuyến.';syncPwaUI();return}
- try{const workerUrl=new URL('./service-worker.js',location.href);workerUrl.searchParams.set('v','3');await navigator.serviceWorker.register(workerUrl,{scope:new URL('./',location.href).pathname,updateViaCache:'none'});pwaOfflineReady=true}
+ try{const workerUrl=new URL('./service-worker.js',location.href);workerUrl.searchParams.set('v','4');await navigator.serviceWorker.register(workerUrl,{scope:new URL('./',location.href).pathname,updateViaCache:'none'});pwaOfflineReady=true}
  catch{pwaOfflineError='Chưa bật được lưu ngoại tuyến. Hãy tải lại trang HTTPS.'}
  syncPwaUI();
 }
@@ -11407,6 +11499,74 @@ let reviewEditing = null;
 let reviewDb;
 let reviewItems;
 let reviewItemsError = '';
+let reviewForecastBulkParsed = null;
+let reviewForecastBulkUndoState = null;
+const TF_FORECAST_PROGRESS_KEY='tf-forecast-pack-progress-v1';
+let tfForecastPartFilter='all';
+let tfForecastTopicFilter='all';
+let tfForecastScriptLoads=new Map();
+
+/* TF_BULK_FORECAST_PARSER_BEGIN */
+function parseReviewForecastBulkText(input){
+ const rawLines=String(input||'').replace(/\r\n?/g,'\n').split('\n');
+ const prompts=[],duplicates=[],warnings=[];
+ const seen=new Map();
+ let part=0,p2Lines=[],p2BlankAfter=false,ignoredBeforePart=0;
+ const normalize=text=>String(text||'').normalize('NFKC').toLocaleLowerCase('vi').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+ const isLabel=text=>/^(?:topic|theme|chủ đề|questions?|question list|câu hỏi|thời lượng|duration|time)\s*[:：\-–—]/i.test(text)||/^(?:questions?|câu hỏi)\s*[:：]?$/i.test(text)||/^\d+\s*[-–]\s*\d+\s*(?:minutes?|mins?)$/i.test(text)||/^(?:part|phần)\s*[123i]{1,3}\s*$/i.test(text);
+ const cleanLine=(value,keepBullet=false)=>{
+  let text=String(value||'').replace(/\u00a0/g,' ').trim();
+  let hadBullet=false;
+  for(let i=0;i<4;i++){
+   const next=text.replace(/^\s*(?:[-–—*•▪●‣]|(?:\d{1,3}|[a-z])[.)、])\s*/i,'');
+   if(next===text)break;
+   hadBullet=true;text=next.trim();
+  }
+  if(text.length>=2&&/^["“‘'«「]/.test(text)&&/["”’'»」]$/.test(text))text=text.slice(1,-1).trim();
+  return keepBullet&&hadBullet?'• '+text:text;
+ };
+ const add=(number,text)=>{
+  const q=String(text||'').trim();if(!q)return;
+  const key=normalize(q);if(!key)return;
+  if(seen.has(key)){duplicates.push({part:number,q,first:seen.get(key)});return;}
+  const prompt={p:number,q};prompts.push(prompt);seen.set(key,prompt);
+ };
+ const flushPart2=()=>{if(p2Lines.length){add(2,p2Lines.join('\n'));p2Lines=[];}};
+ const processLine=(value,lineNumber)=>{
+  let text=String(value||'').trim();if(!text||/^(?:[-_=*]){3,}$/.test(text))return;
+  if(isLabel(text))return;
+  if(!part){ignoredBeforePart++;return;}
+  const unbulleted=cleanLine(text,false);
+  if(part===2){
+   const cueHeader=unbulleted.match(/^(?:cue\s*card|thẻ\s*đề)(?:\s*#?\s*\d+)?(?:\s*[:：\-–—]\s*|\s+)?(.*)$/i);
+   if(cueHeader){flushPart2();const cueText=cleanLine(cueHeader[1]||'',false);if(cueText&&!isLabel(cueText))p2Lines.push(cueText);p2BlankAfter=false;return;}
+   const newCue=/^(?:describe|talk about|tell\s+(?:me\s+)?about|think of\s+(?:a|an|the)\s+)/i.test(unbulleted);
+   if(newCue&&p2Lines.length&&p2BlankAfter)flushPart2();
+   const preserved=cleanLine(text,true);if(preserved)p2Lines.push(preserved);
+   p2BlankAfter=false;
+   return;
+  }
+  add(part,unbulleted);
+ };
+ rawLines.forEach((raw,index)=>{
+  const line=raw.trim();
+  if(!line){if(part===2&&p2Lines.length)p2BlankAfter=true;return;}
+  const heading=line.match(/^\s*(?:#{1,6}\s*)?(?:part|phần)\s*(1|2|3|i|ii|iii)\b(?:\s*[:：\-–—]\s*(.*)|\s+(.*))?\s*$/i);
+  if(heading){
+   flushPart2();
+   const label=heading[1].toLocaleLowerCase();part=/^i+$/.test(label)?label.length:Number(label);
+   p2BlankAfter=false;
+   const tail=String(heading[2]||heading[3]||'').trim();
+   if(tail)processLine(tail,index);
+   return;
+  }
+  processLine(line,index);
+ });
+ flushPart2();
+ if(ignoredBeforePart)warnings.push(`${ignoredBeforePart} dòng trước tiêu đề Part đã được bỏ qua.`);
+ return {prompts,duplicates,warnings};
+}
+/* TF_BULK_FORECAST_PARSER_END */
 
 function reviewDifficultyOptions(value=''){
  return '<option value="">Chưa phân loại</option>'+REVIEW_DIFFICULTY.map(([key,label])=>`<option value="${key}"${value===key?' selected':''}>${label}</option>`).join('');
@@ -11416,6 +11576,20 @@ function readReviewForecastHistory(){try{const rows=JSON.parse(localStorage.getI
 function reviewForecastMean(rows,key){const values=rows.map(row=>row?.s?.[key]).filter(Number.isFinite);return values.length?half(avg(values)):null}
 function saveReviewForecastAttempt(session,incomplete=false){
  if(!session?.forecast||session.reviewHistorySaved)return null;
+ if(session.forecastPackId){
+  const progress=readForecastPackProgress();
+  const packProgress=progress[session.forecastPackId]&&typeof progress[session.forecastPackId]==='object'?progress[session.forecastPackId]:{};
+  const practiced=new Set(Array.isArray(packProgress.practicedQuestionIds)?packProgress.practicedQuestionIds:[]);
+  (session.resultFeedback||[]).forEach(result=>{
+   const id=result?.x?.forecastQuestionId;
+   if(typeof id==='string'&&id)practiced.add(id);
+  });
+  progress[session.forecastPackId]={practicedQuestionIds:[...practiced],updated:Date.now()};
+  try{localStorage.setItem(TF_FORECAST_PROGRESS_KEY,JSON.stringify(progress));session.reviewHistorySaved=true;session.reviewHistorySaveFailed=false}
+  catch{session.reviewHistorySaved=true;session.reviewHistorySaveFailed=true}
+  if($('#tf-forecast-pack-root'))void renderForecastPackages();
+  return null;
+ }
  const results=(session.resultFeedback||[]).filter(result=>result?.s);
  const criteria=Object.fromEntries(['f','l','g','p'].map(key=>[key,reviewForecastMean(results,key)]));
  const byPart=Object.fromEntries([1,2,3].map(part=>[part,reviewForecastMean(results.filter(result=>result.x?.p===part),'o')]));
@@ -11475,13 +11649,16 @@ function switchReviewCategory(category){
  document.querySelectorAll('[data-review-category]').forEach(button=>{
    button.setAttribute('aria-pressed',String(button.dataset.reviewCategory===category));
  });
+ if(category==='forecast')void renderForecastPackages();
 }
 
 function reviewCategoryContent(){
  if(reviewCategory==='forecast'){
    return `<section class="c" aria-labelledby="review-forecast-title">
      <h2 id="review-forecast-title">Luyện đề thi forecast</h2>
-     <p class="mu">Tự nhập forecast, luyện theo cấu trúc IELTS Speaking và xem kết quả ước tính từ bộ chấm hiện có. Forecast do người học nhập, không phải đề thi được xác nhận.</p>
+     <p class="tf-forecast-notice" role="note"><strong>Lưu ý:</strong> Forecast là dự đoán không chính thức dựa trên chủ đề thường gặp; IELTS không công bố trước đề và không đảm bảo trùng đề thi thật. Nhãn kỳ forecast là quy ước của các bên làm forecast, không phải lịch đổi đề chính thức.</p>
+     <p class="mu">Chọn gói đề luyện tập do TaylorFlow soạn hoặc tự nhập bộ câu hỏi của bạn. Gói dựng sẵn tách biệt với đề cá nhân đã lưu.</p>
+     <div id="tf-forecast-pack-root" class="tf-forecast-shell"><p class="tf-forecast-loading" role="status">Đang nạp gói forecast ngoại tuyến…</p></div>
      <div class="review-format-grid" aria-label="Cấu trúc IELTS Speaking">
        <article class="review-format-card"><strong>Part 1 · 4–5 phút</strong><p>Phỏng vấn ngắn về chủ đề quen thuộc như nhà ở, học tập, công việc và sở thích.</p><small>Trọng tâm: trả lời trực tiếp, thêm lý do hoặc ví dụ.</small></article>
        <article class="review-format-card"><strong>Part 2 · 3–4 phút</strong><p>1 phút chuẩn bị, sau đó nói tối đa 2 phút theo cue card.</p><small>Trọng tâm: kể chuyện có trình tự và đủ ý.</small></article>
@@ -11495,6 +11672,18 @@ function reviewCategoryContent(){
        <li>Kết quả tự chấm là phản hồi luyện tập; phần ngữ pháp/từ vựng hiện theo phân tích cục bộ và không thay thế examiner.</li>
      </ul></details>
      ${reviewForecastInsightMarkup()}
+     <details class="review-forecast-bulk">
+       <summary><span><strong>Nhập hàng loạt · Sao lưu đề của tôi</strong><small>Dán nhiều câu hỏi hoặc khôi phục từ tệp JSON</small></span><span aria-hidden="true">＋</span></summary>
+       <div class="review-bulk-tools">
+         <p role="note">Đề của bạn được lưu trong dữ liệu trình duyệt này. Hãy xuất JSON để sao lưu trước khi xóa dữ liệu trình duyệt hoặc đổi thiết bị.</p>
+         <div class="review-bulk-backup"><button type="button" onclick="void exportMyReviewForecasts()">Xuất đề của tôi · JSON</button><button type="button" onclick="document.getElementById('review-forecast-json-file').click()">Nhập từ JSON</button><input id="review-forecast-json-file" class="review-bulk-import-file" type="file" accept="application/json,.json" aria-label="Chọn tệp sao lưu JSON" tabindex="-1" aria-hidden="true" onchange="void importMyReviewForecasts(this)"></div>
+         <label>Tên đề mới<input id="review-forecast-bulk-title" maxlength="100" value="Đề nhập hàng loạt" placeholder="Ví dụ: Câu hỏi luyện Speaking"></label>
+         <label>Dán nội dung đề<textarea id="review-forecast-bulk-text" maxlength="50000" lang="en" oninput="reviewForecastBulkInvalidate()" placeholder="Part 1\nTopic: Daily routine\n1. What do you usually do in the morning?\n- Do you prefer weekdays or weekends?\n\nPart 2\nDescribe a place where you like to relax.\nYou should say:\n- where it is\n- when you go there\n- what you do there\n- and explain why it helps you relax\n\nPart 3\n1. Why do people need quiet places?"></textarea></label>
+         <button type="button" onclick="reviewForecastBulkPreview()">Xem trước nội dung</button>
+         <p id="review-forecast-bulk-status" class="review-bulk-status" role="status" aria-live="polite"></p>
+         <div id="review-forecast-bulk-preview" class="review-bulk-preview" hidden></div>
+       </div>
+     </details>
      <div id="review-forecast-editor">${reviewForecastForm()}</div>
      <div id="review-forecast-list">${reviewItemList('forecast')}</div>
    </section>`;
@@ -11609,18 +11798,18 @@ async function loadReviewItems(){
 }
 
 async function saveReviewItem(form,item){
- const status=form.querySelector('[role="status"]');
- const button=form.querySelector('button[type="submit"]');
- button.disabled=true;
- status.textContent='Đang lưu…';
+ const status=form?.querySelector('[role="status"]');
+ const button=form?.querySelector('button[type="submit"],button');
+ if(button)button.disabled=true;
+ if(status)status.textContent='Đang lưu…';
  try{
    await reviewItemRequest('readwrite',store=>store.put(item));
    await loadReviewItems();
    return true;
  }catch{
-   status.textContent='Không lưu được. Hãy kiểm tra dung lượng hoặc quyền lưu dữ liệu của trình duyệt.';
+   if(status)status.textContent='Không lưu được. Hãy kiểm tra dung lượng hoặc quyền lưu dữ liệu của trình duyệt.';
    return false;
- }finally{button.disabled=false}
+ }finally{if(button)button.disabled=false}
 }
 
 async function saveReviewForecast(event){
@@ -11652,6 +11841,158 @@ async function saveReviewForecast(event){
      $('#review-forecast-editor [role="status"]').textContent='Đã lưu đề forecast.';
    }
  }
+}
+
+function reviewForecastBulkKey(value){
+ return String(value||'').normalize('NFKC').toLocaleLowerCase('vi').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+}
+
+function reviewForecastBulkSetStatus(message,showUndo=false){
+ const status=$('#review-forecast-bulk-status');if(!status)return;
+ status.textContent=message;
+ const oldUndo=$('#review-forecast-bulk-undo');
+ if(showUndo)oldUndo?.remove();else if(!reviewForecastBulkUndoState)oldUndo?.remove();
+ if(showUndo){
+  const button=document.createElement('button');button.id='review-forecast-bulk-undo';button.type='button';button.className='review-bulk-undo';button.textContent='Hoàn tác lần nhập';button.addEventListener('click',()=>void undoReviewForecastBulkImport());status.after(button);
+ }
+}
+
+function reviewForecastBulkInvalidate(){
+ reviewForecastBulkParsed=null;
+ const box=$('#review-forecast-bulk-preview');if(box)box.hidden=true;
+ reviewForecastBulkSetStatus('Nội dung đã đổi. Hãy xem trước lại trước khi lưu.');
+}
+
+async function reviewForecastBulkPreview(){
+ const box=$('#review-forecast-bulk-preview');if(!box)return;
+ const parsed=parseReviewForecastBulkText($('#review-forecast-bulk-text')?.value||'');
+ reviewForecastBulkParsed=parsed;
+ if(!parsed.prompts.length){
+  box.hidden=false;box.innerHTML='<h4>Chưa tìm thấy câu hỏi</h4><p>Hãy kiểm tra tiêu đề Part 1, Part 2 hoặc Part 3 và thử lại.</p>';reviewForecastBulkSetStatus('Chưa có nội dung hợp lệ để xem trước.');return;
+ }
+ if(!Array.isArray(reviewItems))await loadReviewItems();
+ if(!Array.isArray(reviewItems)){
+  box.hidden=false;box.innerHTML='<p>Đang tải đề đã lưu để dò câu trùng. Hãy bấm xem trước lần nữa sau giây lát.</p>';reviewForecastBulkSetStatus('Chưa đọc được danh sách đề đã lưu.');return;
+ }
+ const savedForecasts=reviewItems.filter(item=>item.type==='forecast'&&Array.isArray(item.prompts));
+ const savedByQuestion=new Map();
+ for(const item of savedForecasts)for(const prompt of item.prompts){
+  const key=reviewForecastBulkKey(prompt.q);if(!key)continue;
+  const matches=savedByQuestion.get(key)||[];matches.push(item.title);savedByQuestion.set(key,matches);
+ }
+ const savedDuplicates=parsed.prompts.map(prompt=>({prompt,titles:[...new Set(savedByQuestion.get(reviewForecastBulkKey(prompt.q))||[])]})).filter(entry=>entry.titles.length);
+ reviewForecastBulkParsed={...parsed,savedDuplicates};
+ const counts=[1,2,3].map(part=>parsed.prompts.filter(prompt=>prompt.p===part).length);
+ const duplicateWarnings=[];
+ if(parsed.duplicates.length)duplicateWarnings.push(`<p class="review-bulk-warning">Đã gộp ${parsed.duplicates.length} câu lặp ngay trong phần dán; bản xem trước chỉ giữ một bản mỗi câu.</p>`);
+ if(savedDuplicates.length)duplicateWarnings.push(`<p class="review-bulk-warning">Có ${savedDuplicates.length} câu trùng với đề đang lưu. “Thêm thành đề mới” vẫn giữ chúng trong đề riêng; “Gộp” sẽ bỏ câu trùng với đề đích.</p><details><summary>Xem các câu trùng đã lưu</summary><ul>${savedDuplicates.slice(0,12).map(entry=>`<li>Part ${entry.prompt.p}: ${esc(entry.prompt.q)} · ${esc(entry.titles.join(', '))}</li>`).join('')}</ul></details>`);
+ const warningMarkup=[...parsed.warnings.map(warning=>`<p class="review-bulk-warning">${esc(warning)}</p>`),...duplicateWarnings].join('');
+ const mergeDisabled=savedForecasts.length?'':' disabled';
+ box.innerHTML=`<h4>Nội dung nhận diện · ${parsed.prompts.length} câu</h4><p>Part 1: ${counts[0]} · Part 2: ${counts[1]} · Part 3: ${counts[2]}</p>${warningMarkup}<ul class="review-bulk-preview-list">${parsed.prompts.map(prompt=>`<li><span class="review-bulk-part">Part ${prompt.p}</span><span lang="en">${esc(prompt.q).replace(/\n/g,'<br>')}</span></li>`).join('')}</ul><div class="review-bulk-choice"><label class="review-bulk-mode-label">Cách nhập<select id="review-forecast-bulk-mode" onchange="reviewForecastBulkModeChanged()"><option value="new">Thêm thành đề mới</option><option value="merge"${mergeDisabled}>Gộp vào đề có sẵn</option></select></label><label class="review-bulk-target" id="review-forecast-bulk-target" hidden>Đề nhận câu hỏi<select id="review-forecast-bulk-target-id">${savedForecasts.map(item=>`<option value="${esc(item.id)}">${esc(item.title)}</option>`).join('')}</select></label></div><div class="review-bulk-preview-actions"><button type="button" onclick="void applyReviewForecastBulkImport()">Lưu nội dung đã xem trước</button></div>`;
+ box.hidden=false;reviewForecastBulkSetStatus('');
+}
+
+function reviewForecastBulkModeChanged(){
+ const mode=$('#review-forecast-bulk-mode')?.value;
+ const target=$('#review-forecast-bulk-target');if(target)target.hidden=mode!=='merge';
+}
+
+async function applyReviewForecastBulkImport(){
+ const parsed=reviewForecastBulkParsed;if(!parsed?.prompts?.length){reviewForecastBulkSetStatus('Hãy xem trước nội dung trước khi lưu.');return;}
+ if(!Array.isArray(reviewItems))await loadReviewItems();
+ if(!Array.isArray(reviewItems)){reviewForecastBulkSetStatus('Không mở được danh sách đề đã lưu.');return;}
+ const mode=$('#review-forecast-bulk-mode')?.value||'new';
+ if(mode==='merge'){
+  const targetId=$('#review-forecast-bulk-target-id')?.value;
+  const target=reviewItems.find(item=>item.id===targetId&&item.type==='forecast');
+  if(!target){reviewForecastBulkSetStatus('Hãy chọn đề forecast cần gộp.');return;}
+  const known=new Set((target.prompts||[]).map(prompt=>reviewForecastBulkKey(prompt.q)).filter(Boolean));
+  const additions=parsed.prompts.filter(prompt=>{const key=reviewForecastBulkKey(prompt.q);if(!key||known.has(key))return false;known.add(key);return true;});
+  if(!additions.length){reviewForecastBulkSetStatus('Tất cả câu đã có trong đề đích; không có thay đổi để lưu.');return;}
+  const before=JSON.parse(JSON.stringify(target));
+  const updated={...target,prompts:[...(target.prompts||[]),...additions],updated:Date.now()};
+  if(!await saveReviewItem(null,updated)){reviewForecastBulkSetStatus('Chưa gộp được đề. Hãy thử lại.');return;}
+  reviewForecastBulkUndoState={kind:'restore',before,afterSerialized:JSON.stringify(updated)};
+  reviewForecastBulkParsed=null;
+  reviewForecastBulkSetStatus(`Đã gộp thêm ${additions.length} câu vào “${target.title}”; câu trùng trong đề đích đã được bỏ qua.`,true);return;
+ }
+ const title=$('#review-forecast-bulk-title')?.value.trim();
+ if(!title){reviewForecastBulkSetStatus('Hãy nhập tên cho đề mới.');return;}
+ const item={id:newId(),type:'forecast',title:title.slice(0,100),prompts:parsed.prompts.map(prompt=>({...prompt,difficulty:''})),minutes:12,difficulty:{1:'',2:'',3:''},updated:Date.now()};
+ if(!await saveReviewItem(null,item)){reviewForecastBulkSetStatus('Chưa lưu được đề mới. Hãy thử lại.');return;}
+ reviewForecastBulkUndoState={kind:'delete',items:[{id:item.id,updated:item.updated,serialized:JSON.stringify(item)}]};
+ reviewForecastBulkParsed=null;
+ const duplicateCount=parsed.savedDuplicates?.length||0;
+ reviewForecastBulkSetStatus(`Đã tạo “${item.title}” với ${item.prompts.length} câu.${duplicateCount?` Có ${duplicateCount} câu trùng với đề đã lưu; được giữ riêng theo lựa chọn của bạn.`:''}`,true);
+}
+
+async function undoReviewForecastBulkImport(){
+ const state=reviewForecastBulkUndoState;if(!state)return;
+ if(state.kind==='restore'){
+  const current=reviewItems?.find(item=>item.id===state.before.id&&item.type==='forecast');
+  if(!current||JSON.stringify(current)!==state.afterSerialized){reviewForecastBulkUndoState=null;reviewForecastBulkSetStatus('Không hoàn tác vì đề đã được sửa hoặc xóa sau lần gộp.');return;}
+  if(!await saveReviewItem(null,state.before)){reviewForecastBulkSetStatus('Chưa hoàn tác được; dữ liệu hiện tại vẫn được giữ.');return;}
+  reviewForecastBulkUndoState=null;reviewForecastBulkSetStatus('Đã hoàn tác phần câu vừa gộp.');return;
+ }
+ const eligible=(state.items||[]).filter(entry=>reviewItems?.some(item=>item.id===entry.id&&item.type==='forecast'&&JSON.stringify(item)===entry.serialized));
+ if(!eligible.length){reviewForecastBulkUndoState=null;reviewForecastBulkSetStatus('Không còn đề mới nào có thể hoàn tác; các đề đã sửa được giữ nguyên.');return;}
+ try{
+  await reviewItemRequest('readwrite',store=>{const first=store.delete(eligible[0].id);eligible.slice(1).forEach(entry=>store.delete(entry.id));return first;});
+  await loadReviewItems();reviewForecastBulkUndoState=null;
+  reviewForecastBulkSetStatus(`Đã hoàn tác ${eligible.length} đề mới.${eligible.length<(state.items||[]).length?' Các đề đã được sửa hoặc xóa được giữ nguyên.':''}`);
+ }catch{reviewForecastBulkSetStatus('Chưa hoàn tác được. Dữ liệu hiện tại vẫn được giữ.');}
+}
+
+function reviewForecastRecordFingerprint(item){
+ const questions=(item.prompts||[]).map(prompt=>`${Number(prompt.p)}:${reviewForecastBulkKey(prompt.q)}`).sort();
+ return `${reviewForecastBulkKey(item.title)}|${questions.join('|')}`;
+}
+
+async function saveReviewForecastItemsBatch(items){
+ if(!items.length)return true;
+ try{
+  await reviewItemRequest('readwrite',store=>{const first=store.put(items[0]);items.slice(1).forEach(item=>store.put(item));return first;});
+  await loadReviewItems();return true;
+ }catch{return false;}
+}
+
+async function exportMyReviewForecasts(){
+ if(!Array.isArray(reviewItems))await loadReviewItems();
+ if(!Array.isArray(reviewItems)){reviewForecastBulkSetStatus('Không mở được kho đề để xuất JSON.');return;}
+ const items=reviewItems.filter(item=>item.type==='forecast'&&Array.isArray(item.prompts)).map(item=>({id:item.id,type:'forecast',title:item.title,prompts:item.prompts.map(prompt=>({p:prompt.p,q:prompt.q,difficulty:prompt.difficulty||''})),minutes:item.minutes,difficulty:item.difficulty||{},updated:item.updated}));
+ const documentData={schemaVersion:1,kind:'taylorflow-user-forecasts',exportedAt:new Date().toISOString(),items};
+ const blob=new Blob([JSON.stringify(documentData,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),link=document.createElement('a');
+ link.href=url;link.download=`TaylorFlow-de-cua-toi-${new Date().toISOString().slice(0,10)}.json`;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);
+ reviewForecastBulkSetStatus(`Đã xuất ${items.length} đề forecast để sao lưu.`);
+}
+
+async function importMyReviewForecasts(input){
+ const file=input?.files?.[0];if(!file)return;
+ try{
+  if(file.size>10*1024*1024)throw new Error('Tệp JSON vượt quá 10 MB.');
+  const documentData=JSON.parse(await file.text());
+  if(!documentData||documentData.schemaVersion!==1||documentData.kind!=='taylorflow-user-forecasts'||!Array.isArray(documentData.items))throw new Error('Tệp không đúng định dạng sao lưu đề TaylorFlow.');
+  if(!Array.isArray(reviewItems))await loadReviewItems();
+  if(!Array.isArray(reviewItems))throw new Error('Không mở được kho đề hiện tại.');
+  const known=new Set(reviewItems.filter(item=>item.type==='forecast').map(reviewForecastRecordFingerprint));
+  const incoming=[],skipped={invalid:0,duplicate:0};
+  for(const source of documentData.items){
+   if(source?.type!=='forecast'||typeof source.title!=='string'||!Array.isArray(source.prompts)){skipped.invalid++;continue;}
+   const prompts=source.prompts.map(prompt=>({p:Number(prompt?.p),q:typeof prompt?.q==='string'?prompt.q.trim().slice(0,5000):'',difficulty:typeof prompt?.difficulty==='string'?prompt.difficulty:''})).filter(prompt=>[1,2,3].includes(prompt.p)&&prompt.q);
+   const title=source.title.trim().slice(0,100);if(!title||!prompts.length){skipped.invalid++;continue;}
+   const candidate={title,prompts};const fingerprint=reviewForecastRecordFingerprint(candidate);
+   if(known.has(fingerprint)){skipped.duplicate++;continue;}
+   known.add(fingerprint);
+   const difficulty={1:'',2:'',3:''};for(const part of [1,2,3])if(typeof source.difficulty?.[part]==='string')difficulty[part]=source.difficulty[part];
+   const minutes=[11,12,14].includes(Number(source.minutes))?Number(source.minutes):12;
+   incoming.push({id:newId(),type:'forecast',title,prompts,minutes,difficulty,updated:Date.now()+incoming.length});
+  }
+  if(!incoming.length){reviewForecastBulkSetStatus(`Không có đề mới để nhập. Bỏ qua ${skipped.duplicate} đề trùng và ${skipped.invalid} mục không hợp lệ.`);return;}
+  if(!await saveReviewForecastItemsBatch(incoming))throw new Error('Không ghi được đề vào kho trình duyệt.');
+  reviewForecastBulkUndoState={kind:'delete',items:incoming.map(item=>({id:item.id,updated:item.updated,serialized:JSON.stringify(item)}))};
+  reviewForecastBulkSetStatus(`Đã nhập ${incoming.length} đề. Bỏ qua ${skipped.duplicate} đề trùng và ${skipped.invalid} mục không hợp lệ.`,true);
+ }catch(error){reviewForecastBulkSetStatus(error instanceof Error?error.message:'Không đọc được tệp JSON.');}
+ finally{input.value='';}
 }
 
 function editReviewForecast(id,focus=true){
@@ -11718,12 +12059,159 @@ function startReviewForecast(id){
 }
 
 function reviewForecastAid(question){
+ if(question?.aid){
+  const aid=question.aid;
+  const ideas=(Array.isArray(aid.idea)?aid.idea:[]).map(idea=>`<li>${esc(idea)}</li>`).join('');
+  const vocabulary=(Array.isArray(aid.vocab)?aid.vocab:[]).map(item=>`<li><strong lang="en">${esc(item.en)}</strong> · ${esc(item.vi)}</li>`).join('');
+  return `<details><summary>Gợi ý cho câu này</summary><p><strong>Ý tưởng</strong></p><ul>${ideas}</ul><p><strong>Từ vựng</strong></p><ul class="tf-forecast-aid-vocab">${vocabulary}</ul><p><strong>Ngữ pháp:</strong> ${esc(aid.grammar)}</p></details>
+ <details><summary>Bài mẫu tham khảo · khoảng band 6.5–7.0</summary><p class="tf-forecast-sample" lang="en">${esc(aid.sample)}</p><small>Bài mẫu do TaylorFlow tự soạn để luyện tập; chưa được giáo viên duyệt.</small></details>`;
+ }
  const index=question.p-1;
  const plan=['Trả lời trực tiếp → thêm lý do → nêu một chi tiết thật.','Ghi từ khóa cho bối cảnh → sự kiện → cảm xúc → kết quả; dùng từ nối để giữ trình tự.','Nêu quan điểm → giải thích nguyên nhân → đưa ví dụ → cân nhắc hệ quả hoặc góc nhìn khác.'][index];
  const trap=['Tránh học thuộc câu trả lời dài hoặc lạc khỏi câu hỏi.','Tránh liệt kê ý rời rạc; dành một phút để sắp xếp từ khóa.','Tránh chỉ nói “yes/no” hoặc khẳng định chung mà không giải thích.'][index];
  return `<details><summary>Gợi ý trả lời</summary><p>${HF[index]}</p></details>
  <details><summary>Khung triển khai và mẹo tránh lỗi</summary><p>${plan}</p><p><strong>Tránh:</strong> ${trap}</p></details>
  <details><summary>Ngữ pháp gợi ý</summary><p>${GR[index]}</p></details>`;
+}
+
+function loadForecastAsset(file){
+ if(tfForecastScriptLoads.has(file))return tfForecastScriptLoads.get(file);
+ const promise=new Promise((resolve,reject)=>{
+  const script=document.createElement('script');
+  script.src='./assets/forecast/'+file;
+  script.async=true;
+  script.dataset.forecastAsset=file;
+  script.onload=()=>resolve();
+  script.onerror=()=>{tfForecastScriptLoads.delete(file);reject(new Error('Forecast asset unavailable: '+file))};
+  document.head.appendChild(script);
+ });
+ tfForecastScriptLoads.set(file,promise);
+ return promise;
+}
+async function ensureForecastManifest(){
+ if(window.TF_FORECAST_MANIFEST?.packs)return window.TF_FORECAST_MANIFEST;
+ await loadForecastAsset('index.js');
+ if(!window.TF_FORECAST_MANIFEST?.packs)throw new Error('Forecast manifest is invalid');
+ return window.TF_FORECAST_MANIFEST;
+}
+async function ensureForecastPack(id){
+ if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id))throw new Error('Invalid forecast id');
+ if(window.TF_FORECAST_PACKS?.[id])return window.TF_FORECAST_PACKS[id];
+ await loadForecastAsset(id+'.js');
+ const pack=window.TF_FORECAST_PACKS?.[id];
+ if(!pack)throw new Error('Forecast package is invalid');
+ return pack;
+}
+function readForecastPackProgress(){
+ try{const value=JSON.parse(localStorage.getItem(TF_FORECAST_PROGRESS_KEY)||'{}');return value&&typeof value==='object'&&!Array.isArray(value)?value:{}}
+ catch{return {}}
+}
+function forecastPackageQuestionIds(pack){
+ return [...pack.part1Topics.flatMap(topic=>topic.questions.map(question=>question.id)),...pack.part2CueCards.flatMap(card=>[card.id,...card.part3Questions.map(question=>question.id)])];
+}
+function forecastPackPracticeCount(pack){
+ const ids=new Set(readForecastPackProgress()[pack.id]?.practicedQuestionIds||[]);
+ const all=forecastPackageQuestionIds(pack);
+ return {done:all.filter(id=>ids.has(id)).length,total:all.length,ids};
+}
+function forecastTopicKey(value){return String(value||'').normalize('NFKC').toLocaleLowerCase('vi').replace(/[^\p{L}\p{N}]+/gu,' ').trim()}
+function forecastPartFilterChange(value){tfForecastPartFilter=value;void renderForecastPackages()}
+function forecastTopicFilterChange(value){tfForecastTopicFilter=value;void renderForecastPackages()}
+function forecastCopyPromptRecords(pack){
+ const prompts=[];
+ pack.part1Topics.forEach(topic=>topic.questions.forEach(question=>prompts.push({p:1,q:question.q})));
+ pack.part2CueCards.forEach(card=>{
+  const cue=[card.task,'You should say:',...card.bullets.map(bullet=>'• '+bullet),card.conclusion].join('\n');
+  prompts.push({p:2,q:cue});
+  card.part3Questions.forEach(question=>prompts.push({p:3,q:question.q}));
+ });
+ return prompts;
+}
+function renderForecastPackCard(meta,pack,archived=false){
+ const count=forecastPackPracticeCount(pack);
+ const selectedId=tfForecastTopicFilter;
+ const topics=pack.part1Topics.map(topic=>({id:topic.id,title:topic.title,part:1,count:topic.questions.length}));
+ const cards=pack.part2CueCards.map(card=>({id:card.id,title:card.topic+' · '+card.title,part:2,count:1+card.part3Questions.length}));
+ const topicOptions=[...topics,...cards];
+ const topicMatch=id=>selectedId==='all'||selectedId===id;
+ const showPart1=tfForecastPartFilter==='all'||tfForecastPartFilter==='1';
+ const showPart2=tfForecastPartFilter==='all'||tfForecastPartFilter==='2';
+ const showPart3=tfForecastPartFilter==='all'||tfForecastPartFilter==='3';
+ const part1=showPart1?pack.part1Topics.filter(topic=>topicMatch(topic.id)).map(topic=>{
+  const practiced=topic.questions.filter(question=>count.ids.has(question.id)).length;
+  return `<article class="tf-forecast-topic"><p class="eyebrow">PART 1 · CHỦ ĐỀ PHỔ BIẾN</p><h4>${esc(topic.title)}</h4><p>${topic.questions.length} câu · đã luyện ${practiced}/${topic.questions.length}</p><details><summary>Xem câu hỏi</summary><ol>${topic.questions.map(question=>`<li lang="en">${esc(question.q)}</li>`).join('')}</ol></details><button type="button" class="g" onclick="startForecastPack('${esc(meta.id)}',{topicId:'${esc(topic.id)}'})">Luyện chủ đề này</button></article>`;
+ }).join(''):'';
+ const part2Cards=pack.part2CueCards.filter(card=>topicMatch(card.id));
+ const part2=part2Cards.map(card=>{
+  const practiced=[card.id,...card.part3Questions.map(question=>question.id)].filter(id=>count.ids.has(id)).length;
+  return `<article class="tf-forecast-topic"><p class="eyebrow">PART 2 · CHỦ ĐỀ PHỔ BIẾN</p><h4>${esc(card.topic)}</h4><p>${esc(card.title)} · đã luyện ${practiced}/${1+card.part3Questions.length}</p>${showPart2?`<p lang="en">${esc(card.task)}</p><strong>You should say:</strong><ul>${card.bullets.map(bullet=>`<li lang="en">${esc(bullet)}</li>`).join('')}</ul><p lang="en">${esc(card.conclusion)}</p>`:''}${showPart3?`<details${!showPart2?' open':''}><summary>Part 3 · ${card.part3Questions.length} câu thảo luận</summary><ol>${card.part3Questions.map(question=>`<li lang="en">${esc(question.q)}</li>`).join('')}</ol></details>`:''}<button type="button" class="g" onclick="startForecastPack('${esc(meta.id)}',{topicId:'${esc(card.id)}'})">Luyện chủ đề này</button></article>`;
+ }).join('');
+ const status=archived?'Đã qua · kho đề cũ':'Hiện tại';
+ const updated=new Date(meta.updated+'T12:00:00').toLocaleDateString('vi-VN');
+ const source=meta.sourceLabel||pack.sourceLabel;
+ const title=`Gói TaylorFlow · ${meta.label} · cập nhật ${updated}`;
+ const totalLabel=`${count.done}/${count.total}`;
+ return `<article class="tf-forecast-pack" aria-label="${esc(title)}">
+  <header class="tf-forecast-pack-head"><div><p class="eyebrow">${esc(title)}</p><h3>${esc(meta.label)}</h3><p>${esc(source)} · ${archived?'Có thể luyện lại bất cứ lúc nào.':'Bộ câu hỏi luyện theo chủ đề phổ biến.'}</p></div><span class="tf-forecast-pack-status${archived?' is-archived':''}">${status}</span></header>
+  <div class="tf-forecast-controls"><label>Phần thi<select aria-label="Lọc theo phần thi" onchange="forecastPartFilterChange(this.value)"><option value="all"${tfForecastPartFilter==='all'?' selected':''}>Tất cả các phần</option><option value="1"${tfForecastPartFilter==='1'?' selected':''}>Part 1</option><option value="2"${tfForecastPartFilter==='2'?' selected':''}>Part 2</option><option value="3"${tfForecastPartFilter==='3'?' selected':''}>Part 3</option></select></label><label>Chủ đề<select aria-label="Lọc theo chủ đề" onchange="forecastTopicFilterChange(this.value)"><option value="all"${selectedId==='all'?' selected':''}>Tất cả chủ đề</option>${topicOptions.map(topic=>`<option value="${esc(topic.id)}"${selectedId===topic.id?' selected':''}>${topic.part===1?'Part 1 · ':'Cue card · '}${esc(topic.title)}</option>`).join('')}</select></label></div>
+  <p class="tf-forecast-progress">Tiến độ đã luyện: <strong>${totalLabel}</strong> câu</p>
+  <div class="tf-forecast-actions"><button type="button" onclick="startForecastPack('${esc(meta.id)}',{type:'all'})">Luyện cả bộ · ${count.total} câu</button><select id="tf-forecast-practice-topic-${esc(meta.id)}" aria-label="Chọn một chủ đề để luyện">${topicOptions.map((topic,index)=>`<option value="${esc(topic.id)}">${topic.part===1?'Part 1 · ':'Cue card · '}${esc(topic.title)}</option>`).join('')}</select><button type="button" class="g" onclick="startForecastPack('${esc(meta.id)}',{topicId:document.getElementById('tf-forecast-practice-topic-${esc(meta.id)}').value})">Luyện 1 chủ đề</button></div>
+  <div class="tf-forecast-topic-grid">${part1}${part2Cards.length&&(showPart2||showPart3)?part2:''}${!part1&&!(part2Cards.length&&(showPart2||showPart3))?'<p class="mu">Không có mục khớp bộ lọc này.</p>':''}</div>
+  <form class="tf-forecast-copy-form" onsubmit="event.preventDefault();void copyForecastPackToMine('${esc(meta.id)}',this)"><button type="button" class="g" onclick="void copyForecastPackToMine('${esc(meta.id)}',this.form)">Sao chép về đề của tôi</button><p role="status" aria-live="polite"></p></form>
+ </article>`;
+}
+async function openForecastArchivePack(id){
+ const target=$('#tf-forecast-archive-detail');if(!target)return;
+ target.innerHTML='<p class="tf-forecast-loading" role="status">Đang nạp gói đã qua…</p>';
+ try{
+  const manifest=await ensureForecastManifest(),meta=manifest.packs.find(pack=>pack.id===id&&pack.status==='đã qua');
+  if(!meta)throw new Error('Archive pack unavailable');
+  const pack=await ensureForecastPack(id);
+  target.innerHTML=renderForecastPackCard(meta,pack,true);
+ }catch{target.innerHTML='<p class="mu" role="status">Chưa nạp được gói cũ. Hãy tải lại trang khi tệp ngoại tuyến sẵn sàng.</p>'}
+}
+async function renderForecastPackages(){
+ const root=$('#tf-forecast-pack-root');if(!root)return;
+ root.setAttribute('aria-busy','true');
+ root.innerHTML='<p class="tf-forecast-loading" role="status">Đang nạp gói forecast ngoại tuyến…</p>';
+ try{
+  const manifest=await ensureForecastManifest();
+  const visible=manifest.packs.filter(pack=>pack.status==='hiện tại'||pack.status==='đã qua');
+  const current=visible.filter(pack=>pack.status==='hiện tại');
+  const archived=visible.filter(pack=>pack.status==='đã qua');
+  const loaded=await Promise.all(current.map(async meta=>({meta,pack:await ensureForecastPack(meta.id)})));
+  root.innerHTML=loaded.map(({meta,pack})=>renderForecastPackCard(meta,pack,false)).join('')+
+   (archived.length?`<details class="tf-forecast-archive"><summary>Kho đề cũ · ${archived.length} gói đã qua</summary><div class="tf-forecast-archive-list">${archived.map(meta=>`<div class="tf-forecast-archive-row"><span><strong>${esc(meta.label)}</strong><br><small>Gói TaylorFlow · cập nhật ${new Date(meta.updated+'T12:00:00').toLocaleDateString('vi-VN')}</small></span><button type="button" class="g" onclick="void openForecastArchivePack('${esc(meta.id)}')">Mở gói để luyện</button></div>`).join('')}</div><div id="tf-forecast-archive-detail"></div></details>`:'')+
+   (!current.length&&!archived.length?'<p class="tf-forecast-loading" role="status">Chưa có gói forecast đang hiệu lực.</p>':'');
+ }catch{root.innerHTML='<p class="tf-forecast-loading" role="status">Không nạp được gói forecast ngoại tuyến. Hãy tải lại trang để thử lại.</p>'}
+ finally{root.removeAttribute('aria-busy')}
+}
+function startForecastPack(packId,selection={}){
+ const pack=window.TF_FORECAST_PACKS?.[packId];if(!pack)return;
+ const requested=typeof selection==='string'?selection:selection?.topicId||'';
+ const chosenTopic=pack.part1Topics.find(topic=>topic.id===requested);
+ const chosenCard=pack.part2CueCards.find(card=>card.id===requested);
+ const chosenTitle=chosenTopic?.title||chosenCard?.topic||'';
+ const relatedTopicKey=forecastTopicKey(chosenTitle);
+ const part1=pack.part1Topics.filter(topic=>!requested||topic.id===requested||(chosenCard&&forecastTopicKey(topic.title)===relatedTopicKey))
+  .flatMap(topic=>topic.questions.map(question=>({p:1,q:question.q,t:topic.title,id:question.id,aid:question.aid})));
+ const cueCards=pack.part2CueCards.filter(card=>!requested||card.id===requested||(chosenTopic&&forecastTopicKey(card.topic)===relatedTopicKey));
+ const other=cueCards.flatMap(card=>[
+  {p:2,q:[card.task,'You should say:',...card.bullets.map(bullet=>'• '+bullet),card.conclusion].join('\n'),t:card.topic,id:card.id,aid:card.aid},
+  ...card.part3Questions.map(question=>({p:3,q:question.q,t:card.topic,id:question.id,aid:question.aid}))
+ ]);
+ const items=[...part1,...other];if(!items.length)return;
+ stopPracticeMedia();
+ S={it:items.map((question,k)=>({p:question.p,q:question.q,k,t:question.t,forecast:true,forecastPackId:packId,forecastQuestionId:question.id,forecastSourceLabel:pack.sourceLabel,aid:question.aid})),i:0,res:[],result:null,forecast:true,forecastPackId:packId,forecastId:packId,forecastTitle:pack.title,reviewMinutes:12,reviewResults:[]};
+ startReviewForecastClock(12);
+ tab='prac';openView();
+}
+async function copyForecastPackToMine(packId,form){
+ const pack=window.TF_FORECAST_PACKS?.[packId],status=form?.querySelector('[role="status"]');
+ if(!pack||!form||!status)return;
+ const prompts=forecastCopyPromptRecords(pack);
+ const item={id:newId(),type:'forecast',title:`${pack.title} · ${pack.label}`,prompts,minutes:12,difficulty:{1:'',2:'',3:''},updated:Date.now()};
+ if(await saveReviewItem(form,item))status.textContent='Đã sao chép thành đề riêng. Bạn có thể sửa đề trong mục đề của tôi.';
 }
 
 async function saveReviewMaterial(event){
@@ -11797,6 +12285,7 @@ function reviewAchievementContent(awards){
 
 function mountReviewPage(){
  void loadReviewItems();
+ if(reviewCategory==='forecast')void renderForecastPackages();
 }
 
 function historyCount(){return st.h.length+' lượt chấm đã lưu.'}

@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 1,
+  "part1Topics": [
+    {
+      "id": "food",
+      "title": "Food",
+      "reviewed": false,
+      "questions": [
+        {
+          "id": "food-01",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What kind of food do you enjoy eating most?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn một món cụ thể và miêu tả hương vị",
+              "Nêu lúc bạn thường ăn món đó"
+            ],
+            "vocab": [
+              {
+                "en": "a comforting meal",
+                "vi": "một bữa ăn dễ chịu"
+              },
+              {
+                "en": "a rich broth",
+                "vi": "nước dùng đậm đà"
+              },
+              {
+                "en": "fresh herbs",
+                "vi": "rau thơm tươi"
+              },
+              {
+                "en": "a savoury flavour",
+                "vi": "hương vị mặn đậm"
+              },
+              {
+                "en": "a local speciality",
+                "vi": "đặc sản địa phương"
+              },
+              {
+                "en": "a small treat",
+                "vi": "món ngon tự thưởng"
+              }
+            ],
+            "grammar": "Dùng hiện tại đơn để nêu sở thích; thêm especially để đưa ra món cụ thể.",
+            "sample": "I enjoy noodle dishes most, especially a bowl of beef noodle soup at the weekend. The broth is warm and filling, and I can add herbs to suit my taste. I do not eat it every day, so it still feels like a small treat.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "food-02",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you often cook at home?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu tần suất nấu ăn",
+              "Cho một ví dụ về món đơn giản và lý do"
+            ],
+            "vocab": [
+              {
+                "en": "prepare a quick meal",
+                "vi": "chuẩn bị bữa ăn nhanh"
+              },
+              {
+                "en": "fresh ingredients",
+                "vi": "nguyên liệu tươi"
+              },
+              {
+                "en": "cook from scratch",
+                "vi": "tự nấu từ nguyên liệu ban đầu"
+              },
+              {
+                "en": "save money",
+                "vi": "tiết kiệm tiền"
+              },
+              {
+                "en": "a simple recipe",
+                "vi": "công thức đơn giản"
+              },
+              {
+                "en": "share the cooking",
+                "vi": "cùng nhau nấu ăn"
+              }
+            ],
+            "grammar": "Dùng hiện tại đơn với once or twice a week để nói tần suất và because để giải thích.",
+            "sample": "Yes, I cook at home a few times a week, usually simple meals such as eggs, vegetables and rice. Cooking saves money and lets me choose the ingredients. I am not very adventurous yet, but I have learned to prepare several quick dishes on my own.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "food-03",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Is there a food you disliked as a child but enjoy now?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Kể tên món ăn từng không thích",
+              "Nêu trải nghiệm khiến bạn đổi ý"
+            ],
+            "vocab": [
+              {
+                "en": "an acquired taste",
+                "vi": "vị cần thời gian để quen"
+              },
+              {
+                "en": "a strange texture",
+                "vi": "kết cấu lạ"
+              },
+              {
+                "en": "grow to like",
+                "vi": "dần trở nên yêu thích"
+              },
+              {
+                "en": "try something again",
+                "vi": "thử lại món gì đó"
+              },
+              {
+                "en": "absorb the flavour",
+                "vi": "thấm hương vị"
+              },
+              {
+                "en": "change my mind",
+                "vi": "đổi ý"
+              }
+            ],
+            "grammar": "Dùng used to để nói về sở thích cũ, rồi nối với now để so sánh hiện tại.",
+            "sample": "I disliked mushrooms when I was younger because their texture seemed strange. I started eating them in a noodle soup a few years ago, and now I like how they absorb the flavour of the broth. I still avoid them when they are cooked in large pieces.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "food-04",
+          "type": "part1-question",
+          "part": 1,
+          "q": "When do you usually have your main meal?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu thời điểm ăn bữa chính",
+              "Liên hệ với lịch học, làm hoặc sinh hoạt gia đình"
+            ],
+            "vocab": [
+              {
+                "en": "sit down together",
+                "vi": "ngồi ăn cùng nhau"
+              },
+              {
+                "en": "a proper meal",
+                "vi": "một bữa ăn đầy đủ"
+              },
+              {
+                "en": "after a busy day",
+                "vi": "sau một ngày bận rộn"
+              },
+              {
+                "en": "eat at a regular time",
+                "vi": "ăn vào giờ cố định"
+              },
+              {
+                "en": "keep the meal simple",
+                "vi": "giữ bữa ăn đơn giản"
+              },
+              {
+                "en": "a relaxing dinner",
+                "vi": "bữa tối thư giãn"
+              }
+            ],
+            "grammar": "Dùng hiện tại đơn cho lịch thường lệ và after để nối thời điểm với hoạt động trước đó.",
+            "sample": "I usually have my main meal in the evening, after I finish my classes or other tasks. My family can sit down together at that time, which makes dinner more relaxing. If the day is busy, I eat earlier and keep the meal simple.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "food-05",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Have you tried any new dishes recently?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Kể tên món mới và nơi bạn thử",
+              "Mô tả điều bất ngờ về vị hoặc kết cấu"
+            ],
+            "vocab": [
+              {
+                "en": "a steamed rice cake",
+                "vi": "bánh gạo hấp"
+              },
+              {
+                "en": "a savoury filling",
+                "vi": "nhân mặn"
+              },
+              {
+                "en": "a soft texture",
+                "vi": "kết cấu mềm"
+              },
+              {
+                "en": "order a dish",
+                "vi": "gọi một món ăn"
+              },
+              {
+                "en": "a street-food stall",
+                "vi": "quầy hàng ăn đường phố"
+              },
+              {
+                "en": "give it another try",
+                "vi": "thử lại món đó"
+              }
+            ],
+            "grammar": "Dùng hiện tại hoàn thành với recently cho trải nghiệm gần đây, sau đó dùng quá khứ đơn để kể chi tiết.",
+            "sample": "Recently I tried a steamed rice cake with a savoury filling at a small local shop. I had seen it before but had never ordered it. The texture was softer than I expected, and the herbs gave it a fresh taste. I would buy it again as a snack.",
+            "reviewed": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "title": "Weather",
+      "reviewed": false,
+      "questions": [
+        {
+          "id": "weather-01",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What kind of weather do you like best?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn kiểu thời tiết bạn thích",
+              "Nêu một hoạt động hợp với thời tiết đó"
+            ],
+            "vocab": [
+              {
+                "en": "mild weather",
+                "vi": "thời tiết ôn hòa"
+              },
+              {
+                "en": "a light breeze",
+                "vi": "làn gió nhẹ"
+              },
+              {
+                "en": "clear skies",
+                "vi": "trời quang"
+              },
+              {
+                "en": "go for a walk",
+                "vi": "đi dạo"
+              },
+              {
+                "en": "feel comfortable",
+                "vi": "cảm thấy thoải mái"
+              },
+              {
+                "en": "lift my mood",
+                "vi": "cải thiện tâm trạng"
+              }
+            ],
+            "grammar": "Dùng hiện tại đơn để nêu sở thích và because để giải thích bằng cảm nhận hoặc hoạt động.",
+            "sample": "I like mild, sunny weather with a light breeze. It is comfortable enough for a walk and does not feel too hot. I also find that a bright day improves my mood, although I am happy to stay indoors if it rains heavily.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "weather-02",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Does the weather affect what you do each day?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu thời tiết làm thay đổi kế hoạch ra sao",
+              "Cho ví dụ về mưa hoặc ngày mát"
+            ],
+            "vocab": [
+              {
+                "en": "adjust my schedule",
+                "vi": "điều chỉnh lịch trình"
+              },
+              {
+                "en": "heavy rain",
+                "vi": "mưa lớn"
+              },
+              {
+                "en": "take an umbrella",
+                "vi": "mang ô"
+              },
+              {
+                "en": "covered transport",
+                "vi": "phương tiện có mái che"
+              },
+              {
+                "en": "outdoor exercise",
+                "vi": "tập thể dục ngoài trời"
+              },
+              {
+                "en": "check the forecast",
+                "vi": "kiểm tra dự báo"
+              }
+            ],
+            "grammar": "Dùng câu điều kiện loại một với if để nêu cách bạn ứng phó khi thời tiết thay đổi.",
+            "sample": "Yes, it can change my plans quite a bit. When rain is expected, I take an umbrella and use covered transport instead of walking. On cooler days, I am more willing to exercise outside. I check the forecast so I can adjust my schedule without much trouble.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "weather-03",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What is the weather usually like where you live?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Mô tả nhiệt độ và mùa mưa hoặc mùa khô",
+              "Nêu thời điểm trong ngày dễ chịu hơn"
+            ],
+            "vocab": [
+              {
+                "en": "a rainy season",
+                "vi": "mùa mưa"
+              },
+              {
+                "en": "a dry period",
+                "vi": "giai đoạn khô ráo"
+              },
+              {
+                "en": "high humidity",
+                "vi": "độ ẩm cao"
+              },
+              {
+                "en": "a sudden shower",
+                "vi": "cơn mưa rào bất chợt"
+              },
+              {
+                "en": "around midday",
+                "vi": "khoảng giữa trưa"
+              },
+              {
+                "en": "in the early evening",
+                "vi": "vào đầu buổi tối"
+              }
+            ],
+            "grammar": "Dùng hiện tại đơn với usually để mô tả đặc điểm khí hậu thường gặp.",
+            "sample": "Where I live, the weather is warm for much of the year, with a rainy season and a drier period. Temperatures can feel high around midday, so people often go out in the early morning or evening. A sudden shower is common, especially during the wet months.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "weather-04",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you check the weather forecast often?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu thời điểm bạn kiểm tra dự báo",
+              "Giải thích dự báo giúp chuẩn bị việc gì"
+            ],
+            "vocab": [
+              {
+                "en": "check it in the morning",
+                "vi": "kiểm tra vào buổi sáng"
+              },
+              {
+                "en": "a detailed report",
+                "vi": "bản tin chi tiết"
+              },
+              {
+                "en": "rain is expected",
+                "vi": "dự kiến có mưa"
+              },
+              {
+                "en": "make outdoor plans",
+                "vi": "lên kế hoạch ngoài trời"
+              },
+              {
+                "en": "carry a small umbrella",
+                "vi": "mang theo ô nhỏ"
+              },
+              {
+                "en": "change during the day",
+                "vi": "thay đổi trong ngày"
+              }
+            ],
+            "grammar": "Dùng hiện tại đơn cho thói quen và enough to để diễn tả mức thông tin cần thiết.",
+            "sample": "I check it most mornings, particularly when I have plans outdoors. I do not need a detailed report; knowing whether it will rain is usually enough. I still carry a small umbrella in the wet season because forecasts can change during the day.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "weather-05",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Have you experienced unusual weather recently?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Kể một đợt thời tiết khác thường",
+              "Nêu ảnh hưởng tới đi lại hoặc lịch sinh hoạt"
+            ],
+            "vocab": [
+              {
+                "en": "several days in a row",
+                "vi": "nhiều ngày liên tiếp"
+              },
+              {
+                "en": "flood briefly",
+                "vi": "ngập trong thời gian ngắn"
+              },
+              {
+                "en": "take longer than usual",
+                "vi": "mất nhiều thời gian hơn thường lệ"
+              },
+              {
+                "en": "follow local updates",
+                "vi": "theo dõi tin địa phương"
+              },
+              {
+                "en": "basic supplies",
+                "vi": "đồ dùng thiết yếu"
+              },
+              {
+                "en": "a rainy season",
+                "vi": "mùa mưa"
+              }
+            ],
+            "grammar": "Dùng hiện tại hoàn thành trong câu hỏi trải nghiệm và quá khứ đơn để kể sự việc cụ thể.",
+            "sample": "A few months ago, we had several days of heavy rain in a row. The streets near my area flooded briefly, and travelling took longer than usual. I stayed home more and followed local updates. It was a reminder to keep basic supplies ready during the rainy season.",
+            "reviewed": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "title": "Travel",
+      "reviewed": false,
+      "questions": [
+        {
+          "id": "travel-01",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you enjoy travelling to new places?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu điều bạn thích khi khám phá nơi mới",
+              "Cho biết bạn thích lịch trình thoải mái hay dày đặc"
+            ],
+            "vocab": [
+              {
+                "en": "a new destination",
+                "vi": "điểm đến mới"
+              },
+              {
+                "en": "local customs",
+                "vi": "phong tục địa phương"
+              },
+              {
+                "en": "try regional food",
+                "vi": "thử món ăn vùng miền"
+              },
+              {
+                "en": "a packed schedule",
+                "vi": "lịch trình dày đặc"
+              },
+              {
+                "en": "a couple of stops",
+                "vi": "một vài điểm dừng"
+              },
+              {
+                "en": "notice everyday life",
+                "vi": "để ý cuộc sống thường ngày"
+              }
+            ],
+            "grammar": "Dùng hiện tại đơn để nêu sở thích và enough to để nói lịch trình phù hợp.",
+            "sample": "Yes, I enjoy visiting places I have not seen before. I like noticing how local people spend their day and trying food that is different from what I eat at home. I do not need a packed schedule; one or two interesting stops are enough for me.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "travel-02",
+          "type": "part1-question",
+          "part": 1,
+          "q": "How do you usually plan a trip?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu các bước chuẩn bị chính",
+              "Cho biết bạn chừa thời gian tự do hay không"
+            ],
+            "vocab": [
+              {
+                "en": "check transport options",
+                "vi": "kiểm tra phương tiện đi lại"
+              },
+              {
+                "en": "look up opening hours",
+                "vi": "tra cứu giờ mở cửa"
+              },
+              {
+                "en": "save a place on a map",
+                "vi": "lưu địa điểm trên bản đồ"
+              },
+              {
+                "en": "leave free time",
+                "vi": "chừa thời gian tự do"
+              },
+              {
+                "en": "a flexible plan",
+                "vi": "kế hoạch linh hoạt"
+              },
+              {
+                "en": "feel prepared",
+                "vi": "cảm thấy đã chuẩn bị"
+              }
+            ],
+            "grammar": "Dùng first, then để sắp xếp các bước và but để bổ sung tính linh hoạt.",
+            "sample": "I usually choose the destination first, then check transport, the weather and opening hours. I save a few places on a map, but I leave some free time in case I find something unexpected. Planning the main details helps me feel relaxed without making the trip too rigid.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "travel-03",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What kind of transport do you prefer for short journeys?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn đi bộ hoặc một phương tiện quen thuộc",
+              "Nêu trường hợp bạn sẽ chọn phương tiện khác"
+            ],
+            "vocab": [
+              {
+                "en": "a reasonable distance",
+                "vi": "khoảng cách vừa phải"
+              },
+              {
+                "en": "avoid traffic",
+                "vi": "tránh tắc đường"
+              },
+              {
+                "en": "notice things along the way",
+                "vi": "để ý cảnh vật trên đường"
+              },
+              {
+                "en": "a ride service",
+                "vi": "dịch vụ gọi xe"
+              },
+              {
+                "en": "the weather is bad",
+                "vi": "thời tiết xấu"
+              },
+              {
+                "en": "decide case by case",
+                "vi": "quyết định tùy từng trường hợp"
+              }
+            ],
+            "grammar": "Dùng prefer + danh từ hoặc V-ing để nêu lựa chọn; dùng if để nêu ngoại lệ.",
+            "sample": "For short journeys, I prefer walking if the distance is reasonable. It gives me a chance to notice things along the way and avoids waiting in traffic. If it is too hot or raining, I take a bus or a ride service instead, so I decide based on the weather.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "travel-04",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you prefer travelling alone or with other people?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn đi cùng một nhóm nhỏ hoặc đi một mình",
+              "Nêu lợi ích và hoàn cảnh phù hợp"
+            ],
+            "vocab": [
+              {
+                "en": "share the cost",
+                "vi": "chia sẻ chi phí"
+              },
+              {
+                "en": "make decisions easily",
+                "vi": "dễ đưa ra quyết định"
+              },
+              {
+                "en": "a small group",
+                "vi": "một nhóm nhỏ"
+              },
+              {
+                "en": "feel safe",
+                "vi": "cảm thấy an toàn"
+              },
+              {
+                "en": "know the area",
+                "vi": "quen thuộc khu vực"
+              },
+              {
+                "en": "talk about what we see",
+                "vi": "trò chuyện về điều cùng nhìn thấy"
+              }
+            ],
+            "grammar": "Dùng generally prefer để nêu xu hướng và whereas để đối chiếu lựa chọn còn lại.",
+            "sample": "I generally prefer travelling with one or two people I know well. We can share the cost and talk about what we see, but the group is still small enough to make decisions easily. I would travel alone for a short city visit if I felt safe and knew the area.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "travel-05",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Where would you like to go on your next holiday?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn một điểm đến mong muốn",
+              "Nêu hai hoạt động và thời điểm bạn muốn đi"
+            ],
+            "vocab": [
+              {
+                "en": "a coastal town",
+                "vi": "thị trấn ven biển"
+              },
+              {
+                "en": "explore the local market",
+                "vi": "khám phá chợ địa phương"
+              },
+              {
+                "en": "fresh seafood",
+                "vi": "hải sản tươi"
+              },
+              {
+                "en": "a quiet period",
+                "vi": "thời điểm yên tĩnh"
+              },
+              {
+                "en": "fewer crowds",
+                "vi": "ít đám đông hơn"
+              },
+              {
+                "en": "a slower trip",
+                "vi": "chuyến đi thong thả"
+              }
+            ],
+            "grammar": "Dùng would like to cho mong muốn và because để giải thích lựa chọn điểm đến.",
+            "sample": "I would like to visit a coastal town for my next holiday. I could spend time by the water, try fresh seafood and explore the local market. I would choose a quiet period rather than a public holiday, because I prefer a slower trip with fewer crowds.",
+            "reviewed": false
+          }
+        }
+      ]
+    }
+  ],
+  "part2CueCards": []
+}

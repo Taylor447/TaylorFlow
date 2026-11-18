@@ -1,0 +1,874 @@
+{
+  "schemaVersion": 1,
+  "part1Topics": [
+    {
+      "id": "technology",
+      "title": "Technology",
+      "reviewed": false,
+      "questions": [
+        {
+          "id": "technology-01",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Which piece of technology do you use most every day?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu một thiết bị bạn thường dùng",
+              "Liệt kê hai việc thiết bị giúp bạn hoàn thành"
+            ],
+            "vocab": [
+              {
+                "en": "a reliable device",
+                "vi": "thiết bị đáng tin cậy"
+              },
+              {
+                "en": "check messages",
+                "vi": "kiểm tra tin nhắn"
+              },
+              {
+                "en": "keep in touch",
+                "vi": "giữ liên lạc"
+              },
+              {
+                "en": "look up information",
+                "vi": "tra cứu thông tin"
+              },
+              {
+                "en": "battery life",
+                "vi": "thời lượng pin"
+              },
+              {
+                "en": "daily essential",
+                "vi": "vật dụng thiết yếu hằng ngày"
+              }
+            ],
+            "grammar": "Dùng hiện tại đơn cho thói quen và because để nêu ích lợi chính.",
+            "sample": "I use my smartphone more than any other device. It helps me check messages, look up directions and keep in touch with my family. I also use it to read class notes while travelling. I try not to keep every notification on, because that can interrupt my attention during study time.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "technology-02",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you enjoy learning how to use new technology?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu mức độ tò mò khi có ứng dụng hoặc thiết bị mới",
+              "Cho ví dụ về cách bạn tự học"
+            ],
+            "vocab": [
+              {
+                "en": "explore the features",
+                "vi": "khám phá các tính năng"
+              },
+              {
+                "en": "a user-friendly guide",
+                "vi": "hướng dẫn dễ dùng"
+              },
+              {
+                "en": "figure it out",
+                "vi": "tự tìm cách hiểu"
+              },
+              {
+                "en": "test it safely",
+                "vi": "thử một cách an toàn"
+              },
+              {
+                "en": "a useful shortcut",
+                "vi": "phím tắt hữu ích"
+              },
+              {
+                "en": "learn at my own pace",
+                "vi": "học theo tốc độ của mình"
+              }
+            ],
+            "grammar": "Dùng enjoy + V-ing và thêm unless để nêu giới hạn khi công nghệ phức tạp.",
+            "sample": "Yes, I enjoy exploring new features when they seem useful. I usually start with a short guide and then test the basic functions at my own pace. If I get stuck, I ask someone or look for a clear explanation. I am less interested in complicated gadgets unless they solve a real problem for me.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "technology-03",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Has technology changed the way you communicate with people?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "So sánh liên lạc trực tiếp và qua ứng dụng",
+              "Nêu tình huống công nghệ đặc biệt tiện lợi"
+            ],
+            "vocab": [
+              {
+                "en": "send a quick update",
+                "vi": "gửi tin cập nhật nhanh"
+              },
+              {
+                "en": "video call",
+                "vi": "gọi video"
+              },
+              {
+                "en": "stay in regular contact",
+                "vi": "giữ liên lạc thường xuyên"
+              },
+              {
+                "en": "share a useful link",
+                "vi": "chia sẻ đường dẫn hữu ích"
+              },
+              {
+                "en": "face-to-face conversation",
+                "vi": "cuộc trò chuyện trực tiếp"
+              },
+              {
+                "en": "bridge the distance",
+                "vi": "thu hẹp khoảng cách"
+              }
+            ],
+            "grammar": "Dùng hiện tại hoàn thành với has changed và đối chiếu bằng while.",
+            "sample": "Yes, it has made everyday communication much quicker. I can send a short update or arrange a video call in a few seconds, even when relatives live far away. Still, I prefer face-to-face conversations for important topics. Technology helps us bridge the distance, but it does not replace the warmth of meeting in person.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "technology-04",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you prefer reading news on a screen or on paper?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn định dạng thường dùng",
+              "Nêu một ưu điểm và một hạn chế"
+            ],
+            "vocab": [
+              {
+                "en": "scroll through headlines",
+                "vi": "lướt qua tiêu đề"
+              },
+              {
+                "en": "a printed edition",
+                "vi": "bản in"
+              },
+              {
+                "en": "adjust the text size",
+                "vi": "điều chỉnh cỡ chữ"
+              },
+              {
+                "en": "read without distractions",
+                "vi": "đọc không bị xao nhãng"
+              },
+              {
+                "en": "save an article",
+                "vi": "lưu bài viết"
+              },
+              {
+                "en": "a clearer reading habit",
+                "vi": "thói quen đọc tập trung hơn"
+              }
+            ],
+            "grammar": "Dùng prefer A to B khi so sánh hai định dạng.",
+            "sample": "I prefer reading news on a screen because I can check several sources and save an article for later. It is also easy to adjust the text size. However, I sometimes read a printed magazine when I want fewer distractions. For quick updates I choose my phone, while paper works better for a slower reading session.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "technology-05",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Is there any technology you would like to use less?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu ứng dụng hoặc thiết bị chiếm nhiều thời gian",
+              "Mô tả một giới hạn bạn đang đặt ra"
+            ],
+            "vocab": [
+              {
+                "en": "limit screen time",
+                "vi": "giới hạn thời gian màn hình"
+              },
+              {
+                "en": "constant notifications",
+                "vi": "thông báo liên tục"
+              },
+              {
+                "en": "set a time limit",
+                "vi": "đặt giới hạn thời gian"
+              },
+              {
+                "en": "stay focused",
+                "vi": "giữ tập trung"
+              },
+              {
+                "en": "put the phone aside",
+                "vi": "để điện thoại sang một bên"
+              },
+              {
+                "en": "use it with intention",
+                "vi": "sử dụng có chủ đích"
+              }
+            ],
+            "grammar": "Dùng would like to spend less time on và hiện tại tiếp diễn để nêu thay đổi đang thử.",
+            "sample": "I would like to spend less time scrolling through short videos. They are entertaining, but it is easy to lose track of time. I am trying to set a limit in the evening and put my phone aside while I study. That small change helps me stay focused and use the device more intentionally.",
+            "reviewed": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Books and reading",
+      "reviewed": false,
+      "questions": [
+        {
+          "id": "reading-01",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you enjoy reading books?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu thể loại hoặc định dạng bạn thích",
+              "Mô tả thời điểm đọc phù hợp"
+            ],
+            "vocab": [
+              {
+                "en": "a short chapter",
+                "vi": "một chương ngắn"
+              },
+              {
+                "en": "read for pleasure",
+                "vi": "đọc để giải trí"
+              },
+              {
+                "en": "a light novel",
+                "vi": "tiểu thuyết nhẹ nhàng"
+              },
+              {
+                "en": "build a reading habit",
+                "vi": "xây dựng thói quen đọc"
+              },
+              {
+                "en": "fit into my routine",
+                "vi": "phù hợp với lịch sinh hoạt"
+              },
+              {
+                "en": "a quiet evening",
+                "vi": "buổi tối yên tĩnh"
+              }
+            ],
+            "grammar": "Dùng enjoy + V-ing, sau đó thêm especially when để nêu hoàn cảnh.",
+            "sample": "Yes, I enjoy reading, especially short novels that are easy to follow after a busy day. I usually read for pleasure in the evening rather than set a strict target. A chapter or two fits into my routine, and I find that putting a book beside my bed makes it easier to build a regular habit.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "reading-02",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What kind of books do you like to read?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn một thể loại cụ thể",
+              "Nêu yếu tố nội dung khiến bạn muốn đọc tiếp"
+            ],
+            "vocab": [
+              {
+                "en": "character-driven story",
+                "vi": "câu chuyện tập trung vào nhân vật"
+              },
+              {
+                "en": "unexpected twist",
+                "vi": "tình tiết bất ngờ"
+              },
+              {
+                "en": "clear writing style",
+                "vi": "lối viết mạch lạc"
+              },
+              {
+                "en": "learn something new",
+                "vi": "học thêm điều mới"
+              },
+              {
+                "en": "turn the next page",
+                "vi": "lật sang trang kế tiếp"
+              },
+              {
+                "en": "a believable character",
+                "vi": "nhân vật đáng tin"
+              }
+            ],
+            "grammar": "Dùng books that + mệnh đề quan hệ để mô tả thể loại bạn tìm đọc.",
+            "sample": "I tend to choose mysteries with believable characters and a clear writing style. I like trying to work out what happened before the final chapter reveals it. I also read non-fiction if it explains a topic in an accessible way. A book that teaches me something while keeping the story engaging is ideal.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "reading-03",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Where do you usually read?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu nơi yên tĩnh bạn thường ngồi đọc",
+              "Giải thích ánh sáng hoặc sự thoải mái có quan trọng không"
+            ],
+            "vocab": [
+              {
+                "en": "a comfortable chair",
+                "vi": "chiếc ghế thoải mái"
+              },
+              {
+                "en": "natural light",
+                "vi": "ánh sáng tự nhiên"
+              },
+              {
+                "en": "a quiet corner",
+                "vi": "góc yên tĩnh"
+              },
+              {
+                "en": "avoid interruptions",
+                "vi": "tránh bị gián đoạn"
+              },
+              {
+                "en": "settle down with a book",
+                "vi": "ngồi đọc sách thư thả"
+              },
+              {
+                "en": "a nearby library",
+                "vi": "thư viện gần đó"
+              }
+            ],
+            "grammar": "Dùng where để nối địa điểm với lý do bạn chọn nơi đó.",
+            "sample": "I usually read at my desk or in a quiet corner of the living room. I prefer a comfortable chair and natural light, so I can settle down without feeling tired. When home is noisy, I go to a nearby library. The quiet atmosphere makes it easier to avoid interruptions and finish a chapter.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "reading-04",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Did you read more when you were younger?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "So sánh lượng đọc hồi nhỏ và hiện nay",
+              "Nêu lý do lịch đọc thay đổi"
+            ],
+            "vocab": [
+              {
+                "en": "borrow books from",
+                "vi": "mượn sách từ"
+              },
+              {
+                "en": "school reading time",
+                "vi": "giờ đọc sách ở trường"
+              },
+              {
+                "en": "a growing collection",
+                "vi": "bộ sưu tập ngày càng nhiều"
+              },
+              {
+                "en": "a packed schedule",
+                "vi": "lịch trình dày đặc"
+              },
+              {
+                "en": "return to a book",
+                "vi": "quay lại đọc sách"
+              },
+              {
+                "en": "read in short bursts",
+                "vi": "đọc thành những khoảng ngắn"
+              }
+            ],
+            "grammar": "Dùng used to cho thói quen cũ và now để đặt cạnh tình hình hiện tại.",
+            "sample": "I probably read more when I was at school because we had regular reading periods and I borrowed books from the library. These days, my schedule is busier, so I read in shorter sessions. I still enjoy stories, though, and I often return to a book when I have a quiet weekend.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "reading-05",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you prefer printed books or e-books?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn định dạng chính và lý do",
+              "Nêu trường hợp bạn vẫn dùng định dạng kia"
+            ],
+            "vocab": [
+              {
+                "en": "turn a physical page",
+                "vi": "lật một trang sách giấy"
+              },
+              {
+                "en": "carry a whole library",
+                "vi": "mang theo cả thư viện"
+              },
+              {
+                "en": "a screen-free break",
+                "vi": "khoảng nghỉ không màn hình"
+              },
+              {
+                "en": "search for a phrase",
+                "vi": "tìm một cụm từ"
+              },
+              {
+                "en": "adjust the brightness",
+                "vi": "điều chỉnh độ sáng"
+              },
+              {
+                "en": "make a personal choice",
+                "vi": "lựa chọn theo sở thích cá nhân"
+              }
+            ],
+            "grammar": "Dùng prefer A to B và nhượng bộ bằng although để câu trả lời cân bằng.",
+            "sample": "I prefer printed books for novels because I enjoy turning physical pages and taking a screen-free break. However, e-books are practical when I travel or need to search for a phrase. I use both depending on the situation. If I am reading for a long time at home, paper is usually more comfortable for me.",
+            "reviewed": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "health-exercise",
+      "title": "Health and exercise",
+      "reviewed": false,
+      "questions": [
+        {
+          "id": "health-exercise-01",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What do you do to stay healthy?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu một thói quen dễ duy trì",
+              "Mô tả cách thói quen đó phù hợp với lịch của bạn"
+            ],
+            "vocab": [
+              {
+                "en": "keep a regular routine",
+                "vi": "duy trì lịch sinh hoạt đều"
+              },
+              {
+                "en": "take a brisk walk",
+                "vi": "đi bộ nhanh"
+              },
+              {
+                "en": "drink enough water",
+                "vi": "uống đủ nước"
+              },
+              {
+                "en": "get enough rest",
+                "vi": "nghỉ ngơi đầy đủ"
+              },
+              {
+                "en": "make a small change",
+                "vi": "thực hiện thay đổi nhỏ"
+              },
+              {
+                "en": "feel more energetic",
+                "vi": "cảm thấy nhiều năng lượng hơn"
+              }
+            ],
+            "grammar": "Dùng hiện tại đơn cho thói quen và after để nối hoạt động với cảm nhận.",
+            "sample": "I try to keep a regular routine rather than make dramatic changes. I take a brisk walk several times a week, drink water during the day and aim to get enough rest. Walking is easy to fit around my schedule. After a short session outside, I usually feel more energetic and ready to concentrate.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "health-exercise-02",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you enjoy exercising outdoors?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu hoạt động ngoài trời bạn thích",
+              "So sánh không khí ngoài trời với tập trong nhà"
+            ],
+            "vocab": [
+              {
+                "en": "fresh air",
+                "vi": "không khí trong lành"
+              },
+              {
+                "en": "a shaded route",
+                "vi": "lộ trình có bóng mát"
+              },
+              {
+                "en": "stretch my legs",
+                "vi": "duỗi chân vận động"
+              },
+              {
+                "en": "a change of scenery",
+                "vi": "đổi khung cảnh"
+              },
+              {
+                "en": "avoid the hottest hours",
+                "vi": "tránh giờ nóng nhất"
+              },
+              {
+                "en": "an outdoor routine",
+                "vi": "thói quen vận động ngoài trời"
+              }
+            ],
+            "grammar": "Dùng prefer V-ing outdoors because để nêu hoạt động và lý do.",
+            "sample": "Yes, I enjoy walking outdoors because fresh air and a change of scenery make exercise feel less repetitive. I choose a shaded route and avoid the hottest hours. I sometimes work out indoors when it rains, but a short outdoor walk is my favourite way to stretch my legs after sitting for a long time.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "health-exercise-03",
+          "type": "part1-question",
+          "part": 1,
+          "q": "How often do you take a break when you are busy?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu tần suất nghỉ ngắn",
+              "Mô tả một việc giúp bạn hồi sức nhanh"
+            ],
+            "vocab": [
+              {
+                "en": "step away from my desk",
+                "vi": "rời khỏi bàn làm việc"
+              },
+              {
+                "en": "a short reset",
+                "vi": "khoảng nghỉ ngắn để lấy lại tập trung"
+              },
+              {
+                "en": "refill my water bottle",
+                "vi": "rót thêm nước vào chai"
+              },
+              {
+                "en": "look away from the screen",
+                "vi": "nhìn khỏi màn hình"
+              },
+              {
+                "en": "return with a clearer mind",
+                "vi": "quay lại với đầu óc tỉnh táo hơn"
+              },
+              {
+                "en": "work in blocks",
+                "vi": "làm việc theo từng phiên"
+              }
+            ],
+            "grammar": "Dùng every so often hoặc after a block of work để mô tả lịch nghỉ không quá máy móc.",
+            "sample": "When I am busy, I try to take a brief break every so often, usually after a block of focused work. I stand up, refill my water bottle and look away from the screen. It only takes a few minutes, but I return with a clearer mind and find it easier to continue the next task.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "health-exercise-04",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Is there a sport you would like to learn?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn môn thể thao và lý do bạn muốn thử",
+              "Nêu một cách bắt đầu phù hợp cho người mới"
+            ],
+            "vocab": [
+              {
+                "en": "learn the basic strokes",
+                "vi": "học các động tác cơ bản"
+              },
+              {
+                "en": "a beginner-friendly class",
+                "vi": "lớp phù hợp với người mới"
+              },
+              {
+                "en": "build up confidence",
+                "vi": "tăng sự tự tin"
+              },
+              {
+                "en": "borrow the equipment",
+                "vi": "mượn dụng cụ"
+              },
+              {
+                "en": "practise with a partner",
+                "vi": "luyện cùng bạn tập"
+              },
+              {
+                "en": "start at a gentle pace",
+                "vi": "bắt đầu với nhịp độ nhẹ"
+              }
+            ],
+            "grammar": "Dùng would like to learn và because để nêu mong muốn cùng động lực.",
+            "sample": "I would like to learn badminton properly. I play casually, but I have never had coaching on footwork or technique. A beginner-friendly class would help me build confidence without putting too much pressure on myself. I could borrow a racket at first and practise with a partner once I understand the basic strokes.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "health-exercise-05",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Has the way you look after your health changed?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu một thói quen bạn mới điều chỉnh",
+              "Giải thích vì sao cách nhỏ và đều đặn phù hợp"
+            ],
+            "vocab": [
+              {
+                "en": "pay more attention to",
+                "vi": "chú ý hơn đến"
+              },
+              {
+                "en": "daily movement",
+                "vi": "việc vận động hằng ngày"
+              },
+              {
+                "en": "cut back on late nights",
+                "vi": "hạn chế thức khuya"
+              },
+              {
+                "en": "notice a difference",
+                "vi": "nhận thấy khác biệt"
+              },
+              {
+                "en": "a manageable goal",
+                "vi": "mục tiêu vừa sức"
+              },
+              {
+                "en": "keep it consistent",
+                "vi": "duy trì đều đặn"
+              }
+            ],
+            "grammar": "Dùng hiện tại hoàn thành với lately và kết quả hiện tại để mô tả sự thay đổi.",
+            "sample": "Yes. Lately I have paid more attention to daily movement and regular sleep instead of only thinking about exercise. I now take the stairs when it is practical and try to cut back on late nights. These are manageable goals, and keeping them consistent has made me feel less tired during the day.",
+            "reviewed": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "title": "Home",
+      "reviewed": false,
+      "questions": [
+        {
+          "id": "home-01",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What is your favourite room at home?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn căn phòng bạn dành nhiều thời gian",
+              "Mô tả một chi tiết tạo cảm giác thoải mái"
+            ],
+            "vocab": [
+              {
+                "en": "a well-lit room",
+                "vi": "căn phòng đủ ánh sáng"
+              },
+              {
+                "en": "a quiet place to focus",
+                "vi": "nơi yên tĩnh để tập trung"
+              },
+              {
+                "en": "keep things organised",
+                "vi": "giữ đồ đạc ngăn nắp"
+              },
+              {
+                "en": "a comfortable spot",
+                "vi": "chỗ ngồi thoải mái"
+              },
+              {
+                "en": "personal touches",
+                "vi": "chi tiết mang dấu ấn cá nhân"
+              },
+              {
+                "en": "feel relaxed",
+                "vi": "cảm thấy thư giãn"
+              }
+            ],
+            "grammar": "Dùng my favourite room is và because để nối đặc điểm với cảm giác.",
+            "sample": "My favourite room is the small study area near a window. It is well lit in the afternoon and quiet enough for me to focus. I keep my books and notebooks organised on one shelf, with a comfortable chair beside the desk. A few personal touches make the space feel relaxed rather than like a classroom.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "home-02",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you prefer living in a house or an apartment?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn kiểu nhà hợp với lối sống",
+              "Nêu một tiện ích hoặc bất tiện bạn cân nhắc"
+            ],
+            "vocab": [
+              {
+                "en": "a manageable space",
+                "vi": "không gian vừa phải"
+              },
+              {
+                "en": "shared facilities",
+                "vi": "tiện ích dùng chung"
+              },
+              {
+                "en": "a private outdoor area",
+                "vi": "khu vực ngoài trời riêng"
+              },
+              {
+                "en": "easy to maintain",
+                "vi": "dễ giữ gìn"
+              },
+              {
+                "en": "close to public transport",
+                "vi": "gần giao thông công cộng"
+              },
+              {
+                "en": "suit my current needs",
+                "vi": "phù hợp nhu cầu hiện tại"
+              }
+            ],
+            "grammar": "Dùng would rather để nói lựa chọn hiện tại và although để nhắc tới mặt hạn chế.",
+            "sample": "At the moment, I would rather live in an apartment close to public transport. It is easy to maintain and usually near shops or services. A house with a private garden would be attractive later, although it might take more time to look after. For now, an apartment suits my routine and current needs better.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "home-03",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What do you usually do to make your home comfortable?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu một việc chăm sóc nhà cửa thường làm",
+              "Thêm thay đổi nhỏ về ánh sáng, nhiệt độ hoặc đồ đạc"
+            ],
+            "vocab": [
+              {
+                "en": "let in fresh air",
+                "vi": "đón không khí trong lành vào nhà"
+              },
+              {
+                "en": "clear away clutter",
+                "vi": "dọn đồ bừa bộn"
+              },
+              {
+                "en": "soft lighting",
+                "vi": "ánh sáng dịu"
+              },
+              {
+                "en": "a cool indoor space",
+                "vi": "không gian trong nhà mát mẻ"
+              },
+              {
+                "en": "put things back",
+                "vi": "cất đồ về chỗ cũ"
+              },
+              {
+                "en": "a welcoming feeling",
+                "vi": "cảm giác thân thiện"
+              }
+            ],
+            "grammar": "Dùng make + tân ngữ + tính từ, ví dụ make the room feel calmer.",
+            "sample": "I open the windows when the weather is pleasant and clear away clutter from the main table. Soft lighting in the evening makes the living room feel calmer. I also put things back after using them, which saves time later. These small habits create a welcoming feeling without needing expensive changes.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "home-04",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Would you like to move to a different home in the future?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu mong muốn chuyển hay ở lại",
+              "Chọn một điều kiện khiến bạn cân nhắc chuyển nhà"
+            ],
+            "vocab": [
+              {
+                "en": "more natural light",
+                "vi": "nhiều ánh sáng tự nhiên hơn"
+              },
+              {
+                "en": "a quieter neighbourhood",
+                "vi": "khu dân cư yên tĩnh hơn"
+              },
+              {
+                "en": "a spare room",
+                "vi": "phòng trống dự phòng"
+              },
+              {
+                "en": "weigh the cost",
+                "vi": "cân nhắc chi phí"
+              },
+              {
+                "en": "a longer commute",
+                "vi": "quãng đường đi lại dài hơn"
+              },
+              {
+                "en": "make a careful decision",
+                "vi": "đưa ra quyết định thận trọng"
+              }
+            ],
+            "grammar": "Dùng I might move if để đưa ra dự định có điều kiện.",
+            "sample": "I might move in the future if I needed more space or found a quieter neighbourhood. A spare room could be useful for study or guests, but I would weigh the cost and commute carefully. I am comfortable where I live now, so there is no reason to rush. I would move only if the change improved everyday life.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "home-05",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you spend much time at home?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Ước lượng thời gian ở nhà trong ngày thường",
+              "Phân biệt thời gian học, nghỉ và hoạt động bên ngoài"
+            ],
+            "vocab": [
+              {
+                "en": "spend most evenings at home",
+                "vi": "dành hầu hết buổi tối ở nhà"
+              },
+              {
+                "en": "run errands",
+                "vi": "đi giải quyết việc vặt"
+              },
+              {
+                "en": "have a home-cooked meal",
+                "vi": "ăn bữa cơm tự nấu"
+              },
+              {
+                "en": "a change of scenery",
+                "vi": "đổi khung cảnh"
+              },
+              {
+                "en": "balance indoor and outdoor time",
+                "vi": "cân bằng thời gian trong nhà và ngoài trời"
+              },
+              {
+                "en": "feel settled",
+                "vi": "cảm thấy ổn định, thư thái"
+              }
+            ],
+            "grammar": "Dùng spend time + V-ing và usually để mô tả lịch sinh hoạt.",
+            "sample": "I spend most evenings at home because it is where I can relax and prepare for the next day. During the week, I study, have a home-cooked meal and sometimes watch a programme. At weekends I go out for errands or meet friends, so I still get a change of scenery and keep a balance.",
+            "reviewed": false
+          }
+        }
+      ]
+    }
+  ],
+  "part2CueCards": []
+}

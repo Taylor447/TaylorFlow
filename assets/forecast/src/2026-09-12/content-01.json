@@ -1,0 +1,663 @@
+{
+  "schemaVersion": 1,
+  "part1Topics": [
+    {
+      "id": "daily-routines",
+      "title": "Daily routines",
+      "reviewed": false,
+      "questions": [
+        {
+          "id": "daily-routines-01",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What time do you usually start your day?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu giờ thức dậy thường lệ",
+              "Thêm một lý do ngắn cho giờ đó"
+            ],
+            "vocab": [
+              {
+                "en": "get up",
+                "vi": "thức dậy"
+              },
+              {
+                "en": "set an alarm",
+                "vi": "đặt báo thức"
+              },
+              {
+                "en": "ease into the day",
+                "vi": "bắt đầu ngày mới từ tốn"
+              },
+              {
+                "en": "morning routine",
+                "vi": "thói quen buổi sáng"
+              },
+              {
+                "en": "feel refreshed",
+                "vi": "cảm thấy tỉnh táo"
+              },
+              {
+                "en": "on weekdays",
+                "vi": "vào các ngày trong tuần"
+              }
+            ],
+            "grammar": "Dùng hiện tại đơn để nói về thói quen; dùng usually hoặc around để câu trả lời tự nhiên.",
+            "sample": "I usually get up at about seven on weekdays. I set an alarm, but I rarely need a second one because I have a fairly regular routine. After washing up, I make a quick breakfast and check my schedule. Starting at that time gives me enough space to ease into the day without rushing.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "daily-routines-02",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Is your morning routine different at weekends?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "So sánh giờ thức dậy ngày thường và cuối tuần",
+              "Nêu một hoạt động được thêm hoặc bỏ"
+            ],
+            "vocab": [
+              {
+                "en": "sleep in",
+                "vi": "ngủ nướng"
+              },
+              {
+                "en": "take it easy",
+                "vi": "thư thả"
+              },
+              {
+                "en": "have a lie-in",
+                "vi": "ngủ thêm vào buổi sáng"
+              },
+              {
+                "en": "weekday schedule",
+                "vi": "lịch ngày thường"
+              },
+              {
+                "en": "catch up on sleep",
+                "vi": "ngủ bù"
+              },
+              {
+                "en": "without an alarm",
+                "vi": "không cần báo thức"
+              }
+            ],
+            "grammar": "Dùng cấu trúc used to nếu muốn so sánh với thói quen cũ; hiện tại đơn phù hợp với lịch cuối tuần hiện nay.",
+            "sample": "Yes, it is more relaxed at weekends. I often sleep in for an extra hour and have breakfast later than usual. I do not check my messages straight away, either. During the week, I follow a fixed schedule because of classes, so a slower morning at the weekend helps me feel rested.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "daily-routines-03",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Which part of the day do you enjoy most?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn một thời điểm cụ thể",
+              "Liên hệ với năng lượng hoặc hoạt động yêu thích"
+            ],
+            "vocab": [
+              {
+                "en": "early evening",
+                "vi": "đầu buổi tối"
+              },
+              {
+                "en": "wind down",
+                "vi": "thư giãn sau một ngày"
+              },
+              {
+                "en": "wrap up work",
+                "vi": "kết thúc công việc"
+              },
+              {
+                "en": "a quiet moment",
+                "vi": "khoảnh khắc yên tĩnh"
+              },
+              {
+                "en": "spend quality time",
+                "vi": "dành thời gian ý nghĩa"
+              },
+              {
+                "en": "clear my mind",
+                "vi": "giải tỏa đầu óc"
+              }
+            ],
+            "grammar": "Dùng because để giải thích lựa chọn, rồi nối thêm một ví dụ bằng when hoặc after.",
+            "sample": "I enjoy the early evening most because my main tasks are usually finished by then. I can have a proper meal, talk with my family, or take a short walk nearby. That quiet period helps me wind down and clear my mind before I prepare for the next day.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "daily-routines-04",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you prefer planning your day or being spontaneous?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu sở thích chính",
+              "Thêm cách bạn xử lý việc bất ngờ"
+            ],
+            "vocab": [
+              {
+                "en": "make a short plan",
+                "vi": "lập kế hoạch ngắn"
+              },
+              {
+                "en": "keep track of",
+                "vi": "theo dõi"
+              },
+              {
+                "en": "leave room for",
+                "vi": "để chỗ cho"
+              },
+              {
+                "en": "last-minute change",
+                "vi": "thay đổi phút chót"
+              },
+              {
+                "en": "stay flexible",
+                "vi": "giữ sự linh hoạt"
+              },
+              {
+                "en": "to-do list",
+                "vi": "danh sách việc cần làm"
+              }
+            ],
+            "grammar": "Dùng would rather hoặc prefer to để nêu lựa chọn; thêm but để thể hiện sự linh hoạt.",
+            "sample": "I prefer making a short plan, especially when I have several things to do. I write down the two or three most important tasks, but I do not schedule every minute. Leaving some room for a last-minute change keeps the plan useful instead of stressful.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "daily-routines-05",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Has your daily routine changed recently?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu thay đổi gần đây",
+              "Giải thích nguyên nhân và cảm nhận"
+            ],
+            "vocab": [
+              {
+                "en": "recently",
+                "vi": "gần đây"
+              },
+              {
+                "en": "build a habit",
+                "vi": "hình thành thói quen"
+              },
+              {
+                "en": "cut down on",
+                "vi": "cắt giảm"
+              },
+              {
+                "en": "screen time",
+                "vi": "thời gian nhìn màn hình"
+              },
+              {
+                "en": "stick to a routine",
+                "vi": "duy trì nề nếp"
+              },
+              {
+                "en": "more consistent",
+                "vi": "đều đặn hơn"
+              }
+            ],
+            "grammar": "Dùng hiện tại hoàn thành với recently để nói về thay đổi có liên hệ tới hiện tại.",
+            "sample": "Yes, it has become more regular over the last few months. I have started preparing my clothes and books the night before, so mornings feel less rushed. I have also cut down on screen time before bed. These small changes make it easier to stick to a routine.",
+            "reviewed": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "learning-english",
+      "title": "Learning English",
+      "reviewed": false,
+      "questions": [
+        {
+          "id": "learning-english-01",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Why are you learning English?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu mục tiêu gần gũi",
+              "Thêm một cơ hội hoặc tình huống cụ thể"
+            ],
+            "vocab": [
+              {
+                "en": "communicate with",
+                "vi": "giao tiếp với"
+              },
+              {
+                "en": "study materials",
+                "vi": "tài liệu học tập"
+              },
+              {
+                "en": "future opportunities",
+                "vi": "cơ hội trong tương lai"
+              },
+              {
+                "en": "feel more confident",
+                "vi": "cảm thấy tự tin hơn"
+              },
+              {
+                "en": "international content",
+                "vi": "nội dung quốc tế"
+              },
+              {
+                "en": "use it in practice",
+                "vi": "áp dụng vào thực tế"
+              }
+            ],
+            "grammar": "Dùng because để nêu động lực và can để nói về khả năng hoặc lợi ích.",
+            "sample": "I am learning English because it gives me access to more study materials and international content. I also want to communicate more confidently when I travel or meet people from other countries. I try to use the language in practical situations, not just memorise rules for a test.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "learning-english-02",
+          "type": "part1-question",
+          "part": 1,
+          "q": "What do you find most challenging about learning English?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn một kỹ năng khó",
+              "Nêu cách bạn đang cải thiện"
+            ],
+            "vocab": [
+              {
+                "en": "follow a conversation",
+                "vi": "theo kịp cuộc trò chuyện"
+              },
+              {
+                "en": "connected speech",
+                "vi": "lối nói nối âm"
+              },
+              {
+                "en": "pick out key words",
+                "vi": "nhận ra từ khóa"
+              },
+              {
+                "en": "at natural speed",
+                "vi": "ở tốc độ tự nhiên"
+              },
+              {
+                "en": "listen more actively",
+                "vi": "nghe chủ động hơn"
+              },
+              {
+                "en": "with regular practice",
+                "vi": "nhờ luyện tập đều"
+              }
+            ],
+            "grammar": "Dùng find it + adjective + to-infinitive để diễn đạt điều bạn thấy khó.",
+            "sample": "Following fast conversations is the most challenging part for me. Speakers often connect words, so I sometimes miss a key phrase even when I know the vocabulary. I have been listening to short clips more actively and replaying difficult sections. With regular practice, I am beginning to understand natural speech better.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "learning-english-03",
+          "type": "part1-question",
+          "part": 1,
+          "q": "How do you practise English outside class?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu một hoặc hai hoạt động thường làm",
+              "Mô tả cách biến chúng thành bài luyện"
+            ],
+            "vocab": [
+              {
+                "en": "listen to a podcast",
+                "vi": "nghe podcast"
+              },
+              {
+                "en": "shadow a speaker",
+                "vi": "nói đuổi theo người nói"
+              },
+              {
+                "en": "keep a vocabulary note",
+                "vi": "ghi chú từ vựng"
+              },
+              {
+                "en": "read out loud",
+                "vi": "đọc thành tiếng"
+              },
+              {
+                "en": "short daily session",
+                "vi": "buổi luyện ngắn mỗi ngày"
+              },
+              {
+                "en": "review new phrases",
+                "vi": "ôn lại cụm từ mới"
+              }
+            ],
+            "grammar": "Dùng hiện tại đơn cho thói quen và after để nối hoạt động trước với hoạt động tiếp theo.",
+            "sample": "I practise by listening to a short podcast during my commute. If I hear a useful expression, I write it in a vocabulary note and try to use it in my own sentence later. I also read a few paragraphs out loud. Short daily sessions are easier for me to maintain.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "learning-english-04",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Do you prefer studying English alone or with other people?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn cách học hợp với bạn",
+              "Nêu một lợi ích của cách còn lại"
+            ],
+            "vocab": [
+              {
+                "en": "study at my own pace",
+                "vi": "học theo tốc độ riêng"
+              },
+              {
+                "en": "compare ideas",
+                "vi": "so sánh ý tưởng"
+              },
+              {
+                "en": "give each other feedback",
+                "vi": "góp ý cho nhau"
+              },
+              {
+                "en": "stay focused",
+                "vi": "giữ tập trung"
+              },
+              {
+                "en": "a study partner",
+                "vi": "bạn học cùng"
+              },
+              {
+                "en": "switch between both",
+                "vi": "luân phiên cả hai cách"
+              }
+            ],
+            "grammar": "Dùng prefer A to B hoặc prefer to V; thêm when để nêu hoàn cảnh phù hợp.",
+            "sample": "I usually prefer studying alone because I can work at my own pace and stay focused on a difficult point. However, practising with a study partner is useful for speaking. We can compare ideas and give each other feedback, so I switch between both methods depending on the skill.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "learning-english-05",
+          "type": "part1-question",
+          "part": 1,
+          "q": "Which English skill would you most like to improve?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chọn một kỹ năng cụ thể",
+              "Nêu mục tiêu có thể quan sát được"
+            ],
+            "vocab": [
+              {
+                "en": "speak more smoothly",
+                "vi": "nói trôi chảy hơn"
+              },
+              {
+                "en": "organise my thoughts",
+                "vi": "sắp xếp ý tưởng"
+              },
+              {
+                "en": "use precise vocabulary",
+                "vi": "dùng từ chính xác"
+              },
+              {
+                "en": "pause less often",
+                "vi": "ngập ngừng ít hơn"
+              },
+              {
+                "en": "sound more natural",
+                "vi": "nghe tự nhiên hơn"
+              },
+              {
+                "en": "build speaking confidence",
+                "vi": "tăng tự tin khi nói"
+              }
+            ],
+            "grammar": "Dùng would like to để nói về mục tiêu và so that để giải thích mục đích.",
+            "sample": "I would most like to improve my speaking fluency. I can usually think of an answer, but I sometimes pause while searching for the right words. I want to organise my thoughts more quickly and use precise vocabulary, so that I can express an idea clearly without sounding memorised.",
+            "reviewed": false
+          }
+        }
+      ]
+    }
+  ],
+  "part2CueCards": [
+    {
+      "id": "hometown-place-card",
+      "type": "part2-cue-card",
+      "part": 2,
+      "topic": "Hometown and public places",
+      "title": "A place you enjoy",
+      "task": "Describe a place in your hometown where you enjoy spending time.",
+      "bullets": [
+        "where it is",
+        "what the place looks like",
+        "what you usually do there",
+        "who you usually go there with"
+      ],
+      "conclusion": "and explain why this place matters to you.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn công viên hoặc quảng trường dễ mô tả",
+          "Kể một lần ghé thăm cụ thể",
+          "Kết lại bằng cảm giác nơi đó mang lại"
+        ],
+        "vocab": [
+          {
+            "en": "within walking distance",
+            "vi": "cách đó một quãng đi bộ"
+          },
+          {
+            "en": "a leafy path",
+            "vi": "lối đi rợp bóng cây"
+          },
+          {
+            "en": "a lively atmosphere",
+            "vi": "không khí nhộn nhịp"
+          },
+          {
+            "en": "take a break from",
+            "vi": "tạm rời khỏi"
+          },
+          {
+            "en": "meet up with friends",
+            "vi": "gặp gỡ bạn bè"
+          },
+          {
+            "en": "a familiar landmark",
+            "vi": "địa điểm quen thuộc"
+          }
+        ],
+        "grammar": "Dùng quá khứ đơn cho kỷ niệm cụ thể, hiện tại đơn cho đặc điểm thường thấy và which để thêm mô tả.",
+        "sample": "A place I enjoy spending time in is a small public park near the centre of my hometown. It is within walking distance of a busy shopping street, but once you enter, the traffic becomes much quieter. There is a pond in the middle, a few shaded benches and a leafy path that goes around the garden. The park is not especially large, yet it feels welcoming because people of different ages use it throughout the day. I usually go there in the late afternoon, either alone or with a close friend. We might walk for half an hour, buy a cold drink nearby and talk about what has happened during the week. One visit I remember was after a demanding set of exams. We sat beside the pond and watched families feeding the fish while the sun was setting. It was a simple evening, but I felt my stress fade away. I like this place because it offers a peaceful break without requiring a long trip. It is also a familiar landmark, so meeting someone there is easy. For me, the park is part of the character of my hometown and a comfortable place to slow down.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "hometown-place-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How have public spaces in towns changed in recent years?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu thay đổi về tiện ích",
+              "Cân nhắc việc thiết kế thân thiện với nhiều nhóm người"
+            ],
+            "vocab": [
+              {
+                "en": "pedestrian-friendly",
+                "vi": "thân thiện với người đi bộ"
+              },
+              {
+                "en": "public facilities",
+                "vi": "tiện ích công cộng"
+              },
+              {
+                "en": "green space",
+                "vi": "không gian xanh"
+              },
+              {
+                "en": "be redesigned for",
+                "vi": "được thiết kế lại cho"
+              },
+              {
+                "en": "community events",
+                "vi": "sự kiện cộng đồng"
+              },
+              {
+                "en": "accessible to everyone",
+                "vi": "mọi người đều có thể tiếp cận"
+              }
+            ],
+            "grammar": "Dùng hiện tại hoàn thành để mô tả xu hướng thay đổi kéo dài tới hiện tại.",
+            "sample": "Many towns have made public spaces more pedestrian-friendly in recent years. Some streets have wider pavements, better lighting and small areas where people can sit. Parks are also used for community events instead of being treated only as green spaces. The improvements are useful, although local planners still need to make these places accessible to older people and families with young children.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "hometown-place-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why do some people prefer spending their free time outdoors?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Liên hệ không khí và vận động",
+              "So sánh với thời gian ở trong nhà"
+            ],
+            "vocab": [
+              {
+                "en": "get some fresh air",
+                "vi": "hít thở không khí trong lành"
+              },
+              {
+                "en": "be physically active",
+                "vi": "vận động thể chất"
+              },
+              {
+                "en": "change of scenery",
+                "vi": "sự thay đổi khung cảnh"
+              },
+              {
+                "en": "spend time together",
+                "vi": "dành thời gian cùng nhau"
+              },
+              {
+                "en": "reduce stress",
+                "vi": "giảm căng thẳng"
+              },
+              {
+                "en": "screen-free activity",
+                "vi": "hoạt động không dùng màn hình"
+              }
+            ],
+            "grammar": "Dùng because để nêu nguyên nhân, còn which helps to để nối lợi ích.",
+            "sample": "People may choose outdoor activities because they provide fresh air and a change of scenery. A walk or a game in a park also gives them a chance to be physically active without joining a formal class. For families and friends, it can be an inexpensive way to spend time together. These activities reduce screen time as well, which many people find refreshing.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "hometown-place-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What should local governments consider when improving public spaces?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tính đến nhu cầu của cư dân",
+              "Nhắc tới an toàn, bảo trì và khả năng tiếp cận"
+            ],
+            "vocab": [
+              {
+                "en": "consult local residents",
+                "vi": "tham khảo ý kiến cư dân địa phương"
+              },
+              {
+                "en": "long-term maintenance",
+                "vi": "việc bảo trì lâu dài"
+              },
+              {
+                "en": "safe access",
+                "vi": "lối tiếp cận an toàn"
+              },
+              {
+                "en": "a range of needs",
+                "vi": "nhiều nhóm nhu cầu"
+              },
+              {
+                "en": "public transport links",
+                "vi": "kết nối giao thông công cộng"
+              },
+              {
+                "en": "make the most of",
+                "vi": "tận dụng tốt"
+              }
+            ],
+            "grammar": "Dùng should để đưa khuyến nghị; dùng not only và but also để nối hai tiêu chí.",
+            "sample": "Local governments should ask residents how they use an area before changing it. This can reveal practical needs, such as safe access, shade or places to sit. Officials should also consider long-term maintenance, because a new facility is not helpful if it quickly becomes unsafe. Good public spaces should be accessible by public transport and useful to people with a range of needs.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "hometown-place-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Do people in your country socialise in public places as much as in the past?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Đưa ra câu trả lời cân bằng",
+              "So sánh thói quen gặp trực tiếp và giao tiếp trực tuyến"
+            ],
+            "vocab": [
+              {
+                "en": "meet face to face",
+                "vi": "gặp trực tiếp"
+              },
+              {
+                "en": "socialise online",
+                "vi": "giao lưu trực tuyến"
+              },
+              {
+                "en": "daily routine",
+                "vi": "nếp sinh hoạt hằng ngày"
+              },
+              {
+                "en": "a convenient option",
+                "vi": "lựa chọn tiện lợi"
+              },
+              {
+                "en": "local gathering place",
+                "vi": "điểm tụ họp địa phương"
+              },
+              {
+                "en": "depend on the area",
+                "vi": "tùy vào khu vực"
+              }
+            ],
+            "grammar": "Dùng used to để nói về thói quen trong quá khứ và whereas để so sánh hai xu hướng.",
+            "sample": "I think it depends on the area and the age group. People still meet face to face in cafés, parks and local food streets, particularly when those places are easy to reach. At the same time, socialising online is now a convenient option after a busy day. Some public meeting places seem less central than before, but they remain important for neighbourhood events and casual conversations.",
+            "reviewed": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,894 @@
+{
+  "schemaVersion": 1,
+  "part1Topics": [],
+  "part2CueCards": [
+    {
+      "id": "book-that-stayed-with-me",
+      "topic": "A book you found meaningful",
+      "task": "Describe a book that you found interesting or meaningful.",
+      "bullets": [
+        "what the book is about",
+        "when you read it",
+        "which part you found interesting",
+        "who you might recommend it to"
+      ],
+      "conclusion": "and explain why the book stayed in your memory.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn sách bạn đã đọc đủ để kể cụ thể",
+          "Nhắc một nhân vật hoặc ý tưởng làm bạn suy nghĩ",
+          "Nêu người có thể thấy cuốn sách hữu ích"
+        ],
+        "vocab": [
+          {
+            "en": "an engaging story",
+            "vi": "câu chuyện cuốn hút"
+          },
+          {
+            "en": "a believable character",
+            "vi": "nhân vật đáng tin"
+          },
+          {
+            "en": "raise an important question",
+            "vi": "đặt ra câu hỏi quan trọng"
+          },
+          {
+            "en": "read at my own pace",
+            "vi": "đọc theo nhịp độ của mình"
+          },
+          {
+            "en": "recommend it to",
+            "vi": "giới thiệu cho ai đó"
+          },
+          {
+            "en": "stay in my memory",
+            "vi": "còn đọng lại trong trí nhớ"
+          }
+        ],
+        "grammar": "Dùng quá khứ đơn kể lần đọc, còn hiện tại đơn trình bày thông điệp hoặc giá trị bạn rút ra.",
+        "sample": "A book that stayed in my memory is a short novel about a young person moving to a new city. I read it during a school break after a friend recommended it. The story follows the main character as she learns to manage unfamiliar routines and gradually makes friends. I liked that the character was not instantly confident; she made mistakes and sometimes missed home. One scene I remember is when she calls her family after getting lost on the way to a new class. The conversation is brief, but it shows how a small amount of support can help someone feel less alone. The writing is clear, and each chapter adds a detail about the city or the people around her. I finished the book over a few evenings because I wanted to know how she would adapt. I would recommend it to someone who is about to start university or move somewhere unfamiliar. It is not a guidebook, but it raises an important question about independence and belonging. I appreciated its gentle ending, which felt realistic rather than perfect. The book stayed with me because it made an ordinary transition feel worth understanding.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "book-that-stayed-with-me-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why do some readers prefer stories to factual books?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nhân vật giúp người đọc hình dung tình huống",
+              "Cốt truyện tạo hứng thú để tiếp tục đọc"
+            ],
+            "vocab": [
+              {
+                "en": "follow a character's journey",
+                "vi": "theo hành trình của nhân vật"
+              },
+              {
+                "en": "be drawn into a story",
+                "vi": "bị cuốn vào câu chuyện"
+              },
+              {
+                "en": "explore human emotions",
+                "vi": "khám phá cảm xúc con người"
+              },
+              {
+                "en": "learn through examples",
+                "vi": "học qua ví dụ"
+              },
+              {
+                "en": "a vivid setting",
+                "vi": "bối cảnh sống động"
+              },
+              {
+                "en": "hold someone's attention",
+                "vi": "giữ sự chú ý của ai đó"
+              }
+            ],
+            "grammar": "Dùng whereas để so sánh trải nghiệm đọc truyện với đọc sách thông tin.",
+            "sample": "Stories can draw readers into a character's journey and help them explore emotions through events rather than explanations. A vivid setting or an unexpected problem can hold someone's attention for several chapters. Factual books serve a different purpose: they organise information and may answer a practical question more directly. Some readers move between both forms, choosing a story for relaxation and non-fiction when they want to learn about a topic.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "book-that-stayed-with-me-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What can families and schools do to encourage children to read?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Cho trẻ quyền chọn sách hợp sở thích",
+              "Người lớn làm gương và dành thời gian đọc cùng trẻ"
+            ],
+            "vocab": [
+              {
+                "en": "a wide choice of books",
+                "vi": "nhiều lựa chọn sách"
+              },
+              {
+                "en": "read together regularly",
+                "vi": "đọc cùng nhau đều đặn"
+              },
+              {
+                "en": "let children choose",
+                "vi": "để trẻ tự chọn"
+              },
+              {
+                "en": "visit a local library",
+                "vi": "ghé thư viện địa phương"
+              },
+              {
+                "en": "a relaxed reading time",
+                "vi": "khoảng thời gian đọc thoải mái"
+              },
+              {
+                "en": "connect a story to life",
+                "vi": "liên hệ câu chuyện với đời sống"
+              }
+            ],
+            "grammar": "Dùng can để nêu gợi ý thực tế và instead of để tránh biến việc đọc thành áp lực.",
+            "sample": "Families and schools can make books easy to reach and give children some choice over what they read. A parent or teacher might read together regularly, visit a local library or talk about a story without testing every detail. A relaxed reading time can help children associate books with curiosity. It is usually more effective to connect a story to life than to treat reading only as a school task.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "book-that-stayed-with-me-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Will printed books remain popular as digital media grows?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Mỗi định dạng đáp ứng hoàn cảnh khác nhau",
+              "Sách giấy có cảm giác đọc riêng, bản số tiện mang theo"
+            ],
+            "vocab": [
+              {
+                "en": "digital reading format",
+                "vi": "định dạng đọc số"
+              },
+              {
+                "en": "carry several titles",
+                "vi": "mang theo nhiều đầu sách"
+              },
+              {
+                "en": "a physical collection",
+                "vi": "bộ sưu tập sách giấy"
+              },
+              {
+                "en": "reduce screen fatigue",
+                "vi": "giảm mỏi mắt do màn hình"
+              },
+              {
+                "en": "easy access to titles",
+                "vi": "dễ tiếp cận đầu sách"
+              },
+              {
+                "en": "coexist with technology",
+                "vi": "cùng tồn tại với công nghệ"
+              }
+            ],
+            "grammar": "Dùng are likely to để dự báo thận trọng và as để chỉ bối cảnh thay đổi.",
+            "sample": "Printed books are likely to remain popular even as digital formats become more common. E-books let people carry several titles and search for a passage quickly, which is useful when travelling. Paper books provide a different reading experience and can reduce screen fatigue for some readers. Libraries and shops may adapt their services, while both formats continue to coexist because readers' needs are varied.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "book-that-stayed-with-me-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can libraries stay useful to communities today?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Kết hợp sách, tài nguyên số và không gian học",
+              "Tổ chức hoạt động để nhiều nhóm cư dân gặp nhau"
+            ],
+            "vocab": [
+              {
+                "en": "a shared learning space",
+                "vi": "không gian học tập chung"
+              },
+              {
+                "en": "digital resources",
+                "vi": "tài nguyên số"
+              },
+              {
+                "en": "community workshops",
+                "vi": "buổi sinh hoạt cộng đồng"
+              },
+              {
+                "en": "quiet study areas",
+                "vi": "khu học tập yên tĩnh"
+              },
+              {
+                "en": "help people access information",
+                "vi": "giúp mọi người tiếp cận thông tin"
+              },
+              {
+                "en": "adapt to local needs",
+                "vi": "điều chỉnh theo nhu cầu địa phương"
+              }
+            ],
+            "grammar": "Dùng can continue to và bằng cách + V-ing để mô tả vai trò mới của thư viện.",
+            "sample": "Libraries can continue to offer quiet study areas while adding digital resources and practical support. Staff may help visitors access information, use public computers or find material in another format. Community workshops can bring different age groups together. The most useful mix will depend on local needs, but libraries are more than shelves of books: they can be safe shared places for learning and participation.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A book I would recommend"
+    },
+    {
+      "id": "memorable-film",
+      "topic": "A memorable film",
+      "task": "Describe a film that you watched and remember well.",
+      "bullets": [
+        "what the film was about",
+        "when and where you watched it",
+        "which part you remember most",
+        "what you thought of the film"
+      ],
+      "conclusion": "and explain why you would or would not watch it again.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn phim có một cảnh hoặc nhân vật đáng nhớ",
+          "Kể hoàn cảnh bạn xem và phản ứng của mình",
+          "Đánh giá nhịp phim hay cách kể chuyện"
+        ],
+        "vocab": [
+          {
+            "en": "a thoughtful storyline",
+            "vi": "cốt truyện nhiều suy ngẫm"
+          },
+          {
+            "en": "a quiet turning point",
+            "vi": "bước ngoặt nhẹ nhàng"
+          },
+          {
+            "en": "strong performances",
+            "vi": "diễn xuất thuyết phục"
+          },
+          {
+            "en": "build up to a scene",
+            "vi": "dẫn dắt tới một cảnh"
+          },
+          {
+            "en": "the ending felt earned",
+            "vi": "cái kết tạo cảm giác hợp lý"
+          },
+          {
+            "en": "watch it a second time",
+            "vi": "xem lại lần thứ hai"
+          }
+        ],
+        "grammar": "Dùng quá khứ đơn kể lần xem và would watch again để nêu dự định kèm lý do.",
+        "sample": "A film I remember well is a family drama about two siblings who return to their coastal hometown after many years away. I watched it at home one rainy evening with my cousin. At first, the story seemed slow because the characters avoided talking about an old disagreement. The scene I remember most takes place at a small train station. One sibling is about to leave again, but the other finally admits that they both misunderstood what happened in the past. The acting was quiet and natural, so the moment did not feel exaggerated. I also liked the sound design: the wind and distant trains gave the scene a sense of change. The film gradually built up to that turning point rather than explaining everything at once. Its ending was hopeful, but it did not solve every family problem in a perfect way. I thought that made it believable. I would watch it a second time because I might notice early clues in the conversations that I missed at first. I would also recommend it to people who enjoy character-focused films more than action. What made it memorable for me was its gentle reminder that honest communication can arrive later than expected.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "memorable-film-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Can films influence the way people think about social issues?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Phim làm một chủ đề dễ hình dung qua nhân vật",
+              "Người xem vẫn nên đối chiếu với thông tin khác"
+            ],
+            "vocab": [
+              {
+                "en": "raise public awareness",
+                "vi": "nâng cao nhận thức cộng đồng"
+              },
+              {
+                "en": "present a human perspective",
+                "vi": "đưa ra góc nhìn con người"
+              },
+              {
+                "en": "shape public discussion",
+                "vi": "định hình thảo luận công chúng"
+              },
+              {
+                "en": "compare different sources",
+                "vi": "so sánh nhiều nguồn"
+              },
+              {
+                "en": "a simplified portrayal",
+                "vi": "cách mô tả đơn giản hóa"
+              },
+              {
+                "en": "encourage reflection",
+                "vi": "khuyến khích suy ngẫm"
+              }
+            ],
+            "grammar": "Dùng can influence nhưng thêm although để giới hạn mức tác động của phim.",
+            "sample": "Films can raise awareness by presenting a social issue through the experience of a character, which may feel more immediate than a list of facts. A strong story can encourage viewers to discuss a topic afterwards. However, films may use a simplified portrayal or focus on one perspective. Viewers should treat them as a starting point for reflection and compare different sources before forming a broad opinion.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "memorable-film-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Do people prefer watching films at home or in cinemas?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Rạp chiếu tạo trải nghiệm màn ảnh và âm thanh lớn",
+              "Ở nhà linh hoạt, tiện và thường ít tốn kém"
+            ],
+            "vocab": [
+              {
+                "en": "a large screen",
+                "vi": "màn hình lớn"
+              },
+              {
+                "en": "cinema sound system",
+                "vi": "hệ thống âm thanh rạp"
+              },
+              {
+                "en": "pause whenever needed",
+                "vi": "tạm dừng khi cần"
+              },
+              {
+                "en": "watch on demand",
+                "vi": "xem theo nhu cầu"
+              },
+              {
+                "en": "a shared atmosphere",
+                "vi": "không khí cùng xem"
+              },
+              {
+                "en": "the price of a ticket",
+                "vi": "giá vé"
+              }
+            ],
+            "grammar": "Dùng while để đối chiếu tính linh hoạt ở nhà với trải nghiệm tại rạp.",
+            "sample": "Many people enjoy cinemas for the large screen, sound system and shared atmosphere, especially for a new release. Home viewing is more flexible: people can pause a film, choose from a wider catalogue and avoid travel or ticket costs. Preferences can also depend on the film and household. A visual spectacle may feel more impressive in a cinema, while a quiet drama is easy to enjoy at home.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "memorable-film-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What makes a film review useful to potential viewers?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Nêu thể loại và điểm mạnh mà không tiết lộ nút thắt",
+              "Giải thích đối tượng khán giả phù hợp"
+            ],
+            "vocab": [
+              {
+                "en": "avoid major spoilers",
+                "vi": "tránh tiết lộ tình tiết chính"
+              },
+              {
+                "en": "describe the tone",
+                "vi": "mô tả sắc thái"
+              },
+              {
+                "en": "give specific reasons",
+                "vi": "đưa ra lý do cụ thể"
+              },
+              {
+                "en": "set realistic expectations",
+                "vi": "đặt kỳ vọng thực tế"
+              },
+              {
+                "en": "suit a particular audience",
+                "vi": "hợp với nhóm khán giả nhất định"
+              },
+              {
+                "en": "separate fact from opinion",
+                "vi": "phân biệt sự thật và ý kiến"
+              }
+            ],
+            "grammar": "Dùng a review is most useful when để nêu tiêu chí, rồi nối bằng if.",
+            "sample": "A review is most useful when it explains the film's tone, pacing and main strengths without revealing major spoilers. Specific reasons help readers decide whether it suits their taste. For example, someone who dislikes slow stories should know if a film takes time to develop. A balanced review should separate fact from personal opinion and set realistic expectations instead of claiming that everyone will enjoy it.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "memorable-film-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How has online streaming changed film viewing habits?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Khán giả chọn thời gian và nội dung dễ hơn",
+              "Nhiều lựa chọn có thể khiến việc chọn phim lâu hơn"
+            ],
+            "vocab": [
+              {
+                "en": "a subscription service",
+                "vi": "dịch vụ thuê bao"
+              },
+              {
+                "en": "watch at a convenient time",
+                "vi": "xem vào thời gian thuận tiện"
+              },
+              {
+                "en": "a broad catalogue",
+                "vi": "danh mục nội dung rộng"
+              },
+              {
+                "en": "release directly online",
+                "vi": "phát hành trực tiếp trực tuyến"
+              },
+              {
+                "en": "browse recommendations",
+                "vi": "lướt qua gợi ý"
+              },
+              {
+                "en": "change viewing habits",
+                "vi": "thay đổi thói quen xem"
+              }
+            ],
+            "grammar": "Dùng hiện tại hoàn thành để nêu tác động đến thói quen và instead of để đối chiếu lịch phát cố định.",
+            "sample": "Streaming has made it easier to watch a film at a convenient time instead of following a fixed television schedule. Subscription services offer a broad catalogue, and some productions now release directly online. This gives viewers more choice, though browsing recommendations can take longer than expected. The change has also encouraged people to watch in shorter sessions or across several evenings rather than always seeing a film in one sitting.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A film I remember"
+    },
+    {
+      "id": "helpful-app",
+      "topic": "An app that helps with daily life",
+      "task": "Describe a mobile app that you find useful.",
+      "bullets": [
+        "what the app is",
+        "how you learned to use it",
+        "what you use it for",
+        "how it helps you"
+      ],
+      "conclusion": "and explain whether you would recommend it to others.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn ứng dụng thật sự giúp bạn giải quyết một việc",
+          "Nêu tần suất và tình huống sử dụng",
+          "Nhắc một giới hạn hoặc lưu ý về quyền riêng tư"
+        ],
+        "vocab": [
+          {
+            "en": "keep track of tasks",
+            "vi": "theo dõi công việc"
+          },
+          {
+            "en": "set a reminder",
+            "vi": "đặt lời nhắc"
+          },
+          {
+            "en": "a simple interface",
+            "vi": "giao diện đơn giản"
+          },
+          {
+            "en": "sync across devices",
+            "vi": "đồng bộ giữa các thiết bị"
+          },
+          {
+            "en": "save a little time",
+            "vi": "tiết kiệm một chút thời gian"
+          },
+          {
+            "en": "check privacy settings",
+            "vi": "kiểm tra cài đặt riêng tư"
+          }
+        ],
+        "grammar": "Dùng hiện tại đơn mô tả công dụng và present perfect để nêu điều bạn đã thay đổi sau khi dùng.",
+        "sample": "A mobile app I find useful is a simple calendar and task planner. I started using it after I forgot a few deadlines during a particularly busy month. A friend showed me how to add a task, choose a date and set a reminder. Now I use it most days to keep track of assignments, appointments and small errands. The interface is straightforward, and it syncs across my phone and laptop, so I can check my schedule wherever I am. I do not add every tiny activity because that would make the list overwhelming. Instead, I record the things I am likely to forget and review them in the morning. The reminders have helped me start work earlier and avoid last-minute rushing. I would recommend the app to someone who wants a basic planning tool, although I would also tell them to check privacy settings before adding personal details. It is not a complete productivity system, and it cannot decide what should be a priority. Still, it saves a little time and gives me a clearer picture of the week. I prefer it to keeping separate notes in several places.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "helpful-app-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why do some people spend a lot of time on mobile apps?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Ứng dụng gộp giao tiếp, giải trí và tiện ích",
+              "Thông báo và nội dung đề xuất khuyến khích dùng tiếp"
+            ],
+            "vocab": [
+              {
+                "en": "serve several purposes",
+                "vi": "đáp ứng nhiều mục đích"
+              },
+              {
+                "en": "personalised recommendations",
+                "vi": "gợi ý được cá nhân hóa"
+              },
+              {
+                "en": "check out of habit",
+                "vi": "kiểm tra theo thói quen"
+              },
+              {
+                "en": "a constant stream of updates",
+                "vi": "luồng cập nhật liên tục"
+              },
+              {
+                "en": "lose track of time",
+                "vi": "mải mê quên thời gian"
+              },
+              {
+                "en": "set healthy boundaries",
+                "vi": "đặt giới hạn lành mạnh"
+              }
+            ],
+            "grammar": "Dùng because và which can make để giải thích cách tính năng tác động tới hành vi.",
+            "sample": "Apps serve several purposes, from messages and maps to entertainment, so people may keep returning to the same device. Personalised recommendations and notifications can create a constant stream of updates. Some users open an app automatically whenever they have a spare moment and then lose track of time. Setting healthy boundaries, such as turning off non-essential alerts, can help people stay in control.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "helpful-app-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What should app developers consider when collecting user data?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Thu thập lượng dữ liệu cần thiết cho chức năng",
+              "Giải thích rõ mục đích và cách xóa dữ liệu"
+            ],
+            "vocab": [
+              {
+                "en": "collect only necessary data",
+                "vi": "chỉ thu thập dữ liệu cần thiết"
+              },
+              {
+                "en": "explain the purpose",
+                "vi": "giải thích mục đích"
+              },
+              {
+                "en": "obtain informed consent",
+                "vi": "xin sự đồng ý sau khi giải thích"
+              },
+              {
+                "en": "protect personal information",
+                "vi": "bảo vệ thông tin cá nhân"
+              },
+              {
+                "en": "a clear privacy notice",
+                "vi": "thông báo quyền riêng tư rõ ràng"
+              },
+              {
+                "en": "delete an account easily",
+                "vi": "dễ dàng xóa tài khoản"
+              }
+            ],
+            "grammar": "Dùng should để nêu nguyên tắc và so that để giải thích lợi ích cho người dùng.",
+            "sample": "Developers should collect only the data needed for an app's main function and explain the purpose in plain language. A clear privacy notice helps users make an informed choice before they sign up. Companies also need to protect stored information and make it possible to delete an account easily. These steps can build trust, especially when an app handles location, payment or personal messages.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "helpful-app-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can apps be made easier for older people to use?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chữ dễ đọc và thao tác có nhãn rõ",
+              "Thử nghiệm với người dùng có mức tự tin công nghệ khác nhau"
+            ],
+            "vocab": [
+              {
+                "en": "readable text size",
+                "vi": "cỡ chữ dễ đọc"
+              },
+              {
+                "en": "clearly labelled buttons",
+                "vi": "nút có nhãn rõ ràng"
+              },
+              {
+                "en": "simple navigation",
+                "vi": "điều hướng đơn giản"
+              },
+              {
+                "en": "avoid hidden gestures",
+                "vi": "tránh thao tác ẩn khó nhận ra"
+              },
+              {
+                "en": "test with real users",
+                "vi": "thử nghiệm với người dùng thật"
+              },
+              {
+                "en": "offer step-by-step help",
+                "vi": "cung cấp hướng dẫn từng bước"
+              }
+            ],
+            "grammar": "Dùng could be improved by + V-ing để đưa đề xuất thiết kế.",
+            "sample": "Apps could be improved by using readable text, clearly labelled buttons and simple navigation. Designers should avoid relying on hidden gestures that are difficult to discover. It is also useful to test an app with people who have different levels of digital confidence, rather than assume everyone will understand the same layout. Step-by-step help can make the first use less stressful without limiting experienced users.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "helpful-app-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Can mobile apps replace face-to-face services completely?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Ứng dụng làm giao dịch đơn giản nhanh hơn",
+              "Tư vấn phức tạp vẫn cần hỗ trợ trực tiếp"
+            ],
+            "vocab": [
+              {
+                "en": "handle routine transactions",
+                "vi": "xử lý giao dịch thường ngày"
+              },
+              {
+                "en": "need personal assistance",
+                "vi": "cần hỗ trợ trực tiếp"
+              },
+              {
+                "en": "a human point of contact",
+                "vi": "đầu mối hỗ trợ là con người"
+              },
+              {
+                "en": "resolve a complex issue",
+                "vi": "giải quyết vấn đề phức tạp"
+              },
+              {
+                "en": "offer more than one channel",
+                "vi": "cung cấp nhiều kênh hỗ trợ"
+              },
+              {
+                "en": "access services remotely",
+                "vi": "tiếp cận dịch vụ từ xa"
+              }
+            ],
+            "grammar": "Dùng can replace some tasks, but not all để trả lời có điều kiện.",
+            "sample": "Mobile apps can replace some routine transactions, such as booking an appointment or checking a balance. They also let people access services remotely. However, a complex problem may require explanation and personal assistance from a trained staff member. Organisations should offer more than one channel, so users can choose digital convenience or a human point of contact when the situation calls for it.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "An app that is part of my routine"
+    },
+    {
+      "id": "useful-learning-website",
+      "topic": "A useful website",
+      "task": "Describe a website that you often use for learning or information.",
+      "bullets": [
+        "what the website is",
+        "how you found it",
+        "what information you use it for",
+        "why you find it useful"
+      ],
+      "conclusion": "and explain whether you trust the information it provides.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Nêu loại nguồn học hoặc tra cứu trực tuyến",
+          "Cho ví dụ lần bạn dùng để giải quyết câu hỏi",
+          "Giải thích cách bạn kiểm tra độ tin cậy"
+        ],
+        "vocab": [
+          {
+            "en": "search for a topic",
+            "vi": "tìm kiếm chủ đề"
+          },
+          {
+            "en": "an organised explanation",
+            "vi": "lời giải thích có hệ thống"
+          },
+          {
+            "en": "compare several sources",
+            "vi": "so sánh nhiều nguồn"
+          },
+          {
+            "en": "check the publication date",
+            "vi": "kiểm tra ngày đăng"
+          },
+          {
+            "en": "save a useful page",
+            "vi": "lưu trang hữu ích"
+          },
+          {
+            "en": "a convenient starting point",
+            "vi": "điểm khởi đầu thuận tiện"
+          }
+        ],
+        "grammar": "Dùng hiện tại đơn mô tả cách dùng; thêm if để nêu bước kiểm tra khi thông tin quan trọng.",
+        "sample": "A website I use regularly is an online encyclopedia with short articles on history, science and places around the world. I first found it while looking for background information for a class presentation. Now I use it as a convenient starting point when I need to understand a new topic or check a basic definition. The pages are organised with headings, so I can find the section I need without reading everything. I also like that many articles include references and links to related subjects. I do not treat one webpage as final proof, especially for health, law or current events. If a detail matters, I check the publication date and compare several reliable sources. That habit helps me distinguish a useful overview from information that needs closer verification. I have saved a few pages that explain difficult concepts in clear language, and I return to them when revising. The website is helpful because it gives me structure before I explore more specialised sources. I would recommend it to students, provided they use it thoughtfully and follow the references when they need evidence for an important claim.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "useful-learning-website-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can people judge whether online information is reliable?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Kiểm tra tác giả, ngày đăng và bằng chứng",
+              "So sánh với nguồn độc lập có chuyên môn"
+            ],
+            "vocab": [
+              {
+                "en": "check the original source",
+                "vi": "kiểm tra nguồn gốc ban đầu"
+              },
+              {
+                "en": "identify the author",
+                "vi": "xác định tác giả"
+              },
+              {
+                "en": "look for supporting evidence",
+                "vi": "tìm bằng chứng hỗ trợ"
+              },
+              {
+                "en": "cross-check a claim",
+                "vi": "đối chiếu một nhận định"
+              },
+              {
+                "en": "an independent source",
+                "vi": "nguồn độc lập"
+              },
+              {
+                "en": "recognise a sponsored post",
+                "vi": "nhận ra bài đăng tài trợ"
+              }
+            ],
+            "grammar": "Dùng before sharing để nhấn mạnh bước xác minh trước hành động lan truyền.",
+            "sample": "People should check who wrote a page, when it was published and whether it provides evidence for its claims. A useful habit is to cross-check an important detail with an independent source rather than rely on a headline. Readers should also notice when a page is sponsored or trying to sell something. These checks cannot guarantee accuracy, but they reduce the risk of sharing misleading information.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "useful-learning-website-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What are the advantages and disadvantages of online education?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Học trực tuyến linh hoạt về nơi và giờ",
+              "Thiếu trao đổi trực tiếp có thể làm giảm tập trung"
+            ],
+            "vocab": [
+              {
+                "en": "learn from any location",
+                "vi": "học từ bất kỳ nơi nào"
+              },
+              {
+                "en": "study at a flexible time",
+                "vi": "học vào thời gian linh hoạt"
+              },
+              {
+                "en": "a self-paced course",
+                "vi": "khóa học theo tốc độ riêng"
+              },
+              {
+                "en": "ask for immediate help",
+                "vi": "yêu cầu trợ giúp ngay"
+              },
+              {
+                "en": "maintain motivation",
+                "vi": "duy trì động lực"
+              },
+              {
+                "en": "reliable internet access",
+                "vi": "kết nối mạng ổn định"
+              }
+            ],
+            "grammar": "Dùng while để đặt lợi thế cạnh hạn chế trong cùng một lập luận.",
+            "sample": "Online education lets learners study from different locations and revisit a lesson at a flexible time. A self-paced course can suit people balancing work and study. However, some learners find it difficult to maintain motivation without classmates or immediate help from a teacher. Reliable internet access is another requirement. Online learning works best when the course includes interaction and clear ways to ask questions.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "useful-learning-website-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Should schools teach students how to use social media responsibly?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Dạy bảo vệ thông tin cá nhân và giao tiếp tôn trọng",
+              "Giúp nhận diện nội dung sai lệch hoặc gây áp lực"
+            ],
+            "vocab": [
+              {
+                "en": "protect personal details",
+                "vi": "bảo vệ thông tin cá nhân"
+              },
+              {
+                "en": "think before posting",
+                "vi": "suy nghĩ trước khi đăng"
+              },
+              {
+                "en": "respond respectfully",
+                "vi": "phản hồi tôn trọng"
+              },
+              {
+                "en": "spot misleading content",
+                "vi": "nhận diện nội dung gây hiểu lầm"
+              },
+              {
+                "en": "manage online pressure",
+                "vi": "quản lý áp lực trực tuyến"
+              },
+              {
+                "en": "digital citizenship",
+                "vi": "trách nhiệm công dân số"
+              }
+            ],
+            "grammar": "Dùng should teach learners to để nêu mục tiêu giáo dục cụ thể.",
+            "sample": "Schools should teach learners to protect personal details, think before posting and respond respectfully to disagreement. Students also need strategies for spotting misleading content and managing online pressure. Simply banning every platform may not prepare young people for decisions they will make later. Lessons on digital citizenship can give them practical principles while encouraging parents and teachers to discuss real situations.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "useful-learning-website-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Will teachers remain important if students can learn online?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tài nguyên số cung cấp kiến thức nhưng không cá nhân hóa hoàn toàn",
+              "Giáo viên chẩn đoán khó khăn và tạo trao đổi"
+            ],
+            "vocab": [
+              {
+                "en": "curate learning materials",
+                "vi": "chọn lọc tài liệu học"
+              },
+              {
+                "en": "notice a learner's difficulty",
+                "vi": "nhận ra khó khăn của người học"
+              },
+              {
+                "en": "give individual guidance",
+                "vi": "hướng dẫn riêng cho từng người"
+              },
+              {
+                "en": "discuss ideas in depth",
+                "vi": "thảo luận ý tưởng sâu hơn"
+              },
+              {
+                "en": "keep a group motivated",
+                "vi": "duy trì động lực nhóm"
+              },
+              {
+                "en": "complement digital tools",
+                "vi": "bổ trợ công cụ số"
+              }
+            ],
+            "grammar": "Dùng are likely to remain để dự đoán và by helping to để nêu vai trò cụ thể.",
+            "sample": "Teachers are likely to remain important because access to information is not the same as understanding it. A teacher can notice where a learner is confused, curate useful materials and give individual guidance. Group discussion also lets students test ideas and learn from different perspectives. Online tools can complement this work, but a human teacher helps keep a group motivated and adapts when a lesson is not working.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A site I use to learn"
+    }
+  ]
+}

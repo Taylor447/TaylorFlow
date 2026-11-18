@@ -1,0 +1,894 @@
+{
+  "schemaVersion": 1,
+  "part1Topics": [],
+  "part2CueCards": [
+    {
+      "id": "helpful-teacher",
+      "topic": "A helpful teacher",
+      "task": "Describe a teacher who helped you learn something important.",
+      "bullets": [
+        "who the teacher was",
+        "what you learned",
+        "how the teacher helped you",
+        "how you felt about the experience"
+      ],
+      "conclusion": "and explain why you remember this teacher.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn một thầy cô có cách giải thích dễ hiểu",
+          "Kể một thời điểm bạn gặp khó và được hướng dẫn",
+          "Nêu điều bạn còn áp dụng đến nay"
+        ],
+        "vocab": [
+          {
+            "en": "break an idea into steps",
+            "vi": "chia một ý thành từng bước"
+          },
+          {
+            "en": "patient explanation",
+            "vi": "lời giải thích kiên nhẫn"
+          },
+          {
+            "en": "constructive feedback",
+            "vi": "góp ý mang tính xây dựng"
+          },
+          {
+            "en": "build my confidence",
+            "vi": "xây dựng sự tự tin"
+          },
+          {
+            "en": "make steady progress",
+            "vi": "tiến bộ đều đặn"
+          },
+          {
+            "en": "a lasting lesson",
+            "vi": "bài học còn giá trị lâu dài"
+          }
+        ],
+        "grammar": "Dùng quá khứ đơn kể trải nghiệm, would often mô tả cách dạy quen thuộc và hiện tại đơn nêu ảnh hưởng còn lại.",
+        "sample": "I would like to describe a science teacher I had in secondary school. I used to find the subject difficult because the explanations in my textbook felt very abstract. Instead of repeating the same definition, she would break an idea into small steps and use simple examples from daily life. I remember one lesson about electricity when I could not understand how a circuit worked. She drew it again, asked me a few questions and let me explain the answer in my own words. Her patient explanation made the topic much less intimidating. She also gave constructive feedback without making anyone feel embarrassed for getting something wrong. After a few weeks, I started volunteering answers and noticed that my test results were improving. More importantly, I became comfortable asking questions when I was confused. I still use her advice to deal with a difficult task: understand one part first, then connect it to the bigger picture. I remember her because she helped me build confidence as well as learn science. That lasting lesson has been useful in other subjects and in everyday problem-solving too.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "helpful-teacher-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What qualities make someone an effective teacher?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Giải thích rõ và điều chỉnh theo người học",
+              "Tạo môi trường đặt câu hỏi an toàn"
+            ],
+            "vocab": [
+              {
+                "en": "clear explanations",
+                "vi": "lời giải thích rõ ràng"
+              },
+              {
+                "en": "adapt to learners",
+                "vi": "điều chỉnh theo người học"
+              },
+              {
+                "en": "patient guidance",
+                "vi": "sự hướng dẫn kiên nhẫn"
+              },
+              {
+                "en": "encourage questions",
+                "vi": "khuyến khích đặt câu hỏi"
+              },
+              {
+                "en": "give useful feedback",
+                "vi": "đưa ra góp ý hữu ích"
+              },
+              {
+                "en": "set realistic goals",
+                "vi": "đặt mục tiêu thực tế"
+              }
+            ],
+            "grammar": "Dùng need to và not only A but also B để ghép hai phẩm chất quan trọng.",
+            "sample": "An effective teacher needs to explain ideas clearly and adapt when students learn at different speeds. Patience matters because some people need another example before a concept makes sense. Teachers should also encourage questions, so learners do not hide confusion. Useful feedback and realistic goals can help students notice progress. Strong subject knowledge is essential, but the ability to make that knowledge understandable is equally important.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "helpful-teacher-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How has the role of teachers changed with digital technology?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Học liệu trực tuyến giúp tiếp cận thông tin nhanh",
+              "Giáo viên vẫn cần hướng dẫn chọn lọc và trao đổi"
+            ],
+            "vocab": [
+              {
+                "en": "online learning materials",
+                "vi": "tài liệu học trực tuyến"
+              },
+              {
+                "en": "check reliable sources",
+                "vi": "kiểm tra nguồn đáng tin"
+              },
+              {
+                "en": "guide independent study",
+                "vi": "hướng dẫn tự học"
+              },
+              {
+                "en": "digital platform",
+                "vi": "nền tảng số"
+              },
+              {
+                "en": "personal feedback",
+                "vi": "góp ý cá nhân"
+              },
+              {
+                "en": "keep learners engaged",
+                "vi": "duy trì hứng thú học"
+              }
+            ],
+            "grammar": "Dùng hiện tại hoàn thành để nói về thay đổi và while để đối chiếu vai trò mới với vai trò truyền thống.",
+            "sample": "Digital platforms have made information and practice materials easier to access. As a result, teachers may spend less time simply presenting facts and more time helping students check reliable sources, ask better questions and apply what they find. Online tools can support independent study, while personal feedback still helps learners understand their own mistakes. Teachers also need to keep students engaged when lessons include screens and remote activities.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "helpful-teacher-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Should schools focus more on practical skills or academic knowledge?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Hai mục tiêu có thể hỗ trợ lẫn nhau",
+              "Nêu ví dụ áp dụng kiến thức vào việc thực tế"
+            ],
+            "vocab": [
+              {
+                "en": "academic foundations",
+                "vi": "nền tảng học thuật"
+              },
+              {
+                "en": "practical application",
+                "vi": "ứng dụng thực tế"
+              },
+              {
+                "en": "solve everyday problems",
+                "vi": "giải quyết vấn đề hằng ngày"
+              },
+              {
+                "en": "transferable skills",
+                "vi": "kỹ năng có thể áp dụng nhiều nơi"
+              },
+              {
+                "en": "a balanced curriculum",
+                "vi": "chương trình học cân bằng"
+              },
+              {
+                "en": "prepare for adult life",
+                "vi": "chuẩn bị cho cuộc sống trưởng thành"
+              }
+            ],
+            "grammar": "Dùng rather than để tránh đặt hai mục tiêu thành lựa chọn loại trừ nhau.",
+            "sample": "Schools should provide academic foundations and show students how to use them. Mathematics, for example, develops reasoning, but learners also benefit from applying it to budgets or measurements. A balanced curriculum can include communication, teamwork and practical problem-solving without reducing time for core subjects. The right combination depends on students' ages, but education should prepare them both to think carefully and to manage ordinary responsibilities.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "helpful-teacher-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why do some students feel uncomfortable asking questions in class?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Lo bị đánh giá trước bạn bè",
+              "Lớp đông hoặc nhịp giảng nhanh làm khó chen lời"
+            ],
+            "vocab": [
+              {
+                "en": "fear of making a mistake",
+                "vi": "nỗi sợ mắc lỗi"
+              },
+              {
+                "en": "speak up in class",
+                "vi": "phát biểu trong lớp"
+              },
+              {
+                "en": "a supportive atmosphere",
+                "vi": "môi trường khích lệ"
+              },
+              {
+                "en": "wait for the right moment",
+                "vi": "chờ đúng thời điểm"
+              },
+              {
+                "en": "large class size",
+                "vi": "sĩ số lớp đông"
+              },
+              {
+                "en": "ask privately afterwards",
+                "vi": "hỏi riêng sau buổi học"
+              }
+            ],
+            "grammar": "Dùng may feel + tính từ để nêu cảm xúc, rồi dùng because để giải thích nguyên nhân; although giúp thừa nhận lớp học khác nhau.",
+            "sample": "Some students fear making a mistake in front of classmates, especially if the class reacts unkindly. Others may need extra time to form a question or find it difficult to interrupt a fast lesson. A supportive atmosphere can make it easier to speak up. Teachers can offer short pauses, anonymous question cards or a chance to ask privately afterwards, although each class will need a different approach.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A teacher who made a difference"
+    },
+    {
+      "id": "skilled-friend",
+      "topic": "A friend with a useful skill",
+      "task": "Describe a friend who is good at a practical or creative skill.",
+      "bullets": [
+        "who the friend is",
+        "what skill the friend has",
+        "how the friend developed it",
+        "how you feel about this ability"
+      ],
+      "conclusion": "and explain whether this skill has influenced you.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn kỹ năng cụ thể như nấu ăn, sửa đồ hoặc chụp ảnh",
+          "Nêu thời gian luyện tập và cách người đó tiến bộ",
+          "Kết nối kỹ năng với một lần bạn được giúp"
+        ],
+        "vocab": [
+          {
+            "en": "a natural eye for detail",
+            "vi": "con mắt tinh ý với chi tiết"
+          },
+          {
+            "en": "practise consistently",
+            "vi": "luyện tập đều đặn"
+          },
+          {
+            "en": "learn through trial and error",
+            "vi": "học qua thử và sai"
+          },
+          {
+            "en": "share practical tips",
+            "vi": "chia sẻ mẹo thực tế"
+          },
+          {
+            "en": "make it look effortless",
+            "vi": "làm việc đó trông nhẹ nhàng"
+          },
+          {
+            "en": "inspire me to try",
+            "vi": "truyền cảm hứng để tôi thử"
+          }
+        ],
+        "grammar": "Dùng hiện tại đơn mô tả kỹ năng, quá khứ đơn kể một lần cụ thể và which để thêm kết quả.",
+        "sample": "One of my friends, Minh, is very good at taking photographs. He has a natural eye for detail and can notice interesting light or patterns in places most of us pass without looking. He became interested in photography at university, first using an ordinary phone camera. Rather than buying expensive equipment, he practised consistently and learned through trial and error. He also watches tutorials and asks other photographers for feedback. I saw how much effort he puts in when we visited a weekend market together. He took pictures of the stalls, the food and the conversations between sellers and customers. Later, he showed me how changing the angle could make a familiar scene look completely different. I was surprised by how carefully he had thought about each shot. On another occasion, he helped me take a clear photo for a project, then shared a few practical tips that I still use. I admire his patience because the final pictures look effortless even though he spends time planning them. His skill has inspired me to pay closer attention to everyday details, and it has reminded me that regular practice can develop an ability that seems natural from the outside.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "skilled-friend-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Are people born talented, or can most skills be learned?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Một số người có lợi thế ban đầu",
+              "Luyện tập và hướng dẫn giúp phần lớn kỹ năng tiến bộ"
+            ],
+            "vocab": [
+              {
+                "en": "a natural advantage",
+                "vi": "lợi thế tự nhiên"
+              },
+              {
+                "en": "deliberate practice",
+                "vi": "luyện tập có chủ đích"
+              },
+              {
+                "en": "develop over time",
+                "vi": "phát triển theo thời gian"
+              },
+              {
+                "en": "receive good coaching",
+                "vi": "được hướng dẫn tốt"
+              },
+              {
+                "en": "reach a personal standard",
+                "vi": "đạt chuẩn của bản thân"
+              },
+              {
+                "en": "different starting points",
+                "vi": "điểm xuất phát khác nhau"
+              }
+            ],
+            "grammar": "Dùng although để thừa nhận năng khiếu, rồi dùng most people can để nêu lập trường.",
+            "sample": "People may begin with different strengths, so a natural advantage can make the first steps easier. However, most useful skills develop through practice, feedback and time. Someone who learns music quickly still needs to rehearse, while a beginner can make steady progress with good coaching. The final level may differ, but many people can become capable enough to use a skill confidently in daily life.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "skilled-friend-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can people find time to develop a new skill?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Chia buổi luyện thành khoảng ngắn",
+              "Gắn việc luyện với một thời điểm cố định trong tuần"
+            ],
+            "vocab": [
+              {
+                "en": "set aside a short slot",
+                "vi": "dành một khoảng ngắn"
+              },
+              {
+                "en": "break practice into steps",
+                "vi": "chia việc luyện thành bước nhỏ"
+              },
+              {
+                "en": "a realistic routine",
+                "vi": "lịch trình thực tế"
+              },
+              {
+                "en": "track small improvements",
+                "vi": "theo dõi tiến bộ nhỏ"
+              },
+              {
+                "en": "protect that time",
+                "vi": "giữ lại khoảng thời gian đó"
+              },
+              {
+                "en": "fit around commitments",
+                "vi": "xếp quanh các cam kết khác"
+              }
+            ],
+            "grammar": "Dùng rather than theo sau động từ nguyên mẫu để đề xuất buổi ngắn thay cho mục tiêu quá lớn.",
+            "sample": "People can set aside a short, regular slot rather than wait for a free afternoon that may never come. Ten or twenty minutes can be enough for a focused exercise, especially if practice is broken into clear steps. Choosing a consistent time makes the routine easier to remember. Tracking small improvements can also keep motivation up when someone has to fit learning around work, school or family commitments.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "skilled-friend-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "What makes a good mentor for someone learning a skill?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Người hướng dẫn quan sát khó khăn của học viên",
+              "Góp ý rõ và giao mục tiêu vừa sức"
+            ],
+            "vocab": [
+              {
+                "en": "demonstrate a technique",
+                "vi": "làm mẫu một kỹ thuật"
+              },
+              {
+                "en": "notice a recurring mistake",
+                "vi": "nhận ra lỗi lặp lại"
+              },
+              {
+                "en": "give specific guidance",
+                "vi": "đưa ra chỉ dẫn cụ thể"
+              },
+              {
+                "en": "adjust the level of challenge",
+                "vi": "điều chỉnh độ khó"
+              },
+              {
+                "en": "build independence",
+                "vi": "xây dựng khả năng tự lập"
+              },
+              {
+                "en": "praise genuine progress",
+                "vi": "ghi nhận tiến bộ thật"
+              }
+            ],
+            "grammar": "Dùng who để mô tả người hướng dẫn và so that để nêu mục đích của phản hồi.",
+            "sample": "A good mentor demonstrates a technique and then watches how the learner tries it. Instead of giving vague praise, they notice a recurring mistake and offer specific guidance so the next attempt is clearer. They should adjust the challenge to the learner's level and praise genuine progress. Over time, a mentor should also build independence, helping the learner make decisions without needing constant supervision.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "skilled-friend-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Do adults and children learn skills in the same way?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Trẻ em có thể thử nghiệm thoải mái",
+              "Người lớn liên hệ kiến thức mới với kinh nghiệm và mục tiêu"
+            ],
+            "vocab": [
+              {
+                "en": "learn by experimenting",
+                "vi": "học bằng cách thử nghiệm"
+              },
+              {
+                "en": "connect new ideas",
+                "vi": "kết nối ý tưởng mới"
+              },
+              {
+                "en": "prior experience",
+                "vi": "kinh nghiệm trước đây"
+              },
+              {
+                "en": "fear of failure",
+                "vi": "nỗi sợ thất bại"
+              },
+              {
+                "en": "a clear purpose",
+                "vi": "mục đích rõ ràng"
+              },
+              {
+                "en": "learn at different speeds",
+                "vi": "học với tốc độ khác nhau"
+              }
+            ],
+            "grammar": "Dùng whereas để đối chiếu xu hướng, tránh khẳng định tuyệt đối bằng tend to.",
+            "sample": "They can learn in similar ways, but their circumstances often differ. Children may learn by experimenting and repeating an activity without needing to understand its long-term value. Adults tend to connect new ideas with prior experience and may have a clear purpose, although work and family responsibilities can limit practice time. Neither group learns in exactly the same way; confidence, interest and teaching methods also matter.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A skill I admire"
+    },
+    {
+      "id": "family-celebration",
+      "topic": "A family celebration",
+      "task": "Describe a family celebration that you remember well.",
+      "bullets": [
+        "what was being celebrated",
+        "where and when it happened",
+        "what people did",
+        "why it was memorable"
+      ],
+      "conclusion": "and explain how you felt during the celebration.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn dịp gia đình có thể cùng chuẩn bị",
+          "Kể vài hoạt động hoặc món ăn",
+          "Nêu một khoảnh khắc nhỏ làm bạn nhớ lâu"
+        ],
+        "vocab": [
+          {
+            "en": "get together as a family",
+            "vi": "sum họp gia đình"
+          },
+          {
+            "en": "prepare a shared meal",
+            "vi": "chuẩn bị bữa ăn chung"
+          },
+          {
+            "en": "a warm atmosphere",
+            "vi": "không khí ấm cúng"
+          },
+          {
+            "en": "catch up with relatives",
+            "vi": "hỏi thăm người thân"
+          },
+          {
+            "en": "a small tradition",
+            "vi": "truyền thống nhỏ"
+          },
+          {
+            "en": "feel included",
+            "vi": "cảm thấy được hòa vào cuộc vui"
+          }
+        ],
+        "grammar": "Dùng quá khứ đơn cho trình tự sự kiện, while để mô tả hoạt động diễn ra cùng lúc.",
+        "sample": "A family celebration I remember clearly was my grandmother's birthday last year. We gathered at my aunt's home because it had enough space for everyone. A few relatives prepared a shared meal, while the younger members arranged flowers and helped set the table. It was not a formal party, but the warm atmosphere made it feel special. After dinner, we brought out a cake and asked my grandmother to tell us stories from when she was young. Some of the details were new to me, and everyone listened carefully. Later, we looked at old photographs and tried to guess the year each one had been taken. I particularly remember my cousins laughing when they saw their parents' old hairstyles. The celebration was memorable because people from different generations had time to catch up instead of rushing through a meal. I also liked that everyone contributed something small, whether it was food, decorations or a story. I felt included and relaxed throughout the evening. It reminded me that a family event does not need expensive entertainment; sharing a meal and paying attention to one another can be enough to make the occasion meaningful.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "family-celebration-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why are family celebrations important to many people?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Tạo dịp gặp người thân ít gặp",
+              "Duy trì cảm giác thuộc về gia đình"
+            ],
+            "vocab": [
+              {
+                "en": "mark an important occasion",
+                "vi": "đánh dấu dịp quan trọng"
+              },
+              {
+                "en": "strengthen family ties",
+                "vi": "thắt chặt tình cảm gia đình"
+              },
+              {
+                "en": "share memories",
+                "vi": "chia sẻ kỷ niệm"
+              },
+              {
+                "en": "bring generations together",
+                "vi": "kết nối các thế hệ"
+              },
+              {
+                "en": "a sense of belonging",
+                "vi": "cảm giác thuộc về"
+              },
+              {
+                "en": "make time for relatives",
+                "vi": "dành thời gian cho người thân"
+              }
+            ],
+            "grammar": "Dùng can để nêu lợi ích phổ biến mà không khẳng định mọi gia đình giống nhau.",
+            "sample": "Family celebrations can give relatives a reason to make time for one another, especially when they live in different places. Sharing a meal or marking an important occasion helps people exchange news and memories. These events may strengthen family ties and give younger members a sense of belonging. The form of a celebration varies, but the opportunity to reconnect is often what people value most.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "family-celebration-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How have family celebrations changed in modern life?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Lịch bận và khoảng cách ảnh hưởng cách tổ chức",
+              "Cuộc gọi trực tuyến giúp người ở xa tham gia"
+            ],
+            "vocab": [
+              {
+                "en": "coordinate busy schedules",
+                "vi": "sắp xếp lịch bận"
+              },
+              {
+                "en": "celebrate on a different date",
+                "vi": "tổ chức vào ngày khác"
+              },
+              {
+                "en": "join by video call",
+                "vi": "tham gia qua cuộc gọi video"
+              },
+              {
+                "en": "a smaller gathering",
+                "vi": "buổi tụ họp nhỏ hơn"
+              },
+              {
+                "en": "keep a tradition alive",
+                "vi": "duy trì truyền thống"
+              },
+              {
+                "en": "make plans in advance",
+                "vi": "lên kế hoạch trước"
+              }
+            ],
+            "grammar": "Dùng hiện tại hoàn thành để khái quát thay đổi gần đây rồi nêu ví dụ bằng for example.",
+            "sample": "Family celebrations have become more flexible in many households. Relatives may coordinate busy schedules and celebrate on a different date, or someone living far away can join by video call. Some families choose a smaller gathering rather than invite a large group. Even so, people often keep a tradition alive, such as sharing a certain dish. The way they meet has changed more than the reason for celebrating.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "family-celebration-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Is it better to celebrate at home or in a public venue?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Cân nhắc sự thoải mái và công sức dọn dẹp",
+              "Lựa chọn tùy quy mô và nhu cầu gia đình"
+            ],
+            "vocab": [
+              {
+                "en": "host people at home",
+                "vi": "đón khách tại nhà"
+              },
+              {
+                "en": "avoid the preparation work",
+                "vi": "tránh việc chuẩn bị"
+              },
+              {
+                "en": "a hired venue",
+                "vi": "địa điểm thuê"
+              },
+              {
+                "en": "control the atmosphere",
+                "vi": "chủ động không khí"
+              },
+              {
+                "en": "suit the group size",
+                "vi": "phù hợp quy mô nhóm"
+              },
+              {
+                "en": "share the practical tasks",
+                "vi": "chia sẻ việc thực tế"
+              }
+            ],
+            "grammar": "Dùng it depends on để mở câu trả lời cân bằng và whereas để so sánh.",
+            "sample": "It depends on the size and purpose of the celebration. Home gatherings feel personal and let the family control the atmosphere, but someone has to prepare food and clean afterwards. A hired venue can reduce that work and may suit a large group, although it costs more. Families should choose the setting that fits their needs and share the practical tasks fairly.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "family-celebration-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Should children be involved in planning family events?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Trẻ có thể đề xuất hoạt động hợp tuổi",
+              "Giao nhiệm vụ nhỏ giúp trẻ hiểu công sức tổ chức"
+            ],
+            "vocab": [
+              {
+                "en": "suggest an activity",
+                "vi": "đề xuất một hoạt động"
+              },
+              {
+                "en": "take responsibility for",
+                "vi": "chịu trách nhiệm về"
+              },
+              {
+                "en": "age-appropriate task",
+                "vi": "nhiệm vụ phù hợp lứa tuổi"
+              },
+              {
+                "en": "feel part of the plan",
+                "vi": "cảm thấy mình là một phần của kế hoạch"
+              },
+              {
+                "en": "learn to cooperate",
+                "vi": "học cách hợp tác"
+              },
+              {
+                "en": "keep the event manageable",
+                "vi": "giữ sự kiện trong khả năng"
+              }
+            ],
+            "grammar": "Dùng should be invited to để nêu sự tham gia có giới hạn và phù hợp.",
+            "sample": "Children should be invited to suggest an activity or help with an age-appropriate task. That can make them feel part of the plan and teach them to cooperate. Adults still need to manage the budget, timing and safety, so the event remains manageable. Giving children a small responsibility is usually more helpful than expecting them to organise the entire celebration.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "A family occasion"
+    },
+    {
+      "id": "useful-object",
+      "topic": "A useful everyday object",
+      "task": "Describe an object that you use regularly and find useful.",
+      "bullets": [
+        "what the object is",
+        "when you got it",
+        "how you use it",
+        "why it is useful to you"
+      ],
+      "conclusion": "and explain what you would do if you no longer had it.",
+      "reviewed": false,
+      "aid": {
+        "idea": [
+          "Chọn vật dụng dùng thật thường xuyên",
+          "Nêu lúc bạn nhận hoặc mua nó",
+          "Giải thích lợi ích và cách bạn bảo quản"
+        ],
+        "vocab": [
+          {
+            "en": "a reusable water bottle",
+            "vi": "chai nước có thể dùng lại"
+          },
+          {
+            "en": "carry it everywhere",
+            "vi": "mang theo khắp nơi"
+          },
+          {
+            "en": "keep a drink cool",
+            "vi": "giữ đồ uống mát"
+          },
+          {
+            "en": "easy to refill",
+            "vi": "dễ châm thêm nước"
+          },
+          {
+            "en": "reduce single-use plastic",
+            "vi": "giảm nhựa dùng một lần"
+          },
+          {
+            "en": "a small daily convenience",
+            "vi": "tiện ích nhỏ hằng ngày"
+          }
+        ],
+        "grammar": "Dùng hiện tại đơn mô tả công dụng và quá khứ đơn nói thời điểm bạn có món đồ.",
+        "sample": "An object I use almost every day is a reusable water bottle. I got it as a practical gift from my sister when I started commuting longer distances. It is made of metal, has a secure lid and keeps my drink cool for several hours. I carry it to class, to the library and on short walks. Because it is easy to refill, I do not have to buy a new drink whenever I feel thirsty. It has also helped me reduce single-use plastic, which is a benefit I did not think much about at first. I wash it each evening and leave it open to dry, so it stays fresh. The bottle is not expensive or especially attractive, but it has become a small daily convenience that I rely on. If I forgot it, I would probably buy water once, but I would bring it back the next day. I like useful objects that solve an ordinary problem without needing much attention, and this bottle does exactly that. It reminds me that a simple change in routine can be both practical and a little better for the environment.",
+        "reviewed": false
+      },
+      "part3Questions": [
+        {
+          "id": "useful-object-part3-01",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Why do people keep using objects that are familiar to them?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Đồ quen thuộc tiết kiệm thời gian học cách dùng",
+              "Sự tin cậy làm giảm bất tiện"
+            ],
+            "vocab": [
+              {
+                "en": "know how it works",
+                "vi": "biết nó hoạt động thế nào"
+              },
+              {
+                "en": "reliable in daily use",
+                "vi": "đáng tin trong sử dụng hằng ngày"
+              },
+              {
+                "en": "avoid unnecessary hassle",
+                "vi": "tránh phiền toái không cần thiết"
+              },
+              {
+                "en": "fit an existing routine",
+                "vi": "hợp với nếp sinh hoạt sẵn có"
+              },
+              {
+                "en": "replace it only when needed",
+                "vi": "chỉ thay khi cần thiết"
+              },
+              {
+                "en": "a familiar design",
+                "vi": "thiết kế quen thuộc"
+              }
+            ],
+            "grammar": "Dùng because để nêu nguyên nhân và even if để thừa nhận có lựa chọn mới hơn.",
+            "sample": "People often keep familiar objects because they know how they work and can rely on them. Replacing something requires time, money and sometimes learning a new design. Even if a newer model has extra features, those may not solve a real problem. People are more likely to replace an object when it no longer fits their routine or becomes unreliable in daily use.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "useful-object-part3-02",
+          "type": "part3-question",
+          "part": 3,
+          "q": "How can product design reduce waste?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Thiết kế bền và sửa được kéo dài tuổi thọ",
+              "Linh kiện thay thế giúp tránh bỏ toàn bộ sản phẩm"
+            ],
+            "vocab": [
+              {
+                "en": "built to last",
+                "vi": "được làm để dùng lâu"
+              },
+              {
+                "en": "repairable parts",
+                "vi": "bộ phận có thể sửa chữa"
+              },
+              {
+                "en": "replaceable components",
+                "vi": "linh kiện có thể thay"
+              },
+              {
+                "en": "use recycled materials",
+                "vi": "dùng vật liệu tái chế"
+              },
+              {
+                "en": "extend a product's life",
+                "vi": "kéo dài tuổi thọ sản phẩm"
+              },
+              {
+                "en": "reduce packaging",
+                "vi": "giảm bao bì"
+              }
+            ],
+            "grammar": "Dùng can be designed to để nêu cách nhà sản xuất có thể chủ động thay đổi.",
+            "sample": "Products can be designed to last longer and be repaired instead of discarded. Replaceable components let consumers fix one damaged part without throwing away the whole item. Manufacturers can also use recycled materials and reduce unnecessary packaging. These choices may involve planning at the design stage, but they can extend a product's life and reduce the amount of waste created after purchase.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "useful-object-part3-03",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Do advertisements influence what household products people buy?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Quảng cáo làm người mua chú ý sản phẩm mới",
+              "Đánh giá và nhu cầu thực tế vẫn quan trọng"
+            ],
+            "vocab": [
+              {
+                "en": "draw attention to",
+                "vi": "thu hút sự chú ý tới"
+              },
+              {
+                "en": "a persuasive message",
+                "vi": "thông điệp thuyết phục"
+              },
+              {
+                "en": "compare product features",
+                "vi": "so sánh tính năng sản phẩm"
+              },
+              {
+                "en": "read customer reviews",
+                "vi": "đọc nhận xét khách hàng"
+              },
+              {
+                "en": "buy on impulse",
+                "vi": "mua theo cảm hứng nhất thời"
+              },
+              {
+                "en": "a practical need",
+                "vi": "nhu cầu thực tế"
+              }
+            ],
+            "grammar": "Dùng can influence nhưng thêm whether để nhấn rằng quyết định còn tùy người mua.",
+            "sample": "Advertisements can influence which products people notice, especially when a message is repeated or uses a familiar public figure. However, household purchases also depend on price, durability and practical need. Some buyers compare features and read customer reviews before deciding, while others may buy on impulse. Clear product information can help people judge an advertisement rather than accept every claim at face value.",
+            "reviewed": false
+          }
+        },
+        {
+          "id": "useful-object-part3-04",
+          "type": "part3-question",
+          "part": 3,
+          "q": "Is it better to repair an object or replace it?",
+          "reviewed": false,
+          "aid": {
+            "idea": [
+              "Cân nhắc giá sửa, độ an toàn và tuổi thọ còn lại",
+              "Sửa chữa thường hợp với vật chất lượng tốt"
+            ],
+            "vocab": [
+              {
+                "en": "cost of repair",
+                "vi": "chi phí sửa chữa"
+              },
+              {
+                "en": "in safe working order",
+                "vi": "hoạt động an toàn"
+              },
+              {
+                "en": "a skilled repair service",
+                "vi": "dịch vụ sửa chữa có tay nghề"
+              },
+              {
+                "en": "be worth fixing",
+                "vi": "đáng để sửa"
+              },
+              {
+                "en": "a more efficient model",
+                "vi": "mẫu tiết kiệm năng lượng hơn"
+              },
+              {
+                "en": "make an informed choice",
+                "vi": "đưa ra lựa chọn có đủ thông tin"
+              }
+            ],
+            "grammar": "Dùng depends on whether để liệt kê điều kiện ảnh hưởng đến quyết định.",
+            "sample": "The better choice depends on the object's age, repair cost and safety. A well-made item is often worth fixing if a skilled service can restore it at a reasonable price. On the other hand, replacing an unsafe appliance with a more efficient model may be sensible. People should compare the likely lifespan and total cost rather than assume that repair or replacement is always best.",
+            "reviewed": false
+          }
+        }
+      ],
+      "type": "part2-cue-card",
+      "part": 2,
+      "title": "An object I use often"
+    }
+  ]
+}
