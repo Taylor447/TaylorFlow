@@ -1,8 +1,8 @@
-const VERSION='epu-pwa-v13';
+const VERSION='epu-pwa-v14';
 const SHELL_CACHE='epu-shell-'+VERSION;
 const ASSET_CACHE='epu-pwa-assets-'+VERSION;
 const SCOPE=self.registration.scope;
-const APP_URL=new URL('./EPU%20IELTS%20Speaking.html',SCOPE).href;
+const APP_URL=new URL('./TaylorFlow.html',SCOPE).href;
 const APP_PATH=new URL(APP_URL).pathname;
 const CAMPUS_URL=new URL('./assets/campus3d/index.html',SCOPE).href;
 const CAMPUS_PATH=new URL(CAMPUS_URL).pathname;
@@ -63,3 +63,4 @@ self.addEventListener('fetch',event=>{
   return response;
  })());
 });
+
