@@ -2221,8 +2221,45 @@ html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder.is-d
 </style>
 <link rel="stylesheet" href="./assets/placement/learning.css">
 <link rel="stylesheet" href="./assets/placement/liquid-library.css">
+<style id="music-mini-player-ui">
+#music-mini-player{position:sticky;top:0;z-index:12;padding:5px max(var(--gutter),calc((100vw - var(--width))/2));border-bottom:1px solid var(--tool-edge);color:var(--tx);background:color-mix(in srgb,var(--tool-bg) 88%,var(--pr));backdrop-filter:blur(18px) saturate(150%);-webkit-backdrop-filter:blur(18px) saturate(150%);box-shadow:0 8px 22px #050b1830}
+#music-mini-player[hidden]{display:none}
+body.music-mini-active>header{top:56px}
+.music-mini-player-inner{display:grid;grid-template-columns:minmax(160px,1fr) auto minmax(110px,230px) auto;align-items:center;gap:10px;width:min(100%,var(--width));min-height:46px;margin:0 auto}
+.music-mini-track{display:flex;align-items:center;gap:10px;min-width:0;min-height:42px;padding:0 4px;border:0;background:transparent;color:var(--tx);text-align:left;cursor:pointer}
+.music-mini-note{display:grid;flex:0 0 34px;place-items:center;width:34px;height:34px;border:1px solid var(--tool-edge);border-radius:50%;background:color-mix(in srgb,var(--pr) 16%,var(--tool-bg));color:var(--pr);font-size:18px;font-weight:800}
+.music-mini-track-copy{display:grid;min-width:0;gap:2px}
+.music-mini-track-copy strong,.music-mini-track-copy small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.music-mini-track-copy strong{font-size:13px;font-weight:800}
+.music-mini-track-copy small,.music-mini-time{color:var(--mu);font-size:11px;font-weight:700}
+.music-mini-time{white-space:nowrap;text-align:center}
+.music-mini-seek{width:100%;min-width:0;height:24px;margin:0;accent-color:var(--pr);cursor:pointer}
+.music-mini-controls{display:flex;align-items:center;gap:5px}
+.music-mini-button{display:grid;place-items:center;width:38px;height:38px;padding:0;border:1px solid var(--tool-edge);border-radius:50%;background:color-mix(in srgb,var(--tool-bg) 75%,transparent);color:var(--tx);font-size:20px;font-weight:800;cursor:pointer;transition:transform .16s ease,background .16s ease,border-color .16s ease}
+.music-mini-button:hover{transform:translateY(-1px);border-color:var(--pr);background:color-mix(in srgb,var(--pr) 14%,var(--tool-bg))}
+.music-mini-button.is-play{border-color:color-mix(in srgb,var(--pr) 48%,var(--tool-edge));background:color-mix(in srgb,var(--pr) 24%,var(--tool-bg));color:var(--pr)}
+.music-mini-button:focus-visible,.music-mini-track:focus-visible,.music-mini-seek:focus-visible{outline:3px solid var(--pr);outline-offset:2px}
+@media(max-width:760px){body.music-mini-active>header{top:76px}.music-mini-player-inner{grid-template-columns:minmax(0,1fr) auto;gap:2px 8px}.music-mini-time{display:none}.music-mini-seek{grid-column:1/-1;height:20px}.music-mini-controls{gap:4px}.music-mini-button{width:36px;height:36px}.music-mini-track-copy small{font-size:10px}}
+@media(max-width:420px){.music-mini-player-inner{grid-template-columns:minmax(0,1fr) auto}.music-mini-track{gap:7px}.music-mini-note{flex-basis:30px;width:30px;height:30px}.music-mini-track-copy strong{font-size:12px}.music-mini-controls{gap:3px}.music-mini-button{width:34px;height:34px;font-size:18px}.music-mini-button.is-open{display:none}}
+</style>
 </head>
 <body>
+<aside id="music-mini-player" class="music-mini-player" aria-label="Trình phát nhạc thu gọn" hidden>
+ <div class="music-mini-player-inner">
+  <button type="button" class="music-mini-track" onclick="musicMiniOpen()" aria-label="Mở trình phát nhạc">
+   <span class="music-mini-note" aria-hidden="true">♫</span>
+   <span class="music-mini-track-copy"><strong id="music-mini-title">Chưa chọn bài</strong><small id="music-mini-artist">TaylorFlow Music</small></span>
+  </button>
+  <div class="music-mini-time"><span id="music-mini-current-time">0:00</span><span aria-hidden="true"> / </span><span id="music-mini-duration">0:00</span></div>
+  <input id="music-mini-seek" class="music-mini-seek" type="range" min="0" max="1000" value="0" aria-label="Vị trí phát nhạc" oninput="musicSeekPreview(this.value)" onchange="musicSeek(this.value)">
+  <div class="music-mini-controls">
+   <button type="button" class="music-mini-button" onclick="musicPrevious()" aria-label="Bài trước" title="Bài trước">‹</button>
+   <button type="button" id="music-mini-play" class="music-mini-button is-play" onclick="musicToggle()" aria-label="Phát nhạc" title="Phát nhạc">▶</button>
+   <button type="button" class="music-mini-button" onclick="musicNext()" aria-label="Bài tiếp" title="Bài tiếp">›</button>
+   <button type="button" class="music-mini-button is-open" onclick="musicMiniOpen()" aria-label="Mở thư viện nhạc" title="Mở thư viện nhạc">↗</button>
+  </div>
+ </div>
+</aside>
 <header>
   <div class="brand">
     <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%231e3a8a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2306b6d4%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2218%22%20fill%3D%22url(%23g)%22%2F%3E%3Cpath%20d%3D%22M17%2017h30M32%2017v26%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M11%2049h6l4-8%205%2013%205-20%205%2015%205-9%204%208%204-6%204%207h2%22%20fill%3D%22none%22%20stroke%3D%22%239df6ee%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ccircle%20cx%3D%2251%22%20cy%3D%2249%22%20r%3D%222.2%22%20fill%3D%22%23ffd16b%22%2F%3E%3C%2Fsvg%3E" alt="TaylorFlow">
@@ -11174,7 +11211,7 @@ let librarySection = 'news';
 const musicDatabaseName = 'taylorflow-music-library-v1';
 const musicStoreName = 'tracks';
 const musicRecentKey = 'taylorflow-music-recent-v1';
-let musicDatabasePromise = null, musicTracks = [], musicCurrentTrack = null, musicCurrentUrl = '', musicFilter = 'all', musicRecent = [], musicShuffle = false, musicRepeat = false, musicStatus = '', musicLoadToken = 0, musicAudio = null, musicMenuTrackId = '';
+let musicDatabasePromise = null, musicTracks = [], musicCurrentTrack = null, musicCurrentUrl = '', musicFilter = 'all', musicRecent = [], musicShuffle = false, musicRepeat = false, musicStatus = '', musicLoadToken = 0, musicAudio = null, musicMenuTrackId = '', musicMiniActivated = false;
 
 function libraryParse(html) {
  const template = document.createElement('template');
@@ -11327,7 +11364,7 @@ function musicClearQueue(){if(!musicQueueRead().length)return;musicQueueWrite([]
 function musicEnsureAudio(){
  if(musicAudio)return musicAudio;musicAudio=new Audio();musicAudio.preload='metadata';musicAudio.volume=.8;
  musicAudio.addEventListener('timeupdate',musicUpdatePlayer);musicAudio.addEventListener('loadedmetadata',()=>{if(musicCurrentTrack&&Number.isFinite(musicAudio.duration)){musicCurrentTrack.duration=musicAudio.duration;musicUpdatePlayer();musicRenderTracks();musicRenderQueue()}});
- musicAudio.addEventListener('play',()=>{musicUpdatePlayer();musicRenderTracks()});musicAudio.addEventListener('pause',()=>{musicUpdatePlayer();musicRenderTracks()});musicAudio.addEventListener('ended',()=>{if(musicRepeat){musicAudio.currentTime=0;void musicAudio.play()}else musicNext(true)});
+ musicAudio.addEventListener('play',()=>{musicMiniActivated=true;musicUpdatePlayer();musicRenderTracks()});musicAudio.addEventListener('pause',()=>{musicUpdatePlayer();musicRenderTracks()});musicAudio.addEventListener('ended',()=>{if(musicRepeat){musicAudio.currentTime=0;void musicAudio.play()}else musicNext(true)});
  musicAudio.addEventListener('error',()=>{musicStatus='Tệp này không thể phát trong trình duyệt.';musicSetStatus()});return musicAudio;
 }
 async function musicSetTrack(id,autoplay=true){
@@ -11351,20 +11388,32 @@ function musicPrevious(){if(musicAudio&&musicAudio.currentTime>3){musicAudio.cur
 function musicToggleShuffle(){musicShuffle=!musicShuffle;const button=$('#music-shuffle-button');if(button){button.setAttribute('aria-pressed',String(musicShuffle));button.classList.toggle('is-on',musicShuffle)}}
 function musicToggleRepeat(){musicRepeat=!musicRepeat;const button=$('#music-repeat-button');if(button){button.setAttribute('aria-pressed',String(musicRepeat));button.classList.toggle('is-on',musicRepeat)}}
 function musicSeek(value){const audio=musicEnsureAudio();if(Number.isFinite(audio.duration)&&audio.duration>0)audio.currentTime=Number(value)/1000*audio.duration;musicUpdatePlayer()}
-function musicSeekPreview(value){const audio=musicEnsureAudio(),time=Number(value)/1000*(Number.isFinite(audio.duration)?audio.duration:0),label=$('#music-current-time');if(label)label.textContent=musicFormatTime(time)}
+function musicSeekPreview(value){const audio=musicEnsureAudio(),time=Number(value)/1000*(Number.isFinite(audio.duration)?audio.duration:0),label=$('#music-current-time'),miniLabel=$('#music-mini-current-time');if(label)label.textContent=musicFormatTime(time);if(miniLabel)miniLabel.textContent=musicFormatTime(time)}
 function musicSetVolume(value){musicEnsureAudio().volume=Math.max(0,Math.min(1,Number(value)||0))}
 function musicFormatTime(value){const seconds=Math.max(0,Math.floor(Number(value)||0));return Math.floor(seconds/60)+':'+String(seconds%60).padStart(2,'0')}
+function musicMiniOpen(){
+ if(tab!=='library')go('library');
+ libraryChangeView('music');
+ $('#library-music-view')?.scrollIntoView({behavior:'smooth',block:'start'});
+}
 function musicUpdatePlayer(){
  const audio=musicAudio,title=$('#music-current-title'),artist=$('#music-current-artist'),play=$('#music-play-button'),seek=$('#music-seek'),now=$('#music-current-time'),duration=$('#music-duration');
+ const mini=$('#music-mini-player'),miniTitle=$('#music-mini-title'),miniArtist=$('#music-mini-artist'),miniPlay=$('#music-mini-play'),miniSeek=$('#music-mini-seek'),miniNow=$('#music-mini-current-time'),miniDuration=$('#music-mini-duration');
+ const playing=Boolean(audio&&!audio.paused),progress=audio&&Number.isFinite(audio.duration)&&audio.duration>0?String(Math.round(audio.currentTime/audio.duration*1000)):'0',showMini=Boolean(musicMiniActivated&&musicCurrentTrack);
  if(title)title.textContent=musicCurrentTrack?.title||'Chọn một bài để bắt đầu';if(artist)artist.textContent=musicCurrentTrack?.artist||'Thêm nhạc từ thiết bị của bạn. Tệp chỉ lưu trong trình duyệt này.';
- if(play){play.textContent=audio&&!audio.paused?'Ⅱ':'▶';play.setAttribute('aria-label',audio&&!audio.paused?'Tạm dừng':'Phát nhạc')}
- if(seek){seek.value=audio&&Number.isFinite(audio.duration)&&audio.duration>0?String(Math.round(audio.currentTime/audio.duration*1000)):'0'}
+ if(play){play.textContent=playing?'Ⅱ':'▶';play.setAttribute('aria-label',playing?'Tạm dừng':'Phát nhạc')}
+ if(seek)seek.value=progress;
  if(now)now.textContent=musicFormatTime(audio?.currentTime||0);if(duration)duration.textContent=musicFormatTime(audio?.duration||musicCurrentTrack?.duration||0);
+ if(mini){mini.hidden=!showMini;document.body.classList.toggle('music-mini-active',showMini)}
+ if(miniTitle)miniTitle.textContent=musicCurrentTrack?.title||'Chưa chọn bài';if(miniArtist)miniArtist.textContent=musicCurrentTrack?.artist||'TaylorFlow Music';
+ if(miniPlay){miniPlay.textContent=playing?'Ⅱ':'▶';miniPlay.setAttribute('aria-label',playing?'Tạm dừng nhạc':'Phát nhạc');miniPlay.title=playing?'Tạm dừng':'Phát'}
+ if(miniSeek)miniSeek.value=progress;
+ if(miniNow)miniNow.textContent=musicFormatTime(audio?.currentTime||0);if(miniDuration)miniDuration.textContent=musicFormatTime(audio?.duration||musicCurrentTrack?.duration||0);
  musicRenderQueue();
 }
 function musicSetStatus(){const node=$('#music-status');if(node&&musicStatus)node.textContent=musicStatus}
 function musicStop(clearTrack=false){
- if(!musicAudio)return;musicAudio.pause();if(clearTrack){musicAudio.removeAttribute('src');musicAudio.load();musicCurrentTrack=null;try{localStorage.removeItem('taylorflow-music-current-v1')}catch{}if(musicCurrentUrl){URL.revokeObjectURL(musicCurrentUrl);musicCurrentUrl=''}}musicUpdatePlayer();
+ if(!musicAudio)return;musicAudio.pause();if(clearTrack){musicAudio.removeAttribute('src');musicAudio.load();musicCurrentTrack=null;musicMiniActivated=false;try{localStorage.removeItem('taylorflow-music-current-v1')}catch{}if(musicCurrentUrl){URL.revokeObjectURL(musicCurrentUrl);musicCurrentUrl=''}}musicUpdatePlayer();
 }
 function libraryRender() {
  const list = $('#library-list');
