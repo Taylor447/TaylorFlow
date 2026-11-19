@@ -467,7 +467,7 @@ details[open] > :not(summary) { animation: details-enter .25s ease both; }
   details[open] > :not(summary) { animation: none; }
 }
 
-nav {
+#n {
   position: fixed;
   z-index: 12;
   right: 0;
@@ -484,7 +484,7 @@ nav {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
 }
-nav button {
+#n button {
   display: flex;
   flex: 1 1 0;
   min-width: 0;
@@ -499,10 +499,10 @@ nav button {
   font-weight: 700;
   line-height: 1.15;
 }
-nav button.on, nav button[aria-current] { border-color: var(--bd); background: var(--sf); color: var(--pr); }
-nav .nav-icon { display: grid; width: 18px; height: 18px; place-items: center; flex: 0 0 auto; font-size: 16px; }
-nav svg { width: 18px; height: 18px; }
-@media (hover: hover) { nav button:not(.g, :disabled, .theme-toggle):hover { background: var(--sf); color: var(--pr); } }
+#n button.on, #n button[aria-current] { border-color: var(--bd); background: var(--sf); color: var(--pr); }
+#n .nav-icon { display: grid; width: 18px; height: 18px; place-items: center; flex: 0 0 auto; font-size: 16px; }
+#n svg { width: 18px; height: 18px; }
+@media (hover: hover) { #n button:not(.g, :disabled, .theme-toggle):hover { background: var(--sf); color: var(--pr); } }
 
 #m.route-enter > * { animation: route-up .26s cubic-bezier(.2,.75,.25,1) both; }
 @keyframes route-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
@@ -637,9 +637,9 @@ nav svg { width: 18px; height: 18px; }
   .profile-collection-overview { grid-template-columns:minmax(0,1fr); }
   .profile-collection-card, .profile-activity-card { padding:16px; }
   .part-card { padding: 16px; }
-  nav { bottom: 0; width: 100%; padding: 4px 5px calc(4px + var(--inset-bottom)); border-right: 0; border-bottom: 0; border-left: 0; border-radius: 14px 14px 0 0; }
-  nav button { min-height: 50px; flex-direction: column; gap: 3px; padding: 4px 1px; font-size: clamp(9px, 2.42vw, 11px); }
-  nav svg, nav .nav-icon { width: 17px; height: 17px; }
+  #n { bottom: 0; width: 100%; padding: 4px 5px calc(4px + var(--inset-bottom)); border-right: 0; border-bottom: 0; border-left: 0; border-radius: 14px 14px 0 0; }
+  #n button { min-height: 50px; flex-direction: column; gap: 3px; padding: 4px 1px; font-size: clamp(9px, 2.42vw, 11px); }
+  #n svg, #n .nav-icon { width: 17px; height: 17px; }
   input, textarea { font-size: max(16px, 1em); }
 }
 @media (max-width: 345px) {
