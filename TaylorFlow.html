@@ -2223,25 +2223,32 @@ html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder.is-d
 <link rel="stylesheet" href="./assets/placement/liquid-library.css">
 <style id="music-mini-player-ui">
 body.music-mini-active>header{display:grid;grid-template-columns:minmax(220px,max-content) minmax(220px,1fr) auto;justify-content:initial;gap:14px}
-#music-mini-player{position:relative;top:auto;z-index:auto;justify-self:center;width:min(100%,440px);min-width:0;padding:4px 8px;border:1px solid var(--tool-edge);border-radius:18px;color:var(--tx);background:color-mix(in srgb,var(--tool-bg) 88%,var(--pr));backdrop-filter:blur(18px) saturate(150%);-webkit-backdrop-filter:blur(18px) saturate(150%);box-shadow:0 6px 18px #050b1825}
+#music-mini-player{position:relative;top:auto;z-index:auto;justify-self:center;width:min(100%,440px);min-width:0;padding:5px 10px;overflow:hidden;border:1px solid color-mix(in srgb,#fff 38%,var(--tool-edge));border-radius:999px;color:var(--tx);background:linear-gradient(135deg,color-mix(in srgb,#fff 18%,var(--tool-bg)),color-mix(in srgb,var(--pr) 12%,var(--tool-bg)));backdrop-filter:blur(26px) saturate(185%);-webkit-backdrop-filter:blur(26px) saturate(185%);box-shadow:0 12px 28px #050b1838,inset 0 1px 0 #ffffffa0,inset 0 -1px 0 #ffffff22}
+#music-mini-player::before{content:"";position:absolute;inset:1px;z-index:0;pointer-events:none;border-radius:inherit;background:radial-gradient(ellipse at 22% -48%,#ffffff70,transparent 54%),linear-gradient(115deg,#ffffff32,transparent 34%,transparent 72%,#ffffff18)}
 #music-mini-player[hidden]{display:none}
-.music-mini-player-inner{display:grid;grid-template-columns:minmax(70px,1fr) minmax(50px,110px) auto;align-items:center;gap:8px;width:100%;min-height:42px;margin:0 auto}
-.music-mini-track{display:flex;align-items:center;gap:8px;min-width:0;min-height:40px;padding:0 3px;border:0;background:transparent;color:var(--tx);text-align:left;cursor:pointer}
-.music-mini-note{display:grid;flex:0 0 32px;place-items:center;width:32px;height:32px;border:1px solid var(--tool-edge);border-radius:50%;background:color-mix(in srgb,var(--pr) 16%,var(--tool-bg));color:var(--pr);font-size:17px;font-weight:800}
+.music-mini-player-inner{position:relative;z-index:1;display:grid;grid-template-columns:minmax(90px,1fr) minmax(65px,110px) auto;align-items:center;gap:8px;width:100%;min-height:42px;margin:0 auto}
+.music-mini-track{display:flex;align-items:center;gap:8px;min-width:0;min-height:40px;padding:0 3px;border:0;border-radius:999px;background:transparent;color:var(--tx);text-align:left;cursor:pointer}
+.music-mini-note{display:grid;flex:0 0 34px;place-items:center;width:34px;height:34px;border:1px solid #ffffff70;border-radius:50%;background:linear-gradient(145deg,#ffffff5c,#ffffff12 68%),color-mix(in srgb,var(--pr) 22%,var(--tool-bg));color:var(--pr);box-shadow:inset 0 1px 0 #ffffffb0,0 4px 10px #07152b35}
+.music-mini-note svg{width:18px;height:18px}
 .music-mini-track-copy{display:grid;min-width:0;gap:2px}
 .music-mini-track-copy strong,.music-mini-track-copy small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.music-mini-track-copy strong{font-size:12px;font-weight:800}
+.music-mini-track-copy strong{font-size:12px;font-weight:800;letter-spacing:.01em}
 .music-mini-track-copy small,.music-mini-time{color:var(--mu);font-size:10px;font-weight:700}
 .music-mini-time{display:none;white-space:nowrap;text-align:center}
-.music-mini-seek{width:100%;min-width:0;height:22px;margin:0;accent-color:var(--pr);cursor:pointer}
-.music-mini-controls{display:flex;align-items:center;gap:4px}
-.music-mini-button{display:grid;place-items:center;width:34px;height:34px;padding:0;border:1px solid var(--tool-edge);border-radius:50%;background:color-mix(in srgb,var(--tool-bg) 75%,transparent);color:var(--tx);font-size:18px;font-weight:800;cursor:pointer;transition:transform .16s ease,background .16s ease,border-color .16s ease}
-.music-mini-button:hover{transform:translateY(-1px);border-color:var(--pr);background:color-mix(in srgb,var(--pr) 14%,var(--tool-bg))}
-.music-mini-button.is-play{border-color:color-mix(in srgb,var(--pr) 48%,var(--tool-edge));background:color-mix(in srgb,var(--pr) 24%,var(--tool-bg));color:var(--pr)}
+.music-mini-seek{width:100%;min-width:0;height:22px;margin:0;accent-color:var(--pr);cursor:pointer;appearance:none;background:transparent}
+.music-mini-seek::-webkit-slider-runnable-track{height:4px;border:1px solid #ffffff58;border-radius:999px;background:linear-gradient(90deg,color-mix(in srgb,var(--pr) 70%,#fff),#ffffff45);box-shadow:inset 0 1px 2px #07152b35}
+.music-mini-seek::-moz-range-track{height:4px;border:1px solid #ffffff58;border-radius:999px;background:linear-gradient(90deg,color-mix(in srgb,var(--pr) 70%,#fff),#ffffff45);box-shadow:inset 0 1px 2px #07152b35}
+.music-mini-seek::-webkit-slider-thumb{width:13px;height:13px;margin-top:-5px;appearance:none;border:2px solid #ffffffd8;border-radius:50%;background:var(--pr);box-shadow:0 2px 7px #07152b55}
+.music-mini-seek::-moz-range-thumb{width:10px;height:10px;border:2px solid #ffffffd8;border-radius:50%;background:var(--pr);box-shadow:0 2px 7px #07152b55}
+.music-mini-controls{display:flex;align-items:center;gap:5px}
+.music-mini-button{display:grid;place-items:center;width:36px;height:36px;padding:0;border:1px solid #ffffff5c;border-radius:50%;background:linear-gradient(145deg,#ffffff2c,#ffffff08 72%);color:var(--tx);box-shadow:inset 0 1px 0 #ffffff54,0 3px 9px #07152b24;cursor:pointer;transition:transform .18s ease,background .18s ease,border-color .18s ease,box-shadow .18s ease}
+.music-mini-button svg{display:block;width:17px;height:17px}
+.music-mini-button:hover{transform:translateY(-1px);border-color:#ffffffb0;background:linear-gradient(145deg,#ffffff46,#ffffff16);box-shadow:inset 0 1px 0 #ffffff8a,0 6px 12px #07152b32}
+.music-mini-button.is-play{width:38px;height:38px;border-color:#ffffffa6;background:linear-gradient(145deg,color-mix(in srgb,#fff 52%,var(--pr)),color-mix(in srgb,var(--pr) 44%,var(--tool-bg)));color:var(--tx);box-shadow:inset 0 1px 0 #ffffffc9,0 5px 13px #07152b45}
 .music-mini-button:focus-visible,.music-mini-track:focus-visible,.music-mini-seek:focus-visible{outline:3px solid var(--pr);outline-offset:2px}
-@media(min-width:901px) and (max-width:1100px){body.music-mini-active>header{grid-template-columns:minmax(185px,max-content) minmax(116px,1fr) auto;gap:8px}.music-mini-player-inner{grid-template-columns:minmax(0,1fr) auto;gap:3px}.music-mini-seek,.music-mini-button:not(.is-play){display:none}.music-mini-track{gap:5px;min-height:36px;padding:0}.music-mini-note{flex-basis:28px;width:28px;height:28px;font-size:15px}.music-mini-track-copy small{display:none}.music-mini-button.is-play{width:30px;height:30px;font-size:16px}}
+@media(min-width:901px) and (max-width:1100px){body.music-mini-active>header{grid-template-columns:minmax(185px,max-content) minmax(116px,1fr) auto;gap:8px}.music-mini-player-inner{grid-template-columns:minmax(0,1fr) auto;gap:3px}.music-mini-seek,.music-mini-button:not(.is-play){display:none}.music-mini-track{gap:5px;min-height:36px;padding:0}.music-mini-note{flex-basis:28px;width:28px;height:28px}.music-mini-button.is-play{width:30px;height:30px}.music-mini-track-copy small{display:none}}
 @media(max-width:900px){body.music-mini-active>header{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"brand actions" "music music";gap:7px 10px}.brand{grid-area:brand}.head-actions{grid-area:actions}#music-mini-player{grid-area:music;width:min(100%,560px);max-width:none}.music-mini-player-inner{grid-template-columns:minmax(0,1fr) auto;gap:3px 8px}.music-mini-track{grid-column:1}.music-mini-controls{grid-column:2}.music-mini-seek,.music-mini-button.is-open{display:none}.music-mini-track-copy small{font-size:10px}}
-@media(max-width:420px){body.music-mini-active>header{gap:6px 8px}.music-mini-player-inner{gap:6px}.music-mini-track{gap:7px}.music-mini-note{flex-basis:30px;width:30px;height:30px}.music-mini-track-copy strong{font-size:11px}.music-mini-button{width:32px;height:32px;font-size:17px}.music-mini-controls{gap:3px}}
+@media(max-width:420px){body.music-mini-active>header{gap:6px 8px}.music-mini-player-inner{gap:6px}.music-mini-track{gap:7px}.music-mini-note{flex-basis:30px;width:30px;height:30px}.music-mini-track-copy strong{font-size:11px}.music-mini-button{width:34px;height:34px}.music-mini-controls{gap:3px}}
 </style>
 </head>
 <body>
@@ -2254,16 +2261,16 @@ body.music-mini-active>header{display:grid;grid-template-columns:minmax(220px,ma
 <aside id="music-mini-player" class="music-mini-player" aria-label="Trình phát nhạc thu gọn" hidden>
  <div class="music-mini-player-inner">
   <button type="button" class="music-mini-track" onclick="musicMiniOpen()" aria-label="Mở trình phát nhạc">
-   <span class="music-mini-note" aria-hidden="true">♫</span>
+   <span class="music-mini-note" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span>
    <span class="music-mini-track-copy"><strong id="music-mini-title">Chưa chọn bài</strong><small id="music-mini-artist">TaylorFlow Music</small></span>
   </button>
   <div class="music-mini-time"><span id="music-mini-current-time">0:00</span><span aria-hidden="true"> / </span><span id="music-mini-duration">0:00</span></div>
   <input id="music-mini-seek" class="music-mini-seek" type="range" min="0" max="1000" value="0" aria-label="Vị trí phát nhạc" oninput="musicSeekPreview(this.value)" onchange="musicSeek(this.value)">
   <div class="music-mini-controls">
-   <button type="button" class="music-mini-button" onclick="musicPrevious()" aria-label="Bài trước" title="Bài trước">‹</button>
-   <button type="button" id="music-mini-play" class="music-mini-button is-play" onclick="musicToggle()" aria-label="Phát nhạc" title="Phát nhạc">▶</button>
-   <button type="button" class="music-mini-button" onclick="musicNext()" aria-label="Bài tiếp" title="Bài tiếp">›</button>
-   <button type="button" class="music-mini-button is-open" onclick="musicMiniOpen()" aria-label="Mở thư viện nhạc" title="Mở thư viện nhạc">↗</button>
+   <button type="button" class="music-mini-button" onclick="musicPrevious()" aria-label="Bài trước" title="Bài trước"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 5v14M19 6l-8 6 8 6V6Z"/></svg></button>
+   <button type="button" id="music-mini-play" class="music-mini-button is-play" onclick="musicToggle()" aria-label="Phát nhạc" title="Phát nhạc"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.8a1 1 0 0 1 1.5-.86l10 6.2a1 1 0 0 1 0 1.72l-10 6.2a1 1 0 0 1-1.5-.86z"/></svg></button>
+   <button type="button" class="music-mini-button" onclick="musicNext()" aria-label="Bài tiếp" title="Bài tiếp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 5v14M5 6l8 6-8 6V6Z"/></svg></button>
+   <button type="button" class="music-mini-button is-open" onclick="musicMiniOpen()" aria-label="Mở thư viện nhạc" title="Mở thư viện nhạc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 5h5v5M19 5l-9 9M18 13v5H6V6h5"/></svg></button>
   </div>
  </div>
 </aside>
@@ -11393,6 +11400,7 @@ function musicSeek(value){const audio=musicEnsureAudio();if(Number.isFinite(audi
 function musicSeekPreview(value){const audio=musicEnsureAudio(),time=Number(value)/1000*(Number.isFinite(audio.duration)?audio.duration:0),label=$('#music-current-time'),miniLabel=$('#music-mini-current-time');if(label)label.textContent=musicFormatTime(time);if(miniLabel)miniLabel.textContent=musicFormatTime(time)}
 function musicSetVolume(value){musicEnsureAudio().volume=Math.max(0,Math.min(1,Number(value)||0))}
 function musicFormatTime(value){const seconds=Math.max(0,Math.floor(Number(value)||0));return Math.floor(seconds/60)+':'+String(seconds%60).padStart(2,'0')}
+function musicMiniIcon(name){const paths={play:'<path d="M8 5.8a1 1 0 0 1 1.5-.86l10 6.2a1 1 0 0 1 0 1.72l-10 6.2a1 1 0 0 1-1.5-.86z" fill="currentColor" stroke="none"/>',pause:'<path d="M7 5h4v14H7zM15 5h4v14h-4z" fill="currentColor" stroke="none"/>'};return '<svg viewBox="0 0 24 24" aria-hidden="true">'+(paths[name]||'')+'</svg>'}
 function musicMiniOpen(){
  if(tab!=='library')go('library');
  libraryChangeView('music');
@@ -11408,7 +11416,7 @@ function musicUpdatePlayer(){
  if(now)now.textContent=musicFormatTime(audio?.currentTime||0);if(duration)duration.textContent=musicFormatTime(audio?.duration||musicCurrentTrack?.duration||0);
  if(mini){mini.hidden=!showMini;document.body.classList.toggle('music-mini-active',showMini)}
  if(miniTitle)miniTitle.textContent=musicCurrentTrack?.title||'Chưa chọn bài';if(miniArtist)miniArtist.textContent=musicCurrentTrack?.artist||'TaylorFlow Music';
- if(miniPlay){miniPlay.textContent=playing?'Ⅱ':'▶';miniPlay.setAttribute('aria-label',playing?'Tạm dừng nhạc':'Phát nhạc');miniPlay.title=playing?'Tạm dừng':'Phát'}
+ if(miniPlay){miniPlay.innerHTML=musicMiniIcon(playing?'pause':'play');miniPlay.setAttribute('aria-label',playing?'Tạm dừng nhạc':'Phát nhạc');miniPlay.title=playing?'Tạm dừng':'Phát'}
  if(miniSeek)miniSeek.value=progress;
  if(miniNow)miniNow.textContent=musicFormatTime(audio?.currentTime||0);if(miniDuration)miniDuration.textContent=musicFormatTime(audio?.duration||musicCurrentTrack?.duration||0);
  musicRenderQueue();
