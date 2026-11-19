@@ -198,3 +198,20 @@
 .library-section-tabs { position:fixed; top:calc(92px + var(--inset-top, 0px)); right:auto; bottom:auto; left:50%; z-index:12; width:min(980px,calc(100vw - var(--gutter) - var(--gutter))); max-width:calc(100vw - var(--gutter) - var(--gutter)); height:auto; margin:0; transform:translateX(-50%); }
 .library-section-tabs-spacer { height:82px; }
 @media(max-width:560px) { .interface-music-palette { align-items:flex-start; flex-direction:column; gap:8px; }.library-section-tabs { top:calc(78px + var(--inset-top, 0px)); }.library-section-tabs-spacer { height:68px; } }
+
+
+/* Give the fixed library tabs a little more vertical breathing room. */
+.library-section-tabs { gap:9px; padding:8px; }
+.library-section-tabs button { min-height:54px; padding:11px 18px; border-radius:15px; }
+.library-section-tabs-spacer { height:92px; }
+@media(max-width:560px) {
+ .library-section-tabs { gap:6px; padding:6px; }
+ .library-section-tabs button { min-height:54px; padding:9px 12px; }
+ .library-section-tabs-spacer { height:74px; }
+}
+@media(max-width:430px) { .library-section-tabs button { min-height:60px; padding:10px 11px; } }
+
+/* Refined, consistent icon badges for IELTS topic chips. */
+.topic-badge .topic-icon { display:inline-grid; flex:0 0 26px; width:26px; height:26px; padding:3px; place-items:center; border:1px solid color-mix(in srgb,var(--topic-fg,var(--pr)) 20%,transparent); border-radius:50%; background:color-mix(in srgb,var(--topic-fg,var(--pr)) 9%,var(--topic-bg,var(--sf))); color:var(--topic-fg,var(--pr)); stroke-width:1.8; transition:transform .16s ease,background .16s ease; }
+.topic-badge:hover .topic-icon { transform:scale(1.06); background:color-mix(in srgb,var(--topic-fg,var(--pr)) 15%,var(--topic-bg,var(--sf))); }
+.topic-badge:focus-visible { outline:3px solid var(--action); outline-offset:2px; }
