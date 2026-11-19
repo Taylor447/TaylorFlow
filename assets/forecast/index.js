@@ -4,5 +4,6 @@
   const today = new Date(); today.setHours(0,0,0,0);
   const packs = source.map(pack => { const from=localDate(pack.validFrom); const to=localDate(pack.validTo); const status=today<from?'sắp tới':today>to?'đã qua':'hiện tại'; return Object.assign({},pack,{status}); });
   packs.sort((a,b)=>a.validFrom.localeCompare(b.validFrom));
-  root.TF_FORECAST_MANIFEST = {schemaVersion:1,generatedOn:"2026-11-18",packs};
+  root.TF_FORECAST_MANIFEST = {schemaVersion:1,generatedOn:"2026-11-19",packs};
 })(window);
+
