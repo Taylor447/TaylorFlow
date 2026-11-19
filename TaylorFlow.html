@@ -1147,6 +1147,15 @@ body > nav button.on { background: color-mix(in srgb,var(--pr) 17%,transparent);
  .review-switch button { padding-inline: 5px; font-size: clamp(11px, 3.55vw, 14px); }
 }
 .quick-entry, .quick-timer { margin: 12px 0; }
+.home-interface-one>.quick-entry { display:flex; align-items:center; justify-content:space-between; gap:14px; width:100%; min-height:72px; margin:0; padding:14px 20px; border:1px solid var(--bd); border-radius:var(--radius); background:var(--glass); box-shadow:var(--shadow); color:var(--tx); text-align:left; backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px); transition:transform .18s ease,border-color .18s ease,background .18s ease,box-shadow .18s ease; }
+.quick-entry-copy { display:grid; flex:1; gap:3px; min-width:0; }
+.quick-entry-copy small { color:var(--pr); font-size:12px; font-weight:800; letter-spacing:.06em; }
+.quick-entry-copy strong { color:var(--tx); font-size:16px; }
+.quick-entry-arrow { display:grid; flex:0 0 42px; place-items:center; width:42px; height:42px; border:1px solid var(--bd); border-radius:50%; background:var(--sf); color:var(--pr); font-size:20px; font-weight:800; transition:transform .18s ease,background .18s ease; }
+.home-interface-one>.quick-entry:hover { transform:translateY(-1px); border-color:color-mix(in srgb,var(--pr) 45%,var(--bd)); background:color-mix(in srgb,var(--pr) 7%,var(--glass)); box-shadow:0 12px 28px color-mix(in srgb,var(--pr) 12%,transparent),var(--shadow); }
+.home-interface-one>.quick-entry:hover .quick-entry-arrow { transform:translateX(2px); background:color-mix(in srgb,var(--pr) 10%,var(--sf)); }
+.home-interface-one>.quick-entry:focus-visible { outline:3px solid var(--pr); outline-offset:3px; }
+@media(max-width:560px) { .home-interface-one>.quick-entry { min-height:68px; padding:12px 16px; } }
 .quick-timer { padding: 10px 14px; border: 1px solid var(--bd); border-radius: 12px; background: var(--sf); font-size: 1.15rem; font-weight: 800; text-align: center; }
 .minimal-pair-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 10px; margin: 14px 0; }
 .minimal-pair-group { padding: 12px; border: 1px solid var(--bd); border-radius: 12px; background: var(--sf); }
@@ -4539,7 +4548,7 @@ const V={
   <div class="hero-score"><small>ĐIỂM ƯỚC TÍNH</small><div class="big">${bandNumber(m?.o)}</div><small>${m?'Trung bình '+m.n+' lượt gần nhất'+(m.legacy?' · dữ liệu theo nguồn điểm trước':''):'Chấm một câu để xem điểm'}</small></div></section></div>
   <div class="home-carousel-slide"><section class="hero home-video-hero"><div class="home-video-orbit" aria-hidden="true">▶</div><div class="hero-copy"><p class="eyebrow">VIDEO · LUYỆN NGHE VÀ NÓI</p><h1>Video học<br>tiếng Anh</h1><p>Chọn video theo cấp độ hoặc chủ đề, rồi luyện nghe và transcript ngay trong bài học.</p><div class="hero-actions"><button type="button" onclick="openEnglishStudy('videos')">Mở danh sách video →</button><button type="button" class="g" onclick="openEnglishPodcastLibrary()">English Podcast</button></div></div><div class="hero-score"><small>VIDEO TRONG THƯ VIỆN</small><div class="big">${ENGLISH_VIDEO_RESOURCES.length}</div><small>Podcast và video luyện nói</small></div></section></div></div><div class="home-carousel-controls" role="group" aria-label="Chọn mục trang chủ"><div class="home-carousel-dots"><button type="button" aria-label="Luyện IELTS Speaking" aria-current="true" onclick="homeCarouselGo(0)"></button><button type="button" aria-label="Video học tiếng Anh" aria-current="false" onclick="homeCarouselGo(1)"></button></div></div></section>
      ${homeLearningPlan()}
-   <button class="g w quick-entry" type="button" onclick="openSpeakingCoop()">Học coop 2 người · Luyện cùng bạn</button>
+   <button class="g w quick-entry" type="button" onclick="openSpeakingCoop()"><span class="quick-entry-copy"><small>LUYỆN CÙNG BẠN</small><strong>Học coop 2 người</strong></span><span class="quick-entry-arrow" aria-hidden="true">→</span></button>
 
   <div class="pwa-install-box"><button type="button" class="g" id="pwa-install" onclick="addToHomeScreen()">${pwaButtonLabel()}</button><small id="pwa-status" class="pwa-status-sr" role="status" aria-live="polite"></small></div>
   ${arcadeEntry('home')}
