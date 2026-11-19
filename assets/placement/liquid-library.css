@@ -224,3 +224,10 @@
 /* Keep the section tabs in page flow so they never cover the library heading. */
 .library-section-tabs { position:sticky; top:calc(104px + var(--inset-top, 0px)); right:auto; bottom:auto; left:auto; width:min(980px,100%); max-width:100%; margin:0 auto; transform:none; z-index:12; }
 .library-section-tabs-spacer { display:none; }
+
+/* Keep the library selector fixed below the live header and reserve its flow space. */
+.bubble-home-score-mark svg { display:block; width:35px; height:35px; color:#fff; filter:drop-shadow(0 2px 5px rgba(16,38,86,.2)); }
+.library-section-tabs { position:fixed; top:var(--library-tabs-top,calc(92px + var(--inset-top,0px))); right:auto; bottom:auto; left:50%; z-index:30; width:min(980px,calc(100vw - var(--gutter,16px) - var(--gutter,16px))); max-width:calc(100vw - var(--gutter,16px) - var(--gutter,16px)); margin:0; transform:translateX(-50%); }
+.library-section-tabs-spacer { display:block; height:var(--library-tabs-space,96px); }
+.library-section-tabs button:focus-visible { outline:3px solid var(--action); outline-offset:2px; }
+@media(max-width:560px) { .library-section-tabs { top:var(--library-tabs-top,calc(68px + var(--inset-top,0px))); } .library-section-tabs-spacer { height:var(--library-tabs-space,96px); } }
