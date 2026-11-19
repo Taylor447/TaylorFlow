@@ -215,3 +215,8 @@
 .topic-badge .topic-icon { display:inline-grid; flex:0 0 26px; width:26px; height:26px; padding:3px; place-items:center; border:1px solid color-mix(in srgb,var(--topic-fg,var(--pr)) 20%,transparent); border-radius:50%; background:color-mix(in srgb,var(--topic-fg,var(--pr)) 9%,var(--topic-bg,var(--sf))); color:var(--topic-fg,var(--pr)); stroke-width:1.8; transition:transform .16s ease,background .16s ease; }
 .topic-badge:hover .topic-icon { transform:scale(1.06); background:color-mix(in srgb,var(--topic-fg,var(--pr)) 15%,var(--topic-bg,var(--sf))); }
 .topic-badge:focus-visible { outline:3px solid var(--action); outline-offset:2px; }
+
+
+/* Keep the library tabs close to the top navigation. */
+.library-section-tabs { top:calc(72px + var(--inset-top, 0px)); }
+@media(max-width:560px) { .library-section-tabs { top:calc(68px + var(--inset-top, 0px)); } }
