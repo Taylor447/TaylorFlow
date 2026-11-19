@@ -5,3 +5,10 @@
 .home-interface-one>.home-learning-plan>.home-learning-body{width:100%;min-width:0;box-sizing:border-box}
 .home-interface-one .home-learning-body>.tf-home-grid-single{display:grid;width:100%;min-width:0;grid-template-columns:minmax(0,1fr);box-sizing:border-box}
 .home-interface-one .home-learning-body>.tf-home-grid-single>.home-learning-card{grid-column:1/-1;width:100%;max-width:none;min-width:0;box-sizing:border-box}
+
+/* Compact, accessible menu control for user-added English videos. */
+.english-video-options>summary { display:grid; place-items:center; width:44px; height:44px; padding:0; border:1px solid color-mix(in srgb,var(--bd) 78%,transparent); border-radius:14px; background:color-mix(in srgb,var(--sf) 92%,transparent); color:var(--mu); box-shadow:0 5px 14px #03111d24; font-size:0; line-height:1; cursor:pointer; list-style:none; transition:transform .16s ease,border-color .16s ease,background .16s ease,color .16s ease,box-shadow .16s ease; }
+.english-video-options>summary::after { display:none !important; content:none !important; }
+.english-video-options>summary svg { display:block; width:20px; height:20px; }
+.english-video-options>summary:hover,.english-video-options[open]>summary { transform:translateY(-1px); border-color:color-mix(in srgb,var(--pr) 48%,var(--bd)); background:color-mix(in srgb,var(--pr) 10%,var(--sf)); color:var(--pr); box-shadow:0 8px 18px #03111d2e; }
+.english-video-options>summary:focus-visible { outline:3px solid var(--action); outline-offset:3px; }

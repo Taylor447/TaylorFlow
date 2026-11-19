@@ -220,3 +220,7 @@
 /* Keep the library tabs close to the top navigation. */
 .library-section-tabs { top:calc(72px + var(--inset-top, 0px)); }
 @media(max-width:560px) { .library-section-tabs { top:calc(68px + var(--inset-top, 0px)); } }
+
+/* Keep the section tabs in page flow so they never cover the library heading. */
+.library-section-tabs { position:sticky; top:calc(104px + var(--inset-top, 0px)); right:auto; bottom:auto; left:auto; width:min(980px,100%); max-width:100%; margin:0 auto; transform:none; z-index:12; }
+.library-section-tabs-spacer { display:none; }
