@@ -282,3 +282,73 @@
 /* Keep library tabs sticky in document flow so they never cover section content. */
 .library-page .library-section-tabs { position:sticky !important; top:var(--library-tabs-top,calc(72px + var(--inset-top,0px))); right:auto; bottom:auto; left:auto; width:min(980px,100%); max-width:100%; margin:0 auto; transform:none; z-index:40; }
 .library-page .library-section-tabs-spacer { display:none !important; height:0 !important; }
+
+/* App-wide Liquid Glass finish, shared by both layouts and every color theme. */
+:root {
+  --liquid-panel: color-mix(in srgb,var(--surface-glass) 76%,transparent);
+  --liquid-edge: color-mix(in srgb,var(--tool-edge) 72%,rgba(255,255,255,.4));
+  --liquid-highlight: rgba(255,255,255,.22);
+  --liquid-shadow: 0 18px 48px rgba(5,14,34,.18);
+}
+body > header {
+  border-color:var(--liquid-edge);
+  background:linear-gradient(135deg,color-mix(in srgb,var(--surface-glass) 84%,transparent),color-mix(in srgb,var(--tool-bg) 78%,transparent));
+  box-shadow:var(--liquid-shadow),inset 0 1px 0 var(--liquid-highlight);
+  backdrop-filter:blur(28px) saturate(175%);
+  -webkit-backdrop-filter:blur(28px) saturate(175%);
+}
+.c:not(.music-player-card):not(.bubble-home-score) {
+  border-color:var(--liquid-edge);
+  background:linear-gradient(145deg,rgba(255,255,255,.105),rgba(255,255,255,.025) 48%,rgba(255,255,255,.065)),var(--liquid-panel);
+  box-shadow:var(--tool-shadow),var(--liquid-shadow),inset 0 1px 0 var(--liquid-highlight),inset 0 -1px 0 rgba(255,255,255,.055);
+  backdrop-filter:blur(22px) saturate(160%);
+  -webkit-backdrop-filter:blur(22px) saturate(160%);
+}
+.head-actions .head-link,.head-actions .theme-toggle,
+#n button:not(.on):not([aria-current="page"]),
+button.g:not(.primary):not(.is-primary) {
+  border-color:var(--liquid-edge);
+  background:linear-gradient(145deg,rgba(255,255,255,.15),rgba(255,255,255,.045) 58%,rgba(255,255,255,.09)),color-mix(in srgb,var(--tool-bg) 78%,transparent);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 8px 22px rgba(4,12,30,.14);
+  backdrop-filter:blur(18px) saturate(165%);
+  -webkit-backdrop-filter:blur(18px) saturate(165%);
+}
+#n button.on,#n button[aria-current="page"],
+.head-actions .head-link[aria-current] {
+  border-color:color-mix(in srgb,var(--pr) 56%,white 44%);
+  background:linear-gradient(145deg,color-mix(in srgb,var(--pr) 25%,rgba(255,255,255,.7)),color-mix(in srgb,var(--surface-glass) 78%,transparent));
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.48),0 8px 24px color-mix(in srgb,var(--pr) 18%,transparent);
+}
+.library-section-tabs,.home-carousel-controls,.exam-controls,
+.recording-panel,.theme-picker-shell,.interface-mode-card {
+  border-color:var(--liquid-edge);
+  box-shadow:var(--tool-shadow),inset 0 1px 0 var(--liquid-highlight);
+  backdrop-filter:blur(22px) saturate(165%);
+  -webkit-backdrop-filter:blur(22px) saturate(165%);
+}
+.library-section-tabs { background:linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.035)),var(--liquid-panel); }
+.music-player-card {
+  border-color:color-mix(in srgb,var(--mp-edge) 78%,rgba(255,255,255,.4));
+  background:radial-gradient(ellipse at 12% 0%,var(--mp-glow),transparent 44%),linear-gradient(140deg,color-mix(in srgb,var(--mp-bg-a) 82%,transparent),color-mix(in srgb,var(--mp-bg-b) 76%,transparent) 55%,color-mix(in srgb,var(--mp-bg-c) 82%,transparent));
+  box-shadow:0 24px 60px rgba(3,10,27,.24),inset 0 1px 0 rgba(255,255,255,.32),inset 0 -1px 0 rgba(255,255,255,.08);
+  backdrop-filter:blur(30px) saturate(175%);
+  -webkit-backdrop-filter:blur(30px) saturate(175%);
+}
+#theme-picker,#interface-picker,.music-track-dialog {
+  border-color:var(--liquid-edge);
+  background:linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.035)),var(--surface-glass);
+  box-shadow:0 28px 80px rgba(2,8,22,.4),inset 0 1px 0 var(--liquid-highlight);
+  backdrop-filter:blur(30px) saturate(170%);
+  -webkit-backdrop-filter:blur(30px) saturate(170%);
+}
+:where(button,input,textarea,select,a,[tabindex]):focus-visible { outline:3px solid color-mix(in srgb,var(--action) 78%,white 22%); outline-offset:3px; }
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))) {
+  :root { --liquid-panel:var(--cd); }
+  body > header,.c:not(.music-player-card):not(.bubble-home-score),.library-section-tabs,.music-player-card,#theme-picker,#interface-picker,.music-track-dialog { background-color:var(--cd); }
+}
+@media(prefers-reduced-transparency:reduce) {
+  body > header,.c:not(.music-player-card):not(.bubble-home-score),.library-section-tabs,.home-carousel-controls,.exam-controls,.recording-panel,.theme-picker-shell,.interface-mode-card,#theme-picker,#interface-picker,.music-track-dialog {
+    background:var(--cd); backdrop-filter:none; -webkit-backdrop-filter:none;
+  }
+  .music-player-card { backdrop-filter:none; -webkit-backdrop-filter:none; }
+}
