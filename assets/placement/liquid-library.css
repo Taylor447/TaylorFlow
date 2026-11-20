@@ -278,3 +278,7 @@
 @media(prefers-reduced-motion:reduce) {
  .music-player-card.is-playing .music-cover-disc,.music-player-card.is-playing .music-cover-note { animation:none; }
 }
+
+/* Keep library tabs sticky in document flow so they never cover section content. */
+.library-page .library-section-tabs { position:sticky !important; top:var(--library-tabs-top,calc(72px + var(--inset-top,0px))); right:auto; bottom:auto; left:auto; width:min(980px,100%); max-width:100%; margin:0 auto; transform:none; z-index:40; }
+.library-page .library-section-tabs-spacer { display:none !important; height:0 !important; }

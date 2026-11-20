@@ -11276,8 +11276,6 @@ function librarySyncTabsPosition(){
  if(!tabs)return;
  const header=$('body > header'),headerHeight=header?header.getBoundingClientRect().height:0;
  tabs.style.setProperty('--library-tabs-top',Math.max(0,Math.ceil(headerHeight))+'px');
- const spacer=$('.library-section-tabs-spacer');
- if(spacer)spacer.style.height=Math.ceil(tabs.getBoundingClientRect().height+14)+'px';
 }
 function libraryObserveTabsPosition(){
  const header=$('body > header');
