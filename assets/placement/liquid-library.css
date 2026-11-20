@@ -269,3 +269,12 @@
 @media(prefers-reduced-motion:reduce) {
  .bubble-home-intro-dots button span,.bubble-home-intro-actions button { transition:none; }
 }
+
+/* Let the listening-room record turn gently while audio is playing. */
+@keyframes music-vinyl-turn { to { transform:rotate(360deg); } }
+@keyframes music-note-glow { 50% { opacity:.34; filter:drop-shadow(0 0 12px var(--mp-accent,#b8ef9d)); } }
+.music-player-card.is-playing .music-cover-disc { animation:music-vinyl-turn 8s linear infinite; }
+.music-player-card.is-playing .music-cover-note { animation:music-note-glow 3.2s ease-in-out infinite; }
+@media(prefers-reduced-motion:reduce) {
+ .music-player-card.is-playing .music-cover-disc,.music-player-card.is-playing .music-cover-note { animation:none; }
+}

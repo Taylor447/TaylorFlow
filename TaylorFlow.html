@@ -11294,7 +11294,7 @@ window.addEventListener('resize',()=>requestAnimationFrame(librarySyncTabsPositi
 function libraryPage() {
  libraryDisplayedItems = null;
  librarySection = 'news';
- return `<section class="library-page"><div class="library-section-tabs-spacer" aria-hidden="true"></div><nav class="library-section-tabs" role="tablist" aria-label="Các mục thư viện"><button type="button" role="tab" aria-selected="true" class="is-active" id="library-tab-news" onclick="libraryChangeView('news')">World News <small>Tin & luyện đọc</small></button><button type="button" role="tab" aria-selected="false" id="library-tab-music" onclick="libraryChangeView('music')">Nghe nhạc <small>Trình phát cá nhân</small></button></nav><header class="library-page-head"><div><p class="eyebrow">TAYLORFLOW · THƯ VIỆN</p><h1>Đọc, nghe và học theo nhịp riêng</h1><p>Chọn một khu vực để luyện tiếng Anh hoặc mở nhạc từ tệp trên thiết bị.</p></div></header>
+ return `<section class="library-page"><div class="library-section-tabs-spacer" aria-hidden="true"></div><nav class="library-section-tabs" role="tablist" aria-label="Các mục thư viện"><button type="button" role="tab" aria-selected="true" class="is-active" id="library-tab-news" onclick="libraryChangeView('news')">World News <small>Tin & luyện đọc</small></button><button type="button" role="tab" aria-selected="false" id="library-tab-music" onclick="libraryChangeView('music')">Nghe nhạc <small>Trình phát cá nhân</small></button></nav>
  <section id="library-news-view" class="library-section-view">
  <section class="c library-intro">
   <div class="library-intro-content"><p class="eyebrow">THƯ VIỆN · WORLD NEWS</p><h1>Tin thế giới, bài đọc ngắn</h1>
@@ -11436,7 +11436,8 @@ function musicMiniOpen(){
 function musicUpdatePlayer(){
  const audio=musicAudio,title=$('#music-current-title'),artist=$('#music-current-artist'),play=$('#music-play-button'),seek=$('#music-seek'),now=$('#music-current-time'),duration=$('#music-duration');
  const mini=$('#music-mini-player'),miniTitle=$('#music-mini-title'),miniArtist=$('#music-mini-artist'),miniPlay=$('#music-mini-play'),miniSeek=$('#music-mini-seek'),miniNow=$('#music-mini-current-time'),miniDuration=$('#music-mini-duration');
- const playing=Boolean(audio&&!audio.paused),progress=audio&&Number.isFinite(audio.duration)&&audio.duration>0?String(Math.round(audio.currentTime/audio.duration*1000)):'0',showMini=Boolean(musicMiniActivated&&musicCurrentTrack);
+  const playing=Boolean(audio&&!audio.paused),progress=audio&&Number.isFinite(audio.duration)&&audio.duration>0?String(Math.round(audio.currentTime/audio.duration*1000)):'0',showMini=Boolean(musicMiniActivated&&musicCurrentTrack);
+  $('#library-music-view .music-player-card')?.classList.toggle('is-playing',playing);
  if(title)title.textContent=musicCurrentTrack?.title||'Chọn một bài để bắt đầu';if(artist)artist.textContent=musicCurrentTrack?.artist||'Thêm nhạc từ thiết bị của bạn. Tệp chỉ lưu trong trình duyệt này.';
  if(play){play.textContent=playing?'Ⅱ':'▶';play.setAttribute('aria-label',playing?'Tạm dừng':'Phát nhạc')}
  if(seek)seek.value=progress;
