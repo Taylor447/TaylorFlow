@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "collection": "idioms",
+  "batch": "07",
+  "items": [
+    {
+      "id": "idm-0081",
+      "text": "have your hands full",
+      "vi": "Có rất nhiều việc hoặc trách nhiệm cần xử lý.",
+      "ex": "If you have your hands full, I can help prepare dinner.",
+      "exVi": "Nếu bạn đang bận nhiều việc, tôi có thể giúp chuẩn bị bữa tối.",
+      "level": "B1",
+      "topics": [
+        "Gia đình",
+        "Công việc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0082",
+      "text": "keep in touch",
+      "vi": "Tiếp tục liên lạc với ai đó.",
+      "ex": "Let us keep in touch after the course ends.",
+      "exVi": "Chúng ta hãy tiếp tục liên lạc sau khi khóa học kết thúc.",
+      "level": "B1",
+      "topics": [
+        "Bạn bè",
+        "Giáo dục"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0083",
+      "text": "on the house",
+      "vi": "Được cửa hàng hoặc chủ quán tặng miễn phí.",
+      "ex": "The café offered us tea on the house.",
+      "exVi": "Quán cà phê mời chúng tôi trà miễn phí.",
+      "level": "B1",
+      "topics": [
+        "Đồ ăn",
+        "Tiền bạc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0084",
+      "text": "a pain in the neck",
+      "vi": "Một người hoặc việc gây phiền toái.",
+      "ex": "The broken lift is a pain in the neck for residents.",
+      "exVi": "Thang máy hỏng gây nhiều phiền toái cho cư dân.",
+      "level": "B1",
+      "topics": [
+        "Nhà cửa",
+        "Cộng đồng"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0085",
+      "text": "in a jam",
+      "vi": "Gặp rắc rối hoặc tình thế khó xử.",
+      "ex": "I was in a jam when my phone battery died before the interview.",
+      "exVi": "Tôi gặp rắc rối khi điện thoại hết pin trước buổi phỏng vấn.",
+      "level": "B1",
+      "topics": [
+        "Công việc",
+        "Công nghệ"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0086",
+      "text": "as good as gold",
+      "vi": "Ngoan ngoãn và cư xử rất tốt.",
+      "ex": "The children were as good as gold during the museum visit.",
+      "exVi": "Bọn trẻ rất ngoan trong chuyến tham quan bảo tàng.",
+      "level": "B1",
+      "topics": [
+        "Gia đình",
+        "Giáo dục"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0087",
+      "text": "get under your skin",
+      "vi": "Khiến bạn khó chịu hoặc nghĩ mãi về điều gì.",
+      "ex": "That constant buzzing can get under your skin.",
+      "exVi": "Tiếng vo ve liên tục đó thật sự khiến người ta phát bực.",
+      "level": "B2",
+      "topics": [
+        "Cảm xúc",
+        "Nhà cửa"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0088",
+      "text": "in a tight spot",
+      "vi": "Ở trong tình thế khó khăn hoặc thiếu lựa chọn.",
+      "ex": "The family was in a tight spot after the unexpected repair bill.",
+      "exVi": "Gia đình lâm vào cảnh khó khăn sau hóa đơn sửa chữa bất ngờ.",
+      "level": "B2",
+      "topics": [
+        "Tiền bạc",
+        "Gia đình"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0089",
+      "text": "come to terms with",
+      "vi": "Dần chấp nhận một sự thật hoặc thay đổi khó khăn.",
+      "ex": "She needed time to come to terms with the move abroad.",
+      "exVi": "Cô cần thời gian để chấp nhận việc chuyển ra nước ngoài.",
+      "level": "B2",
+      "topics": [
+        "Cảm xúc",
+        "Du lịch"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0090",
+      "text": "take a rain check",
+      "vi": "Từ chối lời mời lần này nhưng muốn nhận lời dịp khác.",
+      "ex": "I cannot join dinner tonight, but can I take a rain check?",
+      "exVi": "Tối nay tôi không đi ăn được, để dịp khác nhé?",
+      "level": "B2",
+      "topics": [
+        "Bạn bè",
+        "Đồ ăn"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0091",
+      "text": "make a beeline for",
+      "vi": "Đi nhanh và thẳng tới một người hoặc địa điểm.",
+      "ex": "The children will make a beeline for the science exhibits.",
+      "exVi": "Bọn trẻ đi thẳng tới khu trưng bày khoa học.",
+      "level": "B2",
+      "topics": [
+        "Giáo dục",
+        "Sở thích"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0092",
+      "text": "take the plunge",
+      "vi": "Quyết định làm điều quan trọng dù có chút lo lắng.",
+      "ex": "After saving for years, they decided to take the plunge and open a bakery.",
+      "exVi": "Sau nhiều năm tiết kiệm, họ quyết định mở tiệm bánh.",
+      "level": "B2",
+      "topics": [
+        "Kinh doanh",
+        "Tiền bạc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0093",
+      "text": "make a point of",
+      "vi": "Cố ý và thường xuyên làm điều gì vì coi đó là quan trọng.",
+      "ex": "I make a point of calling my grandparents every Sunday.",
+      "exVi": "Tôi luôn chủ động gọi cho ông bà vào mỗi Chủ nhật.",
+      "level": "B2",
+      "topics": [
+        "Gia đình",
+        "Thói quen"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0094",
+      "text": "keep someone in the loop",
+      "vi": "Thường xuyên cập nhật thông tin cho ai đó.",
+      "ex": "Please keep the whole team in the loop about schedule changes.",
+      "exVi": "Hãy thường xuyên cập nhật cho cả nhóm khi lịch trình thay đổi.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Giao tiếp"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0095",
+      "text": "sit on your hands",
+      "vi": "Không làm gì dù lẽ ra cần hành động.",
+      "ex": "You cannot sit on your hands while the local park deteriorates.",
+      "exVi": "Chúng ta không thể đứng nhìn công viên địa phương xuống cấp.",
+      "level": "C1",
+      "topics": [
+        "Cộng đồng",
+        "Môi trường"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0096",
+      "text": "carry weight",
+      "vi": "Có ảnh hưởng hoặc được xem là đáng tin trong một quyết định.",
+      "ex": "Her years of field experience carry weight in the discussion.",
+      "exVi": "Nhiều năm kinh nghiệm thực địa của cô có sức nặng trong cuộc thảo luận.",
+      "level": "C1",
+      "topics": [
+        "Công việc",
+        "Giáo dục"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0097",
+      "text": "give someone a run for their money",
+      "vi": "Cạnh tranh quyết liệt với ai đó vốn được xem là mạnh hơn.",
+      "ex": "The new café gives its established rivals a run for their money.",
+      "exVi": "Quán cà phê mới cạnh tranh ngang ngửa với nhà hàng lâu năm.",
+      "level": "C1",
+      "topics": [
+        "Kinh doanh",
+        "Đồ ăn"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0098",
+      "text": "take the bull by the horns",
+      "vi": "Đối mặt trực tiếp với một vấn đề khó thay vì né tránh.",
+      "ex": "She decided to take the bull by the horns and discuss the budget with her family.",
+      "exVi": "Cô đối diện thẳng vấn đề và bàn chuyện ngân sách với gia đình.",
+      "level": "C1",
+      "topics": [
+        "Gia đình",
+        "Tiền bạc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0099",
+      "text": "keep up with the Joneses",
+      "vi": "Cố sở hữu những thứ tương tự người xung quanh để không bị xem là kém hơn.",
+      "ex": "Some families overspend trying to keep up with the Joneses.",
+      "exVi": "Một số gia đình chi tiêu quá mức để không thua kém hàng xóm.",
+      "level": "C1",
+      "topics": [
+        "Tiền bạc",
+        "Cộng đồng"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    }
+  ]
+}

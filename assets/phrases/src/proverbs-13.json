@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "collection": "proverbs",
+  "batch": "13",
+  "items": [
+    {
+      "id": "prv-0330",
+      "text": "A volunteer is worth twenty pressed men.",
+      "vi": "Người tự nguyện thường làm việc với tinh thần chủ động hơn người bị ép buộc.",
+      "ex": "The neighbours volunteered to rebuild the playground; a volunteer is worth twenty pressed men.",
+      "exVi": "Hàng xóm tự nguyện sửa sân chơi; người làm bằng lòng nhiệt tình thường rất đáng quý.",
+      "level": "general",
+      "topics": [
+        "Cộng đồng",
+        "Công việc"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0331",
+      "text": "Ask a silly question and you'll get a silly answer.",
+      "vi": "Câu hỏi thiếu suy nghĩ thường nhận lại câu trả lời đùa cợt hoặc không hữu ích.",
+      "ex": "He asked whether fish need water; ask a silly question and you'll get a silly answer.",
+      "exVi": "Anh hỏi cá có cần nước không; hỏi điều ngớ ngẩn thì dễ nhận câu trả lời ngớ ngẩn.",
+      "level": "general",
+      "topics": [
+        "Giao tiếp",
+        "Học tập"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0332",
+      "text": "A promise is a debt.",
+      "vi": "Đã hứa thì cần thực hiện lời hứa như một nghĩa vụ của mình.",
+      "ex": "He kept his word and returned the book; a promise is a debt.",
+      "exVi": "Anh giữ lời và trả lại cuốn sách; đã hứa thì phải thực hiện.",
+      "level": "general",
+      "topics": [
+        "Đạo đức",
+        "Quan hệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Nói lời phải giữ lấy lời",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0333",
+      "text": "Bad money drives out good.",
+      "vi": "Khi tiền kém chất lượng lưu thông cùng tiền tốt, người ta thường giữ tiền tốt lại.",
+      "ex": "Collectors kept the older coins at home; bad money drives out good.",
+      "exVi": "Người sưu tầm giữ đồng tiền tốt ở nhà; tiền kém chất lượng có thể đẩy tiền tốt khỏi lưu thông.",
+      "level": "general",
+      "topics": [
+        "Tiền bạc",
+        "Kinh tế"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0334",
+      "text": "Between two stools one falls to the ground.",
+      "vi": "Do dự giữa hai lựa chọn hoặc cố giữ cả hai có thể khiến ta mất cả hai.",
+      "ex": "She delayed choosing either course and lost both places; between two stools one falls to the ground.",
+      "exVi": "Cô chần chừ giữa hai khóa học rồi mất cả hai chỗ; cố giữ hai lựa chọn có thể khiến ta trắng tay.",
+      "level": "general",
+      "topics": [
+        "Ra quyết định",
+        "Học tập"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0335",
+      "text": "Big fish eat little fish.",
+      "vi": "Trong môi trường cạnh tranh, tổ chức lớn thường có lợi thế trước tổ chức nhỏ.",
+      "ex": "Small shops struggled after the chain arrived; big fish eat little fish.",
+      "exVi": "Các cửa hàng nhỏ gặp khó khi chuỗi lớn xuất hiện; doanh nghiệp lớn thường lấn át doanh nghiệp nhỏ.",
+      "level": "general",
+      "topics": [
+        "Kinh doanh",
+        "Cạnh tranh"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Cá lớn nuốt cá bé",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0336",
+      "text": "Bread always falls buttered side down.",
+      "vi": "Những chuyện không may dường như hay xảy ra vào lúc ta ít mong đợi nhất.",
+      "ex": "My toast landed on the clean floor; bread always falls buttered side down.",
+      "exVi": "Miếng bánh mì rơi xuống sàn vừa lau; chuyện xui thường xảy ra đúng lúc không mong.",
+      "level": "general",
+      "topics": [
+        "Đồ ăn",
+        "Sự kiện"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0337",
+      "text": "Cold hands, warm heart.",
+      "vi": "Người có vẻ ngoài lạnh lùng hoặc ít nói vẫn có thể rất tốt bụng.",
+      "ex": "He rarely speaks, but he always helps neighbours; cold hands, warm heart.",
+      "exVi": "Anh ít nói nhưng luôn giúp hàng xóm; vẻ ngoài lạnh lùng không có nghĩa là thiếu tình cảm.",
+      "level": "general",
+      "topics": [
+        "Tính cách",
+        "Quan hệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0338",
+      "text": "Count your blessings.",
+      "vi": "Hãy trân trọng những điều tốt đẹp mình đang có thay vì chỉ tập trung vào thiếu sót.",
+      "ex": "After a difficult week, she listed what went well and reminded herself to count her blessings.",
+      "exVi": "Sau tuần khó khăn, cô kể ra những điều tốt đẹp và tự nhắc phải biết trân trọng chúng.",
+      "level": "general",
+      "topics": [
+        "Cảm xúc",
+        "Lối sống"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0339",
+      "text": "Do as I say, not as I do.",
+      "vi": "Lời nói khuyên bảo của ai đó có thể khác với cách chính họ hành động.",
+      "ex": "He admitted his own bad habits: do as I say, not as I do.",
+      "exVi": "Anh thừa nhận thói quen xấu của mình: hãy nghe lời tôi nói, đừng bắt chước tôi làm.",
+      "level": "general",
+      "topics": [
+        "Gia đình",
+        "Giao tiếp"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0340",
+      "text": "Don't keep a dog and bark yourself.",
+      "vi": "Đừng thuê hoặc giao việc cho người khác rồi tự mình làm thay phần của họ.",
+      "ex": "The manager hired an assistant but did every task; don't keep a dog and bark yourself.",
+      "exVi": "Quản lý thuê trợ lý nhưng tự làm mọi việc; đã giao việc thì nên để người khác đảm nhận.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Quản lý"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0341",
+      "text": "Don't shut the stable door after the horse has bolted.",
+      "vi": "Phòng ngừa sau khi sự việc đã xảy ra thường là quá muộn.",
+      "ex": "They installed alarms after the theft; don't shut the stable door after the horse has bolted.",
+      "exVi": "Họ lắp báo động sau vụ trộm; ngăn ngừa sau khi sự việc xảy ra thì đã muộn.",
+      "level": "general",
+      "topics": [
+        "An toàn",
+        "Ra quyết định"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Mất bò mới lo làm chuồng",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0342",
+      "text": "Tomorrow never comes.",
+      "vi": "Nếu cứ trì hoãn hành động, thời điểm thích hợp có thể không bao giờ đến.",
+      "ex": "She began the application today because tomorrow never comes.",
+      "exVi": "Cô bắt đầu nộp hồ sơ hôm nay vì cứ chờ ngày mai thì sẽ mãi trì hoãn.",
+      "level": "general",
+      "topics": [
+        "Thời gian",
+        "Ra quyết định"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Việc hôm nay chớ để ngày mai",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0343",
+      "text": "Give a man a fish and you feed him for a day.",
+      "vi": "Giúp đỡ trực tiếp giải quyết nhu cầu trước mắt, nhưng dạy kỹ năng có thể tạo ích lợi lâu dài.",
+      "ex": "She taught him to budget; give a man a fish and you feed him for a day.",
+      "exVi": "Cô dạy hàng xóm cách lập ngân sách, vì giúp họ có kỹ năng sẽ ích lợi lâu dài.",
+      "level": "general",
+      "topics": [
+        "Giáo dục",
+        "Tiền bạc"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0344",
+      "text": "Give a man enough rope and he will hang himself.",
+      "vi": "Nếu để người thiếu thận trọng tự do hành động, họ có thể tự bộc lộ sai lầm.",
+      "ex": "The auditor waited for the full records; give a man enough rope and he will hang himself.",
+      "exVi": "Kiểm toán viên chờ đủ hồ sơ; cứ để người ta hành động, sai sót có thể tự lộ ra.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Đạo đức"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0345",
+      "text": "Hard cases make bad law.",
+      "vi": "Quy định tạo ra chỉ để giải quyết một trường hợp đặc biệt có thể gây hệ quả không tốt về lâu dài.",
+      "ex": "The judge warned that hard cases make bad law when rules are changed for one unusual dispute.",
+      "exVi": "Thẩm phán cảnh báo rằng sửa luật vì một vụ việc lạ có thể tạo tiền lệ không tốt.",
+      "level": "general",
+      "topics": [
+        "Pháp luật",
+        "Ra quyết định"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0346",
+      "text": "Hard work never did anyone any harm.",
+      "vi": "Nỗ lực nghiêm túc thường có ích, miễn là không bỏ qua sức khỏe và thời gian nghỉ ngơi.",
+      "ex": "She practised daily but rested on Sundays; hard work never did anyone any harm.",
+      "exVi": "Cô luyện tập mỗi ngày nhưng nghỉ Chủ nhật; làm việc chăm chỉ có ích khi biết nghỉ hợp lý.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Sức khỏe"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0347",
+      "text": "He who fights and runs away may live to fight another day.",
+      "vi": "Rút lui đúng lúc đôi khi giúp ta bảo toàn sức lực để thử lại sau.",
+      "ex": "He retreated; he who fights and runs away may live to fight another day.",
+      "exVi": "Nhóm đi bộ quay lại trước cơn bão; rút lui đúng lúc giúp họ có cơ hội thử lại.",
+      "level": "general",
+      "topics": [
+        "Du lịch",
+        "An toàn"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0348",
+      "text": "He who sups with the devil should have a long spoon.",
+      "vi": "Khi giao du với người nguy hiểm hoặc không đáng tin, cần giữ khoảng cách và đề phòng.",
+      "ex": "The journalist checked every claim carefully; he who sups with the devil should have a long spoon.",
+      "exVi": "Nhà báo kiểm tra kỹ từng lời khai; làm việc với người nguy hiểm thì cần hết sức thận trọng.",
+      "level": "general",
+      "topics": [
+        "Giao tiếp",
+        "An toàn"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0349",
+      "text": "If anything can go wrong, it will.",
+      "vi": "Câu nói đùa rằng khi có khả năng xảy ra trục trặc, ta nên chuẩn bị phương án dự phòng.",
+      "ex": "We packed spare batteries because if anything can go wrong, it will.",
+      "exVi": "Chúng tôi mang pin dự phòng vì mọi thứ có thể trục trặc vào lúc bất tiện nhất.",
+      "level": "general",
+      "topics": [
+        "Công nghệ",
+        "Lập kế hoạch"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0350",
+      "text": "If a job is worth doing, it is worth doing well.",
+      "vi": "Nếu một việc đáng để bắt đầu, hãy cố gắng thực hiện cẩn thận và có trách nhiệm.",
+      "ex": "She reviewed the report twice; if a job is worth doing, it is worth doing well.",
+      "exVi": "Cô xem lại báo cáo hai lần; việc gì đáng làm thì nên làm cho đàng hoàng.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Học tập"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0351",
+      "text": "If you pay peanuts, you get monkeys.",
+      "vi": "Trả công quá thấp thường khó thu hút người có kỹ năng hoặc dịch vụ tốt.",
+      "ex": "The firm raised its offer after delays; if you pay peanuts, you get monkeys.",
+      "exVi": "Công ty tăng mức đãi ngộ sau nhiều lần chậm trễ; trả quá thấp thì khó thuê người giỏi.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Tiền bạc"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0352",
+      "text": "Never speak ill of the dead.",
+      "vi": "Nên tránh nói xấu người đã qua đời, đặc biệt khi họ không còn cơ hội tự giải thích.",
+      "ex": "At the memorial, they chose to remember his generosity; never speak ill of the dead.",
+      "exVi": "Trong lễ tưởng niệm, họ chọn nhớ đến lòng tốt của ông; đừng nói xấu người đã khuất.",
+      "level": "general",
+      "topics": [
+        "Gia đình",
+        "Giao tiếp"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0353",
+      "text": "Nine tailors make a man.",
+      "vi": "Một số việc cần nhiều người cùng góp sức mới hoàn thành được.",
+      "ex": "The costume took a whole team to finish; nine tailors make a man.",
+      "exVi": "Cả đội cùng hoàn thành bộ trang phục; có những việc cần nhiều người chung tay.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Cộng đồng"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0354",
+      "text": "Oil and water don't mix.",
+      "vi": "Một số người, ý tưởng hoặc vật chất không dễ hòa hợp với nhau.",
+      "ex": "Their working styles clashed from the start; oil and water don't mix.",
+      "exVi": "Phong cách làm việc của họ xung khắc từ đầu; có những thứ khó hòa hợp.",
+      "level": "general",
+      "topics": [
+        "Quan hệ",
+        "Công việc"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0355",
+      "text": "One hand washes the other.",
+      "vi": "Sự giúp đỡ qua lại có thể đem lại lợi ích cho cả hai bên.",
+      "ex": "They exchanged language lessons; one hand washes the other.",
+      "exVi": "Họ đổi buổi dạy ngôn ngữ cho nhau; sự hỗ trợ qua lại đem lợi ích cho cả đôi bên.",
+      "level": "general",
+      "topics": [
+        "Quan hệ",
+        "Học tập"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Có đi có lại",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0356",
+      "text": "Possession is nine points of the law.",
+      "vi": "Người đang nắm giữ tài sản thường có lợi thế khi quyền sở hữu bị tranh chấp.",
+      "ex": "The proverb says possession is nine points of the law, though ownership documents still matter.",
+      "exVi": "Tục ngữ nói người đang nắm giữ có lợi thế, nhưng giấy tờ sở hữu vẫn rất quan trọng.",
+      "level": "general",
+      "topics": [
+        "Pháp luật",
+        "Tài sản"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0357",
+      "text": "Rob Peter to pay Paul.",
+      "vi": "Dùng tiền hoặc nguồn lực lấy từ khoản này để bù cho khoản khác mà không giải quyết gốc rễ.",
+      "ex": "Moving rent money to cover a loan only robbed Peter to pay Paul.",
+      "exVi": "Lấy tiền thuê nhà trả khoản vay chỉ là chuyển khó khăn từ chỗ này sang chỗ khác.",
+      "level": "general",
+      "topics": [
+        "Tiền bạc",
+        "Lập kế hoạch"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0358",
+      "text": "See no evil, hear no evil, speak no evil.",
+      "vi": "Câu nói khuyên không nhìn, nghe hoặc nói điều xấu; đôi khi phê phán thái độ làm ngơ.",
+      "ex": "They ignored the signs: see no evil, hear no evil, speak no evil.",
+      "exVi": "Hàng xóm phớt lờ dấu hiệu cảnh báo; họ chọn cách không nhìn, không nghe và không nói.",
+      "level": "general",
+      "topics": [
+        "Đạo đức",
+        "Cộng đồng"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0359",
+      "text": "You are what you eat.",
+      "vi": "Thức ăn ảnh hưởng đáng kể đến sức khỏe và cảm giác thể chất của con người.",
+      "ex": "He added vegetables to lunch, remembering that you are what you eat.",
+      "exVi": "Anh thêm rau vào bữa trưa, nhớ rằng ăn uống ảnh hưởng trực tiếp đến sức khỏe.",
+      "level": "general",
+      "topics": [
+        "Đồ ăn",
+        "Sức khỏe"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0360",
+      "text": "You can choose your friends, but you can't choose your family.",
+      "vi": "Ta có thể tự chọn bạn bè, nhưng quan hệ gia đình thường không do ta lựa chọn.",
+      "ex": "They disagree often, yet you can choose your friends, but you can't choose your family.",
+      "exVi": "Họ thường bất đồng, nhưng bạn bè thì chọn được còn gia đình thì không.",
+      "level": "general",
+      "topics": [
+        "Gia đình",
+        "Quan hệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0361",
+      "text": "A golden key can open any door.",
+      "vi": "Tiền bạc hoặc nguồn lực phù hợp có thể giúp giải quyết nhiều trở ngại thực tế.",
+      "ex": "The grant covered her tuition; a golden key can open any door.",
+      "exVi": "Khoản tài trợ giúp cô đóng học phí; nguồn lực phù hợp có thể mở ra nhiều cơ hội.",
+      "level": "general",
+      "topics": [
+        "Tiền bạc",
+        "Giáo dục"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0362",
+      "text": "A dog is a man's best friend.",
+      "vi": "Chó thường được yêu quý vì sự trung thành và tình cảm dành cho con người.",
+      "ex": "Her dog waited by the gate every evening; a dog is a man's best friend.",
+      "exVi": "Chú chó đợi cô bên cổng mỗi tối; chó thường là người bạn trung thành của con người.",
+      "level": "general",
+      "topics": [
+        "Động vật",
+        "Gia đình"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0363",
+      "text": "A prophet is not recognized in his own land.",
+      "vi": "Tài năng của một người đôi khi được người ngoài đánh giá cao hơn cộng đồng quê nhà.",
+      "ex": "Her research gained attention abroad first; a prophet is not recognized in his own land.",
+      "exVi": "Nghiên cứu của cô được chú ý ở nước ngoài trước; người tài đôi khi chưa được quê nhà công nhận.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Danh tiếng"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Bụt chùa nhà không thiêng",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0364",
+      "text": "A house is not a home.",
+      "vi": "Một căn nhà chỉ thực sự trở thành tổ ấm khi có sự gắn bó và tình cảm.",
+      "ex": "They filled the new flat with family photos; a house is not a home without warmth.",
+      "exVi": "Họ treo ảnh gia đình trong căn hộ mới; mái nhà cần sự ấm áp mới thành tổ ấm.",
+      "level": "general",
+      "topics": [
+        "Nhà cửa",
+        "Gia đình"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0365",
+      "text": "An army marches on its stomach.",
+      "vi": "Đủ thức ăn và hậu cần là điều thiết yếu để một đội ngũ duy trì hoạt động hiệu quả.",
+      "ex": "The expedition planned meals before routes; an army marches on its stomach.",
+      "exVi": "Đoàn thám hiểm lên thực đơn trước khi chọn đường; hậu cần đầy đủ rất quan trọng.",
+      "level": "general",
+      "topics": [
+        "Đồ ăn",
+        "Lập kế hoạch"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0366",
+      "text": "Any port in a storm.",
+      "vi": "Khi gặp khó khăn, một lựa chọn đủ an toàn có thể tốt hơn việc chờ lựa chọn hoàn hảo.",
+      "ex": "With every hotel booked, the travellers accepted a hostel; any port in a storm.",
+      "exVi": "Khi khách sạn đều kín chỗ, họ nhận phòng ở nhà trọ; lúc khó khăn có chỗ trú là quý.",
+      "level": "general",
+      "topics": [
+        "Du lịch",
+        "Khó khăn"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0367",
+      "text": "There is no rose without a thorn.",
+      "vi": "Niềm vui hoặc điều tốt đẹp thường đi kèm một số khó khăn và đánh đổi.",
+      "ex": "The promotion brought extra duties; there is no rose without a thorn.",
+      "exVi": "Được thăng chức cũng đi kèm thêm trách nhiệm; điều tốt đẹp thường có đánh đổi.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Thành công"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Không có hoa hồng nào không có gai",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0368",
+      "text": "Christmas comes but once a year.",
+      "vi": "Dịp lễ đặc biệt chỉ đến ít lần, nên mọi người thường sẵn lòng chi tiêu hoặc ăn mừng.",
+      "ex": "They bought a small cake for the family; Christmas comes but once a year.",
+      "exVi": "Họ mua chiếc bánh nhỏ cho cả nhà; dịp lễ đặc biệt chỉ đến mỗi năm một lần.",
+      "level": "general",
+      "topics": [
+        "Gia đình",
+        "Lễ hội"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0369",
+      "text": "Don't mix business with pleasure.",
+      "vi": "Nên tách biệt công việc và vui chơi để tránh ảnh hưởng đến trách nhiệm hoặc quan hệ.",
+      "ex": "They kept the holiday conversation light; don't mix business with pleasure.",
+      "exVi": "Họ tránh bàn công việc trong kỳ nghỉ; nên tách biệt công việc với vui chơi.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Lối sống"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}

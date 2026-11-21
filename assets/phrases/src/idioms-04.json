@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "collection": "idioms",
+  "batch": "04",
+  "items": [
+    {
+      "id": "idm-0051",
+      "text": "turn over a new leaf",
+      "vi": "Bắt đầu sống hoặc cư xử tốt hơn trước.",
+      "ex": "After the move, he turned over a new leaf and exercised regularly.",
+      "exVi": "Sau khi chuyển nhà, anh bắt đầu sống nề nếp hơn và tập đều đặn.",
+      "level": "B1",
+      "topics": [
+        "Sức khỏe",
+        "Lối sống"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0052",
+      "text": "get a move on",
+      "vi": "Nhanh lên hoặc bắt đầu hành động nhanh hơn.",
+      "ex": "We should get a move on to catch the early train.",
+      "exVi": "Chúng ta nên nhanh lên để kịp chuyến tàu sớm.",
+      "level": "B1",
+      "topics": [
+        "Thời gian",
+        "Du lịch"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0053",
+      "text": "sit tight",
+      "vi": "Chờ yên tại chỗ và không hành động vội.",
+      "ex": "Please sit tight while the staff check your reservation.",
+      "exVi": "Vui lòng chờ một chút trong khi nhân viên kiểm tra đặt chỗ.",
+      "level": "B1",
+      "topics": [
+        "Du lịch",
+        "Dịch vụ"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0054",
+      "text": "back to the drawing board",
+      "vi": "Phải bắt đầu lên kế hoạch lại sau khi cách làm trước thất bại.",
+      "ex": "The design failed safety checks, so we went back to the drawing board.",
+      "exVi": "Thiết kế không đạt kiểm tra an toàn nên chúng tôi phải lên phương án lại.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Thất bại"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0055",
+      "text": "blow off steam",
+      "vi": "Giải tỏa căng thẳng hoặc năng lượng bị dồn nén.",
+      "ex": "After work, he cycles by the river to blow off steam.",
+      "exVi": "Sau giờ làm, anh đạp xe ven sông để giải tỏa căng thẳng.",
+      "level": "B2",
+      "topics": [
+        "Sức khỏe",
+        "Sở thích"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0056",
+      "text": "break even",
+      "vi": "Đạt mức thu nhập vừa đủ bù chi phí, không lãi cũng không lỗ.",
+      "ex": "The small café expects to break even by the end of its first year.",
+      "exVi": "Quán cà phê nhỏ dự kiến hòa vốn vào cuối năm đầu tiên.",
+      "level": "B2",
+      "topics": [
+        "Kinh doanh",
+        "Tiền bạc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0057",
+      "text": "cut to the chase",
+      "vi": "Đi thẳng vào điểm chính, bỏ qua phần vòng vo.",
+      "ex": "We have little time, so let me cut to the chase.",
+      "exVi": "Chúng ta không có nhiều thời gian, nên để tôi nói thẳng vào ý chính.",
+      "level": "B2",
+      "topics": [
+        "Thời gian",
+        "Giao tiếp"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0058",
+      "text": "know the ropes",
+      "vi": "Biết rõ cách một công việc hoặc hệ thống vận hành.",
+      "ex": "After two months at the clinic, Mai knows the ropes.",
+      "exVi": "Sau hai tháng ở phòng khám, Mai đã nắm rõ cách mọi việc vận hành.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Sức khỏe"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0059",
+      "text": "go out on a limb",
+      "vi": "Mạo hiểm nêu ý kiến hoặc giúp ai đó dù có thể gặp rủi ro.",
+      "ex": "The researcher went out on a limb by questioning the popular explanation.",
+      "exVi": "Nhà nghiên cứu mạo hiểm chất vấn cách giải thích phổ biến.",
+      "level": "C1",
+      "topics": [
+        "Giáo dục",
+        "Công việc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0060",
+      "text": "play devil’s advocate",
+      "vi": "Đưa ra ý kiến đối lập để kiểm tra lập luận của một người.",
+      "ex": "I will play devil’s advocate and ask how the plan handles delays.",
+      "exVi": "Tôi sẽ thử nêu ý kiến đối lập để hỏi kế hoạch xử lý chậm trễ ra sao.",
+      "level": "C1",
+      "topics": [
+        "Giao tiếp",
+        "Công việc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}

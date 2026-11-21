@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "collection": "proverbs",
+  "batch": "05",
+  "items": [
+    {
+      "id": "prv-0145",
+      "text": "Beggars can't be choosers.",
+      "vi": "Khi chỉ có một lựa chọn, ta thường phải chấp nhận điều mình có.",
+      "ex": "She accepted the spare room; beggars can't be choosers.",
+      "exVi": "Cô nhận phòng còn trống; khi ít lựa chọn, ta phải chấp nhận điều mình có.",
+      "level": "general",
+      "topics": [
+        "Lựa chọn",
+        "Đời sống"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0146",
+      "text": "If wishes were horses, beggars would ride.",
+      "vi": "Chỉ mong muốn thôi không biến điều ta muốn thành hiện thực; cần hành động cụ thể.",
+      "ex": "If wishes were horses, beggars would ride, so let's make a realistic plan.",
+      "exVi": "Ước muốn suông không đủ, vì vậy hãy lập một kế hoạch thực tế.",
+      "level": "general",
+      "topics": [
+        "Mục tiêu",
+        "Hành động"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0147",
+      "text": "A fool and his money are soon parted.",
+      "vi": "Người thiếu suy xét có thể tiêu hết tiền rất nhanh.",
+      "ex": "He spent the bonus by Friday; a fool and his money are soon parted.",
+      "exVi": "Đến thứ Sáu anh đã tiêu hết tiền thưởng; người thiếu suy xét dễ tiêu sạch tiền.",
+      "level": "general",
+      "topics": [
+        "Tài chính",
+        "Chi tiêu"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0148",
+      "text": "There's no such thing as a free lunch.",
+      "vi": "Điều có vẻ miễn phí thường vẫn đi kèm một cái giá hoặc sự đánh đổi.",
+      "ex": "The discount requires a long contract; there's no such thing as a free lunch.",
+      "exVi": "Ưu đãi này cần hợp đồng dài hạn; thứ có vẻ miễn phí thường vẫn có cái giá của nó.",
+      "level": "general",
+      "topics": [
+        "Tài chính",
+        "Lựa chọn"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0149",
+      "text": "An empty vessel makes the most noise.",
+      "vi": "Người biết ít đôi khi lại nói nhiều hoặc tỏ ra chắc chắn nhất.",
+      "ex": "He spoke confidently without checking facts; an empty vessel makes the most noise.",
+      "exVi": "Anh nói rất tự tin mà chưa kiểm tra sự thật; người biết ít đôi khi nói nhiều nhất.",
+      "level": "general",
+      "topics": [
+        "Giao tiếp",
+        "Tính cách"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0150",
+      "text": "It is easy to be wise after the event.",
+      "vi": "Sau khi biết kết quả, việc nhận ra điều lẽ ra nên làm thường trở nên dễ dàng.",
+      "ex": "After the match, everyone knew the right tactic; it is easy to be wise after the event.",
+      "exVi": "Sau trận đấu, ai cũng biết chiến thuật đúng; sau sự việc thì khôn ngoan thường dễ hơn.",
+      "level": "general",
+      "topics": [
+        "Kinh nghiệm",
+        "Thể thao"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0151",
+      "text": "All is fair in love and war.",
+      "vi": "Trong tình yêu hoặc cạnh tranh quyết liệt, người ta thường cho rằng mọi cách đều có thể chấp nhận.",
+      "ex": "All is fair in love and war, she joked while bargaining for the last concert ticket.",
+      "exVi": "Cô đùa rằng trong tình yêu và cạnh tranh quyết liệt, ai cũng tìm cách giành phần mình.",
+      "level": "general",
+      "topics": [
+        "Tình yêu",
+        "Cạnh tranh"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0152",
+      "text": "You can't make an omelette without breaking eggs.",
+      "vi": "Muốn đạt được kết quả tốt đôi khi phải chấp nhận một số tổn thất hoặc thay đổi cần thiết.",
+      "ex": "We replaced the old bridge carefully; you can't make an omelette without breaking eggs.",
+      "exVi": "Chúng tôi thay cây cầu cũ một cách cẩn trọng; muốn đổi mới đôi khi phải chấp nhận xáo trộn.",
+      "level": "general",
+      "topics": [
+        "Thay đổi",
+        "Công việc"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0153",
+      "text": "If you lie down with dogs, you get up with fleas.",
+      "vi": "Gần gũi với người có hành vi xấu có thể khiến ta bị ảnh hưởng hoặc gặp rắc rối.",
+      "ex": "He left the reckless group; if you lie down with dogs, you get up with fleas.",
+      "exVi": "Anh rời nhóm liều lĩnh; chơi với người xấu có thể khiến mình gặp rắc rối.",
+      "level": "general",
+      "topics": [
+        "Quan hệ",
+        "Tính cách"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0154",
+      "text": "A bad penny always turns up.",
+      "vi": "Một người hoặc điều phiền toái dường như luôn quay trở lại vào lúc không mong muốn.",
+      "ex": "The faulty printer failed again; a bad penny always turns up.",
+      "exVi": "Chiếc máy in lỗi lại hỏng; điều phiền toái ấy dường như cứ quay lại.",
+      "level": "general",
+      "topics": [
+        "Công nghệ",
+        "Rắc rối"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0155",
+      "text": "Little pitchers have big ears.",
+      "vi": "Trẻ nhỏ thường nghe và ghi nhớ nhiều điều người lớn tưởng rằng chúng không để ý.",
+      "ex": "The children heard our whispered plan; little pitchers have big ears.",
+      "exVi": "Bọn trẻ nghe thấy kế hoạch chúng tôi thì thầm; trẻ nhỏ thường để ý nhiều hơn ta nghĩ.",
+      "level": "general",
+      "topics": [
+        "Gia đình",
+        "Trẻ em"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0156",
+      "text": "Don't wash your dirty linen in public.",
+      "vi": "Đừng đem chuyện riêng tư hoặc bất đồng nội bộ ra phơi bày trước công chúng.",
+      "ex": "Don't wash your dirty linen in public; discuss the disagreement privately.",
+      "exVi": "Đừng đem chuyện riêng ra công chúng; hãy trao đổi bất đồng một cách riêng tư.",
+      "level": "general",
+      "topics": [
+        "Quan hệ",
+        "Quyền riêng tư"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0157",
+      "text": "Strike while the iron is hot.",
+      "vi": "Hãy tận dụng cơ hội khi điều kiện đang thuận lợi.",
+      "ex": "The weather cleared, so we planted immediately; strike while the iron is hot.",
+      "exVi": "Trời vừa tạnh nên chúng tôi gieo trồng ngay; hãy tận dụng lúc thuận lợi.",
+      "level": "general",
+      "topics": [
+        "Cơ hội",
+        "Thời tiết"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Chớp thời cơ",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0158",
+      "text": "Every man for himself and the devil take the hindmost.",
+      "vi": "Trong tình huống cạnh tranh khốc liệt, mỗi người có thể chỉ lo cứu lấy mình.",
+      "ex": "They rushed for the last seats; every man for himself and the devil take the hindmost.",
+      "exVi": "Họ tranh nhau những chỗ cuối cùng; trong cảnh hỗn loạn, ai cũng chỉ lo cho mình.",
+      "level": "general",
+      "topics": [
+        "Cạnh tranh",
+        "Cộng đồng"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0159",
+      "text": "The end justifies the means.",
+      "vi": "Một số người cho rằng kết quả tốt có thể biện minh cho cách thức đã dùng để đạt được nó.",
+      "ex": "He defended every shortcut, saying the end justifies the means.",
+      "exVi": "Anh biện hộ cho mọi đường tắt, cho rằng kết quả biện minh cho cách làm.",
+      "level": "general",
+      "topics": [
+        "Đạo đức",
+        "Mục tiêu"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0160",
+      "text": "He who hesitates is lost.",
+      "vi": "Chần chừ quá lâu có thể khiến ta bỏ lỡ cơ hội.",
+      "ex": "She applied before the deadline; he who hesitates is lost.",
+      "exVi": "Cô nộp đơn trước hạn; chần chừ quá lâu có thể khiến ta lỡ cơ hội.",
+      "level": "general",
+      "topics": [
+        "Cơ hội",
+        "Ra quyết định"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0161",
+      "text": "Give credit where credit is due.",
+      "vi": "Hãy công nhận và ghi nhận đóng góp của người thực sự xứng đáng.",
+      "ex": "The report improved after Mai's research; give credit where credit is due.",
+      "exVi": "Báo cáo tốt hơn nhờ nghiên cứu của Mai; hãy ghi nhận công sức xứng đáng.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Công nhận"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0162",
+      "text": "There's no accounting for taste.",
+      "vi": "Sở thích của mỗi người khác nhau và đôi khi không thể giải thích bằng lý lẽ chung.",
+      "ex": "They chose opposite films; there's no accounting for taste.",
+      "exVi": "Họ chọn hai bộ phim trái ngược; sở thích mỗi người mỗi khác.",
+      "level": "general",
+      "topics": [
+        "Sở thích",
+        "Giải trí"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0163",
+      "text": "The truth will out.",
+      "vi": "Sự thật cuối cùng thường được phát hiện, dù ban đầu có bị che giấu.",
+      "ex": "The cover story collapsed quickly; the truth will out.",
+      "exVi": "Lời giải thích giả tạo nhanh chóng sụp đổ; sự thật rồi sẽ lộ ra.",
+      "level": "general",
+      "topics": [
+        "Sự thật",
+        "Giao tiếp"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Cây kim trong bọc lâu ngày cũng lòi ra",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0164",
+      "text": "You win some, you lose some.",
+      "vi": "Trong cuộc sống, có lúc ta đạt được điều mong muốn và có lúc phải chấp nhận thất bại.",
+      "ex": "I missed the first train but caught the next; you win some, you lose some.",
+      "exVi": "Tôi lỡ chuyến tàu đầu nhưng bắt kịp chuyến sau; được cái này thì mất cái khác.",
+      "level": "general",
+      "topics": [
+        "Thành công",
+        "Thất bại"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0165",
+      "text": "You can't make a silk purse out of a sow's ear.",
+      "vi": "Không thể biến vật liệu hoặc nguồn lực kém chất lượng thành thứ hoàn hảo chỉ bằng cách xử lý bề ngoài.",
+      "ex": "We polished the cheap material, but you can't make a silk purse out of a sow's ear.",
+      "exVi": "Chúng tôi đánh bóng vật liệu rẻ tiền, nhưng không thể biến thứ kém thành đồ hoàn hảo.",
+      "level": "general",
+      "topics": [
+        "Chất lượng",
+        "Công việc"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0166",
+      "text": "A miss is as good as a mile.",
+      "vi": "Dù chỉ hụt một chút, kết quả vẫn là không đạt được mục tiêu.",
+      "ex": "We arrived just after the doors closed; a miss is as good as a mile.",
+      "exVi": "Chúng tôi đến ngay sau khi cửa đóng; hụt một chút thì vẫn là lỡ mất.",
+      "level": "general",
+      "topics": [
+        "Thời gian",
+        "Cơ hội"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0167",
+      "text": "If it sounds too good to be true, it probably is.",
+      "vi": "Một lời mời hứa hẹn quá hấp dẫn thường cần được kiểm tra kỹ vì có thể không đáng tin.",
+      "ex": "The offer promised no-risk returns; if it sounds too good to be true, it probably is.",
+      "exVi": "Lời mời hứa lợi nhuận lớn mà không có rủi ro; quá tốt để là thật thì nên thận trọng.",
+      "level": "general",
+      "topics": [
+        "Tài chính",
+        "Thận trọng"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0168",
+      "text": "An idle brain is the devil's workshop.",
+      "vi": "Khi không có việc hữu ích để làm, người ta dễ nghĩ ra hoặc làm điều gây rắc rối.",
+      "ex": "He had no plans all afternoon; an idle brain is the devil's workshop.",
+      "exVi": "Cả buổi chiều anh không có kế hoạch gì; nhàn rỗi quá dễ sinh chuyện.",
+      "level": "general",
+      "topics": [
+        "Thói quen",
+        "Thời gian"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0169",
+      "text": "A soft answer turns away wrath.",
+      "vi": "Một câu trả lời bình tĩnh và nhẹ nhàng có thể làm dịu cơn giận.",
+      "ex": "She answered the complaint calmly; a soft answer turns away wrath.",
+      "exVi": "Cô bình tĩnh trả lời lời phàn nàn; đáp lại nhẹ nhàng có thể làm dịu cơn giận.",
+      "level": "general",
+      "topics": [
+        "Giao tiếp",
+        "Cảm xúc"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0170",
+      "text": "Great oaks from little acorns grow.",
+      "vi": "Những thành tựu lớn có thể bắt đầu từ những bước nhỏ.",
+      "ex": "Their tiny garden became a farm; great oaks from little acorns grow.",
+      "exVi": "Khu vườn nhỏ của họ thành nông trại; thành tựu lớn có thể bắt đầu rất nhỏ.",
+      "level": "general",
+      "topics": [
+        "Thành công",
+        "Môi trường"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0171",
+      "text": "It takes a thief to catch a thief.",
+      "vi": "Người từng hiểu rõ một hành vi sai trái đôi khi biết cách nhận ra hoặc ngăn chặn nó.",
+      "ex": "The detective consulted an ex-thief; it takes a thief to catch a thief.",
+      "exVi": "Thám tử hỏi ý kiến một cựu kẻ trộm; người hiểu cách làm sai có thể nhận ra nó.",
+      "level": "general",
+      "topics": [
+        "Pháp luật",
+        "Kinh nghiệm"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0172",
+      "text": "A bird may be known by its song.",
+      "vi": "Đặc điểm hoặc cách thể hiện thường cho biết một người hay sự vật thuộc về đâu.",
+      "ex": "She recognized his hometown by his accent; a bird may be known by its song.",
+      "exVi": "Cô nhận ra quê anh qua giọng nói; một người thường bộc lộ nguồn gốc qua cách thể hiện.",
+      "level": "general",
+      "topics": [
+        "Quê hương",
+        "Giao tiếp"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0173",
+      "text": "It takes all sorts to make a world.",
+      "vi": "Xã hội cần những người có tính cách và quan điểm khác nhau.",
+      "ex": "The festival welcomed every personality; it takes all sorts to make a world.",
+      "exVi": "Lễ hội chào đón đủ mọi tính cách; xã hội cần nhiều kiểu người khác nhau.",
+      "level": "general",
+      "topics": [
+        "Cộng đồng",
+        "Tính cách"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0174",
+      "text": "Better to be alone than in bad company.",
+      "vi": "Ở một mình đôi khi tốt hơn là ở cạnh những người có ảnh hưởng xấu.",
+      "ex": "He declined the rude invitation; better to be alone than in bad company.",
+      "exVi": "Anh từ chối lời mời khiếm nhã; một mình còn hơn ở cạnh bạn xấu.",
+      "level": "general",
+      "topics": [
+        "Tình bạn",
+        "Lựa chọn"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0175",
+      "text": "If the mountain will not come to Muhammad, Muhammad must go to the mountain.",
+      "vi": "Nếu hoàn cảnh không thay đổi theo ý ta, ta cần chủ động tìm cách thích nghi hoặc tiến tới mục tiêu.",
+      "ex": "The tutor adapted; if the mountain will not come to Muhammad, Muhammad must go to the mountain.",
+      "exVi": "Gia sư chủ động điều chỉnh; nếu hoàn cảnh không đổi, ta cần tự tìm đường đến mục tiêu.",
+      "level": "general",
+      "topics": [
+        "Thích nghi",
+        "Học tập"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0176",
+      "text": "In the country of the blind, the one-eyed man is king.",
+      "vi": "Trong môi trường thiếu hiểu biết, người chỉ biết nhiều hơn một chút cũng có thể nổi bật.",
+      "ex": "Among beginners, in the country of the blind, the one-eyed man is king.",
+      "exVi": "Giữa những người mới bắt đầu, người biết hơn một chút cũng dễ trở nên nổi bật.",
+      "level": "general",
+      "topics": [
+        "Giáo dục",
+        "Kỹ năng"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0177",
+      "text": "The best defense is a good offense.",
+      "vi": "Chủ động hành động đôi khi là cách hiệu quả nhất để tự bảo vệ hoặc ngăn vấn đề.",
+      "ex": "The team addressed rumors early; the best defense is a good offense.",
+      "exVi": "Nhóm xử lý tin đồn từ sớm; chủ động hành động đôi khi là cách tự bảo vệ tốt nhất.",
+      "level": "general",
+      "topics": [
+        "Giải quyết vấn đề",
+        "Công việc"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0178",
+      "text": "You can't please everyone.",
+      "vi": "Không thể làm hài lòng tất cả mọi người cùng một lúc.",
+      "ex": "You can't please everyone, so choose the plan that serves most people.",
+      "exVi": "Không thể làm hài lòng tất cả, nên hãy chọn phương án phục vụ được nhiều người nhất.",
+      "level": "general",
+      "topics": [
+        "Quan hệ",
+        "Ra quyết định"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0179",
+      "text": "Misery loves company.",
+      "vi": "Người đang buồn hoặc gặp khó khăn thường thấy dễ chịu hơn khi biết người khác cũng có trải nghiệm tương tự.",
+      "ex": "They laughed about the failed project; misery loves company.",
+      "exVi": "Họ cùng cười về dự án thất bại; chia sẻ khó khăn với người hiểu mình có thể thấy nhẹ lòng.",
+      "level": "general",
+      "topics": [
+        "Cảm xúc",
+        "Tình bạn"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0180",
+      "text": "Experience is the best teacher.",
+      "vi": "Trải nghiệm thực tế thường dạy ta những điều khó học chỉ qua lý thuyết.",
+      "ex": "After the mistake, she learned a lesson; experience is the best teacher.",
+      "exVi": "Sau sai sót, cô rút ra bài học; trải nghiệm thực tế thường dạy ta nhiều nhất.",
+      "level": "general",
+      "topics": [
+        "Học tập",
+        "Kinh nghiệm"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0181",
+      "text": "If you don't ask, you don't get.",
+      "vi": "Nếu không chủ động đề nghị hoặc tìm kiếm, ta khó có được điều mình cần.",
+      "ex": "If you don't ask, you don't get, so she requested flexible hours.",
+      "exVi": "Nếu không đề nghị thì khó đạt được điều mong muốn, nên cô xin giờ làm linh hoạt.",
+      "level": "general",
+      "topics": [
+        "Giao tiếp",
+        "Công việc"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0182",
+      "text": "In for a penny, in for a pound.",
+      "vi": "Khi đã bắt đầu một việc và chấp nhận rủi ro, người ta thường quyết định theo đuổi đến cùng.",
+      "ex": "He bought the ticket and continued; in for a penny, in for a pound.",
+      "exVi": "Anh đã mua vé rồi tiếp tục hành trình; đã bắt đầu thì quyết theo đến cùng.",
+      "level": "general",
+      "topics": [
+        "Quyết tâm",
+        "Tài chính"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0183",
+      "text": "Silence is golden.",
+      "vi": "Đôi khi im lặng khôn ngoan hơn là nói những điều không cần thiết.",
+      "ex": "They let the silence rest; silence is golden.",
+      "exVi": "Họ để khoảng lặng tự nhiên; đôi khi im lặng là lựa chọn tốt nhất.",
+      "level": "general",
+      "topics": [
+        "Giao tiếp",
+        "Thận trọng"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0184",
+      "text": "You get what you pay for.",
+      "vi": "Chất lượng hoặc độ bền thường tương xứng với số tiền đã bỏ ra.",
+      "ex": "The inexpensive headphones broke quickly; you get what you pay for.",
+      "exVi": "Tai nghe giá rẻ nhanh hỏng; chất lượng thường đi đôi với số tiền bỏ ra.",
+      "level": "general",
+      "topics": [
+        "Tài chính",
+        "Công nghệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}

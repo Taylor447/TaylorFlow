@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "collection": "idioms",
+  "batch": "30",
+  "items": [
+    {
+      "id": "idm-0919",
+      "text": "a rude awakening",
+      "vi": "Một sự thật bất ngờ khiến người ta phải nhận ra tình hình thực tế.",
+      "ex": "The first winter bill was a rude awakening for the new tenants.",
+      "exVi": "Hóa đơn mùa đông đầu tiên khiến những người thuê mới bất ngờ về chi phí thực tế.",
+      "level": "B1",
+      "topics": [
+        "Nhà cửa",
+        "Thời tiết"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0920",
+      "text": "a rough diamond",
+      "vi": "Người có tài hoặc phẩm chất tốt nhưng còn thiếu sự trau chuốt.",
+      "ex": "Our new trainee is a rough diamond with several thoughtful ideas.",
+      "exVi": "Thực tập sinh mới có tố chất tốt và nhiều ý tưởng sâu sắc nhưng còn thiếu kinh nghiệm.",
+      "level": "B1",
+      "topics": [
+        "Công việc",
+        "Cảm xúc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0921",
+      "text": "run of the mill",
+      "vi": "Bình thường, không có gì đặc biệt hoặc nổi bật.",
+      "ex": "The bakery makes fresh bread rather than run of the mill packaged loaves.",
+      "exVi": "Tiệm bánh làm bánh mì tươi thay vì những ổ đóng gói bình thường.",
+      "level": "B1",
+      "topics": [
+        "Đồ ăn",
+        "Công việc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0922",
+      "text": "a bitter end",
+      "vi": "Một kết thúc buồn hoặc đáng thất vọng.",
+      "ex": "The team fought to avoid a bitter end to its season.",
+      "exVi": "Đội bóng nỗ lực tránh một kết thúc đáng buồn cho mùa giải.",
+      "level": "B1",
+      "topics": [
+        "Thể thao",
+        "Cảm xúc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0923",
+      "text": "an uphill battle",
+      "vi": "Một nhiệm vụ rất khó khăn, đòi hỏi nhiều nỗ lực.",
+      "ex": "Finding affordable homes remains an uphill battle for young families.",
+      "exVi": "Tìm nhà ở vừa túi tiền vẫn là thử thách lớn với các gia đình trẻ.",
+      "level": "B1",
+      "topics": [
+        "Nhà cửa",
+        "Gia đình"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0924",
+      "text": "an open book",
+      "vi": "Người dễ hiểu hoặc sẵn lòng chia sẻ suy nghĩ, cảm xúc.",
+      "ex": "My grandfather is an open book and tells us stories from his childhood.",
+      "exVi": "Ông tôi rất cởi mở và kể cho chúng tôi nghe chuyện thời thơ ấu.",
+      "level": "B1",
+      "topics": [
+        "Gia đình",
+        "Quan hệ"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0925",
+      "text": "a silver lining",
+      "vi": "Khía cạnh tích cực trong một tình huống khó khăn.",
+      "ex": "The delay had a silver lining because we discovered a quieter route.",
+      "exVi": "Sự chậm trễ cũng có mặt tích cực vì chúng tôi tìm được tuyến đường yên tĩnh hơn.",
+      "level": "B1",
+      "topics": [
+        "Giao thông",
+        "Cảm xúc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0926",
+      "text": "a world of difference",
+      "vi": "Một sự thay đổi rất lớn và dễ nhận thấy.",
+      "ex": "A short daily walk made a world of difference to my energy.",
+      "exVi": "Đi bộ ngắn mỗi ngày cải thiện đáng kể mức năng lượng của tôi.",
+      "level": "B1",
+      "topics": [
+        "Sức khỏe",
+        "Thói quen"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0927",
+      "text": "on a whim",
+      "vi": "Làm điều gì đó đột ngột mà chưa lên kế hoạch trước.",
+      "ex": "We booked a weekend train trip on a whim.",
+      "exVi": "Chúng tôi ngẫu hứng đặt vé tàu cho chuyến đi cuối tuần.",
+      "level": "B1",
+      "topics": [
+        "Du lịch",
+        "Thời gian"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0928",
+      "text": "in the running",
+      "vi": "Vẫn còn cơ hội được chọn hoặc giành chiến thắng.",
+      "ex": "Three local schools are still in the running for the library grant.",
+      "exVi": "Ba trường địa phương vẫn còn cơ hội nhận khoản tài trợ thư viện.",
+      "level": "B1",
+      "topics": [
+        "Giáo dục",
+        "Cộng đồng"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0929",
+      "text": "a passing fad",
+      "vi": "Xu hướng nhất thời, sớm mất đi sự quan tâm.",
+      "ex": "The teacher hopes the reading club is more than a passing fad.",
+      "exVi": "Giáo viên hy vọng câu lạc bộ đọc sách không chỉ là trào lưu nhất thời.",
+      "level": "B1",
+      "topics": [
+        "Giáo dục",
+        "Sở thích"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0930",
+      "text": "a short fuse",
+      "vi": "Dễ nổi nóng và mất bình tĩnh.",
+      "ex": "He has a short fuse when he is tired, so we speak gently.",
+      "exVi": "Anh ấy dễ nóng giận khi mệt, nên chúng tôi nói chuyện nhẹ nhàng.",
+      "level": "B1",
+      "topics": [
+        "Cảm xúc",
+        "Quan hệ"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0931",
+      "text": "not have a leg to stand on",
+      "vi": "Không có lập luận hoặc bằng chứng đủ vững để bảo vệ ý kiến.",
+      "ex": "Without receipts, the complaint does not have a leg to stand on.",
+      "exVi": "Không có hóa đơn, lời khiếu nại ấy không có căn cứ vững chắc.",
+      "level": "B2",
+      "topics": [
+        "Tiền bạc",
+        "Giao tiếp"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0932",
+      "text": "on the back burner",
+      "vi": "Tạm thời được xếp sau những việc cấp bách hơn.",
+      "ex": "We put the garden redesign on the back burner until spring.",
+      "exVi": "Chúng tôi tạm gác việc thiết kế lại khu vườn đến mùa xuân.",
+      "level": "B2",
+      "topics": [
+        "Môi trường",
+        "Thời gian"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0933",
+      "text": "all bark and no bite",
+      "vi": "Có vẻ đe dọa nhưng thực tế không gây hại hoặc không hành động.",
+      "ex": "The neighbour's dog looks fierce but is all bark and no bite.",
+      "exVi": "Con chó nhà hàng xóm trông dữ nhưng chỉ sủa chứ không cắn.",
+      "level": "B2",
+      "topics": [
+        "Động vật",
+        "Cộng đồng"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0934",
+      "text": "a tough call",
+      "vi": "Một quyết định khó khăn vì các lựa chọn đều có mặt bất lợi.",
+      "ex": "Choosing between the two courses was a tough call for me.",
+      "exVi": "Với tôi, chọn giữa hai khóa học là một quyết định khó khăn.",
+      "level": "B2",
+      "topics": [
+        "Giáo dục",
+        "Cảm xúc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0935",
+      "text": "a raw deal",
+      "vi": "Sự đối xử hoặc kết quả bất công, kém thuận lợi.",
+      "ex": "Seasonal workers often get a raw deal when housing is scarce.",
+      "exVi": "Lao động thời vụ thường chịu thiệt khi chỗ ở khan hiếm.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Nhà cửa"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0936",
+      "text": "go off the deep end",
+      "vi": "Phản ứng quá mạnh hoặc hành động thiếu kiểm soát.",
+      "ex": "He may go off the deep end if the event is cancelled again.",
+      "exVi": "Anh ấy có thể phản ứng quá mức nếu sự kiện lại bị hủy.",
+      "level": "B2",
+      "topics": [
+        "Cảm xúc",
+        "Sự kiện"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0937",
+      "text": "a safe bet",
+      "vi": "Một lựa chọn có khả năng thành công hoặc an toàn cao.",
+      "ex": "Taking the early train is a safe bet during the holiday rush.",
+      "exVi": "Đi chuyến tàu sớm là lựa chọn chắc chắn hơn trong dịp cao điểm.",
+      "level": "B2",
+      "topics": [
+        "Giao thông",
+        "Du lịch"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0938",
+      "text": "out of left field",
+      "vi": "Bất ngờ và khó đoán trước.",
+      "ex": "Her question about urban farming came out of left field.",
+      "exVi": "Câu hỏi của cô ấy về nông nghiệp đô thị rất bất ngờ.",
+      "level": "B2",
+      "topics": [
+        "Môi trường",
+        "Giao tiếp"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0939",
+      "text": "a hair's breadth",
+      "vi": "Một khoảng cách hoặc khác biệt cực kỳ nhỏ.",
+      "ex": "The cyclist won by a hair's breadth after a close finish.",
+      "exVi": "Người đi xe đạp thắng trong gang tấc sau màn về đích sát nút.",
+      "level": "B2",
+      "topics": [
+        "Thể thao",
+        "Thời gian"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0940",
+      "text": "hold the fort",
+      "vi": "Tạm thời đảm nhận công việc hoặc trách nhiệm khi người khác vắng mặt.",
+      "ex": "Could you hold the fort at reception while I meet the supplier?",
+      "exVi": "Bạn trông quầy lễ tân giúp tôi trong lúc tôi gặp nhà cung cấp nhé?",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Giao tiếp"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0941",
+      "text": "get the hang of it",
+      "vi": "Dần hiểu cách làm hoặc sử dụng điều đang học.",
+      "ex": "The keyboard felt strange at first, but I soon got the hang of it.",
+      "exVi": "Ban đầu bàn phím khá lạ, nhưng tôi nhanh chóng quen cách dùng.",
+      "level": "B2",
+      "topics": [
+        "Công nghệ",
+        "Học tập"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0942",
+      "text": "at a premium",
+      "vi": "Có giá cao hơn bình thường vì khan hiếm hoặc được ưa chuộng.",
+      "ex": "Fresh berries are at a premium in the mountain village during winter.",
+      "exVi": "Quả mọng tươi có giá cao ở làng miền núi vào mùa đông.",
+      "level": "B2",
+      "topics": [
+        "Đồ ăn",
+        "Thời tiết"
+      ],
+      "reg": "formal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0943",
+      "text": "blow your own trumpet",
+      "vi": "Tự khen hoặc nói quá nhiều về thành tích của mình.",
+      "ex": "He rarely blows his own trumpet, although his work is excellent.",
+      "exVi": "Anh ấy hiếm khi tự khoe dù công việc của anh rất xuất sắc.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Quan hệ"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0944",
+      "text": "break a sweat",
+      "vi": "Bắt đầu đổ mồ hôi vì gắng sức hoặc lo lắng.",
+      "ex": "The gentle morning walk did not make us break a sweat.",
+      "exVi": "Buổi đi bộ nhẹ nhàng buổi sáng không khiến chúng tôi đổ mồ hôi.",
+      "level": "B2",
+      "topics": [
+        "Sức khỏe",
+        "Sở thích"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0945",
+      "text": "bring to life",
+      "vi": "Làm cho điều gì trở nên sống động, hấp dẫn hoặc dễ hình dung.",
+      "ex": "Local stories can bring to life the old harbour's history.",
+      "exVi": "Hướng dẫn viên làm lịch sử bến cảng cũ trở nên sống động bằng chuyện địa phương.",
+      "level": "B2",
+      "topics": [
+        "Lịch sử",
+        "Du lịch"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0946",
+      "text": "come under scrutiny",
+      "vi": "Bị xem xét hoặc đánh giá rất kỹ.",
+      "ex": "The school's spending came under scrutiny after the audit.",
+      "exVi": "Chi tiêu của trường bị xem xét kỹ sau đợt kiểm toán.",
+      "level": "B2",
+      "topics": [
+        "Giáo dục",
+        "Tiền bạc"
+      ],
+      "reg": "formal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0947",
+      "text": "get down to business",
+      "vi": "Bắt đầu tập trung nghiêm túc vào công việc chính.",
+      "ex": "After a short introduction, the group got down to business.",
+      "exVi": "Sau phần giới thiệu ngắn, cả nhóm bắt đầu tập trung vào công việc.",
+      "level": "C1",
+      "topics": [
+        "Công việc",
+        "Giao tiếp"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0948",
+      "text": "hit rock bottom",
+      "vi": "Chạm đến mức thấp nhất hoặc giai đoạn tồi tệ nhất.",
+      "ex": "The local shop hit rock bottom before a new owner invested in it.",
+      "exVi": "Cửa hàng địa phương chạm đáy trước khi chủ mới đầu tư vào.",
+      "level": "C1",
+      "topics": [
+        "Công việc",
+        "Tiền bạc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0949",
+      "text": "in safe hands",
+      "vi": "Được người có năng lực chăm sóc hoặc xử lý đáng tin cậy.",
+      "ex": "The children are in safe hands with their experienced swimming coach.",
+      "exVi": "Bọn trẻ được chăm sóc an toàn bởi huấn luyện viên bơi giàu kinh nghiệm.",
+      "level": "C1",
+      "topics": [
+        "Sức khỏe",
+        "Giáo dục"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0950",
+      "text": "make headway",
+      "vi": "Tiến triển trong việc giải quyết hoặc hoàn thành điều gì.",
+      "ex": "The research team made headway after sharing its data.",
+      "exVi": "Nhóm nghiên cứu đã tiến triển sau khi chia sẻ dữ liệu.",
+      "level": "C1",
+      "topics": [
+        "Công nghệ",
+        "Giáo dục"
+      ],
+      "reg": "formal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0951",
+      "text": "off the hook",
+      "vi": "Thoát khỏi trách nhiệm hoặc tình huống khó chịu.",
+      "ex": "The reminder meant I was off the hook for renewing the permit late.",
+      "exVi": "Lời nhắc giúp tôi tránh bị phạt vì gia hạn giấy phép muộn.",
+      "level": "C1",
+      "topics": [
+        "Công việc",
+        "Thời gian"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0952",
+      "text": "on the right foot",
+      "vi": "Bắt đầu một mối quan hệ hoặc hoạt động theo hướng thuận lợi.",
+      "ex": "A friendly welcome helped the exchange students start on the right foot.",
+      "exVi": "Lời chào thân thiện giúp các sinh viên trao đổi có khởi đầu thuận lợi.",
+      "level": "C1",
+      "topics": [
+        "Giáo dục",
+        "Quan hệ"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0953",
+      "text": "raise the roof",
+      "vi": "Tạo ra tiếng ồn hoặc sự cổ vũ rất lớn.",
+      "ex": "The fans raise the roof when the home team scores.",
+      "exVi": "Người hâm mộ reo hò vang dội khi đội nhà ghi bàn.",
+      "level": "C1",
+      "topics": [
+        "Thể thao",
+        "Sự kiện"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0954",
+      "text": "run the show",
+      "vi": "Điều hành hoặc kiểm soát cách một hoạt động diễn ra.",
+      "ex": "A student committee will run the show at the language festival.",
+      "exVi": "Một ban sinh viên sẽ điều hành lễ hội ngôn ngữ.",
+      "level": "C1",
+      "topics": [
+        "Giáo dục",
+        "Sự kiện"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0955",
+      "text": "the odd one out",
+      "vi": "Người hoặc vật khác biệt rõ rệt so với những thứ còn lại.",
+      "ex": "Among these fruit trees, the lemon is the odd one out.",
+      "exVi": "Trong số những cây ăn quả này, cây chanh là loại khác biệt nhất.",
+      "level": "C1",
+      "topics": [
+        "Môi trường",
+        "Đồ ăn"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0956",
+      "text": "think twice",
+      "vi": "Cân nhắc kỹ trước khi quyết định làm điều gì.",
+      "ex": "Think twice before sharing personal details on a public forum.",
+      "exVi": "Hãy cân nhắc kỹ trước khi chia sẻ thông tin cá nhân trên diễn đàn công khai.",
+      "level": "C1",
+      "topics": [
+        "Công nghệ",
+        "Cảm xúc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0957",
+      "text": "a load off your mind",
+      "vi": "Điều khiến bạn bớt lo lắng sau khi được giải quyết.",
+      "ex": "Getting the test results was a load off my mind.",
+      "exVi": "Nhận được kết quả xét nghiệm khiến tôi nhẹ lòng.",
+      "level": "C1",
+      "topics": [
+        "Sức khỏe",
+        "Cảm xúc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0958",
+      "text": "in the limelight",
+      "vi": "Được chú ý rộng rãi trước công chúng.",
+      "ex": "The young chef found herself in the limelight after the cooking show.",
+      "exVi": "Đầu bếp trẻ bất ngờ được công chúng chú ý sau chương trình nấu ăn.",
+      "level": "C1",
+      "topics": [
+        "Đồ ăn",
+        "Truyền thông"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}

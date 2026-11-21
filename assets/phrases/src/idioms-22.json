@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "collection": "idioms",
+  "batch": "22",
+  "items": [
+    {
+      "id": "idm-0599",
+      "text": "a bitter pill to swallow",
+      "vi": "Một sự thật hoặc kết quả khó chấp nhận.",
+      "ex": "Losing the workshop was a bitter pill to swallow for the team.",
+      "exVi": "Việc mất suất tham gia xưởng học là điều khó chấp nhận với cả nhóm.",
+      "level": "B1",
+      "topics": [
+        "Cảm xúc",
+        "Công việc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0600",
+      "text": "like a fish out of water",
+      "vi": "Cảm thấy lạc lõng vì không quen với môi trường hoặc tình huống.",
+      "ex": "I felt like a fish out of water at the formal dinner.",
+      "exVi": "Tôi cảm thấy lạc lõng tại bữa tối trang trọng ấy.",
+      "level": "B1",
+      "topics": [
+        "Cảm xúc",
+        "Sự kiện"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0601",
+      "text": "give the benefit of the doubt",
+      "vi": "Tạm tin ai đó khi chưa có đủ bằng chứng để kết luận.",
+      "ex": "I give the benefit of the doubt to a new supplier after one late delivery.",
+      "exVi": "Tôi tạm tin một nhà cung cấp mới dù họ giao hàng muộn một lần.",
+      "level": "B1",
+      "topics": [
+        "Công việc",
+        "Quan hệ"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0602",
+      "text": "not see eye to eye",
+      "vi": "Không đồng ý với nhau về một vấn đề.",
+      "ex": "The two neighbours do not see eye to eye about parking.",
+      "exVi": "Hai người hàng xóm không đồng thuận về chuyện đỗ xe.",
+      "level": "B1",
+      "topics": [
+        "Cộng đồng",
+        "Quan hệ"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0603",
+      "text": "put someone at ease",
+      "vi": "Khiến ai đó bớt lo lắng và cảm thấy thoải mái.",
+      "ex": "The nurse put the young patient at ease with a calm explanation.",
+      "exVi": "Y tá giúp bệnh nhân nhỏ tuổi yên tâm bằng lời giải thích bình tĩnh.",
+      "level": "B1",
+      "topics": [
+        "Sức khỏe",
+        "Cảm xúc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0604",
+      "text": "speak volumes",
+      "vi": "Thể hiện rất nhiều điều mà không cần nói trực tiếp.",
+      "ex": "Her careful notes speak volumes about her dedication.",
+      "exVi": "Những ghi chép cẩn thận thể hiện rõ sự tận tâm của cô ấy.",
+      "level": "B1",
+      "topics": [
+        "Học tập",
+        "Công việc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0605",
+      "text": "take a back seat",
+      "vi": "Trở nên ít quan trọng hoặc ít được chú ý hơn.",
+      "ex": "Safety should never take a back seat to convenience.",
+      "exVi": "An toàn không bao giờ nên bị xem nhẹ vì sự tiện lợi.",
+      "level": "B1",
+      "topics": [
+        "Sức khỏe",
+        "Công nghệ"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0606",
+      "text": "at short notice",
+      "vi": "Với rất ít thời gian báo trước.",
+      "ex": "The clinic fitted me in at short notice.",
+      "exVi": "Phòng khám sắp xếp cho tôi một lịch khám gấp.",
+      "level": "B1",
+      "topics": [
+        "Sức khỏe",
+        "Thời gian"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0607",
+      "text": "under your nose",
+      "vi": "Ở ngay trước mắt nhưng không được nhận ra.",
+      "ex": "The spare key was under my nose beside the front door.",
+      "exVi": "Chìa khóa dự phòng ở ngay trước mắt tôi, cạnh cửa chính.",
+      "level": "B1",
+      "topics": [
+        "Nhà cửa",
+        "Đời sống"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0608",
+      "text": "on good terms",
+      "vi": "Có mối quan hệ thân thiện, hòa thuận.",
+      "ex": "She stayed on good terms with her former classmates.",
+      "exVi": "Cô ấy vẫn giữ quan hệ tốt với các bạn học cũ.",
+      "level": "B1",
+      "topics": [
+        "Quan hệ",
+        "Giáo dục"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0609",
+      "text": "up in the air",
+      "vi": "Chưa được quyết định hoặc vẫn còn chưa chắc chắn.",
+      "ex": "Our weekend plans are still up in the air.",
+      "exVi": "Kế hoạch cuối tuần của chúng tôi vẫn chưa chốt.",
+      "level": "B1",
+      "topics": [
+        "Thời gian",
+        "Du lịch"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0610",
+      "text": "with flying colours",
+      "vi": "Rất thành công, đặc biệt trong một bài kiểm tra hoặc thử thách.",
+      "ex": "He passed the language test with flying colours.",
+      "exVi": "Anh ấy vượt qua bài kiểm tra ngôn ngữ với kết quả xuất sắc.",
+      "level": "B1",
+      "topics": [
+        "Giáo dục",
+        "Thành công"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0611",
+      "text": "keep your fingers crossed",
+      "vi": "Hy vọng một việc sẽ diễn ra thuận lợi.",
+      "ex": "Keep your fingers crossed that the weather stays clear tomorrow.",
+      "exVi": "Cùng hy vọng ngày mai trời vẫn quang đãng nhé.",
+      "level": "B1",
+      "topics": [
+        "Thời tiết",
+        "Cảm xúc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0612",
+      "text": "a knee-jerk reaction",
+      "vi": "Phản ứng tức thì, thiếu cân nhắc kỹ.",
+      "ex": "A knee-jerk reaction can make an online argument worse.",
+      "exVi": "Phản ứng bộc phát có thể khiến cuộc tranh luận trên mạng căng thẳng hơn.",
+      "level": "B2",
+      "topics": [
+        "Cảm xúc",
+        "Công nghệ"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0613",
+      "text": "make a clean break",
+      "vi": "Chấm dứt hẳn một thói quen hoặc giai đoạn để bắt đầu lại.",
+      "ex": "She decided to make a clean break from her old routine.",
+      "exVi": "Cô ấy quyết định dứt bỏ hẳn nếp sinh hoạt cũ.",
+      "level": "B2",
+      "topics": [
+        "Thời gian",
+        "Sức khỏe"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0614",
+      "text": "a level playing field",
+      "vi": "Môi trường có cơ hội và luật lệ công bằng cho mọi bên.",
+      "ex": "Clear rules create a level playing field for small businesses.",
+      "exVi": "Quy định rõ ràng tạo sân chơi bình đẳng cho doanh nghiệp nhỏ.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Tiền bạc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0615",
+      "text": "a stepping stone",
+      "vi": "Một bước trung gian giúp tiến tới mục tiêu lớn hơn.",
+      "ex": "The volunteer role became a stepping stone to paid work.",
+      "exVi": "Vai trò tình nguyện trở thành bước đệm để cô ấy tìm việc có lương.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Cộng đồng"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0616",
+      "text": "come under fire",
+      "vi": "Bị chỉ trích mạnh mẽ.",
+      "ex": "The proposal may come under fire at the council meeting.",
+      "exVi": "Đề xuất có thể bị chỉ trích tại cuộc họp hội đồng.",
+      "level": "B2",
+      "topics": [
+        "Cộng đồng",
+        "Công việc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0617",
+      "text": "keep someone posted",
+      "vi": "Thường xuyên cập nhật cho ai thông tin mới.",
+      "ex": "Please keep me posted about the results of your application.",
+      "exVi": "Hãy thường xuyên báo cho tôi biết kết quả hồ sơ của bạn.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Giao tiếp"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0618",
+      "text": "fall by the wayside",
+      "vi": "Bị bỏ dở hoặc không còn được tiếp tục.",
+      "ex": "Without regular support, good study habits can fall by the wayside.",
+      "exVi": "Nếu thiếu sự hỗ trợ đều đặn, thói quen học tốt có thể bị bỏ dở.",
+      "level": "B2",
+      "topics": [
+        "Giáo dục",
+        "Sức khỏe"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0619",
+      "text": "in light of",
+      "vi": "Xét đến một thông tin hoặc hoàn cảnh mới.",
+      "ex": "In light of recent repairs, the bridge will reopen tomorrow.",
+      "exVi": "Xét việc sửa chữa vừa hoàn tất, cây cầu sẽ mở lại vào ngày mai.",
+      "level": "B2",
+      "topics": [
+        "Giao thông",
+        "Cộng đồng"
+      ],
+      "reg": "formal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0620",
+      "text": "off the beaten track",
+      "vi": "Ở xa những tuyến đường quen thuộc hoặc nơi đông khách.",
+      "ex": "The campsite lies off the beaten track, beyond the coastal road.",
+      "exVi": "Khu cắm trại nằm ngoài lối du lịch quen thuộc, phía bên kia đường ven biển.",
+      "level": "B2",
+      "topics": [
+        "Du lịch",
+        "Địa điểm"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0621",
+      "text": "be a far cry from",
+      "vi": "Khác xa với điều được nhắc đến hoặc mong đợi.",
+      "ex": "The quiet village is a far cry from the crowded capital.",
+      "exVi": "Ngôi làng yên tĩnh khác xa thủ đô đông đúc.",
+      "level": "B2",
+      "topics": [
+        "Du lịch",
+        "Địa điểm"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0622",
+      "text": "on the whole",
+      "vi": "Nhìn chung, khi cân nhắc tổng thể.",
+      "ex": "On the whole, the new timetable suits most families.",
+      "exVi": "Nhìn chung, thời khóa biểu mới phù hợp với đa số gia đình.",
+      "level": "B2",
+      "topics": [
+        "Gia đình",
+        "Giáo dục"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0623",
+      "text": "a matter of course",
+      "vi": "Điều được xem là bình thường hoặc đương nhiên trong hoàn cảnh đó.",
+      "ex": "For this team, checking the figures is a matter of course.",
+      "exVi": "Với nhóm này, kiểm tra số liệu là việc đương nhiên phải làm.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Giáo dục"
+      ],
+      "reg": "formal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0624",
+      "text": "no strings attached",
+      "vi": "Không kèm theo điều kiện hoặc nghĩa vụ ẩn.",
+      "ex": "The library offers free language sessions with no strings attached.",
+      "exVi": "Thư viện tổ chức các buổi học ngôn ngữ miễn phí, không kèm điều kiện.",
+      "level": "B2",
+      "topics": [
+        "Giáo dục",
+        "Cộng đồng"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0625",
+      "text": "behind the scenes",
+      "vi": "Ở hậu trường, không xuất hiện trước công chúng.",
+      "ex": "A small team works behind the scenes to maintain the website.",
+      "exVi": "Một nhóm nhỏ làm việc phía sau để duy trì trang web.",
+      "level": "B2",
+      "topics": [
+        "Công nghệ",
+        "Công việc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0626",
+      "text": "take its toll",
+      "vi": "Gây ảnh hưởng tiêu cực dần dần lên sức khỏe hoặc tình trạng.",
+      "ex": "Long working hours can take its toll on health.",
+      "exVi": "Thời gian làm việc kéo dài có thể ảnh hưởng xấu đến sức khỏe.",
+      "level": "B2",
+      "topics": [
+        "Giao thông",
+        "Gia đình"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0627",
+      "text": "in black and white",
+      "vi": "Được viết ra rõ ràng để có bằng chứng hoặc tránh hiểu nhầm.",
+      "ex": "I asked the landlord to put the agreement in black and white.",
+      "exVi": "Tôi đề nghị chủ nhà ghi thỏa thuận thành văn bản rõ ràng.",
+      "level": "B2",
+      "topics": [
+        "Nhà cửa",
+        "Giao tiếp"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0628",
+      "text": "in the same boat",
+      "vi": "Ở trong hoàn cảnh khó khăn hoặc tình huống giống nhau.",
+      "ex": "Most first-year students are in the same boat during orientation week.",
+      "exVi": "Hầu hết sinh viên năm nhất đều có hoàn cảnh giống nhau trong tuần định hướng.",
+      "level": "B2",
+      "topics": [
+        "Giáo dục",
+        "Quan hệ"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0629",
+      "text": "the last straw",
+      "vi": "Sự việc cuối cùng khiến ai đó không thể chịu đựng thêm.",
+      "ex": "The broken heater was the last straw after weeks of delays.",
+      "exVi": "Chiếc máy sưởi hỏng là giọt nước tràn ly sau nhiều tuần trì hoãn.",
+      "level": "C1",
+      "topics": [
+        "Nhà cửa",
+        "Cảm xúc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0630",
+      "text": "by and large",
+      "vi": "Nhìn chung, xét tổng thể.",
+      "ex": "By and large, residents support the new cycle lanes.",
+      "exVi": "Nhìn chung, cư dân ủng hộ các làn đường xe đạp mới.",
+      "level": "C1",
+      "topics": [
+        "Giao thông",
+        "Cộng đồng"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0631",
+      "text": "an open secret",
+      "vi": "Điều nhiều người biết nhưng ít khi được công khai thừa nhận.",
+      "ex": "It is an open secret that the café will change owners.",
+      "exVi": "Ai cũng ngầm biết quán cà phê sắp đổi chủ.",
+      "level": "C1",
+      "topics": [
+        "Công việc",
+        "Cộng đồng"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0632",
+      "text": "at a crossroads",
+      "vi": "Ở thời điểm phải chọn giữa những hướng đi quan trọng.",
+      "ex": "After graduation, she felt at a crossroads about her career.",
+      "exVi": "Sau khi tốt nghiệp, cô ấy cảm thấy đang đứng trước ngã rẽ nghề nghiệp.",
+      "level": "C1",
+      "topics": [
+        "Giáo dục",
+        "Công việc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0633",
+      "text": "on the same wavelength",
+      "vi": "Hiểu nhau và có cách suy nghĩ tương đồng.",
+      "ex": "We are on the same wavelength about the team priorities.",
+      "exVi": "Chúng tôi đồng điệu về những ưu tiên của nhóm.",
+      "level": "C1",
+      "topics": [
+        "Quan hệ",
+        "Công việc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0634",
+      "text": "close ranks",
+      "vi": "Đoàn kết để bảo vệ hoặc hỗ trợ một thành viên trong nhóm.",
+      "ex": "The staff decided to close ranks and support their colleague.",
+      "exVi": "Nhân viên quyết định đoàn kết để hỗ trợ đồng nghiệp.",
+      "level": "C1",
+      "topics": [
+        "Công việc",
+        "Quan hệ"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0635",
+      "text": "come to a standstill",
+      "vi": "Dừng hẳn hoặc gần như không thể tiếp tục.",
+      "ex": "Traffic can come to a standstill after a minor collision.",
+      "exVi": "Giao thông có thể tê liệt sau một vụ va chạm nhỏ.",
+      "level": "C1",
+      "topics": [
+        "Giao thông",
+        "Đời sống"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0636",
+      "text": "do someone a world of good",
+      "vi": "Giúp ai đó cảm thấy khỏe khoắn hoặc vui vẻ hơn nhiều.",
+      "ex": "A quiet weekend could do the whole team a world of good.",
+      "exVi": "Một cuối tuần yên tĩnh có thể giúp cả nhóm hồi phục tinh thần đáng kể.",
+      "level": "C1",
+      "topics": [
+        "Sức khỏe",
+        "Công việc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0637",
+      "text": "from scratch",
+      "vi": "Bắt đầu hoàn toàn từ đầu, không dựa vào bản làm sẵn.",
+      "ex": "She learned to bake sourdough from scratch.",
+      "exVi": "Cô ấy học cách làm bánh men tự nhiên từ đầu.",
+      "level": "C1",
+      "topics": [
+        "Đồ ăn",
+        "Học tập"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0638",
+      "text": "take centre stage",
+      "vi": "Trở thành tâm điểm chú ý hoặc phần quan trọng nhất.",
+      "ex": "Local artists take centre stage during the summer festival.",
+      "exVi": "Các nghệ sĩ địa phương trở thành tâm điểm trong lễ hội mùa hè.",
+      "level": "C1",
+      "topics": [
+        "Nghệ thuật",
+        "Sự kiện"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}

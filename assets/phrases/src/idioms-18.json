@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "collection": "idioms",
+  "batch": "18",
+  "items": [
+    {
+      "id": "idm-0479",
+      "text": "set your heart on",
+      "vi": "Rất quyết tâm hoặc mong muốn đạt được điều gì.",
+      "ex": "You can set your heart on a goal and work steadily toward it.",
+      "exVi": "Bạn có thể quyết tâm theo đuổi mục tiêu và tiến tới bằng nỗ lực đều đặn.",
+      "level": "C1",
+      "topics": [
+        "Thành công",
+        "Học tập"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}

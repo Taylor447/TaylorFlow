@@ -1,0 +1,6 @@
+# Known quote misattributions. One quote per line; matching ignores punctuation,
+# capitalization, initial articles, and common inflected word forms.
+Be the change that you wish to see in the world
+Insanity is doing the same thing over and over again and expecting different results
+Let them eat cake
+I disapprove of what you say, but I will defend to the death your right to say it

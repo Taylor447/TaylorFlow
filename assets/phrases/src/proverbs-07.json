@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "collection": "proverbs",
+  "batch": "07",
+  "items": [
+    {
+      "id": "prv-0225",
+      "text": "Be penny-wise and pound-foolish.",
+      "vi": "Chỉ tiết kiệm những khoản nhỏ nhưng lại bỏ qua chi phí lớn có thể khiến ta tốn kém hơn.",
+      "ex": "We chose the cheapest bulb and replaced it twice; be penny-wise and pound-foolish.",
+      "exVi": "Chúng tôi chọn bóng đèn rẻ nhất rồi phải thay hai lần; tiết kiệm lặt vặt đôi khi lại tốn kém.",
+      "level": "general",
+      "topics": [
+        "Tài chính",
+        "Mua sắm"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0226",
+      "text": "Do not run before you can walk.",
+      "vi": "Hãy học những điều cơ bản trước khi cố làm việc khó hơn.",
+      "ex": "The team learned the basics first; do not run before you can walk.",
+      "exVi": "Nhóm học các kiến thức cơ bản trước; đừng vội làm việc khó khi chưa vững nền tảng.",
+      "level": "general",
+      "topics": [
+        "Học tập",
+        "Phát triển"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Chưa học bò đã lo học chạy",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0227",
+      "text": "God helps those who help themselves.",
+      "vi": "Muốn đạt được điều mình mong muốn, ta cần chủ động nỗ lực thay vì chỉ chờ đợi.",
+      "ex": "She applied for several grants; God helps those who help themselves.",
+      "exVi": "Cô nộp đơn xin một số khoản tài trợ; muốn thành công thì cần chủ động nỗ lực.",
+      "level": "general",
+      "topics": [
+        "Nỗ lực",
+        "Mục tiêu"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Có công mài sắt, có ngày nên kim",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0228",
+      "text": "Let the buyer beware.",
+      "vi": "Người mua cần tự tìm hiểu và kiểm tra kỹ trước khi quyết định mua hàng.",
+      "ex": "Before buying from an unknown seller, let the buyer beware.",
+      "exVi": "Trước khi mua của người bán chưa rõ uy tín, người mua nên tự kiểm tra kỹ.",
+      "level": "general",
+      "topics": [
+        "Mua sắm",
+        "Thận trọng"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0229",
+      "text": "Cleanliness is next to godliness.",
+      "vi": "Giữ gìn vệ sinh thân thể và không gian sống là điều quan trọng và đáng coi trọng.",
+      "ex": "Grandma insisted on daily cleaning; cleanliness is next to godliness.",
+      "exVi": "Bà luôn nhắc phải dọn dẹp mỗi ngày; giữ gìn sạch sẽ là điều rất quan trọng.",
+      "level": "general",
+      "topics": [
+        "Nhà cửa",
+        "Sức khỏe"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Nhà sạch thì mát, bát sạch ngon cơm",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0230",
+      "text": "If at first you don't succeed, try, try again.",
+      "vi": "Nếu chưa thành công ngay từ đầu, hãy tiếp tục thử với sự kiên trì.",
+      "ex": "The first design failed; if at first you don't succeed, try, try again.",
+      "exVi": "Bản thiết kế đầu tiên chưa đạt; nếu chưa thành công, hãy kiên trì thử lại.",
+      "level": "general",
+      "topics": [
+        "Kiên trì",
+        "Công việc"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Thất bại là mẹ thành công",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0231",
+      "text": "A bad beginning makes a bad ending.",
+      "vi": "Khởi đầu cẩu thả có thể khiến phần còn lại của công việc gặp nhiều vấn đề.",
+      "ex": "We ignored the early warning; a bad beginning makes a bad ending.",
+      "exVi": "Chúng tôi bỏ qua dấu hiệu cảnh báo ban đầu; khởi đầu tệ dễ dẫn đến kết quả tệ.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Kế hoạch"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0232",
+      "text": "Measure twice, cut once.",
+      "vi": "Hãy kiểm tra cẩn thận trước khi thực hiện việc khó sửa lại hoặc không thể đảo ngược.",
+      "ex": "The carpenter checked both lengths; measure twice, cut once.",
+      "exVi": "Người thợ mộc kiểm tra hai lần số đo; hãy chắc chắn trước khi cắt.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Thận trọng"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Cẩn tắc vô ưu",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0233",
+      "text": "Practice what you preach.",
+      "vi": "Hãy làm theo những điều mình khuyên người khác nên làm.",
+      "ex": "The coach arrived early; practice what you preach.",
+      "exVi": "Huấn luyện viên đến sớm; hãy làm đúng những điều mình vẫn khuyên người khác.",
+      "level": "general",
+      "topics": [
+        "Trách nhiệm",
+        "Công việc"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Nói đi đôi với làm",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0234",
+      "text": "A lie has no legs.",
+      "vi": "Lời nói dối khó đứng vững lâu và thường sớm bị phát hiện.",
+      "ex": "The rumor collapsed quickly; a lie has no legs.",
+      "exVi": "Tin đồn nhanh chóng bị bác bỏ; lời nói dối khó tồn tại lâu.",
+      "level": "general",
+      "topics": [
+        "Sự thật",
+        "Giao tiếp"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0235",
+      "text": "Money is a good servant but a bad master.",
+      "vi": "Tiền bạc hữu ích khi được quản lý tốt, nhưng có thể gây hại nếu nó chi phối mọi lựa chọn.",
+      "ex": "Money is a good servant but a bad master when it controls every choice.",
+      "exVi": "Tiền bạc là công cụ tốt nhưng là ông chủ tồi khi nó chi phối mọi lựa chọn.",
+      "level": "general",
+      "topics": [
+        "Tài chính",
+        "Lối sống"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0236",
+      "text": "You can't run with the hare and hunt with the hounds.",
+      "vi": "Không thể cùng lúc ủng hộ hai phía đối lập hoặc làm hài lòng cả hai bên trong một xung đột.",
+      "ex": "He tried to please both teams; you can't run with the hare and hunt with the hounds.",
+      "exVi": "Anh cố làm hài lòng cả hai đội; không thể cùng lúc đứng về hai phía đối lập.",
+      "level": "general",
+      "topics": [
+        "Lựa chọn",
+        "Quan hệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0237",
+      "text": "The last straw breaks the camel's back.",
+      "vi": "Một phiền toái nhỏ cuối cùng có thể khiến người đã chịu đựng quá nhiều không thể tiếp tục.",
+      "ex": "Another delay arrived; the last straw breaks the camel's back.",
+      "exVi": "Lại thêm một lần chậm trễ; sự việc nhỏ cuối cùng có thể khiến người ta không chịu nổi nữa.",
+      "level": "general",
+      "topics": [
+        "Cảm xúc",
+        "Khó khăn"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Tức nước vỡ bờ",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0238",
+      "text": "Fine feathers make fine birds.",
+      "vi": "Trang phục đẹp có thể khiến vẻ ngoài của một người trông chỉn chu và ấn tượng hơn.",
+      "ex": "He wore a tailored suit; fine feathers make fine birds.",
+      "exVi": "Anh mặc bộ vest may đo; trang phục đẹp làm vẻ ngoài thêm chỉn chu.",
+      "level": "general",
+      "topics": [
+        "Thời trang",
+        "Ấn tượng"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0239",
+      "text": "The longest day must have an end.",
+      "vi": "Ngay cả giai đoạn khó khăn hoặc kéo dài nhất rồi cũng sẽ kết thúc.",
+      "ex": "The wait felt endless, but the longest day must have an end.",
+      "exVi": "Thời gian chờ đợi tưởng như vô tận, nhưng ngày dài nhất rồi cũng sẽ qua.",
+      "level": "general",
+      "topics": [
+        "Hy vọng",
+        "Thời gian"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0240",
+      "text": "There is no royal road to learning.",
+      "vi": "Không có lối tắt nào thay thế được việc học tập nghiêm túc và kiên trì.",
+      "ex": "She studied every chapter; there is no royal road to learning.",
+      "exVi": "Cô học từng chương; không có con đường tắt nào thay thế việc học chăm chỉ.",
+      "level": "general",
+      "topics": [
+        "Học tập",
+        "Kiên trì"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Không thầy đố mày làm nên",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0241",
+      "text": "A tree is known by its fruit.",
+      "vi": "Có thể đánh giá một người hoặc sự vật qua kết quả và hành động mà họ tạo ra.",
+      "ex": "Their generous actions showed their values; a tree is known by its fruit.",
+      "exVi": "Những hành động hào phóng cho thấy giá trị của họ; hãy nhìn quả để biết cây.",
+      "level": "general",
+      "topics": [
+        "Tính cách",
+        "Đạo đức"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Xem quả biết cây",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0242",
+      "text": "A cat has nine lives.",
+      "vi": "Mèo dường như có thể thoát khỏi nhiều tình huống nguy hiểm; câu này cũng ví người hay gặp may.",
+      "ex": "A cat has nine lives, and Milo proved it after another safe escape.",
+      "exVi": "Mèo có chín mạng, và Milo lại chứng minh điều đó sau một lần thoát hiểm an toàn.",
+      "level": "general",
+      "topics": [
+        "Động vật",
+        "May mắn"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0243",
+      "text": "The walls have ears.",
+      "vi": "Hãy cẩn thận khi nói chuyện riêng vì có thể có người khác đang nghe.",
+      "ex": "Keep your voice low; the walls have ears.",
+      "exVi": "Hãy nói nhỏ thôi; có thể có người khác đang nghe.",
+      "level": "general",
+      "topics": [
+        "Quyền riêng tư",
+        "Giao tiếp"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Vách có tai",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0244",
+      "text": "A word spoken is past recalling.",
+      "vi": "Một khi đã nói ra, lời nói có thể gây hậu quả mà ta không thể hoàn toàn rút lại.",
+      "ex": "He regretted the insult; a word spoken is past recalling.",
+      "exVi": "Anh hối tiếc vì lời xúc phạm; lời đã nói ra thì không thể thu lại hoàn toàn.",
+      "level": "general",
+      "topics": [
+        "Giao tiếp",
+        "Trách nhiệm"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Lời nói như tên bắn",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0245",
+      "text": "Variety is the spice of life.",
+      "vi": "Sự đa dạng giúp cuộc sống trở nên thú vị và bớt đơn điệu.",
+      "ex": "She joined a pottery class; variety is the spice of life.",
+      "exVi": "Cô tham gia lớp gốm; sự đa dạng khiến cuộc sống thú vị hơn.",
+      "level": "general",
+      "topics": [
+        "Sở thích",
+        "Lối sống"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}

@@ -366,3 +366,27 @@ body > header .head-actions #interface-toggle {
   background:linear-gradient(145deg,rgba(255,255,255,.15),rgba(255,255,255,.055));
   box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 10px 24px rgba(0,0,0,.2);
 }
+
+/* Large phrase library study controls */
+.collection-phrase-study { width:100%; max-width:100%; box-sizing:border-box; }
+.collection-phrase-study .section-head { align-items:flex-start; gap:16px; }
+.phrase-study-control { min-height:44px; }
+.phrase-study-browser { margin-top:22px; padding-top:18px; border-top:1px solid var(--bd); }
+.phrase-study-toolbar { display:grid; grid-template-columns:minmax(220px,2fr) repeat(3,minmax(130px,1fr)); gap:10px; align-items:end; }
+.phrase-study-toolbar label { display:grid; gap:6px; color:var(--mu); font-size:.88rem; font-weight:700; }
+.phrase-study-toolbar input,.phrase-study-toolbar select { width:100%; min-width:0; min-height:44px; box-sizing:border-box; padding:9px 12px; border:1px solid var(--bd); border-radius:12px; color:var(--tx); background:var(--cd); font:inherit; }
+.phrase-study-toolbar .phrase-study-control { white-space:nowrap; }
+.phrase-study-results { min-width:0; }
+.phrase-study-result-count,.phrase-study-empty,.phrase-study-batch-note { color:var(--mu); }
+.phrase-study-list { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr)); gap:8px; }
+.phrase-study-list-item { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:4px 12px; align-items:center; min-width:0; min-height:58px; padding:10px 14px; border:1px solid var(--bd); border-radius:14px; color:var(--tx); background:var(--cd); text-align:left; cursor:pointer; }
+.phrase-study-list-item > span:first-child { overflow-wrap:anywhere; font-weight:750; }
+.phrase-study-list-item small { grid-column:1; color:var(--mu); overflow-wrap:anywhere; }
+.phrase-study-list-item > span:last-child { grid-column:2; grid-row:1 / span 2; color:var(--pr); }
+.phrase-study-pagination { display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:12px; padding:14px 0 4px; }
+.phrase-study-pagination span { color:var(--mu); font-weight:700; }
+.phrase-study-source { display:block; margin:0 0 12px; }
+.phrase-study-nav { align-items:center; flex-wrap:wrap; }
+.collection-phrase-study :is(button,input,select):focus-visible { outline:3px solid var(--pr); outline-offset:2px; }
+@media(max-width:760px) { .phrase-study-toolbar { grid-template-columns:repeat(2,minmax(0,1fr)); } .phrase-study-search { grid-column:1 / -1; } .phrase-study-toolbar .phrase-study-control { white-space:normal; } }
+@media(max-width:420px) { .phrase-study-toolbar { grid-template-columns:1fr; } .phrase-study-search { grid-column:auto; } .phrase-study-pagination { justify-content:space-between; } }

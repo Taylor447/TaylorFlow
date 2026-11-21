@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "collection": "idioms",
+  "batch": "03",
+  "items": [
+    {
+      "id": "idm-0041",
+      "text": "make a long story short",
+      "vi": "Nói ngắn gọn lại; dùng để kết thúc phần giải thích dài dòng.",
+      "ex": "To make a long story short, we missed the bus but arrived on time.",
+      "exVi": "Nói ngắn gọn, chúng tôi lỡ xe buýt nhưng vẫn đến đúng giờ.",
+      "level": "B1",
+      "topics": [
+        "Giao tiếp",
+        "Du lịch"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0042",
+      "text": "out of the blue",
+      "vi": "Bất ngờ, không hề báo trước.",
+      "ex": "A former classmate called me out of the blue after ten years.",
+      "exVi": "Một bạn học cũ bất ngờ gọi cho tôi sau mười năm.",
+      "level": "B1",
+      "topics": [
+        "Bạn bè",
+        "Giao tiếp"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0043",
+      "text": "not my cup of tea",
+      "vi": "Không hợp sở thích hoặc không phải điều mình thích.",
+      "ex": "Camping in cold weather is not my cup of tea.",
+      "exVi": "Cắm trại trong thời tiết lạnh không hợp sở thích của tôi.",
+      "level": "B1",
+      "topics": [
+        "Sở thích",
+        "Thời tiết"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0044",
+      "text": "face the music",
+      "vi": "Chấp nhận lời phê bình hoặc hậu quả từ việc mình đã làm.",
+      "ex": "After missing the deadline, I had to face the music with my supervisor.",
+      "exVi": "Sau khi trễ hạn, tôi phải đối mặt với lời nhắc nhở từ quản lý.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Trách nhiệm"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0045",
+      "text": "at the end of the day",
+      "vi": "Xét cho cùng; sau khi cân nhắc mọi điều.",
+      "ex": "At the end of the day, a healthy routine matters more than a perfect plan.",
+      "exVi": "Xét cho cùng, nếp sống lành mạnh quan trọng hơn một kế hoạch hoàn hảo.",
+      "level": "B2",
+      "topics": [
+        "Sức khỏe",
+        "Lối sống"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0046",
+      "text": "break the bank",
+      "vi": "Tốn quá nhiều tiền hoặc vượt quá khả năng chi trả.",
+      "ex": "We found a quiet guesthouse that did not break the bank.",
+      "exVi": "Chúng tôi tìm được một nhà nghỉ yên tĩnh mà giá không quá đắt.",
+      "level": "B2",
+      "topics": [
+        "Tiền bạc",
+        "Du lịch"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0047",
+      "text": "play it by ear",
+      "vi": "Quyết định cách làm tùy theo tình hình thực tế.",
+      "ex": "We have no fixed weekend plan; let us play it by ear.",
+      "exVi": "Cuối tuần này chưa có kế hoạch cố định; cứ tùy tình hình rồi tính.",
+      "level": "B2",
+      "topics": [
+        "Thời gian",
+        "Kế hoạch"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0048",
+      "text": "read between the lines",
+      "vi": "Hiểu ý ngầm thay vì chỉ hiểu nghĩa bề mặt.",
+      "ex": "Her email sounded polite, but I could read between the lines.",
+      "exVi": "Email của cô ấy nghe lịch sự, nhưng tôi hiểu được ý ngầm.",
+      "level": "B2",
+      "topics": [
+        "Giao tiếp",
+        "Mối quan hệ"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0049",
+      "text": "the elephant in the room",
+      "vi": "Vấn đề lớn, rõ ràng mà mọi người ngại nhắc đến.",
+      "ex": "The falling enrolment was the elephant in the room at the meeting.",
+      "exVi": "Số học sinh giảm là vấn đề ai cũng thấy nhưng ngại nhắc trong cuộc họp.",
+      "level": "C1",
+      "topics": [
+        "Giáo dục",
+        "Giao tiếp"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0050",
+      "text": "turn a blind eye",
+      "vi": "Cố tình làm ngơ trước điều sai hoặc vấn đề đang xảy ra.",
+      "ex": "The school should not turn a blind eye to repeated bullying.",
+      "exVi": "Nhà trường không nên làm ngơ trước việc bắt nạt lặp đi lặp lại.",
+      "level": "C1",
+      "topics": [
+        "Giáo dục",
+        "Đạo đức"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}

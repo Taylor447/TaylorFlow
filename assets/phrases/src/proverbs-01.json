@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "collection": "proverbs",
+  "batch": "01",
+  "items": [
+    {
+      "id": "prv-0001",
+      "text": "Actions speak louder than words.",
+      "vi": "Hành động có sức thuyết phục hơn lời nói.",
+      "ex": "She volunteered every weekend; actions speak louder than words.",
+      "exVi": "Cô ấy tình nguyện mỗi cuối tuần; hành động có sức thuyết phục hơn lời nói.",
+      "level": "general",
+      "topics": [
+        "Hành động",
+        "Giao tiếp"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Nói hay không bằng làm",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0002",
+      "text": "Better late than never.",
+      "vi": "Muộn còn hơn không.",
+      "ex": "He has finally started exercising—better late than never.",
+      "exVi": "Cuối cùng anh ấy cũng bắt đầu tập thể dục—muộn còn hơn không.",
+      "level": "general",
+      "topics": [
+        "Thời gian"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Muộn còn hơn không",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0003",
+      "text": "Practice makes perfect.",
+      "vi": "Luyện tập thường xuyên giúp tiến bộ và thành thạo.",
+      "ex": "Keep speaking English; practice makes perfect.",
+      "exVi": "Hãy tiếp tục nói tiếng Anh; luyện tập sẽ giúp bạn thành thạo.",
+      "level": "general",
+      "topics": [
+        "Học tập"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Có công mài sắt, có ngày nên kim",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0004",
+      "text": "Where there is a will, there is a way.",
+      "vi": "Có chí thì nên.",
+      "ex": "They found a way to study despite their busy schedules. Where there is a will, there is a way.",
+      "exVi": "Họ tìm được cách học dù lịch trình bận rộn. Có chí thì nên.",
+      "level": "general",
+      "topics": [
+        "Kiên trì"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Có chí thì nên",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0005",
+      "text": "A picture is worth a thousand words.",
+      "vi": "Một hình ảnh có thể truyền tải rất nhiều điều.",
+      "ex": "The photograph explains the damage better than a long report; a picture is worth a thousand words.",
+      "exVi": "Bức ảnh giải thích thiệt hại rõ hơn một báo cáo dài; một hình ảnh có giá trị hơn ngàn lời nói.",
+      "level": "general",
+      "topics": [
+        "Giao tiếp"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Trăm nghe không bằng một thấy",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0006",
+      "text": "Do not judge a book by its cover.",
+      "vi": "Đừng đánh giá qua vẻ bề ngoài.",
+      "ex": "The quiet student had brilliant ideas, so do not judge a book by its cover.",
+      "exVi": "Bạn học sinh ít nói có những ý tưởng xuất sắc, vì thế đừng đánh giá qua vẻ ngoài.",
+      "level": "general",
+      "topics": [
+        "Tư duy",
+        "Quan hệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Tốt gỗ hơn tốt nước sơn",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0007",
+      "text": "Two heads are better than one.",
+      "vi": "Một người làm sao bằng hai người cùng nghĩ.",
+      "ex": "Let us solve this problem together; two heads are better than one.",
+      "exVi": "Hãy cùng giải quyết vấn đề này; hai người cùng nghĩ sẽ tốt hơn một.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Hợp tác"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0008",
+      "text": "Every cloud has a silver lining.",
+      "vi": "Trong khó khăn vẫn có điều tích cực.",
+      "ex": "Losing that job was difficult, but it led her to a better career. Every cloud has a silver lining.",
+      "exVi": "Mất công việc đó thật khó khăn, nhưng nó giúp cô tìm được sự nghiệp tốt hơn. Trong khó khăn vẫn có điều tích cực.",
+      "level": "general",
+      "topics": [
+        "Cảm xúc",
+        "Kiên trì"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Trong cái rủi có cái may",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0009",
+      "text": "When in Rome, do as the Romans do.",
+      "vi": "Nhập gia tùy tục.",
+      "ex": "I tried the local greeting because when in Rome, do as the Romans do.",
+      "exVi": "Tôi thử cách chào địa phương vì nhập gia thì nên tùy tục.",
+      "level": "general",
+      "topics": [
+        "Du lịch",
+        "Văn hóa"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Nhập gia tùy tục",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0010",
+      "text": "The early bird catches the worm.",
+      "vi": "Ai nhanh tay/chủ động thì có lợi thế.",
+      "ex": "She applied as soon as the position opened; the early bird catches the worm.",
+      "exVi": "Cô ấy nộp đơn ngay khi vị trí tuyển dụng mở; người chủ động sẽ có lợi thế.",
+      "level": "general",
+      "topics": [
+        "Thời gian",
+        "Công việc"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0011",
+      "text": "You cannot have your cake and eat it too.",
+      "vi": "Không thể vừa muốn giữ nguyên vừa muốn hưởng trọn lợi ích của thứ đó.",
+      "ex": "You must choose between saving time and checking every detail; you cannot have your cake and eat it too.",
+      "exVi": "Bạn phải chọn giữa tiết kiệm thời gian và kiểm tra mọi chi tiết; không thể có cả hai điều đó.",
+      "level": "general",
+      "topics": [
+        "Lựa chọn"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Được cái này mất cái kia",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0012",
+      "text": "All that glitters is not gold.",
+      "vi": "Không phải thứ gì trông hấp dẫn cũng có giá trị thật.",
+      "ex": "The offer looked impressive, but the hidden fees showed that all that glitters is not gold.",
+      "exVi": "Lời mời trông rất hấp dẫn, nhưng các khoản phí ẩn cho thấy không phải thứ gì lấp lánh cũng là vàng.",
+      "level": "general",
+      "topics": [
+        "Tiền bạc",
+        "Tư duy"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0013",
+      "text": "A friend in need is a friend indeed.",
+      "vi": "Người ở bên giúp đỡ lúc khó khăn mới là bạn chân thành.",
+      "ex": "When I was ill, Minh brought me notes from class; a friend in need is a friend indeed.",
+      "exVi": "Khi tôi ốm, Minh mang ghi chép trên lớp đến; lúc khó khăn mới biết ai là bạn tốt.",
+      "level": "general",
+      "topics": [
+        "Quan hệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Hoạn nạn mới biết chân tình",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0014",
+      "text": "Birds of a feather flock together.",
+      "vi": "Những người giống nhau thường tìm đến nhau.",
+      "ex": "They both love volunteering, so birds of a feather flock together.",
+      "exVi": "Cả hai đều thích hoạt động tình nguyện nên những người cùng sở thích thường gắn bó.",
+      "level": "general",
+      "topics": [
+        "Quan hệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Ngưu tầm ngưu, mã tầm mã",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0015",
+      "text": "Do not put all your eggs in one basket.",
+      "vi": "Đừng đặt toàn bộ hy vọng vào một lựa chọn duy nhất.",
+      "ex": "Apply to several universities; do not put all your eggs in one basket.",
+      "exVi": "Hãy nộp hồ sơ vào vài trường; đừng đặt mọi hy vọng vào một lựa chọn.",
+      "level": "general",
+      "topics": [
+        "Tiền bạc",
+        "Rủi ro"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Không bỏ trứng vào một giỏ",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0016",
+      "text": "Rome was not built in a day.",
+      "vi": "Việc lớn cần thời gian và sự kiên trì.",
+      "ex": "Fluency takes years of practice—Rome was not built in a day.",
+      "exVi": "Nói lưu loát cần nhiều năm luyện tập; thành quả lớn không thể có trong một ngày.",
+      "level": "general",
+      "topics": [
+        "Kiên trì",
+        "Thời gian"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Dục tốc bất đạt",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0017",
+      "text": "Honesty is the best policy.",
+      "vi": "Trung thực là cách ứng xử tốt nhất.",
+      "ex": "She admitted the mistake because honesty is the best policy.",
+      "exVi": "Cô thừa nhận lỗi vì trung thực luôn là cách tốt nhất.",
+      "level": "general",
+      "topics": [
+        "Giá trị sống"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0018",
+      "text": "The grass is always greener on the other side.",
+      "vi": "Ta thường nghĩ hoàn cảnh của người khác tốt hơn của mình.",
+      "ex": "He envied his colleague’s job, but the grass is always greener on the other side.",
+      "exVi": "Anh ghen tị với công việc của đồng nghiệp, nhưng ta thường chỉ thấy mặt tốt của người khác.",
+      "level": "general",
+      "topics": [
+        "Cảm xúc",
+        "Tư duy"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Đứng núi này trông núi nọ",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0019",
+      "text": "Necessity is the mother of invention.",
+      "vi": "Nhu cầu thúc đẩy con người sáng tạo.",
+      "ex": "With no car, they built a simple cart; necessity is the mother of invention.",
+      "exVi": "Không có xe, họ tự làm một chiếc xe kéo đơn giản; nhu cầu thúc đẩy sáng kiến.",
+      "level": "general",
+      "topics": [
+        "Công nghệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Cái khó ló cái khôn",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0020",
+      "text": "No pain, no gain.",
+      "vi": "Muốn đạt kết quả phải chấp nhận nỗ lực.",
+      "ex": "Training is demanding, but no pain, no gain.",
+      "exVi": "Buổi tập rất vất vả, nhưng muốn tiến bộ phải nỗ lực.",
+      "level": "general",
+      "topics": [
+        "Sức khỏe",
+        "Kiên trì"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Có làm thì mới có ăn",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0021",
+      "text": "A watched pot never boils.",
+      "vi": "Càng sốt ruột chờ đợi, ta càng cảm thấy thời gian trôi chậm.",
+      "ex": "Stop checking the application page every minute; a watched pot never boils.",
+      "exVi": "Đừng kiểm tra trang hồ sơ mỗi phút; càng sốt ruột thì thời gian càng lâu trôi.",
+      "level": "general",
+      "topics": [
+        "Thời gian",
+        "Kiên nhẫn"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0022",
+      "text": "Many hands make light work.",
+      "vi": "Nhiều người cùng làm thì việc nặng hóa nhẹ.",
+      "ex": "The class cleaned the beach together; many hands make light work.",
+      "exVi": "Cả lớp cùng dọn bãi biển; nhiều người chung tay thì việc nặng hóa nhẹ.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Hợp tác"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Một cây làm chẳng nên non",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0023",
+      "text": "Look before you leap.",
+      "vi": "Hãy cân nhắc trước khi hành động.",
+      "ex": "Read the contract carefully—look before you leap.",
+      "exVi": "Hãy đọc kỹ hợp đồng trước khi ký; cần cân nhắc trước khi hành động.",
+      "level": "general",
+      "topics": [
+        "Quyết định"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0024",
+      "text": "You reap what you sow.",
+      "vi": "Gieo nhân nào gặt quả ấy.",
+      "ex": "Her steady effort paid off; you reap what you sow.",
+      "exVi": "Nỗ lực đều đặn của cô đã được đền đáp; gieo nhân nào gặt quả ấy.",
+      "level": "general",
+      "topics": [
+        "Hành động",
+        "Kết quả"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Gieo nhân nào gặt quả nấy",
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}

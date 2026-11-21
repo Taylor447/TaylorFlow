@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "collection": "idioms",
+  "batch": "01",
+  "items": [
+    {
+      "id": "idm-0001",
+      "text": "break the ice",
+      "vi": "Phá vỡ sự ngượng ngùng, mở đầu cuộc trò chuyện.",
+      "ex": "A short game helped break the ice at the meeting.",
+      "exVi": "Một trò chơi ngắn giúp mọi người bớt ngượng ngùng trong cuộc họp.",
+      "level": "B1",
+      "topics": [
+        "Giao tiếp"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0002",
+      "text": "a piece of cake",
+      "vi": "Việc rất dễ dàng.",
+      "ex": "The first exercise was a piece of cake.",
+      "exVi": "Bài tập đầu tiên rất dễ.",
+      "level": "B1",
+      "topics": [
+        "Công việc"
+      ],
+      "reg": "informal",
+      "equiv": "Dễ như ăn kẹo",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0003",
+      "text": "once in a blue moon",
+      "vi": "Rất hiếm khi.",
+      "ex": "We eat out once in a blue moon.",
+      "exVi": "Chúng tôi rất hiếm khi ăn ngoài.",
+      "level": "B1",
+      "topics": [
+        "Thời gian"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0004",
+      "text": "under the weather",
+      "vi": "Cảm thấy không khỏe.",
+      "ex": "I am feeling a little under the weather today.",
+      "exVi": "Hôm nay tôi cảm thấy hơi không khỏe.",
+      "level": "B1",
+      "topics": [
+        "Sức khỏe"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0005",
+      "text": "spill the beans",
+      "vi": "Lỡ tiết lộ bí mật.",
+      "ex": "He spilled the beans about the surprise party.",
+      "exVi": "Anh ấy lỡ tiết lộ chuyện bữa tiệc bất ngờ.",
+      "level": "B1",
+      "topics": [
+        "Giao tiếp"
+      ],
+      "reg": "informal",
+      "equiv": "Lộ bí mật",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0006",
+      "text": "hit the books",
+      "vi": "Bắt đầu học tập chăm chỉ.",
+      "ex": "I need to hit the books before my exam.",
+      "exVi": "Tôi cần tập trung học trước kỳ thi.",
+      "level": "B1",
+      "topics": [
+        "Học tập"
+      ],
+      "reg": "informal",
+      "equiv": "Dùi mài kinh sử",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0007",
+      "text": "cost an arm and a leg",
+      "vi": "Rất đắt đỏ.",
+      "ex": "That new laptop cost me an arm and a leg.",
+      "exVi": "Chiếc laptop mới đó rất đắt.",
+      "level": "B2",
+      "topics": [
+        "Tiền bạc"
+      ],
+      "reg": "informal",
+      "equiv": "Đắt cắt cổ",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0008",
+      "text": "get the hang of",
+      "vi": "Dần hiểu hoặc làm thành thạo.",
+      "ex": "It took me a week to get the hang of the software.",
+      "exVi": "Tôi mất một tuần để làm quen với phần mềm.",
+      "level": "B1",
+      "topics": [
+        "Học tập"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0009",
+      "text": "on the same page",
+      "vi": "Cùng hiểu hoặc thống nhất một điều.",
+      "ex": "Let us check that we are on the same page.",
+      "exVi": "Hãy kiểm tra xem chúng ta có cùng hiểu vấn đề không.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Giao tiếp"
+      ],
+      "reg": "neutral",
+      "equiv": "Cùng chung suy nghĩ",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0010",
+      "text": "call it a day",
+      "vi": "Kết thúc công việc trong ngày.",
+      "ex": "We have done enough, so let us call it a day.",
+      "exVi": "Chúng ta làm đủ rồi, vậy hôm nay dừng ở đây nhé.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Thời gian"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0011",
+      "text": "keep an eye on",
+      "vi": "Trông chừng, để ý đến.",
+      "ex": "Could you keep an eye on my bag?",
+      "exVi": "Bạn có thể trông giúp túi của tôi không?",
+      "level": "B2",
+      "topics": [
+        "Quan hệ"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0012",
+      "text": "the ball is in your court",
+      "vi": "Đến lượt bạn quyết định hoặc hành động.",
+      "ex": "I have shared the options; now the ball is in your court.",
+      "exVi": "Tôi đã chia sẻ các lựa chọn; giờ đến lượt bạn quyết định.",
+      "level": "B2",
+      "topics": [
+        "Quyết định",
+        "Công việc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0013",
+      "text": "once bitten, twice shy",
+      "vi": "Một lần vấp ngã khiến ta cẩn trọng hơn về sau.",
+      "ex": "After a bad online purchase, he was once bitten, twice shy.",
+      "exVi": "Sau một lần mua hàng trực tuyến tệ hại, anh ấy trở nên thận trọng hơn.",
+      "level": "B2",
+      "topics": [
+        "Trải nghiệm",
+        "Học tập"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0014",
+      "text": "a blessing in disguise",
+      "vi": "Điều tưởng là không may nhưng hóa ra lại có lợi.",
+      "ex": "Missing that train was a blessing in disguise; I met my future mentor at the station.",
+      "exVi": "Lỡ chuyến tàu hóa ra lại là điều may; tôi gặp người hướng dẫn tương lai ở nhà ga.",
+      "level": "C1",
+      "topics": [
+        "Cảm xúc"
+      ],
+      "reg": "neutral",
+      "equiv": "Trong cái rủi có cái may",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0015",
+      "text": "the best of both worlds",
+      "vi": "Có được lợi ích của cả hai lựa chọn.",
+      "ex": "Working remotely gives her the best of both worlds: flexibility and teamwork.",
+      "exVi": "Làm việc từ xa giúp cô ấy vừa linh hoạt vừa được cộng tác với đồng nghiệp.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Đời sống"
+      ],
+      "reg": "neutral",
+      "equiv": "Lợi cả đôi đường",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0016",
+      "text": "get out of hand",
+      "vi": "Trở nên mất kiểm soát.",
+      "ex": "The debate got out of hand when people stopped listening.",
+      "exVi": "Cuộc tranh luận trở nên mất kiểm soát khi mọi người không còn lắng nghe.",
+      "level": "B2",
+      "topics": [
+        "Cảm xúc"
+      ],
+      "reg": "informal",
+      "equiv": "Vượt ngoài tầm kiểm soát",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0017",
+      "text": "take something with a grain of salt",
+      "vi": "Đón nhận thông tin với sự dè dặt.",
+      "ex": "I take anonymous online reviews with a grain of salt.",
+      "exVi": "Tôi đọc các đánh giá ẩn danh trên mạng với thái độ dè dặt.",
+      "level": "C1",
+      "topics": [
+        "Thông tin",
+        "Tư duy"
+      ],
+      "reg": "informal",
+      "equiv": "Nghe có chọn lọc",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0018",
+      "text": "in the long run",
+      "vi": "Xét về lâu dài.",
+      "ex": "Regular practice saves time in the long run.",
+      "exVi": "Luyện tập đều đặn sẽ tiết kiệm thời gian về lâu dài.",
+      "level": "B2",
+      "topics": [
+        "Thời gian"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0019",
+      "text": "come in handy",
+      "vi": "Trở nên hữu ích khi cần.",
+      "ex": "A portable charger may come in handy during the trip.",
+      "exVi": "Pin sạc dự phòng có thể hữu ích trong chuyến đi.",
+      "level": "B2",
+      "topics": [
+        "Đời sống"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0020",
+      "text": "make ends meet",
+      "vi": "Xoay xở đủ chi phí sinh hoạt.",
+      "ex": "She took a weekend job to help her family make ends meet.",
+      "exVi": "Cô nhận việc cuối tuần để giúp gia đình trang trải cuộc sống.",
+      "level": "C1",
+      "topics": [
+        "Tiền bạc"
+      ],
+      "reg": "neutral",
+      "equiv": "Thắt lưng buộc bụng",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0021",
+      "text": "learn the hard way",
+      "vi": "Học được điều gì đó sau một trải nghiệm khó khăn.",
+      "ex": "I learned the hard way to save a copy of every important file.",
+      "exVi": "Tôi đã rút kinh nghiệm sau một lần gặp rắc rối: phải lưu bản sao mọi tệp quan trọng.",
+      "level": "B2",
+      "topics": [
+        "Trải nghiệm",
+        "Học tập"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0022",
+      "text": "get cold feet",
+      "vi": "Chùn bước vì lo lắng ngay trước khi làm việc gì.",
+      "ex": "He got cold feet before the speech, but he went on stage anyway.",
+      "exVi": "Anh ấy chùn bước trước bài phát biểu nhưng vẫn bước lên sân khấu.",
+      "level": "C1",
+      "topics": [
+        "Cảm xúc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0023",
+      "text": "go the extra mile",
+      "vi": "Nỗ lực nhiều hơn mức được yêu cầu.",
+      "ex": "The volunteers went the extra mile to make every visitor feel welcome.",
+      "exVi": "Các tình nguyện viên nỗ lực hơn mức cần thiết để mọi khách đều cảm thấy được chào đón.",
+      "level": "C1",
+      "topics": [
+        "Công việc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0024",
+      "text": "miss the boat",
+      "vi": "Bỏ lỡ cơ hội.",
+      "ex": "If we wait another month, we may miss the boat.",
+      "exVi": "Nếu chờ thêm một tháng, chúng ta có thể bỏ lỡ cơ hội.",
+      "level": "C1",
+      "topics": [
+        "Cơ hội",
+        "Thời gian"
+      ],
+      "reg": "informal",
+      "equiv": "Lỡ mất cơ hội",
+      "ielts": 0,
+      "reviewed": false
+    }
+  ]
+}

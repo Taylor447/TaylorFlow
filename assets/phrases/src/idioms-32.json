@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "collection": "idioms",
+  "batch": "32",
+  "items": [
+    {"id":"idm-0999","text":"a shot in the arm","vi":"Một sự hỗ trợ hoặc tin tức giúp khơi lại năng lượng, hy vọng.","ex":"The new grant was a shot in the arm for the youth centre.","exVi":"Khoản tài trợ mới tiếp thêm sinh khí cho trung tâm thanh thiếu niên.","level":"B2","topics":["Cộng đồng","Giáo dục"],"reg":"informal","equiv":null,"ielts":1,"reviewed":false},
+    {"id":"idm-1000","text":"close to home","vi":"Chạm đến cảm xúc hoặc trải nghiệm cá nhân một cách sâu sắc.","ex":"The documentary about air pollution hit close to home for our family.","exVi":"Bộ phim về ô nhiễm không khí chạm đến trải nghiệm của gia đình tôi.","level":"B2","topics":["Môi trường","Gia đình"],"reg":"neutral","equiv":null,"ielts":1,"reviewed":false}
+  ]
+}

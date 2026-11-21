@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "collection": "proverbs",
+  "batch": "11",
+  "items": [
+    {
+      "id": "prv-0282",
+      "text": "Business before pleasure.",
+      "vi": "Nên ưu tiên công việc và trách nhiệm trước khi dành thời gian cho vui chơi.",
+      "ex": "I planned a study session before the film; business before pleasure.",
+      "exVi": "Tôi lên kế hoạch học trước khi xem phim; nên ưu tiên việc cần làm trước.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Học tập",
+        "Thời gian"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0283",
+      "text": "Where there's muck there's brass.",
+      "vi": "Công việc bẩn thỉu hoặc khó chịu đôi khi đem lại nguồn thu nhập đáng kể.",
+      "ex": "My uncle says where there's muck there's brass when discussing recycling work.",
+      "exVi": "Chú tôi hay nói công việc vất vả đôi khi lại đem đến nguồn thu nhập tốt.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Tiền bạc",
+        "Môi trường"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0284",
+      "text": "There's no rest for the wicked.",
+      "vi": "Câu nói đùa khi phải tiếp tục làm việc dù đã rất mệt.",
+      "ex": "We finished one report and began another; there's no rest for the wicked.",
+      "exVi": "Chúng tôi vừa xong một báo cáo đã bắt đầu bản khác; đúng là chẳng được nghỉ.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Sức khỏe",
+        "Thời gian"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0285",
+      "text": "Time is money.",
+      "vi": "Thời gian rất quý; lãng phí thời gian cũng có thể đồng nghĩa với mất cơ hội kiếm tiền.",
+      "ex": "We took the direct train because time is money during a work trip.",
+      "exVi": "Chúng tôi đi tàu thẳng vì trong chuyến công tác, thời gian là tiền bạc.",
+      "level": "general",
+      "topics": [
+        "Thời gian",
+        "Công việc",
+        "Tiền bạc"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Thời gian là vàng",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0286",
+      "text": "Cheaters never prosper.",
+      "vi": "Gian lận có thể đem lại lợi ích trước mắt nhưng thường dẫn đến hậu quả về sau.",
+      "ex": "The teacher reminded us that cheaters never prosper after the exam.",
+      "exVi": "Sau kỳ thi, giáo viên nhắc rằng gian lận không thể đem lại thành công lâu dài.",
+      "level": "general",
+      "topics": [
+        "Học tập",
+        "Đạo đức",
+        "Thành công"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0287",
+      "text": "You can't take it with you.",
+      "vi": "Của cải vật chất không thể mang theo sau khi qua đời; câu này thường nhắc người ta biết tận hưởng cuộc sống.",
+      "ex": "She bought tickets for a long-awaited trip, reminding herself that you can't take it with you.",
+      "exVi": "Cô mua vé cho chuyến đi mong đợi từ lâu, tự nhắc rằng tiền bạc không thể mang theo mãi.",
+      "level": "general",
+      "topics": [
+        "Tiền bạc",
+        "Du lịch",
+        "Lối sống"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0288",
+      "text": "Old friends are best.",
+      "vi": "Những người bạn lâu năm thường đem lại sự thân thuộc và tin cậy đặc biệt.",
+      "ex": "After years apart, we picked up our conversation; old friends are best.",
+      "exVi": "Xa nhau nhiều năm, chúng tôi vẫn trò chuyện tự nhiên; bạn cũ vẫn thân thiết nhất.",
+      "level": "general",
+      "topics": [
+        "Bạn bè",
+        "Mối quan hệ",
+        "Thời gian"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0289",
+      "text": "A rising tide lifts all boats.",
+      "vi": "Khi điều kiện chung được cải thiện, nhiều người hoặc nhóm trong cộng đồng đều có thể hưởng lợi.",
+      "ex": "Our community training program created jobs for many local families; a rising tide lifts all boats.",
+      "exVi": "Chương trình đào tạo tạo việc làm cho nhiều gia đình; khi cộng đồng đi lên, mọi người cùng hưởng lợi.",
+      "level": "general",
+      "topics": [
+        "Cộng đồng",
+        "Công việc",
+        "Kinh tế"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}

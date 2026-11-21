@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "collection": "quotes",
+  "batch": "03",
+  "items": [
+    {
+      "id": "qte-0033",
+      "text": "One woe doth tread upon another’s heel.",
+      "vi": "Nỗi buồn này nối tiếp nỗi buồn khác.",
+      "ex": "The Queen observes, “One woe doth tread upon another’s heel.”",
+      "exVi": "Hoàng hậu nhận xét: “Nỗi buồn này giẫm lên gót nỗi buồn khác.”",
+      "src": "William Shakespeare · Hamlet (Second Quarto, 1604)",
+      "level": "general",
+      "topics": ["Khó khăn", "Cảm xúc"],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "qte-0034",
+      "text": "Things without all remedy should be without regard.",
+      "vi": "Điều không thể sửa đổi thì không nên tiếp tục khiến ta bận lòng.",
+      "ex": "Lady Macbeth says, “Things without all remedy should be without regard.”",
+      "exVi": "Phu nhân Macbeth nói: “Điều không thể cứu vãn thì đừng bận tâm nữa.”",
+      "src": "William Shakespeare · Macbeth (First Folio, 1623)",
+      "level": "general",
+      "topics": ["Chấp nhận", "Suy ngẫm"],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "qte-0035",
+      "text": "Macbeth does murder sleep.",
+      "vi": "Tội lỗi đã cướp đi sự bình yên và giấc ngủ của Macbeth.",
+      "ex": "A voice cries, “Macbeth does murder sleep.”",
+      "exVi": "Một giọng nói vang lên: “Macbeth đã sát hại giấc ngủ.”",
+      "src": "William Shakespeare · Macbeth (First Folio, 1623)",
+      "level": "general",
+      "topics": ["Tội lỗi", "Giấc ngủ"],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "qte-0036",
+      "text": "Tomorrow and tomorrow and tomorrow.",
+      "vi": "Ngày mai cứ nối tiếp ngày mai, gợi cảm giác thời gian trôi đều và lặp lại.",
+      "ex": "Macbeth repeats, “Tomorrow and tomorrow and tomorrow.”",
+      "exVi": "Macbeth lặp lại: “Ngày mai, rồi ngày mai, rồi lại ngày mai.”",
+      "src": "William Shakespeare · Macbeth (First Folio, 1623)",
+      "level": "general",
+      "topics": ["Thời gian", "Đời sống"],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "qte-0037",
+      "text": "Look like the innocent flower, but be the serpent under ’t.",
+      "vi": "Hãy tỏ vẻ vô hại trong khi che giấu ý định thật — lời khuyên mang sắc thái lừa dối.",
+      "ex": "Lady Macbeth advises, “Look like the innocent flower, but be the serpent under ’t.”",
+      "exVi": "Phu nhân Macbeth khuyên: “Hãy như đóa hoa ngây thơ, nhưng ẩn mình như rắn bên dưới.”",
+      "src": "William Shakespeare · Macbeth (First Folio, 1623)",
+      "level": "general",
+      "topics": ["Hình ảnh ẩn dụ", "Lừa dối"],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    }
+  ]
+}

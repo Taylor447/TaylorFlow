@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "collection": "idioms",
+  "batch": "26",
+  "items": [
+    {
+      "id": "idm-0759",
+      "text": "be in your element",
+      "vi": "Cảm thấy rất thoải mái và tự tin khi làm điều mình giỏi hoặc yêu thích.",
+      "ex": "Mina is in her element when she teaches children to swim.",
+      "exVi": "Mina rất tự tin khi dạy trẻ em bơi lội.",
+      "level": "B1",
+      "topics": [
+        "Sở thích",
+        "Sức khỏe"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0760",
+      "text": "in stitches",
+      "vi": "Cười không ngừng vì điều gì đó rất buồn cười.",
+      "ex": "The comedian had the audience in stitches with stories about travel.",
+      "exVi": "Danh hài khiến khán giả cười nghiêng ngả với những chuyện du lịch.",
+      "level": "B1",
+      "topics": [
+        "Truyền thông",
+        "Du lịch"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0761",
+      "text": "be on the safe side",
+      "vi": "Chọn cách thận trọng để tránh rủi ro.",
+      "ex": "We left early to be on the safe side before the road closed.",
+      "exVi": "Chúng tôi đi sớm cho chắc trước khi con đường bị đóng.",
+      "level": "B1",
+      "topics": [
+        "Giao thông",
+        "Du lịch"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0762",
+      "text": "be no picnic",
+      "vi": "Khó khăn hoặc không dễ chịu như mong đợi.",
+      "ex": "Looking after a newborn is no picnic, even with family support.",
+      "exVi": "Chăm sóc trẻ sơ sinh không hề dễ dàng, ngay cả khi có gia đình giúp đỡ.",
+      "level": "B1",
+      "topics": [
+        "Gia đình",
+        "Sức khỏe"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0763",
+      "text": "brush up on",
+      "vi": "Ôn lại kiến thức hoặc kỹ năng đã học trước đây.",
+      "ex": "I need to brush up on my grammar before the speaking test.",
+      "exVi": "Tôi cần ôn lại ngữ pháp trước bài thi nói.",
+      "level": "B1",
+      "topics": [
+        "Giáo dục",
+        "Học tập"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0764",
+      "text": "by all means",
+      "vi": "Được dùng để đồng ý nhiệt tình hoặc khuyến khích ai làm điều gì.",
+      "ex": "By all means, borrow my notes if they help with your revision.",
+      "exVi": "Cứ tự nhiên mượn ghi chép của tôi nếu chúng giúp bạn ôn bài.",
+      "level": "B1",
+      "topics": [
+        "Giáo dục",
+        "Giao tiếp"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0765",
+      "text": "call it quits",
+      "vi": "Quyết định dừng một việc hoặc chấm dứt một hoạt động.",
+      "ex": "After two hours of gardening, we called it quits before dark.",
+      "exVi": "Sau hai giờ làm vườn, chúng tôi dừng lại trước khi trời tối.",
+      "level": "B1",
+      "topics": [
+        "Môi trường",
+        "Thời gian"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0766",
+      "text": "cost a pretty penny",
+      "vi": "Có giá khá cao hoặc tốn nhiều tiền.",
+      "ex": "A reliable electric bike can cost a pretty penny.",
+      "exVi": "Một chiếc xe đạp điện đáng tin cậy có thể khá đắt.",
+      "level": "B1",
+      "topics": [
+        "Tiền bạc",
+        "Giao thông"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0767",
+      "text": "cross your fingers",
+      "vi": "Hy vọng một việc sẽ diễn ra theo hướng tốt đẹp.",
+      "ex": "I am crossing my fingers that the scholarship results arrive today.",
+      "exVi": "Tôi đang hy vọng hôm nay sẽ có kết quả học bổng.",
+      "level": "B1",
+      "topics": [
+        "Giáo dục",
+        "Cảm xúc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0768",
+      "text": "cry over spilt milk",
+      "vi": "Buồn bực về việc đã xảy ra và không thể thay đổi.",
+      "ex": "There is no use crying over spilt milk; we can repair the chair.",
+      "exVi": "Buồn chuyện đã rồi cũng không ích gì; chúng ta có thể sửa chiếc ghế.",
+      "level": "B1",
+      "topics": [
+        "Nhà cửa",
+        "Cảm xúc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0769",
+      "text": "drive someone up the wall",
+      "vi": "Khiến ai đó vô cùng khó chịu.",
+      "ex": "The constant drilling can drive me up the wall during online lessons.",
+      "exVi": "Tiếng khoan liên tục có thể khiến tôi phát bực trong giờ học trực tuyến.",
+      "level": "B1",
+      "topics": [
+        "Nhà cửa",
+        "Giáo dục"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0770",
+      "text": "give someone a hand",
+      "vi": "Giúp ai đó làm một việc cụ thể.",
+      "ex": "Could you give your neighbour a hand with those heavy boxes?",
+      "exVi": "Bạn có thể giúp người hàng xóm chuyển mấy thùng đồ nặng không?",
+      "level": "B1",
+      "topics": [
+        "Cộng đồng",
+        "Nhà cửa"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0771",
+      "text": "go from strength to strength",
+      "vi": "Ngày càng phát triển hoặc thành công hơn.",
+      "ex": "The neighbourhood project continues to go from strength to strength.",
+      "exVi": "Dự án khu phố tiếp tục phát triển ngày càng tốt hơn.",
+      "level": "B2",
+      "topics": [
+        "Cộng đồng",
+        "Thành công"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0772",
+      "text": "have the time of your life",
+      "vi": "Có khoảng thời gian vui vẻ và đáng nhớ nhất.",
+      "ex": "You can have the time of your life exploring the mountain villages.",
+      "exVi": "Chúng tôi đã có những ngày đáng nhớ khi khám phá các làng miền núi.",
+      "level": "B2",
+      "topics": [
+        "Du lịch",
+        "Trải nghiệm"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0773",
+      "text": "keep your eyes peeled",
+      "vi": "Quan sát thật kỹ để không bỏ lỡ điều mình đang tìm.",
+      "ex": "Keep your eyes peeled for the small sign beside the forest path.",
+      "exVi": "Hãy chú ý tìm tấm biển nhỏ bên lối đi trong rừng.",
+      "level": "B2",
+      "topics": [
+        "Du lịch",
+        "Môi trường"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0774",
+      "text": "make a killing",
+      "vi": "Kiếm được rất nhiều tiền từ một hoạt động hoặc cơ hội.",
+      "ex": "The shop hopes to make a killing during the holiday season.",
+      "exVi": "Cửa hàng hy vọng kiếm được nhiều tiền trong mùa lễ hội.",
+      "level": "B2",
+      "topics": [
+        "Tiền bạc",
+        "Công việc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0775",
+      "text": "make your way",
+      "vi": "Di chuyển đến một nơi hoặc tìm đường đi tới đó.",
+      "ex": "Please make your way to the main hall after registration.",
+      "exVi": "Vui lòng đi đến hội trường chính sau khi đăng ký.",
+      "level": "B2",
+      "topics": [
+        "Du lịch",
+        "Sự kiện"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0776",
+      "text": "not all it is cracked up to be",
+      "vi": "Không tốt hoặc hấp dẫn như mọi người thường quảng bá.",
+      "ex": "The famous resort is not all it is cracked up to be in winter.",
+      "exVi": "Bãi biển nổi tiếng không đẹp như lời đồn vào mùa đông.",
+      "level": "B2",
+      "topics": [
+        "Du lịch",
+        "Thời tiết"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0777",
+      "text": "off your rocker",
+      "vi": "Cư xử rất thiếu lý trí hoặc đưa ra ý tưởng có vẻ vô lý.",
+      "ex": "You would be off your rocker to cycle there without a helmet.",
+      "exVi": "Bạn thật thiếu suy nghĩ nếu đạp xe đến đó mà không đội mũ bảo hiểm.",
+      "level": "B2",
+      "topics": [
+        "Giao thông",
+        "Sức khỏe"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0778",
+      "text": "one thing leads to another",
+      "vi": "Một sự việc kéo theo nhiều sự việc khác.",
+      "ex": "One thing leads to another when the whole group starts sharing stories.",
+      "exVi": "Chúng tôi dừng uống trà, rồi trò chuyện mãi đến tận nửa đêm.",
+      "level": "B2",
+      "topics": [
+        "Quan hệ",
+        "Thời gian"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0779",
+      "text": "see the bigger picture",
+      "vi": "Nhìn toàn cảnh thay vì chỉ tập trung vào một chi tiết nhỏ.",
+      "ex": "The coach asked us to see the bigger picture before changing the training plan.",
+      "exVi": "Huấn luyện viên yêu cầu chúng tôi nhìn tổng thể trước khi đổi kế hoạch tập luyện.",
+      "level": "B2",
+      "topics": [
+        "Thể thao",
+        "Công việc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0780",
+      "text": "stand out from the crowd",
+      "vi": "Nổi bật hơn những người hoặc lựa chọn khác.",
+      "ex": "Her practical design helped the product stand out from the crowd.",
+      "exVi": "Thiết kế thiết thực giúp sản phẩm nổi bật giữa các lựa chọn khác.",
+      "level": "B2",
+      "topics": [
+        "Công nghệ",
+        "Công việc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0781",
+      "text": "take your pick",
+      "vi": "Tự chọn một món hoặc một phương án trong số nhiều lựa chọn.",
+      "ex": "We have three walking routes, so take your pick.",
+      "exVi": "Chúng tôi có ba tuyến đi bộ, bạn cứ chọn tuyến mình thích.",
+      "level": "B2",
+      "topics": [
+        "Du lịch",
+        "Sở thích"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0782",
+      "text": "the last word",
+      "vi": "Quyền đưa ra quyết định hoặc ý kiến cuối cùng về một việc.",
+      "ex": "The director has the last word on the exhibition budget.",
+      "exVi": "Giám đốc có quyền quyết định cuối cùng về ngân sách triển lãm.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Nghệ thuật"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0783",
+      "text": "use your head",
+      "vi": "Suy nghĩ cẩn thận và thực tế trước khi hành động.",
+      "ex": "Use your head and check the weather before choosing a hiking trail.",
+      "exVi": "Hãy suy nghĩ kỹ và xem dự báo trước khi chọn đường đi bộ.",
+      "level": "B2",
+      "topics": [
+        "Thời tiết",
+        "Du lịch"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0784",
+      "text": "be in the same league",
+      "vi": "Có chất lượng hoặc vị thế tương đương với đối tượng khác.",
+      "ex": "The two colleges are in the same league for student support.",
+      "exVi": "Hai trường cao đẳng có chất lượng hỗ trợ sinh viên tương đương nhau.",
+      "level": "B2",
+      "topics": [
+        "Giáo dục",
+        "Cộng đồng"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0785",
+      "text": "in it for the long haul",
+      "vi": "Cam kết tiếp tục làm việc gì trong thời gian dài.",
+      "ex": "The volunteers are in it for the long haul, not just one weekend.",
+      "exVi": "Các tình nguyện viên cam kết gắn bó lâu dài, chứ không chỉ một cuối tuần.",
+      "level": "B2",
+      "topics": [
+        "Cộng đồng",
+        "Thời gian"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0786",
+      "text": "come to blows",
+      "vi": "Bắt đầu đánh nhau sau một cuộc tranh cãi.",
+      "ex": "The argument nearly came to blows before neighbours stepped in.",
+      "exVi": "Cuộc tranh cãi suýt dẫn đến đánh nhau trước khi hàng xóm can thiệp.",
+      "level": "B2",
+      "topics": [
+        "Quan hệ",
+        "Cộng đồng"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0787",
+      "text": "cut a dash",
+      "vi": "Ăn mặc hoặc xuất hiện thật nổi bật và ấn tượng.",
+      "ex": "He cut a dash in a neatly tailored suit at the ceremony.",
+      "exVi": "Anh ấy xuất hiện thật bảnh bao trong bộ vest may vừa vặn tại buổi lễ.",
+      "level": "B2",
+      "topics": [
+        "Thời trang",
+        "Sự kiện"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0788",
+      "text": "at a loose end",
+      "vi": "Không có việc gì cụ thể để làm hoặc không biết nên làm gì tiếp.",
+      "ex": "I felt at a loose end during the quiet week between courses.",
+      "exVi": "Tôi thấy không biết làm gì trong tuần nghỉ giữa hai khóa học.",
+      "level": "C1",
+      "topics": [
+        "Thời gian",
+        "Giáo dục"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0789",
+      "text": "be no stranger to",
+      "vi": "Đã quen hoặc từng trải qua điều gì nhiều lần.",
+      "ex": "The coastal town is no stranger to strong winter winds.",
+      "exVi": "Thị trấn ven biển vốn quen với những cơn gió mùa đông mạnh.",
+      "level": "C1",
+      "topics": [
+        "Thời tiết",
+        "Địa điểm"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0790",
+      "text": "not the end of the world",
+      "vi": "Không phải điều tồi tệ đến mức không thể khắc phục.",
+      "ex": "Missing one practice session is not the end of the world.",
+      "exVi": "Bỏ lỡ một buổi luyện tập không phải chuyện quá nghiêm trọng.",
+      "level": "C1",
+      "topics": [
+        "Học tập",
+        "Cảm xúc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0791",
+      "text": "a stroke of luck",
+      "vi": "Một điều may mắn xảy ra bất ngờ.",
+      "ex": "Finding a flat near campus was a stroke of luck for the students.",
+      "exVi": "Tìm được căn hộ gần trường là điều may mắn bất ngờ với các sinh viên.",
+      "level": "C1",
+      "topics": [
+        "Giáo dục",
+        "Nhà cửa"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0792",
+      "text": "back on track",
+      "vi": "Quay lại đúng hướng hoặc tiếp tục tiến triển sau trở ngại.",
+      "ex": "After a short break, our study group is back on track.",
+      "exVi": "Sau một kỳ nghỉ ngắn, nhóm học của chúng tôi đã trở lại đúng tiến độ.",
+      "level": "C1",
+      "topics": [
+        "Giáo dục",
+        "Thời gian"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0793",
+      "text": "be at your best",
+      "vi": "Thể hiện năng lực hoặc trạng thái tốt nhất của mình.",
+      "ex": "I am at my best when I have slept well and planned the day.",
+      "exVi": "Tôi làm việc tốt nhất khi ngủ đủ và lên kế hoạch cho ngày mới.",
+      "level": "C1",
+      "topics": [
+        "Sức khỏe",
+        "Công việc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0794",
+      "text": "be on the lookout",
+      "vi": "Chủ động quan sát để phát hiện điều cần chú ý.",
+      "ex": "Park staff are on the lookout for litter near the lake.",
+      "exVi": "Nhân viên công viên chú ý phát hiện rác quanh hồ.",
+      "level": "C1",
+      "topics": [
+        "Môi trường",
+        "Cộng đồng"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0795",
+      "text": "come to mind",
+      "vi": "Xuất hiện trong suy nghĩ hoặc được nhớ ra.",
+      "ex": "When I think of home cooking, my grandmother's soup comes to mind.",
+      "exVi": "Khi nghĩ đến món nhà nấu, tôi nhớ ngay đến món súp của bà.",
+      "level": "C1",
+      "topics": [
+        "Đồ ăn",
+        "Gia đình"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0796",
+      "text": "do the bare minimum",
+      "vi": "Chỉ làm đúng mức tối thiểu cần thiết, không cố gắng thêm.",
+      "ex": "The contractor chose to do the bare minimum and ignored the garden path.",
+      "exVi": "Nhà thầu chỉ làm mức tối thiểu và bỏ qua lối đi trong vườn.",
+      "level": "C1",
+      "topics": [
+        "Công việc",
+        "Nhà cửa"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0797",
+      "text": "have a good head on your shoulders",
+      "vi": "Suy nghĩ chín chắn và biết đưa ra quyết định hợp lý.",
+      "ex": "She has a good head on her shoulders and manages money carefully.",
+      "exVi": "Cô ấy chín chắn và quản lý tiền bạc cẩn thận.",
+      "level": "C1",
+      "topics": [
+        "Tiền bạc",
+        "Cảm xúc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0798",
+      "text": "the sky's the limit",
+      "vi": "Không có giới hạn rõ ràng cho những gì có thể đạt được.",
+      "ex": "With good training and support, the sky's the limit for young athletes.",
+      "exVi": "Với huấn luyện và hỗ trợ tốt, các vận động viên trẻ có thể vươn rất xa.",
+      "level": "C1",
+      "topics": [
+        "Thể thao",
+        "Thành công"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}

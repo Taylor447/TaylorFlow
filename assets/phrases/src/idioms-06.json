@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "collection": "idioms",
+  "batch": "06",
+  "items": [
+    {
+      "id": "idm-0071",
+      "text": "hold your horses",
+      "vi": "Bình tĩnh và đợi thêm một chút trước khi hành động.",
+      "ex": "Hold your horses; the bus has not reached the stop yet.",
+      "exVi": "Bình tĩnh nhé, xe buýt vẫn chưa đến trạm.",
+      "level": "B1",
+      "topics": [
+        "Thời gian",
+        "Giao thông"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0072",
+      "text": "get a head start",
+      "vi": "Bắt đầu sớm hơn để có lợi thế.",
+      "ex": "We left before dawn to get a head start on the mountain trail.",
+      "exVi": "Chúng tôi rời đi trước bình minh để có lợi thế trên đường lên núi.",
+      "level": "B1",
+      "topics": [
+        "Du lịch",
+        "Thời gian"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0073",
+      "text": "in the middle of nowhere",
+      "vi": "Ở một nơi xa xôi, hẻo lánh.",
+      "ex": "Their small guesthouse is in the middle of nowhere.",
+      "exVi": "Nhà nghỉ nhỏ của họ nằm ở một nơi hẻo lánh.",
+      "level": "B1",
+      "topics": [
+        "Du lịch",
+        "Địa điểm"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0074",
+      "text": "jump to conclusions",
+      "vi": "Vội kết luận khi chưa có đủ thông tin.",
+      "ex": "Do not jump to conclusions before you hear both sides of the story.",
+      "exVi": "Đừng vội kết luận trước khi nghe cả hai phía.",
+      "level": "B2",
+      "topics": [
+        "Giao tiếp",
+        "Trách nhiệm"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0075",
+      "text": "give someone the benefit of the doubt",
+      "vi": "Tạm tin ai đó khi chưa có bằng chứng rõ ràng.",
+      "ex": "The team decided to give the trainee the benefit of the doubt after one mistake.",
+      "exVi": "Quản lý tạm tin nhân viên mới sau một sai sót.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Mối quan hệ"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0076",
+      "text": "get out of bed on the wrong side",
+      "vi": "Thức dậy trong tâm trạng cáu kỉnh, khó chịu.",
+      "ex": "He seemed to have got out of bed on the wrong side this morning.",
+      "exVi": "Sáng nay anh ấy có vẻ thức dậy với tâm trạng không vui.",
+      "level": "B2",
+      "topics": [
+        "Cảm xúc",
+        "Lối sống"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0077",
+      "text": "go hand in hand",
+      "vi": "Có mối liên hệ chặt chẽ hoặc thường đi cùng nhau.",
+      "ex": "Good planning and realistic budgets go hand in hand.",
+      "exVi": "Lập kế hoạch tốt và ngân sách thực tế thường đi cùng nhau.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Tiền bạc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0078",
+      "text": "throw a spanner in the works",
+      "vi": "Gây trở ngại bất ngờ cho một kế hoạch hoặc quá trình.",
+      "ex": "A sudden power cut can throw a spanner in the works during an event.",
+      "exVi": "Mất điện đột ngột làm gián đoạn sự kiện.",
+      "level": "B2",
+      "topics": [
+        "Công nghệ",
+        "Sự kiện"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0079",
+      "text": "drive a hard bargain",
+      "vi": "Thương lượng quyết liệt để đạt điều kiện có lợi.",
+      "ex": "Farmers drive a hard bargain when negotiating land leases.",
+      "exVi": "Nông dân thương lượng quyết liệt khi đàm phán hợp đồng thuê đất.",
+      "level": "C1",
+      "topics": [
+        "Kinh doanh",
+        "Tiền bạc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0080",
+      "text": "up in arms",
+      "vi": "Rất tức giận và phản đối mạnh mẽ một việc.",
+      "ex": "Local residents were up in arms about the planned demolition.",
+      "exVi": "Người dân địa phương tức giận và phản đối kế hoạch phá dỡ.",
+      "level": "C1",
+      "topics": [
+        "Cộng đồng",
+        "Nhà cửa"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "schemaVersion": 1,
+  "collection": "proverbs",
+  "batch": "14",
+  "items": [
+    {
+      "id": "prv-0370",
+      "text": "A good beginning makes a good ending.",
+      "vi": "Khởi đầu tốt thường tạo nền tảng thuận lợi để hoàn thành công việc.",
+      "ex": "We planned carefully from day one; a good beginning makes a good ending.",
+      "exVi": "Chúng tôi lên kế hoạch cẩn thận từ ngày đầu; khởi đầu tốt giúp kết quả thuận lợi.",
+      "level": "general",
+      "topics": [
+        "Lập kế hoạch",
+        "Công việc"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Đầu xuôi đuôi lọt",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0371",
+      "text": "A nod is as good as a wink to a blind horse.",
+      "vi": "Một lời gợi ý ngắn cũng đủ cho người đã hiểu ý.",
+      "ex": "She understood his hint immediately; a nod is as good as a wink to a blind horse.",
+      "exVi": "Cô hiểu ngay lời gợi ý của anh; người hiểu ý thì không cần giải thích dài.",
+      "level": "general",
+      "topics": [
+        "Giao tiếp",
+        "Quan hệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Người khôn nói ít hiểu nhiều",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0372",
+      "text": "A young idler, an old beggar.",
+      "vi": "Lười biếng khi còn trẻ có thể khiến tuổi già thiếu thốn.",
+      "ex": "He saved and learned a trade; a young idler, an old beggar.",
+      "exVi": "Anh vừa tiết kiệm vừa học nghề; lười biếng lúc trẻ có thể khiến tuổi già khó khăn.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Tuổi tác"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Trẻ cậy cha, già cậy con",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0373",
+      "text": "An old fox is not easily snared.",
+      "vi": "Người nhiều kinh nghiệm thường khó bị đánh lừa.",
+      "ex": "The veteran negotiator noticed the hidden fee; an old fox is not easily snared.",
+      "exVi": "Nhà đàm phán dày dạn nhận ra khoản phí ẩn; người nhiều kinh nghiệm khó bị mắc lừa.",
+      "level": "general",
+      "topics": [
+        "Kinh nghiệm",
+        "Tiền bạc"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Gừng càng già càng cay",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0374",
+      "text": "Ask no questions and hear no lies.",
+      "vi": "Đôi khi không hỏi về điều nhạy cảm giúp tránh nghe lời nói dối hoặc gây khó xử.",
+      "ex": "He avoided probing into her private matter; ask no questions and hear no lies.",
+      "exVi": "Anh không hỏi sâu chuyện riêng của cô; đôi khi không hỏi giúp tránh nghe lời nói dối.",
+      "level": "general",
+      "topics": [
+        "Giao tiếp",
+        "Quan hệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0375",
+      "text": "Better a little fire to warm us than a great one to burn us.",
+      "vi": "Điều vừa đủ và an toàn đôi khi tốt hơn tham vọng quá mức gây hại.",
+      "ex": "We chose wisely; better a little fire to warm us than a great one to burn us.",
+      "exVi": "Khoản vay nhỏ nằm trong khả năng; vừa đủ an toàn tốt hơn tham vọng quá mức.",
+      "level": "general",
+      "topics": [
+        "Tiền bạc",
+        "An toàn"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Tham thì thâm",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0376",
+      "text": "Better be the head of a dog than the tail of a lion.",
+      "vi": "Đôi khi làm người dẫn đầu trong một nhóm nhỏ thích hợp hơn chỉ là cấp dưới trong nhóm lớn.",
+      "ex": "She led the small team; better be the head of a dog than the tail of a lion.",
+      "exVi": "Cô chọn dẫn dắt đội địa phương; làm người đứng đầu nhóm nhỏ đôi khi phù hợp hơn.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Lãnh đạo"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0377",
+      "text": "Do not halloo till you are out of the wood.",
+      "vi": "Đừng ăn mừng hoặc tuyên bố thành công trước khi thực sự vượt qua khó khăn.",
+      "ex": "The team waited for final approval; do not halloo till you are out of the wood.",
+      "exVi": "Nhóm chờ phê duyệt cuối cùng; đừng vội ăn mừng khi việc chưa thật sự xong.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Kiên trì"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Chớ thấy sóng cả mà ngã tay chèo",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0378",
+      "text": "Do not kick against the pricks.",
+      "vi": "Đừng cố chống lại điều không thể thay đổi theo cách chỉ khiến bản thân chịu thiệt.",
+      "ex": "He accepted the new timetable instead of arguing; do not kick against the pricks.",
+      "exVi": "Anh chấp nhận thời khóa biểu mới thay vì tranh cãi; chống lại điều không đổi được chỉ thêm thiệt thân.",
+      "level": "general",
+      "topics": [
+        "Ra quyết định",
+        "Học tập"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0379",
+      "text": "Do not make fish of one and flesh of another.",
+      "vi": "Hãy đối xử công bằng, đừng ưu ái người này và khắt khe với người khác.",
+      "ex": "The teacher used one marking standard for everyone; do not make fish of one and flesh of another.",
+      "exVi": "Giáo viên chấm mọi người theo cùng một tiêu chuẩn; đừng thiên vị người này hơn người kia.",
+      "level": "general",
+      "topics": [
+        "Giáo dục",
+        "Công bằng"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0380",
+      "text": "Do not spur a willing horse.",
+      "vi": "Đừng thúc ép quá mức người vốn đã sẵn lòng và chủ động làm việc.",
+      "ex": "Her coach quoted, do not spur a willing horse, because she practised daily.",
+      "exVi": "Cô vốn đã luyện tập mỗi ngày nên huấn luyện viên không thúc ép thêm.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Học tập"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0381",
+      "text": "Every man is the architect of his own fortune.",
+      "vi": "Lựa chọn và hành động của mỗi người góp phần tạo nên tương lai của họ.",
+      "ex": "He built his career through steady effort; every man is the architect of his own fortune.",
+      "exVi": "Anh xây dựng sự nghiệp bằng nỗ lực bền bỉ; mỗi người góp phần tạo nên tương lai mình.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Thành công"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0382",
+      "text": "Fools build houses, wise men live in them.",
+      "vi": "Người có tầm nhìn có thể hưởng lợi từ công sức hoặc sai lầm của người khác.",
+      "ex": "The investor bought the abandoned property cheaply; fools build houses, wise men live in them.",
+      "exVi": "Nhà đầu tư mua rẻ căn nhà bỏ trống; người sáng suốt đôi khi biết tận dụng công sức có sẵn.",
+      "level": "general",
+      "topics": [
+        "Nhà cửa",
+        "Tiền bạc"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0383",
+      "text": "He that is warm thinks all so.",
+      "vi": "Người đang có điều kiện thuận lợi đôi khi quên rằng người khác có thể đang thiếu thốn.",
+      "ex": "The manager assumed every worker had heating at home; he that is warm thinks all so.",
+      "exVi": "Quản lý cho rằng ai cũng có máy sưởi ở nhà; người đủ đầy đôi khi quên khó khăn của người khác.",
+      "level": "general",
+      "topics": [
+        "Cộng đồng",
+        "Đời sống"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0384",
+      "text": "He who would climb the ladder must begin at the bottom.",
+      "vi": "Muốn tiến xa, ta thường phải bắt đầu từ những bước cơ bản.",
+      "ex": "She started as an intern; he who would climb the ladder must begin at the bottom.",
+      "exVi": "Cô bắt đầu với vị trí thực tập; muốn tiến xa thường phải khởi đầu từ việc cơ bản.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Kiên trì"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Có công mài sắt, có ngày nên kim",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0385",
+      "text": "If you can't be good, be careful.",
+      "vi": "Nếu không thể cư xử đúng mực, ít nhất hãy thận trọng để tránh gây thêm rắc rối.",
+      "ex": "He joked before sending the message: if you can't be good, be careful.",
+      "exVi": "Anh đùa trước khi gửi tin nhắn: nếu không định ngoan thì ít nhất hãy cẩn thận.",
+      "level": "general",
+      "topics": [
+        "Giao tiếp",
+        "Đạo đức"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0386",
+      "text": "It's an ill bird that fouls its own nest.",
+      "vi": "Người làm hại chính cộng đồng hoặc gia đình mình thường bị đánh giá rất tiêu cực.",
+      "ex": "She refused to spread damaging rumours; it's an ill bird that fouls its own nest.",
+      "exVi": "Cô không lan truyền tin đồn gây hại; làm tổn thương chính cộng đồng mình là điều đáng chê trách.",
+      "level": "general",
+      "topics": [
+        "Cộng đồng",
+        "Gia đình"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0387",
+      "text": "The first hundred years are the hardest.",
+      "vi": "Câu nói hài hước rằng một công việc kéo dài mãi hoặc rất gian nan.",
+      "ex": "After another renovation delay, he joked that the first hundred years are the hardest.",
+      "exVi": "Sau lần trì hoãn sửa nhà nữa, anh đùa rằng trăm năm đầu tiên là khó nhất.",
+      "level": "general",
+      "topics": [
+        "Nhà cửa",
+        "Hài hước"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0388",
+      "text": "A secret between more than two is no secret.",
+      "vi": "Bí mật càng được chia sẻ với nhiều người thì càng khó giữ kín.",
+      "ex": "She told only one trusted friend; a secret between more than two is no secret.",
+      "exVi": "Cô chỉ kể với một người bạn đáng tin; bí mật càng nhiều người biết càng khó giữ.",
+      "level": "general",
+      "topics": [
+        "Quan hệ",
+        "Bí mật"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0389",
+      "text": "Ne'er cast a clout till May be out.",
+      "vi": "Tục ngữ thời tiết khuyên chưa nên cất áo ấm cho đến khi tháng Năm kết thúc.",
+      "ex": "The mornings stayed chilly, so my grandmother quoted, ne'er cast a clout till May be out.",
+      "exVi": "Sáng vẫn lạnh nên bà tôi nhắc chưa hết tháng Năm thì đừng cất áo ấm.",
+      "level": "general",
+      "topics": [
+        "Thời tiết",
+        "Gia đình"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0390",
+      "text": "Red sky at night, shepherd's delight.",
+      "vi": "Bầu trời đỏ lúc hoàng hôn thường được xem là dấu hiệu thời tiết thuận lợi ngày hôm sau.",
+      "ex": "The sunset glowed red; red sky at night, shepherd's delight.",
+      "exVi": "Hoàng hôn đỏ rực; trời đỏ buổi tối thường báo hiệu ngày mai thuận lợi.",
+      "level": "general",
+      "topics": [
+        "Thời tiết",
+        "Thiên nhiên"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0391",
+      "text": "March comes in like a lion and goes out like a lamb.",
+      "vi": "Thời tiết tháng Ba thường bắt đầu khắc nghiệt rồi dịu dần về cuối tháng.",
+      "ex": "March was harsh; March comes in like a lion and goes out like a lamb.",
+      "exVi": "Gió lạnh dịu đi vào cuối tháng Ba; đầu tháng khắc nghiệt rồi cuối tháng dễ chịu hơn.",
+      "level": "general",
+      "topics": [
+        "Thời tiết",
+        "Thiên nhiên"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0392",
+      "text": "Never go to bed on an argument.",
+      "vi": "Cố gắng giải quyết bất đồng trước khi nghỉ ngơi để tránh kéo dài căng thẳng.",
+      "ex": "They apologized before sleeping; never go to bed on an argument.",
+      "exVi": "Họ xin lỗi nhau trước khi ngủ; đừng để bất đồng kéo dài qua đêm.",
+      "level": "general",
+      "topics": [
+        "Quan hệ",
+        "Gia đình"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0393",
+      "text": "A good name is sooner lost than won.",
+      "vi": "Danh tiếng tốt khó gây dựng nhưng có thể mất đi rất nhanh.",
+      "ex": "She guarded her reputation; a good name is sooner lost than won.",
+      "exVi": "Cô giữ gìn danh tiếng; danh tiếng tốt khó gây dựng nhưng dễ mất đi.",
+      "level": "general",
+      "topics": [
+        "Danh tiếng",
+        "Quan hệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0394",
+      "text": "Don't spoil the ship for a ha'p'orth of tar.",
+      "vi": "Đừng vì tiết kiệm một khoản nhỏ mà làm hỏng một việc hoặc tài sản lớn.",
+      "ex": "They bought proper sealant; don't spoil the ship for a ha'p'orth of tar.",
+      "exVi": "Họ mua keo chống thấm tốt; đừng vì tiếc khoản nhỏ mà làm hỏng việc lớn.",
+      "level": "general",
+      "topics": [
+        "Tiền bạc",
+        "Nhà cửa"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Tham bát bỏ mâm",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0395",
+      "text": "First impressions are the most lasting.",
+      "vi": "Ấn tượng đầu tiên thường ảnh hưởng lâu dài đến cách ta nhìn nhận một người.",
+      "ex": "He arrived prepared and polite; first impressions are the most lasting.",
+      "exVi": "Anh đến đúng giờ và lịch sự; ấn tượng đầu tiên thường khó phai.",
+      "level": "general",
+      "topics": [
+        "Quan hệ",
+        "Công việc"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0396",
+      "text": "Finders keepers, losers weepers.",
+      "vi": "Câu nói trẻ con cho rằng người tìm được món đồ có thể giữ nó, dù không phải quy tắc sở hữu thực tế.",
+      "ex": "The children laughed, chanting finders keepers, losers weepers over a toy.",
+      "exVi": "Bọn trẻ cười và đọc câu ai tìm được thì giữ khi tranh nhau món đồ chơi.",
+      "level": "general",
+      "topics": [
+        "Trẻ em",
+        "Đồ vật"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0397",
+      "text": "Even a worm will turn.",
+      "vi": "Người thường nhẫn nhịn cũng có lúc phản kháng nếu bị đối xử tệ quá lâu.",
+      "ex": "After months of unfair treatment, she finally protested; even a worm will turn.",
+      "exVi": "Sau nhiều tháng bị đối xử bất công, cuối cùng cô lên tiếng; ai cũng có giới hạn.",
+      "level": "general",
+      "topics": [
+        "Công bằng",
+        "Cảm xúc"
+      ],
+      "reg": "not-applicable",
+      "equiv": "Tức nước vỡ bờ",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0398",
+      "text": "Flattery will get you nowhere.",
+      "vi": "Nịnh nọt không giúp đạt kết quả thực chất hoặc xây dựng sự tin tưởng lâu dài.",
+      "ex": "The committee wanted evidence, not compliments; flattery will get you nowhere.",
+      "exVi": "Hội đồng cần bằng chứng chứ không cần lời tâng bốc; nịnh nọt không ích gì.",
+      "level": "general",
+      "topics": [
+        "Công việc",
+        "Giao tiếp"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0399",
+      "text": "Horses for courses.",
+      "vi": "Người hoặc phương pháp khác nhau phù hợp với những hoàn cảnh và nhiệm vụ khác nhau.",
+      "ex": "One tutor suited beginners, another advanced learners; horses for courses.",
+      "exVi": "Một gia sư hợp với người mới, người khác hợp với học viên nâng cao; mỗi người một thế mạnh.",
+      "level": "general",
+      "topics": [
+        "Giáo dục",
+        "Công việc"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "prv-0400",
+      "text": "You pays your money and you takes your choice.",
+      "vi": "Sau khi biết các lựa chọn và đánh đổi, mỗi người tự quyết định theo sở thích của mình.",
+      "ex": "Both routes had drawbacks; you pays your money and you takes your choice.",
+      "exVi": "Cả hai tuyến đường đều có bất tiện; cuối cùng mỗi người tự chọn điều mình thích.",
+      "level": "general",
+      "topics": [
+        "Ra quyết định",
+        "Du lịch"
+      ],
+      "reg": "not-applicable",
+      "equiv": "",
+      "ielts": 0,
+      "reviewed": false
+    }
+  ]
+}

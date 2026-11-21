@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "phase": 5,
+  "targets": {
+    "idioms": 1000,
+    "proverbs": 400,
+    "quotes": 300
+  },
+  "existingInHtml": {
+    "idioms": 24,
+    "proverbs": 24,
+    "quotes": 20
+  },
+  "migratedExisting": {
+    "idioms": 24,
+    "proverbs": 24,
+    "quotes": 20
+  },
+  "authoredNew": {
+    "idioms": 976,
+    "proverbs": 376,
+    "quotes": 280
+  },
+  "assetItems": {
+    "idioms": 1000,
+    "proverbs": 400,
+    "quotes": 300
+  },
+  "completed": {
+    "idioms": 1000,
+    "proverbs": 400,
+    "quotes": 300
+  },
+  "updated": "2026-11-21"
+}

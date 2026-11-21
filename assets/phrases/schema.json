@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taylorflow.local/schema/phrase-pack-v1.json",
+  "title": "TaylorFlow phrase pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "collection", "items"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "collection": { "enum": ["idioms", "proverbs", "quotes"] },
+    "batch": { "type": "string", "pattern": "^[0-9]{2,}$" },
+    "items": {
+      "type": "array",
+      "maxItems": 40,
+      "items": { "$ref": "#/$defs/phrase" }
+    }
+  },
+  "$defs": {
+    "phrase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "text", "vi", "ex", "exVi", "level", "topics", "reg", "equiv", "ielts", "reviewed"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^(idm|prv|qte)-[0-9]{4,}$" },
+        "text": { "type": "string", "minLength": 1 },
+        "vi": { "type": "string", "minLength": 1 },
+        "ex": { "type": "string", "minLength": 1 },
+        "exVi": { "type": "string", "minLength": 1 },
+        "src": { "type": ["string", "null"] },
+        "level": { "enum": ["A1", "A2", "B1", "B2", "C1", "C2", "general", "unrated"] },
+        "topics": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "reg": { "enum": ["neutral", "informal", "formal", "not-applicable", null] },
+        "equiv": { "type": ["string", "null"] },
+        "ielts": { "enum": [0, 1] },
+        "reviewed": { "const": false },
+        "note": { "type": "string" }
+      }
+    }
+  }
+}

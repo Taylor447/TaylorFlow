@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "collection": "quotes",
+  "batch": "01",
+  "items": [
+    {
+      "id": "qte-0001",
+      "text": "“To be, or not to be: that is the question.”",
+      "vi": "Suy ngẫm về sự tồn tại và lựa chọn.",
+      "ex": "The line “To be, or not to be: that is the question” comes from Hamlet.",
+      "exVi": "Câu “Tồn tại hay không tồn tại: đó là câu hỏi” trích từ vở Hamlet.",
+      "src": "William Shakespeare · Hamlet",
+      "level": "general",
+      "topics": [
+        "Lựa chọn",
+        "Suy ngẫm"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0002",
+      "text": "“Brevity is the soul of wit.”",
+      "vi": "Sự ngắn gọn là cốt lõi của trí tuệ và sự hóm hỉnh.",
+      "ex": "In a concise presentation, brevity is the soul of wit.",
+      "exVi": "Trong một bài thuyết trình súc tích, ngắn gọn là cốt lõi của sự hóm hỉnh.",
+      "src": "William Shakespeare · Hamlet",
+      "level": "general",
+      "topics": [
+        "Giao tiếp",
+        "Văn phong"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0003",
+      "text": "“All the world’s a stage.”",
+      "vi": "Cuộc đời được ví như một sân khấu, nơi con người đảm nhận nhiều vai trò.",
+      "ex": "The poem begins with the famous line, “All the world’s a stage.”",
+      "exVi": "Bài thơ mở đầu bằng câu nổi tiếng: “Cả thế gian là một sân khấu.”",
+      "src": "William Shakespeare · As You Like It",
+      "level": "general",
+      "topics": [
+        "Đời sống",
+        "Quan hệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0004",
+      "text": "“There is nothing either good or bad, but thinking makes it so.”",
+      "vi": "Cách nhìn nhận có thể ảnh hưởng đến việc ta đánh giá một sự việc.",
+      "ex": "Hamlet reflects that there is nothing either good or bad, but thinking makes it so.",
+      "exVi": "Hamlet suy ngẫm rằng không có gì tự nó tốt hay xấu; chính suy nghĩ khiến nó thành như vậy.",
+      "src": "William Shakespeare · Hamlet",
+      "level": "general",
+      "topics": [
+        "Tư duy",
+        "Cảm xúc"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0005",
+      "text": "“No man is an island.”",
+      "vi": "Không ai hoàn toàn tách biệt; con người cần gắn kết với nhau.",
+      "ex": "The essay reminds us that no man is an island.",
+      "exVi": "Bài luận nhắc chúng ta rằng không ai là một hòn đảo biệt lập.",
+      "src": "John Donne · Meditation XVII",
+      "level": "general",
+      "topics": [
+        "Quan hệ"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0006",
+      "text": "“Well done is better than well said.”",
+      "vi": "Làm tốt có giá trị hơn chỉ nói hay.",
+      "ex": "Her work reflects the idea that well done is better than well said.",
+      "exVi": "Công việc của cô thể hiện quan niệm rằng làm tốt có giá trị hơn chỉ nói hay.",
+      "src": "Benjamin Franklin · Poor Richard’s Almanack",
+      "level": "general",
+      "topics": [
+        "Hành động",
+        "Công việc"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0007",
+      "text": "“Lost time is never found again.”",
+      "vi": "Thời gian đã mất thì không thể lấy lại.",
+      "ex": "The reminder “Lost time is never found again” encourages me to plan carefully.",
+      "exVi": "Lời nhắc “Thời gian đã mất thì không thể lấy lại” khuyến khích tôi lên kế hoạch cẩn thận.",
+      "src": "Benjamin Franklin · Poor Richard’s Almanack",
+      "level": "general",
+      "topics": [
+        "Thời gian"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0008",
+      "text": "“Our doubts are traitors, and make us lose the good we oft might win, by fearing to attempt.”",
+      "vi": "Sự nghi ngờ có thể khiến ta bỏ lỡ điều tốt đẹp vì sợ thử sức.",
+      "ex": "The line “Our doubts are traitors” encourages the character to act despite uncertainty.",
+      "exVi": "Câu “Sự nghi ngờ là kẻ phản bội” khuyến khích nhân vật hành động dù còn chưa chắc chắn.",
+      "src": "William Shakespeare · Measure for Measure",
+      "level": "general",
+      "topics": [
+        "Cảm xúc",
+        "Cơ hội"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0009",
+      "text": "“The better part of valour is discretion.”",
+      "vi": "Sự thận trọng đôi khi là phần khôn ngoan nhất của lòng dũng cảm.",
+      "ex": "He decided not to take an unnecessary risk, remembering that the better part of valour is discretion.",
+      "exVi": "Anh quyết định không mạo hiểm vô ích, nhớ rằng sự thận trọng đôi khi là phần khôn ngoan nhất của lòng dũng cảm.",
+      "src": "William Shakespeare · Henry IV, Part 1",
+      "level": "general",
+      "topics": [
+        "Quyết định"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0010",
+      "text": "“The journey of a thousand miles begins with a single step.”",
+      "vi": "Hành trình dài bắt đầu từ bước đi đầu tiên.",
+      "ex": "Learning a language takes time; the journey of a thousand miles begins with a single step.",
+      "exVi": "Học một ngôn ngữ cần thời gian; hành trình ngàn dặm bắt đầu từ một bước chân.",
+      "src": "Laozi · Tao Te Ching, traditional translation",
+      "level": "general",
+      "topics": [
+        "Kiên trì",
+        "Học tập"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0011",
+      "text": "“It is a truth universally acknowledged.”",
+      "vi": "Một nhận định được xem là ai cũng thừa nhận; thường dùng với sắc thái châm biếm.",
+      "ex": "The essay opens with the line, “It is a truth universally acknowledged.”",
+      "exVi": "Bài luận mở đầu bằng câu: “Đó là một sự thật được mọi người thừa nhận.”",
+      "src": "Jane Austen · Pride and Prejudice",
+      "level": "general",
+      "topics": [
+        "Văn học",
+        "Tư duy"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0012",
+      "text": "“All that glisters is not gold.”",
+      "vi": "Vẻ ngoài lấp lánh không đảm bảo giá trị thật.",
+      "ex": "The old saying warns us that all that glisters is not gold.",
+      "exVi": "Câu nói xưa nhắc ta rằng vẻ ngoài lấp lánh không đồng nghĩa với giá trị thật.",
+      "src": "William Shakespeare · The Merchant of Venice",
+      "level": "general",
+      "topics": [
+        "Giá trị sống"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0013",
+      "text": "“Curiouser and curiouser!”",
+      "vi": "Thật ngày càng kỳ lạ; thể hiện sự ngạc nhiên khi điều lạ tiếp diễn.",
+      "ex": "“Curiouser and curiouser!” she exclaimed as the room began to shrink.",
+      "exVi": "“Thật ngày càng kỳ lạ!” cô kêu lên khi căn phòng bắt đầu thu nhỏ.",
+      "src": "Lewis Carroll · Alice’s Adventures in Wonderland",
+      "level": "general",
+      "topics": [
+        "Cảm xúc",
+        "Tò mò"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0014",
+      "text": "“It was the best of times, it was the worst of times.”",
+      "vi": "Một thời kỳ vừa có điều tốt đẹp vừa có điều tồi tệ.",
+      "ex": "The opening captures the contrast: it was the best of times, it was the worst of times.",
+      "exVi": "Câu mở đầu diễn tả sự đối lập: đó là thời kỳ tốt đẹp nhất, cũng là tồi tệ nhất.",
+      "src": "Charles Dickens · A Tale of Two Cities",
+      "level": "general",
+      "topics": [
+        "Lịch sử",
+        "Đời sống"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0015",
+      "text": "“To err is human; to forgive, divine.”",
+      "vi": "Mắc lỗi là bản tính con người; tha thứ là điều cao đẹp.",
+      "ex": "The poem suggests that to err is human; to forgive, divine.",
+      "exVi": "Bài thơ gợi nhắc rằng mắc lỗi là bản tính con người, còn tha thứ là điều cao đẹp.",
+      "src": "Alexander Pope · An Essay on Criticism",
+      "level": "general",
+      "topics": [
+        "Giá trị sống"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0016",
+      "text": "“The proper study of mankind is man.”",
+      "vi": "Con người và bản tính con người là đối tượng đáng để tìm hiểu.",
+      "ex": "The essay turns to society because the proper study of mankind is man.",
+      "exVi": "Bài luận hướng đến xã hội vì con người là đối tượng đáng để tìm hiểu.",
+      "src": "Alexander Pope · An Essay on Man",
+      "level": "general",
+      "topics": [
+        "Học tập",
+        "Con người"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0017",
+      "text": "“There is no charm equal to tenderness of heart.”",
+      "vi": "Không gì đáng quý bằng một trái tim dịu dàng.",
+      "ex": "Her kindness reflects the idea that there is no charm equal to tenderness of heart.",
+      "exVi": "Lòng tốt của cô thể hiện rằng không gì đáng quý bằng một trái tim dịu dàng.",
+      "src": "Jane Austen · Emma",
+      "level": "general",
+      "topics": [
+        "Quan hệ",
+        "Cảm xúc"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0018",
+      "text": "“The truth will set you free.”",
+      "vi": "Sự thật có thể giải phóng con người khỏi dối trá và sợ hãi.",
+      "ex": "He decided to speak honestly, believing that the truth will set you free.",
+      "exVi": "Anh quyết định thành thật vì tin rằng sự thật có thể giải phóng con người.",
+      "src": "The Bible · John 8:32",
+      "level": "general",
+      "topics": [
+        "Giá trị sống"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0019",
+      "text": "“There is nothing like staying at home for real comfort.”",
+      "vi": "Không gì đem lại cảm giác dễ chịu như được ở nhà.",
+      "ex": "After a long trip, there is nothing like staying at home for real comfort.",
+      "exVi": "Sau chuyến đi dài, không gì dễ chịu bằng được ở nhà.",
+      "src": "Jane Austen · Emma",
+      "level": "general",
+      "topics": [
+        "Gia đình",
+        "Nhà cửa"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    },
+    {
+      "id": "qte-0020",
+      "text": "“The old order changeth, yielding place to new.”",
+      "vi": "Trật tự cũ thay đổi và nhường chỗ cho điều mới.",
+      "ex": "The new policy reflects the thought that the old order changeth, yielding place to new.",
+      "exVi": "Chính sách mới gợi nhắc rằng trật tự cũ thay đổi và nhường chỗ cho điều mới.",
+      "src": "Alfred, Lord Tennyson · The Passing of Arthur",
+      "level": "general",
+      "topics": [
+        "Thay đổi",
+        "Thời gian"
+      ],
+      "reg": "not-applicable",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false,
+      "note": "Di trú nguyên trạng từ bộ cũ; nguồn chưa được kiểm chứng độc lập."
+    }
+  ]
+}

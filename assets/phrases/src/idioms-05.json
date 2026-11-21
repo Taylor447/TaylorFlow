@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "collection": "idioms",
+  "batch": "05",
+  "items": [
+    {
+      "id": "idm-0061",
+      "text": "in no time",
+      "vi": "Rất nhanh, chỉ trong một khoảng thời gian ngắn.",
+      "ex": "The new library opened in no time after the repairs.",
+      "exVi": "Thư viện mới mở cửa lại rất nhanh sau khi sửa chữa.",
+      "level": "B1",
+      "topics": [
+        "Thời gian",
+        "Giáo dục"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0062",
+      "text": "from time to time",
+      "vi": "Thỉnh thoảng, nhưng không thường xuyên.",
+      "ex": "We visit the coastal village from time to time.",
+      "exVi": "Thỉnh thoảng chúng tôi ghé thăm ngôi làng ven biển.",
+      "level": "B1",
+      "topics": [
+        "Du lịch",
+        "Địa điểm"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0063",
+      "text": "feel at home",
+      "vi": "Cảm thấy thoải mái và tự nhiên ở một nơi hoặc với ai đó.",
+      "ex": "The host family helped me feel at home during my first week abroad.",
+      "exVi": "Gia đình chủ nhà giúp tôi thấy thoải mái trong tuần đầu ở nước ngoài.",
+      "level": "B1",
+      "topics": [
+        "Du lịch",
+        "Gia đình"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0064",
+      "text": "bite your tongue",
+      "vi": "Cố nhịn không nói điều mình đang muốn nói.",
+      "ex": "Sometimes you should bite your tongue during a family discussion.",
+      "exVi": "Đôi khi bạn nên cố nhịn lời trong cuộc trò chuyện của gia đình.",
+      "level": "B2",
+      "topics": [
+        "Giao tiếp",
+        "Gia đình"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0065",
+      "text": "a knack for",
+      "vi": "Có năng khiếu tự nhiên trong một việc nào đó.",
+      "ex": "Nora has a knack for explaining difficult ideas clearly.",
+      "exVi": "Nora có năng khiếu giải thích những ý tưởng khó một cách rõ ràng.",
+      "level": "B2",
+      "topics": [
+        "Giáo dục",
+        "Kỹ năng"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0066",
+      "text": "go through the roof",
+      "vi": "Tăng vọt hoặc trở nên cực kỳ cao.",
+      "ex": "Rent prices went through the roof near the new station.",
+      "exVi": "Giá thuê nhà tăng vọt gần nhà ga mới.",
+      "level": "B2",
+      "topics": [
+        "Nhà cửa",
+        "Tiền bạc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0067",
+      "text": "take a toll on",
+      "vi": "Gây ảnh hưởng xấu tích lũy đến sức khỏe hoặc tình trạng của ai, vật gì.",
+      "ex": "Long shifts can take a toll on workers’ health.",
+      "exVi": "Những ca làm dài có thể bào mòn sức khỏe của người lao động.",
+      "level": "B2",
+      "topics": [
+        "Sức khỏe",
+        "Công việc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0068",
+      "text": "pull the plug",
+      "vi": "Dừng một kế hoạch hoặc hoạt động đang diễn ra.",
+      "ex": "We decided to pull the plug on the concert because of the storm.",
+      "exVi": "Chúng tôi quyết định hủy buổi hòa nhạc vì bão.",
+      "level": "B2",
+      "topics": [
+        "Thời tiết",
+        "Sự kiện"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0069",
+      "text": "a double-edged sword",
+      "vi": "Điều vừa có lợi vừa có thể gây bất lợi.",
+      "ex": "Social media can be a double-edged sword for young people.",
+      "exVi": "Mạng xã hội có thể vừa có lợi vừa bất lợi cho người trẻ.",
+      "level": "C1",
+      "topics": [
+        "Công nghệ",
+        "Sức khỏe"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0070",
+      "text": "at your wits’ end",
+      "vi": "Không biết phải làm gì tiếp theo vì đã thử nhiều cách.",
+      "ex": "If you are at your wits’ end, ask a trusted friend for support.",
+      "exVi": "Nếu bạn không biết phải làm gì nữa, hãy nhờ một người bạn đáng tin giúp đỡ.",
+      "level": "C1",
+      "topics": [
+        "Gia đình",
+        "Sức khỏe"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}

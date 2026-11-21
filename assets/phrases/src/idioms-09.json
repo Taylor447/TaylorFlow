@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "collection": "idioms",
+  "batch": "09",
+  "items": [
+    {
+      "id": "idm-0140",
+      "text": "in the flesh",
+      "vi": "Hầu như không ảo; hiện diện trực tiếp ngoài đời.",
+      "ex": "You can meet the author in the flesh at the school event.",
+      "exVi": "Bạn có thể gặp tác giả ngoài đời tại sự kiện của trường.",
+      "level": "B1",
+      "topics": [
+        "Giáo dục",
+        "Sự kiện"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0141",
+      "text": "full of beans",
+      "vi": "Tràn đầy năng lượng và sức sống.",
+      "ex": "The children are full of beans after their weekend break.",
+      "exVi": "Bọn trẻ tràn đầy năng lượng sau kỳ nghỉ cuối tuần.",
+      "level": "B1",
+      "topics": [
+        "Gia đình",
+        "Sức khỏe"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0142",
+      "text": "just around the corner",
+      "vi": "Sắp xảy ra hoặc ở rất gần.",
+      "ex": "Summer is just around the corner, so we should plan a short trip.",
+      "exVi": "Mùa hè sắp đến, nên chúng ta hãy lên kế hoạch cho chuyến đi ngắn.",
+      "level": "B1",
+      "topics": [
+        "Thời tiết",
+        "Du lịch"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0143",
+      "text": "get on someone’s nerves",
+      "vi": "Làm ai đó khó chịu hoặc mất kiên nhẫn.",
+      "ex": "That repetitive alarm can get on your nerves.",
+      "exVi": "Tiếng chuông báo lặp đi lặp lại có thể khiến bạn phát bực.",
+      "level": "B1",
+      "topics": [
+        "Nhà cửa",
+        "Cảm xúc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0144",
+      "text": "a close call",
+      "vi": "Một tình huống nguy hiểm suýt dẫn đến tai nạn hoặc hậu quả.",
+      "ex": "It was a close call when the cyclist stopped just before the crossing.",
+      "exVi": "Đó là phen hú vía khi người đi xe đạp dừng ngay trước lối sang đường.",
+      "level": "B1",
+      "topics": [
+        "Giao thông",
+        "An toàn"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0145",
+      "text": "on the bright side",
+      "vi": "Nhìn vào khía cạnh tích cực của một tình huống.",
+      "ex": "On the bright side, the delay gave us time to eat.",
+      "exVi": "Nhìn theo hướng tích cực, việc chậm trễ cho chúng tôi thời gian ăn uống.",
+      "level": "B1",
+      "topics": [
+        "Cảm xúc",
+        "Thời gian"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0146",
+      "text": "out of your depth",
+      "vi": "Không đủ kinh nghiệm hoặc kiến thức để xử lý một việc.",
+      "ex": "You may be out of your depth with advanced tax calculations.",
+      "exVi": "Thực tập sinh mới chưa đủ kiến thức để xử lý các phép tính thuế phức tạp.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Tiền bạc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0147",
+      "text": "a long shot",
+      "vi": "Một khả năng rất thấp nhưng vẫn có thể thử.",
+      "ex": "Getting the grant was a long shot, but the team applied anyway.",
+      "exVi": "Xin được khoản tài trợ là điều khó xảy ra, nhưng cả nhóm vẫn nộp đơn.",
+      "level": "B2",
+      "topics": [
+        "Công việc",
+        "Thành công"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0148",
+      "text": "pull yourself together",
+      "vi": "Bình tĩnh lại và kiểm soát cảm xúc để tiếp tục.",
+      "ex": "When you feel overwhelmed, take a minute to pull yourself together.",
+      "exVi": "Khi thấy quá tải, hãy dành một phút để bình tĩnh lại.",
+      "level": "B2",
+      "topics": [
+        "Cảm xúc",
+        "Sức khỏe"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0149",
+      "text": "a taste of your own medicine",
+      "vi": "Trải nghiệm cách đối xử tương tự như điều mình từng làm với người khác.",
+      "ex": "That practical joke gave you a taste of your own medicine.",
+      "exVi": "Trò đùa đó khiến anh nếm trải cách đối xử mà mình từng dành cho người khác.",
+      "level": "B2",
+      "topics": [
+        "Mối quan hệ",
+        "Trải nghiệm"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0150",
+      "text": "know something inside out",
+      "vi": "Hiểu rất rõ mọi chi tiết của việc gì.",
+      "ex": "She knows the local history inside out.",
+      "exVi": "Cô ấy hiểu rất rõ lịch sử địa phương.",
+      "level": "B2",
+      "topics": [
+        "Giáo dục",
+        "Địa điểm"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0151",
+      "text": "get the best of someone",
+      "vi": "Khiến ai đó mất bình tĩnh hoặc không còn kiểm soát tốt.",
+      "ex": "Exam stress can get the best of anyone.",
+      "exVi": "Căng thẳng mùa thi có thể khiến bất cứ ai mất bình tĩnh.",
+      "level": "B2",
+      "topics": [
+        "Giáo dục",
+        "Sức khỏe"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0152",
+      "text": "on a shoestring",
+      "vi": "Với ngân sách rất nhỏ.",
+      "ex": "They opened the shop on a shoestring and kept costs low.",
+      "exVi": "Họ mở cửa hàng với ngân sách eo hẹp và giữ chi phí thấp.",
+      "level": "B2",
+      "topics": [
+        "Kinh doanh",
+        "Tiền bạc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0153",
+      "text": "run out of steam",
+      "vi": "Mất dần sức lực hoặc động lực để tiếp tục.",
+      "ex": "The crew may run out of steam before sunset.",
+      "exVi": "Đội làm việc có thể cạn sức trước khi mặt trời lặn.",
+      "level": "B2",
+      "topics": [
+        "Sức khỏe",
+        "Công việc"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0154",
+      "text": "go off on a tangent",
+      "vi": "Bắt đầu nói về điều khác xa chủ đề chính.",
+      "ex": "He tends to go off on a tangent during long presentations.",
+      "exVi": "Anh ấy thường chuyển sang chuyện khác trong các bài thuyết trình dài.",
+      "level": "B2",
+      "topics": [
+        "Giao tiếp",
+        "Công việc"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0155",
+      "text": "a tall order",
+      "vi": "Một nhiệm vụ khó thực hiện hoặc đòi hỏi nhiều nỗ lực.",
+      "ex": "Finishing the renovation in one weekend is a tall order.",
+      "exVi": "Hoàn tất việc sửa nhà trong một cuối tuần là nhiệm vụ rất khó.",
+      "level": "C1",
+      "topics": [
+        "Nhà cửa",
+        "Thời gian"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0156",
+      "text": "cut no ice",
+      "vi": "Không thuyết phục hoặc không tạo được ảnh hưởng.",
+      "ex": "The weak excuse cut no ice with the residents.",
+      "exVi": "Lời biện hộ yếu ớt không thuyết phục được cư dân.",
+      "level": "C1",
+      "topics": [
+        "Cộng đồng",
+        "Giao tiếp"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0157",
+      "text": "turn the tables",
+      "vi": "Đảo ngược tình thế hoặc thay đổi bên đang chiếm ưu thế.",
+      "ex": "The smaller team can turn the tables with a careful strategy.",
+      "exVi": "Đội yếu hơn có thể đảo ngược tình thế bằng chiến thuật cẩn thận.",
+      "level": "C1",
+      "topics": [
+        "Thể thao",
+        "Thành công"
+      ],
+      "reg": "neutral",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0158",
+      "text": "below the belt",
+      "vi": "Không công bằng hoặc cố tình gây tổn thương trong lời nói hay hành động.",
+      "ex": "Mocking his accent was below the belt.",
+      "exVi": "Chế giễu giọng nói của anh ấy là hành động không công bằng và gây tổn thương.",
+      "level": "C1",
+      "topics": [
+        "Giao tiếp",
+        "Đạo đức"
+      ],
+      "reg": "informal",
+      "equiv": null,
+      "ielts": 0,
+      "reviewed": false
+    },
+    {
+      "id": "idm-0159",
+      "text": "take someone to task",
+      "vi": "Khiển trách ai đó vì đã làm sai hoặc thiếu trách nhiệm.",
+      "ex": "The editor had to take the writer to task for copying.",
+      "exVi": "Biên tập viên phải khiển trách người viết vì sao chép.",
+      "level": "C1",
+      "topics": [
+        "Công việc",
+        "Đạo đức"
+      ],
+      "reg": "formal",
+      "equiv": null,
+      "ielts": 1,
+      "reviewed": false
+    }
+  ]
+}
