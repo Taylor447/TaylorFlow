@@ -1,0 +1,214 @@
+{
+  "id": "engineering-safety-briefing",
+  "description": "Mô tả bước kiểm tra an toàn trước khi làm việc với thiết bị điện.",
+  "lessons": [
+    {
+      "id": "engineering-safety-briefing-lesson-01",
+      "title": "Trao đổi về an toàn điện",
+      "minutes": 23,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Linh",
+              "en": "Before we start, please isolate the power supply.",
+              "vi": "Trước khi bắt đầu, hãy ngắt nguồn điện."
+            },
+            {
+              "who": "Nam",
+              "en": "I have switched it off and placed a warning tag.",
+              "vi": "Tôi đã tắt nguồn và đặt thẻ cảnh báo."
+            },
+            {
+              "who": "Linh",
+              "en": "Thanks. Let us inspect the cable for visible damage.",
+              "vi": "Cảm ơn. Hãy kiểm tra cáp xem có hư hỏng nhìn thấy được không."
+            },
+            {
+              "who": "Nam",
+              "en": "The cable looks intact, but I will record the check.",
+              "vi": "Cáp có vẻ nguyên vẹn, nhưng tôi sẽ ghi lại lần kiểm tra này."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "isolate",
+              "vi": "cô lập, ngắt khỏi nguồn",
+              "example": "Always isolate the circuit before inspection."
+            },
+            {
+              "en": "warning tag",
+              "vi": "thẻ cảnh báo",
+              "example": "A warning tag tells others that work is in progress."
+            },
+            {
+              "en": "intact",
+              "vi": "nguyên vẹn",
+              "example": "The outer cover remained intact after the test."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Nêu bước theo thứ tự",
+          "vi": "Dùng “before” để nêu điều kiện an toàn trước, sau đó mô tả thao tác kiểm tra và ghi nhận kết quả.",
+          "examples": [
+            "Before inspection, isolate the power supply.",
+            "First, check the cable cover for visible damage.",
+            "Finally, record the result in the work log."
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "Before inspection, isolate the supply and attach a warning tag.",
+            "Record the result after checking the cable cover."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "Describe a safety step people should follow before using electrical equipment.",
+          "hints": [
+            "What the first step is",
+            "Why it matters",
+            "How the result can be checked"
+          ],
+          "part": 3
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "What should happen before inspecting a live circuit?",
+              "options": [
+                "Isolate the power supply",
+                "Remove every label",
+                "Increase the load"
+              ],
+              "answer": 0,
+              "why": "Cô lập nguồn là bước cần nêu trước khi kiểm tra thiết bị."
+            },
+            {
+              "q": "Why record the inspection?",
+              "options": [
+                "To keep a clear work record",
+                "To make the cable heavier",
+                "To replace the safety check"
+              ],
+              "answer": 0,
+              "why": "Ghi lại kết quả giúp nhóm theo dõi công việc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering-safety-briefing-lesson-02",
+      "title": "Báo cáo tình huống suýt xảy ra sự cố",
+      "minutes": 23,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Linh",
+              "en": "A tool slipped from the bench near the testing area.",
+              "vi": "Một dụng cụ trượt khỏi bàn gần khu vực thử nghiệm."
+            },
+            {
+              "who": "Nam",
+              "en": "Was anyone injured?",
+              "vi": "Có ai bị thương không?"
+            },
+            {
+              "who": "Linh",
+              "en": "No, but we stopped work and informed the supervisor.",
+              "vi": "Không, nhưng chúng tôi dừng việc và báo cho người phụ trách."
+            },
+            {
+              "who": "Nam",
+              "en": "We should record the near miss before restarting.",
+              "vi": "Chúng ta nên ghi lại tình huống suýt xảy ra sự cố trước khi làm lại."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "near miss",
+              "vi": "tình huống suýt gây tai nạn",
+              "example": "The team discussed a near miss during the safety review."
+            },
+            {
+              "en": "supervisor",
+              "vi": "người giám sát",
+              "example": "The supervisor checked the work area."
+            },
+            {
+              "en": "protective equipment",
+              "vi": "thiết bị bảo hộ",
+              "example": "Protective equipment must fit each worker properly."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Sự việc → phản ứng → ngăn lặp lại",
+          "vi": "Mô tả ngắn tình huống, cho biết phản ứng an toàn và nêu bước phòng ngừa.",
+          "examples": [
+            "A tool slipped, but nobody was hurt.",
+            "We stopped the task and informed the supervisor.",
+            "The team added a storage check to the routine."
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "We stopped work and informed the supervisor immediately.",
+            "The near miss was recorded before the task restarted."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "How should a team respond when a small safety problem occurs?",
+          "hints": [
+            "What to do first",
+            "Who should be informed",
+            "How to prevent a repeat"
+          ],
+          "part": 3
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "What should the team do after a near miss?",
+              "options": [
+                "Stop, report, and record it",
+                "Hide it from the supervisor",
+                "Restart without checking"
+              ],
+              "answer": 0,
+              "why": "Dừng việc, báo người phụ trách và ghi nhận giúp nhóm xử lý có trách nhiệm."
+            },
+            {
+              "q": "What does supervisor mean?",
+              "options": [
+                "A person who oversees work",
+                "A type of cable",
+                "A written measurement"
+              ],
+              "answer": 0,
+              "why": "Supervisor là người giám sát công việc."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

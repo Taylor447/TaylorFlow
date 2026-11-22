@@ -1,0 +1,214 @@
+{
+  "id": "presentation-three-points",
+  "description": "Sắp xếp phần trình bày ngắn để người nghe theo dõi dễ dàng.",
+  "lessons": [
+    {
+      "id": "presentation-three-points-lesson-01",
+      "title": "Trình bày ý theo ba bước",
+      "minutes": 22,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Host",
+              "en": "What makes a short presentation easy to follow?",
+              "vi": "Điều gì giúp bài trình bày ngắn dễ theo dõi?"
+            },
+            {
+              "who": "Speaker",
+              "en": "I state my main idea, give two reasons, and finish with one example.",
+              "vi": "Tôi nêu ý chính, đưa ra hai lý do rồi kết thúc bằng một ví dụ."
+            },
+            {
+              "who": "Host",
+              "en": "How do you signal a new point?",
+              "vi": "Bạn báo hiệu ý mới như thế nào?"
+            },
+            {
+              "who": "Speaker",
+              "en": "I use a short transition such as “another reason is”.",
+              "vi": "Tôi dùng một câu chuyển ngắn như “một lý do khác là”."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "outline",
+              "vi": "dàn ý",
+              "example": "I made a short outline before the group presentation."
+            },
+            {
+              "en": "transition",
+              "vi": "câu hoặc ý chuyển tiếp",
+              "example": "A clear transition helps the audience follow the next point."
+            },
+            {
+              "en": "takeaway",
+              "vi": "ý chính người nghe ghi nhớ",
+              "example": "The main takeaway was to check the data before sharing it."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Mở ý → phát triển → chốt lại",
+          "vi": "Giới thiệu chủ đề, đánh dấu các ý chính bằng câu chuyển, rồi nhắc lại điều người nghe nên nhớ.",
+          "examples": [
+            "Today I will focus on one practical change.",
+            "Another reason is that it saves preparation time.",
+            "The main takeaway is to test the plan on a small scale."
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "Today I will explain one change that improved our group project.",
+            "The main takeaway is to test the idea before expanding it."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "Describe a topic you could present to your classmates.",
+          "hints": [
+            "What your topic is",
+            "Two points you would explain",
+            "What you want listeners to remember"
+          ],
+          "part": 2
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "What does an outline help you do?",
+              "options": [
+                "Arrange ideas before speaking",
+                "Replace every example",
+                "Make the topic less clear"
+              ],
+              "answer": 0,
+              "why": "Dàn ý giúp sắp xếp ý trước khi trình bày."
+            },
+            {
+              "q": "What is a transition for?",
+              "options": [
+                "Connecting one point to another",
+                "Ending every sentence",
+                "Changing the topic without warning"
+              ],
+              "answer": 0,
+              "why": "Câu chuyển giúp người nghe nhận ra mối liên hệ giữa các ý."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "presentation-three-points-lesson-02",
+      "title": "Giải thích số liệu bằng ví dụ",
+      "minutes": 20,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Host",
+              "en": "How can you explain a small change in a chart?",
+              "vi": "Bạn có thể giải thích một thay đổi nhỏ trên biểu đồ thế nào?"
+            },
+            {
+              "who": "Speaker",
+              "en": "I describe the trend and give one comparison with the previous month.",
+              "vi": "Tôi mô tả xu hướng rồi so sánh với tháng trước."
+            },
+            {
+              "who": "Host",
+              "en": "What if the numbers are estimates?",
+              "vi": "Nếu các con số là ước tính thì sao?"
+            },
+            {
+              "who": "Speaker",
+              "en": "I say that clearly before discussing what they may suggest.",
+              "vi": "Tôi nói rõ điều đó trước khi bàn xem chúng có thể cho thấy gì."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "trend",
+              "vi": "xu hướng",
+              "example": "The chart shows a gradual upward trend."
+            },
+            {
+              "en": "estimate",
+              "vi": "ước tính",
+              "example": "The estimate is based on three recent readings."
+            },
+            {
+              "en": "comparison",
+              "vi": "sự so sánh",
+              "example": "A comparison with last month provides useful context."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Nêu xu hướng → dẫn chứng → giới hạn",
+          "vi": "Mô tả điều số liệu thể hiện, đưa một điểm so sánh và nói rõ nếu số liệu chỉ là ước tính.",
+          "examples": [
+            "The figures show a gradual increase over three months.",
+            "Compared with April, the value is slightly higher.",
+            "These numbers are estimates, so the pattern should be checked."
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "Compared with last month, the figure is slightly higher.",
+            "The estimate suggests a trend but needs another check."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "Describe how you would explain a simple chart to a group.",
+          "hints": [
+            "What the chart shows",
+            "One useful comparison",
+            "A point the audience should keep in mind"
+          ],
+          "part": 2
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "What should you say about an estimate?",
+              "options": [
+                "Make clear that it is not an exact measurement",
+                "Present it as a guaranteed result",
+                "Leave out its context"
+              ],
+              "answer": 0,
+              "why": "Nói rõ đây là ước tính giúp người nghe hiểu giới hạn của số liệu."
+            },
+            {
+              "q": "What does trend describe?",
+              "options": [
+                "A general direction of change",
+                "A single room number",
+                "A kind of microphone"
+              ],
+              "answer": 0,
+              "why": "Trend là xu hướng chung của sự thay đổi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

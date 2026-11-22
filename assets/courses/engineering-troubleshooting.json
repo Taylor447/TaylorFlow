@@ -1,0 +1,224 @@
+{
+  "id": "engineering-troubleshooting",
+  "description": "Trình bày một quy trình xử lý sự cố thiết bị theo từng bước.",
+  "lessons": [
+    {
+      "id": "engineering-troubleshooting-lesson-01",
+      "title": "Mô tả cách xử lý sự cố",
+      "minutes": 25,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Technician",
+              "en": "The motor stopped during the afternoon test.",
+              "vi": "Động cơ dừng trong lần thử buổi chiều."
+            },
+            {
+              "who": "Student",
+              "en": "Did you check the supply voltage first?",
+              "vi": "Anh đã kiểm tra điện áp nguồn trước chưa?"
+            },
+            {
+              "who": "Technician",
+              "en": "Yes. The voltage was stable, so I inspected the cable connection.",
+              "vi": "Rồi. Điện áp ổn định nên tôi kiểm tra mối nối cáp."
+            },
+            {
+              "who": "Student",
+              "en": "Was the connection loose?",
+              "vi": "Mối nối có bị lỏng không?"
+            },
+            {
+              "who": "Technician",
+              "en": "A terminal was loose. We tightened it and repeated the test.",
+              "vi": "Một đầu cực bị lỏng. Chúng tôi siết lại rồi thử lại."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "motor",
+              "vi": "động cơ",
+              "example": "The motor makes a low sound when it starts."
+            },
+            {
+              "en": "terminal",
+              "vi": "đầu cực điện",
+              "example": "The technician checked each terminal carefully."
+            },
+            {
+              "en": "stable",
+              "vi": "ổn định",
+              "example": "The readings remained stable during the second test."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Triệu chứng → kiểm tra → kết quả",
+          "vi": "Nêu sự cố trước, kể lần lượt các bước kiểm tra, rồi cho biết kết quả sau khi xử lý.",
+          "examples": [
+            "The motor stopped, so we checked the supply voltage.",
+            "The reading was stable, but one connection was loose.",
+            "After tightening the terminal, we repeated the test."
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "The motor stopped, so the team checked the cable connection.",
+            "After tightening the terminal, they repeated the test."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "Describe a problem with a device and how someone could investigate it.",
+          "hints": [
+            "What stopped working",
+            "What should be checked first",
+            "What result would confirm the cause"
+          ],
+          "part": 3
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "Which order is easiest to follow?",
+              "options": [
+                "Result, unrelated opinion, symptom",
+                "Symptom, checks, result",
+                "Several guesses without a check"
+              ],
+              "answer": 1,
+              "why": "Trình tự sự cố, bước kiểm tra và kết quả làm lời giải thích rõ ràng."
+            },
+            {
+              "q": "What does stable describe in the dialogue?",
+              "options": [
+                "A reading that does not change much",
+                "A damaged cable cover",
+                "A motor that is switched off"
+              ],
+              "answer": 0,
+              "why": "Stable ở đây mô tả số đo ổn định."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering-troubleshooting-lesson-02",
+      "title": "Giải thích kết quả đo",
+      "minutes": 25,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Technician",
+              "en": "The first reading was higher than expected.",
+              "vi": "Số đo đầu tiên cao hơn dự kiến."
+            },
+            {
+              "who": "Student",
+              "en": "Did you repeat the measurement?",
+              "vi": "Anh đã đo lại chưa?"
+            },
+            {
+              "who": "Technician",
+              "en": "Yes. The second reading was similar, so we replaced the sensor.",
+              "vi": "Rồi. Số đo thứ hai tương tự nên chúng tôi thay cảm biến."
+            },
+            {
+              "who": "Student",
+              "en": "Will you monitor the equipment now?",
+              "vi": "Bây giờ anh sẽ theo dõi thiết bị chứ?"
+            },
+            {
+              "who": "Technician",
+              "en": "Yes, we will compare the readings after one hour.",
+              "vi": "Có, chúng tôi sẽ so sánh số đo sau một giờ."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "measurement",
+              "vi": "phép đo, số đo",
+              "example": "Write each measurement in the test log."
+            },
+            {
+              "en": "sensor",
+              "vi": "cảm biến",
+              "example": "The sensor detects a change in temperature."
+            },
+            {
+              "en": "monitor",
+              "vi": "theo dõi",
+              "example": "We monitor the system during the first test."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Số đo → hành động → theo dõi",
+          "vi": "Nêu kết quả quan sát được, giải thích quyết định kiểm tra hoặc thay thế, rồi nói cách theo dõi.",
+          "examples": [
+            "The measurement was higher than expected.",
+            "We replaced the sensor after repeating the test.",
+            "The team will monitor the readings for an hour."
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "We repeated the measurement before replacing the sensor.",
+            "The team will monitor the equipment after the test."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "Describe how you would check whether a technical change worked.",
+          "hints": [
+            "What result you would measure",
+            "How you would compare it",
+            "What you would do if it stayed unusual"
+          ],
+          "part": 3
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "Why repeat a measurement?",
+              "options": [
+                "To check whether the first result is consistent",
+                "To make the equipment older",
+                "To avoid recording data"
+              ],
+              "answer": 0,
+              "why": "Đo lại giúp kiểm tra kết quả đầu có ổn định hay không."
+            },
+            {
+              "q": "What does monitor mean?",
+              "options": [
+                "Watch or check something over time",
+                "Switch off every device",
+                "Write a title"
+              ],
+              "answer": 0,
+              "why": "Monitor là theo dõi hoặc kiểm tra theo thời gian."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

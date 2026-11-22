@@ -1,0 +1,214 @@
+{
+  "id": "daily-small-talk",
+  "description": "Mở lời, hỏi thăm và giữ một cuộc trò chuyện ngắn tự nhiên.",
+  "lessons": [
+    {
+      "id": "daily-small-talk-lesson-01",
+      "title": "Bắt đầu cuộc trò chuyện",
+      "minutes": 18,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Mina",
+              "en": "Hi, Leo. How was your weekend?",
+              "vi": "Chào Leo. Cuối tuần của bạn thế nào?"
+            },
+            {
+              "who": "Leo",
+              "en": "Pretty relaxing. I visited a small market near my flat.",
+              "vi": "Khá thư thái. Mình ghé một khu chợ nhỏ gần căn hộ."
+            },
+            {
+              "who": "Mina",
+              "en": "That sounds nice. Did you find anything interesting?",
+              "vi": "Nghe hay đấy. Bạn có tìm thấy món gì thú vị không?"
+            },
+            {
+              "who": "Leo",
+              "en": "Yes, a family-run coffee shop. I might go back this week.",
+              "vi": "Có, một quán cà phê gia đình tự quản. Có lẽ tuần này mình sẽ quay lại."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "relaxing",
+              "vi": "thư thái, giúp thư giãn",
+              "example": "I had a relaxing evening after my final class."
+            },
+            {
+              "en": "nearby",
+              "vi": "ở gần, gần đó",
+              "example": "There is a quiet park nearby."
+            },
+            {
+              "en": "family-run",
+              "vi": "do gia đình điều hành",
+              "example": "We ate at a family-run restaurant near campus."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Hỏi thăm rồi hỏi thêm",
+          "vi": "Bắt đầu bằng câu hỏi mở, sau đó hỏi một chi tiết nhỏ để cuộc trò chuyện tiếp tục.",
+          "examples": [
+            "How was your weekend? Did you go anywhere?",
+            "That sounds interesting. What did you enjoy most?",
+            "Have you tried the new cafe near the library?"
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "I found a small bookshop near the station.",
+            "We had a relaxing afternoon at the local market."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "Describe a place you enjoy visiting in your free time.",
+          "hints": [
+            "Where the place is",
+            "What you usually do there",
+            "Why you enjoy visiting it"
+          ],
+          "part": 1
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "Which follow-up question invites a specific detail?",
+              "options": [
+                "Was it good?",
+                "What did you enjoy most?",
+                "Do you always do that?"
+              ],
+              "answer": 1,
+              "why": "Câu hỏi về điều thích nhất giúp người nghe kể thêm một chi tiết."
+            },
+            {
+              "q": "What does nearby mean?",
+              "options": [
+                "Far away",
+                "Close to this place",
+                "Open only at night"
+              ],
+              "answer": 1,
+              "why": "Nearby nghĩa là ở gần hoặc gần đó."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-small-talk-lesson-02",
+      "title": "Nói về sở thích",
+      "minutes": 17,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Mina",
+              "en": "Have you picked up any new hobbies recently?",
+              "vi": "Gần đây bạn có bắt đầu sở thích mới nào không?"
+            },
+            {
+              "who": "Leo",
+              "en": "I have started sketching after work. It gives me a creative outlet.",
+              "vi": "Tôi bắt đầu phác họa sau giờ làm. Việc đó giúp tôi có nơi thể hiện sáng tạo."
+            },
+            {
+              "who": "Mina",
+              "en": "How often do you practise?",
+              "vi": "Bạn luyện tập thường xuyên thế nào?"
+            },
+            {
+              "who": "Leo",
+              "en": "A few times a week, although I only draw for a short while.",
+              "vi": "Vài lần mỗi tuần, dù tôi chỉ vẽ trong thời gian ngắn."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "sketching",
+              "vi": "việc phác họa",
+              "example": "Sketching helps me notice small details."
+            },
+            {
+              "en": "creative outlet",
+              "vi": "cách để thể hiện sự sáng tạo",
+              "example": "Cooking is a creative outlet for my brother."
+            },
+            {
+              "en": "a few times a week",
+              "vi": "vài lần mỗi tuần",
+              "example": "I call my grandparents a few times a week."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Nói về tần suất và lý do",
+          "vi": "Nêu sở thích, cho biết tần suất rồi nói điều bạn thích ở hoạt động đó.",
+          "examples": [
+            "I go swimming a few times a month.",
+            "I enjoy it because it gives me a break from screens.",
+            "I started last year, and I still find it enjoyable."
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "I practise sketching a few times a week after work.",
+            "It gives me a creative outlet and helps me unwind."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "Describe a hobby you enjoy or would like to try.",
+          "hints": [
+            "What the hobby is",
+            "How often you do it",
+            "Why it suits you"
+          ],
+          "part": 1
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "Which answer gives both frequency and a reason?",
+              "options": [
+                "I paint.",
+                "I paint once a week because it helps me relax.",
+                "Painting is a word."
+              ],
+              "answer": 1,
+              "why": "Câu trả lời có tần suất và lý do rõ ràng."
+            },
+            {
+              "q": "What does creative outlet mean?",
+              "options": [
+                "A way to express creativity",
+                "A place to buy tools",
+                "A fixed daily timetable"
+              ],
+              "answer": 0,
+              "why": "Đây là cách để thể hiện ý tưởng hoặc sự sáng tạo."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
