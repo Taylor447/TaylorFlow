@@ -1,33 +1,304 @@
 {
   "version": 1,
   "courses": [
-    {"id":"daily-small-talk","category":"daily","title":"Bắt đầu cuộc trò chuyện","level":"A1–A2","minutes":35,"lessonCount":2,"status":"ready","coverSpec":{"shortTitle":"Small talk","motif":"wave"}},
-    {"id":"daily-making-plans","category":"daily","title":"Hẹn gặp và lên kế hoạch","level":"A2–B1","minutes":38,"lessonCount":2,"status":"ready","coverSpec":{"shortTitle":"Make a plan","motif":"orbit"}},
-    {"id":"daily-travel-checkin","category":"daily","title":"Tiếng Anh khi đi du lịch","level":"A2–B1","minutes":25,"lessonCount":4,"status":"soon","coverSpec":{"shortTitle":"Travel English","motif":"route"}},
-    {"id":"daily-service-talk","category":"daily","title":"Giao tiếp khi cần hỗ trợ","level":"A2–B1","minutes":22,"lessonCount":4,"status":"soon","coverSpec":{"shortTitle":"Ask for help","motif":"signal"}},
-
-    {"id":"ielts-part1-clear","category":"ielts","title":"Trả lời Part 1 rõ ý","level":"Band 4.5–6.0","minutes":42,"lessonCount":2,"status":"ready","coverSpec":{"shortTitle":"Clear answers","motif":"wave"}},
-    {"id":"ielts-part2-story","category":"ielts","title":"Kể chuyện cho Part 2","level":"Band 5.5–7.0","minutes":52,"lessonCount":2,"status":"ready","coverSpec":{"shortTitle":"A short story","motif":"orbit"}},
-    {"id":"ielts-part3-reasons","category":"ielts","title":"Nêu lý do cho Part 3","level":"Band 6.0–7.5","minutes":26,"lessonCount":5,"status":"soon","coverSpec":{"shortTitle":"Ideas & reasons","motif":"signal"}},
-    {"id":"ielts-fluency-steps","category":"ielts","title":"Mở rộng câu trả lời tự nhiên","level":"Band 4.5–7.5","minutes":24,"lessonCount":5,"status":"soon","coverSpec":{"shortTitle":"Speak with flow","motif":"route"}},
-
-    {"id":"pronunciation-final-sounds","category":"pronunciation","title":"Phát âm rõ âm cuối","level":"A2–B1","minutes":36,"lessonCount":2,"status":"ready","coverSpec":{"shortTitle":"Clear endings","motif":"pulse"}},
-    {"id":"pronunciation-word-stress","category":"pronunciation","title":"Nhấn trọng âm từ","level":"A2–B2","minutes":40,"lessonCount":2,"status":"ready","coverSpec":{"shortTitle":"Word stress","motif":"wave"}},
-    {"id":"pronunciation-vowels","category":"pronunciation","title":"Phân biệt nguyên âm thường gặp","level":"A2–B2","minutes":24,"lessonCount":4,"status":"soon","coverSpec":{"shortTitle":"Vowel sounds","motif":"orbit"}},
-    {"id":"pronunciation-linking","category":"pronunciation","title":"Nối âm trong câu ngắn","level":"B1–B2","minutes":22,"lessonCount":4,"status":"soon","coverSpec":{"shortTitle":"Link the sounds","motif":"signal"}},
-
-    {"id":"engineering-safety-briefing","category":"engineering","title":"Trao đổi về an toàn điện","level":"A2–B1","minutes":46,"lessonCount":2,"status":"ready","coverSpec":{"shortTitle":"Electrical safety","motif":"circuit"}},
-    {"id":"engineering-troubleshooting","category":"engineering","title":"Mô tả cách xử lý sự cố","level":"B1–B2","minutes":50,"lessonCount":2,"status":"ready","coverSpec":{"shortTitle":"Find the fault","motif":"circuit"}},
-    {"id":"engineering-energy-systems","category":"engineering","title":"Nói về hệ thống năng lượng","level":"B1–B2","minutes":28,"lessonCount":4,"status":"soon","coverSpec":{"shortTitle":"Energy systems","motif":"pulse"}},
-    {"id":"engineering-technical-email","category":"engineering","title":"Viết và trình bày cập nhật kỹ thuật","level":"B1–B2","minutes":24,"lessonCount":4,"status":"soon","coverSpec":{"shortTitle":"Project update","motif":"route"}},
-
-    {"id":"presentation-three-points","category":"presentation","title":"Trình bày ý theo ba bước","level":"B1–B2","minutes":42,"lessonCount":2,"status":"ready","coverSpec":{"shortTitle":"Three clear points","motif":"orbit"}},
-    {"id":"presentation-discussion","category":"presentation","title":"Thảo luận và phản hồi ý kiến","level":"B1–C1","minutes":46,"lessonCount":2,"status":"ready","coverSpec":{"shortTitle":"Share your view","motif":"signal"}},
-    {"id":"presentation-open-close","category":"presentation","title":"Mở đầu và kết thúc bài nói","level":"A2–B2","minutes":20,"lessonCount":4,"status":"soon","coverSpec":{"shortTitle":"Open and close","motif":"wave"}},
-    {"id":"presentation-questions","category":"presentation","title":"Trả lời câu hỏi từ người nghe","level":"B1–C1","minutes":25,"lessonCount":4,"status":"soon","coverSpec":{"shortTitle":"Handle questions","motif":"pulse"}},
-
-    {"id":"vocabulary-context-life","category":"vocabulary","title":"Đưa từ đã học vào câu nói","level":"A0–C2","minutes":20,"lessonCount":4,"status":"soon","coverSpec":{"shortTitle":"Use your words","motif":"wave"}},
-    {"id":"vocabulary-context-work","category":"vocabulary","title":"Ôn từ theo tình huống","level":"A0–C2","minutes":22,"lessonCount":4,"status":"soon","coverSpec":{"shortTitle":"Words in context","motif":"orbit"}},
-    {"id":"vocabulary-context-speaking","category":"vocabulary","title":"Dùng từ vựng khi luyện nói","level":"A0–C2","minutes":24,"lessonCount":4,"status":"soon","coverSpec":{"shortTitle":"Speak with words","motif":"signal"}}
+    {
+      "id": "daily-small-talk",
+      "category": "daily",
+      "title": "Giao tiếp hằng ngày",
+      "level": "A1–A2",
+      "minutes": 50,
+      "lessonCount": 5,
+      "status": "ready",
+      "coverSpec": {
+        "shortTitle": "Everyday English",
+        "motif": "wave"
+      }
+    },
+    {
+      "id": "daily-making-plans",
+      "category": "daily",
+      "title": "Hẹn gặp và lên kế hoạch",
+      "level": "A2–B1",
+      "minutes": 38,
+      "lessonCount": 2,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Make a plan",
+        "motif": "orbit"
+      }
+    },
+    {
+      "id": "daily-travel-checkin",
+      "category": "daily",
+      "title": "Tiếng Anh khi đi du lịch",
+      "level": "A2–B1",
+      "minutes": 25,
+      "lessonCount": 4,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Travel English",
+        "motif": "route"
+      }
+    },
+    {
+      "id": "daily-service-talk",
+      "category": "daily",
+      "title": "Giao tiếp khi cần hỗ trợ",
+      "level": "A2–B1",
+      "minutes": 22,
+      "lessonCount": 4,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Ask for help",
+        "motif": "signal"
+      }
+    },
+    {
+      "id": "ielts-part1-clear",
+      "category": "ielts",
+      "title": "IELTS Speaking Part 1",
+      "level": "Band 4.5–5.5",
+      "minutes": 50,
+      "lessonCount": 5,
+      "status": "ready",
+      "coverSpec": {
+        "shortTitle": "Part 1 Answers",
+        "motif": "wave"
+      }
+    },
+    {
+      "id": "ielts-part2-story",
+      "category": "ielts",
+      "title": "Kể chuyện cho Part 2",
+      "level": "Band 5.5–7.0",
+      "minutes": 52,
+      "lessonCount": 2,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "A short story",
+        "motif": "orbit"
+      }
+    },
+    {
+      "id": "ielts-part3-reasons",
+      "category": "ielts",
+      "title": "Nêu lý do cho Part 3",
+      "level": "Band 6.0–7.5",
+      "minutes": 26,
+      "lessonCount": 5,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Ideas & reasons",
+        "motif": "signal"
+      }
+    },
+    {
+      "id": "ielts-fluency-steps",
+      "category": "ielts",
+      "title": "Mở rộng câu trả lời tự nhiên",
+      "level": "Band 4.5–7.5",
+      "minutes": 24,
+      "lessonCount": 5,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Speak with flow",
+        "motif": "route"
+      }
+    },
+    {
+      "id": "pronunciation-final-sounds",
+      "category": "pronunciation",
+      "title": "Phát âm cho người Việt",
+      "level": "A2–B1",
+      "minutes": 50,
+      "lessonCount": 5,
+      "status": "ready",
+      "coverSpec": {
+        "shortTitle": "Clear Speech",
+        "motif": "pulse"
+      }
+    },
+    {
+      "id": "pronunciation-word-stress",
+      "category": "pronunciation",
+      "title": "Nhấn trọng âm từ",
+      "level": "A2–B2",
+      "minutes": 40,
+      "lessonCount": 2,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Word stress",
+        "motif": "wave"
+      }
+    },
+    {
+      "id": "pronunciation-vowels",
+      "category": "pronunciation",
+      "title": "Phân biệt nguyên âm thường gặp",
+      "level": "A2–B2",
+      "minutes": 24,
+      "lessonCount": 4,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Vowel sounds",
+        "motif": "orbit"
+      }
+    },
+    {
+      "id": "pronunciation-linking",
+      "category": "pronunciation",
+      "title": "Nối âm trong câu ngắn",
+      "level": "B1–B2",
+      "minutes": 22,
+      "lessonCount": 4,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Link the sounds",
+        "motif": "signal"
+      }
+    },
+    {
+      "id": "engineering-safety-briefing",
+      "category": "engineering",
+      "title": "Tiếng Anh cho sinh viên điện và năng lượng",
+      "level": "A2–B1",
+      "minutes": 50,
+      "lessonCount": 5,
+      "status": "ready",
+      "coverSpec": {
+        "shortTitle": "Energy English",
+        "motif": "circuit"
+      }
+    },
+    {
+      "id": "engineering-troubleshooting",
+      "category": "engineering",
+      "title": "Mô tả cách xử lý sự cố",
+      "level": "B1–B2",
+      "minutes": 50,
+      "lessonCount": 2,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Find the fault",
+        "motif": "circuit"
+      }
+    },
+    {
+      "id": "engineering-energy-systems",
+      "category": "engineering",
+      "title": "Nói về hệ thống năng lượng",
+      "level": "B1–B2",
+      "minutes": 28,
+      "lessonCount": 4,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Energy systems",
+        "motif": "pulse"
+      }
+    },
+    {
+      "id": "engineering-technical-email",
+      "category": "engineering",
+      "title": "Viết và trình bày cập nhật kỹ thuật",
+      "level": "B1–B2",
+      "minutes": 24,
+      "lessonCount": 4,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Project update",
+        "motif": "route"
+      }
+    },
+    {
+      "id": "presentation-three-points",
+      "category": "presentation",
+      "title": "Trình bày ý theo ba bước",
+      "level": "B1–B2",
+      "minutes": 42,
+      "lessonCount": 2,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Three clear points",
+        "motif": "orbit"
+      }
+    },
+    {
+      "id": "presentation-discussion",
+      "category": "presentation",
+      "title": "Thảo luận và phản hồi ý kiến",
+      "level": "B1–C1",
+      "minutes": 46,
+      "lessonCount": 2,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Share your view",
+        "motif": "signal"
+      }
+    },
+    {
+      "id": "presentation-open-close",
+      "category": "presentation",
+      "title": "Mở đầu và kết thúc bài nói",
+      "level": "A2–B2",
+      "minutes": 20,
+      "lessonCount": 4,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Open and close",
+        "motif": "wave"
+      }
+    },
+    {
+      "id": "presentation-questions",
+      "category": "presentation",
+      "title": "Trả lời câu hỏi từ người nghe",
+      "level": "B1–C1",
+      "minutes": 25,
+      "lessonCount": 4,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Handle questions",
+        "motif": "pulse"
+      }
+    },
+    {
+      "id": "vocabulary-context-life",
+      "category": "vocabulary",
+      "title": "Đưa từ đã học vào câu nói",
+      "level": "A0–C2",
+      "minutes": 20,
+      "lessonCount": 4,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Use your words",
+        "motif": "wave"
+      }
+    },
+    {
+      "id": "vocabulary-context-work",
+      "category": "vocabulary",
+      "title": "Ôn từ theo tình huống",
+      "level": "A0–C2",
+      "minutes": 22,
+      "lessonCount": 4,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Words in context",
+        "motif": "orbit"
+      }
+    },
+    {
+      "id": "vocabulary-context-speaking",
+      "category": "vocabulary",
+      "title": "Dùng từ vựng khi luyện nói",
+      "level": "A0–C2",
+      "minutes": 24,
+      "lessonCount": 4,
+      "status": "soon",
+      "coverSpec": {
+        "shortTitle": "Speak with words",
+        "motif": "signal"
+      }
+    }
   ]
 }

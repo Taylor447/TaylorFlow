@@ -1,11 +1,11 @@
 {
   "id": "ielts-part1-clear",
-  "description": "Trả lời câu hỏi quen thuộc bằng ý chính, lý do và ví dụ ngắn.",
+  "description": "Luyện trả lời câu hỏi quen thuộc bằng câu trực tiếp, một chi tiết và một lý do đơn giản.",
   "lessons": [
     {
       "id": "ielts-part1-clear-lesson-01",
       "title": "Mở rộng câu trả lời Part 1",
-      "minutes": 22,
+      "minutes": 10,
       "steps": [
         {
           "type": "dialogue",
@@ -104,12 +104,13 @@
             }
           ]
         }
-      ]
+      ],
+      "reviewed": false
     },
     {
       "id": "ielts-part1-clear-lesson-02",
       "title": "Nói về thói quen hằng ngày",
-      "minutes": 20,
+      "minutes": 10,
       "steps": [
         {
           "type": "dialogue",
@@ -205,6 +206,322 @@
               ],
               "answer": 0,
               "why": "Một chi tiết cụ thể giúp câu trả lời rõ hơn."
+            }
+          ]
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "ielts-part1-clear-lesson-03",
+      "title": "Nói về nơi mình sống",
+      "minutes": 10,
+      "reviewed": false,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Examiner",
+              "en": "What do you like about the area where you live?",
+              "vi": "Bạn thích điều gì ở khu vực mình sống?"
+            },
+            {
+              "who": "Candidate",
+              "en": "I like my residential area because it is fairly quiet.",
+              "vi": "Tôi thích khu dân cư của mình vì nơi đó khá yên tĩnh."
+            },
+            {
+              "who": "Examiner",
+              "en": "Is it easy to find places nearby?",
+              "vi": "Có dễ tìm các địa điểm gần đó không?"
+            },
+            {
+              "who": "Candidate",
+              "en": "Yes. A small market is within walking distance of my home.",
+              "vi": "Có. Một khu chợ nhỏ cách nhà tôi một quãng đi bộ."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "residential area",
+              "vi": "khu dân cư",
+              "example": "My residential area has a small park."
+            },
+            {
+              "en": "quiet street",
+              "vi": "con phố yên tĩnh",
+              "example": "I live on a quiet street near the river."
+            },
+            {
+              "en": "within walking distance",
+              "vi": "có thể đi bộ tới",
+              "example": "The bus station is within walking distance of campus."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Trả lời rồi thêm một chi tiết",
+          "vi": "Ở Part 1, trả lời trực tiếp trước; thêm một đặc điểm cụ thể và một lý do ngắn nếu phù hợp.",
+          "examples": [
+            "I live in a quiet street near the city centre.",
+            "The park is within walking distance of my home.",
+            "I enjoy the area because daily shops are close by."
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "I live on a quiet street near my college.",
+            "The park is within walking distance of home."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "What do you like about the place where you live?",
+          "hints": [
+            "Name one feature",
+            "Give one location detail",
+            "Say why it matters to you"
+          ],
+          "part": 1
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "Which answer gives a direct response and a reason?",
+              "options": [
+                "I like it because it is quiet.",
+                "Maybe, perhaps, I do not know.",
+                "The question is about another place."
+              ],
+              "answer": 0,
+              "why": "Câu trả lời nêu sở thích trực tiếp rồi đưa ra lý do."
+            },
+            {
+              "q": "What is a useful Part 1 answer shape?",
+              "options": [
+                "Answer, add one detail, give a short reason",
+                "Repeat the question only",
+                "Give an unrelated story"
+              ],
+              "answer": 0,
+              "why": "Cấu trúc này giúp câu trả lời đủ ý mà không quá dài."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ielts-part1-clear-lesson-04",
+      "title": "Nói về việc học hoặc công việc",
+      "minutes": 10,
+      "reviewed": false,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Examiner",
+              "en": "What are you studying at the moment?",
+              "vi": "Hiện tại bạn đang học ngành gì?"
+            },
+            {
+              "who": "Candidate",
+              "en": "I study electrical engineering. I enjoy the practical tasks.",
+              "vi": "Tôi học kỹ thuật điện. Tôi thích các bài tập thực hành."
+            },
+            {
+              "who": "Examiner",
+              "en": "Why did you choose that subject?",
+              "vi": "Vì sao bạn chọn ngành đó?"
+            },
+            {
+              "who": "Candidate",
+              "en": "I chose it because I want to understand how energy systems work.",
+              "vi": "Tôi chọn ngành này vì muốn hiểu cách các hệ thống năng lượng hoạt động."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "course project",
+              "vi": "đồ án môn học",
+              "example": "Our course project is about a small sensor."
+            },
+            {
+              "en": "practical task",
+              "vi": "bài tập thực hành",
+              "example": "The practical task helped me use the theory."
+            },
+            {
+              "en": "future career",
+              "vi": "nghề nghiệp trong tương lai",
+              "example": "I hope my future career will involve clean technology."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Nêu lựa chọn và lý do",
+          "vi": "Trả lời bằng một ý chính; nối với lý do bằng “because”, rồi thêm một ví dụ nhỏ nếu cần.",
+          "examples": [
+            "I chose this course because I enjoy solving problems.",
+            "A practical task helps me connect ideas with real work.",
+            "This subject may support my future career."
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "I chose this subject because I enjoy practical work.",
+            "It may help me in my future career."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "Describe your studies or work and explain why you chose it.",
+          "hints": [
+            "What you study or do",
+            "One part you enjoy",
+            "A reason for your choice"
+          ],
+          "part": 1
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "Which word introduces a reason?",
+              "options": [
+                "because",
+                "although",
+                "unless"
+              ],
+              "answer": 0,
+              "why": "“Because” dùng để nêu lý do."
+            },
+            {
+              "q": "What can a short example do?",
+              "options": [
+                "Make the answer more specific",
+                "Replace the main answer",
+                "Change the topic"
+              ],
+              "answer": 0,
+              "why": "Ví dụ ngắn làm câu trả lời cụ thể hơn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ielts-part1-clear-lesson-05",
+      "title": "Nói về thời gian rảnh",
+      "minutes": 10,
+      "reviewed": false,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Examiner",
+              "en": "What do you like doing in your free time?",
+              "vi": "Bạn thích làm gì vào thời gian rảnh?"
+            },
+            {
+              "who": "Candidate",
+              "en": "I enjoy cycling in the park. It helps me relax after class.",
+              "vi": "Tôi thích đạp xe trong công viên. Việc đó giúp tôi thư giãn sau giờ học."
+            },
+            {
+              "who": "Examiner",
+              "en": "Do you do it every week?",
+              "vi": "Bạn có làm việc đó mỗi tuần không?"
+            },
+            {
+              "who": "Candidate",
+              "en": "Usually at the weekend, if I have enough time.",
+              "vi": "Thường là vào cuối tuần, nếu tôi có đủ thời gian."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "indoor hobby",
+              "vi": "sở thích trong nhà",
+              "example": "Reading is an indoor hobby I can enjoy at home."
+            },
+            {
+              "en": "spare hour",
+              "vi": "một giờ rảnh",
+              "example": "I listen to a podcast during a spare hour."
+            },
+            {
+              "en": "relieve stress",
+              "vi": "giảm căng thẳng",
+              "example": "A short walk can relieve stress after a busy day."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Nêu hoạt động và cảm nhận",
+          "vi": "Nói hoạt động bạn thích, khi nào thường làm và cảm nhận của bạn; dùng hiện tại đơn cho thói quen.",
+          "examples": [
+            "I enjoy a short walk after class.",
+            "I usually do this at the weekend.",
+            "It helps me relieve stress and sleep better."
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "I enjoy a short walk after class.",
+            "It helps me relieve stress."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "What do you enjoy doing when you have free time?",
+          "hints": [
+            "Name an activity",
+            "Say when you do it",
+            "Explain how it makes you feel"
+          ],
+          "part": 1
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "Which tense is natural for a regular hobby?",
+              "options": [
+                "Present simple",
+                "Past perfect only",
+                "Future perfect only"
+              ],
+              "answer": 0,
+              "why": "Hiện tại đơn thường diễn tả thói quen và sở thích."
+            },
+            {
+              "q": "Which detail helps extend the answer?",
+              "options": [
+                "When you do the activity",
+                "A random number",
+                "An unrelated opinion"
+              ],
+              "answer": 0,
+              "why": "Thời điểm là một chi tiết phù hợp để mở rộng câu trả lời."
             }
           ]
         }

@@ -31,6 +31,7 @@ const unique = (values, where, label) => {
 const index = readJson(indexPath);
 if (!index || index.version !== 1 || !Array.isArray(index.courses)) fail('assets/courses/index.json', 'cần version: 1 và courses là mảng');
 const allowedCategories = new Set(['daily', 'ielts', 'pronunciation', 'engineering', 'presentation', 'vocabulary']);
+const pilotCourseIds = new Set(['daily-small-talk', 'ielts-part1-clear', 'pronunciation-final-sounds', 'engineering-safety-briefing']);
 const metadataKeys = ['id', 'category', 'title', 'level', 'minutes', 'lessonCount', 'status', 'coverSpec'];
 const courseIds = new Set();
 const lessonIds = new Set();
@@ -52,6 +53,8 @@ if (index?.courses) {
     if (!Number.isInteger(meta?.minutes) || meta.minutes < 1 || meta.minutes > 600) fail(where, 'minutes phải là số nguyên từ 1 đến 600');
     if (!Number.isInteger(meta?.lessonCount) || meta.lessonCount < 1 || meta.lessonCount > 80) fail(where, 'lessonCount phải là số nguyên từ 1 đến 80');
     if (!['ready', 'soon'].includes(meta?.status)) fail(where, 'status chỉ nhận ready hoặc soon');
+    if (meta?.status === 'ready' && !pilotCourseIds.has(meta.id)) fail(where, 'đợt pilot chỉ có bốn khóa đã định nghĩa');
+    if (meta?.status === 'ready' && (meta.lessonCount !== 5 || meta.minutes !== 50)) fail(where, 'khóa pilot cần 5 bài, khoảng 10 phút mỗi bài');
     if (!meta?.coverSpec || typeof meta.coverSpec !== 'object' || Array.isArray(meta.coverSpec)) fail(where, 'coverSpec phải là object');
     else {
       text(meta.coverSpec.shortTitle, `${where}.coverSpec.shortTitle`, { max: 40 });
@@ -61,7 +64,8 @@ if (index?.courses) {
     const dataPath = path.join(coursesDir, `${meta?.id}.json`);
     const fallbackPath = path.join(coursesDir, `${meta?.id}.js`);
     if (meta?.status === 'soon') {
-      if (fs.existsSync(dataPath)) warnings.push(`${path.relative(root, dataPath)}: khóa sắp ra mắt không cần dữ liệu bài học`);
+      if (fs.existsSync(dataPath)) fail(where, `khóa sắp ra mắt không được có dữ liệu bài học: ${path.relative(root, dataPath)}`);
+      if (fs.existsSync(fallbackPath)) fail(where, `khóa sắp ra mắt không được có script nội dung: ${path.relative(root, fallbackPath)}`);
       continue;
     }
     readyCount++;
@@ -82,7 +86,9 @@ if (index?.courses) {
       if (lessonIds.has(lesson?.id)) fail(base, `id bài học bị trùng: ${lesson?.id}`);
       lessonIds.add(lesson?.id);
       text(lesson?.title, `${base}.title`, { max: 90 });
+      if (lesson?.reviewed !== false) fail(`${base}.reviewed`, 'mọi bài trong pilot phải để reviewed:false cho tới khi được duyệt');
       if (!Number.isInteger(lesson?.minutes) || lesson.minutes < 1 || lesson.minutes > 120) fail(base, 'minutes phải là số nguyên từ 1 đến 120');
+      if (lesson?.minutes !== 10) fail(`${base}.minutes`, 'mỗi bài pilot cần khoảng 10 phút');
       if (!Array.isArray(lesson?.steps) || lesson.steps.length !== 6) { fail(base, 'mỗi bài cần đủ đúng 6 bước'); continue; }
       const actualSteps = lesson.steps.map(step => step?.type);
       if (actualSteps.some((type, i) => type !== expectedSteps[i])) fail(base, `thứ tự bước phải là ${expectedSteps.join(' → ')}`);
@@ -133,6 +139,11 @@ if (index?.courses) {
       }
     }
   }
+}
+
+for (const id of pilotCourseIds) {
+  const meta = index?.courses?.find(course => course.id === id);
+  if (!meta || meta.status !== 'ready') fail('assets/courses/index.json', `khóa pilot ${id} phải có trong danh mục và ở trạng thái ready`);
 }
 
 if (fs.existsSync(indexPath) && index) {

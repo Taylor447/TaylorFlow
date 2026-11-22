@@ -1,11 +1,11 @@
 {
   "id": "daily-small-talk",
-  "description": "Mở lời, hỏi thăm và giữ một cuộc trò chuyện ngắn tự nhiên.",
+  "description": "Hội thoại ngắn để chào hỏi, nói về sinh hoạt và giao tiếp tự tin hơn trong ngày.",
   "lessons": [
     {
       "id": "daily-small-talk-lesson-01",
       "title": "Bắt đầu cuộc trò chuyện",
-      "minutes": 18,
+      "minutes": 10,
       "steps": [
         {
           "type": "dialogue",
@@ -104,12 +104,13 @@
             }
           ]
         }
-      ]
+      ],
+      "reviewed": false
     },
     {
       "id": "daily-small-talk-lesson-02",
       "title": "Nói về sở thích",
-      "minutes": 17,
+      "minutes": 10,
       "steps": [
         {
           "type": "dialogue",
@@ -205,6 +206,322 @@
               ],
               "answer": 0,
               "why": "Đây là cách để thể hiện ý tưởng hoặc sự sáng tạo."
+            }
+          ]
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "daily-small-talk-lesson-03",
+      "title": "Kể về một ngày thường",
+      "minutes": 10,
+      "reviewed": false,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Linh",
+              "en": "What time do you get ready for class?",
+              "vi": "Bạn chuẩn bị đi học lúc mấy giờ?"
+            },
+            {
+              "who": "Nam",
+              "en": "I get ready at seven and walk to the bus stop.",
+              "vi": "Mình chuẩn bị lúc bảy giờ rồi đi bộ ra trạm xe buýt."
+            },
+            {
+              "who": "Linh",
+              "en": "Do you arrive on time?",
+              "vi": "Bạn có đến đúng giờ không?"
+            },
+            {
+              "who": "Nam",
+              "en": "Usually, yes. The trip takes about twenty minutes.",
+              "vi": "Thường là có. Chuyến đi mất khoảng hai mươi phút."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "get ready",
+              "vi": "chuẩn bị sẵn sàng",
+              "example": "I get ready for class before breakfast."
+            },
+            {
+              "en": "bus stop",
+              "vi": "trạm xe buýt",
+              "example": "The bus stop is beside the small shop."
+            },
+            {
+              "en": "on time",
+              "vi": "đúng giờ",
+              "example": "Our first class starts at eight, so I try to be on time."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Nói về lịch sinh hoạt",
+          "vi": "Dùng “I usually…” cho thói quen; thêm thời gian hoặc địa điểm để câu trả lời rõ hơn.",
+          "examples": [
+            "I usually get ready before seven.",
+            "The bus stop is near my home.",
+            "I arrive on time for my morning class."
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "I get ready for class before seven.",
+            "The bus stop is close to the library."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "Describe a normal weekday in your life.",
+          "hints": [
+            "What time you get up",
+            "Where you go in the morning",
+            "One thing you do every weekday"
+          ],
+          "part": 1
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "Which phrase means “đúng giờ”?",
+              "options": [
+                "at home",
+                "on time",
+                "by bus"
+              ],
+              "answer": 1,
+              "why": "“On time” nghĩa là đúng hoặc kịp giờ đã định."
+            },
+            {
+              "q": "Which sentence describes a regular habit?",
+              "options": [
+                "I usually walk to class.",
+                "I walked there yesterday.",
+                "I will walk tomorrow."
+              ],
+              "answer": 0,
+              "why": "“Usually” cho biết đây là việc thường làm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-small-talk-lesson-04",
+      "title": "Gọi món đơn giản",
+      "minutes": 10,
+      "reviewed": false,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Mai",
+              "en": "Could I see the menu, please?",
+              "vi": "Cho mình xem thực đơn được không?"
+            },
+            {
+              "who": "Server",
+              "en": "Of course. Today’s soup comes with rice.",
+              "vi": "Dĩ nhiên. Hôm nay món súp được dùng kèm cơm."
+            },
+            {
+              "who": "Mai",
+              "en": "Great. I would like the soup, please.",
+              "vi": "Tốt quá. Cho mình gọi món súp."
+            },
+            {
+              "who": "Server",
+              "en": "Would you like water as well?",
+              "vi": "Bạn có muốn dùng thêm nước không?"
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "menu",
+              "vi": "thực đơn",
+              "example": "The menu has several vegetarian options."
+            },
+            {
+              "en": "order",
+              "vi": "gọi món; món đã gọi",
+              "example": "We are ready to order now."
+            },
+            {
+              "en": "side dish",
+              "vi": "món ăn kèm",
+              "example": "The salad is a light side dish with the meal."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Gọi món lịch sự",
+          "vi": "Dùng “Could I have…?” hoặc “I would like…” khi gọi món; thêm “please” để lời nói thân thiện.",
+          "examples": [
+            "Could I have a bowl of soup, please?",
+            "I would like the rice with vegetables.",
+            "May I order a glass of water?"
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "Could I see the menu, please?",
+            "I would like the soup with rice."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "Talk about a meal you enjoy ordering at a café or canteen.",
+          "hints": [
+            "What you usually choose",
+            "Where you eat it",
+            "Why you like that meal"
+          ],
+          "part": 1
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "Which is a polite way to order?",
+              "options": [
+                "Give me that now.",
+                "I would like the soup, please.",
+                "You must bring food."
+              ],
+              "answer": 1,
+              "why": "“I would like…” là cách gọi món lịch sự."
+            },
+            {
+              "q": "What does side dish mean?",
+              "options": [
+                "A small dish served with the main food",
+                "A table near the door",
+                "A drink menu"
+              ],
+              "answer": 0,
+              "why": "Side dish là món ăn kèm món chính."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-small-talk-lesson-05",
+      "title": "Hỏi đường trong trường",
+      "minutes": 10,
+      "reviewed": false,
+      "steps": [
+        {
+          "type": "dialogue",
+          "lines": [
+            {
+              "who": "Hoa",
+              "en": "Excuse me, where is the science building?",
+              "vi": "Xin lỗi, tòa nhà khoa học ở đâu ạ?"
+            },
+            {
+              "who": "Guard",
+              "en": "Go straight and turn left at the library.",
+              "vi": "Đi thẳng rồi rẽ trái ở thư viện."
+            },
+            {
+              "who": "Hoa",
+              "en": "Is it far from here?",
+              "vi": "Từ đây đến đó có xa không ạ?"
+            },
+            {
+              "who": "Guard",
+              "en": "No. It is across from the sports hall.",
+              "vi": "Không xa. Nó ở đối diện nhà thể thao."
+            }
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {
+              "en": "go straight",
+              "vi": "đi thẳng",
+              "example": "Go straight to the end of this path."
+            },
+            {
+              "en": "turn left",
+              "vi": "rẽ trái",
+              "example": "Turn left after the second classroom."
+            },
+            {
+              "en": "across from",
+              "vi": "đối diện với",
+              "example": "The student office is across from the café."
+            }
+          ]
+        },
+        {
+          "type": "pattern",
+          "title": "Chỉ đường bằng câu ngắn",
+          "vi": "Nêu hướng đi trước, sau đó dùng một địa điểm dễ nhận ra để người nghe xác định vị trí.",
+          "examples": [
+            "Go straight past the main gate.",
+            "Turn left at the library.",
+            "The lab is across from the student office."
+          ]
+        },
+        {
+          "type": "shadow",
+          "sentences": [
+            "Go straight to the main building.",
+            "Turn left at the library entrance."
+          ]
+        },
+        {
+          "type": "speak",
+          "prompt": "Explain how a new student can find a place on your campus.",
+          "hints": [
+            "Which place they need to find",
+            "One direction to follow",
+            "A nearby place that can help"
+          ],
+          "part": 1
+        },
+        {
+          "type": "quiz",
+          "items": [
+            {
+              "q": "What should you do after “go straight”?",
+              "options": [
+                "Turn left at a clear landmark.",
+                "Forget the destination.",
+                "Walk into a closed room."
+              ],
+              "answer": 0,
+              "why": "Kết hợp hướng đi với địa điểm mốc giúp chỉ đường rõ hơn."
+            },
+            {
+              "q": "Across from means…",
+              "options": [
+                "inside",
+                "opposite",
+                "behind"
+              ],
+              "answer": 1,
+              "why": "“Across from” nghĩa là đối diện."
             }
           ]
         }

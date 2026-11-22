@@ -2923,7 +2923,6 @@ self.onmessage=async({data})=>{
 <script src="assets/vocabulary/data.js"></script>
 <script src="assets/vocabulary/journey.js"></script>
 <script src="./assets/phrases/index.js"></script>
-<script src="./assets/courses/index.js"></script>
 <script>
 // Dữ liệu đã lưu và tiện ích
 
@@ -2932,8 +2931,7 @@ const MAIL="nductai2444@gmail.com";
 const $=s=>document.querySelector(s),esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let st={};
 const COURSE_PROGRESS_KEY='taylorflow-course-progress-v1';
-const COURSE_INDEX=Array.isArray(globalThis.TF_COURSE_INDEX?.courses)?globalThis.TF_COURSE_INDEX.courses:[];
-const COURSE_BY_ID=new Map(COURSE_INDEX.map(course=>[course.id,course]));
+let COURSE_INDEX=[],COURSE_BY_ID=new Map(),COURSE_INDEX_READY=false,COURSE_INDEX_JOB=null,COURSE_INDEX_ERROR='';
 try{st=JSON.parse(localStorage.getItem('epu')||'{}')||{}}catch{}
 if(typeof st!=='object'||Array.isArray(st))st={};
 if(!Array.isArray(st.h))st.h=[];
@@ -10366,22 +10364,22 @@ function courseCleanProgress(input){
  const src=input&&typeof input==='object'&&!Array.isArray(input)?input:{};
  const courses={};
  for(const [id,value] of Object.entries(src.courses||{})){
-  if(!COURSE_BY_ID.has(id)||!value||typeof value!=='object')continue;
-  const meta=COURSE_BY_ID.get(id),validLesson=lesson=>typeof lesson==='string'&&lesson.startsWith(id+'-')&&validKey(lesson);
-  const completed=[...new Set((Array.isArray(value.completed)?value.completed:[]).filter(validLesson))].slice(0,meta.lessonCount);
+  if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)||!value||typeof value!=='object')continue;
+  const validLesson=lesson=>typeof lesson==='string'&&lesson.startsWith(id+'-')&&validKey(lesson);
+  const completed=[...new Set((Array.isArray(value.completed)?value.completed:[]).filter(validLesson))].slice(0,80);
   const stepByLesson={};
   for(const [lesson,record] of Object.entries(value.stepByLesson||{}))if(validLesson(lesson)&&record&&Number.isInteger(record.step)&&record.step>=0&&record.step<=5&&Number.isFinite(record.updated))stepByLesson[lesson]={step:record.step,updated:Math.max(0,Math.min(Date.now()+DAY,record.updated))};
   courses[id]={completed,stepByLesson,updated:Number.isFinite(value.updated)?Math.max(0,Math.min(Date.now()+DAY,value.updated)):0};
  }
  const awardMap=new Map();
  for(const award of Array.isArray(src.awards)?src.awards:[]){
-  if(!award||typeof award.id!=='string'||!award.id.startsWith('coursexp_')||!COURSE_BY_ID.has(award.course)||typeof award.lesson!=='string'||!award.lesson.startsWith(award.course+'-')||!courses[award.course]?.completed.includes(award.lesson)||!Number.isInteger(award.day)||!Number.isFinite(award.at)||award.at<0||award.at>Date.now()+DAY||dayNumber(award.at)!==award.day||award.xp!==20||!validKey(award.id))continue;
+  if(!award||typeof award.id!=='string'||!award.id.startsWith('coursexp_')||typeof award.course!=='string'||!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(award.course)||typeof award.lesson!=='string'||!award.lesson.startsWith(award.course+'-')||!courses[award.course]?.completed.includes(award.lesson)||!Number.isInteger(award.day)||!Number.isFinite(award.at)||award.at<0||award.at>Date.now()+DAY||dayNumber(award.at)!==award.day||award.xp!==20||!validKey(award.id))continue;
   const row={id:award.id,course:award.course,lesson:award.lesson,day:award.day,at:Math.max(0,Math.min(Date.now()+DAY,award.at)),xp:20};
   if(!awardMap.has(row.id))awardMap.set(row.id,row);
  }
  const dailyCount=new Map(),awards=[...awardMap.values()].sort((a,b)=>a.at-b.at||a.id.localeCompare(b.id)).filter(award=>{const count=dailyCount.get(award.day)||0;if(count>=2)return false;dailyCount.set(award.day,count+1);return true});
  let active=null;const candidate=src.active;
- if(candidate&&COURSE_BY_ID.has(candidate.course)&&typeof candidate.lesson==='string'&&candidate.lesson.startsWith(candidate.course+'-')&&validKey(candidate.lesson))active={course:candidate.course,lesson:candidate.lesson,title:String(candidate.title||'').slice(0,100),updated:Number.isFinite(candidate.updated)?Math.max(0,Math.min(Date.now()+DAY,candidate.updated)):0};
+ if(candidate&&typeof candidate.course==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(candidate.course)&&typeof candidate.lesson==='string'&&candidate.lesson.startsWith(candidate.course+'-')&&validKey(candidate.lesson))active={course:candidate.course,lesson:candidate.lesson,title:String(candidate.title||'').slice(0,100),updated:Number.isFinite(candidate.updated)?Math.max(0,Math.min(Date.now()+DAY,candidate.updated)):0};
  return {version:1,courses,awards,active};
 }
 function courseProgressRead(){
@@ -10430,13 +10428,27 @@ function courseCategoryMarkup(category,progress){
 function courseResumeMarkup(progress=courseProgressRead()){
  const active=progress.active;if(!active)return '';
  const meta=COURSE_BY_ID.get(active.course),course=progress.courses[active.course];
- if(!meta||meta.status!=='ready'||course?.completed?.includes(active.lesson))return '';
+ if(!meta||meta.status!=='ready'||courseCompletedSet(active.course).has(active.lesson))return '';
  return `<button type="button" class="course-resume" onclick="courseResume()"><span><strong>Tiếp tục học: ${esc(active.title||meta.title)}</strong><small>${esc(meta.title)} · Bài đang dở</small></span><span aria-hidden="true">→</span></button>`;
 }
 function courseCatalogFolder(){
+ if(!COURSE_INDEX_READY){
+  if(!COURSE_INDEX_JOB&&!COURSE_INDEX_ERROR)courseEnsureIndex().then(()=>{if(tab==='les'&&!courseRoute)openView()}).catch(()=>{if(tab==='les'&&!courseRoute)openView()});
+  const status=COURSE_INDEX_ERROR?`Không tải được danh mục khóa học. <button type="button" class="course-back" onclick="courseRetryIndex()">Thử lại</button>`:'Đang tải danh mục khóa học…';
+  return `<details class="c compact-folder course-catalog-folder"${courseCatalogOpen?' open':''} ontoggle="courseCatalogOpen=this.open"><summary><span class="compact-folder-icon">${collectionIcon('study')}</span><span class="compact-folder-copy"><strong>Khóa học</strong><small>Học theo lộ trình ngắn · tất cả miễn phí</small></span><span class="compact-folder-chevron" aria-hidden="true">⌄</span></summary><div class="compact-folder-body"><div class="course-status" role="status">${status}</div></div></details>`;
+ }
  const progress=courseProgressRead(),categories=COURSE_CATEGORIES.map(category=>courseCategoryMarkup(category,progress)).join('');
  return `<details class="c compact-folder course-catalog-folder"${courseCatalogOpen?' open':''} ontoggle="courseCatalogOpen=this.open"><summary><span class="compact-folder-icon">${collectionIcon('study')}</span><span class="compact-folder-copy"><strong>Khóa học</strong><small>Học theo lộ trình ngắn · tất cả miễn phí</small></span><span class="compact-folder-chevron" aria-hidden="true">⌄</span></summary><div class="compact-folder-body"><section class="course-catalog"><p class="course-catalog-intro">Mỗi bài có hội thoại, từ vựng, luyện nói và câu hỏi ngắn.</p>${courseResumeMarkup(progress)}${categories}<p class="course-catalog-intro">Luyện nói theo tiêu chí IELTS; không phải tài liệu chính thức.</p></section></div></details>`;
 }
+function courseSetIndex(index){if(!index||index.version!==1||!Array.isArray(index.courses))throw new Error('Danh mục khóa học chưa đúng định dạng.');COURSE_INDEX=index.courses;COURSE_BY_ID=new Map(COURSE_INDEX.map(course=>[course.id,course]));COURSE_INDEX_READY=true;COURSE_INDEX_ERROR='';globalThis.TF_COURSE_INDEX=index;return COURSE_INDEX}
+function courseEnsureIndex(){
+ if(COURSE_INDEX_READY)return Promise.resolve(COURSE_INDEX);
+ if(COURSE_INDEX_JOB)return COURSE_INDEX_JOB;
+ const fallback=()=>new Promise((resolve,reject)=>{const ready=globalThis.TF_COURSE_INDEX;if(ready?.version===1&&Array.isArray(ready.courses)){resolve(ready);return}const script=document.createElement('script');script.src=new URL('./assets/courses/index.js',document.baseURI).href;script.onload=()=>{script.remove();const data=globalThis.TF_COURSE_INDEX;if(data?.version===1&&Array.isArray(data.courses))resolve(data);else reject(new Error('Danh mục dự phòng chưa đúng định dạng.'))};script.onerror=()=>{script.remove();reject(new Error('Chưa nạp được danh mục offline.'))};document.head.appendChild(script)});
+ const job=(location.protocol!=='file:'?fetch(new URL('./assets/courses/index.json',document.baseURI),{cache:'force-cache'}).then(response=>{if(!response.ok)throw new Error('Không tải được danh mục.');return response.json()}).catch(()=>fallback()):fallback()).then(courseSetIndex).catch(error=>{COURSE_INDEX_ERROR=String(error?.message||error);throw error}).finally(()=>{COURSE_INDEX_JOB=null});
+ COURSE_INDEX_JOB=job;return job;
+}
+function courseRetryIndex(){COURSE_INDEX_ERROR='';void courseEnsureIndex().then(()=>{if(tab==='les'&&!courseRoute)openView()}).catch(()=>{if(tab==='les'&&!courseRoute)openView()})}
 function courseToggleCategory(category,button){const row=button.closest('.course-category')?.querySelector('.course-row');if(!row)return;if(row.classList.toggle('is-expanded'))courseCatalogExpanded.add(category);else courseCatalogExpanded.delete(category);button.setAttribute('aria-expanded',String(row.classList.contains('is-expanded')));button.textContent=row.classList.contains('is-expanded')?'Thu gọn':'Xem thêm'}
 function courseOpenVocabularyPath(){courseRoute=null;englishStudyRoute=null;lessonPhrasebookUnitActive=null;pathView=null;pathFolderOpen=true;tab='les';openView();requestAnimationFrame(()=>{const folder=$('.vocab-path-folder');if(folder){folder.open=true;folder.scrollIntoView({block:'start',behavior:window.matchMedia?.('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}})}
 function courseEnsureData(id){
@@ -10454,14 +10466,14 @@ function courseOpen(id){const meta=COURSE_BY_ID.get(id);if(!meta||meta.status!==
 function courseResume(){const active=courseProgressRead().active;if(!active)return;const meta=COURSE_BY_ID.get(active.course);if(!meta)return;courseRoute={id:active.course,screen:'overview',loading:true,error:''};tab='les';openView();void courseEnsureData(active.course).then(data=>{if(courseRoute?.id!==active.course)return;const lesson=data.lessons.find(item=>item.id===active.lesson);if(lesson)courseStartLesson(active.course,active.lesson);else{courseRoute.loading=false;courseRoute.error='Bài đang học không còn trong danh sách.';openView()}}).catch(error=>{if(courseRoute?.id===active.course){courseRoute.loading=false;courseRoute.error=String(error?.message||error);openView()}})}
 function courseBack(){courseRoute=null;courseCatalogOpen=true;tab='les';openView()}
 function courseOverviewBack(){courseRoute={...courseRoute,screen:'overview'};coursePracticeResult=null;openView()}
-function courseCompletedSet(id){return new Set(courseProgressRead().courses[id]?.completed||[])}
+function courseCompletedSet(id){return new Set((courseProgressRead().courses[id]?.completed||[]).filter(lesson=>lesson.startsWith(id+'-lesson-')&&/^\d{2}$/.test(lesson.slice((id+'-lesson-').length))&&Number(lesson.slice(-2))<=5))}
 function courseLessonStatus(data,index){const done=courseCompletedSet(data.id);if(done.has(data.lessons[index].id))return 'done';if(index===0||done.has(data.lessons[index-1].id))return 'open';return 'locked'}
 function courseStartLesson(courseId,lessonId){
  const data=COURSE_DATA_CACHE.get(courseId),index=data?.lessons.findIndex(item=>item.id===lessonId)??-1;if(!data||index<0||courseLessonStatus(data,index)==='locked')return;
  const lesson=data.lessons[index],saved=courseProgressRead().courses[courseId]?.stepByLesson?.[lessonId]?.step||0;
  courseRoute={id:courseId,screen:'lesson',lessonId,step:Math.max(0,Math.min(5,saved)),quizChecked:false,quizAnswers:{}};coursePracticeResult=null;courseStoreActive(courseId,lessonId,lesson.title,saved);tab='les';openView();
 }
-function courseProgressOverview(meta,data){const done=courseCompletedSet(meta.id);return `<section class="course-overview-hero"><div class="course-overview-cover">${courseCoverMarkup(meta,'overview')}</div><div class="course-overview-copy"><span class="course-pill">${esc(meta.level)}</span><h1>${esc(meta.title)}</h1><p>${esc(data.description)}</p><p class="mu">${done.size}/${data.lessons.length} bài · ${meta.minutes} phút</p></div></section><div class="course-lesson-list" aria-label="Danh sách bài học">${data.lessons.map((lesson,index)=>{const state=courseLessonStatus(data,index),saved=courseProgressRead().courses[meta.id]?.stepByLesson?.[lesson.id]?.step||0,active=courseProgressRead().active?.course===meta.id&&courseProgressRead().active?.lesson===lesson.id,button=state==='done'?'Học lại':active||saved?'Tiếp tục':'Bắt đầu',status=state==='done'?'Đã xong':state==='locked'?'Chưa mở':active||saved?'Đang học':'Chưa học';return `<article class="course-lesson-row"><span class="course-lesson-copy"><strong>${index+1}. ${esc(lesson.title)}</strong><small>${status} · ${lesson.minutes} phút</small></span><span class="course-actions"><button type="button" ${state==='locked'?'disabled':''} onclick="courseStartLesson('${meta.id}','${lesson.id}')">${button}</button></span></article>`}).join('')}</div>`}
+function courseProgressOverview(meta,data){const done=courseCompletedSet(meta.id),progress=courseProgressRead(),nextIndex=data.lessons.findIndex((lesson,index)=>courseLessonStatus(data,index)==='open');const active=progress.active?.course===meta.id?progress.active.lesson:null;return `<section class="course-overview-hero"><div class="course-overview-cover">${courseCoverMarkup(meta,'overview')}</div><div class="course-overview-copy"><span class="course-pill">${esc(meta.level)}</span><h1>${esc(meta.title)}</h1><p>${esc(data.description)}</p><p class="mu">${done.size}/${data.lessons.length} bài · ${meta.minutes} phút</p></div></section>${nextIndex>=0?`<button type="button" class="course-start-first" onclick="courseStartLesson('${meta.id}','${data.lessons[nextIndex].id}')">${active===data.lessons[nextIndex].id?'Tiếp tục bài đang học':done.size?'Tiếp tục bài '+(nextIndex+1):'Bắt đầu bài đầu tiên'} →</button>`:''}<div class="course-lesson-list" aria-label="Danh sách bài học">${data.lessons.map((lesson,index)=>{const state=courseLessonStatus(data,index),saved=progress.courses[meta.id]?.stepByLesson?.[lesson.id]?.step||0,isActive=active===lesson.id,button=state==='done'?'Học lại':isActive||saved?'Tiếp tục':'Bắt đầu',status=state==='done'?'Đã xong':state==='locked'?'Chưa mở':isActive||saved?'Đang học':'Chưa học';return `<article class="course-lesson-row"><span class="course-lesson-copy"><strong>${index+1}. ${esc(lesson.title)}</strong><small>${status} · ${lesson.minutes} phút</small></span><span class="course-actions"><button type="button" ${state==='locked'?'disabled':''} onclick="courseStartLesson('${meta.id}','${lesson.id}')">${button}</button></span></article>`}).join('')}</div>`}
 function coursePageIntro(meta,insideCourse=false){return `<button type="button" class="course-back" onclick="${insideCourse?'courseOverviewBack()':'courseBack()'}">${insideCourse?'← Quay lại khóa học':'← Quay lại Bài học'}</button><p class="mu">${esc(meta.title)}</p>`}
 function courseQuizMarkup(step,route){
  const checked=route.quizChecked===true,answers=route.quizAnswers||{};
