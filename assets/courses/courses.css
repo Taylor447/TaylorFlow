@@ -49,11 +49,28 @@
 .course-vocab-item{display:grid;gap:6px}.course-vocab-item button,.course-step-content>button{justify-self:start}
 .course-quiz-options{display:grid;gap:8px}.course-quiz-option{display:flex;align-items:center;gap:10px;min-height:48px;padding:9px 12px;border:1px solid var(--bd);border-radius:13px;background:var(--sf);cursor:pointer}.course-quiz-option input{width:20px;height:20px;accent-color:var(--pr)}
 .course-feedback{margin:0;padding:12px 14px;border:1px solid var(--bd);border-radius:14px;background:color-mix(in srgb,var(--pr) 10%,var(--cd));color:var(--tx)}
+.course-compose-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.course-compose-prompt{display:grid;align-content:start;gap:9px;min-width:0;padding:13px;border:1px solid var(--bd);border-radius:15px;background:color-mix(in srgb,var(--sf) 78%,transparent);line-height:1.45}
+.course-compose-prompt strong{color:var(--pr)}
+.course-compose-input{width:100%;min-height:96px;resize:vertical;padding:10px 12px;border:1px solid var(--bd);border-radius:12px;background:var(--cd);color:var(--tx);font:inherit;font-size:15px;line-height:1.45}
+.course-compose-input:focus-visible{outline:3px solid var(--pr);outline-offset:2px}
+.course-compose-preview{display:grid;gap:8px;padding:14px;border:1px solid color-mix(in srgb,var(--pr) 45%,var(--bd));border-radius:15px;background:color-mix(in srgb,var(--pr) 12%,var(--cd));line-height:1.55}
+.course-compose-preview p{margin:0}.course-compose-preview button{justify-self:start}
 .course-step-next{justify-self:end;min-width:150px!important;background:color-mix(in srgb,var(--pr) 24%,var(--cd))!important}
 .course-status{padding:12px;border:1px solid var(--bd);border-radius:13px;color:var(--mu)}
+.course-practice-open{overflow:hidden}
+.course-practice-overlay{position:fixed;inset:0;z-index:10000;display:grid;place-items:center;padding:max(12px,env(safe-area-inset-top)) max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));background:#050b18d9;backdrop-filter:blur(8px)}
+.course-practice-dialog{width:min(900px,100%);max-height:calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 24px);overflow:auto;overscroll-behavior:contain;padding:clamp(12px,2vw,20px);border:1px solid color-mix(in srgb,var(--pr) 40%,var(--bd));border-radius:22px;background:var(--cd);box-shadow:0 24px 72px #0008;scrollbar-gutter:stable}
+.course-practice-toolbar{position:sticky;top:calc(-1 * clamp(12px,2vw,20px));z-index:2;display:flex;align-items:center;justify-content:space-between;gap:14px;margin:calc(-1 * clamp(12px,2vw,20px)) calc(-1 * clamp(12px,2vw,20px)) 16px;padding:14px clamp(12px,2vw,20px);border-bottom:1px solid var(--bd);border-radius:22px 22px 0 0;background:color-mix(in srgb,var(--cd) 96%,transparent)}
+.course-practice-toolbar strong{color:var(--pr);font-size:13px;letter-spacing:.08em}.course-practice-toolbar p{margin:3px 0 0;color:var(--mu);font-size:13px;line-height:1.4}
+.course-practice-back{flex:0 0 auto;min-width:44px;min-height:44px;padding:8px 13px;border:1px solid var(--bd);border-radius:13px;background:var(--sf);color:var(--tx);font:inherit;font-weight:760;cursor:pointer}
+.course-practice-dialog .practice-card{margin:0}
+.course-practice-back:focus-visible{outline:3px solid var(--pr);outline-offset:3px}
 @media(max-width:700px){
  .course-category{padding-top:13px}.course-category-heading{align-items:flex-start}.course-category-heading p{max-width:34ch}
  .course-track{gap:10px}.course-card,.course-vocab-link{flex-basis:72vw;max-width:310px}.course-card{min-height:258px;grid-template-rows:136px auto}
  .course-overview-hero{grid-template-columns:minmax(0,1fr)}.course-overview-cover{width:min(100%,360px);aspect-ratio:1.8}.course-lesson-row{align-items:flex-start}.course-lesson-row .course-actions{align-self:center}
+ .course-compose-grid{grid-template-columns:minmax(0,1fr)}
+ .course-practice-overlay{align-items:stretch;padding:0}.course-practice-dialog{width:100%;max-height:100dvh;padding:12px;border-radius:0;border:0}.course-practice-toolbar{top:-12px;margin:-12px -12px 12px;padding:12px;border-radius:0}.course-practice-toolbar p{max-width:34ch}.course-practice-back{max-width:46%;white-space:normal;line-height:1.2}
 }
 @media(prefers-reduced-motion:reduce){.course-card{transition:none!important}.course-card:hover:not(:disabled){transform:none}}

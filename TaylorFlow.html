@@ -3797,7 +3797,8 @@ function startQuick(itemOverride=null,courseReturn=null){
  stopQuickClock();stopPracticeMedia();
  const all=TP.flatMap(([topic,part1,,part3])=>[...part1.map((q,k)=>({p:1,q,t:topic,k})),...part3.map((q,k)=>({p:3,q,t:topic,k}))]);
  const item=itemOverride||all[Math.floor(Math.random()*all.length)];
- S={mode:'quick',it:[item],i:0,res:[],result:null,quickDeadline:0,courseReturn:courseReturn||null};tab='prac';openView();
+ S={mode:'quick',it:[item],i:0,res:[],result:null,quickDeadline:0,courseReturn:courseReturn||null};
+ if(courseReturn){tab='les';coursePracticeOverlayOpen()}else{tab='prac';openView()}
  void rec().then(()=>{
   if(S?.mode!=='quick'||activeCapture?.state!=='recording')return;
   S.quickDeadline=Date.now()+60000;quickTick();quickClock=setInterval(quickTick,200);
@@ -5782,13 +5783,13 @@ function cancel(keepPronunciation=false) {
 }
 
 function recordingError(error) {
-  if (!window.isSecureContext) return 'Hãy mở tệp trong trình duyệt hoặc dùng HTTPS để truy cập micro.';
+  if (!window.isSecureContext) return 'Ghi âm cần HTTPS hoặc localhost. Hãy mở TaylorFlow trên GitHub Pages và cho phép truy cập micro.';
   switch (error?.name) {
     case 'NotAllowedError':
     case 'SecurityError': return 'Micro chưa được cấp quyền. Hãy cho phép micro trong cài đặt của trình duyệt rồi thử lại.';
     case 'NotFoundError': return 'Không tìm thấy micro. Hãy kết nối hoặc bật micro rồi thử lại.';
     case 'NotReadableError': return 'Trình duyệt chưa truy cập được micro. Hãy kiểm tra thiết bị và các ứng dụng đang sử dụng micro.';
-    case 'NotSupportedError': return 'Trình duyệt này chưa hỗ trợ ghi âm trên trang.';
+    case 'NotSupportedError': return 'Không mở được bộ ghi âm ở địa chỉ này. Hãy thử TaylorFlow trên GitHub Pages; bạn vẫn có thể nhập câu trả lời.';
     default: return ['baseline','lesson'].includes(S?.mode)?'Không thể mở phiên ghi âm. Hãy kiểm tra micro rồi thử lại.':'Không thể mở phiên ghi âm. Bạn có thể thử lại hoặc nhập câu trả lời.';
   }
 }
@@ -7467,7 +7468,7 @@ function sess(){
   </div>
  </section>
  </article>
- <button class="g w" onclick="leavePractice()">Thoát bài luyện</button>`;
+ ${S.courseReturn?'':'<button class="g w" onclick="leavePractice()">Thoát bài luyện</button>'}`;
 }
 function recordingReviewMarkup(result){
  const blob=result?.blob||null;
@@ -7528,8 +7529,9 @@ function leavePractice(){
  stopQuickClock();stopCelebration();stopPracticeMedia();S=null;
  if(courseReturn){
   const pronunciation=result?.m?audioBand(result.s):null;
-  coursePracticeResult={kind:courseReturn.kind,message:courseReturn.kind==='shadow'?(pronunciation!=null&&pronunciation>=5.5?'Tốt · phát âm được chấm bằng công cụ hiện có.':'Thử lại · hãy nghe mẫu và đọc rõ hơn một lần nữa.'):'Đã hoàn tất lượt nói. Bạn đã quay lại đúng bước trong khóa học.'};
+  coursePracticeResult={kind:courseReturn.kind,message:courseReturn.kind==='shadow'?(pronunciation!=null&&pronunciation>=5.5?'Tốt · phát âm được chấm bằng công cụ hiện có.':'Thử lại · hãy nghe mẫu và đọc rõ hơn một lần nữa.'):result?'Đã hoàn tất lượt nói và xem phản hồi. Tiến độ vẫn ở bước này.':'Đã quay lại bước tự nói. Tiến độ bài học được giữ nguyên.'};
   courseRoute={id:courseReturn.courseId,screen:'lesson',lessonId:courseReturn.lessonId,step:courseReturn.step,quizChecked:false,quizAnswers:{}};
+  document.getElementById('course-practice-overlay')?.remove();document.body.classList.remove('course-practice-open');
  }
  if(courseReturn){tab='les';openView();return}
  if(returnToCampus)tab='campus3d';
@@ -10479,16 +10481,40 @@ function courseQuizMarkup(step,route){
  const checked=route.quizChecked===true,answers=route.quizAnswers||{};
  return `<div class="course-step-content">${route.quizError?`<p class="course-feedback" role="status">${esc(route.quizError)}</p>`:''}${step.items.map((item,index)=>`<fieldset class="course-quiz-question"><legend><strong>${index+1}. ${esc(item.q)}</strong></legend><div class="course-quiz-options">${item.options.map((option,choice)=>`<label class="course-quiz-option"><input type="radio" name="course-quiz-${index}" value="${choice}" ${String(answers[index])===String(choice)?'checked':''} ${checked?'disabled':''}><span>${esc(option)}</span></label>`).join('')}</div>${checked?`<p class="course-feedback" role="status">${Number(answers[index])===item.answer?'✓ Đúng. ':'Thử lại lần sau. '}${esc(item.why)}</p>`:''}</fieldset>`).join('')}</div>`;
 }
+const COURSE_COMPOSE_KEY='taylorflow-course-compose-v1';
+function courseComposeRead(courseId,lessonId,count){
+ try{const all=JSON.parse(localStorage.getItem(COURSE_COMPOSE_KEY)||'{}'),row=all?.[courseId+':'+lessonId],parts=Array.from({length:count},(_,index)=>String(row?.parts?.[index]||'').slice(0,500));return {parts,ready:row?.ready===true&&parts.every(part=>part.trim())}}catch{return {parts:Array(count).fill(''),ready:false}}
+}
+function courseComposeWrite(courseId,lessonId,parts,ready=false){
+ const cleaned=parts.map(part=>String(part||'').slice(0,500)),all=(()=>{try{return JSON.parse(localStorage.getItem(COURSE_COMPOSE_KEY)||'{}')}catch{return {}}})();
+ all[courseId+':'+lessonId]={parts:cleaned,ready:ready&&cleaned.every(part=>part.trim()),updated:Date.now()};try{localStorage.setItem(COURSE_COMPOSE_KEY,JSON.stringify(all))}catch{}
+}
+function courseComposeAnswer(parts){return parts.map(part=>part.trim()).filter(Boolean).map(part=>/[.!?]$/.test(part)?part:part+'.').join(' ')}
+function courseComposeMarkup(meta,lesson,step){
+ const state=courseComposeRead(meta.id,lesson.id,step.hints.length),answer=courseComposeAnswer(state.parts);
+ return `<div class="course-step-content course-compose"><p>${esc(step.prompt)}</p><p class="mu">Viết một câu ngắn cho mỗi ý. Ghép xong, bạn có thể nghe mẫu và đọc theo, không cần ghi âm.</p><div class="course-compose-grid">${step.hints.map((hint,index)=>`<label class="course-compose-prompt"><span><strong>Ý ${index+1}</strong> · ${esc(hint)}</span><textarea class="course-compose-input" data-course-id="${esc(meta.id)}" data-lesson-id="${esc(lesson.id)}" data-index="${index}" rows="2" maxlength="500" lang="en" placeholder="Write one short sentence in English." oninput="courseComposeInput('${meta.id}','${lesson.id}',${index},${step.hints.length},this.value)">${esc(state.parts[index])}</textarea></label>`).join('')}</div><p id="course-compose-status" class="course-feedback" role="status">${state.ready?'Đã ghép câu trả lời. Hãy nghe rồi đọc theo.':'Điền đủ ba ý rồi ghép thành câu trả lời.'}</p><section id="course-compose-preview" class="course-compose-preview"${state.ready?'':' hidden'}><strong>Câu trả lời của bạn</strong><p lang="en">${esc(answer)}</p><button type="button" onclick="say(${courseInlineArg(answer)},.9)">Nghe rồi đọc theo</button></section></div>`;
+}
+function courseComposeInput(courseId,lessonId,index,count,value){
+ const state=courseComposeRead(courseId,lessonId,count);state.parts[index]=String(value||'').slice(0,500);courseComposeWrite(courseId,lessonId,state.parts,false);
+ const preview=$('#course-compose-preview'),status=$('#course-compose-status'),next=$('#course-step-next');if(preview)preview.hidden=true;if(status)status.textContent='Nháp đã lưu. Điền đủ ba ý rồi ghép lại.';if(next){next.textContent='Ghép câu trả lời →';next.onclick=()=>courseComposeBuild(courseId,lessonId,count)}
+}
+function courseComposeBuild(courseId,lessonId,count){
+ const state=courseComposeRead(courseId,lessonId,count),fields=[...document.querySelectorAll('.course-compose-input')];fields.forEach(field=>{const index=Number(field.dataset.index);if(Number.isInteger(index)&&index>=0&&index<count)state.parts[index]=field.value.slice(0,500)});
+ const missing=state.parts.findIndex(part=>!part.trim());if(missing>=0){courseComposeWrite(courseId,lessonId,state.parts,false);const status=$('#course-compose-status');if(status)status.textContent='Hãy viết một câu ngắn cho từng ý trước khi ghép.';fields[missing]?.focus();return}
+ courseComposeWrite(courseId,lessonId,state.parts,true);const answer=courseComposeAnswer(state.parts),preview=$('#course-compose-preview'),status=$('#course-compose-status'),next=$('#course-step-next');
+ if(preview){preview.innerHTML=`<strong>Câu trả lời của bạn</strong><p lang="en">${esc(answer)}</p><button type="button" onclick="say(${courseInlineArg(answer)},.9)">Nghe rồi đọc theo</button>`;preview.hidden=false}
+ if(status)status.textContent='Đã ghép câu trả lời. Hãy nghe rồi đọc theo.';if(next){next.textContent='Tiếp tục →';next.onclick=()=>courseNextStep()}
+}
 function courseStepMarkup(meta,data,lesson,route){
- const step=lesson.steps[route.step],stepTitles=['Nghe hội thoại','Học từ mới','Dùng mẫu câu','Luyện đọc','Tự nói','Kiểm tra nhanh'];let content='';
+ const step=lesson.steps[route.step],stepTitles=['Nghe hội thoại','Học từ mới','Dùng mẫu câu','Luyện đọc','Ghép câu trả lời','Kiểm tra nhanh'];let content='';
  if(step.type==='dialogue')content=`<div class="course-step-content"><button type="button" onclick="say(${courseInlineArg(step.lines.map(line=>line.en).join(' '))},.9)">Nghe cả hội thoại</button>${step.lines.map(line=>`<article class="course-dialogue-line"><strong>${esc(line.who)}</strong><p lang="en">${esc(line.en)}</p><p class="mu">${esc(line.vi)}</p><button type="button" aria-label="Nghe câu tiếng Anh" onclick="say(${courseInlineArg(line.en)},.9)">Nghe câu</button></article>`).join('')}</div>`;
  if(step.type==='vocab')content=`<div class="course-step-content">${step.items.map((item,index)=>`<article class="course-vocab-item"><strong lang="en">${esc(item.en)}</strong><span>${esc(item.vi)}</span><p class="mu" lang="en">${esc(item.example)}</p><div><button type="button" onclick="say(${courseInlineArg(item.en)},.85)">Nghe từ</button><button type="button" onclick="courseRememberWord('${meta.id}','${lesson.id}',${index},this)">Nhớ từ</button></div></article>`).join('')}</div>`;
  if(step.type==='pattern')content=`<div class="course-step-content"><h2>${esc(step.title)}</h2><p>${esc(step.vi)}</p>${step.examples.map(example=>`<article class="course-pattern-example" lang="en">${esc(example)} <button type="button" aria-label="Nghe ví dụ" onclick="say(${courseInlineArg(example)},.9)">Nghe</button></article>`).join('')}</div>`;
  if(step.type==='shadow')content=`<div class="course-step-content"><p>Nghe mẫu rồi đọc theo. TaylorFlow dùng phần ghi âm và chấm phát âm sẵn có.</p>${step.sentences.map((sentence,index)=>`<article class="course-pattern-example"><span lang="en">${esc(sentence)}</span><div><button type="button" onclick="say(${courseInlineArg(sentence)},.82)">Nghe mẫu</button><button type="button" onclick="courseStartShadow('${meta.id}','${lesson.id}',${index})">Đọc câu này</button></div></article>`).join('')}${coursePracticeResult?.kind==='shadow'?`<p class="course-feedback" role="status">${esc(coursePracticeResult.message)}</p>`:''}</div>`;
- if(step.type==='speak')content=`<div class="course-step-content"><p>${esc(step.prompt)}</p><ul>${step.hints.map(hint=>`<li>${esc(hint)}</li>`).join('')}</ul><p class="mu">Lượt nói được mở trong công cụ hiện có; khi hoàn tất, bạn sẽ quay về đúng bước này.</p><button type="button" onclick="courseStartSpeak('${meta.id}','${lesson.id}')">Bắt đầu nói</button>${coursePracticeResult?.kind==='speak'?`<p class="course-feedback" role="status">${esc(coursePracticeResult.message)}</p>`:''}</div>`;
+ if(step.type==='speak')content=courseComposeMarkup(meta,lesson,step);
  if(step.type==='quiz')content=courseQuizMarkup(step,route);
- const nextLabel=step.type==='quiz'&&!route.quizChecked?'Kiểm tra đáp án':route.step===5?'Hoàn thành bài':'Tiếp tục';
- return `${coursePageIntro(meta,true)}<section class="course-step"><div class="course-step-head"><span class="course-pill">${esc(meta.level)}</span><small>Bước ${route.step+1}/6</small></div><progress max="6" value="${route.step+1}" aria-label="Tiến độ bài học"></progress><h1>${esc(stepTitles[route.step])}</h1>${content}<button type="button" class="course-step-next" onclick="${step.type==='quiz'&&!route.quizChecked?'courseCheckQuiz()':'courseNextStep()'}">${nextLabel} →</button></section>`;
+ const composeReady=step.type==='speak'&&courseComposeRead(meta.id,lesson.id,step.hints.length).ready,nextLabel=step.type==='quiz'&&!route.quizChecked?'Kiểm tra đáp án':step.type==='speak'&&!composeReady?'Ghép câu trả lời':route.step===5?'Hoàn thành bài':'Tiếp tục',nextAction=step.type==='quiz'&&!route.quizChecked?'courseCheckQuiz()':step.type==='speak'&&!composeReady?`courseComposeBuild('${meta.id}','${lesson.id}',${step.hints.length})`:'courseNextStep()';
+ return `${coursePageIntro(meta,true)}<section class="course-step"><div class="course-step-head"><span class="course-pill">${esc(meta.level)}</span><small>Bước ${route.step+1}/6</small></div><progress max="6" value="${route.step+1}" aria-label="Tiến độ bài học"></progress><h1>${esc(stepTitles[route.step])}</h1>${content}<button type="button" id="course-step-next" class="course-step-next" onclick="${nextAction}">${nextLabel} →</button></section>`;
 }
 function courseCompleteLesson(){
  const route=courseRoute,data=route&&COURSE_DATA_CACHE.get(route.id),lesson=data?.lessons.find(item=>item.id===route.lessonId);if(!route||!lesson)return;
@@ -10512,8 +10538,14 @@ function courseCheckQuiz(){
  route.quizAnswers=answers;route.quizError='';route.quizChecked=true;openView();
 }
 function courseRememberWord(courseId,lessonId,index,button){const step=COURSE_DATA_CACHE.get(courseId)?.lessons.find(item=>item.id===lessonId)?.steps.find(item=>item.type==='vocab'),item=step?.items[index];if(!item)return;const exists=st.c.some(card=>String(card.w||'').toLocaleLowerCase('en')===item.en.toLocaleLowerCase('en'));if(!exists){st.c.unshift({w:item.en,m:item.vi,e:item.example,k:0});sv()}collectionRefreshStats();button.textContent=exists?'Đã có trong thẻ':'✓ Đã lưu vào thẻ';button.disabled=true}
+function coursePracticeOverlayOpen(){
+ document.getElementById('course-practice-overlay')?.remove();
+ const overlay=document.createElement('div');overlay.id='course-practice-overlay';overlay.className='course-practice-overlay';
+ overlay.innerHTML=`<section class="course-practice-dialog" role="dialog" aria-modal="true" aria-label="Luyện đọc trong khóa học" onkeydown="if(event.key==='Escape'){event.preventDefault();leavePractice()}"><header class="course-practice-toolbar"><div><strong>LUYỆN ĐỌC</strong><p>Đọc câu mẫu, nghe lại và xem nhận xét ngay tại bài học.</p></div><button type="button" class="course-practice-back" onclick="leavePractice()">← Quay lại bài học</button></header>${sess()}</section>`;
+ document.body.appendChild(overlay);document.body.classList.add('course-practice-open');
+ overlay.querySelector('#rb')?.focus({preventScroll:true});
+}
 function courseStartShadow(courseId,lessonId,index){const data=COURSE_DATA_CACHE.get(courseId),lesson=data?.lessons.find(item=>item.id===lessonId),sentence=lesson?.steps.find(item=>item.type==='shadow')?.sentences[index];if(!sentence)return;courseRoute.screen='lesson';const returnTo={kind:'shadow',courseId,lessonId,step:courseRoute.step};startQuick({p:1,t:'Luyện đọc · '+lesson.title,q:'Read this sentence aloud clearly: '+sentence,k:index},returnTo)}
-function courseStartSpeak(courseId,lessonId){const data=COURSE_DATA_CACHE.get(courseId),lesson=data?.lessons.find(item=>item.id===lessonId),step=lesson?.steps.find(item=>item.type==='speak');if(!step)return;const returnTo={kind:'speak',courseId,lessonId,step:courseRoute.step};startQuick({p:step.part,t:'Khóa học · '+lesson.title,q:step.prompt,k:0},returnTo)}
 function coursePracticeReturnPage(){
  if(!courseRoute)return;
  const meta=COURSE_BY_ID.get(courseRoute.id),data=COURSE_DATA_CACHE.get(courseRoute.id);if(!meta)return '<section class="course-route"><button class="course-back" onclick="courseBack()">← Bài học</button><p class="course-status" role="status">Không tìm thấy khóa học.</p></section>';
