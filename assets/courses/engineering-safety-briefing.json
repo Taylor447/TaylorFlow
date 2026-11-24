@@ -70,7 +70,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Describe a safety step people should follow before using electrical equipment.",
           "hints": [
             "What the first step is",
@@ -175,7 +175,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "How should a team respond when a small safety problem occurs?",
           "hints": [
             "What to do first",
@@ -281,7 +281,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Describe a simple electrical device or model you have studied.",
           "hints": [
             "Name the device",
@@ -386,7 +386,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Talk about one renewable energy source you have studied.",
           "hints": [
             "Name the source",
@@ -491,7 +491,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Describe a measurement you recorded in a supervised class activity.",
           "hints": [
             "Say what was measured",

@@ -1,0 +1,458 @@
+{
+  "id": "community-listening-01",
+  "skill": "listening",
+  "title": "Ngày hội năng lượng Riverside",
+  "level": "A2–B1",
+  "minutes": 18,
+  "reviewed": false,
+  "description": "Hai tình huống đời thường về đăng ký hoạt động và ngày hội năng lượng địa phương.",
+  "sections": [
+    {
+      "id": "part-1",
+      "title": "Đăng ký chuyến đi chụp ảnh",
+      "instructions": "Nghe cuộc gọi và điền hoặc chọn câu trả lời ngắn. Mỗi câu chỉ dùng thông tin có trong cuộc gọi.",
+      "audio": {
+        "script": [
+          {
+            "voice": "host",
+            "text": "Hello, Greenfield Activity Centre. How can I help?"
+          },
+          {
+            "voice": "caller",
+            "text": "Hi, I'd like to book a place on the Saturday photography walk."
+          },
+          {
+            "voice": "host",
+            "text": "Certainly. It starts at nine fifteen at the main entrance."
+          },
+          {
+            "voice": "caller",
+            "text": "Is that the entrance beside the river?"
+          },
+          {
+            "voice": "host",
+            "text": "That's right. The group meets by the blue information board."
+          },
+          {
+            "voice": "caller",
+            "text": "Great. How much does it cost?"
+          },
+          {
+            "voice": "host",
+            "text": "The walk itself is free, but you need to bring your own lunch."
+          },
+          {
+            "voice": "caller",
+            "text": "Do I need to bring a camera?"
+          },
+          {
+            "voice": "host",
+            "text": "A phone camera is fine, and we provide a small guidebook."
+          },
+          {
+            "voice": "caller",
+            "text": "My surname is Nguyen, N-G-U-Y-E-N."
+          },
+          {
+            "voice": "host",
+            "text": "And your phone number?"
+          },
+          {
+            "voice": "caller",
+            "text": "07700 123 456."
+          },
+          {
+            "voice": "host",
+            "text": "Thank you. We still have spaces. I'll put you down for the morning group."
+          }
+        ],
+        "pauses": 420
+      },
+      "questions": [
+        {
+          "id": "L1-Q01",
+          "type": "form-completion",
+          "prompt": "Day of the photography walk: ______",
+          "options": [],
+          "answer": "Saturday",
+          "accept": [],
+          "evidence": {
+            "lineIndex": 1
+          },
+          "explain": "Người gọi đặt chỗ cho chuyến đi vào thứ Bảy.",
+          "reviewed": false
+        },
+        {
+          "id": "L1-Q02",
+          "type": "form-completion",
+          "prompt": "Starting time: ______",
+          "options": [],
+          "answer": "9:15",
+          "accept": [
+            "nine fifteen",
+            "09:15"
+          ],
+          "evidence": {
+            "lineIndex": 2
+          },
+          "explain": "Nhân viên nói chuyến đi bắt đầu lúc chín giờ mười lăm.",
+          "reviewed": false
+        },
+        {
+          "id": "L1-Q03",
+          "type": "form-completion",
+          "prompt": "Meeting point: the ______ information board",
+          "options": [],
+          "answer": "blue",
+          "accept": [],
+          "evidence": {
+            "lineIndex": 4
+          },
+          "explain": "Nhóm gặp nhau cạnh bảng thông tin màu xanh dương.",
+          "reviewed": false
+        },
+        {
+          "id": "L1-Q04",
+          "type": "multiple-choice",
+          "prompt": "How much does the walk cost?",
+          "options": [
+            "It is free.",
+            "It costs five pounds.",
+            "It includes lunch."
+          ],
+          "answer": "It is free.",
+          "accept": [],
+          "evidence": {
+            "lineIndex": 6
+          },
+          "explain": "Chuyến đi miễn phí; người tham gia tự mang bữa trưa.",
+          "reviewed": false
+        },
+        {
+          "id": "L1-Q05",
+          "type": "form-completion",
+          "prompt": "Participants should bring their own ______.",
+          "options": [],
+          "answer": "lunch",
+          "accept": [],
+          "evidence": {
+            "lineIndex": 6
+          },
+          "explain": "Người tham gia cần tự mang bữa trưa.",
+          "reviewed": false
+        },
+        {
+          "id": "L1-Q06",
+          "type": "multiple-choice",
+          "prompt": "What can the participant use to take photographs?",
+          "options": [
+            "A phone camera.",
+            "A camera provided by the centre.",
+            "A professional camera only."
+          ],
+          "answer": "A phone camera.",
+          "accept": [],
+          "evidence": {
+            "lineIndex": 8
+          },
+          "explain": "Nhân viên xác nhận máy ảnh điện thoại là đủ.",
+          "reviewed": false
+        },
+        {
+          "id": "L1-Q07",
+          "type": "short-answer",
+          "prompt": "What surname does the caller give?",
+          "options": [],
+          "answer": "Nguyen",
+          "accept": [
+            "Nguyễn"
+          ],
+          "evidence": {
+            "lineIndex": 9
+          },
+          "explain": "Người gọi đánh vần họ là N-G-U-Y-E-N.",
+          "reviewed": false
+        },
+        {
+          "id": "L1-Q08",
+          "type": "short-answer",
+          "prompt": "What phone number does the caller give?",
+          "options": [],
+          "answer": "07700 123 456",
+          "accept": [
+            "07700123456",
+            "07700-123-456"
+          ],
+          "evidence": {
+            "lineIndex": 11
+          },
+          "explain": "Số điện thoại được đọc là 07700 123 456.",
+          "reviewed": false
+        },
+        {
+          "id": "L1-Q09",
+          "type": "multiple-choice",
+          "prompt": "Which group is the caller booked into?",
+          "options": [
+            "The morning group.",
+            "The afternoon group.",
+            "The evening group."
+          ],
+          "answer": "The morning group.",
+          "accept": [],
+          "evidence": {
+            "lineIndex": 12
+          },
+          "explain": "Nhân viên xác nhận người gọi vào nhóm buổi sáng.",
+          "reviewed": false
+        },
+        {
+          "id": "L1-Q10",
+          "type": "short-answer",
+          "prompt": "What activity is the caller booking?",
+          "options": [],
+          "answer": "photography walk",
+          "accept": [
+            "a photography walk",
+            "photo walk"
+          ],
+          "maxWords": 3,
+          "evidence": {
+            "lineIndex": 1
+          },
+          "explain": "Người gọi muốn đặt chỗ cho chuyến đi chụp ảnh.",
+          "reviewed": false
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "part-2",
+      "title": "Thông báo Ngày hội Năng lượng Riverside",
+      "instructions": "Nghe thông báo về một sự kiện cộng đồng. Chọn hoặc ghi câu trả lời ngắn.",
+      "audio": {
+        "script": [
+          {
+            "voice": "announcer",
+            "text": "Welcome to Riverside Energy Day, held at East Hall this Sunday."
+          },
+          {
+            "voice": "announcer",
+            "text": "The entrance opens at a quarter to ten. Please use the doors facing the small garden."
+          },
+          {
+            "voice": "announcer",
+            "text": "Our first demonstration begins at ten fifteen in the main room."
+          },
+          {
+            "voice": "announcer",
+            "text": "At eleven, a building tour leaves from the model house beside the reception desk."
+          },
+          {
+            "voice": "announcer",
+            "text": "The tour is short, so comfortable shoes are recommended."
+          },
+          {
+            "voice": "announcer",
+            "text": "A free lunch is served at half past twelve. Please bring a reusable bottle for water."
+          },
+          {
+            "voice": "announcer",
+            "text": "You can sign up for an activity at the help desk near the main entrance."
+          },
+          {
+            "voice": "announcer",
+            "text": "Project A explains how rooftop solar panels can provide electricity for shared spaces."
+          },
+          {
+            "voice": "announcer",
+            "text": "Project B gives practical advice on insulating older homes and reducing heat loss."
+          },
+          {
+            "voice": "announcer",
+            "text": "At the repair table, volunteers can help you fix a small household device."
+          },
+          {
+            "voice": "announcer",
+            "text": "Please note that the repair team cannot accept large appliances."
+          },
+          {
+            "voice": "announcer",
+            "text": "If it rains, all outdoor activities move into the indoor workshop."
+          },
+          {
+            "voice": "announcer",
+            "text": "The number six bus stops outside East Hall every twenty minutes."
+          }
+        ],
+        "pauses": 560
+      },
+      "questions": [
+        {
+          "id": "L2-Q11",
+          "type": "form-completion",
+          "prompt": "Venue: ______ Hall",
+          "options": [],
+          "answer": "East",
+          "accept": [],
+          "evidence": {
+            "lineIndex": 0
+          },
+          "explain": "Sự kiện diễn ra tại East Hall.",
+          "reviewed": false
+        },
+        {
+          "id": "L2-Q12",
+          "type": "short-answer",
+          "prompt": "At what time does the entrance open? Write the time.",
+          "options": [],
+          "answer": "9:45",
+          "accept": [
+            "09:45",
+            "a quarter to ten"
+          ],
+          "evidence": {
+            "lineIndex": 1
+          },
+          "explain": "Cửa vào mở lúc mười giờ kém mười lăm, tức 9:45.",
+          "reviewed": false
+        },
+        {
+          "id": "L2-Q13",
+          "type": "short-answer",
+          "prompt": "At what time does the first demonstration begin?",
+          "options": [],
+          "answer": "10:15",
+          "accept": [
+            "10.15",
+            "ten fifteen"
+          ],
+          "evidence": {
+            "lineIndex": 2
+          },
+          "explain": "Buổi trình diễn đầu tiên bắt đầu lúc 10:15.",
+          "reviewed": false
+        },
+        {
+          "id": "L2-Q14",
+          "type": "multiple-choice",
+          "prompt": "What begins at eleven o'clock?",
+          "options": [
+            "A building tour.",
+            "A free lunch.",
+            "An outdoor concert."
+          ],
+          "answer": "A building tour.",
+          "accept": [],
+          "evidence": {
+            "lineIndex": 3
+          },
+          "explain": "Chuyến tham quan tòa nhà khởi hành lúc 11 giờ.",
+          "reviewed": false
+        },
+        {
+          "id": "L2-Q15",
+          "type": "short-answer",
+          "prompt": "What should visitors bring for water?",
+          "options": [],
+          "answer": "a reusable bottle",
+          "accept": [
+            "reusable bottle"
+          ],
+          "maxWords": 3,
+          "evidence": {
+            "lineIndex": 5
+          },
+          "explain": "Thông báo đề nghị mang theo bình dùng lại được.",
+          "reviewed": false
+        },
+        {
+          "id": "L2-Q16",
+          "type": "matching",
+          "prompt": "Which project explains rooftop electricity?",
+          "options": [
+            "Project A",
+            "Project B",
+            "The repair table"
+          ],
+          "answer": "Project A",
+          "accept": [],
+          "evidence": {
+            "lineIndex": 7
+          },
+          "explain": "Project A giới thiệu các tấm pin mặt trời trên mái.",
+          "reviewed": false
+        },
+        {
+          "id": "L2-Q17",
+          "type": "matching",
+          "prompt": "Which project gives advice on reducing heat loss?",
+          "options": [
+            "Project A",
+            "Project B",
+            "The repair table"
+          ],
+          "answer": "Project B",
+          "accept": [],
+          "evidence": {
+            "lineIndex": 8
+          },
+          "explain": "Project B nói về cách cách nhiệt nhà cũ và giảm thất thoát nhiệt.",
+          "reviewed": false
+        },
+        {
+          "id": "L2-Q18",
+          "type": "matching",
+          "prompt": "Which activity helps visitors fix a small device?",
+          "options": [
+            "Project A",
+            "Project B",
+            "The repair table"
+          ],
+          "answer": "The repair table",
+          "accept": [
+            "repair table"
+          ],
+          "evidence": {
+            "lineIndex": 9
+          },
+          "explain": "Tình nguyện viên ở bàn sửa chữa có thể giúp sửa thiết bị gia dụng nhỏ.",
+          "reviewed": false
+        },
+        {
+          "id": "L2-Q19",
+          "type": "short-answer",
+          "prompt": "What time is the free lunch served?",
+          "options": [],
+          "answer": "12:30",
+          "accept": [
+            "12.30",
+            "half past twelve"
+          ],
+          "evidence": {
+            "lineIndex": 5
+          },
+          "explain": "Bữa trưa miễn phí được phục vụ lúc 12:30.",
+          "reviewed": false
+        },
+        {
+          "id": "L2-Q20",
+          "type": "short-answer",
+          "prompt": "Which bus stops outside East Hall?",
+          "options": [],
+          "answer": "6",
+          "accept": [
+            "number 6",
+            "bus 6"
+          ],
+          "evidence": {
+            "lineIndex": 12
+          },
+          "explain": "Xe buýt số 6 dừng bên ngoài East Hall.",
+          "reviewed": false
+        }
+      ],
+      "reviewed": false
+    }
+  ]
+}

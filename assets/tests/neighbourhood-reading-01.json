@@ -1,0 +1,291 @@
+{
+  "id": "neighbourhood-reading-01",
+  "skill": "reading",
+  "title": "Quán sửa chữa của khu phố",
+  "level": "B1–B2",
+  "minutes": 20,
+  "reviewed": false,
+  "description": "Một nhóm hàng xóm cùng sửa đồ dùng, chia sẻ kỹ năng và giảm rác thải.",
+  "sections": [
+    {
+      "id": "passage-1",
+      "title": "A repair café that brings neighbours together",
+      "instructions": "Đọc bài rồi trả lời 13 câu. Với mỗi câu, hãy dùng đúng thông tin trong bài.",
+      "passage": {
+        "paragraphs": [
+          {
+            "id": "p1",
+            "text": "On the first Saturday of each month, a quiet room at Northgate Public Library fills with lamps, bicycles and small household objects. The room hosts a repair café, where local residents can meet volunteers who help them mend things instead of throwing them away. There is no entrance charge. Visitors may leave a donation if they wish, but the organisers say that asking for money would make the event less welcoming to families on tight budgets. People come for practical help, yet many stay for a conversation over tea."
+          },
+          {
+            "id": "p2",
+            "text": "The idea began in 2023, when three residents and a librarian noticed how many useful objects were being discarded in their neighbourhood. They arranged a trial afternoon in a meeting room at the library. Twelve people came, bringing a desk lamp, a torn backpack and a clock that had stopped. The volunteers repaired most of them, and visitors asked when the next session would take place. The team now runs the café monthly, but it still uses the same library room and does not plan to open another branch."
+          },
+          {
+            "id": "p3",
+            "text": "Visitors are asked to book a time slot through a short online form or by speaking to the library desk. Booking helps the team prepare tools and prevents a long queue. Each person may bring up to two items, and an object should be small enough for one volunteer to carry. The café accepts lamps, toys, clothing and many simple electrical devices. A volunteer first asks what happened and what the owner has already tried. The aim is to work with the owner, not to take an item away and return it without explanation."
+          },
+          {
+            "id": "p4",
+            "text": "A repair often becomes a short lesson. At one session, a student arrived with a bicycle lamp that stopped working in wet weather. A volunteer showed him how to dry the battery contacts and check the seal around the casing. The lamp worked again, but the student also learned what to inspect after riding in the rain. Other visitors practise replacing a loose button or cleaning a toaster crumb tray. Volunteers explain each step in plain language and invite the owner to try it when it is safe."
+          },
+          {
+            "id": "p5",
+            "text": "Safety rules decide what the café can accept. Volunteers do not repair microwave ovens, gas equipment or large appliances because these require specialist facilities or checks that the room cannot provide. They also refuse objects containing unknown chemicals. If an item cannot be made safe, the team explains why and points the owner towards the council's local recycling service. The rules protect both visitors and volunteers, and they help the group avoid promising a repair that it cannot responsibly complete."
+          },
+          {
+            "id": "p6",
+            "text": "The café depends on donations of spare buttons, cable ties and simple parts, as well as the time of its volunteers. A labelled box near the library entrance lets residents leave clean, usable materials. Northgate Library is served by buses 8 and 22, and a cycle rack stands beside the garden gate. Organisers post the next session date on the library noticeboard and welcome new helpers, even if they have no repair experience. They say patience and a willingness to learn are just as useful as a toolbox."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "R1-Q01",
+          "type": "tfng",
+          "prompt": "The repair café began with four people helping to organise it.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "TRUE",
+          "accept": [
+            "T"
+          ],
+          "evidence": {
+            "paragraphId": "p2"
+          },
+          "explain": "Đoạn 2 nêu ba cư dân và một thủ thư, tổng cộng bốn người.",
+          "reviewed": false
+        },
+        {
+          "id": "R1-Q02",
+          "type": "tfng",
+          "prompt": "Visitors must pay an entrance fee before they can ask for help.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "FALSE",
+          "accept": [
+            "F"
+          ],
+          "evidence": {
+            "paragraphId": "p1"
+          },
+          "explain": "Đoạn 1 nói không thu phí vào cửa; khoản quyên góp là tùy chọn.",
+          "reviewed": false
+        },
+        {
+          "id": "R1-Q03",
+          "type": "tfng",
+          "prompt": "The organisers plan to open a second repair café next year.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "FALSE",
+          "accept": [
+            "F"
+          ],
+          "evidence": {
+            "paragraphId": "p2"
+          },
+          "explain": "Đoạn 2 nêu rõ nhóm không dự định mở thêm chi nhánh.",
+          "reviewed": false
+        },
+        {
+          "id": "R1-Q04",
+          "type": "ynng",
+          "prompt": "The organisers want residents to learn how to care for their own belongings.",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "answer": "YES",
+          "accept": [
+            "Y"
+          ],
+          "evidence": {
+            "paragraphId": "p4"
+          },
+          "explain": "Đoạn 4 mô tả tình nguyện viên hướng dẫn chủ đồ tự kiểm tra và thử sửa khi an toàn.",
+          "reviewed": false
+        },
+        {
+          "id": "R1-Q05",
+          "type": "ynng",
+          "prompt": "The organisers believe new helpers must have repair experience before joining.",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "answer": "NO",
+          "accept": [
+            "N"
+          ],
+          "evidence": {
+            "paragraphId": "p6"
+          },
+          "explain": "Đoạn 6 chào đón người giúp mới dù họ chưa có kinh nghiệm sửa chữa.",
+          "reviewed": false
+        },
+        {
+          "id": "R1-Q06",
+          "type": "heading-matching",
+          "prompt": "Choose the best heading for paragraph 2.",
+          "options": [
+            "A. How a local idea took shape",
+            "B. A list of tools that every visitor must buy",
+            "C. Why the library has stopped hosting events",
+            "D. A plan to train professional electricians"
+          ],
+          "answer": "A. How a local idea took shape",
+          "accept": [
+            "A"
+          ],
+          "evidence": {
+            "paragraphId": "p2"
+          },
+          "explain": "Đoạn 2 kể nguồn gốc ý tưởng và buổi thử nghiệm đầu tiên.",
+          "reviewed": false
+        },
+        {
+          "id": "R1-Q07",
+          "type": "heading-matching",
+          "prompt": "Choose the best heading for paragraph 5.",
+          "options": [
+            "A. How visitors can donate spare parts",
+            "B. Rules that keep repairs within safe limits",
+            "C. The history of electrical tools",
+            "D. A guide to booking a library room"
+          ],
+          "answer": "B. Rules that keep repairs within safe limits",
+          "accept": [
+            "B"
+          ],
+          "evidence": {
+            "paragraphId": "p5"
+          },
+          "explain": "Đoạn 5 nêu các giới hạn nhận đồ và lý do an toàn.",
+          "reviewed": false
+        },
+        {
+          "id": "R1-Q08",
+          "type": "multiple-choice",
+          "prompt": "Why does the repair café use time slots?",
+          "options": [
+            "To help prepare tools and prevent long queues.",
+            "To charge visitors for each repair.",
+            "To make sure every item is repaired within five minutes."
+          ],
+          "answer": "To help prepare tools and prevent long queues.",
+          "accept": [],
+          "evidence": {
+            "paragraphId": "p3"
+          },
+          "explain": "Đoạn 3 nói việc đặt giờ giúp chuẩn bị dụng cụ và tránh hàng chờ dài.",
+          "reviewed": false
+        },
+        {
+          "id": "R1-Q09",
+          "type": "sentence-completion",
+          "prompt": "The café is held on the first ______ of each month.",
+          "options": [],
+          "answer": "Saturday",
+          "accept": [],
+          "maxWords": 1,
+          "evidence": {
+            "paragraphId": "p1"
+          },
+          "explain": "Câu đầu đoạn 1 cho biết ngày tổ chức là thứ Bảy đầu tiên mỗi tháng.",
+          "reviewed": false
+        },
+        {
+          "id": "R1-Q10",
+          "type": "sentence-completion",
+          "prompt": "Each visitor may bring up to two ______.",
+          "options": [],
+          "answer": "items",
+          "accept": [],
+          "maxWords": 1,
+          "evidence": {
+            "paragraphId": "p3"
+          },
+          "explain": "Đoạn 3 giới hạn số đồ mỗi người ở mức tối đa hai món.",
+          "reviewed": false
+        },
+        {
+          "id": "R1-Q11",
+          "type": "information-matching",
+          "prompt": "Which paragraph gives bus numbers for reaching the library?",
+          "options": [
+            "Paragraph 1",
+            "Paragraph 2",
+            "Paragraph 3",
+            "Paragraph 4",
+            "Paragraph 5",
+            "Paragraph 6"
+          ],
+          "answer": "Paragraph 6",
+          "accept": [
+            "6",
+            "P6"
+          ],
+          "evidence": {
+            "paragraphId": "p6"
+          },
+          "explain": "Đoạn 6 cho biết các tuyến xe buýt số 8 và 22.",
+          "reviewed": false
+        },
+        {
+          "id": "R1-Q12",
+          "type": "information-matching",
+          "prompt": "Which paragraph describes a bicycle lamp repair?",
+          "options": [
+            "Paragraph 1",
+            "Paragraph 2",
+            "Paragraph 3",
+            "Paragraph 4",
+            "Paragraph 5",
+            "Paragraph 6"
+          ],
+          "answer": "Paragraph 4",
+          "accept": [
+            "4",
+            "P4"
+          ],
+          "evidence": {
+            "paragraphId": "p4"
+          },
+          "explain": "Đoạn 4 kể việc một sinh viên học cách kiểm tra đèn xe đạp.",
+          "reviewed": false
+        },
+        {
+          "id": "R1-Q13",
+          "type": "short-answer",
+          "prompt": "Name one type of item the café refuses to repair.",
+          "options": [],
+          "answer": "microwave ovens",
+          "accept": [
+            "microwave oven",
+            "gas equipment",
+            "large appliances"
+          ],
+          "maxWords": 2,
+          "evidence": {
+            "paragraphId": "p5"
+          },
+          "explain": "Đoạn 5 nêu lò vi sóng, thiết bị dùng gas và thiết bị lớn là các món không nhận.",
+          "reviewed": false
+        }
+      ],
+      "reviewed": false
+    }
+  ]
+}

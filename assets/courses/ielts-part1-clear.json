@@ -70,7 +70,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Do you prefer studying alone or with other people?",
           "hints": [
             "Your usual choice",
@@ -175,7 +175,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "What is one habit that helps you use your time well?",
           "hints": [
             "When you do it",
@@ -281,7 +281,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "What do you like about the place where you live?",
           "hints": [
             "Name one feature",
@@ -386,7 +386,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Describe your studies or work and explain why you chose it.",
           "hints": [
             "What you study or do",
@@ -491,7 +491,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "What do you enjoy doing when you have free time?",
           "hints": [
             "Name an activity",

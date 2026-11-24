@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "notice": "Bài luyện theo định dạng IELTS, không phải đề chính thức. IELTS là thương hiệu của chủ sở hữu tương ứng; TaylorFlow không liên kết hay được chứng nhận.",
+  "tests": [
+    {
+      "id": "community-listening-01",
+      "skill": "listening",
+      "category": "Đời sống cộng đồng",
+      "title": "Ngày hội năng lượng Riverside",
+      "level": "A2–B1",
+      "minutes": 18,
+      "sectionCount": 2,
+      "questionCount": 20,
+      "status": "ready",
+      "topics": ["Đăng ký hoạt động", "Năng lượng cộng đồng"],
+      "questionTypes": ["form-completion", "multiple-choice", "short-answer", "matching"],
+      "reviewed": false
+    },
+    {
+      "id": "neighbourhood-reading-01",
+      "skill": "reading",
+      "category": "Đời sống cộng đồng",
+      "title": "Quán sửa chữa của khu phố",
+      "level": "B1–B2",
+      "minutes": 20,
+      "sectionCount": 1,
+      "questionCount": 13,
+      "status": "ready",
+      "topics": ["Tái sử dụng", "Hoạt động tình nguyện"],
+      "questionTypes": ["tfng", "ynng", "heading-matching", "multiple-choice", "sentence-completion", "information-matching"],
+      "reviewed": false
+    }
+  ]
+}

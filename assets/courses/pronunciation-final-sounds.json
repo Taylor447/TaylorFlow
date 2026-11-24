@@ -70,7 +70,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Describe one way you practise English pronunciation.",
           "hints": [
             "A sound you pay attention to",
@@ -175,7 +175,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "What helps you practise difficult English sounds?",
           "hints": [
             "Which ending you practise",
@@ -281,7 +281,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Describe one English sound you are practising and how you practise it.",
           "hints": [
             "Name the sound",
@@ -386,7 +386,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Talk about a skill you are learning and how you practise it.",
           "hints": [
             "Name the skill",
@@ -491,7 +491,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Describe how you make a short explanation easy to follow.",
           "hints": [
             "Say how you organise ideas",

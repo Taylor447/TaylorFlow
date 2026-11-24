@@ -36,7 +36,7 @@ const metadataKeys = ['id', 'category', 'title', 'level', 'minutes', 'lessonCoun
 const courseIds = new Set();
 const lessonIds = new Set();
 const vocabulary = new Map();
-const expectedSteps = ['dialogue', 'vocab', 'pattern', 'shadow', 'speak', 'quiz'];
+const expectedSteps = ['dialogue', 'vocab', 'pattern', 'shadow', 'write', 'quiz'];
 let readyCount = 0, lessonCount = 0;
 
 if (index?.courses) {
@@ -122,11 +122,11 @@ if (index?.courses) {
       if (!Array.isArray(shadow?.sentences) || shadow.sentences.length < 2 || shadow.sentences.length > 8) fail(`${base}.shadow`, 'cần từ 2 đến 8 câu luyện đọc');
       for (const [i, sentence] of (shadow?.sentences || []).entries()) text(sentence, `${base}.shadow.sentences[${i}]`, { max: 220 });
 
-      const speak = step('speak');
-      text(speak?.prompt, `${base}.speak.prompt`, { max: 240 });
-      if (!Array.isArray(speak?.hints) || speak.hints.length < 2 || speak.hints.length > 8) fail(`${base}.speak`, 'cần từ 2 đến 8 gợi ý');
-      for (const [i, hint] of (speak?.hints || []).entries()) text(hint, `${base}.speak.hints[${i}]`, { max: 120 });
-      if (![1, 2, 3].includes(speak?.part)) fail(`${base}.speak.part`, 'chỉ nhận Part 1, 2 hoặc 3');
+      const write = step('write');
+      text(write?.prompt, `${base}.write.prompt`, { max: 240 });
+      if (!Array.isArray(write?.hints) || write.hints.length < 2 || write.hints.length > 8) fail(`${base}.write`, 'cần từ 2 đến 8 gợi ý');
+      for (const [i, hint] of (write?.hints || []).entries()) text(hint, `${base}.write.hints[${i}]`, { max: 120 });
+      if (![1, 2, 3].includes(write?.part)) fail(`${base}.write.part`, 'chỉ nhận Part 1, 2 hoặc 3');
 
       const quiz = step('quiz');
       if (!Array.isArray(quiz?.items) || quiz.items.length < 2 || quiz.items.length > 8) fail(`${base}.quiz`, 'cần từ 2 đến 8 câu hỏi');

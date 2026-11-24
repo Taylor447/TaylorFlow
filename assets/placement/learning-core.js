@@ -128,8 +128,11 @@
   function cleanSpeakingTest(value, now) {
     if (!value || typeof value !== "object") return null;
     const parts = Array.isArray(value.parts) ? [...new Set(value.parts.filter(part => [1,2,3].includes(part)))].sort() : [];
+    const lastAttemptParts = Array.isArray(value.lastAttemptParts) ? [...new Set(value.lastAttemptParts.filter(part => [1,2,3].includes(part)))].sort() : [];
     const validResponses = clamp(Math.floor(Number(value.validResponses) || 0), 0, 7);
     const responses = clamp(Math.floor(Number(value.responses) || 0), 0, 7);
+    const lastAttemptResponses = clamp(Math.floor(Number(value.lastAttemptResponses) || 0), 0, 7);
+    const lastAttemptValidResponses = clamp(Math.floor(Number(value.lastAttemptValidResponses) || 0), 0, 7);
     const scores = {};
     for (const key of ["f", "l", "g", "p", "o"]) scores[key] = Number.isFinite(value[key]) ? clamp(value[key], 0, 9) : null;
     const valid = value.valid === true && parts.length === 3 && validResponses === 7 && responses === 7 && Number.isFinite(scores.o);
@@ -137,6 +140,8 @@
       at: validTime(value.at, now) ? value.at : 0,
       lastAttemptAt: validTime(value.lastAttemptAt, now) ? value.lastAttemptAt : (validTime(value.at, now) ? value.at : 0),
       lastAttemptValid: value.lastAttemptValid === true,
+      lastAttemptExamId: String(value.lastAttemptExamId || value.examId || "").slice(0, 80),
+      lastAttemptParts, lastAttemptResponses, lastAttemptValidResponses,
       examId: String(value.examId || "").slice(0, 80),
       parts, responses, validResponses, valid, ...scores
     };

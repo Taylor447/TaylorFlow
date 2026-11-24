@@ -70,7 +70,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Describe a place you enjoy visiting in your free time.",
           "hints": [
             "Where the place is",
@@ -175,7 +175,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Describe a hobby you enjoy or would like to try.",
           "hints": [
             "What the hobby is",
@@ -281,7 +281,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Describe a normal weekday in your life.",
           "hints": [
             "What time you get up",
@@ -386,7 +386,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Talk about a meal you enjoy ordering at a café or canteen.",
           "hints": [
             "What you usually choose",
@@ -491,7 +491,7 @@
           ]
         },
         {
-          "type": "speak",
+          "type": "write",
           "prompt": "Explain how a new student can find a place on your campus.",
           "hints": [
             "Which place they need to find",

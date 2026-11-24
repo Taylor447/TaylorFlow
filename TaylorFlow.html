@@ -20,6 +20,10 @@
 <meta name="apple-mobile-web-app-title" content="TaylorFlow">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <title>TaylorFlow | Luyện IELTS Speaking &amp; Phát âm AI</title>
+<link rel="stylesheet" href="./assets/tests/tests.css">
+<link rel="stylesheet" href="./assets/learning-path/learning-hub.css">
+<script src="./assets/tests/writing-coach.js" defer></script>
+<script src="./assets/tests/test-system.js" defer></script>
 <script id="taylorflow-startup-guard">
 (()=>{
  const errors=[];
@@ -592,6 +596,7 @@ details[open] > :not(summary) { animation: details-enter .25s ease both; }
 @keyframes record-pulse { from { transform: scale(1); opacity: .75; } to { transform: scale(1.055, 1.28); opacity: 0; } }
 .recording-playback, .recording-result { margin-top: 13px; }
 .transcript-label { display: block; margin-top: 14px; }
+.transcript-count { display: block; margin-top: 6px; text-align: right; }
 .transcript-status:empty { display: none; }
 .linking-example { margin-top: 12px; padding: 14px; border: 1px solid var(--bd); border-radius: 12px; background: var(--sf); }
 
@@ -1780,6 +1785,16 @@ body.page-hidden::before,body.page-hidden .theme-bg { animation-play-state:pause
 .english-video-transcript-segment small { color:var(--mu); font-size:.92em; }
 .english-video-transcript-segment[aria-current="true"] small { color:#13d88a; font-weight:750; }
 .english-video-transcript-empty-translation { color:var(--mu); font-size:13px; font-weight:650; }
+.english-video-transcript-translation{display:block;margin-top:4px;color:var(--mu);font-size:.94em;line-height:1.55;text-align:left;white-space:normal}
+.english-video-translation-editor{margin:10px 12px;padding:12px;border:1px solid var(--bd);border-radius:14px;background:color-mix(in srgb,var(--sf) 88%,var(--cd))}
+.english-video-translation-editor summary{min-height:44px;display:flex;align-items:center;color:var(--pr);font-weight:800;cursor:pointer}
+.english-video-translation-editor p{margin:6px 0;color:var(--mu);font-size:13px;line-height:1.5}
+.english-video-translation-editor label{display:block;margin:8px 0 5px;font-size:13px;font-weight:750}
+.english-video-translation-editor textarea{width:100%;min-height:140px;padding:10px;border:1px solid var(--bd);border-radius:12px;background:var(--cd);color:var(--tx);font:inherit;line-height:1.5;resize:vertical}
+.english-video-translation-editor button{min-height:44px;margin-top:8px;padding:9px 14px;border:1px solid var(--bd);border-radius:12px;background:color-mix(in srgb,var(--pr) 13%,var(--sf));color:var(--tx);font:inherit;font-weight:800;cursor:pointer}
+.english-video-translation-editor button:focus-visible{outline:3px solid var(--pr);outline-offset:2px}
+.english-video-translation-status:empty{display:none}
+@media(max-width:600px){.english-video-translation-editor{margin:8px 4px;padding:10px}.english-video-transcript-translation{font-size:13px}}
 .english-video-transcript-segment[role="group"] { cursor:pointer; }
 .english-video-transcript-segment[role="group"]:focus-visible { outline:2px solid var(--pr); outline-offset:2px; }
 .english-video-transcript-time { display:inline-flex; margin:0 0 8px; padding:3px 8px; border:1px solid color-mix(in srgb,var(--pr) 42%,var(--bd)); border-radius:999px; color:var(--pr); font-size:12px; font-weight:800; cursor:pointer; }
@@ -2015,6 +2030,30 @@ body.nav-bubble-open{padding-bottom:calc(112px + var(--inset-bottom))}
  .results-accordion-body { padding:0 11px 12px; }
  .results-analysis-item > summary { padding:10px; }
 }
+.home-speaking-dashboard{display:grid;grid-template-columns:1.08fr 1.18fr .9fr;grid-template-areas:"goal next streak" "path path path";gap:14px;padding:8px;align-content:center;min-height:100%}
+.home-dashboard-card{min-width:0;padding:clamp(16px,2vw,24px);border:1px solid var(--bd);border-radius:22px;background:color-mix(in srgb,var(--sf) 88%,transparent);box-shadow:var(--shadow);color:var(--tx)}
+.home-dashboard-card h1,.home-dashboard-card h2{margin:8px 0;font-size:clamp(20px,2vw,27px);line-height:1.15}
+.home-dashboard-card p{margin:8px 0;color:var(--mu);line-height:1.5}
+.home-dashboard-goal{grid-area:goal;background:linear-gradient(145deg,color-mix(in srgb,var(--pr) 20%,var(--sf)),color-mix(in srgb,var(--sf) 88%,transparent))}
+.home-dashboard-score{display:block;margin:8px 0 14px;color:var(--pr);font-size:clamp(38px,5vw,58px);line-height:1;font-variant-numeric:tabular-nums}
+.home-dashboard-actions{display:flex;flex-wrap:wrap;gap:8px}
+.home-dashboard-card button{min-height:44px;padding:10px 13px;border:1px solid var(--bd);border-radius:14px;background:color-mix(in srgb,var(--pr) 9%,var(--sf));color:var(--tx);font:inherit;font-weight:800;cursor:pointer}
+.home-dashboard-card button:hover{background:color-mix(in srgb,var(--pr) 18%,var(--sf))}
+.home-dashboard-card button:focus-visible{outline:3px solid var(--pr);outline-offset:2px}
+.home-dashboard-card .home-dashboard-primary{background:var(--pr);color:var(--on-pr,#101728)}
+.home-dashboard-info{margin-top:8px}
+.home-dashboard-next{grid-area:next}
+.home-dashboard-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:14px}
+.home-dashboard-links button{text-align:left}
+.home-dashboard-extra-label{display:block;margin-top:16px;color:var(--pr)}
+.home-dashboard-streak{grid-area:streak}
+.home-dashboard-streak-count{display:block;margin-top:10px;color:var(--pr);font-size:clamp(42px,5vw,60px);line-height:1}
+.home-dashboard-today{grid-area:today;display:grid;grid-template-columns:minmax(0,1fr) minmax(100px,.65fr) auto;align-items:center;gap:12px}
+.home-dashboard-today h2{margin-bottom:4px}
+.home-dashboard-today progress{width:100%;height:12px;accent-color:var(--pr)}
+.home-dashboard-path{grid-area:path;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:6px 12px}.home-dashboard-path .eyebrow,.home-dashboard-path h2{grid-column:1/-1}.home-dashboard-path h2{margin:4px 0}.home-dashboard-path strong{color:var(--pr);font-size:clamp(25px,3vw,36px);font-variant-numeric:tabular-nums}.home-dashboard-path progress{width:100%;height:10px;accent-color:var(--pr)}.home-dashboard-path button{grid-column:1/-1}
+@media(max-width:900px){.home-speaking-dashboard{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-areas:"goal next" "streak path"}}
+@media(max-width:600px){.home-speaking-dashboard{grid-template-columns:minmax(0,1fr);grid-template-areas:"goal" "next" "streak" "path";gap:10px;padding:2px}.home-dashboard-card{padding:16px;border-radius:18px}.home-dashboard-goal h1{font-size:clamp(25px,7vw,32px)}.home-dashboard-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 <style>
 #interface-picker{width:min(740px,calc(100vw - 28px));max-width:740px;max-height:min(88vh,880px);padding:0;border:1px solid var(--bd);border-radius:26px;color:var(--tx);background:var(--cd);box-shadow:0 24px 80px #03091970}
@@ -2073,6 +2112,7 @@ html[data-interface-mode="2"] #m>.lesson-study-section-list>.compact-folder{bord
 @keyframes taylorflow-startup-spin{to{transform:rotate(360deg)}}
 /* Homepage swipe carousel and phrasebook catalog */
 .home-carousel{margin:0 0 16px}.home-carousel-track{display:flex;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:calc(var(--radius) + 7px);outline:none}.home-carousel-track::-webkit-scrollbar{display:none}.home-carousel-slide{flex:0 0 100%;min-width:0;scroll-snap-align:start}.home-carousel-slide>.hero{height:100%;min-height:350px}.home-carousel-track:focus-visible{box-shadow:0 0 0 3px color-mix(in srgb,var(--pr) 70%,transparent)}.home-carousel-controls{display:flex;align-items:center;justify-content:center;gap:18px;padding:10px 0 0}.home-carousel-arrow{width:38px;height:34px;padding:0;font-size:24px;line-height:1}.home-carousel-dots{display:flex;align-items:center;gap:8px}.home-carousel-dots button{width:10px;height:10px;padding:0;border:0;border-radius:50%;background:var(--mu);opacity:.55}.home-carousel-dots button[aria-current=true]{width:27px;border-radius:10px;background:var(--pr);opacity:1}.home-video-hero{background-image:linear-gradient(105deg,#073c52 0%,#0a3150eb 42%,#12294ab0 100%),var(--campus-image,none)}.home-video-orbit{position:absolute;right:12%;top:50%;transform:translateY(-50%);display:grid;place-items:center;width:190px;height:190px;border:1px solid #d9e8ff55;border-radius:50%;background:radial-gradient(circle at 35% 30%,#82d6db44,transparent 70%);color:#b8f2e4;font-size:64px;box-shadow:0 0 0 24px #b7e3ee10,0 0 0 50px #b7e3ee08}.home-video-hero .hero-copy,.home-video-hero .hero-score{z-index:2}.lesson-phrasebooks-folder>.compact-folder-body{padding:clamp(14px,2.2vw,24px)}.lesson-phrasebook-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:20px 0}.lesson-phrasebook-card{overflow:hidden;border:1px solid var(--bd);border-radius:16px;background:color-mix(in srgb,var(--sf) 86%,#0b9a77 14%)}.lesson-phrasebook-card>summary{display:flex;align-items:center;gap:12px;padding:15px;cursor:pointer;list-style:none}.lesson-phrasebook-card>summary::-webkit-details-marker{display:none}.lesson-phrasebook-icon{display:grid;place-items:center;flex:0 0 42px;height:42px;border-radius:12px;background:var(--cd);color:var(--pr)}.lesson-phrasebook-copy{display:grid;gap:4px;min-width:0;flex:1}.lesson-phrasebook-copy strong{line-height:1.25}.lesson-phrasebook-copy small,.lesson-phrasebook-unit small{color:var(--mu)}.lesson-phrasebook-open{color:var(--pr);font-size:20px}.lesson-phrasebook-body{padding:0 14px 14px}.lesson-phrasebook-note{padding:11px 13px;border-radius:12px;background:color-mix(in srgb,var(--cd) 78%,transparent);color:var(--mu);font-size:.92rem}.lesson-phrasebook-units{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;max-height:400px;overflow:auto;padding:2px}.lesson-phrasebook-unit{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px;border:1px solid var(--bd);border-radius:11px;background:var(--cd)}.lesson-phrasebook-unit>span{display:grid;gap:4px;min-width:0}.lesson-phrasebook-unit strong{font-size:.9rem;line-height:1.3}.lesson-phrasebook-save{flex:0 0 34px;width:34px;height:34px;padding:0;border:1px solid var(--bd);border-radius:10px;background:transparent;color:var(--pr);font-size:20px}.lesson-phrasebook-save[aria-pressed=true]{background:color-mix(in srgb,var(--pr) 15%,var(--cd));color:#f8c252}@media(max-width:760px){.home-carousel-slide>.hero{min-height:0}.home-video-orbit{right:6%;width:110px;height:110px;font-size:38px;opacity:.55}.home-carousel-controls{padding-top:8px}.lesson-phrasebook-grid,.lesson-phrasebook-units{grid-template-columns:1fr}}
+ .course-compose-guide{margin:14px 0;padding:clamp(12px,2vw,18px);border:1px solid var(--bd);border-radius:16px;background:color-mix(in srgb,var(--cd) 82%,transparent)}.course-compose-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:12px;margin-top:10px}.course-compose-prompt{display:grid;align-content:start;gap:9px;min-width:0;padding:14px;border:1px solid var(--bd);border-radius:14px;background:color-mix(in srgb,var(--sf) 86%,transparent)}.course-compose-prompt label{font-weight:750;line-height:1.45}.course-compose-frame,.course-compose-input{width:100%;min-height:44px}.course-compose-frame{text-align:left;overflow-wrap:anywhere}.course-compose-input{min-height:88px;resize:vertical;padding:12px;border:1px solid var(--bd);border-radius:12px;background:var(--cd);color:var(--tx);font:inherit;line-height:1.5}.course-compose-prompt small,.course-compose-quality{color:var(--mu)}.course-compose-quality.ok{color:#74ddb3}.course-compose-quality.short,.course-compose-quality.check{color:#ffcf79}.course-compose-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.course-compose-actions button{min-height:46px}.course-compose-preview,.course-compose-model{margin:12px 0;padding:14px;border:1px solid var(--bd);border-radius:14px;background:color-mix(in srgb,var(--pr) 10%,var(--cd))}.course-compose-model article{padding:10px 0;border-top:1px solid var(--bd)}.course-compose-model article p{margin:0 0 8px}.course-compose-model button{min-height:44px}@media(max-width:600px){.course-compose-grid{grid-template-columns:1fr}.course-compose-actions{display:grid}.course-compose-actions button{width:100%}}
 </style>
 <style id="phrasebook-book-icon-colors">
 .lesson-phrasebook-card[data-book-index="0"] .lesson-phrasebook-icon{background:radial-gradient(ellipse at 28% 16%,#ffffffd9 0 8%,#ffffff59 18%,transparent 45%),linear-gradient(145deg,#34aaff,#1268dc 58%,#123d9d)}
@@ -2369,7 +2409,7 @@ body.music-mini-active>header{display:grid;grid-template-columns:minmax(220px,ma
 <header>
   <div class="brand">
     <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%231e3a8a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2306b6d4%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2218%22%20fill%3D%22url(%23g)%22%2F%3E%3Cpath%20d%3D%22M17%2017h30M32%2017v26%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M11%2049h6l4-8%205%2013%205-20%205%2015%205-9%204%208%204-6%204%207h2%22%20fill%3D%22none%22%20stroke%3D%22%239df6ee%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ccircle%20cx%3D%2251%22%20cy%3D%2249%22%20r%3D%222.2%22%20fill%3D%22%23ffd16b%22%2F%3E%3C%2Fsvg%3E" alt="TaylorFlow">
-    <div><span class="brand-name">TaylorFlow</span><span class="brand-kicker">AI IELTS Speaking &amp; Voice Lab</span></div>
+    <div><span class="brand-name">TaylorFlow</span><span class="brand-kicker">Learn English with Ease</span></div>
   </div>
 <aside id="music-mini-player" class="music-mini-player" aria-label="Trình phát nhạc thu gọn" hidden>
  <div class="music-mini-player-inner">
@@ -2897,10 +2937,39 @@ self.onmessage=async({data})=>{
       device:'wasm',dtype:'q8',local_files_only:true
     });
     self.postMessage({stage:'speech'});
-    const result=await whisperPipeline(data.audio,{
-      chunk_length_s:30,stride_length_s:5,return_timestamps:false
-    });
-    self.postMessage({text:typeof result.text==='string'?result.text.trim():''});
+    const audio=data.audio,sampleRate=16000,chunkSeconds=18,overlapSeconds=2;
+    const chunkSamples=chunkSeconds*sampleRate,hopSamples=(chunkSeconds-overlapSeconds)*sampleRate;
+    const total=Math.max(1,Math.ceil(Math.max(0,audio.length-overlapSeconds*sampleRate)/hopSamples));
+    const transcriptParts=[],timedWords=[];
+    const tokens=value=>String(value||'').trim().split(/\s+/).filter(Boolean);
+    const wordKey=value=>String(value||'').toLowerCase().replace(/^[^a-z0-9]+|[^a-z0-9'’]+$/g,'');
+    const overlapCount=(left,right)=>{
+      const a=tokens(left).slice(-16).map(wordKey),b=tokens(right).slice(0,16).map(wordKey);
+      for(let count=Math.min(a.length,b.length,12);count>0;count--){
+        if(a.slice(-count).every((word,index)=>word&&word===b[index]))return count;
+      }
+      return 0;
+    };
+    for(let index=0,start=0;start<audio.length;index++,start+=hopSamples){
+      const end=Math.min(audio.length,start+chunkSamples);
+      const result=await whisperPipeline(audio.subarray(start,end),{
+        chunk_length_s:20,stride_length_s:3,return_timestamps:false
+      });
+      const part=typeof result.text==='string'?result.text.trim():'';
+      const duplicate=overlapCount(transcriptParts.join(' '),part);
+      const words=tokens(part).slice(duplicate);
+      if(words.length)transcriptParts.push(words.join(' '));
+      const localWords=Array.isArray(result.chunks)?result.chunks:[];
+      const timedDuplicate=overlapCount(timedWords.slice(-16).map(word=>word.text).join(' '),localWords.slice(0,16).map(word=>word.text).join(' '));
+      for(const word of localWords.slice(timedDuplicate)){
+        const timestamp=Array.isArray(word.timestamp)?word.timestamp:null;
+        timedWords.push({...word,timestamp:timestamp?timestamp.map(value=>Number.isFinite(value)?value+start/sampleRate:value):null});
+      }
+      self.postMessage({stage:'chunk',completed:index+1,total});
+      if(end===audio.length)break;
+    }
+    const text=transcriptParts.join(' ').replace(/\s+([,.!?;:])/g,'$1').trim();
+    self.postMessage({text,timestamps:timedWords});
   }catch(error){
     self.postMessage({error:error instanceof Error?error.message:String(error)});
   }finally{
@@ -3122,7 +3191,7 @@ const SCORE_HISTORY_TEXT_KEY='taylorflow.score-history-text.v1';
 function scoreHistoryTexts(){try{const value=JSON.parse(localStorage.getItem(SCORE_HISTORY_TEXT_KEY)||'{}');return value&&typeof value==='object'&&!Array.isArray(value)?value:{}}catch{return {}}}
 function saveScoreHistoryText(id,data){
  if(!validKey(id)||typeof data?.text!=='string'||!data.text.trim())return;
- try{const records=scoreHistoryTexts();records[id]={text:data.text.slice(0,3600),question:String(data.question||'').slice(0,500),part:[1,2,3].includes(data.part)?data.part:1,topic:String(data.topic||'').slice(0,160),savedAt:Date.now()};
+  try{const records=scoreHistoryTexts();records[id]={text:data.text.slice(0,SPEAKING_TRANSCRIPT_MAX_CHARS),question:String(data.question||'').slice(0,500),part:[1,2,3].includes(data.part)?data.part:1,topic:String(data.topic||'').slice(0,160),savedAt:Date.now()};
   const keep=new Set(st.h.slice().sort((a,b)=>(b.updated||b.d)-(a.updated||a.d)).slice(0,80).map(row=>row.id));
   for(const key of Object.keys(records))if(!keep.has(key))delete records[key];
   localStorage.setItem(SCORE_HISTORY_TEXT_KEY,JSON.stringify(records));
@@ -3651,11 +3720,11 @@ function score(t,p,d,question='',topic='',options={}){
 }
 if(new URLSearchParams(location.search).has('score-calibration'))window.addEventListener('message',async event=>{
  if(event.source!==parent||event.data?.type!=='EPU_SCORE_CALIBRATION_RUN'||typeof event.data.requestId!=='string'||!Array.isArray(event.data.samples)||event.data.samples.length>200)return;
- const validSamples=event.data.samples.filter(sample=>sample&&[1,2,3].includes(sample.part)&&typeof sample.text==='string'&&sample.text.length<=3600&&typeof sample.question==='string'&&sample.question.length<=240&&typeof sample.topic==='string'&&sample.topic.length<=120&&(sample.duration==null||(Number.isFinite(sample.duration)&&sample.duration>=0&&sample.duration<=900)));
+  const validSamples=event.data.samples.filter(sample=>sample&&[1,2,3].includes(sample.part)&&typeof sample.text==='string'&&sample.text.length<=SPEAKING_TRANSCRIPT_MAX_CHARS&&typeof sample.question==='string'&&sample.question.length<=240&&typeof sample.topic==='string'&&sample.topic.length<=120&&(sample.duration==null||(Number.isFinite(sample.duration)&&sample.duration>=0&&sample.duration<=900)));
  const buckets=new Set();for(const sample of validSamples)for(const word of sample.text.match(ANSWER_TOKEN_PATTERN)||[]){const token=word.toLowerCase().replace(/[’‘]/g,"'");if(!SCORE_WORD_ALLOWLIST.has(token))buckets.add(token[0])}
  const sharedShards=new Map(await Promise.all([...buckets].map(async bucket=>{try{return [bucket,await dictionaryShard(bucket)]}catch{return [bucket,null]}})));
  const rows=[];for(const sample of event.data.samples){
-  const valid=sample&&[1,2,3].includes(sample.part)&&typeof sample.text==='string'&&sample.text.length<=3600&&typeof sample.question==='string'&&sample.question.length<=240&&typeof sample.topic==='string'&&sample.topic.length<=120&&(sample.duration==null||(Number.isFinite(sample.duration)&&sample.duration>=0&&sample.duration<=900));
+   const valid=sample&&[1,2,3].includes(sample.part)&&typeof sample.text==='string'&&sample.text.length<=SPEAKING_TRANSCRIPT_MAX_CHARS&&typeof sample.question==='string'&&sample.question.length<=240&&typeof sample.topic==='string'&&sample.topic.length<=120&&(sample.duration==null||(Number.isFinite(sample.duration)&&sample.duration>=0&&sample.duration<=900));
   if(!valid){rows.push({id:String(sample?.id||'').slice(0,64),status:'ungradable',scores:null,error:'Dữ liệu mẫu không hợp lệ'});continue}
   try{
    const language=analyzeAnswerLanguage(sample.text);if(!language.allowed){rows.push({id:String(sample.id||'').slice(0,64),status:'ungradable',scores:null,error:answerLanguageMessage(language)});continue}
@@ -3834,7 +3903,46 @@ function speechSampleText(value){
  text=text.replace(/‿/g,' ').replace(/\s+[–—]\s+/g,'; ').replace(/\s*\/\s*/g,', or ');
  return text.replace(/[()[\\]{}]/g,' ').replace(/\s+([,;:.!?])/g,'$1').replace(/\s+/g,' ').trim();
 }
-const say=(t,rate=1)=>{try{speechSynthesis.cancel();speechSynthesis.speak(Object.assign(new SpeechSynthesisUtterance(speechSampleText(t)),{lang:'en-US',rate}))}catch(e){}};
+function speechTextChunks(value,limit=220){
+ const chunks=[];let rest=String(value||'').trim();
+ while(rest.length>limit){
+  let cut=rest.lastIndexOf(' ',limit);
+  const sentenceCut=Math.max(rest.lastIndexOf('. ',limit),rest.lastIndexOf('? ',limit),rest.lastIndexOf('! ',limit));
+  if(sentenceCut>limit*.45)cut=sentenceCut+1;
+  if(cut<1)cut=limit;
+  chunks.push(rest.slice(0,cut).trim());rest=rest.slice(cut).trim();
+ }
+ if(rest)chunks.push(rest);
+ return chunks;
+}
+let speechLaunchTimer=null,speechLaunchSerial=0;
+const say=(t,rate=1)=>{
+ const report=message=>{const status=$('#course-compose-status')||$('#recording-status')||$('#hint');if(status)status.textContent=message};
+ try{
+  const speech=window.speechSynthesis;if(!speech||typeof SpeechSynthesisUtterance!=='function')throw new Error('speech-unavailable');
+  const text=speechSampleText(t);if(!text)throw new Error('empty-speech');
+  const serial=++speechLaunchSerial;if(speechLaunchTimer){clearTimeout(speechLaunchTimer);speechLaunchTimer=null}
+  speech.cancel();speech.resume();
+  const chunks=speechTextChunks(text),play=()=>{
+   const voices=speech.getVoices?.()||[],voice=voices.find(item=>/^en-US$/i.test(item.lang))||voices.find(item=>/^en-GB$/i.test(item.lang))||voices.find(item=>/^en-/i.test(item.lang))||null;
+   chunks.forEach((part,index)=>{
+    const utterance=new SpeechSynthesisUtterance(part);utterance.lang=voice?.lang||'en-US';utterance.rate=Math.max(.75,Math.min(1.2,Number(rate)||1));if(voice)utterance.voice=voice;
+    if(index===0)utterance.onstart=()=>report('Đang phát giọng đọc tiếng Anh…');
+    if(index===chunks.length-1)utterance.onend=()=>report('Đã đọc xong.');
+    utterance.onerror=event=>{if(['canceled','interrupted'].includes(event?.error))return;report('Thiết bị không phát được giọng đọc lần này. Hãy kiểm tra âm lượng; bạn vẫn có thể đọc câu mẫu trên màn hình.')};
+    speech.speak(utterance);
+   });
+   speech.resume();
+  };
+  const schedulePlay=()=>{speechLaunchTimer=setTimeout(()=>{speechLaunchTimer=null;if(serial===speechLaunchSerial)play()},50)};
+  if((speech.getVoices?.()||[]).length)schedulePlay();
+  else{
+   let launched=false;const launch=()=>{if(launched||serial!==speechLaunchSerial)return;launched=true;speech.removeEventListener?.('voiceschanged',launch);schedulePlay()};
+   speech.addEventListener?.('voiceschanged',launch,{once:true});setTimeout(launch,350);
+  }
+  return true;
+ }catch(error){report('Trình duyệt chưa phát được giọng đọc. Bạn vẫn có thể đọc câu mẫu trên màn hình.');return false}
+};
 function addV(i,ti){const w=VT[TP[ti][0]][i].split('|');if(!st.c.some(x=>x.w==w[0])){st.c.unshift({w:w[0],m:w[1],e:'',k:0});sv()}$('#v'+i).textContent='✓ Đã lưu';$('#v'+i).disabled=true}
 function aid(x){let a=EX[x.t][x.p];if(x.p!=2)a=a[x.k];const ti=TP.findIndex(T=>T[0]==x.t);return `<details><summary>Gợi ý trả lời</summary><p>${HF[x.p-1]}</p><p>${HT[x.t][x.p-1]}</p></details><details><summary>Từ vựng theo chủ đề</summary>${VT[x.t].map((w,i)=>{w=w.split('|');return `<div class='r'><span><b>${w[0]}</b> · ${w[1]}</span><button class='g' id='v${i}' onclick='addV(${i},${ti})'>Lưu</button></div>`}).join('')}</details><details><summary>Ngữ pháp gợi ý</summary><p>${GR[x.p-1]}</p></details><details><summary>Câu trả lời mẫu</summary><p lang="en">${a}</p><button class='g' onclick='say(this.previousElementSibling.textContent)'>🔊 Nghe</button></details>`}
 
@@ -4572,7 +4680,7 @@ function bubbleHomeIcon(name){
  return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${shapes[name]||shapes.book}</svg>`;
 }
 function openLearningPathMap(){pathView=null;pathFolderOpen=true;tab='les';openView()}
-function homeLearningPlan(){const done=pathPercent(),expanded=window.tfHomeLearningExpanded===true;return `<details class="c home-learning-plan home-learning-accordion"${expanded?' open':''} ontoggle="window.tfHomeLearningExpanded=this.open"><summary class="home-learning-summary"><span class="home-learning-summary-copy"><small class="eyebrow">LỘ TRÌNH CỦA TÔI</small><strong>Trình độ, tiến độ, kế hoạch</strong></span><span class="home-learning-summary-meta"><b>${done}%</b><span class="home-learning-summary-chevron" aria-hidden="true">⌄</span></span></summary><div class="home-learning-body"><div class="home-learning-head"><div><small class="home-learning-kicker">ĐÁNH GIÁ ĐẦU VÀO</small><h2>Học bước tiếp theo</h2></div><strong class="home-learning-progress">${done}%</strong></div><progress max="100" value="${done}" aria-label="Tiến độ lộ trình cá nhân"></progress><p class="home-learning-intro">Hoàn thành CAT và Speaking Test để nhận hồ sơ CEFR cùng band Speaking ước tính.</p><div class="home-learning-steps"><article class="home-learning-step"><div class="home-learning-step-top"><span class="home-learning-step-number" aria-hidden="true">01</span><span class="home-learning-step-tag">12–20 câu</span></div><h3>Kiểm tra trình độ</h3><p>Bài CAT thích nghi; có thể tạm dừng và làm tiếp sau.</p><button type="button" class="home-learning-step-button home-learning-step-button--primary" onclick="startPlacement('full',true)">Bắt đầu CAT <span aria-hidden="true">→</span></button></article><article class="home-learning-step"><div class="home-learning-step-top"><span class="home-learning-step-number" aria-hidden="true">02</span><span class="home-learning-step-tag">Part 1–3</span></div><h3>Speaking Test</h3><p>7 câu hỏi ngẫu nhiên; ghi âm câu trả lời để hoàn thành bài nói.</p><button type="button" class="home-learning-step-button" onclick="startExam(123,true)">Bắt đầu Speaking Test <span aria-hidden="true">→</span></button></article></div><p class="home-learning-requirement">Cần hoàn thành đủ CAT và Speaking Test hợp lệ để nhận hồ sơ trình độ cùng band ước tính.</p><button type="button" class="home-learning-map-link" onclick="openLearningPathMap()"><span class="home-learning-map-copy"><strong>LỘ TRÌNH CÁ NHÂN</strong><small>Xem kỹ năng ưu tiên và kế hoạch học theo kết quả.</small></span><span class="home-learning-map-arrow" aria-hidden="true">→</span></button></div></details>`}
+function homeLearningPlan(){return ''}
 const HOME_BUBBLE_APPS_KEY='tf.home.bubble-apps.v1';const HOME_BUBBLE_DEFAULT_APP_IDS=['recentLauncher','part1','part2','part3','videos','coop','games','saved'];
 
 function homeBubbleCatalog(){
@@ -4622,6 +4730,20 @@ function homeInterfaceTwo(){
  return `<div class="home-interface-two"><section class="bubble-home-hero" aria-label="Điểm luyện nói và lối tắt học tập">${carousel}<div class="bubble-home-results"><aside class="bubble-home-score"><div><small>ĐIỂM BAND ƯỚC TÍNH</small><strong class="bubble-home-score-number">${estimate}</strong><span class="bubble-home-score-caption">Một con số tổng hợp từ các lượt luyện hợp lệ</span></div><span class="bubble-home-score-mark" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M10 10.5A4.5 4.5 0 0 1 14.5 6h19a4.5 4.5 0 0 1 4.5 4.5v16a4.5 4.5 0 0 1-4.5 4.5H21l-8 6v-6.3a4.5 4.5 0 0 1-3-4.2z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M17 22v-4m7 9V13m7 13v-7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="36.5" cy="36.5" r="4.5" fill="currentColor" fill-opacity=".82"/></svg></span></aside><section class="bubble-home-criteria" id="home-bubble-criteria" aria-labelledby="home-bubble-criteria-title"><h2 id="home-bubble-criteria-title">Bốn tiêu chí bài nói</h2>${bars(m)}</section></div></section><div class="home-bubbles-grid" aria-label="Lối tắt ứng dụng">${apps.length?apps.map(homeBubbleTile).join(''):'<p class="home-bubbles-empty">Các lối tắt học tập sẽ xuất hiện tại đây.</p>'}</div>${homeRecentApps(catalog)}${homeLearningPlan()}${progressHome(m)}</div>`;
 }
 
+function homeSpeakingDashboard(m){
+ const estimate=m?half(m.o).toFixed(1):'—',streak=gameStreak().current;
+ const button=(label,action,cls='')=>'<button type="button" class="'+cls+'" onclick="'+action+'">'+label+'</button>';
+ const partInfo='<div class="home-speaking-info" id="home-speaking-info" hidden><strong>IELTS Speaking · 11–14 phút</strong><p><b>Part 1 · 4–5 phút:</b> phỏng vấn ngắn về chủ đề quen thuộc.</p><p><b>Part 2 · 3–4 phút:</b> 1 phút chuẩn bị, nói tối đa 2 phút theo cue card.</p><p><b>Part 3 · 4–5 phút:</b> thảo luận mở rộng về chủ đề liên quan.</p><a href="https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking" target="_blank" rel="noopener noreferrer">Nguồn định dạng: IELTS.org ↗</a></div>';
+ return '<section class="home-speaking-dashboard" aria-label="Tổng quan luyện nói">'+
+  '<article class="home-dashboard-card home-dashboard-goal"><small class="eyebrow">MỤC TIÊU CỦA BẠN</small><h1>Luyện IELTS Speaking</h1><p>Điểm band ước tính</p><strong class="home-dashboard-score">'+estimate+'</strong><div class="home-dashboard-actions">'+button('Bắt đầu luyện '+icon('arrow'),"go('prac')",'home-dashboard-primary')+button('Chọn mục tiêu',"go('pro')",'')+'</div><button type="button" class="home-dashboard-info" id="home-speaking-info-toggle" aria-controls="home-speaking-info" aria-expanded="false" onclick="toggleHomeSpeakingInfo()">IELTS Speaking gồm những phần nào?</button>'+partInfo+'</article>'+
+   '<article class="home-dashboard-card home-dashboard-next"><small class="eyebrow">HỌC GÌ TIẾP?</small><h2>Chọn mục bạn muốn học</h2><div class="home-dashboard-links">'+button('Bài học',"go('les')",'')+button('Từ vựng',"go('voc')",'')+button('Ngữ pháp',"openEnglishStudy('grammar')",'')+button('Podcast',"openEnglishPodcastLibrary()",'')+'</div><small class="eyebrow home-dashboard-extra-label">LUYỆN THEO KỸ NĂNG</small><div class="home-dashboard-links">'+button('Luyện nói',"homeOpenPracticeSkill('speaking')",'')+button('Luyện nghe',"homeOpenPracticeSkill('listening')",'')+button('Luyện đọc',"homeOpenPracticeSkill('reading')",'')+button('Luyện viết',"homeOpenPracticeSkill('writing')",'')+'</div></article>'+ 
+  '<article class="home-dashboard-card home-dashboard-streak"><small class="eyebrow">CHUỖI NGÀY HỌC</small><strong class="home-dashboard-streak-count">'+streak+'</strong><p>ngày liên tiếp · Học một chút hôm nay để giữ nhịp.</p>'+button('Xem tiến độ '+icon('arrow'),"go('pro')",'')+'</article>'+
+  '<article class="home-dashboard-card home-dashboard-path"><small class="eyebrow">LỘ TRÌNH CỦA TÔI</small><h2>Trình độ, tiến độ, kế hoạch</h2><strong>'+pathPercent()+'%</strong><progress max="100" value="'+pathPercent()+'" aria-label="Tiến độ lộ trình của tôi"></progress>'+button('Mở lộ trình '+icon('arrow'),'openLearningPathMap()','')+'</article>'+
+ '</section>';
+}
+function homeOpenDailyTasks(){const panel=$('.game-home');if(!panel)return;panel.open=true;panel.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})}
+function homeOpenPracticeSkill(skill){if(!['speaking','listening','reading','writing'].includes(skill)||!window.TFTestApp)return;tab='prac';pathView=null;englishStudyRoute=null;window.TFTestApp.switchSkill(skill);if(skill!=='speaking')openView();requestAnimationFrame(()=>window.TFTestApp?.refresh())}
+function homeVideoTranscriptPractice(){const item=ENGLISH_VIDEO_RESOURCES?.[englishVideoIndex]||ENGLISH_VIDEO_RESOURCES?.[0];if(!item)return;openEnglishVideo(item.id);requestAnimationFrame(()=>{const current=ENGLISH_VIDEO_RESOURCES[englishVideoIndex],exercise=englishVideoExercise(current);if(exercise?.lines?.length&&ENGLISH_VIDEO_MODE_INFO.some(mode=>mode.id==='shadow'))englishVideoSetMode('shadow');else englishVideoOpenTranscript()})}
 const V={
  campus3d:campus3dView,
  onboarding:onboardingPage,
@@ -4631,16 +4753,8 @@ const V={
   games:arcadePage,
   home:()=>interfaceMode==='2'?homeInterfaceTwo():(()=>{
   const m=band();
-    return `<div class="home-interface-one"><section class="home-carousel" aria-label="Lối tắt học tập"><div class="home-carousel-track" id="home-carousel-track" tabindex="0" role="region" aria-label="Vuốt hoặc dùng phím mũi tên để chuyển mục học" onscroll="homeCarouselSync()" onkeydown="homeCarouselKeydown(event)"><div class="home-carousel-slide"><section class="hero">${heroMotif}<div class="hero-copy">
-   <p class="eyebrow">LUYỆN NÓI</p><h1>Luyện IELTS<br>Speaking</h1>
-  <p>${st.p.n?'Xin chào, '+esc(st.p.n)+'. ':''}Chọn một chủ đề, nói thử và xem phản hồi để điều chỉnh cách nói qua từng bài luyện.</p>
-   <div class="hero-actions"><button onclick="go('prac')">Bắt đầu luyện ${icon('arrow')}</button><button type="button" class="g" id="home-speaking-info-toggle" aria-controls="home-speaking-info" aria-expanded="false" onclick="toggleHomeSpeakingInfo()">IELTS Speaking gồm những phần nào?</button></div>
-   <div class="home-speaking-info" id="home-speaking-info" hidden><strong>IELTS Speaking · 11–14 phút</strong><p><b>Part 1 · 4–5 phút:</b> phỏng vấn ngắn về chủ đề quen thuộc.</p><p><b>Part 2 · 3–4 phút:</b> 1 phút chuẩn bị, nói tối đa 2 phút theo cue card.</p><p><b>Part 3 · 4–5 phút:</b> thảo luận mở rộng về chủ đề liên quan.</p><a href="https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking" target="_blank" rel="noopener noreferrer">Nguồn định dạng: IELTS.org ↗</a></div></div>
-  <div class="hero-score"><small>ĐIỂM ƯỚC TÍNH</small><div class="big">${m?half(m.o).toFixed(1):'—'}</div><small>${m?'Trung bình '+m.n+' lượt gần nhất'+(m.legacy?' · dữ liệu theo nguồn điểm trước':''):'Chấm một câu để xem điểm'}</small></div></section></div>
-  <div class="home-carousel-slide"><section class="hero home-video-hero"><div class="home-video-orbit" aria-hidden="true">▶</div><div class="hero-copy"><p class="eyebrow">VIDEO · LUYỆN NGHE VÀ NÓI</p><h1>Video học<br>tiếng Anh</h1><p>Chọn video theo cấp độ hoặc chủ đề, rồi luyện nghe và transcript ngay trong bài học.</p><div class="hero-actions"><button type="button" onclick="openEnglishStudy('videos')">Mở danh sách video →</button><button type="button" class="g" onclick="openEnglishPodcastLibrary()">English Podcast</button></div></div><div class="hero-score"><small>VIDEO TRONG THƯ VIỆN</small><div class="big">${ENGLISH_VIDEO_RESOURCES.length}</div><small>Podcast và video luyện nói</small></div></section></div></div><div class="home-carousel-controls" role="group" aria-label="Chọn mục trang chủ"><div class="home-carousel-dots"><button type="button" aria-label="Luyện IELTS Speaking" aria-current="true" onclick="homeCarouselGo(0)"></button><button type="button" aria-label="Video học tiếng Anh" aria-current="false" onclick="homeCarouselGo(1)"></button></div></div></section>
-      ${gameHome()}
-      ${homeLearningPlan()}
-   <button class="g w quick-entry" type="button" onclick="openSpeakingCoop()"><span class="quick-entry-copy"><small>LUYỆN CÙNG BẠN</small><strong>Học coop 2 người</strong></span><span class="quick-entry-arrow" aria-hidden="true">→</span></button>
+     return `<div class="home-interface-one"><section class="home-carousel" aria-label="Lối tắt học tập"><div class="home-carousel-track" id="home-carousel-track" tabindex="0" role="region" aria-label="Vuốt hoặc dùng phím mũi tên để chuyển mục học" onscroll="homeCarouselSync()" onkeydown="homeCarouselKeydown(event)"><div class="home-carousel-slide">${homeSpeakingDashboard(m)}</div><div class="home-carousel-slide"><section class="hero home-video-hero"><div class="home-video-orbit" aria-hidden="true">▶</div><div class="hero-copy"><p class="eyebrow">VIDEO · LUYỆN NGHE VÀ NÓI</p><h1>Video học<br>tiếng Anh</h1><p>Chọn video theo cấp độ hoặc chủ đề, rồi luyện nghe và transcript ngay trong bài học.</p><div class="hero-actions"><button type="button" onclick="openEnglishStudy('videos')">Mở danh sách video →</button><button type="button" class="g" onclick="openEnglishPodcastLibrary()">English Podcast</button><button type="button" class="g" onclick="homeVideoTranscriptPractice()">Luyện nói theo transcript →</button></div></div><div class="hero-score"><small>VIDEO TRONG THƯ VIỆN</small><div class="big">${ENGLISH_VIDEO_RESOURCES.length}</div><small>Podcast và video luyện nói</small></div></section></div></div><div class="home-carousel-controls" role="group" aria-label="Chọn mục trang chủ"><div class="home-carousel-dots"><button type="button" aria-label="Luyện IELTS Speaking" aria-current="true" onclick="homeCarouselGo(0)"></button><button type="button" aria-label="Video học tiếng Anh" aria-current="false" onclick="homeCarouselGo(1)"></button></div></div></section>
+   ${homeLearningPlan()}<button class="g w quick-entry" type="button" onclick="openSpeakingCoop()"><span class="quick-entry-copy"><small>LUYỆN CÙNG BẠN</small><strong>Học coop 2 người</strong></span><span class="quick-entry-arrow" aria-hidden="true">→</span></button>
 
   <div class="pwa-install-box"><button type="button" class="g" id="pwa-install" onclick="addToHomeScreen()">${pwaButtonLabel()}</button><small id="pwa-status" class="pwa-status-sr" role="status" aria-live="polite"></small></div>
   ${progressHome(m)}
@@ -5506,15 +5620,14 @@ async function transcribeEnglish(blob,signal,onStage,localOnly=false,returnDetai
     function abort(){finish(signal.reason||Error('aborted'))}
     try{
       const workerSource=$('#whisper-worker').textContent
-        .replace('chunk_length_s:30,stride_length_s:5,return_timestamps:false',"chunk_length_s:30,stride_length_s:5,return_timestamps:'word'")
-        .replace("self.postMessage({text:typeof result.text==='string'?result.text.trim():''});","self.postMessage({text:typeof result.text==='string'?result.text.trim():'',timestamps:Array.isArray(result.chunks)?result.chunks:[]});");
+        .replace('chunk_length_s:20,stride_length_s:3,return_timestamps:false',"chunk_length_s:20,stride_length_s:3,return_timestamps:'word'");
       url=URL.createObjectURL(new Blob([workerSource],{type:'text/javascript'}));
       worker=new Worker(url);
       signal.addEventListener('abort',abort,{once:true});
       worker.onerror=event=>finish(Error(event?.message||'worker'));
       worker.onmessageerror=()=>finish(Error('worker'));
       worker.onmessage=({data})=>{
-        if(data.stage)onStage(data.stage);
+        if(data.stage)onStage(data.stage,data.completed??data.loaded,data.total);
         else if(data.error)finish(Error(data.error));
         else if(typeof data.text==='string')finish(null,data.text,data.timestamps);
         else finish(Error('worker'));
@@ -5586,14 +5699,15 @@ async function runBrowserAIWhisper(automatic=false,force=false){
        if(stage==='assets'){state.progress=Math.max(state.progress||0,5+Math.round(35*loaded/total));whisperStatus(entry,`Đang chuẩn bị Whisper (${loaded}/${total} tài nguyên)…`)}
        else if(stage==='decode'){state.progress=Math.max(state.progress||0,5);whisperStatus(entry,'Đang đọc bản ghi âm…')}
        else if(stage==='model'){state.progress=Math.max(state.progress||0,55);whisperStatus(entry,'Đang mở Whisper trên thiết bị…')}
-       else{state.progress=Math.max(state.progress||0,78);whisperStatus(entry,'Whisper đang chép lời tiếng Anh…')}
+        else if(stage==='chunk'){state.progress=Math.max(state.progress||0,78+Math.round(20*(loaded||0)/Math.max(1,total||1)));whisperStatus(entry,`Whisper đang chép lời phần ${loaded||0}/${total||1}…`)}
+        else{state.progress=Math.max(state.progress||0,78);whisperStatus(entry,'Whisper đang chép lời tiếng Anh…')}
     },false,true);
     if(controller.signal.aborted)return;
     const text=transcription.text;state.timestamps=transcription.timestamps;
     state.text=text;state.progress=100;
     if(text){
       if(automatic&&field?.isConnected&&!S.result){
-        const spoken=field.value.trim()||text;if(!field.value.trim()){field.value=text;resetPronunciationConfirmation()}
+        const spoken=field.value.trim()||text;if(!field.value.trim()){field.value=text;updateSpeakingTranscriptCount(field);resetPronunciationConfirmation()}
         const draft=S?.pronDraft;if(draft&&draft.blob===blob){draft.text=spoken;const pron=draft.pron??={reference:spoken,checks:{}};pron.mode='self';pron.reference=spoken;pron.note='Đang đối chiếu cách phát âm từ bản ghi…';refreshPronunciation(draft);await measurePronunciation()}
       }
       if(S?.result?.whisper===state)applyWordTimingToResult(S.result,state.timestamps,text);
@@ -5615,7 +5729,7 @@ async function applyWhisperText(){
   if(!text)return;
   const field=$('#tx');
   if(S.result!==entry){
-    if(field){field.value=text;resetPronunciationConfirmation();field.focus()}
+    if(field){field.value=text;updateSpeakingTranscriptCount(field);resetPronunciationConfirmation();field.focus()}
     whisperStatus(entry,'Đã điền bản chép lời vào ô câu trả lời.');
     return;
   }
@@ -5637,7 +5751,7 @@ async function applyWhisperText(){
   Object.assign(entry.history,{f:revised.f,l:revised.l,g:revised.g,p:pronunciation,o:entry.s.o,updated:Date.now()});
   entry.text=text;
   refreshResultComparison(entry);
-  if(field)field.value=text;
+   if(field){field.value=text;updateSpeakingTranscriptCount(field)}
   sv();
   const guidance=$('#result-guidance');if(guidance)guidance.innerHTML=resultGuidance(entry);
   if(entry.comparison?.celebrate&&!entry.celebrated){entry.celebrated=true;prepareLearningAudio();celebrateResult()}
@@ -6003,13 +6117,15 @@ function showAfter(blob, transcript = '', message = '') {
   after.innerHTML = `<div class="recording-result">
     ${playbackUrl ? `<audio class="recording-playback" controls preload="metadata" src="${esc(playbackUrl)}" aria-label="Nghe lại bản ghi"></audio>` : ''}
     <label class="transcript-label" for="tx">Câu trả lời bằng tiếng Anh</label>
-    <textarea id="tx" rows="5" lang="en" aria-describedby="transcript-status" oninput="resetPronunciationConfirmation()" placeholder="Type what you said in English…"></textarea>
+    <textarea id="tx" rows="7" lang="en" maxlength="12000" aria-describedby="transcript-status transcript-count" oninput="updateSpeakingTranscriptCount(this);resetPronunciationConfirmation()" placeholder="Type what you said in English…"></textarea>
+    <small class="mu transcript-count" id="transcript-count" aria-live="polite"></small>
     <p class="transcript-status mu" id="transcript-status" role="status">${transcript ? 'Kiểm tra và sửa lại bản chép lời nếu cần.' : ''}</p>
     ${S?.ideaDraft?.questionIndex===S?.i ? '<button type="button" class="g" onclick="insertSavedIdea()">Chèn gợi ý tiếng Anh đã chọn</button>' : ''}
     ${lb ? `<label class="pron-confirm" for="pron-confirm"><input id="pron-confirm" type="checkbox"> Tôi đã kiểm tra bản chép lời; dùng văn bản này để đối chiếu Pronunciation.</label>` : ''}
     <button class="w" id="evaluate-answer" onclick="${S?.mode==='exam'?'submitExam()':'ev()'}">${S?.mode==='exam'?'Nộp câu trả lời':'Chấm điểm câu trả lời'}</button>
   </div>`;
   $('#tx').value = transcript;
+  updateSpeakingTranscriptCount($('#tx'));
   if(S){
     S.pronDraft=lb?{x:S.it[S.i],text:transcript.trim(),blob:lb}:null;
     if(S.pronDraft)after.insertAdjacentHTML('beforeend',pronunciationPanel(S.pronDraft));
@@ -6017,6 +6133,14 @@ function showAfter(blob, transcript = '', message = '') {
   setRecordingUi('ready', message || (lb
     ? 'Nghe lại bản ghi và kiểm tra nội dung trước khi chấm điểm.'
     : 'Nhập câu trả lời để nhận điểm ước tính dựa trên nội dung.'));
+}
+
+const SPEAKING_TRANSCRIPT_MAX_CHARS=12000;
+function updateSpeakingTranscriptCount(field){
+  if(!field)return;
+  const count=$('#transcript-count');if(!count)return;
+  const words=(field.value.trim().match(/\S+/g)||[]).length;
+  count.textContent=`${words} từ · ${field.value.length.toLocaleString('vi-VN')}/${SPEAKING_TRANSCRIPT_MAX_CHARS.toLocaleString('vi-VN')} ký tự`;
 }
 
 document.addEventListener('visibilitychange', () => {
@@ -7529,13 +7653,18 @@ function leavePractice(){
  stopQuickClock();stopCelebration();stopPracticeMedia();S=null;
  if(courseReturn){
   const pronunciation=result?.m?audioBand(result.s):null;
-  coursePracticeResult={kind:courseReturn.kind,message:courseReturn.kind==='shadow'?(pronunciation!=null&&pronunciation>=5.5?'Tốt · phát âm được chấm bằng công cụ hiện có.':'Thử lại · hãy nghe mẫu và đọc rõ hơn một lần nữa.'):result?'Đã hoàn tất lượt nói và xem phản hồi. Tiến độ vẫn ở bước này.':'Đã quay lại bước tự nói. Tiến độ bài học được giữ nguyên.'};
+  coursePracticeResult={kind:courseReturn.kind,message:courseReturn.kind==='shadow'?(pronunciation!=null&&pronunciation>=5.5?'Tốt · phát âm được chấm bằng công cụ hiện có.':'Thử lại · hãy nghe mẫu rồi nói rõ hơn một lần nữa.'):result?'Đã hoàn tất lượt nói và xem phản hồi. Tiến độ vẫn ở bước này.':'Đã quay lại bước luyện nói. Tiến độ bài học được giữ nguyên.'};
   courseRoute={id:courseReturn.courseId,screen:'lesson',lessonId:courseReturn.lessonId,step:courseReturn.step,quizChecked:false,quizAnswers:{}};
   document.getElementById('course-practice-overlay')?.remove();document.body.classList.remove('course-practice-open');
  }
  if(courseReturn){tab='les';openView();return}
  if(returnToCampus)tab='campus3d';
  openView();
+}
+function finishPlacementExam(){
+ if(S?.mode!=='exam'||!S.placementTest){leavePractice();return}
+ stopQuickClock();stopCelebration();stopPracticeMedia();S=null;
+ if(typeof window.openLearningPathMap==='function')window.openLearningPathMap();else{tab='home';openView()}
 }
 function retryCurrentAnswer(){
  if(!S?.result||S.mode==='exam')return;
@@ -7572,7 +7701,7 @@ async function ev(){
  const session=S,text=input.value.trim(),language=analyzeAnswerLanguage(text),ignoreRelevance=S.ignoreRelevanceOnce===true;
  if(!language.allowed){out.innerHTML='<p class="mu" role="alert">'+esc(answerLanguageMessage(language))+'</p>';setPracticePane('results');input.focus();return}
  const relevance=analyzeAnswerRelevance(text,x.q,x.t,{ignoreRelevance});
- if(text.length>3600){out.innerHTML='<p class="mu" role="alert">Câu trả lời tối đa 3.600 ký tự.</p>';setPracticePane('results');input.focus();return}
+  if(text.length>SPEAKING_TRANSCRIPT_MAX_CHARS){out.innerHTML=`<p class="mu" role="alert">Transcript tối đa ${SPEAKING_TRANSCRIPT_MAX_CHARS.toLocaleString('vi-VN')} ký tự. Bản ghi dài được chép theo từng đoạn; hãy rút gọn nội dung trước khi chấm.</p>`;setPracticePane('results');input.focus();return}
  S.ignoreRelevanceOnce=false;const previous=S.retake;let result=null;
  S.scoring=true;input.readOnly=true;const submit=$('#evaluate-answer');if(submit)submit.disabled=true;
  out.innerHTML='<p class="mu" role="status">Đang tính điểm cục bộ…</p>';setPracticePane('results');
@@ -7694,16 +7823,16 @@ async function improveResultAnswer(){
   if(typeof window.claude?.use!=='function')throw Error('unavailable');
   const service=await window.claude.use('sample');
   if(typeof service!=='function')throw Error('unavailable');
-  const prompt='Rewrite this IELTS Speaking answer into natural, clear spoken English. Preserve the speaker’s meaning, point of view, personal facts, and level of certainty. Do not add events, names, opinions, or details that are not in the original. Correct grammar and improve word choice and flow without making it sound like an essay. Return only JSON with one string field named answer. Keep the response under 3600 characters.'+
+   const prompt='Rewrite this IELTS Speaking answer into natural, clear spoken English. Preserve the speaker’s meaning, point of view, personal facts, and level of certainty. Do not add events, names, opinions, or details that are not in the original. Correct grammar and improve word choice and flow without making it sound like an essay. Return only JSON with one string field named answer. Keep the response under '+SPEAKING_TRANSCRIPT_MAX_CHARS+' characters.'+
    '\nQuestion: '+String(result.x?.q||'').slice(0,600)+
-   '\nOriginal answer: '+String(result.text||'').slice(0,3600);
+    '\nOriginal answer: '+String(result.text||'').slice(0,SPEAKING_TRANSCRIPT_MAX_CHARS);
   const response=await Promise.race([service(prompt,{modelTier:'default',cache:false}),new Promise((_,reject)=>setTimeout(()=>reject(Object.assign(Error('timeout'),{code:'timeout'})),30000))]);
   if(request!==resultRewriteRequest||result!==S?.result||!answer.isConnected)return;
   const raw=String(response?.text||'').trim(),match=raw.match(/\{[\s\S]*\}/);
   let improved='';
   if(match){const parsed=JSON.parse(match[0]);if(typeof parsed.answer==='string')improved=parsed.answer.trim()}
-  if(!improved&&raw.length<=3600&&!raw.startsWith(String.fromCharCode(96).repeat(3)))improved=raw;
-  if(!improved||improved.length>3600)throw Error('invalid_response');
+   if(!improved&&raw.length<=SPEAKING_TRANSCRIPT_MAX_CHARS&&!raw.startsWith(String.fromCharCode(96).repeat(3)))improved=raw;
+   if(!improved||improved.length>SPEAKING_TRANSCRIPT_MAX_CHARS)throw Error('invalid_response');
   answer.textContent=improved;
   status.textContent='Bản AI gợi ý đã tạo. Hãy đọc lại để xác nhận nội dung vẫn đúng với ý bạn.';
  }catch(error){
@@ -7822,7 +7951,7 @@ Band 8: “What makes the area special is its balance of convenience and green s
  const prompt=`Chấm sâu câu trả lời IELTS Speaking bằng rubric bốn tiêu chí công khai (Fluency & Coherence, Lexical Resource, Grammatical Range & Accuracy, Pronunciation). Chỉ dùng bằng chứng trong transcript và số đo cung cấp; không suy đoán pronunciation nếu thiếu audio. Chọn điểm 0..9, có thể nửa band. Độ liên quan, nội dung trả lời và độ dài phải được xem xét. Chỉ trả một JSON object hợp lệ theo schema: ${JSON.stringify(schema)}. Mỗi why tối đa 180 ký tự, tiếng Việt.
 ${anchors}
 Part ${x.p}, chủ đề ${x.t}, câu hỏi: ${x.q}
-Transcript: ${String(text||'').slice(0,3600)}
+ Transcript: ${String(text||'').slice(0,SPEAKING_TRANSCRIPT_MAX_CHARS)}
 Điểm cục bộ: f=${s.f}, l=${s.l}, g=${s.g}, p=${s.p??'null'}, tổng=${s.o}; số từ=${s.n}, WPM=${s.r??'chưa đo'}; độ liên quan=${m?.relevance?.status||'chưa kiểm tra'}, độ phủ=${m?.relevance?.coverage??'chưa đo'}; lỗi dò ngữ pháp=${m?.grammarFindings?.length??0}; số đo âm thanh=${m?JSON.stringify({pauses:m.np,voicedSeconds:m.voicedSeconds,snr:m.snr}):'không có'}.`;
  target.innerHTML='<section class="c ai-score-card"><h3>Chấm sâu bằng AI</h3><p id="aix" role="status" aria-live="polite">Đang phân tích…</p></section>';
  const output=$('#aix');
@@ -8643,7 +8772,7 @@ function pronunciationOptions(result){
     '<p class="mu"><small>'+(sample?'Sample Answer dành cho lượt đọc theo mẫu. Nếu bạn tự trả lời câu hỏi, chọn “Soi âm cuối bài vừa nói” để dùng đúng câu bạn đã nói.':
     'Sửa ô dưới đây theo đúng từ bạn định phát âm, kể cả khi máy đã chép thành từ khác.')+'</small></p>'+
     '<label for="pron-reference">'+(sample?'Sample Answer':'Câu bạn định nói')+'</label>'+
-    '<textarea id="pron-reference" lang="en" rows="4" maxlength="3600" '+(sample||state.busy?'readonly':'oninput="updatePronunciationReference(this.value)"')+'>'+esc(reference)+'</textarea>'+
+    '<textarea id="pron-reference" lang="en" rows="4" maxlength="9000" '+(sample||state.busy?'readonly':'oninput="updatePronunciationReference(this.value)"')+'>'+esc(reference)+'</textarea>'+ 
     '<div class="row"><button type="button" onclick="measurePronunciation()"'+(state.busy||!canMeasure?' disabled':'')+'>'+(state.busy?'Đang đối chiếu âm vị…':'Chấm bản ghi với câu này')+'</button>'+
     (sample?'<button type="button" class="g" onclick="say(samplePronunciation(pronunciationTarget().x),.88)">Nghe đoạn mẫu</button>':'')+'</div>'+
     '<p class="mu" id="pron-status" role="status">'+esc(state.note||current?.note||'')+'</p>'+
@@ -8697,13 +8826,14 @@ function measureConfirmedPronunciation(result){
   state.reference=result.text;
   void measurePronunciation();
 }
+const PRONUNCIATION_REFERENCE_MAX_WORDS=500;
 async function measurePronunciation(){
   const result=pronunciationTarget(),state=result?.pron;
   if(!state?.mode||state.busy||(!result.blob&&!state.heard?.length))return;
   const mode=state.mode,reference=(mode==='sample'?samplePronunciation(result.x):state.reference).trim();
   const tokens=reference.match(WORD_PATTERN)||[];
-  if(!tokens.length||tokens.length>260){
-    state.note=tokens.length?'Hãy giới hạn văn bản tham chiếu ở 260 từ.':'Hãy nhập từ hoặc câu tiếng Anh bạn định nói.';
+  if(!tokens.length||tokens.length>PRONUNCIATION_REFERENCE_MAX_WORDS){
+    state.note=tokens.length?`Bản đối chiếu hiện hỗ trợ tối đa ${PRONUNCIATION_REFERENCE_MAX_WORDS} từ. Hãy chia bài dài thành các đoạn ngắn.`:'Hãy nhập từ hoặc câu tiếng Anh bạn định nói.';
     refreshPronunciation(result);
     return;
   }
@@ -9879,7 +10009,7 @@ function englishVideoExercise(item){if(!item)return null;const transcript=englis
 function englishVideoQuiz(exercise){if(!exercise)return{question:'',options:[],answer:0,explain:''};if(!exercise.custom)return exercise;const line=exercise.lines[englishVideoSentenceIndex]||exercise.lines[0]||'',stop=new Set('about after again also am an and are as at be because been but by can could did do does for from had has have he her here him his how i if in into is it its me more my no not of on or our out she so that the their them then there these they this to was we were what when where which who will with would you your'.split(' ')),tokens=(line.match(/\b[A-Za-z]{4,}\b/g)||[]).filter(word=>!stop.has(word.toLowerCase())),pool=[...new Set(exercise.lines.flatMap(text=>(text.match(/\b[A-Za-z]{4,}\b/g)||[])).filter(word=>!stop.has(word.toLowerCase())))],target=tokens.length?tokens[englishVideoSentenceIndex%tokens.length]:pool[englishVideoSentenceIndex%Math.max(1,pool.length)]||'video',distractors=pool.filter(word=>word.toLowerCase()!==target.toLowerCase()),fallback=['because','however','example','important'].filter(word=>word.toLowerCase()!==target.toLowerCase()),options=[...distractors,...fallback].filter((word,index,list)=>list.findIndex(item=>item.toLowerCase()===word.toLowerCase())===index).slice(0,3);while(options.length<3)options.push(['practice','speaker','message'][options.length]);const answer=englishVideoSentenceIndex%4;options.splice(answer,0,target);let blank=line;const targetAt=line.toLowerCase().indexOf(target.toLowerCase());if(targetAt>=0)blank=line.slice(0,targetAt)+'_____'+line.slice(targetAt+target.length);else blank=line||'_____';return{question:`Chọn từ còn thiếu trong câu trích từ video: “${blank}”`,options,answer,explain:`“${target}” xuất hiện trong transcript của video này.`}}
 function englishVideoSaveTranscript(event){event?.preventDefault?.();const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex];if(!item)return;const raw=String($('#english-video-transcript-input')?.value??englishVideoTranscriptDraft).trim(),lines=englishVideoParseTranscript(raw);if(raw.length>100000){englishVideoStatus='Transcript dài quá 100.000 ký tự. Hãy lưu theo một phần ngắn hơn.';englishVideoRefreshRoom();return}if(!lines.length){englishVideoStatus='Chưa tìm thấy câu tiếng Anh. Hãy dán transcript rồi lưu lại.';englishVideoRefreshRoom();return}const previous=englishVideoTranscriptRead(item.id);try{const data=JSON.parse(localStorage.getItem(ENGLISH_VIDEO_TRANSCRIPT_KEY)||'{}');data[item.id]=raw;localStorage.setItem(ENGLISH_VIDEO_TRANSCRIPT_KEY,JSON.stringify(data));if(previous!==raw){const progress=englishVideoPracticeRead(),entry=progress[item.id]&&typeof progress[item.id]==='object'?progress[item.id]:{};entry.modes=[];entry.vocab=[];progress[item.id]=entry;localStorage.setItem('taylorflow-speaking-video-practice-v1',JSON.stringify(progress))}}catch{englishVideoStatus='Không lưu được transcript trên thiết bị này.';englishVideoRefreshRoom();return}englishVideoTranscriptDraft=raw;englishVideoGrammarSelection=null;englishVideoMode='choose';englishVideoSentenceIndex=0;englishVideoFeedback=null;englishVideoStatus=`Đã gắn transcript cho video này · ${lines.length} câu. Cả 5 chế độ sẽ dùng nội dung đó.`;englishVideoRefreshRoom()}
 function englishVideoClearTranscript(){const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex];if(!item)return;const hasTranscriptDefault=typeof ENGLISH_VIDEO_TRANSCRIPT_DEFAULTS[englishVideoTranscriptSeedKey(item.id)]==='string';if(englishVideoTranscriptRead(item.id)&&!confirm(hasTranscriptDefault?'Xóa transcript riêng và khôi phục transcript có sẵn của video này?':'Xóa transcript đã lưu cho video này và quay về bài mẫu theo chủ đề?'))return;try{const data=JSON.parse(localStorage.getItem(ENGLISH_VIDEO_TRANSCRIPT_KEY)||'{}');delete data[item.id];localStorage.setItem(ENGLISH_VIDEO_TRANSCRIPT_KEY,JSON.stringify(data));const progress=englishVideoPracticeRead(),entry=progress[item.id]&&typeof progress[item.id]==='object'?progress[item.id]:{};entry.modes=[];entry.vocab=[];progress[item.id]=entry;localStorage.setItem('taylorflow-speaking-video-practice-v1',JSON.stringify(progress))}catch{}englishVideoTranscriptDraft='';englishVideoGrammarSelection=null;englishVideoMode='choose';englishVideoSentenceIndex=0;englishVideoFeedback=null;englishVideoStatus=hasTranscriptDefault?'Đã xóa bản riêng; transcript có sẵn của video vẫn được dùng.':'Đã khôi phục bài mẫu theo chủ đề.';englishVideoRefreshRoom()}
-let englishVideoIndex=0,englishVideoMode='choose',englishVideoSentenceIndex=0,englishVideoDictationInput='',englishVideoDictationWords=[],englishVideoDictationRevealed=[],englishVideoDictationDifficulty='normal',englishVideoDictationSpeed=1,englishVideoDictationUtterance=null,englishVideoDictationPlaying=false,englishVideoFeedback=null,englishVideoStatus='',englishVideoShuffledWords=[],englishVideoChosenWords=[],englishVideoOrderHintsRemaining=10,englishVideoRecognitionText='',englishVideoRecognition=null,englishVideoShadowFeedback=null,englishVideoShadowController=null,englishVideoShadowStartedAt=0,englishVideoShadowTimer=0,englishVideoShadowAudioUrl='',englishVideoTranslationVisible=true,englishVideoTranscriptUtterance=null,englishVideoTranscriptPlaying=false,englishVideoGrammarSelection=null;
+let englishVideoIndex=0,englishVideoMode='choose',englishVideoSentenceIndex=0,englishVideoDictationInput='',englishVideoDictationWords=[],englishVideoDictationRevealed=[],englishVideoDictationDifficulty='normal',englishVideoDictationSpeed=1,englishVideoDictationUtterance=null,englishVideoDictationPlaying=false,englishVideoFeedback=null,englishVideoStatus='',englishVideoShuffledWords=[],englishVideoChosenWords=[],englishVideoOrderHintsRemaining=10,englishVideoRecognitionText='',englishVideoRecognition=null,englishVideoShadowFeedback=null,englishVideoShadowController=null,englishVideoShadowStartedAt=0,englishVideoShadowTimer=0,englishVideoShadowAudioUrl='',englishVideoTranslationVisible=true,englishVideoTranslationStatus='',englishVideoTranslationStatusId='',englishVideoTranscriptUtterance=null,englishVideoTranscriptPlaying=false,englishVideoGrammarSelection=null;
 let englishVideoFilter='all',englishVideoLibraryStatus='';
 function englishVideoPracticeRead(){try{const data=JSON.parse(localStorage.getItem('taylorflow-speaking-video-practice-v1')||'{}');return data&&typeof data==='object'&&!Array.isArray(data)?data:{}}catch{return{}}}
 function englishVideoPracticeMark(videoId,mode){const data=englishVideoPracticeRead(),entry=data[videoId]&&typeof data[videoId]==='object'?data[videoId]:{modes:[],vocab:[]};if(mode==='watched')entry.watched=true;else entry.modes=[...new Set([...(Array.isArray(entry.modes)?entry.modes:[]),mode])];data[videoId]=entry;try{localStorage.setItem('taylorflow-speaking-video-practice-v1',JSON.stringify(data))}catch{}englishStudyProgressMark('videos',videoId);return entry}
@@ -9973,7 +10103,7 @@ const englishVideoSelectSentenceBeforeTimestampSync=englishVideoSelectSentence;e
 const englishVideoOpenBeforeTimestampSync=openEnglishVideo;openEnglishVideo=function(id){const fromVideoList=tab==='les'&&englishStudyRoute==='videos';try{const state=Object.assign({},history.state||{},{taylorFlowVideoDetail:true,videoId:id});if(fromVideoList)history.pushState(state,'',location.href);else if(tab==='les'&&englishStudyRoute==='video-detail')history.replaceState(state,'',location.href)}catch{}englishVideoStopYouTubeSync();englishVideoOpenBeforeTimestampSync(id);window.setTimeout(()=>{englishVideoEnhanceTranscriptDom();englishVideoRequestYouTubeSync()},120)};
 function englishVideoRoomPage(back){
  const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex];if(!item){englishStudyRoute='videos';return englishVideoLibraryPage(back)}
- const exercise=englishVideoExercise(item),quiz=exercise?englishVideoQuiz(exercise):null,entry=englishVideoPracticeRead()[item.id]||{modes:[]},doneModes=Array.isArray(entry.modes)?entry.modes:[],doneCount=doneModes.filter(mode=>ENGLISH_VIDEO_MODE_INFO.some(info=>info.id===mode)).length,sentence=exercise?.lines?.[englishVideoSentenceIndex]||exercise?.lines?.[0]||'',translationsVisible=englishVideoTranslationVisible;
+ const exercise=englishVideoExercise(item),quiz=exercise?englishVideoQuiz(exercise):null,entry=englishVideoPracticeRead()[item.id]||{modes:[]},doneModes=Array.isArray(entry.modes)?entry.modes:[],doneCount=doneModes.filter(mode=>ENGLISH_VIDEO_MODE_INFO.some(info=>info.id===mode)).length,sentence=exercise?.lines?.[englishVideoSentenceIndex]||exercise?.lines?.[0]||'',translationsVisible=englishVideoTranslationVisible,translations=englishVideoTranslationsRead(item.id);
  const modeNav=`<div class="english-video-mode-nav" role="group" aria-label="Chế độ học">${ENGLISH_VIDEO_MODE_INFO.map(mode=>`<button type="button" aria-pressed="${englishVideoMode===mode.id}" onclick="englishVideoSetMode('${mode.id}')">${mode.icon} ${mode.title}${doneModes.includes(mode.id)?' ✓':''}</button>`).join('')}</div>`;
  let task='';if(!exercise&&englishVideoMode!=='choose')task='<div class="english-video-transcript-unavailable"><h3>Video này chưa có transcript</h3><p>Video vẫn mở bình thường. Hãy thêm transcript để bật Dictation, Word Order, Shadowing, Transcript và Quiz theo đúng lời thoại.</p><button type="button" onclick="englishVideoOpenTranscript()">Thêm transcript</button></div>';
   if(englishVideoMode==='choose')task=`<h2>Chọn chế độ học</h2><p>${exercise?.custom?'Cả 5 chế độ đang dùng transcript đã lưu cho video này.':'Chưa có transcript riêng cho video này. Dán transcript bên dưới để Dictation, Word Order, Shadowing, Transcript và Quiz cùng luyện đúng nội dung đang xem.'}</p><div class="english-video-mode-cards">${ENGLISH_VIDEO_MODE_INFO.map(mode=>`<button type="button" class="english-video-mode-card" onclick="englishVideoSetMode('${mode.id}')"><strong>${mode.icon} ${mode.title}</strong><small>${mode.vi}</small></button>`).join('')}</div><details class="english-video-transcript-editor" open><summary>Gắn transcript cho video hiện tại</summary><p>Mở mục bản chép lời (transcript) của video trên YouTube, sao chép nội dung tiếng Anh rồi dán ở đây. Transcript được lưu riêng trên thiết bị này.</p><textarea id="english-video-transcript-input" maxlength="100000" aria-label="Transcript video đang học" placeholder="Dán transcript tiếng Anh của video vào đây…" oninput="englishVideoTranscriptDraft=this.value">${esc(englishVideoTranscriptDraft||englishVideoTranscriptRead(item.id))}</textarea><div class="english-video-action-row"><button type="button" onclick="englishVideoSaveTranscript()">Lưu transcript và dùng cho 5 chế độ</button>${exercise?.custom?`<button type="button" class="g" onclick="englishVideoClearTranscript()">Khôi phục bài mẫu</button>`:''}</div>${englishVideoStatus?`<p class="english-feedback" role="status">${esc(englishVideoStatus)}</p>`:''}</details>`;
@@ -9983,7 +10113,7 @@ function englishVideoRoomPage(back){
   task=`<div class="english-video-order"><div class="english-video-dictation-toolbar"><button type="button" class="english-video-dictation-play" aria-label="${englishVideoDictationPlaying?'Tạm dừng':'Phát câu mẫu'}" onclick="englishVideoToggleDictationPlayback()">${status}</button><button type="button" aria-label="Câu trước" ${englishVideoSentenceIndex===0?'disabled':''} onclick="englishVideoAdvanceSentence(-1)">‹</button><select aria-label="Chọn câu word order" onchange="englishVideoSelectSentence(this.value)">${exercise.lines.map((_,index)=>`<option value="${index}" ${index===englishVideoSentenceIndex?'selected':''}>${index+1} / ${exercise.lines.length}</option>`).join('')}</select><button type="button" aria-label="Câu tiếp theo" ${englishVideoSentenceIndex>=exercise.lines.length-1?'disabled':''} onclick="englishVideoAdvanceSentence(1)">›</button><button type="button" class="english-video-dictation-speed" aria-label="Tốc độ phát, bấm để đổi" onclick="englishVideoCycleDictationSpeed()">${englishVideoDictationSpeed}x</button><button type="button" aria-label="Phát lại câu" onclick="englishVideoReplayDictation()">↻</button></div><div class="english-video-order-prompt"><div class="english-video-order-prompt-head"><span>Put the sentence in the order you hear</span><span class="english-video-order-count">${englishVideoChosenWords.length}/${targets.length}</span></div><div class="english-video-order-slots" aria-label="Câu đang xếp">${slots}<span class="english-video-order-punctuation">${esc(punctuation)}</span></div></div><div class="english-video-order-bank"><h3>Shuffled words</h3><div class="english-video-order-wordbank">${available.map(({token,index})=>`<button type="button" onclick="englishVideoAddWord(${index})">${esc(token)}</button>`).join('')||'<span class="mu">Đã chọn hết từ.</span>'}</div></div><div class="english-video-order-actions"><button type="button" onclick="englishVideoResetOrder()">↶ Reset</button><button type="button" class="english-video-order-hint" ${englishVideoOrderHintsRemaining<=0?'disabled':''} onclick="englishVideoOrderHint()">💡 Hint (${englishVideoOrderHintsRemaining} left)</button></div>${englishVideoFeedback?`<p class="english-video-order-feedback" role="status">${englishVideoFeedback.correct?'✓ Xếp câu chính xác.':`Thứ tự đúng: ${esc(sentence)}`}</p>`:''}</div>`;
  }
  if(exercise&&englishVideoMode==='shadowing')task=englishVideoShadowingMarkup(sentence,exercise);
- if(exercise&&englishVideoMode==='transcript')task=exercise?.custom?`<div class="english-video-transcript-reader english-video-transcript-reader--timed"><div class="english-video-transcript-toolbar"><span class="english-video-transcript-position">Transcript video · ${englishVideoSentenceIndex+1} / ${exercise.lines.length}</span><span class="english-video-transcript-word-help">Bấm từ được gạch dưới để xem từ loại, vai trò trong câu và nghĩa.</span></div><div class="english-video-transcript-list" aria-label="Transcript video theo từng câu">${exercise.lines.map((line,index)=>`<div role="group" tabindex="0" class="english-video-transcript-segment" aria-current="${index===englishVideoSentenceIndex?'true':'false'}" ${index===englishVideoSentenceIndex?'id="english-video-transcript-current"':''} onclick="englishVideoSelectSentence(${index})" onkeydown="englishVideoTranscriptSegmentKeydown(event,${index})"><span class="english-video-transcript-line" lang="en">${englishVideoTranscriptWordMarkup(line,index)}</span>${englishVideoGrammarPanel(index,line)}</div>`).join('')}</div><div class="english-video-transcript-controls"><button type="button" aria-label="Câu trước" ${englishVideoSentenceIndex===0?'disabled':''} onclick="englishVideoAdvanceSentence(-1)">‹</button><button type="button" class="english-video-transcript-play" aria-label="${englishVideoTranscriptPlaying?'Tạm dừng câu mẫu':'Nghe câu mẫu'}" onclick="englishVideoToggleTranscriptPlayback()">${englishVideoTranscriptPlaying?'Ⅱ':'▶'}</button><button type="button" aria-label="Câu tiếp theo" ${englishVideoSentenceIndex>=exercise.lines.length-1?'disabled':''} onclick="englishVideoAdvanceSentence(1)">›</button></div><p class="english-video-transcript-note">Đang hiển thị transcript đã lưu riêng cho video này. Bấm vào một câu để chọn hoặc nghe.</p></div>`:`<div class="english-video-transcript-unavailable"><h3>Chưa có transcript xác thực cho video này</h3><p>Để lời thoại khớp với video, hãy mở bản chép lời trên YouTube, sao chép phần tiếng Anh rồi lưu riêng cho video này. TaylorFlow không lấy được nội dung phụ đề trực tiếp từ trình phát nhúng.</p><button type="button" onclick="englishVideoSetMode('choose')">Gắn transcript cho video</button></div>`;
+ if(exercise&&englishVideoMode==='transcript')task=exercise?.custom?`<div class="english-video-transcript-reader english-video-transcript-reader--timed"><div class="english-video-transcript-toolbar"><span class="english-video-transcript-position">Transcript video · ${englishVideoSentenceIndex+1} / ${exercise.lines.length}</span>${englishVideoTranslationButtonMarkup(translationsVisible,translations.some(Boolean)||(exercise.vi||[]).some(Boolean))}<span class="english-video-transcript-word-help">Bấm từ được gạch dưới để xem từ loại, vai trò trong câu và nghĩa.</span></div><div class="english-video-transcript-list" aria-label="Transcript video theo từng câu">${exercise.lines.map((line,index)=>`<div role="group" tabindex="0" class="english-video-transcript-segment" aria-current="${index===englishVideoSentenceIndex?'true':'false'}" ${index===englishVideoSentenceIndex?'id="english-video-transcript-current"':''} onclick="englishVideoSelectSentence(${index})" onkeydown="englishVideoTranscriptSegmentKeydown(event,${index})"><span class="english-video-transcript-line" lang="en">${englishVideoTranscriptWordMarkup(line,index)}</span>${englishVideoTranscriptTranslationMarkup(translations[index]||exercise?.vi?.[index]||null,translationsVisible)}${englishVideoGrammarPanel(index,line)}</div>`).join('')}</div>${englishVideoTranslationEditorMarkup(item,exercise,translations)}<div class="english-video-transcript-controls"><button type="button" aria-label="Câu trước" ${englishVideoSentenceIndex===0?'disabled':''} onclick="englishVideoAdvanceSentence(-1)">‹</button><button type="button" class="english-video-transcript-play" aria-label="${englishVideoTranscriptPlaying?'Tạm dừng câu mẫu':'Nghe câu mẫu'}" onclick="englishVideoToggleTranscriptPlayback()">${englishVideoTranscriptPlaying?'Ⅱ':'▶'}</button><button type="button" aria-label="Câu tiếp theo" ${englishVideoSentenceIndex>=exercise.lines.length-1?'disabled':''} onclick="englishVideoAdvanceSentence(1)">›</button></div><p class="english-video-transcript-note">Đang hiển thị transcript đã lưu riêng cho video này. Bấm vào một câu để chọn hoặc nghe.</p></div>`:`<div class="english-video-transcript-unavailable"><h3>Chưa có transcript xác thực cho video này</h3><p>Để lời thoại khớp với video, hãy mở bản chép lời trên YouTube, sao chép phần tiếng Anh rồi lưu riêng cho video này. TaylorFlow không lấy được nội dung phụ đề trực tiếp từ trình phát nhúng.</p><button type="button" onclick="englishVideoSetMode('choose')">Gắn transcript cho video</button></div>`;
  if(exercise&&englishVideoMode==='quiz')task=`<div class="english-video-task"><h3>Quiz · Kiểm tra hiểu bài</h3><p>${esc(quiz.question)}</p><form onsubmit="englishVideoCheckQuiz(event)"><div class="english-quiz-options">${quiz.options.map((option,index)=>`<label><input type="radio" name="video-quiz" value="${index}" required> <span>${esc(option)}</span></label>`).join('')}</div><button type="submit">Kiểm tra đáp án</button></form>${englishVideoFeedback?`<p class="english-feedback" role="status">${englishVideoFeedback.correct?'✓ Chính xác. ':`Đáp án đúng: “${esc(quiz.options[quiz.answer])}”. `}${esc(quiz.explain)}</p>`:''}</div>`;
  const frame=`<div class="english-video-player"><iframe src="https://www.youtube-nocookie.com/embed/${esc(item.videoId)}?rel=0&modestbranding=1&cc_load_policy=1&playsinline=1" title="${esc(item.title)} · TaylorFlow" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`;
  return `${back}<section class="english-study-page english-speaking-page"><div class="english-video-titlebar"><div><p class="eyebrow">${esc(item.level)} · ${esc(item.source)} · ${doneCount}/${ENGLISH_VIDEO_MODE_INFO.length} CHẾ ĐỘ</p><h1>${esc(item.title)}</h1><p>${esc(item.description)}</p></div><button type="button" class="g" onclick="englishVideoCompleteMode('watched')">${englishCourseProgress('videos',item.id)?'✓ Đã đánh dấu học':'Đánh dấu video đã học'}</button></div><div class="english-video-room"><section class="english-video-player-column"><div class="english-video-meta"><span class="english-video-badge">${esc(item.level)}</span><a class="g english-video-link" href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">Mở trên YouTube ↗</a><button type="button" class="g english-video-transcript-open" onclick="englishVideoOpenTranscript()">${exercise?.custom?'Xem transcript':'Thêm transcript'}</button></div>${frame}<p class="english-video-source-note">${esc(item.source)} · ${exercise?.custom?'Các chế độ đang dùng transcript đã gắn với video này.':'Bật CC trong trình phát; để luyện theo nội dung video, hãy dán transcript ở phần chọn chế độ.'} Video cần kết nối Internet.</p></section><section class="english-video-practice-column">${modeNav}<div class="english-video-progress"><span>${doneCount}/${ENGLISH_VIDEO_MODE_INFO.length} chế độ đã hoàn thành</span><progress max="${ENGLISH_VIDEO_MODE_INFO.length}" value="${doneCount}"></progress></div><div class="english-video-task-content">${task}</div><div class="english-video-action-row"><button type="button" class="g" onclick="englishVideoSetMode('choose')">← Chọn chế độ khác</button><button type="button" class="g" onclick="englishVideoNavigate(-1)">← Video trước</button><button type="button" class="g" onclick="englishVideoNavigate(1)">Video tiếp →</button></div></section></div></section>`;
@@ -10007,6 +10137,12 @@ function englishVideoCompleteMode(mode){const item=ENGLISH_VIDEO_RESOURCES[engli
 function englishVideoStopTranscriptPlayback(){const speech=window.speechSynthesis;if(englishVideoTranscriptUtterance)englishVideoTranscriptUtterance.onend=null;if(speech&&(speech.speaking||speech.paused))speech.cancel();englishVideoTranscriptUtterance=null;englishVideoTranscriptPlaying=false}
 function englishVideoToggleTranscriptPlayback(){if(!('speechSynthesis'in window)||typeof SpeechSynthesisUtterance==='undefined'){englishVideoStatus='Trình duyệt này chưa hỗ trợ phát câu mẫu.';englishVideoRefreshRoom();return}const speech=window.speechSynthesis;if(englishVideoTranscriptUtterance&&speech.speaking){if(speech.paused){speech.resume();englishVideoTranscriptPlaying=true}else{speech.pause();englishVideoTranscriptPlaying=false}englishVideoRefreshRoom();return}const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex],exercise=item&&englishVideoExercise(item),line=exercise?.lines[englishVideoSentenceIndex];if(!line)return;englishVideoStopTranscriptPlayback();const utterance=new SpeechSynthesisUtterance(line);utterance.lang='en-US';utterance.rate=.86;utterance.onend=()=>{if(englishVideoTranscriptUtterance!==utterance)return;englishVideoTranscriptUtterance=null;englishVideoTranscriptPlaying=false;if(englishVideoMode==='transcript')englishVideoRefreshRoom()};utterance.onerror=()=>{if(englishVideoTranscriptUtterance!==utterance)return;englishVideoTranscriptUtterance=null;englishVideoTranscriptPlaying=false;englishVideoStatus='Không phát được câu mẫu lần này.';if(englishVideoMode==='transcript')englishVideoRefreshRoom()};englishVideoTranscriptUtterance=utterance;englishVideoTranscriptPlaying=true;speech.speak(utterance);englishVideoRefreshRoom()}
 function englishVideoSetTranscriptTranslation(language){englishVideoTranslationVisible=language==='vi';englishVideoRefreshRoom()}
+const ENGLISH_VIDEO_TRANSLATIONS_KEY='taylorflow-video-translations-vi-v1';
+function englishVideoTranslationsRead(videoId){try{const all=JSON.parse(localStorage.getItem(ENGLISH_VIDEO_TRANSLATIONS_KEY)||'{}'),rows=all&&all[videoId];return Array.isArray(rows)?rows.map(value=>typeof value==='string'?value.slice(0,1000):''):[]}catch{return[]}}
+function englishVideoTranslationButtonMarkup(visible,available){return available?'<button type="button" class="english-video-translation-toggle" aria-pressed="'+String(visible)+'" onclick="englishVideoToggleTranslation()">'+(visible?'Ẩn bản dịch':'Hiện bản dịch')+'</button>':'<button type="button" class="english-video-translation-toggle" onclick="englishVideoOpenTranslationEditor()">Thêm bản dịch</button>'}
+function englishVideoOpenTranslationEditor(){const editor=$('.english-video-translation-editor');if(!editor)return;editor.open=true;editor.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'nearest'})}function englishVideoTranscriptTranslationMarkup(value,visible){const text=String(value||'').trim();return visible&&text?'<span class="english-video-transcript-translation" lang="vi">'+esc(text)+'</span>':''}
+function englishVideoTranslationEditorMarkup(item,exercise,translations){const rows=Array.from({length:exercise.lines.length},(_,index)=>String(translations[index]||exercise.vi?.[index]||''));const status=englishVideoTranslationStatusId===item.id?englishVideoTranslationStatus:'';return '<details class="english-video-translation-editor"><summary>Thêm bản dịch tiếng Việt · '+rows.length+' câu</summary><p>Dán bản dịch tiếng Việt theo đúng thứ tự, mỗi dòng ứng với một câu tiếng Anh. Bản dịch chỉ lưu trên thiết bị này.</p><form onsubmit="englishVideoSaveTranslations(event)"><label for="english-video-translation-input">Bản dịch · mỗi câu một dòng</label><textarea id="english-video-translation-input" maxlength="100000" rows="8" lang="vi" placeholder="Dán các câu dịch tiếng Việt tại đây, mỗi câu một dòng.">'+esc(rows.join('\n'))+'</textarea><button type="submit">Lưu bản dịch</button></form><p class="english-video-translation-status" role="status">'+esc(status)+'</p></details>'}
+function englishVideoSaveTranslations(event){event?.preventDefault?.();const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex],exercise=item&&englishVideoExercise(item),input=$('#english-video-translation-input');if(!item||!exercise||!input)return;const rows=String(input.value||'').replaceAll(String.fromCharCode(13),'').split(String.fromCharCode(10)),translations=Array.from({length:exercise.lines.length},(_,index)=>String(rows[index]||'').trim().slice(0,1000));let all={};try{const saved=JSON.parse(localStorage.getItem(ENGLISH_VIDEO_TRANSLATIONS_KEY)||'{}');if(saved&&typeof saved==='object'&&!Array.isArray(saved))all=saved}catch{}all[item.id]=translations;try{localStorage.setItem(ENGLISH_VIDEO_TRANSLATIONS_KEY,JSON.stringify(all));englishVideoTranslationStatus=translations.filter(Boolean).length+' / '+exercise.lines.length+' câu đã có bản dịch.'}catch{englishVideoTranslationStatus='Không thể lưu trên thiết bị này.'}englishVideoTranslationStatusId=item.id;englishVideoRefreshRoom()}
 function englishVideoSelectSentence(index){const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex],exercise=item&&englishVideoExercise(item);if(!exercise||!Number.isInteger(Number(index)))return;englishVideoStopTranscriptPlayback();englishVideoStopDictationPlayback();englishVideoCancelRecognition();englishVideoGrammarSelection=null;englishVideoSentenceIndex=Math.max(0,Math.min(exercise.lines.length-1,Number(index)));englishVideoDictationInput='';englishVideoDictationWords=[];englishVideoDictationRevealed=[];englishVideoFeedback=null;englishVideoRecognitionText='';englishVideoShadowFeedback=null;englishVideoChosenWords=[];if(englishVideoMode==='order')englishVideoResetOrder(false);englishVideoRefreshRoom()}
 function englishVideoAdvanceSentence(direction=1){const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex],exercise=item&&englishVideoExercise(item);if(!exercise)return;const delta=Number(direction||1),next=englishVideoMode==='transcript'||englishVideoMode==='dictation'||englishVideoMode==='order'?Math.max(0,Math.min(exercise.lines.length-1,englishVideoSentenceIndex+delta)):(englishVideoSentenceIndex+delta+exercise.lines.length)%exercise.lines.length;englishVideoSelectSentence(next)}
 function englishVideoSpeakCurrent(){const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex],exercise=item&&englishVideoExercise(item),line=exercise?.lines[englishVideoSentenceIndex];if(line)say(line,.86*englishVideoDictationSpeed)}
@@ -10482,38 +10618,50 @@ function courseQuizMarkup(step,route){
  return `<div class="course-step-content">${route.quizError?`<p class="course-feedback" role="status">${esc(route.quizError)}</p>`:''}${step.items.map((item,index)=>`<fieldset class="course-quiz-question"><legend><strong>${index+1}. ${esc(item.q)}</strong></legend><div class="course-quiz-options">${item.options.map((option,choice)=>`<label class="course-quiz-option"><input type="radio" name="course-quiz-${index}" value="${choice}" ${String(answers[index])===String(choice)?'checked':''} ${checked?'disabled':''}><span>${esc(option)}</span></label>`).join('')}</div>${checked?`<p class="course-feedback" role="status">${Number(answers[index])===item.answer?'✓ Đúng. ':'Thử lại lần sau. '}${esc(item.why)}</p>`:''}</fieldset>`).join('')}</div>`;
 }
 const COURSE_COMPOSE_KEY='taylorflow-course-compose-v1';
-function courseComposeRead(courseId,lessonId,count){
- try{const all=JSON.parse(localStorage.getItem(COURSE_COMPOSE_KEY)||'{}'),row=all?.[courseId+':'+lessonId],parts=Array.from({length:count},(_,index)=>String(row?.parts?.[index]||'').slice(0,500));return {parts,ready:row?.ready===true&&parts.every(part=>part.trim())}}catch{return {parts:Array(count).fill(''),ready:false}}
+ function courseComposeRead(courseId,lessonId,count){
+  try{const all=JSON.parse(localStorage.getItem(COURSE_COMPOSE_KEY)||'{}'),row=all?.[courseId+':'+lessonId],parts=Array.from({length:count},(_,index)=>String(row?.parts?.[index]||'').slice(0,500));return {parts,ready:row?.ready===true}}catch{return {parts:Array(count).fill(''),ready:false}}
 }
 function courseComposeWrite(courseId,lessonId,parts,ready=false){
  const cleaned=parts.map(part=>String(part||'').slice(0,500)),all=(()=>{try{return JSON.parse(localStorage.getItem(COURSE_COMPOSE_KEY)||'{}')}catch{return {}}})();
- all[courseId+':'+lessonId]={parts:cleaned,ready:ready&&cleaned.every(part=>part.trim()),updated:Date.now()};try{localStorage.setItem(COURSE_COMPOSE_KEY,JSON.stringify(all))}catch{}
+  all[courseId+':'+lessonId]={parts:cleaned,ready:ready===true,updated:Date.now()};try{localStorage.setItem(COURSE_COMPOSE_KEY,JSON.stringify(all))}catch{}
 }
-function courseComposeAnswer(parts){return parts.map(part=>part.trim()).filter(Boolean).map(part=>/[.!?]$/.test(part)?part:part+'.').join(' ')}
+ function courseComposeAnswer(parts){return parts.map(part=>part.trim()).filter(Boolean).map(part=>/[.!?]$/.test(part)?part:part+'.').join(' ')}
+ function courseComposeFrame(hint,index){const value=String(hint||'').toLowerCase();if(/hobby/.test(value))return 'The hobby I enjoy is ...';if(/first step|first thing|what to do first/.test(value))return 'The first step is to ...';if(/how.*(check|measure)|result.*check|unit|value/.test(value))return 'I check it by ...';if(/why|reason|benefit|help|suit|enjoy|like|matters|important/.test(value))return 'I like it because ...';if(/how often|frequency|week|day/.test(value))return 'I do it ... times a week.';if(/when|time|morning|evening/.test(value))return 'I usually do this at ...';if(/where|which place|location|nearby|direction/.test(value))return 'The place is ...';if(/part|device|component/.test(value))return 'It has ... and ...';if(/who|person|friend|teacher|team/.test(value))return 'I usually ... with ...';if(/name|what|source|skill|activity|meal|food|device|place/.test(value))return 'One example is ...';return index===0?'One example is ...':index===1?'For example, I usually ...':'One reason is that ...'}
+ function courseComposeWordCount(value){return (String(value||'').match(/[A-Za-z]+(?:['’][A-Za-z]+)*/g)||[]).length}
+  function courseComposeQuality(value){const text=String(value||'').trim(),words=text.match(/[A-Za-z]+(?:['’][A-Za-z]+)*/g)||[];if(!words.length)return {kind:'empty',message:'Chưa có câu ở ý này. Dùng khung câu hoặc mở bài mẫu.'};const suspicious=words.filter(word=>word.length>=6&&(((word.match(/[aeiouy]/gi)||[]).length<2)||/(.)\1{3,}/i.test(word))).length;if(suspicious>=1)return {kind:'check',message:'Có vẻ có lỗi gõ. Hãy kiểm tra chính tả hoặc xem câu mẫu.'};if(words.length<4)return {kind:'short',message:`Có ${words.length} từ. Thêm một chi tiết hoặc lý do để câu rõ hơn.`};return {kind:'ok',message:`✓ Ý đã có câu trả lời (${words.length} từ).`}}
+ function courseComposeRevealModel(courseId,lessonId,count){
+  const state=courseComposeRead(courseId,lessonId,count),fields=[...document.querySelectorAll('.course-compose-input')];
+  fields.forEach(field=>{const index=Number(field.dataset.index);if(Number.isInteger(index)&&index>=0&&index<count)state.parts[index]=field.value.slice(0,500)});
+  courseComposeWrite(courseId,lessonId,state.parts,true);
+  const model=$('#course-compose-model');if(model){model.hidden=false;model.scrollIntoView({block:'nearest',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}
+  const status=$('#course-compose-status');if(status)status.textContent='Không sao nếu đang bí. Xem câu mẫu, sửa theo ý mình rồi tiếp tục bất cứ lúc nào.';
+  const next=$('#course-step-next');if(next){next.textContent='Tiếp tục →';next.onclick=()=>courseNextStep()}
+ }
+ function courseComposeInsertFrame(courseId,lessonId,index,count,frame){const field=[...document.querySelectorAll('.course-compose-input')].find(item=>item.dataset.courseId===courseId&&item.dataset.lessonId===lessonId&&Number(item.dataset.index)===index);if(!field)return;const start=field.selectionStart??field.value.length,end=field.selectionEnd??start,current=field.value||'',insert=String(frame||''),left=current.slice(0,start),right=current.slice(end),space=left&&!/\s$/.test(left)?' ':'';field.value=(left+space+insert+right).slice(0,500);field.focus();const caret=Math.min((left+space+insert).length,field.value.length);field.setSelectionRange(caret,caret);courseComposeInput(courseId,lessonId,index,count,field.value)}
 function courseComposeMarkup(meta,lesson,step){
- const state=courseComposeRead(meta.id,lesson.id,step.hints.length),answer=courseComposeAnswer(state.parts);
- return `<div class="course-step-content course-compose"><p>${esc(step.prompt)}</p><p class="mu">Viết một câu ngắn cho mỗi ý. Ghép xong, bạn có thể nghe mẫu và đọc theo, không cần ghi âm.</p><div class="course-compose-grid">${step.hints.map((hint,index)=>`<label class="course-compose-prompt"><span><strong>Ý ${index+1}</strong> · ${esc(hint)}</span><textarea class="course-compose-input" data-course-id="${esc(meta.id)}" data-lesson-id="${esc(lesson.id)}" data-index="${index}" rows="2" maxlength="500" lang="en" placeholder="Write one short sentence in English." oninput="courseComposeInput('${meta.id}','${lesson.id}',${index},${step.hints.length},this.value)">${esc(state.parts[index])}</textarea></label>`).join('')}</div><p id="course-compose-status" class="course-feedback" role="status">${state.ready?'Đã ghép câu trả lời. Hãy nghe rồi đọc theo.':'Điền đủ ba ý rồi ghép thành câu trả lời.'}</p><section id="course-compose-preview" class="course-compose-preview"${state.ready?'':' hidden'}><strong>Câu trả lời của bạn</strong><p lang="en">${esc(answer)}</p><button type="button" onclick="say(${courseInlineArg(answer)},.9)">Nghe rồi đọc theo</button></section></div>`;
+   const state=courseComposeRead(meta.id,lesson.id,step.hints.length),answer=courseComposeAnswer(state.parts),examples=lesson.steps.find(item=>item.type==='shadow')?.sentences||lesson.steps.find(item=>item.type==='pattern')?.examples||[],hasAnswer=state.parts.some(part=>part.trim()),preview=state.ready&&hasAnswer,showModel=state.ready&&state.parts.some(part=>courseComposeQuality(part).kind!=='ok');
+   return `<div class="course-step-content course-compose"><p class="course-compose-question" lang="en">${esc(step.prompt)}</p><p class="mu">Bài này là luyện viết. Học theo 3 bước: trả lời thẳng câu hỏi, thêm chi tiết, rồi nêu lý do. Không cần ghi âm.</p><section class="course-compose-guide"><strong>Khung câu để bắt đầu</strong><div class="course-compose-grid">${step.hints.map((hint,index)=>`<article class="course-compose-prompt"><label for="course-compose-input-${index}"><strong>Ý ${index+1}</strong> · ${esc(hint)}</label><button type="button" class="g course-compose-frame" onclick="courseComposeInsertFrame('${meta.id}','${lesson.id}',${index},${step.hints.length},${courseInlineArg(courseComposeFrame(hint,index))})">Dùng mẫu: <span lang="en">${esc(courseComposeFrame(hint,index))}</span></button><textarea id="course-compose-input-${index}" class="course-compose-input" data-course-id="${esc(meta.id)}" data-lesson-id="${esc(lesson.id)}" data-index="${index}" rows="3" maxlength="500" lang="en" placeholder="Viết câu tiếng Anh của bạn…" oninput="courseComposeInput('${meta.id}','${lesson.id}',${index},${step.hints.length},this.value)">${esc(state.parts[index])}</textarea><small id="course-compose-count-${index}">${courseComposeWordCount(state.parts[index])} từ</small>${state.ready?`<span class="course-compose-quality ${courseComposeQuality(state.parts[index]).kind}">${esc(courseComposeQuality(state.parts[index]).message)}</span>`:''}</article>`).join('')}</div></section><div class="course-compose-actions"><button type="button" class="g" onclick="courseComposeBuild('${meta.id}','${lesson.id}',${step.hints.length})">Kiểm tra bài viết</button><button type="button" class="g" onclick="courseComposeRevealModel('${meta.id}','${lesson.id}',${step.hints.length})">Tôi đang bí · xem bài mẫu</button></div><p id="course-compose-status" class="course-feedback" role="status">${state.ready?(hasAnswer?'Đã xem nhận xét. Bạn có thể sửa bài hoặc tiếp tục.':'Bài mẫu đã mở; bạn có thể học theo rồi tiếp tục.'):'Bạn sẽ nhận góp ý dễ hiểu. Thiếu ý cũng không bị kẹt.'}</p><section id="course-compose-preview" class="course-compose-preview"${preview?'':' hidden'}><strong>Bài viết của bạn</strong><p lang="en">${esc(answer)}</p></section><section id="course-compose-model" class="course-compose-model"${showModel?'':' hidden'}><strong>Bài mẫu tham khảo</strong><p class="mu">Dựa trên câu mẫu đã học ở bước trước. Bạn có thể thay thông tin để đúng với mình.</p>${examples.slice(0,4).map((example,index)=>`<article lang="en"><p>${esc(example)}</p><button type="button" class="g" onclick="say(${courseInlineArg(example)},.88)">Nghe mẫu ${index+1}</button></article>`).join('')||'<p>Hãy dùng các khung câu ở trên, điền thông tin thật của bạn rồi đọc lại câu vừa viết.</p>'}</section></div>`;
 }
 function courseComposeInput(courseId,lessonId,index,count,value){
- const state=courseComposeRead(courseId,lessonId,count);state.parts[index]=String(value||'').slice(0,500);courseComposeWrite(courseId,lessonId,state.parts,false);
- const preview=$('#course-compose-preview'),status=$('#course-compose-status'),next=$('#course-step-next');if(preview)preview.hidden=true;if(status)status.textContent='Nháp đã lưu. Điền đủ ba ý rồi ghép lại.';if(next){next.textContent='Ghép câu trả lời →';next.onclick=()=>courseComposeBuild(courseId,lessonId,count)}
+  const state=courseComposeRead(courseId,lessonId,count);state.parts[index]=String(value||'').slice(0,500);courseComposeWrite(courseId,lessonId,state.parts,false);
+  const preview=$('#course-compose-preview'),model=$('#course-compose-model'),status=$('#course-compose-status'),next=$('#course-step-next'),counter=$(`#course-compose-count-${index}`);if(preview)preview.hidden=true;if(model)model.hidden=true;if(counter)counter.textContent=courseComposeWordCount(state.parts[index])+' từ';document.querySelectorAll('.course-compose-quality').forEach(item=>item.remove());if(status)status.textContent='Đã lưu nháp. Bấm “Kiểm tra bài viết” để nhận góp ý; bạn luôn có thể xem bài mẫu để tiếp tục.';if(next){next.textContent='Kiểm tra bài viết →';next.onclick=()=>courseComposeBuild(courseId,lessonId,count)}
 }
 function courseComposeBuild(courseId,lessonId,count){
- const state=courseComposeRead(courseId,lessonId,count),fields=[...document.querySelectorAll('.course-compose-input')];fields.forEach(field=>{const index=Number(field.dataset.index);if(Number.isInteger(index)&&index>=0&&index<count)state.parts[index]=field.value.slice(0,500)});
- const missing=state.parts.findIndex(part=>!part.trim());if(missing>=0){courseComposeWrite(courseId,lessonId,state.parts,false);const status=$('#course-compose-status');if(status)status.textContent='Hãy viết một câu ngắn cho từng ý trước khi ghép.';fields[missing]?.focus();return}
- courseComposeWrite(courseId,lessonId,state.parts,true);const answer=courseComposeAnswer(state.parts),preview=$('#course-compose-preview'),status=$('#course-compose-status'),next=$('#course-step-next');
- if(preview){preview.innerHTML=`<strong>Câu trả lời của bạn</strong><p lang="en">${esc(answer)}</p><button type="button" onclick="say(${courseInlineArg(answer)},.9)">Nghe rồi đọc theo</button>`;preview.hidden=false}
- if(status)status.textContent='Đã ghép câu trả lời. Hãy nghe rồi đọc theo.';if(next){next.textContent='Tiếp tục →';next.onclick=()=>courseNextStep()}
+  const state=courseComposeRead(courseId,lessonId,count),fields=[...document.querySelectorAll('.course-compose-input')];fields.forEach(field=>{const index=Number(field.dataset.index);if(Number.isInteger(index)&&index>=0&&index<count)state.parts[index]=field.value.slice(0,500)});
+  courseComposeWrite(courseId,lessonId,state.parts,true);const answer=courseComposeAnswer(state.parts),preview=$('#course-compose-preview'),model=$('#course-compose-model'),status=$('#course-compose-status'),next=$('#course-step-next'),qualities=state.parts.map(courseComposeQuality),empty=qualities.every(item=>item.kind==='empty'),showModel=qualities.some(item=>['empty','short','check'].includes(item.kind));let diagnostics=null;try{if(answer&&typeof grammarDiagnostics==='function')diagnostics=grammarDiagnostics(answer)}catch{}
+  if(preview){preview.innerHTML=`<strong>Bài viết của bạn</strong><p lang="en">${esc(answer)}</p>`;preview.hidden=!answer}
+  if(model)model.hidden=!showModel;
+  if(status){const notes=[];if(empty)notes.push('Chưa có câu nào — không sao. Bài mẫu đã hiện bên dưới để bạn học theo.');else{const missing=qualities.filter(item=>item.kind==='empty').length;if(missing)notes.push(`Còn ${missing} ý chưa viết. Bạn có thể tiếp tục hoặc quay lại điền sau.`);const short=qualities.filter(item=>item.kind==='short').length;if(short)notes.push(`${short} ý còn ngắn; thêm chi tiết hoặc lý do sẽ rõ hơn.`);const suspicious=qualities.filter(item=>item.kind==='check').length;if(suspicious)notes.push(`${suspicious} ý có thể bị lỗi gõ. Hãy dùng khung câu hoặc xem bài mẫu.`);const issues=diagnostics?.findings?.slice(0,2)||[];if(issues.length)notes.push('Gợi ý ngữ pháp: '+issues.map(item=>`${item.example} → ${item.suggestion}`).join(' · '));if(!notes.length)notes.push('Bạn đã trả lời các ý. Hãy đọc lại để chắc câu đúng với trải nghiệm của mình.')}status.textContent=notes.join(' ')}if(next){next.textContent='Tiếp tục →';next.onclick=()=>courseNextStep()}
 }
 function courseStepMarkup(meta,data,lesson,route){
- const step=lesson.steps[route.step],stepTitles=['Nghe hội thoại','Học từ mới','Dùng mẫu câu','Luyện đọc','Ghép câu trả lời','Kiểm tra nhanh'];let content='';
+ const step=lesson.steps[route.step],stepTitles=['Nghe hội thoại','Học từ mới','Dùng mẫu câu','Nói theo mẫu','Viết câu trả lời','Kiểm tra nhanh'];let content='';
  if(step.type==='dialogue')content=`<div class="course-step-content"><button type="button" onclick="say(${courseInlineArg(step.lines.map(line=>line.en).join(' '))},.9)">Nghe cả hội thoại</button>${step.lines.map(line=>`<article class="course-dialogue-line"><strong>${esc(line.who)}</strong><p lang="en">${esc(line.en)}</p><p class="mu">${esc(line.vi)}</p><button type="button" aria-label="Nghe câu tiếng Anh" onclick="say(${courseInlineArg(line.en)},.9)">Nghe câu</button></article>`).join('')}</div>`;
  if(step.type==='vocab')content=`<div class="course-step-content">${step.items.map((item,index)=>`<article class="course-vocab-item"><strong lang="en">${esc(item.en)}</strong><span>${esc(item.vi)}</span><p class="mu" lang="en">${esc(item.example)}</p><div><button type="button" onclick="say(${courseInlineArg(item.en)},.85)">Nghe từ</button><button type="button" onclick="courseRememberWord('${meta.id}','${lesson.id}',${index},this)">Nhớ từ</button></div></article>`).join('')}</div>`;
  if(step.type==='pattern')content=`<div class="course-step-content"><h2>${esc(step.title)}</h2><p>${esc(step.vi)}</p>${step.examples.map(example=>`<article class="course-pattern-example" lang="en">${esc(example)} <button type="button" aria-label="Nghe ví dụ" onclick="say(${courseInlineArg(example)},.9)">Nghe</button></article>`).join('')}</div>`;
- if(step.type==='shadow')content=`<div class="course-step-content"><p>Nghe mẫu rồi đọc theo. TaylorFlow dùng phần ghi âm và chấm phát âm sẵn có.</p>${step.sentences.map((sentence,index)=>`<article class="course-pattern-example"><span lang="en">${esc(sentence)}</span><div><button type="button" onclick="say(${courseInlineArg(sentence)},.82)">Nghe mẫu</button><button type="button" onclick="courseStartShadow('${meta.id}','${lesson.id}',${index})">Đọc câu này</button></div></article>`).join('')}${coursePracticeResult?.kind==='shadow'?`<p class="course-feedback" role="status">${esc(coursePracticeResult.message)}</p>`:''}</div>`;
- if(step.type==='speak')content=courseComposeMarkup(meta,lesson,step);
+ if(step.type==='shadow')content=`<div class="course-step-content"><p>Nghe mẫu rồi nói lại câu. Đây là hoạt động nói; không cần nhập câu trả lời. TaylorFlow dùng công cụ ghi âm và chấm phát âm sẵn có.</p>${step.sentences.map((sentence,index)=>`<article class="course-pattern-example"><span lang="en">${esc(sentence)}</span><div><button type="button" onclick="say(${courseInlineArg(sentence)},.82)">Nghe mẫu</button><button type="button" onclick="courseStartShadow('${meta.id}','${lesson.id}',${index})">Nói câu này</button></div></article>`).join('')}${coursePracticeResult?.kind==='shadow'?`<p class="course-feedback" role="status">${esc(coursePracticeResult.message)}</p>`:''}</div>`;
+ if(step.type==='write')content=courseComposeMarkup(meta,lesson,step);
  if(step.type==='quiz')content=courseQuizMarkup(step,route);
- const composeReady=step.type==='speak'&&courseComposeRead(meta.id,lesson.id,step.hints.length).ready,nextLabel=step.type==='quiz'&&!route.quizChecked?'Kiểm tra đáp án':step.type==='speak'&&!composeReady?'Ghép câu trả lời':route.step===5?'Hoàn thành bài':'Tiếp tục',nextAction=step.type==='quiz'&&!route.quizChecked?'courseCheckQuiz()':step.type==='speak'&&!composeReady?`courseComposeBuild('${meta.id}','${lesson.id}',${step.hints.length})`:'courseNextStep()';
+ const composeReady=step.type==='write'&&courseComposeRead(meta.id,lesson.id,step.hints.length).ready,nextLabel=step.type==='quiz'&&!route.quizChecked?'Kiểm tra đáp án':step.type==='write'&&!composeReady?'Kiểm tra bài viết':route.step===5?'Hoàn thành bài':'Tiếp tục',nextAction=step.type==='quiz'&&!route.quizChecked?'courseCheckQuiz()':step.type==='write'&&!composeReady?`courseComposeBuild('${meta.id}','${lesson.id}',${step.hints.length})`:'courseNextStep()';
  return `${coursePageIntro(meta,true)}<section class="course-step"><div class="course-step-head"><span class="course-pill">${esc(meta.level)}</span><small>Bước ${route.step+1}/6</small></div><progress max="6" value="${route.step+1}" aria-label="Tiến độ bài học"></progress><h1>${esc(stepTitles[route.step])}</h1>${content}<button type="button" id="course-step-next" class="course-step-next" onclick="${nextAction}">${nextLabel} →</button></section>`;
 }
 function courseCompleteLesson(){
@@ -10541,11 +10689,11 @@ function courseRememberWord(courseId,lessonId,index,button){const step=COURSE_DA
 function coursePracticeOverlayOpen(){
  document.getElementById('course-practice-overlay')?.remove();
  const overlay=document.createElement('div');overlay.id='course-practice-overlay';overlay.className='course-practice-overlay';
- overlay.innerHTML=`<section class="course-practice-dialog" role="dialog" aria-modal="true" aria-label="Luyện đọc trong khóa học" onkeydown="if(event.key==='Escape'){event.preventDefault();leavePractice()}"><header class="course-practice-toolbar"><div><strong>LUYỆN ĐỌC</strong><p>Đọc câu mẫu, nghe lại và xem nhận xét ngay tại bài học.</p></div><button type="button" class="course-practice-back" onclick="leavePractice()">← Quay lại bài học</button></header>${sess()}</section>`;
+ overlay.innerHTML=`<section class="course-practice-dialog" role="dialog" aria-modal="true" aria-label="Luyện nói trong khóa học" onkeydown="if(event.key==='Escape'){event.preventDefault();leavePractice()}"><header class="course-practice-toolbar"><div><strong>LUYỆN NÓI</strong><p>Nói lại câu mẫu, ghi âm và xem nhận xét ngay tại bài học.</p></div><button type="button" class="course-practice-back" onclick="leavePractice()">← Quay lại bài học</button></header>${sess()}</section>`;
  document.body.appendChild(overlay);document.body.classList.add('course-practice-open');
  overlay.querySelector('#rb')?.focus({preventScroll:true});
 }
-function courseStartShadow(courseId,lessonId,index){const data=COURSE_DATA_CACHE.get(courseId),lesson=data?.lessons.find(item=>item.id===lessonId),sentence=lesson?.steps.find(item=>item.type==='shadow')?.sentences[index];if(!sentence)return;courseRoute.screen='lesson';const returnTo={kind:'shadow',courseId,lessonId,step:courseRoute.step};startQuick({p:1,t:'Luyện đọc · '+lesson.title,q:'Read this sentence aloud clearly: '+sentence,k:index},returnTo)}
+function courseStartShadow(courseId,lessonId,index){const data=COURSE_DATA_CACHE.get(courseId),lesson=data?.lessons.find(item=>item.id===lessonId),sentence=lesson?.steps.find(item=>item.type==='shadow')?.sentences[index];if(!sentence)return;courseRoute.screen='lesson';const returnTo={kind:'shadow',courseId,lessonId,step:courseRoute.step};startQuick({p:1,t:'Luyện nói · '+lesson.title,q:'Say this sentence aloud clearly: '+sentence,k:index},returnTo)}
 function coursePracticeReturnPage(){
  if(!courseRoute)return;
  const meta=COURSE_BY_ID.get(courseRoute.id),data=COURSE_DATA_CACHE.get(courseRoute.id);if(!meta)return '<section class="course-route"><button class="course-back" onclick="courseBack()">← Bài học</button><p class="course-status" role="status">Không tìm thấy khóa học.</p></section>';
@@ -10558,13 +10706,15 @@ function coursePracticeReturnPage(){
  return `<section class="course-route">${coursePageIntro(meta)}${courseProgressOverview(meta,data)}</section>`;
 }
 function courseLessonPage(){return coursePracticeReturnPage()}
-function lessonStudyOrderSections(sections){const saved=lessonStudyOrderRead(),position=new Map(saved.map((id,index)=>[id,index])),ordered=sections.map((section,index)=>({section,index})).sort((a,b)=>{const ap=position.has(a.section[0])?position.get(a.section[0]):saved.length+a.index,bp=position.has(b.section[0])?position.get(b.section[0]):saved.length+b.index;return ap-bp}).map(item=>item.section);if(!position.has('courses')){const index=ordered.findIndex(section=>section[0]==='courses');if(index>0)ordered.unshift(...ordered.splice(index,1))}return ordered}
+function lessonStudyOrderSections(sections){const saved=lessonStudyOrderRead(),position=new Map(saved.map((id,index)=>[id,index])),ordered=sections.map((section,index)=>({section,index})).sort((a,b)=>{const ap=position.has(a.section[0])?position.get(a.section[0]):saved.length+a.index,bp=position.has(b.section[0])?position.get(b.section[0]):saved.length+b.index;return ap-bp}).map(item=>item.section);if(!saved.length){for(const id of ['courses','my-path']){const index=ordered.findIndex(section=>section[0]===id);if(index>0)ordered.unshift(...ordered.splice(index,1))}}else{if(!position.has('my-path')){const index=ordered.findIndex(section=>section[0]==='my-path');if(index>=0){const path=ordered.splice(index,1)[0],courseIndex=ordered.findIndex(section=>section[0]==='courses');ordered.splice(courseIndex>=0?courseIndex+1:0,0,path)}}if(!position.has('courses')){const index=ordered.findIndex(section=>section[0]==='courses');if(index>0)ordered.unshift(...ordered.splice(index,1))}}return ordered}
 function pathLessonsPage(){
  if(englishStudyRoute)return englishStudyPage();
  if(lessonPhrasebookUnitActive)return lessonPhrasebookUnitDetailPage();
  if(courseRoute)return courseLessonPage();
  if(pathView!=null)return pathLesson();
+ const studyHubRoute=window.TFStudyHub?.routeMarkup?.();if(studyHubRoute)return studyHubRoute;
  const sections=[
+  ['my-path',window.TFStudyHub?.pathFolder?.()||'<details class="c compact-folder"><summary><span class="compact-folder-copy"><strong>Lộ trình của tôi</strong></span></summary></details>'],
   ['courses',courseCatalogFolder()],
   ['vocabulary',collectionVocabularyPanel()],
   ['phrases',lessonPhrasebooksPanel()],
@@ -10925,13 +11075,7 @@ function changeTrend(value){
 }
 function progressHome(b){
  const days=historyDays();
- const goal=scoreValue(st.goal)&&st.goal>=1?st.goal:null;
- const goalMessage=goal==null?'Đặt mốc band bạn muốn đạt.':!b?'Chấm một câu để xem khoảng điểm gần đây.':
-  'Khoảng điểm gần đây là '+bandRange(b.o)+'; mục tiêu '+goal.toFixed(1)+'.';
  return '<section class="progress-home"><div class="section-head"><div><p class="eyebrow">TIẾN BỘ CỦA BẠN</p><h2>Theo dõi luyện nói</h2></div></div>'+
-  '<div class="progress-stats"><article class="c progress-stat" id="learning-home-streak">'+learningStreak()+'</article>'+
-  '<article class="c progress-stat"><h3>Mục tiêu band</h3><p class="stat-number" id="goal-value">'+(goal==null?'—':goal.toFixed(1))+'</p><p class="mu" id="goal-status" role="status">'+goalMessage+'</p>'+
-  '<form class="goal-form" onsubmit="event.preventDefault();saveGoal()"><label class="visually-hidden" for="goal-input">Band mục tiêu</label><input id="goal-input" type="number" required min="1" max="9" step=".5" placeholder="Ví dụ 7.0" value="'+(goal??'')+'"><button class="g">Lưu mục tiêu</button></form></article></div>'+
   '<article class="c progress-trend"><div class="section-head"><div><h3>Điểm theo ngày</h3><small>Trung bình các lượt chấm trong ngày · '+(st.h.some(row=>row?.scoreVersion===SCORE_VERSION)?'công thức hiện tại':'nguồn điểm trước')+'</small></div>'+
   '<select aria-label="Khoảng thời gian" onchange="changeTrend(this.value)">'+[7,30,90].map(n=>'<option value="'+n+'"'+(n===chartDays?' selected':'')+'>'+n+' ngày</option>').join('')+'</select></div><div id="progress-chart">'+progressChart(days)+'</div></article></section>';
 }
@@ -11293,13 +11437,20 @@ function examEntry(){
   <small>Ở chế độ OpenAI, ứng dụng gửi văn bản bạn nộp và số đo nhịp nói. Bản ghi được xử lý trên thiết bị.</small>`:
   `<small>Chế độ trên thiết bị đặt câu hỏi dựa trên cụm từ bạn vừa nói. <a href="${esc(globalThis.EPU_CLOUD_URL)}" target="_blank" rel="noopener">Mở bản web riêng tư để dùng OpenAI</a>.</small>`;
  return `<section class="c examiner-entry"><div><p class="eyebrow">THI THỬ CÓ TƯƠNG TÁC</p><h2>Giám khảo AI</h2><p>Nghe giám khảo đọc câu hỏi tiếng Anh và ghi âm câu trả lời. Mỗi phần có một câu hỏi nối tiếp dựa trên điều bạn nói.</p></div>${mode}
- <div class="row"><button class="g" onclick="startExam(1)">Luyện Part 1</button><button class="g" onclick="startExam(3)">Luyện Part 3</button></div><button class="w" onclick="startExam(123)">Thi thử Part 1–2–3 · ghi âm toàn bài</button></section>`;
+ <div class="row"><button class="g" onclick="startExam(1)">Luyện Part 1</button><button class="g" onclick="startExam(2)">Luyện Part 2</button><button class="g" onclick="startExam(3)">Luyện Part 3</button></div><button class="w" onclick="startExam(123)">Thi thử Part 1–2–3 · ghi âm toàn bài</button></section>`;
 }
+const PLACEMENT_SPEAKING_TOPICS=[
+ ['Everyday choices',['What small decision do you make every morning?','How do you decide what to do first when you are busy?','Do you prefer making plans early or at the last minute?'],'Describe a decision that helped you in your daily life. You should say what you decided, when you made the decision, what happened afterwards, and explain why it was helpful.',['Why do people sometimes find simple decisions difficult?','How can a daily routine affect a person’s wellbeing?','Do people make different choices when they have more free time?']],
+ ['Learning habits',['What helps you remember new information?','Where do you usually study or learn something new?','Do you prefer learning alone or with a group?'],'Describe something useful you learned outside a classroom. You should say what you learned, how you learned it, when you used it, and explain why it was useful.',['Why do some people continue learning throughout their lives?','How can teachers help students become more independent?','Will people need to learn new skills more often in the future?']],
+ ['Technology habits',['Which device do you use most during the day?','When do you usually put your phone away?','Do you use technology to organize your day?'],'Describe a time when a digital tool made a task easier. You should say what the tool was, what you needed to do, how you used it, and explain how it helped.',['How can people keep a healthy balance when using technology?','Should children learn how to use digital tools at school?','What kinds of tasks should people continue doing without technology?']],
+ ['Community life',['Is there a place in your neighbourhood where people meet?','How do you usually travel around your local area?','Would you like more public spaces near your home?'],'Describe a place in your community that is useful to local people. You should say where it is, who uses it, what people do there, and explain why it matters.',['How can residents help improve their neighbourhood?','Why are shared public spaces important in a city?','What changes can make local areas easier to live in?']]
+];
+function placementExamQuestions(topic){return [...topic[1].map((q,i)=>({p:1,t:topic[0],q,k:0,partIndex:i+1})),{p:2,t:topic[0],q:topic[2],k:0,partIndex:1},...topic[3].map((q,i)=>({p:3,t:topic[0],q,k:0,partIndex:i+1}))]}
 function startExam(mode,placementTest=false){
- if(![1,3,13,123].includes(mode))return;
- const online=cloudHosted&&$('#exam-engine')?.value==='cloud';stopPracticeMedia();
- const topic=TP[Math.floor(Math.random()*TP.length)],full=mode===123,parts=full?[1,2,3]:mode===13?[1,3]:[mode];
- S={mode:'exam',id:newId(),topic,parts,full,online,placementTest:placementTest===true,answers:[],it:full?fullExamQuestions(topic):[openingExamQuestion(topic,parts[0])],i:0};
+ if(![1,2,3,13,123].includes(mode))return;
+ const isPlacement=placementTest===true,online=!isPlacement&&cloudHosted&&$('#exam-engine')?.value==='cloud';stopPracticeMedia();
+ const topicPool=isPlacement?PLACEMENT_SPEAKING_TOPICS:TP,topic=topicPool[Math.floor(Math.random()*topicPool.length)],full=mode===123,parts=full?[1,2,3]:mode===13?[1,3]:[mode];
+ S={mode:'exam',id:newId(),topic,parts,full,online,placementTest:isPlacement,answers:[],it:full?(isPlacement?placementExamQuestions(topic):fullExamQuestions(topic)):[openingExamQuestion(topic,parts[0])],i:0};
  tab='prac';openView();readExamQuestion();
 }
 function fullExamQuestions(topic){return [...topic[1].map((q,i)=>({p:1,t:topic[0],q,k:0,partIndex:i+1})),{p:2,t:topic[0],q:topic[2],k:0,partIndex:1},...topic[3].map((q,i)=>({p:3,t:topic[0],q,k:0,partIndex:i+1}))]}
@@ -11317,8 +11468,8 @@ function examView(){
  const exam=S;
  if(exam.final)return examSummary(exam);
  const x=exam.it[exam.i],pending=exam.pending;
- return `<article class="c practice-card examiner-session"><div class="session-meta"><span class="part-index">${exam.full?'THI THỬ ĐẦY ĐỦ · PART '+x.p:'GIÁM KHẢO AI · PART '+x.p}</span><span class="topic-badge">${esc(x.t)} · ${exam.i+1}/${exam.full?exam.it.length:exam.parts.length*2}</span></div>
- <p class="eyebrow">${exam.full?'CÂU '+x.partIndex+' · PART '+x.p:x.k?'CÂU HỎI NỐI TIẾP':'CÂU HỎI MỞ ĐẦU'}</p><h1 lang="en">${esc(x.q)}</h1>${exam.full?'<p class="exam-full-note" role="status">Ghi âm từng câu. Chỉ tổng hợp điểm sau Part 1, Part 2 và Part 3.</p>':''}${exam.full&&x.p===2?'<button class="g" onclick="prep()">Chuẩn bị 60 giây</button><p class="mu">Part 2: hãy chuẩn bị một phút rồi nói ít nhất một phút.</p>':''}
+ return `<article class="c practice-card examiner-session"><div class="session-meta"><span class="part-index">${exam.placementTest?'SPEAKING TEST · LỘ TRÌNH · PART '+x.p:exam.full?'THI THỬ ĐẦY ĐỦ · PART '+x.p:'GIÁM KHẢO AI · PART '+x.p}</span><span class="topic-badge">${esc(x.t)} · ${exam.i+1}/${exam.full?exam.it.length:exam.parts.length*2}</span></div>
+ <p class="eyebrow">${exam.full?'CÂU '+x.partIndex+' · PART '+x.p:x.k?'CÂU HỎI NỐI TIẾP':'CÂU HỎI MỞ ĐẦU'}</p><h1 lang="en">${esc(x.q)}</h1>${exam.full?'<p class="exam-full-note" role="status">'+(exam.placementTest?'Bài đánh giá riêng của lộ trình gồm 7 câu. Kết quả hợp lệ sẽ được lưu vào hồ sơ Lộ trình của tôi.':'Ghi âm từng câu. Chỉ tổng hợp điểm sau Part 1, Part 2 và Part 3.')+'</p>':''}${x.p===2&&!x.k?'<button class="g" onclick="prep()">Chuẩn bị 60 giây</button><p class="mu">Part 2: hãy dành một phút ghi nhanh ý chính trước khi nói.</p>':''}
  <div class="row exam-controls"><button class="g" onclick="readExamQuestion()">Nghe lại câu hỏi</button><span class="part-index">${exam.online?'OPENAI':'TRÊN THIẾT BỊ'}</span></div>
  ${x.anchor?`<p class="mu"><small>Từ câu trả lời trước <span lang="en">“${esc(x.anchor)}”</span>${x.local&&exam.online?' · Câu hỏi tạo trên thiết bị':''}</small></p>`:''}
  ${pending?`<section class="exam-pending"><h2>Câu trả lời của bạn</h2><p lang="en">${esc(pending.turn.answer)}</p><p class="mu" role="status">${pending.interrupted?'Phiên đã tạm dừng. Bạn có thể tiếp tục bằng câu trả lời đã nhập.':x.k?'Đang đánh giá câu trả lời…':'Đang chuẩn bị câu hỏi nối tiếp…'}</p>${pending.interrupted?'<button onclick="resumeExam()">Tiếp tục</button>':''}</section>`:
@@ -11330,8 +11481,8 @@ async function submitExam(){
  if(exam.full&&!lb){$('#evaluation').innerHTML='<p role="alert">Thi thử đầy đủ yêu cầu ghi âm câu này. Hãy ghi âm trước khi nộp.</p>';return}
  if(exam.full&&x.p===2&&dur<60){$('#evaluation').innerHTML='<p role="alert">Part 2 cần bản ghi ít nhất một phút.</p>';return}
   const answer=input.value.trim(),language=analyzeAnswerLanguage(answer);
-  if(!language.allowed||answer.length>3600){
-  $('#evaluation').innerHTML='<p class="mu" role="alert">'+esc(answer.length>3600?'Câu trả lời tối đa 3.600 ký tự.':answerScoringMessage(answer,x.q,x.t))+'</p>';
+   if(!language.allowed||answer.length>SPEAKING_TRANSCRIPT_MAX_CHARS){
+   $('#evaluation').innerHTML='<p class="mu" role="alert">'+esc(answer.length>SPEAKING_TRANSCRIPT_MAX_CHARS?'Transcript tối đa '+SPEAKING_TRANSCRIPT_MAX_CHARS.toLocaleString('vi-VN')+' ký tự.':answerScoringMessage(answer,x.q,x.t))+'</p>';
   input.focus();return;
  }
  exam.scoring=true;input.readOnly=true;const submit=$('#evaluate-answer');if(submit)submit.disabled=true;
@@ -11416,7 +11567,7 @@ async function advanceExam(exam,blob,confirmed,heard){
    if(pending.p==null){
     try{
      const tokens=pending.turn.answer.match(WORD_PATTERN)||[];
-     if(tokens.length&&tokens.length<=260){
+     if(tokens.length&&tokens.length<=PRONUNCIATION_REFERENCE_MAX_WORDS){
       const [dictionary,phones]=await Promise.all([phoneDictionary(),heard||extractPronunciation(blob,signal)]);
       signal.throwIfAborted();
       const report=alignPronunciation(pronunciationWords(tokens,dictionary),phones);
@@ -11464,7 +11615,7 @@ async function advanceExam(exam,blob,confirmed,heard){
    const now=Date.now();
    if(exam.placementTest){
     exam.placementAttemptValid=answers.length===7&&answers.every(answer=>answer.spoken===true)&&[1,2,3].every(part=>answers.some(answer=>answer.turn.part===part));
-    window.recordPlacementSpeakingTest?.({examId:exam.id,at:now,parts:[...new Set(answers.map(answer=>answer.turn.part))],responses:answers.length,validResponses:answers.filter(answer=>answer.spoken===true).length,valid:exam.placementAttemptValid,f:scores.f,l:scores.l,g:scores.g,p:scores.p,o:scores.o});
+    exam.placementSaved=window.recordPlacementSpeakingTest?.({examId:exam.id,at:now,parts:[...new Set(answers.map(answer=>answer.turn.part))],responses:answers.length,validResponses:answers.filter(answer=>answer.spoken===true).length,valid:exam.placementAttemptValid,f:scores.f,l:scores.l,g:scores.g,p:scores.p,o:scores.o})===true;
    }
    const gameBefore=gameBadgeStatus();
    st.h.push({id:exam.id,d:now,updated:now,kind:'exam',pt:exam.parts.length===1?x.p:null,t:x.t,...scores,scoreVersion:SCORE_VERSION});
@@ -11490,15 +11641,16 @@ function examSummary(exam){
  const scored=exam.answers.filter(item=>item.p!=null).length;
  const placementReady=typeof window.placementProfileReady==='function'&&window.placementProfileReady();
  const placementLocked=exam.placementTest&&(!exam.placementAttemptValid||!placementReady);
+ const placementNote=!exam.placementTest?'':exam.placementSaved?`<p class="c" role="status"><strong>Đã lưu Speaking Test vào Lộ trình của tôi.</strong> ${placementReady?'Hồ sơ trình độ đã đủ dữ liệu.':'Hoàn thành CAT đầy đủ để mở hồ sơ trình độ.'}</p>`:'<p class="c" role="status">Lượt làm gần nhất đã được lưu. Cần đủ 7 câu có giọng nói được phát hiện và chấm điểm để tính Speaking Test vào lộ trình.</p>';
  const bandDisplay=placementLocked?'—':bandNumber(scores.o);
  const bandLabel=placementLocked?(!exam.placementAttemptValid?'Cần đủ bản ghi giọng nói hợp lệ':'Hoàn thành CAT đầy đủ để mở band'):scores.p==null?'Ước tính từ 3 tiêu chí':'Ước tính từ 4 tiêu chí';
- return `<section class="hero">${heroMotif}<div class="hero-copy"><p class="eyebrow">GIÁM KHẢO AI · KẾT QUẢ</p><h1>${exam.placementTest?'Speaking Test hoàn thành':'Hoàn thành bài thi thử'}</h1><p>Đã trả lời ${exam.answers.length} câu · Part ${exam.parts.join(' + ')}</p></div>
+ return `<section class="hero">${heroMotif}<div class="hero-copy"><p class="eyebrow">${exam.placementTest?'LỘ TRÌNH CỦA TÔI · KẾT QUẢ':'GIÁM KHẢO AI · KẾT QUẢ'}</p><h1>${exam.placementTest?'Speaking Test hoàn thành':'Hoàn thành bài thi thử'}</h1><p>Đã trả lời ${exam.answers.length} câu · Part ${exam.parts.join(' + ')}</p></div>
  <div class="hero-score"><small lang="en">PREDICTED BAND SCORE</small><div class="big">${bandDisplay}</div><small>${bandLabel}</small></div></section>
  <article class="c examiner-feedback"><h2>Nhận xét tổng kết</h2><p class="mu"><small>${local?'Nhận xét trên thiết bị':'Nhận xét bằng OpenAI'}</small></p><p>${esc(result.overview)}</p>${bars(scores)}
  <dl><dt>Lưu loát và mạch lạc</dt><dd>${esc(result.fluency)}</dd><dt>Từ vựng</dt><dd>${esc(result.lexical)}</dd><dt>Ngữ pháp</dt><dd>${esc(result.grammar)}</dd>
  <dt>Phát âm</dt><dd>${scored?'Đã đối chiếu âm vị từ '+scored+'/'+exam.answers.length+' bản ghi.':'Để nhận điểm phát âm, hãy ghi âm và xác nhận câu định nói trước khi nộp.'}</dd></dl>
  ${points('Luyện phát âm',notes.slice(0,3))}${points('Điểm mạnh',result.strengths)}${points('Luyện gì tiếp theo',result.actions)}
- <p class="mu"><small>Điểm dùng để theo dõi việc luyện tập.</small></p></article><button class="w" onclick="leavePractice()">Hoàn tất</button>`;
+ <p class="mu"><small>${exam.placementTest?'Kết quả Speaking Test được lưu riêng trong hồ sơ lộ trình;':'Điểm dùng để theo dõi việc luyện tập.'}</small></p></article>${placementNote}<button class="w" onclick="${exam.placementTest?'finishPlacementExam()':'leavePractice()'}">${exam.placementTest?'Xem Lộ trình của tôi':'Hoàn tất'}</button>`;
 }
 
 const librarySource = 'https://en.wikipedia.org/wiki/Portal:Current_events';
@@ -12770,6 +12922,7 @@ window.addEventListener('online',()=>{if(cloudEnabled())queueCloud()});
 </script>
 <script src="./assets/placement/learning-core.js"></script>
 <script src="./assets/placement/learning-system.js"></script>
+<script src="./assets/learning-path/learning-hub.js"></script>
 <script id="phone-licenses" type="text/plain">Bộ đối chiếu âm vị: Allosaurus uni2005, bản ONNX INT8 của KitsuMate (GPL-3.0).
 
 Bản mô hình và mã xuất mô hình: https://huggingface.co/KitsuMate/uni2005-onnx/tree/004577e41ea954fa6cfe9d8f209447780af104ca

@@ -1,4 +1,4 @@
-const VERSION='epu-pwa-v47';
+const VERSION='epu-pwa-v53';
 const SHELL_CACHE='epu-shell-'+VERSION;
 const ASSET_CACHE='epu-pwa-assets-'+VERSION;
 const SCOPE=self.registration.scope;
@@ -17,6 +17,9 @@ const CORE_URLS=[
  new URL('./assets/placement/liquid-library.css',SCOPE).href,
  ...['index.js','idioms.js','proverbs.js','quotes.js'].map(file=>new URL('./assets/phrases/'+file,SCOPE).href),
  new URL('./assets/courses/courses.css',SCOPE).href,
+ ...['learning-hub.css','learning-hub.js'].map(file=>new URL('./assets/learning-path/'+file,SCOPE).href),
+ ...['tests.css','test-system.js','writing-coach.js'].map(file=>new URL('./assets/tests/'+file,SCOPE).href),
+ ...['index.js','community-listening-01.js','neighbourhood-reading-01.js'].map(file=>new URL('./assets/tests/'+file,SCOPE).href),
  ...['index.js','2026-09-12.js','2027-01-04.js'].map(file=>new URL('./assets/forecast/'+file,SCOPE).href),
  ...['bank-A1-01.js','bank-A2-01.js','bank-A2-02.js','bank-B1-01.js','bank-B1-02.js','bank-B2-01.js','bank-B2-02.js','bank-C1-01.js','bank-C1-02.js','bank-C2-01.js'].map(file=>new URL('./assets/placement/'+file,SCOPE).href)
 ];
