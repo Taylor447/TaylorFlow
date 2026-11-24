@@ -1,10 +1,10 @@
-# EPU IELTS Speaking
+# TaylorFlow
 
-Ứng dụng luyện IELTS Speaking theo chủ đề. [Mở trang luyện tập](https://taylor447.github.io/epu-ielts-speaking/EPU%20IELTS%20Speaking.html).
+Ứng dụng luyện nói tiếng Anh theo chủ đề. [Mở trang luyện tập](https://taylor447.github.io/TaylorFlow/TaylorFlow.html).
 
 ## Học coop 2 người
 
-Coop cho phép hai người tạo phòng, luân phiên trả lời và góp ý. Người quản lý trang cần bật backend một lần; hướng dẫn dành cho người không chuyên nằm tại [`coop-worker/README.md`](coop-worker/README.md).
+Coop cho phép hai người tạo phòng, luân phiên trả lời và góp ý. Người quản lý trang cần bật backend một lần; hướng dẫn dành cho người phổ thông nằm tại [`coop-worker/README.md`](coop-worker/README.md).
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2FTaylor447%2Fepu-ielts-speaking%2Ftree%2Fmain%2Fcoop-worker)
 
