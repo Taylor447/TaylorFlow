@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "deploy": "wrangler deploy",
-    "dev": "wrangler dev"
+    "dev": "wrangler dev",
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check src/arcade.js && node --test"
   },
   "devDependencies": {
     "wrangler": "^4.45.0"

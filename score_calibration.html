@@ -111,7 +111,7 @@ function runWithSamples(samples,label,isTeacher){
  if(!scorerLoaded){ensureScorer(()=>runWithSamples(samples,label,isTeacher));return}
  const id=String(++requestId)+'-'+Date.now();$('#status').textContent=`Đang chạy ${samples.length} bài bằng score() trong app…`;let responseTimer;
  const listener=event=>{
-  if(event.source!==$('#scorer').contentWindow||event.data?.type!=='EPU_SCORE_CALIBRATION_RESULT'||event.data.requestId!==id)return;
+  if(event.source!==$('#scorer').contentWindow||event.origin!==(location.protocol==='file:'?'null':location.origin)||event.data?.type!=='EPU_SCORE_CALIBRATION_RESULT'||event.data.requestId!==id)return;
   clearTimeout(responseTimer);window.removeEventListener('message',listener);const results=event.data.rows||[];$('#status').textContent=`Đã chạy ${results.length} mẫu bằng SCORE_VERSION ${event.data.scoreVersion}.`;
   renderReport(samples,results,label,isTeacher);
   if(isTeacher){teacherResults=results;$('#candidate').hidden=true;if(samples.length>=40)fitAndReport(samples,results)}
@@ -119,7 +119,7 @@ function runWithSamples(samples,label,isTeacher){
  };
  window.addEventListener('message',listener);
  responseTimer=setTimeout(()=>{window.removeEventListener('message',listener);$('#status').textContent='Bản EPU chưa phản hồi. Hãy tải lại công cụ và kiểm tra rằng hai file nằm cùng thư mục.'},120000);
- $('#scorer').contentWindow.postMessage({type:'EPU_SCORE_CALIBRATION_RUN',requestId:id,samples},'*');
+ $('#scorer').contentWindow.postMessage({type:'EPU_SCORE_CALIBRATION_RUN',requestId:id,samples},location.protocol==='file:'?'*':location.origin);
 }
 function valuesFor(samples,results,key){return samples.map((sample,index)=>({actual:sample.scores?.[key]??null,predicted:results[index]?.scores?.[key]??null,id:sample.id})).filter(row=>Number.isFinite(row.actual)&&Number.isFinite(row.predicted))}
 const mae=values=>values.length?values.reduce((sum,row)=>sum+Math.abs(row.predicted-row.actual),0)/values.length:null;

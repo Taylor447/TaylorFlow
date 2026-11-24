@@ -8,6 +8,12 @@
       { "name": "COOP_ROOMS", "class_name": "CoopRoom" }
     ]
   },
+  "ratelimits": [
+    { "name": "RL_ROOM_CREATE", "namespace_id": "2026112501", "simple": { "limit": 6, "period": 60 } },
+    { "name": "RL_ROOM_JOIN", "namespace_id": "2026112502", "simple": { "limit": 30, "period": 60 } },
+    { "name": "RL_TURN", "namespace_id": "2026112503", "simple": { "limit": 8, "period": 60 } },
+    { "name": "RL_SOCKET", "namespace_id": "2026112504", "simple": { "limit": 20, "period": 60 } }
+  ],
   "migrations": [
     { "tag": "v1", "new_sqlite_classes": ["CoopRoom"] }
   ],

@@ -2,6 +2,7 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Luyện IELTS Speaking Part 1, 2, 3 cùng EPU: học phát âm, ghi âm câu trả lời, luyện từ vựng và nhận phản hồi ước tính.">
 <meta name="keywords" content="IELTS Speaking EPU, luyện IELTS Speaking, luyện nói IELTS Part 1 Part 2 Part 3, luyện phát âm tiếng Anh, học IELTS Đại học Điện Lực">
@@ -3729,7 +3730,7 @@ function score(t,p,d,question='',topic='',options={}){
  refreshScoreTotals(s);SCORE_RESULT_CACHE.set(cacheKey,{source:cacheSource,value:copyScore(s)});if(SCORE_RESULT_CACHE.size>80)SCORE_RESULT_CACHE.delete(SCORE_RESULT_CACHE.keys().next().value);return s;
 }
 if(new URLSearchParams(location.search).has('score-calibration'))window.addEventListener('message',async event=>{
- if(event.source!==parent||event.data?.type!=='EPU_SCORE_CALIBRATION_RUN'||typeof event.data.requestId!=='string'||!Array.isArray(event.data.samples)||event.data.samples.length>200)return;
+  if(event.source!==parent||event.origin!==(location.protocol==='file:'?'null':location.origin)||event.data?.type!=='EPU_SCORE_CALIBRATION_RUN'||typeof event.data.requestId!=='string'||!Array.isArray(event.data.samples)||event.data.samples.length>200)return;
   const validSamples=event.data.samples.filter(sample=>sample&&[1,2,3].includes(sample.part)&&typeof sample.text==='string'&&sample.text.length<=SPEAKING_TRANSCRIPT_MAX_CHARS&&typeof sample.question==='string'&&sample.question.length<=240&&typeof sample.topic==='string'&&sample.topic.length<=120&&(sample.duration==null||(Number.isFinite(sample.duration)&&sample.duration>=0&&sample.duration<=900)));
  const buckets=new Set();for(const sample of validSamples)for(const word of sample.text.match(ANSWER_TOKEN_PATTERN)||[]){const token=word.toLowerCase().replace(/[’‘]/g,"'");if(!SCORE_WORD_ALLOWLIST.has(token))buckets.add(token[0])}
  const sharedShards=new Map(await Promise.all([...buckets].map(async bucket=>{try{return [bucket,await dictionaryShard(bucket)]}catch{return [bucket,null]}})));
@@ -3744,7 +3745,7 @@ if(new URLSearchParams(location.search).has('score-calibration'))window.addEvent
    rows.push({id:String(sample.id||'').slice(0,64),status:scored?(scored.metrics.evidenceStatus==='poor-evidence'?'low_evidence':'scored'):'ungradable',scores:scored?{fluency:scored.f,lexical:scored.l,grammar:scored.g,pronunciation:audioBand(scored),overall:scored.o}:null,metrics:scored?{wordCount:scored.n,wpm:scored.r,errors:scored.metrics.errors,relevance:scored.metrics.relevance?.status,matched:scored.metrics.relevance?.matched?.length||0,anchors:scored.metrics.relevance?.anchors?.length||0,spellingStatus:scored.metrics.spellingStatus,recognizedRatio:evidence.recognizedRatio,recognizedWords:evidence.recognizedWords,contentRecognizedWords:evidence.recognizedContentWords,evidenceStatus:scored.metrics.evidenceStatus,dictionaryStatus:evidence.dictionaryStatus,ceilings:scored.metrics.ceilings,overallCeiling:scored.metrics.overallCeiling}:null,error:scored?null:'Chưa đủ dữ liệu tiếng Anh để chấm'});
   }catch{rows.push({id:String(sample.id||'').slice(0,64),status:'error',scores:null,error:'Không chấm được mẫu này'})}
  }
- parent.postMessage({type:'EPU_SCORE_CALIBRATION_RESULT',requestId:event.data.requestId,scoreVersion:SCORE_VERSION,rows},'*');
+  parent.postMessage({type:'EPU_SCORE_CALIBRATION_RESULT',requestId:event.data.requestId,scoreVersion:SCORE_VERSION,rows},location.protocol==='file:'?'*':location.origin);
 });
 // Mười mẫu minh họa phát triển dần cùng một chủ đề; không phải bài chấm IELTS chính thức.
 const SCORE_EXAMPLE_PARTS=[
@@ -6715,7 +6716,7 @@ const activeAnalyses=new Map();
 
 // Học coop hai người qua Worker; thông tin phiên chỉ giữ trong sessionStorage.
 const COOP_SESSION_KEY='epu-coop-session';
-let coopSession=null,coopSocket=null,coopStatus='',coopReconnectTimer=null,coopReconnects=0,coopPageLeaving=false,coopLastConnectAt=0;
+let coopSession=null,coopSocket=null,coopSocketAuthenticated=false,coopStatus='',coopReconnectTimer=null,coopReconnects=0,coopPageLeaving=false,coopLastConnectAt=0;
 const COOP_AUDIO_LIMIT=550*1024;
 let coopGameSetup=null,coopGameClock=null,coopGameClockOffset=0,coopGamePending=false,coopGameDraft='',coopGameDraftKey='',coopGameSynchronized=false;
 let coopGameAudio=null;
@@ -6730,7 +6731,8 @@ try{
 }catch{}
 
 const COOP_DEFAULT_ENDPOINT='https://epu-speaking-coop.nductai2444.workers.dev';
-function coopEndpoint(){return String(st.coop?.endpoint||COOP_DEFAULT_ENDPOINT).replace(/\/+$/,'')}
+function coopNormalizeEndpoint(value){try{const url=new URL(String(value||''));if(url.protocol!=='https:'||!url.hostname.endsWith('.workers.dev')||url.pathname!=='/'||url.search||url.hash)return null;return url.origin}catch{return null}}
+function coopEndpoint(){return coopNormalizeEndpoint(st.coop?.endpoint)||COOP_DEFAULT_ENDPOINT}
 function openArcadeOnline(form){
  const game=arcadeSelection;
  if(!game)return;
@@ -7093,15 +7095,16 @@ function connectCoopSocket(){
  if(Date.now()-coopLastConnectAt<900)return;
  if(!('WebSocket'in window)){coopStatus='Trình duyệt này chưa hỗ trợ kết nối coop realtime.';return}
  let socketUrl;try{
-  socketUrl=new URL(`/api/rooms/${encodeURIComponent(coopSession.roomCode)}/socket`,coopSession.endpoint);
+  const endpoint=coopNormalizeEndpoint(coopSession.endpoint);if(!endpoint)throw Error('endpoint');
+  socketUrl=new URL(`/api/rooms/${encodeURIComponent(coopSession.roomCode)}/socket`,endpoint);
   socketUrl.protocol=socketUrl.protocol==='http:'&&['127.0.0.1','localhost','[::1]'].includes(socketUrl.hostname)?'ws:':'wss:';
-  socketUrl.searchParams.set('playerId',coopSession.playerId);socketUrl.searchParams.set('token',coopSession.playerToken);
  }catch{coopStatus='Địa chỉ phòng không hợp lệ.';return}
  try{
-  coopLastConnectAt=Date.now();
+  coopLastConnectAt=Date.now();coopSocketAuthenticated=false;
   const socket=new WebSocket(socketUrl.href);coopSocket=socket;
-  socket.addEventListener('open',()=>{if(coopSocket!==socket)return;coopReconnects=0;coopStatus='Đã kết nối trực tiếp với phòng.';flushCoopSignals();if(coopIceRestartPending)scheduleCoopIceRestart('Mạng đã kết nối lại',250);renderCoopLive()});
+  socket.addEventListener('open',()=>{if(coopSocket!==socket||!coopSession)return;coopStatus='Đang xác thực phiên phòng…';try{socket.send(JSON.stringify({type:'auth',playerId:coopSession.playerId,token:coopSession.playerToken}))}catch{socket.close()}renderCoopLive()});
   socket.addEventListener('message',event=>{if(coopSocket!==socket||!coopSession)return;let message;try{message=JSON.parse(event.data)}catch{return}
+   if(message.type==='authenticated'&&message.state){coopSocketAuthenticated=true;coopReconnects=0;coopStatus='Đã kết nối trực tiếp với phòng.';flushCoopSignals();if(coopIceRestartPending)scheduleCoopIceRestart('Mạng đã kết nối lại',250);message={type:'state',state:message.state}}
    if(message.type==='state'&&message.state?.mode==='game'){
     coopSession.state=message.state;coopStatus='Đang đồng bộ trực tiếp.';
     try{sessionStorage.setItem(COOP_SESSION_KEY,JSON.stringify(coopSession))}catch{}
@@ -7119,8 +7122,9 @@ function connectCoopSocket(){
   });
   socket.addEventListener('close',event=>{
    if(coopSocket!==socket)return;
-   coopSocket=null;coopGamePending=false;coopGameSynchronized=false;clearCoopGameAudio();
+   coopSocket=null;coopSocketAuthenticated=false;coopGamePending=false;coopGameSynchronized=false;clearCoopGameAudio();
    if(coopPageLeaving||!coopSession||coopSession.state?.phase==='expired')return;
+   if(event.code===4003){coopStatus='Phiên phòng không còn hợp lệ. Hãy vào phòng lại bằng mã phòng.';try{sessionStorage.removeItem(COOP_SESSION_KEY)}catch{};coopSession=null;renderCoopLive();return}
    if(event.code===4001){coopStatus='Phòng đang mở ở thẻ khác. Mở lại trang nếu muốn tiếp tục tại đây.';renderCoopLive();return}
    coopStatus='Mất kết nối. Đang tự kết nối lại…';renderCoopLive();
    const delay=Math.min(30000,1000*2**Math.min(coopReconnects++,5));
@@ -7131,7 +7135,7 @@ function connectCoopSocket(){
 }
 function sendCoopMessage(message){
  try{
-  if(!coopSocket||coopSocket.readyState!==WebSocket.OPEN)throw Error('disconnected');
+  if(!coopSocket||coopSocket.readyState!==WebSocket.OPEN||!coopSocketAuthenticated)throw Error('disconnected');
   coopSocket.send(JSON.stringify(message));
   coopStatus='Đã gửi. Đang chờ đồng bộ…';return true;
  }catch{
@@ -10099,7 +10103,7 @@ function englishVideoSyncTranscriptPosition(currentTime){if(englishVideoMode!=='
 function englishVideoStartYouTubeSync(){if(englishVideoYouTubeTimer)clearInterval(englishVideoYouTubeTimer);englishVideoYouTubeTimer=setInterval(()=>{if(!englishVideoYouTubeFrame?.isConnected){englishVideoStopYouTubeSync();return}try{const time=englishVideoYouTubePlayer?.getCurrentTime?.();if(Number.isFinite(time))englishVideoSyncTranscriptPosition(time)}catch{}},400)}
 function englishVideoCreateYouTubePlayer(){const frame=document.querySelector('.english-video-player iframe');if(!frame)return;if(frame!==englishVideoYouTubeFrame){if(englishVideoYouTubePlayer)englishVideoStopYouTubeSync();if(!/[?&]enablejsapi=1(?:&|$)/.test(frame.src)){const url=new URL(frame.src);url.searchParams.set('enablejsapi','1');frame.addEventListener('load',()=>window.setTimeout(englishVideoCreateYouTubePlayer,120),{once:true});frame.src=url.href;englishVideoYouTubeFrame=frame;return}if(!window.YT?.Player)return;englishVideoYouTubeFrame=frame;try{englishVideoYouTubePlayer=new window.YT.Player(frame,{events:{onReady:englishVideoStartYouTubeSync,onStateChange:event=>{if(event?.data===1)englishVideoStartYouTubeSync();else if(englishVideoYouTubePlayer)englishVideoSyncTranscriptPosition(englishVideoYouTubePlayer.getCurrentTime())}}})}catch{englishVideoYouTubePlayer=null;return}}else if(!englishVideoYouTubePlayer&&window.YT?.Player){englishVideoYouTubeFrame=null;englishVideoCreateYouTubePlayer()}}
 function englishVideoRequestYouTubeSync(){if(window.YT?.Player){englishVideoCreateYouTubePlayer();return}if(englishVideoYouTubeApiRequested)return;englishVideoYouTubeApiRequested=true;const previous=window.onYouTubeIframeAPIReady;window.onYouTubeIframeAPIReady=function(){try{if(typeof previous==='function')previous()}finally{englishVideoCreateYouTubePlayer()}};if(!document.querySelector('script[src*="youtube.com/iframe_api"]')){const script=document.createElement('script');script.src='https://www.youtube.com/iframe_api';document.head.append(script)}}
-function englishVideoSeekTranscriptTime(time){if(!Number.isFinite(time))return;if(englishVideoYouTubePlayer?.seekTo){try{englishVideoYouTubePlayer.seekTo(time,true);return}catch{}}const frame=document.querySelector('.english-video-player iframe');try{frame?.contentWindow?.postMessage(JSON.stringify({event:'command',func:'seekTo',args:[time,true]}),'*')}catch{}}
+function englishVideoSeekTranscriptTime(time){if(!Number.isFinite(time))return;if(englishVideoYouTubePlayer?.seekTo){try{englishVideoYouTubePlayer.seekTo(time,true);return}catch{}}const frame=document.querySelector('.english-video-player iframe');try{if(!frame?.contentWindow)return;const targetOrigin=new URL(frame.src).origin;frame.contentWindow.postMessage(JSON.stringify({event:'command',func:'seekTo',args:[time,true]}),targetOrigin)}catch{}}
 const englishVideoSelectSentenceBeforeTimestampSync=englishVideoSelectSentence;englishVideoSelectSentence=function(index){englishVideoSelectSentenceBeforeTimestampSync(index);if(englishVideoMode!=='transcript')return;const item=ENGLISH_VIDEO_RESOURCES[englishVideoIndex],exercise=item&&englishVideoExercise(item),time=exercise?.times?.[englishVideoSentenceIndex];if(Number.isFinite(time)){englishVideoSeekTranscriptTime(time);englishVideoSyncTranscriptPosition(time)}};
 const englishVideoOpenBeforeTimestampSync=openEnglishVideo;openEnglishVideo=function(id){const fromVideoList=tab==='les'&&englishStudyRoute==='videos';try{const state=Object.assign({},history.state||{},{taylorFlowVideoDetail:true,videoId:id});if(fromVideoList)history.pushState(state,'',location.href);else if(tab==='les'&&englishStudyRoute==='video-detail')history.replaceState(state,'',location.href)}catch{}englishVideoStopYouTubeSync();englishVideoOpenBeforeTimestampSync(id);window.setTimeout(()=>{englishVideoEnhanceTranscriptDom();englishVideoRequestYouTubeSync()},120)};
 function englishVideoTranscriptFontSize(){try{const value=Number(localStorage.getItem('tf-video-transcript-font-v1'));return Number.isFinite(value)?Math.max(14,Math.min(24,value)):16}catch{return 16}}
