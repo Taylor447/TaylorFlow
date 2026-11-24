@@ -36,7 +36,7 @@ const metadataKeys = ['id', 'category', 'title', 'level', 'minutes', 'lessonCoun
 const courseIds = new Set();
 const lessonIds = new Set();
 const vocabulary = new Map();
-const expectedSteps = ['dialogue', 'vocab', 'pattern', 'shadow', 'write', 'quiz'];
+const expectedSteps = ['dialogue', 'vocab', 'pattern', 'write', 'quiz'];
 let readyCount = 0, lessonCount = 0;
 
 if (index?.courses) {
@@ -89,7 +89,7 @@ if (index?.courses) {
       if (lesson?.reviewed !== false) fail(`${base}.reviewed`, 'mọi bài trong pilot phải để reviewed:false cho tới khi được duyệt');
       if (!Number.isInteger(lesson?.minutes) || lesson.minutes < 1 || lesson.minutes > 120) fail(base, 'minutes phải là số nguyên từ 1 đến 120');
       if (lesson?.minutes !== 10) fail(`${base}.minutes`, 'mỗi bài pilot cần khoảng 10 phút');
-      if (!Array.isArray(lesson?.steps) || lesson.steps.length !== 6) { fail(base, 'mỗi bài cần đủ đúng 6 bước'); continue; }
+      if (!Array.isArray(lesson?.steps) || lesson.steps.length !== 5) { fail(base, 'mỗi bài cần đủ đúng 5 bước'); continue; }
       const actualSteps = lesson.steps.map(step => step?.type);
       if (actualSteps.some((type, i) => type !== expectedSteps[i])) fail(base, `thứ tự bước phải là ${expectedSteps.join(' → ')}`);
       const step = type => lesson.steps.find(item => item?.type === type);
@@ -117,10 +117,6 @@ if (index?.courses) {
       text(pattern?.title, `${base}.pattern.title`, { max: 100 }); text(pattern?.vi, `${base}.pattern.vi`, { max: 240 });
       if (!Array.isArray(pattern?.examples) || pattern.examples.length < 2 || pattern.examples.length > 8) fail(`${base}.pattern`, 'cần từ 2 đến 8 ví dụ');
       for (const [i, example] of (pattern?.examples || []).entries()) text(example, `${base}.pattern.examples[${i}]`, { max: 200 });
-
-      const shadow = step('shadow');
-      if (!Array.isArray(shadow?.sentences) || shadow.sentences.length < 2 || shadow.sentences.length > 8) fail(`${base}.shadow`, 'cần từ 2 đến 8 câu luyện đọc');
-      for (const [i, sentence] of (shadow?.sentences || []).entries()) text(sentence, `${base}.shadow.sentences[${i}]`, { max: 220 });
 
       const write = step('write');
       text(write?.prompt, `${base}.write.prompt`, { max: 240 });

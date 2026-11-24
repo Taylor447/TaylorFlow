@@ -1,4 +1,4 @@
-const VERSION='epu-pwa-v53';
+const VERSION='epu-pwa-v54';
 const SHELL_CACHE='epu-shell-'+VERSION;
 const ASSET_CACHE='epu-pwa-assets-'+VERSION;
 const SCOPE=self.registration.scope;

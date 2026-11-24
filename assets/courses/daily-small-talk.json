@@ -63,13 +63,6 @@
           ]
         },
         {
-          "type": "shadow",
-          "sentences": [
-            "I found a small bookshop near the station.",
-            "We had a relaxing afternoon at the local market."
-          ]
-        },
-        {
           "type": "write",
           "prompt": "Describe a place you enjoy visiting in your free time.",
           "hints": [
@@ -165,13 +158,6 @@
             "I go swimming a few times a month.",
             "I enjoy it because it gives me a break from screens.",
             "I started last year, and I still find it enjoyable."
-          ]
-        },
-        {
-          "type": "shadow",
-          "sentences": [
-            "I practise sketching a few times a week after work.",
-            "It gives me a creative outlet and helps me unwind."
           ]
         },
         {
@@ -274,13 +260,6 @@
           ]
         },
         {
-          "type": "shadow",
-          "sentences": [
-            "I get ready for class before seven.",
-            "The bus stop is close to the library."
-          ]
-        },
-        {
           "type": "write",
           "prompt": "Describe a normal weekday in your life.",
           "hints": [
@@ -379,13 +358,6 @@
           ]
         },
         {
-          "type": "shadow",
-          "sentences": [
-            "Could I see the menu, please?",
-            "I would like the soup with rice."
-          ]
-        },
-        {
           "type": "write",
           "prompt": "Talk about a meal you enjoy ordering at a café or canteen.",
           "hints": [
@@ -481,13 +453,6 @@
             "Go straight past the main gate.",
             "Turn left at the library.",
             "The lab is across from the student office."
-          ]
-        },
-        {
-          "type": "shadow",
-          "sentences": [
-            "Go straight to the main building.",
-            "Turn left at the library entrance."
           ]
         },
         {
