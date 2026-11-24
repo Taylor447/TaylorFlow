@@ -63,13 +63,6 @@
           ]
         },
         {
-          "type": "shadow",
-          "sentences": [
-            "The team checked the parts before the meeting.",
-            "She asked for help and finished the report."
-          ]
-        },
-        {
           "type": "write",
           "prompt": "Describe one way you practise English pronunciation.",
           "hints": [
@@ -165,13 +158,6 @@
             "He packs the tools.",
             "She calls the team.",
             "They missed the first bus."
-          ]
-        },
-        {
-          "type": "shadow",
-          "sentences": [
-            "He packs the tools and checks the list twice.",
-            "They missed one call but returned it later."
           ]
         },
         {
@@ -274,13 +260,6 @@
           ]
         },
         {
-          "type": "shadow",
-          "sentences": [
-            "Think about the three things you need.",
-            "This thin thread is easy to see."
-          ]
-        },
-        {
           "type": "write",
           "prompt": "Describe one English sound you are practising and how you practise it.",
           "hints": [
@@ -379,13 +358,6 @@
           ]
         },
         {
-          "type": "shadow",
-          "sentences": [
-            "My sister enjoys photography.",
-            "The photographer took a photograph outside."
-          ]
-        },
-        {
           "type": "write",
           "prompt": "Talk about a skill you are learning and how you practise it.",
           "hints": [
@@ -481,13 +453,6 @@
             "We need a new plan / for Friday.",
             "My first class starts at nine / so I take the early bus.",
             "Stress the key information / and keep a steady pace."
-          ]
-        },
-        {
-          "type": "shadow",
-          "sentences": [
-            "We need a new plan for Friday.",
-            "My first class starts at nine, so I take the early bus."
           ]
         },
         {

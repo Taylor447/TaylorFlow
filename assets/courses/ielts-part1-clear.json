@@ -63,13 +63,6 @@
           ]
         },
         {
-          "type": "shadow",
-          "sentences": [
-            "I enjoy cooking because it gives me time to relax.",
-            "For example, I prepare a simple meal on Sunday evening."
-          ]
-        },
-        {
           "type": "write",
           "prompt": "Do you prefer studying alone or with other people?",
           "hints": [
@@ -165,13 +158,6 @@
             "I usually review new words after dinner.",
             "I fit a short practice session into my commute.",
             "I prepare my notes in advance when I have an exam."
-          ]
-        },
-        {
-          "type": "shadow",
-          "sentences": [
-            "I prepare a small task in advance before the evening lesson.",
-            "That routine helps me stay consistent during a busy week."
           ]
         },
         {
@@ -274,13 +260,6 @@
           ]
         },
         {
-          "type": "shadow",
-          "sentences": [
-            "I live on a quiet street near my college.",
-            "The park is within walking distance of home."
-          ]
-        },
-        {
           "type": "write",
           "prompt": "What do you like about the place where you live?",
           "hints": [
@@ -379,13 +358,6 @@
           ]
         },
         {
-          "type": "shadow",
-          "sentences": [
-            "I chose this subject because I enjoy practical work.",
-            "It may help me in my future career."
-          ]
-        },
-        {
           "type": "write",
           "prompt": "Describe your studies or work and explain why you chose it.",
           "hints": [
@@ -481,13 +453,6 @@
             "I enjoy a short walk after class.",
             "I usually do this at the weekend.",
             "It helps me relieve stress and sleep better."
-          ]
-        },
-        {
-          "type": "shadow",
-          "sentences": [
-            "I enjoy a short walk after class.",
-            "It helps me relieve stress."
           ]
         },
         {

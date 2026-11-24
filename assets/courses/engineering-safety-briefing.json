@@ -63,13 +63,6 @@
           ]
         },
         {
-          "type": "shadow",
-          "sentences": [
-            "Before inspection, isolate the supply and attach a warning tag.",
-            "Record the result after checking the cable cover."
-          ]
-        },
-        {
           "type": "write",
           "prompt": "Describe a safety step people should follow before using electrical equipment.",
           "hints": [
@@ -165,13 +158,6 @@
             "A tool slipped, but nobody was hurt.",
             "We stopped the task and informed the supervisor.",
             "The team added a storage check to the routine."
-          ]
-        },
-        {
-          "type": "shadow",
-          "sentences": [
-            "We stopped work and informed the supervisor immediately.",
-            "The near miss was recorded before the task restarted."
           ]
         },
         {
@@ -274,13 +260,6 @@
           ]
         },
         {
-          "type": "shadow",
-          "sentences": [
-            "The circuit contains a switch and a lamp.",
-            "The diagram labels each component."
-          ]
-        },
-        {
           "type": "write",
           "prompt": "Describe a simple electrical device or model you have studied.",
           "hints": [
@@ -379,13 +358,6 @@
           ]
         },
         {
-          "type": "shadow",
-          "sentences": [
-            "The panel uses energy from sunlight.",
-            "Solar output can change with the weather."
-          ]
-        },
-        {
           "type": "write",
           "prompt": "Talk about one renewable energy source you have studied.",
           "hints": [
@@ -481,13 +453,6 @@
             "The meter reading is 4.8 volts.",
             "The result is close to the reference value.",
             "This measurement is within the expected range."
-          ]
-        },
-        {
-          "type": "shadow",
-          "sentences": [
-            "The meter reading is 4.8 volts.",
-            "The result is close to the reference value."
           ]
         },
         {
