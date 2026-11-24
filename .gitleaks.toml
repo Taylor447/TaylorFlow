@@ -1,0 +1,9 @@
+[[allowlists]]
+description = "Known upstream Transformers.js symbol that resembles a HashiCorp token, not a credential."
+paths = [
+  '''^TaylorFlow\.html$''',
+  '''^EPU IELTS Speaking\.html$'''
+]
+regexes = [
+  '''\bs\.DebertaV2PreTrainedModel\b'''
+]
