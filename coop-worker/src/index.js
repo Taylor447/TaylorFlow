@@ -7,15 +7,30 @@ const MAX_PROMPTS = 8;
 const MAX_ANSWER = 1600;
 const MAX_NOTE = 240;
 const MAX_CHAT_MESSAGE = 500;
-const MAX_SOCKET_MESSAGE = 2 * 1024 * 1024;
+// 550 KiB raw audio becomes about 734 KiB after base64 encoding.
+const MAX_SOCKET_MESSAGE = 768 * 1024;
 const MAX_COOP_AUDIO_BYTES = 550 * 1024;
 const MAX_GAME_MESSAGE = 1600;
 const GAME_ACTION_INTERVAL = 250;
+const GAME_WINDOW_MS = 10_000;
+const GAME_WINDOW_LIMIT = 30;
+const CHAT_WINDOW_MS = 10_000;
+const CHAT_WINDOW_LIMIT = 12;
 const HOST_GRACE = 20_000;
+const SIGNAL_WINDOW_MS = 10_000;
+const SIGNAL_WINDOW_LIMIT = 80;
+const SECURITY_HEADERS = {
+  'X-Content-Type-Options': 'nosniff',
+  'Referrer-Policy': 'no-referrer',
+  'X-Frame-Options': 'DENY',
+  'Permissions-Policy': 'camera=(), microphone=(), geolocation=()',
+  'Content-Security-Policy': "default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+  'Strict-Transport-Security': 'max-age=31536000'
+};
 
 const json = (body, status = 200, headers = {}) => new Response(JSON.stringify(body), {
   status,
-  headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store', ...headers }
+  headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store', ...SECURITY_HEADERS, ...headers }
 });
 
 function makeCode() {
@@ -104,7 +119,53 @@ function publicState(state, onlineIds = new Set(), viewer = null) {
 
 function sameOrigin(request, env) {
   const origin = request.headers.get('Origin');
-  return !origin || origin === env.ALLOWED_ORIGIN;
+  if (origin) return origin === env.ALLOWED_ORIGIN;
+  return request.method !== 'POST' && request.headers.get('Upgrade')?.toLowerCase() !== 'websocket';
+}
+
+async function isRateLimited(binding, request, bucket) {
+  if (!binding || typeof binding.limit !== 'function') throw new Error('Rate-limit binding is missing');
+  const source = request.headers.get('CF-Connecting-IP') || 'unknown';
+  // Keep raw client IPs out of the rate-limit key store.
+  const key = await digest(`taylorflow:${bucket}:${source}`);
+  const result = await binding.limit({ key });
+  return !result?.success;
+}
+
+async function readBoundedJson(request, maxBytes) {
+  const contentType = (request.headers.get('Content-Type') || '').split(';', 1)[0].trim().toLowerCase();
+  if (contentType !== 'application/json') return { ok: false, status: 415, error: 'Hãy gửi dữ liệu JSON hợp lệ.' };
+  const declared = request.headers.get('Content-Length');
+  if (declared !== null && (!/^\d+$/.test(declared) || Number(declared) > maxBytes)) {
+    return { ok: false, status: Number(declared) > maxBytes ? 413 : 400, error: 'Dữ liệu gửi lên không hợp lệ hoặc quá lớn.' };
+  }
+  if (!request.body) return { ok: false, status: 400, error: 'Dữ liệu gửi lên không hợp lệ.' };
+  const reader = request.body.getReader();
+  const chunks = [];
+  let total = 0;
+  try {
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      total += value.byteLength;
+      if (total > maxBytes) {
+        await reader.cancel().catch(() => {});
+        return { ok: false, status: 413, error: 'Dữ liệu gửi lên vượt quá giới hạn.' };
+      }
+      chunks.push(value);
+    }
+  } catch {
+    return { ok: false, status: 400, error: 'Không đọc được dữ liệu gửi lên.' };
+  }
+  const bytes = new Uint8Array(total);
+  let offset = 0;
+  for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.byteLength; }
+  try { return { ok: true, value: JSON.parse(new TextDecoder('utf-8', { fatal: true }).decode(bytes)) }; }
+  catch { return { ok: false, status: 400, error: 'Dữ liệu JSON không hợp lệ.' }; }
+}
+
+function rateLimitedResponse(request, env) {
+  return withCors(request, json({ error: 'Bạn thao tác hơi nhanh. Hãy đợi một chút rồi thử lại.' }, 429, { 'Retry-After': '10' }), env);
 }
 
 function withCors(request, response, env) {
@@ -142,8 +203,11 @@ export default {
     }
 
     if (request.method === 'POST' && url.pathname === '/api/rooms') {
-      let input;
-      try { input = await request.json(); } catch { return withCors(request, json({ error: 'Dữ liệu phòng không hợp lệ.' }, 400), env); }
+      try { if (await isRateLimited(env.RL_ROOM_CREATE, request, 'room-create')) return rateLimitedResponse(request, env); }
+      catch { return withCors(request, json({ error: 'Dịch vụ đang bận. Hãy thử lại sau.' }, 503), env); }
+      const parsed = await readBoundedJson(request, 8 * 1024);
+      if (!parsed.ok) return withCors(request, json({ error: parsed.error }, parsed.status), env);
+      const input = parsed.value;
       const name = cleanName(input?.displayName);
       const prompts = cleanPrompts(input?.prompts);
       const part = Number(input?.part);
@@ -174,8 +238,11 @@ export default {
 
     const joinMatch = url.pathname.match(/^\/api\/rooms\/([A-HJ-NP-Z2-9]{7})\/join$/i);
     if (request.method === 'POST' && joinMatch) {
-      let input;
-      try { input = await request.json(); } catch { return withCors(request, json({ error: 'Dữ liệu tham gia không hợp lệ.' }, 400), env); }
+      try { if (await isRateLimited(env.RL_ROOM_JOIN, request, 'room-join')) return rateLimitedResponse(request, env); }
+      catch { return withCors(request, json({ error: 'Dịch vụ đang bận. Hãy thử lại sau.' }, 503), env); }
+      const parsed = await readBoundedJson(request, 2 * 1024);
+      if (!parsed.ok) return withCors(request, json({ error: parsed.error }, parsed.status), env);
+      const input = parsed.value;
       const name = cleanName(input?.displayName);
       if (!name) return withCors(request, json({ error: 'Hãy nhập tên hiển thị.' }, 400), env);
       if (input?.mode !== undefined && !['speaking', 'game'].includes(input.mode)) return withCors(request, json({ error: 'Chế độ phòng không hợp lệ.' }, 400), env);
@@ -187,12 +254,15 @@ export default {
 
     const iceMatch = url.pathname.match(/^\/api\/rooms\/([A-HJ-NP-Z2-9]{7})\/ice-servers$/i);
     if (request.method === 'POST' && iceMatch) {
+      try { if (await isRateLimited(env.RL_TURN, request, 'turn-credentials')) return rateLimitedResponse(request, env); }
+      catch { return withCors(request, json({ error: 'Dịch vụ đang bận. Hãy thử lại sau.' }, 503), env); }
       const fallback = [{ urls: 'stun:stun.cloudflare.com:3478' }, { urls: 'stun:stun.l.google.com:19302' }];
       if (!env.TURN_KEY_ID || !env.TURN_API_TOKEN) {
         return withCors(request, json({ turnAvailable: false, iceServers: fallback }), env);
       }
-      let input;
-      try { input = await request.json(); } catch { return withCors(request, json({ error: 'Thông tin phiên gọi không hợp lệ.' }, 400), env); }
+      const parsed = await readBoundedJson(request, 2 * 1024);
+      if (!parsed.ok) return withCors(request, json({ error: parsed.error }, parsed.status), env);
+      const input = parsed.value;
       const playerId = typeof input?.playerId === 'string' ? input.playerId : '';
       const playerToken = typeof input?.playerToken === 'string' ? input.playerToken : '';
       if (!playerId || !playerToken) return withCors(request, json({ error: 'Phiên phòng đã hết. Hãy vào lại phòng coop.' }, 401), env);
@@ -223,6 +293,8 @@ export default {
 
     const socketMatch = url.pathname.match(/^\/api\/rooms\/([A-HJ-NP-Z2-9]{7})\/socket$/i);
     if (request.method === 'GET' && socketMatch && request.headers.get('Upgrade')?.toLowerCase() === 'websocket') {
+      try { if (await isRateLimited(env.RL_SOCKET, request, 'socket-connect')) return rateLimitedResponse(request, env); }
+      catch { return withCors(request, json({ error: 'Dịch vụ đang bận. Hãy thử lại sau.' }, 503), env); }
       // Forward the original request so Cloudflare preserves the WebSocket upgrade.
       const id = env.COOP_ROOMS.idFromName(socketMatch[1].toUpperCase());
       return env.COOP_ROOMS.get(id).fetch(request);
@@ -324,23 +396,19 @@ export class CoopRoom {
   async connect(request) {
     if (request.headers.get('Upgrade')?.toLowerCase() !== 'websocket') return json({ error: 'Cần kết nối WebSocket.' }, 426);
     const url = new URL(request.url);
-    const id = url.searchParams.get('playerId') || '';
-    const token = url.searchParams.get('token') || '';
+    if (url.search || url.searchParams.has('playerId') || url.searchParams.has('token')) {
+      return json({ error: 'Thông tin phiên không được gửi trong địa chỉ kết nối. Hãy tải lại ứng dụng.' }, 400);
+    }
     const state = await this.readState();
     if (!state || state.expiresAt <= Date.now()) return json({ error: 'Phòng đã hết hạn.' }, 410);
-    const player = state.players.find(item => item.id === id);
-    if (!player || !token || player.tokenHash !== await digest(token)) return json({ error: 'Mã tham gia không hợp lệ.' }, 403);
+    const unauthenticated = this.ctx.getWebSockets().filter(socket => !socket.deserializeAttachment()?.playerId);
+    if (unauthenticated.length >= 4) return json({ error: 'Phòng đang bận. Hãy thử kết nối lại sau.' }, 429);
 
     const pair = new WebSocketPair();
     const client = pair[0];
     const server = pair[1];
-    for (const oldSocket of this.ctx.getWebSockets(id)) {
-      try { oldSocket.close(4001, 'Reconnected from another tab'); } catch {}
-    }
-    this.ctx.acceptWebSocket(server, [id]);
-    server.serializeAttachment({ playerId: id });
-    if (state.mode === 'game') await this.refreshGameRoom(state);
-    await this.broadcast(state);
+    this.ctx.acceptWebSocket(server);
+    server.serializeAttachment({ connectedAt: Date.now() });
     return new Response(null, { status: 101, webSocket: client });
   }
 
@@ -350,10 +418,17 @@ export class CoopRoom {
 
   async handleSocketMessage(socket, message) {
     const attachment = socket.deserializeAttachment();
-    const playerId = attachment?.playerId;
-    const raw = typeof message === 'string' ? message : new TextDecoder().decode(message);
-    if (raw.length > MAX_SOCKET_MESSAGE) {
+    const incomingBytes = typeof message === 'string' ? new TextEncoder().encode(message).byteLength : message?.byteLength;
+    if (!Number.isSafeInteger(incomingBytes) || incomingBytes > MAX_SOCKET_MESSAGE) {
       socket.send(JSON.stringify({ type: 'error', error: 'Tin nhắn vượt quá giới hạn.' }));
+      try { socket.close(1009, 'Message too large'); } catch {}
+      return;
+    }
+    let raw;
+    try { raw = typeof message === 'string' ? message : new TextDecoder('utf-8', { fatal: true }).decode(message); }
+    catch {
+      socket.send(JSON.stringify({ type: 'error', error: 'Tin nhắn không hợp lệ.' }));
+      try { socket.close(1007, 'Invalid text message'); } catch {}
       return;
     }
     let input;
@@ -365,6 +440,32 @@ export class CoopRoom {
       socket.send(JSON.stringify({ type: 'expired', message: 'Phòng đã hết hạn.' }));
       return;
     }
+    if (!attachment?.playerId) {
+      if (input?.type !== 'auth' || raw.length > 4096) {
+        socket.send(JSON.stringify({ type: 'error', error: 'Phiên kết nối không hợp lệ.' }));
+        try { socket.close(4003, 'Authentication required'); } catch {}
+        return;
+      }
+      const playerId = typeof input.playerId === 'string' && /^[a-f0-9]{16}$/.test(input.playerId) ? input.playerId : '';
+      const token = typeof input.token === 'string' && /^[a-f0-9]{48}$/.test(input.token) ? input.token : '';
+      const player = state.players.find(item => item.id === playerId);
+      if (!player || !token || player.tokenHash !== await digest(token)) {
+        socket.send(JSON.stringify({ type: 'error', error: 'Phiên phòng không hợp lệ.' }));
+        try { socket.close(4003, 'Invalid session'); } catch {}
+        return;
+      }
+      for (const oldSocket of this.ctx.getWebSockets()) {
+        if (oldSocket !== socket && oldSocket.deserializeAttachment()?.playerId === playerId) {
+          try { oldSocket.close(4001, 'Reconnected from another tab'); } catch {}
+        }
+      }
+      socket.serializeAttachment({ playerId, connectedAt: attachment.connectedAt || Date.now(), signalWindowAt: 0, signalCount: 0 });
+      if (state.mode === 'game') await this.refreshGameRoom(state);
+      socket.send(JSON.stringify({ type: 'authenticated', state: publicState(state, this.onlineIds(), playerId) }));
+      await this.broadcast(state);
+      return;
+    }
+    const playerId = attachment.playerId;
     if (!state.players.some(player => player.id === playerId)) {
       socket.send(JSON.stringify({ type: 'error', error: 'Bạn không còn trong phòng.' }));
       return;
@@ -384,6 +485,14 @@ export class CoopRoom {
 
     let outgoingAudio = null;
     if (input?.type === 'signal') {
+      const now = Date.now();
+      const signalWindowAt = Number(attachment.signalWindowAt) || 0;
+      const signalCount = now - signalWindowAt >= SIGNAL_WINDOW_MS ? 0 : Number(attachment.signalCount) || 0;
+      if (signalCount >= SIGNAL_WINDOW_LIMIT) {
+        this.socketError(socket, 'Đường truyền gửi quá nhiều tín hiệu. Hãy đợi một chút.');
+        return;
+      }
+      socket.serializeAttachment({ ...attachment, signalWindowAt: signalCount ? signalWindowAt : now, signalCount: signalCount + 1 });
       const targetId = typeof input.targetPlayerId === 'string' ? input.targetPlayerId : '';
       const signal = cleanCallSignal(input.signal);
       if (!targetId || targetId === playerId || !state.players.some(player => player.id === targetId) || !signal) {
@@ -392,7 +501,8 @@ export class CoopRoom {
       }
       const payload = JSON.stringify({ type: 'signal', from: playerId, signal });
       let delivered = false;
-      for (const peerSocket of this.ctx.getWebSockets(targetId)) {
+      for (const peerSocket of this.ctx.getWebSockets()) {
+        if (peerSocket.deserializeAttachment()?.playerId !== targetId || peerSocket.readyState !== 1) continue;
         try { peerSocket.send(payload); delivered = true; } catch {}
       }
       if (!delivered) socket.send(JSON.stringify({ type: 'error', error: 'Bạn học chưa kết nối. Hãy đợi bạn ấy vào phòng rồi thử gọi lại.' }));
@@ -410,10 +520,17 @@ export class CoopRoom {
         socket.send(JSON.stringify({ type: 'error', error: 'Hãy nhập tin nhắn trước khi gửi.' }));
         return;
       }
+      const chatWindowAt = Number(attachment.chatWindowAt) || 0;
+      const chatCount = now - chatWindowAt >= CHAT_WINDOW_MS ? 0 : Number(attachment.chatCount) || 0;
+      if (chatCount >= CHAT_WINDOW_LIMIT) {
+        this.socketError(socket, 'Bạn gửi tin nhắn hơi nhanh. Hãy chờ một chút rồi gửi tiếp.');
+        return;
+      }
       if (now - Number(state.chatLastSentAt[playerId] || 0) < 600) {
         socket.send(JSON.stringify({ type: 'error', error: 'Bạn gửi hơi nhanh. Hãy chờ một chút rồi gửi tiếp.' }));
         return;
       }
+      socket.serializeAttachment({ ...attachment, chatWindowAt: chatCount ? chatWindowAt : now, chatCount: chatCount + 1 });
       state.chatLastSentAt[playerId] = now;
       state.chat.push({ playerId, text, sentAt: now });
       if (state.chat.length > 50) state.chat.splice(0, state.chat.length - 50);
@@ -509,7 +626,10 @@ export class CoopRoom {
     if (now - (session.gameActionAt || 0) < GAME_ACTION_INTERVAL) {
       return this.socketError(socket, 'Bạn gửi hơi nhanh. Hãy thử lại sau một nhịp.');
     }
-    socket.serializeAttachment({ ...session, gameActionAt: now });
+    const gameWindowAt = Number(session.gameWindowAt) || 0;
+    const gameCount = now - gameWindowAt >= GAME_WINDOW_MS ? 0 : Number(session.gameWindowCount) || 0;
+    if (gameCount >= GAME_WINDOW_LIMIT) return this.socketError(socket, 'Bạn thao tác trò chơi hơi nhanh. Hãy chờ một chút rồi thử lại.');
+    socket.serializeAttachment({ ...session, gameActionAt: now, gameWindowAt: gameCount ? gameWindowAt : now, gameWindowCount: gameCount + 1 });
     const changed = await this.refreshGameRoom(state, online);
     const reject = async error => {
       if (changed) await this.broadcast(state);
@@ -575,7 +695,8 @@ export class CoopRoom {
   async broadcastAudio(turn, senderId, audio) {
     const payload = JSON.stringify({ type: 'audio', turn, audio });
     for (const socket of this.ctx.getWebSockets()) {
-      if (socket.deserializeAttachment()?.playerId === senderId) continue;
+      const recipientId = socket.deserializeAttachment()?.playerId;
+      if (!recipientId || recipientId === senderId || socket.readyState !== 1) continue;
       try { socket.send(payload); } catch {}
     }
   }
