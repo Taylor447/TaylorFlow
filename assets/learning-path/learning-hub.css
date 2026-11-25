@@ -162,3 +162,20 @@
 @media(max-width:900px){#m .home-interface-one .home-video-hero{grid-template-columns:repeat(2,minmax(0,1fr))}#m .home-interface-one .home-video-hero .tf-hub-video-card{grid-column:1;grid-row:1}#m .home-interface-one .home-video-hero .tf-hub-home{grid-column:2;grid-row:1;grid-template-columns:1fr}#m .home-interface-one .home-video-hero .tf-hub-review-chips .tf-hub-chip-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){#m .home-interface-one .home-video-hero{grid-template-columns:minmax(0,1fr);gap:10px;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none}#m .home-interface-one .home-video-hero .tf-hub-video-card,#m .home-interface-one .home-video-hero .tf-hub-home,#m .home-interface-one .home-video-hero .tf-hub-home-path{grid-column:1;grid-row:auto}#m .home-interface-one .home-video-hero .tf-hub-home{grid-template-columns:minmax(0,1fr);gap:10px}#m .home-interface-one .home-video-hero .tf-hub-video-card{gap:10px}#m .home-interface-one .home-video-hero .tf-hub-review-chips .tf-hub-chip-row{grid-template-columns:repeat(2,minmax(0,1fr))}#m .home-interface-one .home-video-hero .tf-hub-home-path{align-items:stretch;flex-direction:column;padding:14px}#m .home-interface-one .home-video-hero .tf-hub-home-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}#m .home-interface-one .home-video-hero .tf-hub-home-links button{padding-inline:8px}}
 @media(prefers-reduced-motion:reduce){#m .home-interface-one .home-video-hero *{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+/* Keep the second home banner readable in both light and dark themes. */
+#m .home-interface-one .home-video-hero .tf-hub-video-card,
+#m .home-interface-one .home-video-hero .tf-hub-today,
+#m .home-interface-one .home-video-hero .tf-hub-review-chips{color:var(--tx,#e8efff)}
+#m .home-interface-one .home-video-hero .tf-hub-video-card h1,
+#m .home-interface-one .home-video-hero .tf-hub-today h2,
+#m .home-interface-one .home-video-hero .tf-hub-review-chips h2{color:var(--tx,#e8efff)}
+#m .home-interface-one .home-video-hero .tf-hub-video-card .eyebrow,
+#m .home-interface-one .home-video-hero .tf-hub-review-chips>.eyebrow{border-color:var(--bd,#cfdaf0);background:color-mix(in srgb,var(--pr,#214ab7) 10%,var(--sf,#eaf0fc));color:var(--pr,#214ab7)}
+#m .home-interface-one .home-video-hero .tf-hub-video-card .hero-copy>p:not(.eyebrow),
+#m .home-interface-one .home-video-hero .tf-hub-video-card .hero-score small,
+#m .home-interface-one .home-video-hero .tf-hub-today small{color:var(--mu,#536580)}
+#m .home-interface-one .home-video-hero .tf-hub-video-card .hero-actions button:not(.g){border-color:var(--action,#2450c9);background:var(--action,#2450c9);color:var(--on,#fff)}
+#m .home-interface-one .home-video-hero .tf-hub-video-card .hero-actions button.g{border-color:var(--bd,#cfdaf0);background:color-mix(in srgb,var(--pr,#214ab7) 10%,var(--sf,#eaf0fc));color:var(--tx,#182647)}
+#m .home-interface-one .home-video-hero .tf-hub-today-chip{border-color:var(--bd,#cfdaf0);background:color-mix(in srgb,var(--sf,#eaf0fc) 88%,transparent);color:var(--tx,#182647)}
+
