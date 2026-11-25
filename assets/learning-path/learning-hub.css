@@ -181,31 +181,17 @@
 
 
 
-/* The deployed second home slide still uses the original hero markup. */
+
+/* Keep the second home banner tied to the active theme palette. */
 #m .home-interface-one section.hero.home-video-hero{
   --tf-home-hero-text:var(--tx,#182647);
   --tf-home-hero-muted:var(--mu,#536580);
   --tf-home-hero-accent:var(--pr,#214ab7);
-  --tf-home-hero-surface:var(--cd,#fff);
+  --tf-home-hero-surface:var(--sf,#fff);
   --tf-home-hero-border:var(--bd,#cfdaf0);
-  --tf-home-hero-primary:#214ab7;
+  --tf-home-hero-primary:var(--action,#214ab7);
+  --tf-home-hero-on-primary:var(--on,#fff);
   color:var(--tf-home-hero-text)!important
-}
-:root[data-theme="light"] #m .home-interface-one section.hero.home-video-hero{
-  --tf-home-hero-text:#182647;
-  --tf-home-hero-muted:#455570;
-  --tf-home-hero-accent:#155f78;
-  --tf-home-hero-surface:#fff;
-  --tf-home-hero-border:#c6d2e8;
-  --tf-home-hero-primary:#214ab7
-}
-:root[data-theme="dark"] #m .home-interface-one section.hero.home-video-hero{
-  --tf-home-hero-text:#edf3ff;
-  --tf-home-hero-muted:#bdcbe3;
-  --tf-home-hero-accent:#91def1;
-  --tf-home-hero-surface:#15223d;
-  --tf-home-hero-border:#425a80;
-  --tf-home-hero-primary:#426de0
 }
 #m .home-interface-one section.hero.home-video-hero .hero-copy,
 #m .home-interface-one section.hero.home-video-hero .hero-score{
@@ -227,7 +213,7 @@
 #m .home-interface-one section.hero.home-video-hero .hero-actions button:not(.g){
   border-color:var(--tf-home-hero-primary)!important;
   background:var(--tf-home-hero-primary)!important;
-  color:#fff!important
+  color:var(--tf-home-hero-on-primary)!important
 }
 #m .home-interface-one section.hero.home-video-hero .hero-actions button.g{
   border-color:var(--tf-home-hero-border)!important;
@@ -240,5 +226,6 @@
   backdrop-filter:none;
   -webkit-backdrop-filter:none
 }
-:root[data-theme="light"] #m .home-interface-one section.hero.home-video-hero .hero-score .big{color:#8a5b00!important}
-:root[data-theme="dark"] #m .home-interface-one section.hero.home-video-hero .hero-score .big{color:#ffd16b!important}
+#m .home-interface-one section.hero.home-video-hero .hero-score .big{
+  color:var(--tf-home-hero-accent)!important
+}
