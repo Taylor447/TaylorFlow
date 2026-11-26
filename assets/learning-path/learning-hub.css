@@ -348,3 +348,41 @@
     min-height:180px;
   }
 }
+
+/* Final responsive guard: keep the playing video beside its transcript and readable in every theme. */
+#m main.english-study-page.english-speaking-page .english-video-room:has(.english-video-transcript-reader),
+#m main.english-study-page.english-speaking-page .english-video-player-column,
+#m main.english-study-page.english-speaking-page .english-video-practice-column,
+#m main.english-study-page.english-speaking-page .english-video-transcript-reader,
+#m main.english-study-page.english-speaking-page .english-video-transcript-list{min-width:0}
+#m main.english-study-page.english-speaking-page .english-video-transcript-segment{color:var(--tx)!important;text-align:left}
+#m main.english-study-page.english-speaking-page .english-video-transcript-segment[aria-current="true"]{
+  border-color:color-mix(in srgb,var(--pr) 52%,var(--bd))!important;
+  background:color-mix(in srgb,var(--pr) 11%,var(--sf))!important;
+  color:var(--tx)!important;
+  box-shadow:0 5px 16px color-mix(in srgb,var(--pr) 10%,transparent)
+}
+#m main.english-study-page.english-speaking-page .english-video-transcript-segment[aria-current="true"] .english-video-transcript-line,
+#m main.english-study-page.english-speaking-page .english-video-transcript-segment[aria-current="true"] .english-video-transcript-word{color:var(--tx)!important}
+#m main.english-study-page.english-speaking-page .english-video-transcript-segment[aria-current="true"] small,
+#m main.english-study-page.english-speaking-page .english-video-transcript-translation{color:var(--mu)!important}
+#m main.english-study-page.english-speaking-page .english-video-transcript-word:hover,
+#m main.english-study-page.english-speaking-page .english-video-transcript-word.is-selected{background:color-mix(in srgb,var(--pr) 16%,var(--sf))!important;color:var(--pr)!important}
+@media(min-width:901px){
+  #m main.english-study-page.english-speaking-page .english-video-room:has(.english-video-transcript-reader){grid-template-columns:minmax(0,1.08fr) minmax(340px,.92fr)!important;gap:14px!important;align-items:start}
+  #m main.english-study-page.english-speaking-page .english-video-player-column{position:sticky!important;top:98px!important;z-index:4;align-self:start;max-height:calc(100vh - 112px);overflow-y:auto;overscroll-behavior:contain;padding:clamp(10px,1.4vw,16px)}
+  #m main.english-study-page.english-speaking-page .english-video-practice-column{padding:clamp(10px,1.4vw,16px)}
+}
+@media(min-width:701px) and (max-width:900px){
+  #m main.english-study-page.english-speaking-page .english-video-room:has(.english-video-transcript-reader){grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr)!important;gap:10px!important;align-items:start}
+  #m main.english-study-page.english-speaking-page .english-video-player-column{position:sticky!important;top:96px!important;z-index:4;align-self:start;max-height:calc(100vh - 108px);overflow-y:auto;overscroll-behavior:contain;padding:10px}
+  #m main.english-study-page.english-speaking-page .english-video-practice-column{padding:10px}
+  #m main.english-study-page.english-speaking-page .english-video-transcript-list{height:min(45vh,380px);min-height:200px}
+}
+@media(min-width:601px) and (max-width:700px){
+  #m main.english-study-page.english-speaking-page .english-video-room:has(.english-video-transcript-reader){grid-template-columns:minmax(0,1fr)!important;gap:10px}
+  #m main.english-study-page.english-speaking-page .english-video-player-column{position:sticky!important;top:78px!important;z-index:4;padding:9px}
+  #m main.english-study-page.english-speaking-page .english-video-player{max-height:30vh}
+  #m main.english-study-page.english-speaking-page .english-video-source-note{display:none}
+}
+
