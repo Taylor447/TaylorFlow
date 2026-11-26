@@ -229,3 +229,122 @@
 #m .home-interface-one section.hero.home-video-hero .hero-score .big{
   color:var(--tf-home-hero-accent)!important
 }
+
+
+/* Compact and readable video transcript workspace. */
+#m .english-speaking-page .english-video-transcript-reader,
+#m .english-speaking-page .english-video-transcript-list{
+  min-width:0;
+}
+#m .english-speaking-page .english-video-transcript-segment{
+  color:var(--tx);
+  text-align:left;
+}
+#m .english-speaking-page .english-video-transcript-segment[aria-current="true"]{
+  border-color:color-mix(in srgb,var(--pr) 52%,var(--bd));
+  background:color-mix(in srgb,var(--pr) 11%,var(--sf));
+  color:var(--tx);
+  box-shadow:0 5px 16px color-mix(in srgb,var(--pr) 10%,transparent);
+}
+#m .english-speaking-page .english-video-transcript-segment[aria-current="true"] small{
+  color:var(--mu);
+  font-weight:750;
+}
+#m .english-speaking-page .english-video-transcript-time{
+  border-color:color-mix(in srgb,var(--pr) 42%,var(--bd));
+  background:color-mix(in srgb,var(--pr) 8%,var(--sf));
+  color:var(--pr);
+}
+#m .english-speaking-page .english-video-transcript-translation{
+  color:var(--mu);
+}
+#m .english-speaking-page .english-video-translation-toggle{
+  border-color:color-mix(in srgb,var(--pr) 44%,var(--bd));
+  background:color-mix(in srgb,var(--pr) 8%,var(--sf));
+  color:var(--pr);
+}
+#m .english-speaking-page .english-video-transcript-word:hover,
+#m .english-speaking-page .english-video-transcript-word.is-selected{
+  background:color-mix(in srgb,var(--pr) 16%,transparent);
+  color:var(--pr);
+}
+#m .english-speaking-page .english-video-transcript-controls button.english-video-transcript-play{
+  background:var(--action);
+  color:var(--on,#fff);
+  box-shadow:0 6px 16px color-mix(in srgb,var(--action) 22%,transparent);
+}
+#m .english-speaking-page .english-video-mode-nav button[aria-pressed="true"]{
+  border-color:var(--pr);
+  background:var(--pr);
+  color:var(--on,#fff);
+  box-shadow:0 5px 15px color-mix(in srgb,var(--pr) 18%,transparent);
+}
+@media(min-width:601px){
+  #m .english-speaking-page .english-video-transcript-reader--timed .english-video-transcript-toolbar{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) auto;
+    align-items:center;
+    gap:7px 10px;
+    padding:9px 10px;
+  }
+  #m .english-speaking-page .english-video-transcript-reader--timed .english-video-transcript-position{
+    grid-column:1;
+    align-self:center;
+    max-width:100%;
+    white-space:normal;
+  }
+  #m .english-speaking-page .english-video-transcript-reader--timed .english-video-translation-toggle{
+    grid-column:2;
+    justify-self:end;
+    width:auto;
+    min-width:132px;
+    white-space:nowrap;
+  }
+  #m .english-speaking-page .english-video-transcript-reader--timed .english-video-transcript-word-help{
+    grid-column:1/-1;
+    width:auto;
+    padding:0;
+  }
+  #m .english-speaking-page .english-video-transcript-list{
+    height:min(58vh,560px);
+    min-height:250px;
+    padding:8px;
+  }
+  #m .english-speaking-page .english-video-transcript-segment{
+    padding:9px 10px;
+  }
+}
+@media(min-width:901px){
+  #m .english-speaking-page .english-video-room:has(.english-video-transcript-reader){
+    grid-template-columns:minmax(0,1.08fr) minmax(340px,.92fr);
+    gap:14px;
+  }
+  #m .english-speaking-page .english-video-player-column{
+    position:sticky;
+    top:98px;
+    z-index:4;
+    max-height:calc(100vh - 112px);
+    overflow-y:auto;
+    overscroll-behavior:contain;
+    padding:clamp(10px,1.4vw,16px);
+  }
+  #m .english-speaking-page .english-video-practice-column{
+    padding:clamp(10px,1.4vw,16px);
+  }
+}
+@media(min-width:601px) and (max-width:900px){
+  #m .english-speaking-page .english-video-room:has(.english-video-transcript-reader){
+    grid-template-columns:minmax(0,1fr);
+  }
+  #m .english-speaking-page .english-video-player-column{
+    position:static;
+    max-height:none;
+    overflow:visible;
+  }
+}
+@media(max-height:650px) and (min-width:901px){
+  #m .english-speaking-page .english-video-transcript-list{
+    height:min(46vh,330px);
+    min-height:180px;
+  }
+}
